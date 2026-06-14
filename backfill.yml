@@ -1,0 +1,48 @@
+name: Backfill Missing Dates
+
+on:
+  workflow_dispatch:
+    inputs:
+      dates:
+        description: 'Comma-separated dates to generate (YYYY-MM-DD). E.g: 2026-06-10,2026-06-11'
+        required: true
+        default: '2026-06-10,2026-06-11,2026-06-14,2026-06-15'
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install openai
+
+      - name: Generate missing dates
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          IFS=',' read -ra DATES <<< "${{ github.event.inputs.dates }}"
+          for date in "${DATES[@]}"; do
+            date=$(echo $date | tr -d ' ')
+            echo "━━━━━━━━━━━━━━━━━━━━━━━━"
+            echo "Generating: $date"
+            TARGET_DATE=$date node .github/scripts/generate-brief.js
+            sleep 3
+          done
+
+      - name: Commit and push all
+        run: |
+          git config user.name "Curio Brief Bot"
+          git config user.email "bot@curio-brief.com"
+          git add src/data/ src/App.jsx
+          git diff --staged --quiet || git commit -m "Backfill: ${{ github.event.inputs.dates }}"
+          git push
