@@ -21,7 +21,7 @@ const DOMAINS = [
 
 // ══ DATA START ══
 
-const d260601 = {
+const d0601 = {
   news: {
     segments: [
       {
@@ -162,7 +162,7 @@ const d260601 = {
   }
 }
 
-const d260602 = {
+const d0602 = {
   news: {
     segments: [
       { name: "🌐 What's happening with countries?", color: "#a0d4f5", stories: [
@@ -282,1381 +282,7 @@ const d260602 = {
   }
 }
 
-const d260610 = {
-  "news": {
-    "segments": [
-      {
-        "name": "🌐 What's happening with countries?",
-        "color": "#a0d4f5",
-        "stories": [
-          {
-            "headline": "Peace talks succeed in the Middle East",
-            "eli5": "Imagine two kids fighting over a toy. They finally sit down, share the toy, and play together. This is what leaders did today. They agreed to work together for peace.",
-            "whyItMatters": "Peace can lead to stability and prosperity.",
-            "mnemonic": "Middle East Peace = Kids Playing Nice"
-          },
-          {
-            "headline": "New trade agreement between Brazil and India",
-            "eli5": "Think of two friends trading lunch items. One has sandwiches, the other has fruit. They swap to get a better meal. That's what these countries are doing with goods.",
-            "whyItMatters": "Better trade can boost both economies.",
-            "mnemonic": "Brazil and India = Lunch Trade"
-          },
-          {
-            "headline": "Election turmoil in Belarus continues",
-            "eli5": "Imagine a game where one player keeps changing the rules to win. The other players are unhappy and want fairness. That's how people in Belarus feel about their elections.",
-            "whyItMatters": "Fair elections are key to democracy.",
-            "mnemonic": "Belarus Election = Unfair Game"
-          }
-        ]
-      },
-      {
-        "name": "💸 What's happening with money?",
-        "color": "#a8edcb",
-        "stories": [
-          {
-            "headline": "Cryptocurrency sees a major surge",
-            "eli5": "Imagine a popular video game item suddenly becoming super valuable. Everyone wants it, and its price shoots up. That's what's happening with some digital coins now.",
-            "whyItMatters": "Investors can gain or lose a lot quickly.",
-            "mnemonic": "Crypto Surge = Video Game Item Price"
-          },
-          {
-            "headline": "Global inflation rates stabilize",
-            "eli5": "Think of a balloon that keeps inflating. It finally stops getting bigger. That's what inflation is doing; it’s not rising so fast anymore.",
-            "whyItMatters": "Stable prices help everyone plan better.",
-            "mnemonic": "Inflation = Balloon Stopping"
-          },
-          {
-            "headline": "Stock market hits a new high",
-            "eli5": "Imagine a race where cars keep getting faster. One car finally breaks the speed record. The stock market is like that car, going faster than ever.",
-            "whyItMatters": "A high stock market can boost people's confidence.",
-            "mnemonic": "Stock Market = Fast Car Record"
-          }
-        ]
-      },
-      {
-        "name": "💻 What's happening with technology?",
-        "color": "#c9b8f5",
-        "stories": [
-          {
-            "headline": "AI makes breakthroughs in healthcare",
-            "eli5": "Picture a superhero who can solve problems quickly. That's what new AI tools are doing for doctors. They help find diseases faster than before.",
-            "whyItMatters": "This can save lives and improve health.",
-            "mnemonic": "AI Superhero = Fast Doctor Help"
-          },
-          {
-            "headline": "New smartphone features announced",
-            "eli5": "Imagine getting a new toy that does even more cool tricks. Phones are getting smarter, with new features that can help us every day.",
-            "whyItMatters": "Better technology can make life easier and fun.",
-            "mnemonic": "Smartphone = Supercharged Toy"
-          }
-        ]
-      },
-      {
-        "name": "🌿 What's happening with our planet?",
-        "color": "#f5c6a0",
-        "stories": [
-          {
-            "headline": "Climate action plan launched by G20",
-            "eli5": "Think of a big group of friends deciding to clean up a messy park together. That's what world leaders are doing to help the planet.",
-            "whyItMatters": "Working together can lead to real change.",
-            "mnemonic": "G20 Clean Up = Friendship Circle"
-          },
-          {
-            "headline": "New species discovered in the Amazon",
-            "eli5": "Imagine finding a new toy in your attic that you never knew existed. Scientists found a new animal in the jungle, adding to our understanding of nature.",
-            "whyItMatters": "Discoveries help us understand biodiversity.",
-            "mnemonic": "New Species = Hidden Toy"
-          }
-        ]
-      }
-    ],
-    "quiz": [
-      {
-        "q": "What recent agreement was made in the Middle East?",
-        "options": [
-          "Trade deal",
-          "Peace talks",
-          "Military alliance",
-          "Environmental pact"
-        ],
-        "answer": 1,
-        "funFact": "Peace talks can sometimes take years to achieve."
-      },
-      {
-        "q": "What is happening to inflation rates?",
-        "options": [
-          "Increasing rapidly",
-          "Stabilizing",
-          "Dropping sharply",
-          "Unpredictable"
-        ],
-        "answer": 1,
-        "funFact": "Stable inflation helps people save money."
-      },
-      {
-        "q": "Which sector is benefiting from new AI tools?",
-        "options": [
-          "Transportation",
-          "Healthcare",
-          "Education",
-          "Construction"
-        ],
-        "answer": 1,
-        "funFact": "AI can analyze medical data faster than humans."
-      }
-    ]
-  },
-  "markets": {
-    "globalPulse": {
-      "eli5": "Think of global markets like a big river. Sometimes the water flows smoothly, and other times there are rocky rapids. On June 10, 2026, the river had a mix of calm and choppy waters. Investors were trying to navigate through it carefully.",
-      "keyThings": [
-        "S&P500: The index showed some signs of recovery after recent dips, like flowers blooming after rain.",
-        "Brent crude: Oil prices climbed as supply worries grew, like a sudden drought making water precious.",
-        "Gold: Gold prices remained steady, shining like a reliable lighthouse during a storm.",
-        "Nifty: The Indian index mirrored global trends, floating along the same currents."
-      ]
-    },
-    "indianMarket": {
-      "eli5": "Imagine the Indian market as a bustling bazaar. Vendors are shouting prices, and customers are haggling for the best deals. On this day, some stalls were really catching people's attention.",
-      "breakouts": [
-        {
-          "name": "NSE:INFY — Infosys",
-          "whyExciting": "Infosys announced a groundbreaking tech partnership that got everyone talking. It's like a new recipe that promises to make the best dish in town.",
-          "risk": "The market is volatile, and any tech hiccup could sour the deal."
-        },
-        {
-          "name": "NSE:RELIANCE — Reliance Industries",
-          "whyExciting": "Reliance is expanding its green energy initiatives, aiming to be the leading player. It’s like planting a tree that could bear fruit for generations.",
-          "risk": "Regulatory changes could impact their plans and growth."
-        },
-        {
-          "name": "NSE:BAJFINANCE — Bajaj Finance",
-          "whyExciting": "Bajaj Finance reported impressive earnings, showing strong demand. It’s like a shop that’s always busy with happy customers.",
-          "risk": "High competition in the finance sector might eat into their profits."
-        }
-      ],
-      "ipoSpot": {
-        "name": "XYZ Tech IPO",
-        "verdict": "Watch",
-        "eli5": "This company is fresh to the market like a new stall in the bazaar. It has potential, but we need to see if it attracts enough customers."
-      },
-      "lessonOfDay": {
-        "title": "The Power of Patience",
-        "story": "Investing is like planting a seed. You don't expect it to grow into a tree overnight. You water it and wait, knowing that with time, it will flourish.",
-        "mnemonic": "Seed = Patience = Growth."
-      }
-    },
-    "quiz": [
-      {
-        "q": "What does S&P500 indicate?",
-        "options": [
-          "A stock index",
-          "A bond index",
-          "A real estate index",
-          "A commodity index"
-        ],
-        "answer": 0,
-        "funFact": "The S&P500 includes 500 of the largest companies in the US."
-      },
-      {
-        "q": "What is a common use for gold in markets?",
-        "options": [
-          "Investment",
-          "Food",
-          "Clothing",
-          "Fuel"
-        ],
-        "answer": 1,
-        "funFact": "Gold is often seen as a safe investment during uncertain times."
-      },
-      {
-        "q": "Why is patience important in investing?",
-        "options": [
-          "It allows for better decision-making",
-          "It guarantees profits",
-          "It avoids risks",
-          "It makes you rich instantly"
-        ],
-        "answer": 0,
-        "funFact": "Many successful investors waited years for their investments to pay off."
-      }
-    ]
-  },
-  "psychology": {
-    "mindTrick": {
-      "name": "The Illusion of Choice",
-      "eli5": "Imagine you go to an ice cream shop. You think you can choose any flavor, but the shop only offers three. You feel happy picking one, but your choices were limited. It's like playing a game with hidden rules.",
-      "realLife": "In conversations, people often feel they have freedom, but subtle cues can guide their choices. This can lead to unexpected decisions.",
-      "mnemonic": "CHOICE: Control Helps Oversee Intuitive Choices Everywhere."
-    },
-    "bodyLanguage": {
-      "signal": "Open Palms",
-      "eli5": "When someone shows you their open palms, it’s like saying, 'I come in peace.' It makes them appear friendly. Think of a puppy wagging its tail to show it means no harm.",
-      "howToUse": "Use open palms when talking to someone to build trust. It shows you are honest and approachable.",
-      "mnemonic": "PALMS: Presenting Authenticity Leads to Mutual Sympathy."
-    },
-    "superpower": {
-      "name": "Empathy Amplifier",
-      "story": "Once, a girl named Mia felt sad when her friend lost a pet. Instead of just saying 'I’m sorry,' she shared a similar story about her lost toy. This made her friend feel understood and less alone. Mia learned that sharing feelings can create strong connections.",
-      "shield": "Use this superpower to protect yourself from emotional overload. Remember, you can empathize without carrying all the weight.",
-      "mnemonic": "FEEL: Find Empathy, Engage, Listen."
-    },
-    "quiz": [
-      {
-        "q": "What triggers the Illusion of Choice?",
-        "options": [
-          "Limited options",
-          "Too many choices",
-          "Random selection",
-          "None of the above"
-        ],
-        "answer": 0,
-        "funFact": "People often feel happier when they think they have choices, even if they're restricted."
-      },
-      {
-        "q": "What does open palms signify?",
-        "options": [
-          "Aggression",
-          "Trust",
-          "Confusion",
-          "Disinterest"
-        ],
-        "answer": 1,
-        "funFact": "Open body language can increase likability and trust in conversations."
-      },
-      {
-        "q": "How can the Empathy Amplifier help you?",
-        "options": [
-          "Make you feel worse",
-          "Build stronger friendships",
-          "Isolate you",
-          "None of the above"
-        ],
-        "answer": 1,
-        "funFact": "Sharing experiences can deepen relationships and foster understanding."
-      }
-    ]
-  },
-  "leadership": {
-    "leaderMove": {
-      "name": "Nelson Mandela",
-      "story": "Nelson Mandela spent 27 years in prison, dreaming of a free South Africa. When he was released, he didn't seek revenge but forgiveness. He became the first black president, uniting a divided nation. His story teaches us that true leadership is about healing, not hurting.",
-      "doThis": "Practice empathy by listening to others' stories. Build trust by showing vulnerability.",
-      "mnemonic": "M.E.N.D - Mend bridges, Empathize, Navigate differences, Do good."
-    },
-    "visionarySecret": {
-      "concept": "The power of perspective.",
-      "eli5": "Imagine looking through a telescope. You see the stars clearly, but without it, they’re just dots in the sky. A visionary uses this telescope to see possibilities others miss. This helps them guide others toward bright futures.",
-      "exercise": "Spend time each week reflecting on your goals from different angles. This will sharpen your vision.",
-      "mnemonic": "S.T.A.R - See possibilities, Telescope view, Aim high, Reflect often."
-    },
-    "eliteHabit": {
-      "habit": "Daily reflection.",
-      "whoAndHow": "Oprah Winfrey practices this by journaling every night. She reflects on her day to find lessons and gratitude.",
-      "whyItWorks": "This habit fosters self-awareness and clarity. It helps leaders make better decisions.",
-      "mnemonic": "R.E.F.L.E.C.T - Review experiences, Evaluate feelings, Find lessons, Learn continuously, Engage with self, Cultivate growth, Track progress."
-    },
-    "sigmaWisdom": {
-      "lesson": "Embrace discomfort.",
-      "story": "A farmer plants seeds in rocky soil. The seeds struggle, but those that survive grow strong. Just like the farmer, leaders must embrace challenges to thrive.",
-      "action": "Seek out one uncomfortable situation this week.",
-      "mnemonic": "G.R.O.W - Grow through challenges, Resilience builds strength, Overcome fears, Welcome discomfort."
-    },
-    "quiz": [
-      {
-        "q": "What was Nelson Mandela's approach to leadership?",
-        "options": [
-          "Revenge",
-          "Forgiveness",
-          "Isolation",
-          "Indifference"
-        ],
-        "answer": 1,
-        "funFact": "Mandela's leadership style inspired many leaders worldwide to adopt a more peaceful approach."
-      },
-      {
-        "q": "Why is perspective important for visionaries?",
-        "options": [
-          "It confuses them",
-          "It limits their view",
-          "It helps them see possibilities",
-          "It makes them complacent"
-        ],
-        "answer": 2,
-        "funFact": "Visionaries often find success by spotting opportunities where others see obstacles."
-      },
-      {
-        "q": "What habit does Oprah Winfrey practice daily?",
-        "options": [
-          "Exercise",
-          "Meditation",
-          "Reflection",
-          "Travel"
-        ],
-        "answer": 2,
-        "funFact": "Oprah believes that reflection helps her stay connected to her true self and goals."
-      }
-    ]
-  },
-  "wealth": {
-    "wealthSecret": {
-      "name": "The Seed of Wealth",
-      "story": "Think of planting a seed. With care and time, it grows into a strong tree. Each branch represents a source of income. Nurturing your finances is like watering that tree.",
-      "action": "Start by saving a little every month. Watch your wealth grow like a tree reaching for the sun.",
-      "mnemonic": "Seed, water, grow."
-    },
-    "moneyMachine": {
-      "type": "Passive Income Vending Machine",
-      "eli5": "Imagine a vending machine that gives you money. You put in a little effort upfront, like stocking it with snacks. Later, it keeps giving you money while you relax.",
-      "indiaAngle": "In India, consider real estate or creating an online course. These can be your vending machines, generating income while you sleep.",
-      "mnemonic": "Stock, relax, earn."
-    },
-    "mindsetFlip": {
-      "oldThinking": "Money is hard to come by.",
-      "newThinking": "Wealth is everywhere; I just need to find it.",
-      "why": "Changing your mindset opens your eyes to opportunities. When you believe wealth is abundant, you start to see ways to create it.",
-      "mnemonic": "Hard to find vs. Abundant everywhere."
-    },
-    "magicNumber": {
-      "number": "The 50/30/20 Rule",
-      "eli5": "Imagine a pie chart divided into three parts. Half is for needs, a little less than a third for wants, and the rest for savings. This helps you balance enjoying life and saving for the future.",
-      "mnemonic": "Pie, slice, save."
-    },
-    "quiz": [
-      {
-        "q": "What does the 50/30/20 rule help you with?",
-        "options": [
-          "Budgeting",
-          "Investing",
-          "Spending",
-          "Saving"
-        ],
-        "answer": 0,
-        "funFact": "Many people find budgeting easier with this simple rule!"
-      },
-      {
-        "q": "What is a passive income source?",
-        "options": [
-          "A job",
-          "Stocks",
-          "Renting property",
-          "All of the above"
-        ],
-        "answer": 2,
-        "funFact": "Renting property can earn you money while you sleep!"
-      },
-      {
-        "q": "What does nurturing your finances resemble?",
-        "options": [
-          "Watering a plant",
-          "Building a house",
-          "Driving a car",
-          "Cooking a meal"
-        ],
-        "answer": 0,
-        "funFact": "Just like plants need care, your finances need attention to flourish!"
-      }
-    ]
-  },
-  "communication": {
-    "speakingSkill": {
-      "name": "Storytelling",
-      "story": "Steve Jobs was a master storyteller. He captivated audiences with his simple yet powerful narratives. When he introduced the iPhone, he painted a picture of how it would change lives. People didn’t just buy a phone; they bought a dream.",
-      "drill": "Practice telling a personal story. Focus on making it relatable and engaging.",
-      "mnemonic": "STORY - Structure, Tell, Own, Relate, You"
-    },
-    "negotiationMove": {
-      "tactic": "Win-Win Approach",
-      "eli5": "Imagine you have a peanut butter sandwich. Your friend has a jelly sandwich. You both can swap half so you both get a tasty combo. It’s about finding a way where everyone leaves happy.",
-      "script": "Let's find a solution where we both benefit. What do you think would work for you?",
-      "mnemonic": "SWAP - Share, Win, Adjust, Partner"
-    },
-    "officeWin": {
-      "rule": "Listen Actively",
-      "story": "In a team meeting, Sarah often interrupted others. This led to frustration and missed ideas. When she learned to listen more, the team thrived as everyone felt heard and valued.",
-      "mistake": "Not listening can lead to misunderstandings.",
-      "mnemonic": "LISTEN - Look, Inquire, Silence, Take note, Engage, Note"
-    },
-    "confidenceHack": {
-      "technique": "Power Posing",
-      "science": "Standing tall makes you feel stronger. It’s like putting on an armor that boosts your confidence before a big event.",
-      "doItNow": "Take a moment to stand like a superhero. Hold that pose for two minutes and feel the shift in your mindset.",
-      "mnemonic": "POSE - Power, Own, Stand, Empower"
-    },
-    "quiz": [
-      {
-        "q": "What is the key to effective storytelling?",
-        "options": [
-          "Complex language",
-          "Relatable narratives",
-          "Long speeches",
-          "Technical details"
-        ],
-        "answer": 1,
-        "funFact": "Storytelling has been used for thousands of years to pass down knowledge and connect people."
-      },
-      {
-        "q": "What does a win-win negotiation mean?",
-        "options": [
-          "One person wins",
-          "Both parties are unhappy",
-          "Both parties benefit",
-          "No one wins"
-        ],
-        "answer": 1,
-        "funFact": "Win-win negotiations can lead to stronger relationships and better outcomes."
-      },
-      {
-        "q": "Why is listening important in the workplace?",
-        "options": [
-          "To dominate conversations",
-          "To understand others",
-          "To ignore feedback",
-          "To finish quickly"
-        ],
-        "answer": 2,
-        "funFact": "Active listening can reduce conflicts and enhance teamwork."
-      }
-    ]
-  },
-  "mind": {
-    "brainHack": {
-      "name": "Wild Horse Taming",
-      "eli5": "Imagine your thoughts are wild horses. If you want to ride them, you have to gently guide them first. Taming your mind is just like training these horses to follow your lead. With patience, they can take you anywhere you want.",
-      "protocol": "Start each day with 5 minutes of deep breathing. As thoughts come, visualize them as horses and gently bring them back to focus. Do this daily to build your mental control.",
-      "mnemonic": "Horses Lead Focus"
-    },
-    "disciplineCode": {
-      "principle": "Consistency is key.",
-      "story": "Once, a young warrior trained every day, rain or shine. His friends played while he practiced, but he stayed focused. When battle came, he was ready while others faltered.",
-      "todayAction": "Pick one task you’ve been avoiding. Commit to starting it for just 10 minutes today.",
-      "mnemonic": "Warrior's Daily Battle"
-    },
-    "impulseKiller": {
-      "urge": "snacking late at night",
-      "eli5": "Imagine a monster in your head whispering for snacks. It's loud and tempting, but it's just a trick to distract you from your goals.",
-      "interrupt": "When the urge strikes, stand up and drink a glass of water. Move to a different room to break the snack cycle.",
-      "mnemonic": "Monster Water Break"
-    },
-    "bodyUpgrade": {
-      "practice": "Daily stretching routine.",
-      "eli5": "Think of your body like a rubber band. If you stretch it, it becomes more flexible and strong. Regular stretching keeps you limber and ready for action.",
-      "minimumDose": "Spend 10 minutes each morning stretching right after you wake up.",
-      "mnemonic": "Rubber Band Flex"
-    },
-    "quiz": [
-      {
-        "q": "What is a key benefit of deep breathing?",
-        "options": [
-          "Reduces stress",
-          "Increases hunger",
-          "Makes you tired",
-          "Distracts you"
-        ],
-        "answer": 0,
-        "funFact": "Deep breathing can lower your heart rate and help you feel calmer."
-      },
-      {
-        "q": "What did the young warrior value most?",
-        "options": [
-          "Friends",
-          "Consistency",
-          "Food",
-          "Sleep"
-        ],
-        "answer": 1,
-        "funFact": "Discipline often leads to success, as shown by the dedicated warrior."
-      },
-      {
-        "q": "How can you combat late-night snacking?",
-        "options": [
-          "Ignore it",
-          "Drink water",
-          "Watch TV",
-          "Go to bed"
-        ],
-        "answer": 1,
-        "funFact": "Staying hydrated can help reduce cravings and keep you focused on your goals."
-      }
-    ]
-  },
-  "knowledge": {
-    "mathMagic": {
-      "concept": "Probability",
-      "eli5": "Imagine you have a bag of marbles. If you have 3 red marbles and 2 blue marbles, the chance of picking a red one is like saying, 'Out of 5 total marbles, 3 are red.' It’s like choosing your favorite candy from a mixed bag. More of your favorite means better chances!",
-      "realWorldUse": "In finance, probability helps investors decide which stocks might rise or fall. In sports, coaches use it to determine the likelihood of winning based on player performance.",
-      "mnemonic": "P = F/T: Probability equals Favorable outcomes over Total outcomes."
-    },
-    "scienceWow": {
-      "field": "Astronomy",
-      "concept": "Black Holes",
-      "eli5": "Imagine a vacuum cleaner so powerful that not even light can escape it. Black holes are like cosmic whirlpools pulling everything in. They are the remnants of massive stars that collapsed under their own gravity. When you think of them, think of a giant cosmic drain!",
-      "mindBlow": "There could be black holes wandering through our galaxy, unnoticed, devouring stars and planets. Some scientists believe that supermassive black holes are at the center of most galaxies.",
-      "mnemonic": "B = M/G: Black holes are Bigger with More mass and Greater gravity."
-    },
-    "historyStory": {
-      "event": "The Great Fire of London (1666)",
-      "story": "In 1666, a small bakery fire in London turned into a massive inferno. The flames consumed wooden houses like dry leaves. People fled, saving only what they could carry. By the end, a huge part of the city lay in ruins, but it sparked a new era of rebuilding!",
-      "lesson": "Disasters can lead to positive change. From ashes can rise new beginnings.",
-      "mnemonic": "FIRE: Flames Ignite Rebuilding Efforts."
-    },
-    "earthSecret": {
-      "place": "Antarctica",
-      "secret": "Antarctica is home to 90% of the world's ice! It’s so cold that some lakes are beneath the ice, keeping life alive. Surprisingly, it also has mountains taller than the Alps, hidden under ice sheets.",
-      "edge": "Understanding Antarctica helps us learn about climate change and sea level rise. Protecting it is crucial for our planet’s future.",
-      "mnemonic": "ICE: Incredible Cold Environment."
-    },
-    "quiz": [
-      {
-        "q": "What is the probability of drawing a red marble from a bag with 3 red and 2 blue marbles?",
-        "options": [
-          "3/5",
-          "1/2",
-          "2/5",
-          "4/5"
-        ],
-        "answer": 0,
-        "funFact": "The concept of probability dates back to ancient civilizations who used it to gamble and make decisions!"
-      },
-      {
-        "q": "What is a defining feature of a black hole?",
-        "options": [
-          "It emits light",
-          "It pulls in everything",
-          "It is made of ice",
-          "It's a star"
-        ],
-        "answer": 1,
-        "funFact": "The closest known black hole is about 1,000 light-years away from Earth, in the constellation V616 Monocerotis!"
-      },
-      {
-        "q": "What sparked the rebuilding of London after the Great Fire?",
-        "options": [
-          "A new king",
-          "The destruction",
-          "A flood",
-          "A plague"
-        ],
-        "answer": 1,
-        "funFact": "The rebuilding led to new architectural styles and improved urban planning in London!"
-      }
-    ]
-  },
-  "ai": {
-    "toolSpotlight": {
-      "name": "WordWiz",
-      "category": "writing",
-      "eli5": "Imagine having a magical pen that writes stories for you. You just need to whisper your ideas, and it turns them into beautiful paragraphs. It's like having a friend who knows exactly what you want to say.",
-      "secretMove": "You can use WordWiz to create outlines for your stories quickly. Just give it a few keywords, and it will draft a complete structure for your plot.",
-      "mnemonic": "Wizards Write Wonderfully"
-    },
-    "workflowWin": {
-      "title": "Email Automator",
-      "problem": "Writing repetitive emails is boring and time-consuming. It eats into your productive hours.",
-      "steps": [
-        "Step 1: Connect your email account.",
-        "Step 2: Choose a template for common emails.",
-        "Step 3: Set triggers for when to send these emails.",
-        "Step 4: Sit back and let the tool do the work."
-      ],
-      "timeSaved": "You'll save hours every week that you can spend on more important tasks.",
-      "mnemonic": "Emails Effortlessly Executed"
-    },
-    "promptOfDay": {
-      "purpose": "This prompt helps you brainstorm story ideas quickly.",
-      "prompt": "Generate a unique story idea about [CHARACTER] who discovers [OBJECT] in [LOCATION].",
-      "where": "Claude / ChatGPT / Gemini",
-      "mnemonic": "Stories Sparked Simply"
-    },
-    "futureWatch": {
-      "trend": "AI-Powered Personalization",
-      "eli5": "Think of shopping before and after AI. Before, you got random ads, like junk mail. Now, AI knows your taste and shows you exactly what you want, like a friend who knows your favorite snacks.",
-      "yourMove": "Start collecting data on your preferences today. Use that information to tailor your tools and make them work just for you.",
-      "mnemonic": "Personalized Progress"
-    },
-    "quiz": [
-      {
-        "q": "What does WordWiz do?",
-        "options": [
-          "It writes stories",
-          "It edits videos",
-          "It sends emails",
-          "It manages calendars"
-        ],
-        "answer": 0,
-        "funFact": "WordWiz can even suggest plot twists!"
-      },
-      {
-        "q": "What problem does Email Automator solve?",
-        "options": [
-          "Too many meetings",
-          "Boring repetitive emails",
-          "Slow internet",
-          "Heavy workloads"
-        ],
-        "answer": 1,
-        "funFact": "It can automatically reply to common inquiries!"
-      },
-      {
-        "q": "What is the trend related to AI?",
-        "options": [
-          "Random ads",
-          "AI-Powered Personalization",
-          "Manual searches",
-          "Basic automation"
-        ],
-        "answer": 1,
-        "funFact": "AI is making shopping feel more like a personal experience!"
-      }
-    ]
-  },
-  "travel": {
-    "destination": {
-      "country": "Japan",
-      "region": "Kyushu",
-      "eli5": "Imagine a land where ancient temples meet futuristic cities. Kyushu is Japan's southern island, full of hot springs and beautiful mountains. You can eat delicious ramen and see cherry blossoms. It's like stepping into a live-action anime.",
-      "bestTime": "The best time to visit is spring when the flowers bloom. Autumn is also beautiful with colorful leaves.",
-      "hiddenGem": "Many tourists miss the small town of Yufuin, known for its stunning views of Mount Yufu. It’s a peaceful place perfect for hot springs and art galleries.",
-      "mnemonic": "Jolly Kittens Jump"
-    },
-    "visaTip": {
-      "focus": "Japan tourist visa",
-      "eli5": "Indian passport holders can get a visa easily. Apply online or visit the nearest embassy. Don’t forget to gather your travel documents.",
-      "goldenTip": "Make sure your passport is valid for at least six months. A well-prepared application speeds up the process.",
-      "mnemonic": "Just Pack Documents"
-    },
-    "culturalCode": {
-      "culture": "Respect and politeness are key in Japan.",
-      "doThis": "Bow slightly when greeting someone; it shows respect. Try to learn a few basic Japanese phrases; locals appreciate the effort.",
-      "neverDoThis": "Don’t tip in restaurants; it can be considered rude. Avoid speaking loudly in public places; it disturbs others.",
-      "mnemonic": "Respectful People Always"
-    },
-    "quiz": [
-      {
-        "q": "What is the capital of Japan?",
-        "options": [
-          "Tokyo",
-          "Kyoto",
-          "Osaka",
-          "Hiroshima"
-        ],
-        "answer": 0,
-        "funFact": "Tokyo is one of the most populous cities in the world, with over 13 million people!"
-      },
-      {
-        "q": "What is a traditional Japanese hot spring called?",
-        "options": [
-          "Onsen",
-          "Ryokan",
-          "Sento",
-          "Yukata"
-        ],
-        "answer": 1,
-        "funFact": "Onsen are not just for bathing; they are places for relaxation and socializing."
-      },
-      {
-        "q": "Which flower is famously associated with Japan?",
-        "options": [
-          "Rose",
-          "Tulip",
-          "Cherry Blossom",
-          "Sunflower"
-        ],
-        "answer": 2,
-        "funFact": "The cherry blossom, or sakura, symbolizes the beauty and transience of life in Japanese culture."
-      }
-    ]
-  }
-}
-
-const d260611 = {
-  "news": {
-    "segments": [
-      {
-        "name": "🌐 What's happening with countries?",
-        "color": "#a0d4f5",
-        "stories": [
-          {
-            "headline": "Peace Talks in the Middle East Show Progress",
-            "eli5": "Imagine two kids fighting over a toy. They finally sit down and talk about sharing it. This is what countries are doing to solve their issues. Talking is better than fighting.",
-            "whyItMatters": "Peace leads to stability and growth.",
-            "mnemonic": "P for Peace, P for Progress."
-          },
-          {
-            "headline": "New Trade Agreement Signed in Southeast Asia",
-            "eli5": "Think of a group of friends deciding to share their snacks. They make a deal to trade cookies for chips. Countries are doing the same with goods and services. Sharing makes everyone happier.",
-            "whyItMatters": "Trade boosts economies and creates jobs.",
-            "mnemonic": "T for Trade, T for Treat."
-          },
-          {
-            "headline": "Election Changes Leadership in South America",
-            "eli5": "It's like a team captain being voted out for a new one. The new captain has fresh ideas. People hope for better teamwork. New leaders can bring change.",
-            "whyItMatters": "Leadership affects policies and direction.",
-            "mnemonic": "E for Election, E for Energy."
-          }
-        ]
-      },
-      {
-        "name": "💸 What's happening with money?",
-        "color": "#a8edcb",
-        "stories": [
-          {
-            "headline": "Global Markets React to Inflation Data",
-            "eli5": "Imagine if your favorite candy suddenly costs more. You'd think twice before buying it. Inflation means prices rise, affecting everyone's budget. Markets react to how much people can spend.",
-            "whyItMatters": "Understanding inflation helps make better financial choices.",
-            "mnemonic": "I for Inflation, I for Increase."
-          },
-          {
-            "headline": "Cryptocurrency Gains Popularity in Transactions",
-            "eli5": "Think of digital coins like video game tokens. More people are using them to buy things. It's like a new way to trade. People love new and exciting options.",
-            "whyItMatters": "Cryptocurrency can change how we handle money.",
-            "mnemonic": "C for Crypto, C for Change."
-          },
-          {
-            "headline": "Stock Market Hits New Highs",
-            "eli5": "Imagine a balloon rising high in the sky. The stock market is like that balloon, going up as more people invest. Good news makes the balloon even fluffier. High stock prices mean confidence.",
-            "whyItMatters": "A strong market reflects economic health.",
-            "mnemonic": "S for Stock, S for Sky."
-          }
-        ]
-      },
-      {
-        "name": "💻 What's happening with technology?",
-        "color": "#c9b8f5",
-        "stories": [
-          {
-            "headline": "New AI Model Released for Creative Work",
-            "eli5": "Imagine a robot that can paint or write stories. This new AI can help artists create. It's like having a helpful friend who inspires you. Technology opens doors for creativity.",
-            "whyItMatters": "AI can enhance human creativity.",
-            "mnemonic": "A for AI, A for Art."
-          },
-          {
-            "headline": "Breakthrough in Quantum Computing",
-            "eli5": "Think of a super-fast calculator that can solve puzzles in seconds. Quantum computers are like that, but even cooler. They can tackle problems we can't solve now. This could change everything.",
-            "whyItMatters": "Quantum computing can solve complex issues faster.",
-            "mnemonic": "Q for Quantum, Q for Quick."
-          }
-        ]
-      },
-      {
-        "name": "🌿 What's happening with our planet?",
-        "color": "#f5c6a0",
-        "stories": [
-          {
-            "headline": "New Conservation Efforts Launched Worldwide",
-            "eli5": "Imagine a group of friends deciding to clean a messy park. They're planting trees and picking up trash. This makes the park nice for everyone. Conservation protects our planet.",
-            "whyItMatters": "Protecting nature helps our ecosystems thrive.",
-            "mnemonic": "C for Conservation, C for Clean."
-          },
-          {
-            "headline": "Climate Summit Yields Promising Agreements",
-            "eli5": "It's like a big family meeting where everyone agrees to recycle more. Countries are promising to work together for a healthier planet. Teamwork can fight climate change. Together, we can make a difference.",
-            "whyItMatters": "Global cooperation is vital for environmental health.",
-            "mnemonic": "C for Climate, C for Cooperation."
-          }
-        ]
-      }
-    ],
-    "quiz": [
-      {
-        "q": "What is a major benefit of peace talks?",
-        "options": [
-          "More fighting",
-          "Stability",
-          "Less cooperation",
-          "Higher taxes"
-        ],
-        "answer": 1,
-        "funFact": "Peace can lead to economic growth."
-      },
-      {
-        "q": "What does inflation affect?",
-        "options": [
-          "Candy prices",
-          "Rainfall",
-          "Sports scores",
-          "Star ratings"
-        ],
-        "answer": 0,
-        "funFact": "Inflation makes everyday items cost more."
-      },
-      {
-        "q": "What is a benefit of cryptocurrency?",
-        "options": [
-          "Old-fashioned cash",
-          "New trading options",
-          "Less technology",
-          "Higher prices"
-        ],
-        "answer": 1,
-        "funFact": "Cryptocurrency offers innovative ways to transact."
-      }
-    ]
-  },
-  "markets": {
-    "globalPulse": {
-      "eli5": "Think of the global markets like a big river. Sometimes it flows smoothly, and other times, it has rapids. Today, the river was calm, allowing boats to sail easily. But there were some rocks ahead that could cause bumps.",
-      "keyThings": [
-        "S&P500: The index rose slightly as tech stocks picked up speed.",
-        "Brent crude: Oil prices dipped a bit as supply worries eased.",
-        "Gold: Investors moved towards gold, seeking safety amid global uncertainties.",
-        "Nifty: The Indian market mirrored global trends, ending the day on a positive note."
-      ]
-    },
-    "indianMarket": {
-      "eli5": "Imagine the Indian market as a bustling bazaar. Today, some stalls were thriving with excited buyers, while others were quieter. The buzz was palpable as traders looked for the best deals.",
-      "breakouts": [
-        {
-          "name": "NSE:RELIANCE — Reliance Industries",
-          "whyExciting": "This company announced a new green energy project that could change the game. Investors are eager to see how this will boost profits.",
-          "risk": "There are uncertainties about the project's timeline."
-        },
-        {
-          "name": "NSE:TCS — Tata Consultancy Services",
-          "whyExciting": "TCS secured a big contract, promising steady revenue. This is a positive sign for the tech sector.",
-          "risk": "Competition in the tech space remains fierce."
-        },
-        {
-          "name": "NSE:INFY — Infosys",
-          "whyExciting": "Infosys reported better-than-expected earnings, catching everyone's attention. This boosts confidence in IT stocks.",
-          "risk": "Global economic conditions could impact future earnings."
-        }
-      ],
-      "ipoSpot": {
-        "name": "None active",
-        "verdict": "Avoid",
-        "eli5": "No new IPOs are available right now. It's like a market stall that isn’t open today."
-      },
-      "lessonOfDay": {
-        "title": "Patience Pays Off",
-        "story": "Imagine planting a tree. It takes time to grow and bear fruit. If you keep watering it, one day it will provide shade and fruit. Similarly, investing wisely requires patience.",
-        "mnemonic": "P for Plant, P for Patience."
-      }
-    },
-    "quiz": [
-      {
-        "q": "What drove the rise in the S&P500 today?",
-        "options": [
-          "Tech stock gains",
-          "Oil price drop",
-          "Gold demand",
-          "Nifty performance"
-        ],
-        "answer": 0,
-        "funFact": "The tech sector often leads market recoveries, acting like a lighthouse in foggy weather."
-      },
-      {
-        "q": "What was the risk associated with Reliance's new project?",
-        "options": [
-          "Market competition",
-          "Project timeline uncertainties",
-          "Supply chain issues",
-          "Consumer demand"
-        ],
-        "answer": 1,
-        "funFact": "Every new venture has its hurdles, like navigating through tight alleyways in a bazaar."
-      },
-      {
-        "q": "Why should investors watch Infosys closely?",
-        "options": [
-          "New IPO",
-          "Better-than-expected earnings",
-          "High competition",
-          "Stock split"
-        ],
-        "answer": 1,
-        "funFact": "Earnings reports act like a report card for companies, giving insights into their performance."
-      }
-    ]
-  },
-  "psychology": {
-    "mindTrick": {
-      "name": "The Illusion of Choice",
-      "eli5": "Imagine you're in an ice cream shop. They show you two flavors, chocolate and vanilla. You think you have a choice, but they only have those two. It's like choosing between a rock and a hard place.",
-      "realLife": "This trick is used in marketing. It makes you feel in control while limiting your options.",
-      "mnemonic": "Choose your flavor, but only two to savor."
-    },
-    "bodyLanguage": {
-      "signal": "The Open Hand Gesture",
-      "eli5": "Think of a magician showing you their empty hands. It makes you trust them more. When someone shows open hands, it’s like saying, 'I’m friendly and honest.'",
-      "howToUse": "Use open hands when talking to others. It makes them feel comfortable and engaged.",
-      "mnemonic": "Hands open, trust is spoken."
-    },
-    "superpower": {
-      "name": "Empathy",
-      "story": "Imagine a young girl named Mia. She sees her friend Sam looking sad and feels a tug in her own heart. She sits beside him and listens. Suddenly, Sam feels better just knowing someone understands him.",
-      "shield": "Empathy protects against loneliness. It builds connections with others.",
-      "mnemonic": "Feel their heart, play your part."
-    },
-    "quiz": [
-      {
-        "q": "What is the Illusion of Choice?",
-        "options": [
-          "A selection between many options",
-          "Limited options that make you feel in control",
-          "Complete freedom of choice",
-          "No options at all"
-        ],
-        "answer": 1,
-        "funFact": "Marketers often use this trick to influence your decisions!"
-      },
-      {
-        "q": "What does an open hand gesture usually signal?",
-        "options": [
-          "Aggression",
-          "Trust and honesty",
-          "Indifference",
-          "Fear"
-        ],
-        "answer": 1,
-        "funFact": "Open gestures can make conversations feel more welcoming!"
-      },
-      {
-        "q": "Why is empathy considered a superpower?",
-        "options": [
-          "It helps you win arguments",
-          "It allows you to understand others' feelings",
-          "It makes you popular",
-          "It lets you hide your true feelings"
-        ],
-        "answer": 1,
-        "funFact": "Empathy can strengthen relationships and reduce conflicts!"
-      }
-    ]
-  },
-  "leadership": {
-    "leaderMove": {
-      "name": "Nelson Mandela",
-      "story": "Nelson Mandela spent 27 years in prison. He dreamed of a united South Africa. When he was finally free, he didn’t seek revenge. Instead, he chose forgiveness and peace.",
-      "doThis": "Practice forgiveness in your daily interactions. It builds bridges and opens doors.",
-      "mnemonic": "Mighty Mandela's Mindset"
-    },
-    "visionarySecret": {
-      "concept": "The power of perspective.",
-      "eli5": "Imagine looking through a telescope. You see faraway stars clearly, but if you don’t adjust it, you miss the beauty of nearby flowers. A visionary adjusts their focus, seeing both the big picture and the details.",
-      "exercise": "Take a moment to reflect on both your long-term goals and daily tasks. Balance is key.",
-      "mnemonic": "Telescope Tuning"
-    },
-    "eliteHabit": {
-      "habit": "Daily Reflection.",
-      "whoAndHow": "Oprah Winfrey reflects on her day every evening. She writes down lessons learned and feelings.",
-      "whyItWorks": "This habit fosters gratitude and self-awareness. It helps clarify thoughts and emotions.",
-      "mnemonic": "Reflective Oprah's Ritual"
-    },
-    "sigmaWisdom": {
-      "lesson": "Embrace solitude for clarity.",
-      "story": "A lone tree stands tall on a mountain. It faces storms alone but grows stronger with each one. In silence, it finds its true strength.",
-      "action": "Spend time alone to think and recharge.",
-      "mnemonic": "Solitary Strength"
-    },
-    "quiz": [
-      {
-        "q": "What did Mandela choose instead of revenge?",
-        "options": [
-          "Revenge",
-          "Peace",
-          "Indifference",
-          "Anger"
-        ],
-        "answer": 1,
-        "funFact": "Mandela's approach influenced many world leaders."
-      },
-      {
-        "q": "What does a telescope help a visionary do?",
-        "options": [
-          "See only close things",
-          "Focus on the big picture",
-          "Ignore details",
-          "Miss opportunities"
-        ],
-        "answer": 1,
-        "funFact": "Visionaries often adjust their focus for better clarity."
-      },
-      {
-        "q": "What habit does Oprah Winfrey practice every evening?",
-        "options": [
-          "Reading",
-          "Daily Reflection",
-          "Cooking",
-          "Meditation"
-        ],
-        "answer": 1,
-        "funFact": "Her reflections have inspired millions to practice gratitude."
-      }
-    ]
-  },
-  "wealth": {
-    "wealthSecret": {
-      "name": "Compounding Growth",
-      "story": "Think of money like a seed planted in soil. With time, it grows into a tree, producing fruits. Each fruit contains more seeds, which can grow into new trees. The longer you nurture your seed, the bigger your financial forest becomes.",
-      "action": "Start investing early. Let your money work for you over time.",
-      "mnemonic": "Sow, Grow, Flow"
-    },
-    "moneyMachine": {
-      "type": "Dividend Stocks",
-      "eli5": "Imagine a vending machine that gives you money every time you put in a coin. With dividend stocks, you buy a piece of a company and it pays you just for owning it. Over time, your money keeps flowing in like magic.",
-      "indiaAngle": "In India, many companies offer good dividends, making it a smart choice for investors. This can help you build wealth while enjoying the benefits of the growing economy.",
-      "mnemonic": "Invest, Rest, Collect"
-    },
-    "mindsetFlip": {
-      "oldThinking": "Money is just for spending.",
-      "newThinking": "Money can be a tool for creating more money.",
-      "why": "When you think of money as a tool, you start seeing opportunities. It’s like turning on a light in a dark room. You discover ways to grow your wealth.",
-      "mnemonic": "Spend, Blend"
-    },
-    "magicNumber": {
-      "number": "72",
-      "eli5": "Imagine you have a magic book that tells you how long it takes your money to double. You just divide 72 by your interest rate. If you earn 8%, your money will double in 9 years, like watching a flower bloom.",
-      "mnemonic": "Double Time"
-    },
-    "quiz": [
-      {
-        "q": "What is the best way to grow wealth over time?",
-        "options": [
-          "Invest early",
-          "Spend wisely",
-          "Save everything",
-          "Avoid risks"
-        ],
-        "answer": 0,
-        "funFact": "Investing early can make a huge difference due to compounding."
-      },
-      {
-        "q": "What does a dividend stock provide?",
-        "options": [
-          "A one-time payment",
-          "Regular income",
-          "High risk",
-          "No return"
-        ],
-        "answer": 1,
-        "funFact": "Dividend stocks can be a reliable source of passive income."
-      },
-      {
-        "q": "How long does it take for money to double at an 8% interest rate?",
-        "options": [
-          "5 years",
-          "9 years",
-          "12 years",
-          "15 years"
-        ],
-        "answer": 1,
-        "funFact": "Using the magic number 72, you can quickly estimate the doubling time."
-      }
-    ]
-  },
-  "communication": {
-    "speakingSkill": {
-      "name": "Storytelling",
-      "story": "Imagine Martin Luther King Jr. sharing his dream. His words painted a picture of hope. People felt the power in his voice and believed they could change the world.",
-      "drill": "Practice telling a story from your life. Use vivid details to bring it to life.",
-      "mnemonic": "P.A.I.N. - Picture, Action, Impact, Narrative."
-    },
-    "negotiationMove": {
-      "tactic": "The Win-Win Approach",
-      "eli5": "Think of trading sandwiches at lunch. You have a peanut butter sandwich, and your friend has a turkey sandwich. If you both share, you get to enjoy both flavors!",
-      "script": "Let's find a solution where we both feel happy. Your needs matter just as much as mine.",
-      "mnemonic": "T.R.A.D.E. - Trust, Respect, Agreement, Deal, Enjoy."
-    },
-    "officeWin": {
-      "rule": "Listen First, Speak Second",
-      "story": "At a team meeting, Sarah listened carefully to her colleague's ideas before sharing hers. This made everyone feel valued and led to a better outcome. In contrast, Bob jumped in first and missed valuable insights.",
-      "mistake": "Speaking over others can shut down great ideas.",
-      "mnemonic": "E.A.R.S. - Engage, Acknowledge, Reflect, Share."
-    },
-    "confidenceHack": {
-      "technique": "Power Posing",
-      "science": "Standing tall like a superhero tricks your brain into feeling powerful. It's like putting on armor before a battle.",
-      "doItNow": "Take a moment to stretch and stand tall. Hold your head high and breathe deeply.",
-      "mnemonic": "S.T.A.N.D. - Strength, Triumph, Assertiveness, Nerve, Dignity."
-    },
-    "quiz": [
-      {
-        "q": "Who was known for powerful storytelling?",
-        "options": [
-          "Malala Yousafzai",
-          "Martin Luther King Jr.",
-          "Steve Jobs",
-          "Oprah Winfrey"
-        ],
-        "answer": 1,
-        "funFact": "King's speeches inspired millions and changed history."
-      },
-      {
-        "q": "What does a win-win negotiation mean?",
-        "options": [
-          "Only one person wins",
-          "Both parties feel happy",
-          "It's a tie",
-          "No agreement is reached"
-        ],
-        "answer": 1,
-        "funFact": "Win-win negotiations build better relationships."
-      },
-      {
-        "q": "What should you do first in a meeting?",
-        "options": [
-          "Speak your mind",
-          "Listen carefully",
-          "Check your phone",
-          "Daydream"
-        ],
-        "answer": 2,
-        "funFact": "Listening first opens the door to great ideas."
-      }
-    ]
-  },
-  "mind": {
-    "brainHack": {
-      "name": "Wild Horse Taming",
-      "eli5": "Imagine your mind as a wild horse. It can run freely, but sometimes it needs to be tamed. Taming it means guiding your thoughts instead of letting them run wild. Just like a horse can learn to follow your lead, your brain can learn to focus.",
-      "protocol": "Start by sitting quietly for five minutes. Focus on your breath, counting each inhale and exhale. If your thoughts wander, gently bring your focus back.",
-      "mnemonic": "Tame the wild horse within."
-    },
-    "disciplineCode": {
-      "principle": "Strength through routine.",
-      "story": "Once, a young warrior trained daily with a heavy sword. Each day, he felt tired but pushed through. When battle came, he wielded his sword with ease, surprising everyone with his strength.",
-      "todayAction": "Choose one small task to do consistently today. It could be making your bed or a quick workout.",
-      "mnemonic": "Small steps build a mighty warrior."
-    },
-    "impulseKiller": {
-      "urge": "snacking mindlessly",
-      "eli5": "Think of your mind like a monster that wants to snack all the time. If you don't control it, it will eat everything in sight and make you feel bad later.",
-      "interrupt": "When you feel the urge to snack, pause for a moment. Take three deep breaths and ask yourself if you're really hungry.",
-      "mnemonic": "Pause the monster's munching."
-    },
-    "bodyUpgrade": {
-      "practice": "Try a short daily stretch routine.",
-      "eli5": "Imagine your body is like a rubber band. If you never stretch it, it becomes stiff and weak. Stretching makes it flexible and strong.",
-      "minimumDose": "Spend just 10 minutes each morning stretching right after you wake up.",
-      "mnemonic": "Stretch to unleash your inner rubber band."
-    },
-    "quiz": [
-      {
-        "q": "What is the primary goal of the brain hack?",
-        "options": [
-          "To tame wild thoughts",
-          "To eat healthier",
-          "To sleep more",
-          "To read faster"
-        ],
-        "answer": 0,
-        "funFact": "Taming your thoughts can lead to better focus and productivity."
-      },
-      {
-        "q": "What small action can you take to build discipline?",
-        "options": [
-          "Run a marathon",
-          "Clean your house",
-          "Make your bed",
-          "Start a new hobby"
-        ],
-        "answer": 1,
-        "funFact": "Even small tasks can create a sense of accomplishment and build momentum."
-      },
-      {
-        "q": "What can help control mindless snacking?",
-        "options": [
-          "Watching TV",
-          "Taking deep breaths",
-          "Ignoring hunger",
-          "Eating quickly"
-        ],
-        "answer": 2,
-        "funFact": "Mindful eating can prevent overeating and improve your relationship with food."
-      }
-    ]
-  },
-  "knowledge": {
-    "mathMagic": {
-      "concept": "Probability",
-      "eli5": "Imagine you have a bag of candy. There are 10 candies, 7 are red, and 3 are blue. If you close your eyes and grab one, you might wonder how likely it is to get a red one. Probability helps you understand that you have a better chance of grabbing a red candy because there are more of them!",
-      "realWorldUse": "In finance, probability helps investors assess risks and make informed decisions. In sports, coaches use probability to determine the best strategies based on player performance and game outcomes.",
-      "mnemonic": "Penny for Probability: More pennies, more chances!"
-    },
-    "scienceWow": {
-      "field": "Astronomy",
-      "concept": "Black Holes",
-      "eli5": "Imagine a giant vacuum cleaner in space, sucking everything in. It's so powerful that not even light can escape it! Black holes are formed when massive stars collapse, creating an area with intense gravity. They warp space and time, making them mysterious and fascinating!",
-      "mindBlow": "There are black holes that can be billions of times more massive than our sun! When they collide, they create ripples in space-time known as gravitational waves.",
-      "mnemonic": "Bigger is Better: Black holes are like cosmic whirlpools!"
-    },
-    "historyStory": {
-      "event": "The Great Fire of London",
-      "story": "In 1666, London was struck by a massive fire that started in a bakery. It spread rapidly, consuming homes, shops, and even St. Paul's Cathedral. People fled, carrying what they could, while the city turned into a fiery inferno. However, from the ashes, London rebuilt, leading to better fire safety measures and new architectural wonders!",
-      "lesson": "Disasters can spark innovation and improvement. Sometimes, rebuilding from scratch leads to greatness.",
-      "mnemonic": "Fire and Rebirth: From the flames, new life arises!"
-    },
-    "earthSecret": {
-      "place": "Antarctica",
-      "secret": "Antarctica is the largest desert on Earth, despite being covered in ice! It holds about 70% of the world's fresh water. Interestingly, beneath its icy surface, there are lakes that are isolated for millions of years, containing unique life forms.",
-      "edge": "Understanding Antarctica helps us learn about climate change and global water resources. It's like a natural time capsule, revealing secrets of our planet's past.",
-      "mnemonic": "Ice, Ice, Baby: The frozen land of hidden wonders!"
-    },
-    "quiz": [
-      {
-        "q": "What is the probability of drawing a red candy from a bag of 10 candies (7 red, 3 blue)?",
-        "options": [
-          "70%",
-          "30%",
-          "50%",
-          "10%"
-        ],
-        "answer": 0,
-        "funFact": "Probability helps us predict outcomes in many areas of life!"
-      },
-      {
-        "q": "What do black holes do to light?",
-        "options": [
-          "Reflect it",
-          "Suck it in",
-          "Color it",
-          "Make it brighter"
-        ],
-        "answer": 1,
-        "funFact": "Black holes are so dense that they create a point of no return called the event horizon!"
-      },
-      {
-        "q": "What did the Great Fire of London lead to?",
-        "options": [
-          "More bakeries",
-          "Better fire safety",
-          "More wooden houses",
-          "A new bakery law"
-        ],
-        "answer": 1,
-        "funFact": "The fire changed how cities manage fire risks and building codes!"
-      }
-    ]
-  },
-  "ai": {
-    "toolSpotlight": {
-      "name": "DraftAI",
-      "category": "writing",
-      "eli5": "Imagine having a super-smart robot buddy that helps you write. It understands your ideas and turns them into sentences. It’s like having a co-pilot for your words, guiding you smoothly through your writing journey.",
-      "secretMove": "You can feed it rough notes, and it will create a polished draft. This saves time and boosts confidence by making your ideas shine.",
-      "mnemonic": "Draft Smart, Write Bright"
-    },
-    "workflowWin": {
-      "title": "Email Organizer Pro",
-      "problem": "Managing endless emails can feel like drowning. It helps to sort the chaos into neat piles.",
-      "steps": [
-        "Connect your email account.",
-        "Set up categories for sorting.",
-        "Let the tool analyze your emails.",
-        "Review and adjust categories as needed."
-      ],
-      "timeSaved": "You can save up to 2 hours a week, freeing you for tasks that matter.",
-      "mnemonic": "Sort, Save, Succeed"
-    },
-    "promptOfDay": {
-      "purpose": "This prompt helps brainstorm creative ideas quickly.",
-      "prompt": "Generate 5 unique story ideas based on [GENRE] featuring [CHARACTER] in a [SETTING].",
-      "where": "ChatGPT",
-      "mnemonic": "Create, Don’t Hesitate"
-    },
-    "futureWatch": {
-      "trend": "AI Personal Coaches",
-      "eli5": "Think of a time when you struggled to reach a goal. Now imagine a friendly AI that guides you step by step. In the future, these coaches will personalize advice just for you, making achieving goals feel like a walk in the park.",
-      "yourMove": "Start tracking your goals now and explore apps that offer AI coaching. This prepares you for a future where personalized support is just a click away.",
-      "mnemonic": "Coach Your Future"
-    },
-    "quiz": [
-      {
-        "q": "What does DraftAI primarily assist with?",
-        "options": [
-          "Coding",
-          "Writing",
-          "Research",
-          "Automation"
-        ],
-        "answer": 1,
-        "funFact": "DraftAI can adapt to various writing styles, making it versatile for different projects!"
-      },
-      {
-        "q": "How much time can Email Organizer Pro save you weekly?",
-        "options": [
-          "1 hour",
-          "2 hours",
-          "5 hours",
-          "No time"
-        ],
-        "answer": 1,
-        "funFact": "With less time spent on emails, you can focus on more important tasks or take a well-deserved break!"
-      },
-      {
-        "q": "What is the main purpose of today's prompt?",
-        "options": [
-          "To analyze data",
-          "To brainstorm ideas",
-          "To schedule tasks",
-          "To automate emails"
-        ],
-        "answer": 1,
-        "funFact": "Brainstorming with prompts can lead to unexpected and exciting creative breakthroughs!"
-      }
-    ]
-  },
-  "travel": {
-    "destination": {
-      "country": "Italy",
-      "region": "Tuscany",
-      "eli5": "Imagine rolling hills covered in vineyards and olive groves. Picture charming villages with cobblestone streets. The air smells like herbs and fresh bread. Tuscany is like a painting come to life.",
-      "bestTime": "The best time to visit is spring or early fall. The weather is mild and the countryside is vibrant.",
-      "hiddenGem": "Visit the small town of Pienza. It’s famous for its pecorino cheese and fewer tourists.",
-      "mnemonic": "Tuscany: Tasty, Unique, Scenic, Calm, Amazing, Natural, Yummy."
-    },
-    "visaTip": {
-      "focus": "Tourist visa for Italy",
-      "eli5": "If you have an Indian passport, apply for a Schengen visa. You can do this at the Italian consulate. Make sure to have travel insurance and book your stay before applying.",
-      "goldenTip": "Start your application early; it can take time. Double-check all documents to avoid delays.",
-      "mnemonic": "Visa: Verify, Insure, Submit, Await."
-    },
-    "culturalCode": {
-      "culture": "Italians love food and family.",
-      "doThis": "Enjoy meals slowly and savor each bite. Sharing food is a way to bond with locals.",
-      "neverDoThis": "Don’t rush through your meal or ask for modifications. It’s considered rude.",
-      "mnemonic": "Culture: Care, Understand, Love, Traditions."
-    },
-    "quiz": [
-      {
-        "q": "What is the capital of Italy?",
-        "options": [
-          "A) Milan",
-          "B) Rome",
-          "C) Florence",
-          "D) Venice"
-        ],
-        "answer": 1,
-        "funFact": "Rome is known as the 'Eternal City' and has a history spanning over 2,500 years."
-      },
-      {
-        "q": "What famous landmark is found in Tuscany?",
-        "options": [
-          "A) Leaning Tower of Pisa",
-          "B) Colosseum",
-          "C) Vatican City",
-          "D) Trevi Fountain"
-        ],
-        "answer": 0,
-        "funFact": "The Leaning Tower of Pisa took nearly 200 years to complete and started sinking during construction."
-      },
-      {
-        "q": "What is pecorino cheese made from?",
-        "options": [
-          "A) Cow's milk",
-          "B) Goat's milk",
-          "C) Sheep's milk",
-          "D) Buffalo's milk"
-        ],
-        "answer": 2,
-        "funFact": "Pecorino cheese is traditionally made from sheep's milk and is a staple in Tuscan cuisine."
-      }
-    ]
-  }
-}
-
-const d260612 = {
+const d0612 = {
 news: {
     segments: [
       {
@@ -2035,7 +661,7 @@ news: {
   }
 }
 
-const d260613 = {
+const d0613 = {
 news: {
     segments: [
       {
@@ -2414,1390 +1040,7 @@ news: {
   }
 }
 
-const d260614 = {
-  "news": {
-    "segments": [
-      {
-        "name": "🌐 What's happening with countries?",
-        "color": "#a0d4f5",
-        "stories": [
-          {
-            "headline": "France and Germany strengthen ties over climate action",
-            "eli5": "Imagine two friends deciding to plant a garden together. They share tools and seeds to grow something beautiful. France and Germany are teaming up to tackle climate change. Together, they believe they can make a bigger impact.",
-            "whyItMatters": "This partnership could inspire other countries to work together on global issues.",
-            "mnemonic": "French-German Garden"
-          },
-          {
-            "headline": "Tensions rise between India and Pakistan over border disputes",
-            "eli5": "Think of two kids arguing over a toy in a sandbox. They both want the same space, and it leads to a bigger fight. India and Pakistan are struggling over land that both claim as theirs. This could affect peace in the region.",
-            "whyItMatters": "Increased tensions could lead to conflict, affecting millions of lives.",
-            "mnemonic": "Sandbox Standoff"
-          },
-          {
-            "headline": "Brazil announces new conservation laws for the Amazon",
-            "eli5": "Picture a big treehouse that everyone loves, but some people want to cut the trees down. Brazil wants to protect its Amazon rainforest, like keeping that treehouse safe. New laws will help preserve this vital ecosystem. It's like giving the forest a shield.",
-            "whyItMatters": "Protecting the Amazon is crucial for our planet's health.",
-            "mnemonic": "Amazon Treehouse"
-          }
-        ]
-      },
-      {
-        "name": "💸 What's happening with money?",
-        "color": "#a8edcb",
-        "stories": [
-          {
-            "headline": "Bitcoin hits an all-time high again",
-            "eli5": "Imagine a rare collectible toy that everyone suddenly wants. The price skyrockets! Bitcoin is like that toy, and today it’s worth more than ever. Investors are excited about its potential.",
-            "whyItMatters": "Higher Bitcoin prices can influence the whole economy.",
-            "mnemonic": "Bitcoin Balloon"
-          },
-          {
-            "headline": "Inflation rates stabilize in the US",
-            "eli5": "Think of a balloon that’s finally stopped growing. After years of inflation, prices are steady, like the balloon staying the same size. This gives people more confidence in spending. Stability is good for everyone.",
-            "whyItMatters": "Stable prices help families budget better.",
-            "mnemonic": "Steady Balloon"
-          },
-          {
-            "headline": "New tax reforms proposed in Europe",
-            "eli5": "Imagine a club deciding to change its membership rules. Everyone has a say in what’s fair. Europe is discussing new tax rules that could affect how people and businesses pay. It’s like reworking the club's guidelines.",
-            "whyItMatters": "Tax changes can impact the economy and people's lives.",
-            "mnemonic": "Club Rule Changes"
-          }
-        ]
-      },
-      {
-        "name": "💻 What's happening with technology?",
-        "color": "#c9b8f5",
-        "stories": [
-          {
-            "headline": "New AI tool helps detect misinformation",
-            "eli5": "Imagine a superhero with a magnifying glass who finds hidden truths. A new AI is like that superhero, helping people spot lies online. It’s designed to keep information accurate. This could change how we trust news.",
-            "whyItMatters": "Fighting misinformation is crucial for informed societies.",
-            "mnemonic": "Truth-Seeking Superhero"
-          },
-          {
-            "headline": "Breakthrough in quantum computing announced",
-            "eli5": "Think of a magic box that can solve puzzles faster than any human. Quantum computers are like that magic box, able to tackle complex problems quickly. This breakthrough means we could solve big challenges soon. It’s like finding a shortcut in a maze.",
-            "whyItMatters": "Quantum computing has the potential to revolutionize many fields.",
-            "mnemonic": "Magic Puzzle Box"
-          }
-        ]
-      },
-      {
-        "name": "🌿 What's happening with our planet?",
-        "color": "#f5c6a0",
-        "stories": [
-          {
-            "headline": "New initiatives to clean the oceans launched",
-            "eli5": "Imagine a group of kids getting together to clean up a messy playground. They want to make it beautiful again. New ocean cleanup projects are like that, aiming to remove plastic and waste. It’s about saving marine life.",
-            "whyItMatters": "Cleaner oceans are vital for the health of our planet.",
-            "mnemonic": "Playground Cleanup Crew"
-          },
-          {
-            "headline": "Record temperatures reported in Antarctica",
-            "eli5": "Think of a giant ice cream cone melting on a hot day. Antarctica is experiencing unusually high temperatures, causing ice to melt. This is a warning for climate change. It shows how our planet is warming up.",
-            "whyItMatters": "Melting ice affects sea levels worldwide.",
-            "mnemonic": "Melting Ice Cream Cone"
-          }
-        ]
-      }
-    ],
-    "quiz": [
-      {
-        "q": "What country is partnering with France for climate action?",
-        "options": [
-          "A) Italy",
-          "B) Germany",
-          "C) Spain",
-          "D) Belgium"
-        ],
-        "answer": 1,
-        "funFact": "Germany and France are part of the EU, which focuses on environmental issues."
-      },
-      {
-        "q": "What technology helps fight misinformation?",
-        "options": [
-          "A) Social Media",
-          "B) AI Tool",
-          "C) Newsletters",
-          "D) Blogs"
-        ],
-        "answer": 1,
-        "funFact": "AI tools are becoming essential in maintaining information accuracy."
-      },
-      {
-        "q": "What is happening to temperatures in Antarctica?",
-        "options": [
-          "A) They are decreasing",
-          "B) They are stable",
-          "C) They are increasing",
-          "D) They are fluctuating"
-        ],
-        "answer": 2,
-        "funFact": "Record temperatures in Antarctica are alarming scientists worldwide."
-      }
-    ]
-  },
-  "markets": {
-    "globalPulse": {
-      "eli5": "Imagine global markets as a river flowing steadily. Today, some currents are strong, pushing stocks higher, while others create eddies that slow things down. The S&P500 is like a big boat navigating these waters, while oil prices create waves that ripple through everything. Gold acts like a life jacket, providing stability in choppy waters.",
-      "keyThings": [
-        "S&P500: The index is gaining momentum, driven by tech stocks, making investors optimistic.",
-        "Brent crude: Prices are fluctuating due to geopolitical tensions, creating uncertainty in the energy sector.",
-        "Gold: Seeing a rise as investors seek safety amid market fluctuations.",
-        "Nifty: The Indian index is reflecting global trends, with strong performances from major sectors."
-      ]
-    },
-    "indianMarket": {
-      "eli5": "Think of the Indian market like a busy bazaar. Traders are bustling around, some stalls are thriving while others are quiet. Exciting deals are happening, but not all vendors are trustworthy.",
-      "breakouts": [
-        {
-          "name": "NSE:TCS — Tata Consultancy Services",
-          "whyExciting": "TCS is showcasing a new tech solution that has caught everyone's eye. Investors are eager to see how this will boost profits.",
-          "risk": "Competition in the tech sector is fierce, which could affect growth."
-        },
-        {
-          "name": "NSE:RELIANCE — Reliance Industries",
-          "whyExciting": "Reliance is expanding into renewable energy, attracting eco-conscious investors. This move could set it apart in the market.",
-          "risk": "High initial costs might slow down returns in the short term."
-        },
-        {
-          "name": "NSE:INFY — Infosys",
-          "whyExciting": "Infosys just landed a major contract with a global firm, boosting confidence in its future. It's seen as a sign of strong demand for services.",
-          "risk": "Economic downturns could impact client spending."
-        }
-      ],
-      "ipoSpot": {
-        "name": "N/A",
-        "verdict": "None active",
-        "eli5": "There are no new IPOs to consider today. It’s a quiet time in the bazaar for fresh stocks."
-      },
-      "lessonOfDay": {
-        "title": "The Power of Patience",
-        "story": "Investing is like waiting for a fruit tree to bear fruit. You plant the seeds and care for them, but it takes time for them to grow. Rushing can lead to picking unripe fruit, which is not sweet. Be patient and let your investments mature.",
-        "mnemonic": "Remember: Good things take time, like wine aging."
-      }
-    },
-    "quiz": [
-      {
-        "q": "What is driving the S&P500's performance today?",
-        "options": [
-          "Tech stocks",
-          "Energy prices",
-          "Consumer goods",
-          "Real estate"
-        ],
-        "answer": 0,
-        "funFact": "Tech stocks often lead market trends, influencing investor sentiment."
-      },
-      {
-        "q": "What is the current trend in gold prices?",
-        "options": [
-          "Rising",
-          "Falling",
-          "Stable",
-          "Unpredictable"
-        ],
-        "answer": 1,
-        "funFact": "Gold often rises during market uncertainty, acting as a safe haven."
-      },
-      {
-        "q": "Which company is expanding into renewable energy?",
-        "options": [
-          "TCS",
-          "Reliance",
-          "Infosys",
-          "HDFC"
-        ],
-        "answer": 1,
-        "funFact": "Renewable energy is a growing sector, attracting significant investment."
-      }
-    ]
-  },
-  "psychology": {
-    "mindTrick": {
-      "name": "The Anchoring Effect",
-      "eli5": "Imagine you see a shirt for $100. Then, you see another one for $50. The $50 shirt seems like a great deal because of the first price. Your brain is 'anchored' to the higher number.",
-      "realLife": "This trick happens in sales. Businesses often show a high price first to make discounts feel bigger.",
-      "mnemonic": "Anchor your thoughts to higher numbers for surprise savings."
-    },
-    "bodyLanguage": {
-      "signal": "The Power Pose",
-      "eli5": "When you stand tall with your hands on your hips, it feels like you're a superhero. This pose can make you feel more confident. It’s like flipping a switch to boost your mood.",
-      "howToUse": "Use this pose before a big meeting or event to feel stronger. Remember, your body can change your mind!",
-      "mnemonic": "Stand tall, feel small doubts fall."
-    },
-    "superpower": {
-      "name": "Empathy",
-      "story": "Imagine a girl named Mia. One day, she sees her friend crying. Instead of just saying 'cheer up,' she sits beside her and listens. This makes her friend feel understood and supported, like a warm hug for the heart.",
-      "shield": "Empathy protects us from misunderstandings. It helps build strong connections with others.",
-      "mnemonic": "Empathy is a bridge, not a wall."
-    },
-    "quiz": [
-      {
-        "q": "What does the Anchoring Effect influence?",
-        "options": [
-          "Pricing decisions",
-          "Physical strength",
-          "Sleep patterns",
-          "Color preferences"
-        ],
-        "answer": 0,
-        "funFact": "Anchoring can even affect how we judge time!"
-      },
-      {
-        "q": "What does a Power Pose help boost?",
-        "options": [
-          "Confidence",
-          "Happiness",
-          "Creativity",
-          "Memory"
-        ],
-        "answer": 1,
-        "funFact": "Standing tall can actually lower stress hormones!"
-      },
-      {
-        "q": "What is the main benefit of empathy?",
-        "options": [
-          "Stronger muscles",
-          "Better communication",
-          "Improved grades",
-          "Faster running"
-        ],
-        "answer": 1,
-        "funFact": "Empathy can improve teamwork and collaboration."
-      }
-    ]
-  },
-  "leadership": {
-    "leaderMove": {
-      "name": "Nelson Mandela",
-      "story": "Nelson Mandela spent 27 years in prison. He dreamed of a united South Africa. When he was finally free, he chose forgiveness over revenge. His leadership brought hope and change.",
-      "doThis": "Embrace challenges like Mandela did. Turn obstacles into opportunities for growth.",
-      "mnemonic": "M-P-F: Mandela's Path Forward."
-    },
-    "visionarySecret": {
-      "concept": "The Power of Perspective",
-      "eli5": "Imagine looking through a telescope at the stars. You see the bigger picture, not just one tiny dot. A leader's vision is like that telescope, helping others see where they can go. It broadens everyone's view and inspires action.",
-      "exercise": "Spend time each week reflecting on your long-term goals. Write them down and visualize them like you’re looking through that telescope.",
-      "mnemonic": "T-S-V: Telescope, Stars, Vision."
-    },
-    "eliteHabit": {
-      "habit": "Daily Reflection",
-      "whoAndHow": "Oprah Winfrey practices daily reflection by journaling. She spends time each morning writing about gratitude and her goals.",
-      "whyItWorks": "This habit boosts self-awareness and clarity. It helps leaders stay focused on what truly matters.",
-      "mnemonic": "R-J-G: Reflect, Journal, Grow."
-    },
-    "sigmaWisdom": {
-      "lesson": "The strength of resilience.",
-      "story": "A tree bends in the wind but does not break. It adapts and grows stronger. Like that tree, we must learn to withstand life's storms.",
-      "action": "Cultivate resilience by embracing change.",
-      "mnemonic": "R-B-S: Resilience, Bend, Stand."
-    },
-    "quiz": [
-      {
-        "q": "What did Mandela choose instead of revenge?",
-        "options": [
-          "Forgiveness",
-          "Anger",
-          "Silence",
-          "Indifference"
-        ],
-        "answer": 0,
-        "funFact": "Mandela's approach inspired many leaders around the world."
-      },
-      {
-        "q": "What is the purpose of daily reflection?",
-        "options": [
-          "To complain",
-          "To forget",
-          "To gain clarity",
-          "To distract"
-        ],
-        "answer": 2,
-        "funFact": "Daily reflection can significantly improve decision-making."
-      },
-      {
-        "q": "What does looking through a telescope help you do?",
-        "options": [
-          "See close things",
-          "Focus on details",
-          "Understand the bigger picture",
-          "Ignore the stars"
-        ],
-        "answer": 2,
-        "funFact": "A clear vision is crucial for effective leadership."
-      }
-    ]
-  },
-  "wealth": {
-    "wealthSecret": {
-      "name": "The Seed of Wealth",
-      "story": "Imagine planting a seed in rich soil. With care and time, it grows into a mighty tree. The tree bears fruit, just like investments can bear wealth. Nurture your finances, and watch them flourish.",
-      "action": "Start saving a small amount today. Let it grow over time like a tree reaching for the sky.",
-      "mnemonic": "Plant, nurture, grow."
-    },
-    "moneyMachine": {
-      "type": "Passive Income Generator",
-      "eli5": "Think of it as a magic vending machine. You put in a little effort and money, and it keeps giving you returns. Just like getting candy without asking for it every time.",
-      "indiaAngle": "In India, real estate can be a great passive income source. Renting out a room is like having a mini-vending machine at home.",
-      "mnemonic": "Invest, receive, repeat."
-    },
-    "mindsetFlip": {
-      "oldThinking": "Money is hard to earn and easy to lose.",
-      "newThinking": "Money can grow when managed wisely.",
-      "why": "Changing your mindset is like switching on a light in a dark room. Once you see the possibilities, you can find new paths to wealth.",
-      "mnemonic": "Earn, grow, secure."
-    },
-    "magicNumber": {
-      "number": "The 50/30/20 Rule",
-      "eli5": "Imagine slicing a pizza into three parts. One part is for needs, another for wants, and the last for savings. This helps keep your finances balanced and delicious!",
-      "mnemonic": "Slice, share, save."
-    },
-    "quiz": [
-      {
-        "q": "What is the first step in building wealth?",
-        "options": [
-          "Start saving",
-          "Spend freely",
-          "Ignore finances",
-          "Borrow money"
-        ],
-        "answer": 0,
-        "funFact": "Even small savings can grow into a large nest egg over time."
-      },
-      {
-        "q": "How does passive income work?",
-        "options": [
-          "You work hard every day",
-          "Money works for you",
-          "You have to spend a lot",
-          "It's just luck"
-        ],
-        "answer": 1,
-        "funFact": "Passive income can lead to financial freedom, letting you enjoy life while your money grows."
-      },
-      {
-        "q": "What mindset shift is important for wealth?",
-        "options": [
-          "Money is scarce",
-          "I can grow my money",
-          "Save everything",
-          "Investing is risky"
-        ],
-        "answer": 1,
-        "funFact": "Believing in your ability to grow wealth opens up new opportunities."
-      }
-    ]
-  },
-  "communication": {
-    "speakingSkill": {
-      "name": "Storytelling",
-      "story": "Think about Martin Luther King Jr. He captivated crowds with his stories. His famous 'I Have a Dream' speech painted vivid pictures. People felt what he felt, and that sparked change.",
-      "drill": "Practice telling a personal story. Focus on emotions and details to connect with your audience.",
-      "mnemonic": "SPEAK - Story, Passion, Emotion, Audience, Knowledge."
-    },
-    "negotiationMove": {
-      "tactic": "The 'Give and Take' Approach",
-      "eli5": "Imagine trading your peanut butter sandwich for a friend's jelly sandwich at lunch. You both get something you like, and everyone is happy. It’s about sharing to get what you want.",
-      "script": "Let's find a way where we both gain something. How about I offer this if you can do that?",
-      "mnemonic": "GIVE - Gain, Invite, Value, Engage."
-    },
-    "officeWin": {
-      "rule": "Be a Good Listener",
-      "story": "Once, two coworkers had a disagreement. One listened carefully and asked questions. The other just wanted to talk. The first one built a bridge, while the second one built a wall.",
-      "mistake": "Ignoring others' opinions can backfire.",
-      "mnemonic": "LISTEN - Learn, Interpret, Speak, Tune, Engage, Navigate."
-    },
-    "confidenceHack": {
-      "technique": "Power Posing",
-      "science": "Standing tall changes your body's chemistry. It boosts your confidence like a superhero ready for action.",
-      "doItNow": "Before a big moment, strike a power pose for two minutes. Feel the strength flow through you.",
-      "mnemonic": "POSE - Power, Open, Strong, Energized."
-    },
-    "quiz": [
-      {
-        "q": "What is the key to effective storytelling?",
-        "options": [
-          "Facts",
-          "Data",
-          "Emotions",
-          "Length"
-        ],
-        "answer": 2,
-        "funFact": "Stories with emotions stick better in our memories!"
-      },
-      {
-        "q": "What does 'Give and Take' in negotiation mean?",
-        "options": [
-          "One person wins",
-          "Both share",
-          "No one wins",
-          "Only money matters"
-        ],
-        "answer": 1,
-        "funFact": "Good negotiators often find creative solutions where everyone can benefit."
-      },
-      {
-        "q": "Why is listening important in the office?",
-        "options": [
-          "To ignore others",
-          "To build relationships",
-          "To be loud",
-          "To finish quickly"
-        ],
-        "answer": 1,
-        "funFact": "Listening can lead to better teamwork and fewer conflicts!"
-      }
-    ]
-  },
-  "mind": {
-    "brainHack": {
-      "name": "Wild Horse Taming",
-      "eli5": "Imagine your mind is like a wild horse. If you let it run free, it can race in any direction. But if you learn to guide it, you can ride it wherever you want. Taming it takes patience, just like training your brain.",
-      "protocol": "Start each morning with five minutes of deep breathing. Then, write down three things you want to focus on that day. Keep this list visible.",
-      "mnemonic": "Breathe, Write, Focus."
-    },
-    "disciplineCode": {
-      "principle": "Small steps lead to big victories.",
-      "story": "There once was a young archer who dreamed of being the best. Every day, he practiced for just ten minutes, even when it rained. Over time, his skills grew, and he became a champion.",
-      "todayAction": "Spend just ten minutes today on a skill you want to improve. Consistency will build your mastery.",
-      "mnemonic": "Ten Minutes to Mastery."
-    },
-    "impulseKiller": {
-      "urge": "snacking when bored",
-      "eli5": "Think of your mind as a monster that gets hungry for attention. If you feed it with snacks, it keeps asking for more.",
-      "interrupt": "When you feel the urge to snack, take a quick walk or drink a glass of water. This shifts your focus and calms the monster.",
-      "mnemonic": "Walk or Water."
-    },
-    "bodyUpgrade": {
-      "practice": "Try a daily five-minute stretch routine.",
-      "eli5": "Just like a rubber band, your body needs to be flexible. Stretching keeps it limber and ready for action.",
-      "minimumDose": "Do this routine each morning for five minutes.",
-      "mnemonic": "Stretch for Strength."
-    },
-    "quiz": [
-      {
-        "q": "What is the main idea of the brain hack?",
-        "options": [
-          "Taming your mind",
-          "Running wild",
-          "Ignoring thoughts",
-          "Daydreaming"
-        ],
-        "answer": 0,
-        "funFact": "Taming your mind can lead to better focus and productivity!"
-      },
-      {
-        "q": "What did the young archer practice?",
-        "options": [
-          "For hours every day",
-          "Only on weekends",
-          "Ten minutes daily",
-          "Not at all"
-        ],
-        "answer": 1,
-        "funFact": "Consistent practice, even in small amounts, can lead to great improvement!"
-      },
-      {
-        "q": "What should you do when you feel the urge to snack?",
-        "options": [
-          "Ignore it",
-          "Watch TV",
-          "Take a walk",
-          "Call a friend"
-        ],
-        "answer": 2,
-        "funFact": "Physical activity can help distract your mind from cravings."
-      }
-    ]
-  },
-  "knowledge": {
-    "mathMagic": {
-      "concept": "Probability",
-      "eli5": "Imagine you have a bag of candy. If you want to guess what color you will pull out, that's like probability! If there are 3 red and 2 blue candies, you have a better chance of pulling out red. It's like guessing which toy will come out of a mystery box!",
-      "realWorldUse": "In finance, probability helps investors predict market trends. In sports, coaches use it to decide the best strategies based on players' performances.",
-      "mnemonic": "P=Good Guessers Make Money"
-    },
-    "scienceWow": {
-      "field": "Astronomy",
-      "concept": "Black Holes",
-      "eli5": "Black holes are like giant vacuum cleaners in space! They pull everything nearby into a deep hole where even light can't escape. Imagine a whirlpool in the ocean, but much, much stronger. They make scientists scratch their heads and dream big!",
-      "mindBlow": "There are black holes that are millions of times heavier than the sun! They make up a large part of our universe's mystery.",
-      "mnemonic": "B=Big Vacuum Cleaners"
-    },
-    "historyStory": {
-      "event": "The Moon Landing",
-      "story": "In 1969, humans set foot on the moon for the first time. Neil Armstrong took a giant leap, leaving footprints on the dusty surface. It was an epic race between nations, filled with excitement and fear. The world held its breath as they watched history unfold on their screens!",
-      "lesson": "Dreams can turn into reality with teamwork and dedication. Never underestimate the power of human curiosity.",
-      "mnemonic": "M=Moonwalkers Unite"
-    },
-    "earthSecret": {
-      "place": "Australia",
-      "secret": "Australia is home to the Great Barrier Reef, the largest living structure on Earth! It's so big, it can be seen from space. This underwater paradise is filled with vibrant corals and colorful fish, making it a natural wonder.",
-      "edge": "Knowing about the reef helps us understand our planet's biodiversity. Protecting it is crucial for future generations and the health of our oceans.",
-      "mnemonic": "G=Great Barrier Reef"
-    },
-    "quiz": [
-      {
-        "q": "What color has a higher chance of being pulled from a bag with 3 red and 2 blue candies?",
-        "options": [
-          "Red",
-          "Blue",
-          "Green",
-          "Yellow"
-        ],
-        "answer": 0,
-        "funFact": "Red candies are the most popular choice among candy lovers!"
-      },
-      {
-        "q": "What is the main feature of a black hole?",
-        "options": [
-          "It shines brightly",
-          "It pulls in everything",
-          "It is colorful",
-          "It floats"
-        ],
-        "answer": 1,
-        "funFact": "Black holes can warp space and time around them!"
-      },
-      {
-        "q": "Who was the first person to walk on the moon?",
-        "options": [
-          "Buzz Aldrin",
-          "Neil Armstrong",
-          "Michael Collins",
-          "Yuri Gagarin"
-        ],
-        "answer": 1,
-        "funFact": "Neil Armstrong's famous words were 'That's one small step for man, one giant leap for mankind.'"
-      }
-    ]
-  },
-  "ai": {
-    "toolSpotlight": {
-      "name": "StoryWeaver",
-      "category": "creative",
-      "eli5": "Imagine a magic robot that helps you spin tales. You give it a few ideas, and it weaves them into a story. It's like having a co-author who never runs out of creativity.",
-      "secretMove": "Try starting your story in the middle. The tool can help you build the beginning and end, making your plot more exciting.",
-      "mnemonic": "Weave stories, not just words."
-    },
-    "workflowWin": {
-      "title": "Email Organizer Pro",
-      "problem": "Sorting through a cluttered inbox can feel like digging through a mountain of laundry. This tool automatically sorts and prioritizes emails for you.",
-      "steps": [
-        "Connect your email account.",
-        "Customize your sorting rules.",
-        "Let it scan your inbox.",
-        "Watch your emails organized effortlessly."
-      ],
-      "timeSaved": "You could save up to an hour each week.",
-      "mnemonic": "Sort emails, free time."
-    },
-    "promptOfDay": {
-      "purpose": "This prompt helps generate creative ideas for your next project.",
-      "prompt": "Generate five unique ideas for [PROJECT TYPE] that incorporates [THEME].",
-      "where": "Claude / ChatGPT / Gemini",
-      "mnemonic": "Ideas bloom from prompts."
-    },
-    "futureWatch": {
-      "trend": "AI-driven personal assistants are becoming more advanced.",
-      "eli5": "Think of a simple assistant that reminds you of tasks. Now imagine it predicting what you'll need before you even ask. Soon, it will manage your entire day, making life smoother.",
-      "yourMove": "Start using AI tools to manage your daily tasks. Experiment with different assistants to find what fits your style.",
-      "mnemonic": "Assistants evolve, so should you."
-    },
-    "quiz": [
-      {
-        "q": "What does StoryWeaver specialize in?",
-        "options": [
-          "Coding",
-          "Creative writing",
-          "Research",
-          "Email management"
-        ],
-        "answer": 1,
-        "funFact": "Creative writing tools are designed to spark imagination and overcome writer's block."
-      },
-      {
-        "q": "How much time can Email Organizer Pro save you?",
-        "options": [
-          "30 minutes",
-          "1 hour",
-          "2 hours",
-          "None"
-        ],
-        "answer": 1,
-        "funFact": "Organizing emails can significantly boost productivity and reduce stress."
-      },
-      {
-        "q": "What is the purpose of today's prompt?",
-        "options": [
-          "To summarize texts",
-          "To generate creative ideas",
-          "To schedule meetings",
-          "To analyze data"
-        ],
-        "answer": 1,
-        "funFact": "Prompts can help unlock new ideas and perspectives in your projects."
-      }
-    ]
-  },
-  "travel": {
-    "destination": {
-      "country": "Japan",
-      "region": "Kanto",
-      "eli5": "Imagine stepping into a world where ancient temples meet futuristic skyscrapers. In Tokyo, you can experience the buzz of the city and the calm of serene gardens. The cherry blossoms in spring make it a postcard-perfect place. You'll find a delicious mix of traditional and modern culture everywhere you look.",
-      "bestTime": "The best time to visit is during spring for the cherry blossoms or in autumn for the beautiful foliage. Each season offers a unique charm.",
-      "hiddenGem": "Visit Yanaka, a neighborhood that feels like old Tokyo. It’s quiet, with charming streets and local shops that most tourists overlook.",
-      "mnemonic": "TASTY - Tokyo's Ancient Shrines, Towering skyscrapers, Yummy food."
-    },
-    "visaTip": {
-      "focus": "Short-term tourist visa for Indian passport holders",
-      "eli5": "Apply for a visa online before your trip. You'll need your passport, photos, and travel plans. Make sure to apply at least a month in advance.",
-      "goldenTip": "Double-check the visa requirements as they can change. Having a local contact or hotel reservation can help your application.",
-      "mnemonic": "VISA - Verify Information, Submit Application."
-    },
-    "culturalCode": {
-      "culture": "Japan values respect and politeness above all.",
-      "doThis": "Bow slightly when greeting someone; it shows respect. Try speaking a few words in Japanese, like 'arigato' for thank you.",
-      "neverDoThis": "Avoid tipping; it's not a common practice and can be seen as rude. Don’t point at people; use your whole hand to gesture instead.",
-      "mnemonic": "RESPECT - Remember Etiquette, Show Politeness, Encourage Communication, Treat everyone kindly."
-    },
-    "quiz": [
-      {
-        "q": "What is the famous flower that blooms in Japan during spring?",
-        "options": [
-          "Tulip",
-          "Cherry Blossom",
-          "Rose",
-          "Daisy"
-        ],
-        "answer": 1,
-        "funFact": "Cherry blossoms are celebrated with festivals across Japan."
-      },
-      {
-        "q": "Which Tokyo district is known for its shopping and pop culture?",
-        "options": [
-          "Shibuya",
-          "Asakusa",
-          "Akihabara",
-          "Ginza"
-        ],
-        "answer": 2,
-        "funFact": "Akihabara is the heart of anime and manga culture in Japan."
-      },
-      {
-        "q": "What traditional Japanese dish is made of vinegared rice?",
-        "options": [
-          "Ramen",
-          "Sushi",
-          "Tempura",
-          "Sashimi"
-        ],
-        "answer": 1,
-        "funFact": "Sushi can be a work of art, with chefs training for years to perfect their craft."
-      }
-    ]
-  }
-}
-
-const d260615 = {
-  "news": {
-    "segments": [
-      {
-        "name": "🌐 What's happening with countries?",
-        "color": "#a0d4f5",
-        "stories": [
-          {
-            "headline": "Global leaders meet to discuss climate action.",
-            "eli5": "Imagine a big family meeting where everyone decides to save more money. They talk about how to share chores better. In this case, countries are sharing ideas on how to help the planet. It’s like teamwork for Earth.",
-            "whyItMatters": "If countries work together, we can tackle climate change more effectively.",
-            "mnemonic": "Think of a 'Green Family Reunion'!"
-          },
-          {
-            "headline": "New trade agreements spark economic growth.",
-            "eli5": "Think of a lemonade stand. If you trade lemonade for cookies, you both get to enjoy more treats. Countries are trading goods to help each other out. This makes everyone’s economy a bit sweeter.",
-            "whyItMatters": "Stronger trade means more jobs and better products for everyone.",
-            "mnemonic": "Remember 'Cookies for Lemonade!'"
-          },
-          {
-            "headline": "Tensions rise over border disputes.",
-            "eli5": "Picture two kids arguing over who gets to play on a swing. Countries sometimes argue over land, just like that. It can lead to fights or, hopefully, peaceful talks. Finding a solution is like sharing the swing.",
-            "whyItMatters": "Peaceful resolutions can help avoid conflicts and keep regions stable.",
-            "mnemonic": "Think 'Swing Sharing Negotiation!'"
-          }
-        ]
-      },
-      {
-        "name": "💸 What's happening with money?",
-        "color": "#a8edcb",
-        "stories": [
-          {
-            "headline": "Inflation rates stabilize in major economies.",
-            "eli5": "Imagine a balloon that keeps getting bigger and bigger. Inflation is like that balloon. When it stops getting bigger, it makes everyone feel more secure. It means prices won’t change as much.",
-            "whyItMatters": "Stable prices help people plan their budgets better.",
-            "mnemonic": "Remember 'Balloon Balance!'"
-          },
-          {
-            "headline": "Cryptocurrency markets show signs of recovery.",
-            "eli5": "Think of a roller coaster. Cryptocurrency values go up and down, just like when you drop down a steep hill. Right now, they’re climbing back up after a big drop. It’s exciting and a bit scary.",
-            "whyItMatters": "Recovery in crypto can mean new investment opportunities.",
-            "mnemonic": "Picture 'Crypto Coaster Ride!'"
-          },
-          {
-            "headline": "New financial regulations announced to protect consumers.",
-            "eli5": "Imagine a playground with safety rules. These rules keep everyone safe while they play. New financial regulations are like those rules, making sure people’s money is protected.",
-            "whyItMatters": "Better regulations help build trust in financial systems.",
-            "mnemonic": "Think 'Safe Playground for Money!'"
-          }
-        ]
-      },
-      {
-        "name": "💻 What's happening with technology?",
-        "color": "#c9b8f5",
-        "stories": [
-          {
-            "headline": "Breakthrough in AI technology announced.",
-            "eli5": "Imagine a robot that learns to ride a bike. This new AI is like that robot, getting smarter every day. It can help in many areas, like healthcare or education. It’s like having a super-smart assistant.",
-            "whyItMatters": "Advancements in AI can improve efficiency and innovation.",
-            "mnemonic": "Think 'Smart Bike-Riding Robot!'"
-          },
-          {
-            "headline": "New cybersecurity measures launched.",
-            "eli5": "Picture your home with a strong lock on the door. Cybersecurity is like that lock for your digital life. New measures are making it harder for bad guys to get in. It’s all about keeping your information safe.",
-            "whyItMatters": "Stronger security keeps personal data protected.",
-            "mnemonic": "Remember 'Digital Lock and Key!'"
-          }
-        ]
-      },
-      {
-        "name": "🌿 What's happening with our planet?",
-        "color": "#f5c6a0",
-        "stories": [
-          {
-            "headline": "New conservation efforts launched to protect endangered species.",
-            "eli5": "Think of a superhero team saving animals. Conservation efforts are like that team, working hard to protect animals that are in danger. It’s about saving these creatures for future generations.",
-            "whyItMatters": "Protecting biodiversity is crucial for a healthy ecosystem.",
-            "mnemonic": "Picture 'Animal Superhero Squad!'"
-          },
-          {
-            "headline": "Rising sea levels threaten coastal cities.",
-            "eli5": "Imagine a bathtub filling up with water. If it overflows, things get wet and messy. Rising sea levels are like that, putting coastal cities at risk. It’s a warning for us to take action.",
-            "whyItMatters": "Addressing climate change can help protect these vulnerable areas.",
-            "mnemonic": "Think 'Bathtub Overflow Alert!'"
-          }
-        ]
-      }
-    ],
-    "quiz": [
-      {
-        "q": "What did global leaders discuss recently?",
-        "options": [
-          "Climate action",
-          "Sports",
-          "Fashion",
-          "Technology"
-        ],
-        "answer": 0,
-        "funFact": "Teamwork can lead to amazing changes for the planet!"
-      },
-      {
-        "q": "What is a common effect of inflation?",
-        "options": [
-          "Stable prices",
-          "Higher prices",
-          "Lower prices",
-          "No change"
-        ],
-        "answer": 1,
-        "funFact": "Inflation can affect everything from groceries to gas prices!"
-      },
-      {
-        "q": "What does cybersecurity protect?",
-        "options": [
-          "Your house",
-          "Your car",
-          "Your digital life",
-          "Your garden"
-        ],
-        "answer": 2,
-        "funFact": "Just like a lock on your door, good cybersecurity keeps your information safe!"
-      }
-    ]
-  },
-  "markets": {
-    "globalPulse": {
-      "eli5": "Think of global markets like a river. Sometimes it's calm and flows steadily, other times it rushes rapidly with changes. On June 15, 2026, the waters are turbulent due to reactions to new economic policies. Investors are paddling cautiously, trying to navigate the currents.",
-      "keyThings": [
-        "S&P500: A slight dip as investors worry about rising interest rates.",
-        "Brent crude: Prices surge due to supply disruptions, making oil like a hot commodity in a dry season.",
-        "Gold: Steady as a safe haven, shining like a beacon amid uncertainty.",
-        "Nifty: Up slightly, reflecting local optimism despite global jitters."
-      ]
-    },
-    "indianMarket": {
-      "eli5": "Imagine the Indian market as a bustling bazaar. Some stalls are thriving with excited shoppers while others are quiet. On this day, certain companies are catching the eye of eager buyers.",
-      "breakouts": [
-        {
-          "name": "NSE:XYZ — GreenTech Innovations",
-          "whyExciting": "They just launched a breakthrough solar product. This could change energy consumption in homes.",
-          "risk": "Competition from larger firms might overshadow them."
-        },
-        {
-          "name": "NSE:ABC — Healthy Eats Co.",
-          "whyExciting": "Sales have skyrocketed due to a new health trend. Everyone wants to eat better, and they are leading the charge.",
-          "risk": "Changing consumer preferences might affect future sales."
-        },
-        {
-          "name": "NSE:DEF — Tech Solutions Inc.",
-          "whyExciting": "They secured a major contract with the government. This could boost their visibility and revenues significantly.",
-          "risk": "Dependence on government contracts can be risky if policies change."
-        }
-      ],
-      "ipoSpot": {
-        "name": "Future Mobility Ltd.",
-        "verdict": "Apply",
-        "eli5": "This company is like a new bus in a busy city. It's all about electric vehicles, and people are excited about greener transport."
-      },
-      "lessonOfDay": {
-        "title": "Patience Pays Off",
-        "story": "Imagine planting a tree. At first, it looks small and weak. But with time and care, it grows sturdy and fruitful. Investing is similar; sometimes, waiting can bring the biggest rewards.",
-        "mnemonic": "Think of 'Wait for the Fruit'—patience leads to prosperity."
-      }
-    },
-    "quiz": [
-      {
-        "q": "What is a key factor affecting the S&P500 today?",
-        "options": [
-          "Rising interest rates",
-          "New tech innovation",
-          "Global warming",
-          "Increased tourism"
-        ],
-        "answer": 0,
-        "funFact": "Interest rates influence borrowing costs, which can affect business growth."
-      },
-      {
-        "q": "What sector is Future Mobility Ltd. focused on?",
-        "options": [
-          "Oil and gas",
-          "Electric vehicles",
-          "Fashion",
-          "Aerospace"
-        ],
-        "answer": 1,
-        "funFact": "Electric vehicles are part of a growing trend towards sustainability."
-      },
-      {
-        "q": "What risk does Tech Solutions Inc. face?",
-        "options": [
-          "High competition",
-          "Natural disasters",
-          "Seasonal sales",
-          "Employee turnover"
-        ],
-        "answer": 0,
-        "funFact": "In tech, competition is fierce and can impact a company's growth quickly."
-      }
-    ]
-  },
-  "psychology": {
-    "mindTrick": {
-      "name": "The Power of Visualization",
-      "eli5": "Imagine you want to ride a bike. Picture yourself balancing and pedaling smoothly. Your brain thinks it's real practice. This makes you more confident when you actually try it.",
-      "realLife": "Visualizing success can help reduce anxiety. Athletes often use this technique before competitions.",
-      "mnemonic": "V for Victory - Visualize to Win."
-    },
-    "bodyLanguage": {
-      "signal": "Open Palms",
-      "eli5": "Think of a puppy that shows you its paws. It's saying, 'I come in peace!' Open palms mean you are friendly. People trust you more when your hands are visible.",
-      "howToUse": "Use open palms when speaking to show honesty. It makes others feel safe and willing to listen.",
-      "mnemonic": "P for Peace - Palms Open for Trust."
-    },
-    "superpower": {
-      "name": "Empathy Amplifier",
-      "story": "Imagine a superhero who can feel what others feel. When a friend is sad, they share that sadness and help lift the weight. This connection creates strong bonds. It's like a bridge that brings people closer.",
-      "shield": "This power helps you understand others deeply. It protects against misunderstandings and builds friendships.",
-      "mnemonic": "E for Empathy - Feel to Heal."
-    },
-    "quiz": [
-      {
-        "q": "What is the main benefit of visualization?",
-        "options": [
-          "Boosts confidence",
-          "Makes you taller",
-          "Improves your memory",
-          "Helps you sleep"
-        ],
-        "answer": 0,
-        "funFact": "Many famous athletes, like Michael Phelps, use visualization techniques to enhance their performance."
-      },
-      {
-        "q": "What does open palm body language signify?",
-        "options": [
-          "Anger",
-          "Trust",
-          "Confusion",
-          "Indifference"
-        ],
-        "answer": 1,
-        "funFact": "Open body language can significantly improve your interactions and make others more receptive to you."
-      },
-      {
-        "q": "How does empathy help in relationships?",
-        "options": [
-          "Creates distance",
-          "Builds trust",
-          "Encourages arguments",
-          "Makes people feel lonely"
-        ],
-        "answer": 1,
-        "funFact": "Empathy can lead to deeper connections and better conflict resolution in relationships."
-      }
-    ]
-  },
-  "leadership": {
-    "leaderMove": {
-      "name": "Nelson Mandela",
-      "story": "Once, Nelson Mandela emerged from prison after 27 years. He didn’t seek revenge; he sought peace. With a smile, he united a divided nation. His leadership turned anger into hope.",
-      "doThis": "Embrace forgiveness in tough situations. It can turn enemies into allies.",
-      "mnemonic": "Forgive to Unite"
-    },
-    "visionarySecret": {
-      "concept": "The power of perspective.",
-      "eli5": "Imagine looking through a telescope. You see distant stars clearly, while everything close seems blurry. Visionaries use their telescope to focus on long-term goals, ignoring the noise around them. This helps them stay on track and reach their dreams.",
-      "exercise": "Spend ten minutes each day imagining your life in five years. Use this vision to guide your daily actions.",
-      "mnemonic": "Telescope Focus"
-    },
-    "eliteHabit": {
-      "habit": "Daily Reflection",
-      "whoAndHow": "Oprah Winfrey practices daily reflection by journaling her thoughts. This helps her understand her emotions and decisions.",
-      "whyItWorks": "It creates clarity and promotes self-awareness. Reflecting on our day helps us grow and make better choices.",
-      "mnemonic": "Reflect to Connect"
-    },
-    "sigmaWisdom": {
-      "lesson": "Patience is a virtue.",
-      "story": "A farmer plants seeds and waits for them to grow. He knows that rushing won’t make them sprout faster. Instead, he nurtures the soil and trusts the process.",
-      "action": "Practice patience in your projects.",
-      "mnemonic": "Grow with Time"
-    },
-    "quiz": [
-      {
-        "q": "What did Mandela prioritize after his release?",
-        "options": [
-          "Revenge",
-          "Peace",
-          "Isolation",
-          "Power"
-        ],
-        "answer": 1,
-        "funFact": "Mandela's approach showed that forgiveness can heal nations."
-      },
-      {
-        "q": "What tool helps visionaries clarify their goals?",
-        "options": [
-          "Magnifying Glass",
-          "Telescope",
-          "Mirror",
-          "Compass"
-        ],
-        "answer": 1,
-        "funFact": "A telescope allows you to see far-off dreams more clearly."
-      },
-      {
-        "q": "What habit does Oprah Winfrey practice?",
-        "options": [
-          "Meditation",
-          "Daily Reflection",
-          "Running",
-          "Cooking"
-        ],
-        "answer": 1,
-        "funFact": "Journaling helps Oprah connect with her innermost thoughts."
-      }
-    ]
-  },
-  "wealth": {
-    "wealthSecret": {
-      "name": "Compound Growth",
-      "story": "Imagine planting a tiny seed. With time, it grows into a mighty tree. Each year, it bears more fruit, which can become new seeds. This cycle continues, making the tree even bigger and stronger.",
-      "action": "Start investing small amounts regularly. Watch them grow over time like your tree.",
-      "mnemonic": "Seed to tree, grow wealth."
-    },
-    "moneyMachine": {
-      "type": "Real Estate Rental",
-      "eli5": "Think of a vending machine that gives you money when people use it. You buy the machine (or property), and others pay to use it. Every month, you collect money without doing much.",
-      "indiaAngle": "In India, renting out homes is becoming popular. With rising urbanization, more people are looking for places to live.",
-      "mnemonic": "Buy, rent, repeat."
-    },
-    "mindsetFlip": {
-      "oldThinking": "You need a big salary to get rich.",
-      "newThinking": "It's about how you manage and grow what you have.",
-      "why": "Focusing on growth can create wealth from small beginnings. Managing money wisely is more crucial than just earning more.",
-      "mnemonic": "From salary to strategy."
-    },
-    "magicNumber": {
-      "number": "The 50/30/20 Rule",
-      "eli5": "Imagine a pizza divided into three slices. One slice is for essentials, another for fun, and the last for savings. This balance helps you stay satisfied while still preparing for the future.",
-      "mnemonic": "Pizza your budget."
-    },
-    "quiz": [
-      {
-        "q": "What is the main benefit of compound growth?",
-        "options": [
-          "Instant wealth",
-          "Regular income",
-          "Long-term growth",
-          "Quick returns"
-        ],
-        "answer": 2,
-        "funFact": "The earlier you start investing, the more you benefit from compound growth!"
-      },
-      {
-        "q": "Why is real estate a good passive income source?",
-        "options": [
-          "Requires no money",
-          "Always increases in value",
-          "People need places to live",
-          "It's easy to manage"
-        ],
-        "answer": 1,
-        "funFact": "In many cities, rental demand is growing faster than supply!"
-      },
-      {
-        "q": "What does the 50/30/20 rule help with?",
-        "options": [
-          "Saving for a car",
-          "Budgeting wisely",
-          "Making friends",
-          "Eating healthy"
-        ],
-        "answer": 1,
-        "funFact": "This rule helps keep your finances balanced and stress-free!"
-      }
-    ]
-  },
-  "communication": {
-    "speakingSkill": {
-      "name": "Storytelling",
-      "story": "Steve Jobs was a master storyteller. During his presentations, he painted pictures with words. His famous iPhone reveal felt like a magic show, captivating the audience. Everyone left feeling like they had witnessed something extraordinary.",
-      "drill": "Practice telling a personal story in under two minutes. Focus on creating a clear beginning, middle, and end.",
-      "mnemonic": "SPEAK: Story, Purpose, Engage, Action, Keep it simple."
-    },
-    "negotiationMove": {
-      "tactic": "The Walkaway",
-      "eli5": "Imagine you have two cookies at lunch. One friend wants both, but you like the other friend’s sandwich. If you say you'll leave, your friend may offer you one cookie to stay. It’s like showing you’re serious about what you want.",
-      "script": "If this deal doesn’t work for me, I’m prepared to walk away. Let's find a solution that benefits both of us.",
-      "mnemonic": "WALK: Willingness, Assertiveness, Listen, Know your worth."
-    },
-    "officeWin": {
-      "rule": "Embrace feedback.",
-      "story": "When Sarah received criticism, she initially felt hurt. Instead of shutting down, she listened and made changes. Later, her project won an award, proving that feedback can lead to success.",
-      "mistake": "Ignoring feedback can stall your growth.",
-      "mnemonic": "FEED: Feedback, Embrace, Evolve, Deliver."
-    },
-    "confidenceHack": {
-      "technique": "Power Posing",
-      "science": "Stand tall with your hands on your hips, like a superhero. This posture can boost your confidence and lower stress hormones.",
-      "doItNow": "Before a big meeting, take two minutes to pose confidently. Feel the difference in your mindset.",
-      "mnemonic": "POSE: Power, Own it, Stand tall, Energize."
-    },
-    "quiz": [
-      {
-        "q": "Who is known for captivating storytelling in presentations?",
-        "options": [
-          "Bill Gates",
-          "Steve Jobs",
-          "Elon Musk",
-          "Warren Buffet"
-        ],
-        "answer": 1,
-        "funFact": "Steve Jobs’ presentation style is still studied in business schools today."
-      },
-      {
-        "q": "What is the purpose of the Walkaway tactic?",
-        "options": [
-          "To confuse the other party",
-          "To show seriousness",
-          "To make friends",
-          "To waste time"
-        ],
-        "answer": 1,
-        "funFact": "Knowing when to walk away can be a powerful negotiation tool."
-      },
-      {
-        "q": "What does embracing feedback lead to?",
-        "options": [
-          "Stagnation",
-          "Success",
-          "Frustration",
-          "Isolation"
-        ],
-        "answer": 1,
-        "funFact": "People who seek feedback often achieve their goals faster."
-      }
-    ]
-  },
-  "mind": {
-    "brainHack": {
-      "name": "Wild Horse Taming",
-      "eli5": "Imagine your mind as a wild horse. It can run free, but sometimes it needs to be tamed. By gently guiding it, you can focus it on what’s important, just like training a horse to follow your lead.",
-      "protocol": "Spend 5 minutes each morning writing down your thoughts. Then, pick one thought and visualize it clearly for 10 minutes.",
-      "mnemonic": "Tame the Horse"
-    },
-    "disciplineCode": {
-      "principle": "Stay the Course",
-      "story": "A young athlete trained daily, even in rain and shine. One day, he faced a major competition. His discipline led him to win, proving hard work pays off.",
-      "todayAction": "Commit to a small daily task. Stick to it, no matter what distractions arise.",
-      "mnemonic": "The Steady Path"
-    },
-    "impulseKiller": {
-      "urge": "snacking",
-      "eli5": "Think of your cravings as a pesky monster in your head. It roars for attention, but you can learn to quiet it like a whisper.",
-      "interrupt": "When you feel the urge to snack, take a deep breath and count to five. Then, drink a glass of water before deciding.",
-      "mnemonic": "Silence the Monster"
-    },
-    "bodyUpgrade": {
-      "practice": "Daily stretching",
-      "eli5": "Stretching is like giving your muscles a gentle wake-up call. It helps them feel refreshed and ready to move.",
-      "minimumDose": "Spend just 10 minutes each morning stretching after you wake up.",
-      "mnemonic": "Wake the Body"
-    },
-    "quiz": [
-      {
-        "q": "What is the main idea behind brain hacking?",
-        "options": [
-          "Taming your mind",
-          "Ignoring your thoughts",
-          "Daydreaming",
-          "Overthinking"
-        ],
-        "answer": 0,
-        "funFact": "Taming your mind can lead to better focus and creativity."
-      },
-      {
-        "q": "What does 'Stay the Course' mean?",
-        "options": [
-          "Give up easily",
-          "Stick to your goals",
-          "Change plans often",
-          "Avoid hard work"
-        ],
-        "answer": 1,
-        "funFact": "Staying the course can lead to unexpected success."
-      },
-      {
-        "q": "What should you do before snacking?",
-        "options": [
-          "Eat more",
-          "Count to five",
-          "Ignore the urge",
-          "Go for a run"
-        ],
-        "answer": 2,
-        "funFact": "Taking a moment can help you make better choices."
-      }
-    ]
-  },
-  "knowledge": {
-    "mathMagic": {
-      "concept": "Probability",
-      "eli5": "Imagine you have a jar of jellybeans. If you reach in without looking, each bean has a chance of being picked. The more beans, the more chance of picking a certain color. Probability helps us guess which jellybean we might get!",
-      "realWorldUse": "In finance, probability helps investors assess risks and returns. In sports, teams use it to predict game outcomes based on player stats.",
-      "mnemonic": "Puppies Play Games"
-    },
-    "scienceWow": {
-      "field": "Astronomy",
-      "concept": "Black Holes",
-      "eli5": "Think of a black hole as a cosmic vacuum cleaner. It pulls in everything nearby, even light! Imagine a star collapsing, creating a point so dense that nothing escapes. It’s like a giant whirlpool in space.",
-      "mindBlow": "Black holes can be millions of times heavier than our sun! Some black holes are so strong they warp time and space around them.",
-      "mnemonic": "Big Hungry Vacuum"
-    },
-    "historyStory": {
-      "event": "The Great Fire of London",
-      "story": "In 1666, a small bakery fire turned into a massive blaze. It spread quickly, destroying thousands of homes in just a few days. People fled, and the city was in chaos. But from the ashes, London rebuilt with better fire codes!",
-      "lesson": "Disasters can bring communities together to improve. Sometimes, you need to lose something to build something better.",
-      "mnemonic": "Fire Sparks Change"
-    },
-    "earthSecret": {
-      "place": "Iceland",
-      "secret": "Iceland has more volcanoes than any other country in Europe! This means it’s a land of fire and ice, with geysers and hot springs. The geothermal energy here heats homes and powers cities.",
-      "edge": "Knowing about Iceland's volcanic activity helps us understand Earth's geology better. It also shows how renewable energy can be harnessed from nature.",
-      "mnemonic": "Icy Volcano Magic"
-    },
-    "quiz": [
-      {
-        "q": "What is the probability of rolling a 3 on a six-sided die?",
-        "options": [
-          "1/6",
-          "1/3",
-          "1/2",
-          "1/1"
-        ],
-        "answer": 0,
-        "funFact": "Each side of the die has an equal chance of landing face up!"
-      },
-      {
-        "q": "What is the closest star to Earth?",
-        "options": [
-          "Proxima Centauri",
-          "Sirius",
-          "Alpha Centauri",
-          "Betelgeuse"
-        ],
-        "answer": 1,
-        "funFact": "Sirius is known as the Dog Star, and it’s twice as bright as our Sun!"
-      },
-      {
-        "q": "What year did the Great Fire of London occur?",
-        "options": [
-          "1666",
-          "1566",
-          "1766",
-          "1866"
-        ],
-        "answer": 0,
-        "funFact": "The fire started in a bakery on Pudding Lane and lasted for four days!"
-      }
-    ]
-  },
-  "ai": {
-    "toolSpotlight": {
-      "name": "WriteWise",
-      "category": "writing",
-      "eli5": "Imagine a friendly robot that helps you write stories. It whispers ideas in your ear when you're stuck. It even suggests better words to make your sentences shine.",
-      "secretMove": "You can feed it rough drafts, and it will turn them into polished gems. It also learns your style, so it feels like writing with a best friend.",
-      "mnemonic": "W for WriteWise, W for Wizard."
-    },
-    "workflowWin": {
-      "title": "Email Organizer Pro",
-      "problem": "Sorting through endless emails can feel like searching for a needle in a haystack. This tool turns chaos into clarity.",
-      "steps": [
-        "Step 1: Connect your email account.",
-        "Step 2: Set up your categories.",
-        "Step 3: Let it sort your emails automatically.",
-        "Step 4: Review your organized inbox."
-      ],
-      "timeSaved": "You can save hours each week that you'd spend sifting through emails.",
-      "mnemonic": "E for Email, O for Organized."
-    },
-    "promptOfDay": {
-      "purpose": "This prompt helps generate creative story ideas.",
-      "prompt": "Create a story about [CHARACTER] who discovers [OBJECT] in [LOCATION].",
-      "where": "ChatGPT",
-      "mnemonic": "C for Character, O for Object."
-    },
-    "futureWatch": {
-      "trend": "Hyper-Personalized Learning",
-      "eli5": "Think of a school where every lesson is made just for you. Before, everyone learned the same way. After, learning is tailored to your interests and pace, like a custom-made suit!",
-      "yourMove": "Start exploring platforms that offer personalized learning experiences. Consider what skills you want to develop and seek out tools that cater to your needs.",
-      "mnemonic": "H for Hyper, P for Personalized."
-    },
-    "quiz": [
-      {
-        "q": "What does WriteWise do?",
-        "options": [
-          "Helps with writing",
-          "Organizes emails",
-          "Creates videos",
-          "Tracks projects"
-        ],
-        "answer": 0,
-        "funFact": "WriteWise can even suggest plot twists!"
-      },
-      {
-        "q": "How much time can Email Organizer Pro save?",
-        "options": [
-          "Minutes",
-          "Hours",
-          "Days",
-          "Weeks"
-        ],
-        "answer": 1,
-        "funFact": "Imagine using that saved time to learn something new!"
-      },
-      {
-        "q": "What is the key feature of hyper-personalized learning?",
-        "options": [
-          "Same for everyone",
-          "Made for you",
-          "Based on tests",
-          "Group projects"
-        ],
-        "answer": 1,
-        "funFact": "It's like having a personal tutor for every subject!"
-      }
-    ]
-  },
-  "travel": {
-    "destination": {
-      "country": "Japan",
-      "region": "Kyoto",
-      "eli5": "Imagine stepping into a painting where cherry blossoms dance in the wind. Ancient temples whisper stories of samurais and monks. The air is filled with the smell of matcha tea and fresh sushi. Kyoto is a city where past and present hug each other tightly.",
-      "bestTime": "Visit in spring for cherry blossoms or in autumn for fiery red leaves. Both seasons feel like a magical dream.",
-      "hiddenGem": "Explore the quiet Arashiyama Bamboo Grove early in the morning. Most tourists miss the serenity and beauty of this lush green path.",
-      "mnemonic": "Kites Soar Past Cherry Blossoms"
-    },
-    "visaTip": {
-      "focus": "Tourist Visa for Indian passport holders",
-      "eli5": "First, gather your documents like a puzzle. Next, apply online for a visa and wait for approval. Finally, pack your bags and get ready for an adventure!",
-      "goldenTip": "Apply for your visa at least a month in advance. This gives you enough time to sort out any surprises.",
-      "mnemonic": "VISA: Very Important So Adventurous"
-    },
-    "culturalCode": {
-      "culture": "Respect and harmony are key in Japan.",
-      "doThis": "Bow slightly when greeting locals, it shows respect. Try to use basic Japanese phrases; they appreciate the effort.",
-      "neverDoThis": "Avoid tipping, as it can be seen as rude. Never point at people or things; it’s considered impolite.",
-      "mnemonic": "Respect Brings Peace"
-    },
-    "quiz": [
-      {
-        "q": "What is a popular dish in Kyoto?",
-        "options": [
-          "Sushi",
-          "Ramen",
-          "Kaiseki",
-          "Tempura"
-        ],
-        "answer": 2,
-        "funFact": "Kaiseki is a multi-course meal that showcases seasonal ingredients."
-      },
-      {
-        "q": "What famous landmark is in Kyoto?",
-        "options": [
-          "Tokyo Tower",
-          "Kinkaku-ji",
-          "Mt. Fuji",
-          "Nara Park"
-        ],
-        "answer": 1,
-        "funFact": "Kinkaku-ji, the Golden Pavilion, is covered in gold leaf and reflects beautifully in the pond."
-      },
-      {
-        "q": "When is the cherry blossom season in Japan?",
-        "options": [
-          "January",
-          "March",
-          "June",
-          "September"
-        ],
-        "answer": 1,
-        "funFact": "Cherry blossoms usually bloom in late March to early April, drawing thousands of visitors to parks."
-      }
-    ]
-  }
-}
-
-const ALL_BRIEFS = {
-  '2026-06-01': d260601,
-  '2026-06-02': d260602,
-  '2026-06-10': d260610,
-  '2026-06-11': d260611,
-  '2026-06-12': d260612,
-  '2026-06-13': d260613,
-  '2026-06-14': d260614,
-  '2026-06-15': d260615,
-}
+const ALL_BRIEFS = { '2026-06-01': d0601, '2026-06-02': d0602, '2026-06-12': d0612, '2026-06-13': d0613 }
 
 // ══ DATA END ══
 
@@ -3838,14 +1081,62 @@ function Mnemonic({ text, color }) {
   )
 }
 
-function Card({ emoji, title, color, children, mnemonic }) {
-  const [open, setOpen] = useState(true)
+// ── Progress utilities ──────────────────────────────────────────────────────
+function ProgressBar({ value, total, color, height = 5, showLabel = false }) {
+  const pct = total === 0 ? 0 : Math.round((value / total) * 100)
   return (
-    <div style={{ background: C.card, borderRadius: 14, border: `1px solid ${C.border}`, marginBottom: 14, overflow: 'hidden' }}>
-      <div onClick={() => setOpen(o => !o)} style={{ padding: '13px 16px', display: 'flex', alignItems: 'center', gap: 10, cursor: 'pointer', borderBottom: open ? `1px solid ${C.border}` : 'none' }}>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+      <div style={{ flex: 1, height, background: C.dim, borderRadius: height, overflow: 'hidden' }}>
+        <div style={{
+          width: `${pct}%`, height: '100%',
+          background: pct === 100
+            ? `linear-gradient(90deg, ${C.mint}, #6ee7b7)`
+            : `linear-gradient(90deg, ${color}, ${color}cc)`,
+          borderRadius: height,
+          transition: 'width 0.4s ease'
+        }} />
+      </div>
+      {showLabel && (
+        <span style={{ fontSize: 11, color: pct === 100 ? C.mint : C.muted, fontWeight: 700, whiteSpace: 'nowrap', minWidth: 36, textAlign: 'right' }}>
+          {pct === 100 ? '✅' : `${value}/${total}`}
+        </span>
+      )}
+    </div>
+  )
+}
+
+function Card({ emoji, title, color, children, mnemonic, cardId, readSet, onRead }) {
+  const [open, setOpen] = useState(true)
+  const isRead = readSet && cardId ? readSet.has(cardId) : false
+
+  const toggleRead = (e) => {
+    e.stopPropagation()
+    if (onRead && cardId) onRead(cardId)
+  }
+
+  return (
+    <div style={{
+      background: C.card, borderRadius: 14, marginBottom: 14, overflow: 'hidden',
+      border: `1px solid ${isRead ? color + '55' : C.border}`,
+      transition: 'border-color 0.3s'
+    }}>
+      <div style={{ padding: '13px 16px', display: 'flex', alignItems: 'center', gap: 10, borderBottom: open ? `1px solid ${C.border}` : 'none' }}>
+        {/* Read tick button */}
+        {onRead && (
+          <button onClick={toggleRead} style={{
+            width: 26, height: 26, borderRadius: '50%', flexShrink: 0,
+            background: isRead ? color : 'transparent',
+            border: `2px solid ${isRead ? color : C.dim}`,
+            cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center',
+            fontSize: 12, transition: 'all 0.2s', padding: 0,
+            color: isRead ? '#0d0d14' : C.dim,
+          }}>
+            {isRead ? '✓' : ''}
+          </button>
+        )}
         <span style={{ fontSize: 20 }}>{emoji}</span>
-        <span style={{ flex: 1, fontWeight: 700, fontSize: 14, color: C.text, lineHeight: 1.3 }}>{title}</span>
-        <span style={{ color: C.dim, fontSize: 12 }}>{open ? '▲' : '▼'}</span>
+        <span onClick={() => setOpen(o => !o)} style={{ flex: 1, fontWeight: 700, fontSize: 14, color: isRead ? C.muted : C.text, lineHeight: 1.3, cursor: 'pointer', textDecoration: isRead ? 'line-through' : 'none', opacity: isRead ? 0.7 : 1, transition: 'all 0.2s' }}>{title}</span>
+        <span onClick={() => setOpen(o => !o)} style={{ color: C.dim, fontSize: 12, cursor: 'pointer' }}>{open ? '▲' : '▼'}</span>
       </div>
       {open && <div style={{ padding: '14px 16px' }}>{children}{mnemonic && <Mnemonic text={mnemonic} color={color} />}</div>}
     </div>
@@ -3901,59 +1192,93 @@ function Quiz({ questions, color, onXP }) {
 }
 
 // ── Domain Views ────────────────────────────────────────────────────────────
-function NewsView({ data, color, onXP }) {
+function NewsView({ data, color, onXP, readSet, onRead, onProgress }) {
   if (!data?.segments) return null
+
+  // Count total cards and read cards for progress
+  const allCards = data.segments.flatMap((seg, si) => seg.stories.map((_, j) => `seg${si}-story${j}`))
+  const readCount = allCards.filter(id => readSet.has(id)).length
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+
   return <div>
-    {data.segments.map((seg, i) => (
-      <div key={i} style={{ marginBottom: 24 }}>
-        <SectionHeader text={seg.name} color={seg.color || color} />
-        {seg.stories.map((s, j) => (
-          <Card key={j} emoji="📰" title={s.headline} color={color} mnemonic={s.mnemonic}>
-            <ELI5 text={s.eli5} color={color} />
-            <ActionRow label="Why care" text={s.whyItMatters} color={color} />
-          </Card>
-        ))}
-      </div>
-    ))}
+    {data.segments.map((seg, si) => {
+      const segCardIds = seg.stories.map((_, j) => `seg${si}-story${j}`)
+      const segRead = segCardIds.filter(id => readSet.has(id)).length
+      const segDone = segRead === segCardIds.length
+
+      return (
+        <div key={si} style={{ marginBottom: 24 }}>
+          {/* Section header with completion indicator */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 10 }}>
+            <div style={{ fontSize: 11, fontWeight: 800, color: seg.color || color, textTransform: 'uppercase', letterSpacing: '0.1em', flex: 1 }}>
+              {segDone ? '✅ ' : ''}{seg.name}
+            </div>
+            <span style={{ fontSize: 11, color: segDone ? C.mint : C.muted, fontWeight: 700 }}>
+              {segRead}/{segCardIds.length}
+            </span>
+          </div>
+          <ProgressBar value={segRead} total={segCardIds.length} color={seg.color || color} height={3} />
+          <div style={{ marginTop: 10 }}>
+            {seg.stories.map((s, j) => {
+              const cardId = `seg${si}-story${j}`
+              return (
+                <Card key={j} emoji="📰" title={s.headline} color={color} mnemonic={s.mnemonic} cardId={cardId} readSet={readSet} onRead={onRead}>
+                  <ELI5 text={s.eli5} color={color} />
+                  <ActionRow label="Why care" text={s.whyItMatters} color={color} />
+                </Card>
+              )
+            })}
+          </div>
+        </div>
+      )
+    })}
     <SectionHeader text="🧩 Test Yourself" color={color} />
     <Quiz questions={data.quiz} color={color} onXP={onXP} />
   </div>
 }
 
-function MarketsView({ data, color, onXP }) {
+function MarketsView({ data, color, onXP, readSet, onRead, onProgress }) {
   if (!data?.globalPulse) return null
   const im = data.indianMarket
+  const allCards = ['pulse', 'bazaar', 'stock0', 'stock1', 'stock2', 'ipo', 'lesson']
+  const readCount = allCards.filter(id => readSet.has(id)).length
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+
   return <div>
-    <Card emoji="🌊" title="The World's Money River Today" color={color}>
+    <Card emoji="🌊" title="The World's Money River Today" color={color} cardId="pulse" readSet={readSet} onRead={onRead}>
       <ELI5 text={data.globalPulse.eli5} color={color} />
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>{data.globalPulse.keyThings?.map((k, i) => <Tag key={i} label={k} color={color} />)}</div>
     </Card>
-    <Card emoji="🎪" title="India's Stock Bazaar" color={color}><ELI5 text={im?.eli5} color={color} /></Card>
+    <Card emoji="🎪" title="India's Stock Bazaar" color={color} cardId="bazaar" readSet={readSet} onRead={onRead}><ELI5 text={im?.eli5} color={color} /></Card>
     <SectionHeader text="🚀 3 Stocks to Watch" color={color} />
     {im?.breakouts?.map((b, i) => (
-      <Card key={i} emoji="📈" title={b.name} color={color}>
+      <Card key={i} emoji="📈" title={b.name} color={color} cardId={`stock${i}`} readSet={readSet} onRead={onRead}>
         <ELI5 text={b.whyExciting} color={color} />
         <ActionRow label="Risk" text={b.risk} color={C.rose} />
       </Card>
     ))}
-    <Card emoji="🎟️" title={`IPO: ${im?.ipoSpot?.name}`} color={color}>
+    <Card emoji="🎟️" title={`IPO: ${im?.ipoSpot?.name}`} color={color} cardId="ipo" readSet={readSet} onRead={onRead}>
       <div style={{ marginBottom: 10 }}><span style={{ padding: '4px 16px', borderRadius: 20, fontWeight: 800, fontSize: 13, background: im?.ipoSpot?.verdict === 'Apply' ? '#0d2a0d' : im?.ipoSpot?.verdict === 'Avoid' ? '#2a0d0d' : '#2a2a0d', color: im?.ipoSpot?.verdict === 'Apply' ? C.mint : im?.ipoSpot?.verdict === 'Avoid' ? C.rose : C.lemon }}>{im?.ipoSpot?.verdict}</span></div>
       <ELI5 text={im?.ipoSpot?.eli5} color={color} />
     </Card>
-    <Card emoji="📖" title={im?.lessonOfDay?.title} color={color} mnemonic={im?.lessonOfDay?.mnemonic}><ELI5 text={im?.lessonOfDay?.story} color={color} /></Card>
+    <Card emoji="📖" title={im?.lessonOfDay?.title} color={color} mnemonic={im?.lessonOfDay?.mnemonic} cardId="lesson" readSet={readSet} onRead={onRead}><ELI5 text={im?.lessonOfDay?.story} color={color} /></Card>
     <div style={{ fontSize: 11, color: C.muted, marginBottom: 16, fontStyle: 'italic' }}>⚠️ Educational only. Not SEBI-registered advice. Do your own research.</div>
     <SectionHeader text="🧩 Test Yourself" color={color} />
     <Quiz questions={data.quiz} color={color} onXP={onXP} />
   </div>
 }
 
-function GenericView({ data, color, onXP, sections }) {
+function GenericView({ data, color, onXP, sections, readSet, onRead, onProgress }) {
+  const allCards = sections.filter(sec => data?.[sec.key]).map(sec => sec.key)
+  const readCount = allCards.filter(id => readSet.has(id)).length
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+
   return <div>
     {sections.map((sec, i) => {
       const block = data?.[sec.key]
       if (!block) return null
       return (
-        <Card key={i} emoji={sec.emoji} title={block[sec.titleKey] || sec.fallback || sec.key} color={color} mnemonic={block[sec.mnemonicKey]}>
+        <Card key={i} emoji={sec.emoji} title={block[sec.titleKey] || sec.fallback || sec.key} color={color} mnemonic={block[sec.mnemonicKey]} cardId={sec.key} readSet={readSet} onRead={onRead}>
           {sec.eli5Key && <ELI5 text={block[sec.eli5Key]} color={color} />}
           {sec.extraKeys?.map((ex, j) => block[ex.key] && <ActionRow key={j} label={ex.label} text={Array.isArray(block[ex.key]) ? block[ex.key].join(' → ') : block[ex.key]} color={ex.rose ? C.rose : color} />)}
         </Card>
@@ -3964,18 +1289,18 @@ function GenericView({ data, color, onXP, sections }) {
   </div>
 }
 
-function PsychView({ data, color, onXP }) {
+function PsychView({ data, color, onXP, readSet, onRead, onProgress }) {
   if (!data?.mindTrick) return null
-  return <GenericView data={data} color={color} onXP={onXP} sections={[
+  return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
     { key:'mindTrick', emoji:'🧠', titleKey:'name', eli5Key:'eli5', extraKeys:[{label:'Real Life',key:'realLife'}], mnemonicKey:'mnemonic' },
     { key:'bodyLanguage', emoji:'👁️', titleKey:'signal', eli5Key:'eli5', extraKeys:[{label:'Use It',key:'howToUse'}], mnemonicKey:'mnemonic' },
     { key:'superpower', emoji:'⚡', titleKey:'name', eli5Key:'story', extraKeys:[{label:'Shield',key:'shield',rose:true}], mnemonicKey:'mnemonic' },
   ]} />
 }
 
-function LeadView({ data, color, onXP }) {
+function LeadView({ data, color, onXP, readSet, onRead, onProgress }) {
   if (!data?.leaderMove) return null
-  return <GenericView data={data} color={color} onXP={onXP} sections={[
+  return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
     { key:'leaderMove', emoji:'👑', titleKey:'name', eli5Key:'story', extraKeys:[{label:'Do Today',key:'doThis'}], mnemonicKey:'mnemonic' },
     { key:'visionarySecret', emoji:'🔭', titleKey:'concept', eli5Key:'eli5', extraKeys:[{label:'Exercise',key:'exercise'}], mnemonicKey:'mnemonic', fallback:'Visionary Thinking' },
     { key:'eliteHabit', emoji:'💎', titleKey:'habit', eli5Key:'whyItWorks', extraKeys:[{label:'Who & How',key:'whoAndHow'}], mnemonicKey:'mnemonic' },
@@ -3983,18 +1308,21 @@ function LeadView({ data, color, onXP }) {
   ]} />
 }
 
-function WealthView({ data, color, onXP }) {
+function WealthView({ data, color, onXP, readSet, onRead, onProgress }) {
   if (!data?.wealthSecret) return null
+  const allCards = ['wealthSecret','moneyMachine','mindsetFlip','magicNumber']
+  const readCount = allCards.filter(id => readSet.has(id)).length
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
   return <div>
-    <Card emoji="🌱" title={data.wealthSecret.name} color={color} mnemonic={data.wealthSecret.mnemonic}>
+    <Card emoji="🌱" title={data.wealthSecret.name} color={color} mnemonic={data.wealthSecret.mnemonic} cardId="wealthSecret" readSet={readSet} onRead={onRead}>
       <ELI5 text={data.wealthSecret.story} color={color} />
       <ActionRow label="This Week" text={data.wealthSecret.action} color={color} />
     </Card>
-    <Card emoji="🏧" title={data.moneyMachine.type} color={color} mnemonic={data.moneyMachine.mnemonic}>
+    <Card emoji="🏧" title={data.moneyMachine.type} color={color} mnemonic={data.moneyMachine.mnemonic} cardId="moneyMachine" readSet={readSet} onRead={onRead}>
       <ELI5 text={data.moneyMachine.eli5} color={color} />
       <ActionRow label="India Angle" text={data.moneyMachine.indiaAngle} color={color} />
     </Card>
-    <Card emoji="🔄" title="Mindset Flip" color={color} mnemonic={data.mindsetFlip?.mnemonic}>
+    <Card emoji="🔄" title="Mindset Flip" color={color} mnemonic={data.mindsetFlip?.mnemonic} cardId="mindsetFlip" readSet={readSet} onRead={onRead}>
       <div style={{ background: '#2a0d0d', borderRadius: 10, padding: '10px 14px', marginBottom: 8 }}>
         <div style={{ fontSize: 10, color: C.rose, fontWeight: 800, letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 4 }}>Most people think</div>
         <div style={{ fontSize: 13, color: C.muted }}>{data.mindsetFlip?.oldThinking}</div>
@@ -4005,19 +1333,17 @@ function WealthView({ data, color, onXP }) {
       </div>
       <ELI5 text={data.mindsetFlip?.why} color={color} />
     </Card>
-    <div style={{ padding: '18px', background: `${color}15`, border: `1px solid ${color}44`, borderRadius: 14, marginBottom: 14, textAlign: 'center' }}>
-      <div style={{ fontSize: 26, fontWeight: 900, color, marginBottom: 6 }}>{data.magicNumber?.number}</div>
-      <div style={{ fontSize: 14, color: C.text, lineHeight: 1.7 }}>{data.magicNumber?.eli5}</div>
-      <Mnemonic text={data.magicNumber?.mnemonic} color={color} />
-    </div>
+    <Card emoji="🔢" title={data.magicNumber?.number} color={color} mnemonic={data.magicNumber?.mnemonic} cardId="magicNumber" readSet={readSet} onRead={onRead}>
+      <ELI5 text={data.magicNumber?.eli5} color={color} />
+    </Card>
     <SectionHeader text="🧩 Test Yourself" color={color} />
     <Quiz questions={data.quiz} color={color} onXP={onXP} />
   </div>
 }
 
-function CommView({ data, color, onXP }) {
+function CommView({ data, color, onXP, readSet, onRead, onProgress }) {
   if (!data?.speakingSkill) return null
-  return <GenericView data={data} color={color} onXP={onXP} sections={[
+  return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
     { key:'speakingSkill', emoji:'🎤', titleKey:'name', eli5Key:'story', extraKeys:[{label:'Drill',key:'drill'}], mnemonicKey:'mnemonic' },
     { key:'negotiationMove', emoji:'🤝', titleKey:'tactic', eli5Key:'eli5', extraKeys:[{label:'Script',key:'script'}], mnemonicKey:'mnemonic' },
     { key:'officeWin', emoji:'🏢', titleKey:'rule', eli5Key:'story', extraKeys:[{label:'Mistake',key:'mistake',rose:true}], mnemonicKey:'mnemonic' },
@@ -4025,9 +1351,9 @@ function CommView({ data, color, onXP }) {
   ]} />
 }
 
-function MindView({ data, color, onXP }) {
+function MindView({ data, color, onXP, readSet, onRead, onProgress }) {
   if (!data?.brainHack) return null
-  return <GenericView data={data} color={color} onXP={onXP} sections={[
+  return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
     { key:'brainHack', emoji:'🚀', titleKey:'name', eli5Key:'eli5', extraKeys:[{label:'Protocol',key:'protocol'}], mnemonicKey:'mnemonic' },
     { key:'disciplineCode', emoji:'🐸', titleKey:'principle', eli5Key:'story', extraKeys:[{label:'Today',key:'todayAction'}], mnemonicKey:'mnemonic' },
     { key:'impulseKiller', emoji:'👾', titleKey:'urge', eli5Key:'eli5', extraKeys:[{label:'Interrupt',key:'interrupt'}], mnemonicKey:'mnemonic' },
@@ -4035,9 +1361,9 @@ function MindView({ data, color, onXP }) {
   ]} />
 }
 
-function KnowView({ data, color, onXP }) {
+function KnowView({ data, color, onXP, readSet, onRead, onProgress }) {
   if (!data?.mathMagic) return null
-  return <GenericView data={data} color={color} onXP={onXP} sections={[
+  return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
     { key:'mathMagic', emoji:'✨', titleKey:'concept', eli5Key:'eli5', extraKeys:[{label:'Real World',key:'realWorldUse'}], mnemonicKey:'mnemonic' },
     { key:'scienceWow', emoji:'🌌', titleKey:'concept', eli5Key:'eli5', extraKeys:[{label:'Mind Blow',key:'mindBlow'}], mnemonicKey:'mnemonic' },
     { key:'historyStory', emoji:'📜', titleKey:'event', eli5Key:'story', extraKeys:[{label:'Lesson',key:'lesson'}], mnemonicKey:'mnemonic' },
@@ -4045,24 +1371,27 @@ function KnowView({ data, color, onXP }) {
   ]} />
 }
 
-function AIView({ data, color, onXP }) {
+function AIView({ data, color, onXP, readSet, onRead, onProgress }) {
   if (!data?.toolSpotlight) return null
+  const allCards = ['toolSpotlight','workflowWin','promptOfDay','futureWatch']
+  const readCount = allCards.filter(id => readSet.has(id)).length
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
   return <div>
-    <Card emoji="🤖" title={data.toolSpotlight.name} color={color} mnemonic={data.toolSpotlight.mnemonic}>
+    <Card emoji="🤖" title={data.toolSpotlight.name} color={color} mnemonic={data.toolSpotlight.mnemonic} cardId="toolSpotlight" readSet={readSet} onRead={onRead}>
       <Tag label={data.toolSpotlight.category} color={color} />
       <ELI5 text={data.toolSpotlight.eli5} color={color} />
       <ActionRow label="Secret Move" text={data.toolSpotlight.secretMove} color={color} />
     </Card>
-    <Card emoji="⚙️" title={data.workflowWin.title} color={color} mnemonic={data.workflowWin.mnemonic}>
+    <Card emoji="⚙️" title={data.workflowWin.title} color={color} mnemonic={data.workflowWin.mnemonic} cardId="workflowWin" readSet={readSet} onRead={onRead}>
       <ELI5 text={data.workflowWin.problem} color={color} />
       <ol style={{ paddingLeft: 18, margin: '8px 0 10px', color: C.muted, fontSize: 13, lineHeight: 2 }}>{data.workflowWin.steps?.map((s, i) => <li key={i}>{s}</li>)}</ol>
       <ActionRow label="Time Saved" text={data.workflowWin.timeSaved} color={color} />
     </Card>
-    <Card emoji="📋" title={`Prompt: ${data.promptOfDay.purpose}`} color={color} mnemonic={data.promptOfDay.mnemonic}>
+    <Card emoji="📋" title={`Prompt: ${data.promptOfDay.purpose}`} color={color} mnemonic={data.promptOfDay.mnemonic} cardId="promptOfDay" readSet={readSet} onRead={onRead}>
       <Tag label={`Use on: ${data.promptOfDay.where}`} color={color} />
       <div style={{ marginTop: 10, padding: '14px', background: '#080812', borderRadius: 10, fontFamily: 'monospace', fontSize: 13, color: '#a8e6c0', lineHeight: 1.9, whiteSpace: 'pre-wrap' }}>{data.promptOfDay.prompt}</div>
     </Card>
-    <Card emoji="🔮" title={data.futureWatch.trend} color={color} mnemonic={data.futureWatch.mnemonic}>
+    <Card emoji="🔮" title={data.futureWatch.trend} color={color} mnemonic={data.futureWatch.mnemonic} cardId="futureWatch" readSet={readSet} onRead={onRead}>
       <ELI5 text={data.futureWatch.eli5} color={color} />
       <ActionRow label="Your Move" text={data.futureWatch.yourMove} color={color} />
     </Card>
@@ -4071,19 +1400,22 @@ function AIView({ data, color, onXP }) {
   </div>
 }
 
-function TravelView({ data, color, onXP }) {
+function TravelView({ data, color, onXP, readSet, onRead, onProgress }) {
   if (!data?.destination) return null
+  const allCards = ['destination','visaTip','culturalCode']
+  const readCount = allCards.filter(id => readSet.has(id)).length
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
   return <div>
-    <Card emoji="🗺️" title={`${data.destination.country} · ${data.destination.region}`} color={color} mnemonic={data.destination.mnemonic}>
+    <Card emoji="🗺️" title={`${data.destination.country} · ${data.destination.region}`} color={color} mnemonic={data.destination.mnemonic} cardId="destination" readSet={readSet} onRead={onRead}>
       <ELI5 text={data.destination.eli5} color={color} />
       <ActionRow label="Best Time" text={data.destination.bestTime} color={color} />
       <ActionRow label="Hidden Gem" text={data.destination.hiddenGem} color={color} />
     </Card>
-    <Card emoji="📋" title={`Visa: ${data.visaTip.focus}`} color={color} mnemonic={data.visaTip.mnemonic}>
+    <Card emoji="📋" title={`Visa: ${data.visaTip.focus}`} color={color} mnemonic={data.visaTip.mnemonic} cardId="visaTip" readSet={readSet} onRead={onRead}>
       <ELI5 text={data.visaTip.eli5} color={color} />
       <ActionRow label="Golden Tip" text={data.visaTip.goldenTip} color={color} />
     </Card>
-    <Card emoji="🤲" title={`Culture: ${data.culturalCode.culture}`} color={color} mnemonic={data.culturalCode.mnemonic}>
+    <Card emoji="🤲" title={`Culture: ${data.culturalCode.culture}`} color={color} mnemonic={data.culturalCode.mnemonic} cardId="culturalCode" readSet={readSet} onRead={onRead}>
       <ActionRow label="Do This" text={data.culturalCode.doThis} color={color} />
       <ActionRow label="Never Do" text={data.culturalCode.neverDoThis} color={C.rose} />
     </Card>
@@ -4093,6 +1425,34 @@ function TravelView({ data, color, onXP }) {
 }
 
 const RENDERERS = { news:NewsView, markets:MarketsView, psychology:PsychView, leadership:LeadView, wealth:WealthView, communication:CommView, mind:MindView, knowledge:KnowView, ai:AIView, travel:TravelView }
+
+// ── Overall Daily Progress Bar ──────────────────────────────────────────────
+function DailyProgress({ domainProgress, activeDate }) {
+  const completedDomains = Object.values(domainProgress).filter(d => d.read === d.total && d.total > 0).length
+  const totalDomains = DOMAINS.length
+  const pct = Math.round((completedDomains / totalDomains) * 100)
+
+  if (completedDomains === 0) return null
+
+  return (
+    <div style={{ padding: '10px 14px', background: C.card, border: `1px solid ${C.border}`, borderRadius: 12, marginBottom: 16 }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 6 }}>
+        <span style={{ fontSize: 11, fontWeight: 700, color: C.muted, textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+          📅 Today's Brief
+        </span>
+        <span style={{ fontSize: 12, fontWeight: 800, color: pct === 100 ? C.mint : C.lavender }}>
+          {pct === 100 ? '🏆 Complete!' : `${completedDomains}/${totalDomains} topics done`}
+        </span>
+      </div>
+      <ProgressBar value={completedDomains} total={totalDomains} color={C.lavender} height={6} />
+      {pct === 100 && (
+        <div style={{ marginTop: 8, fontSize: 12, color: C.mint, textAlign: 'center', fontWeight: 700 }}>
+          You've read everything for {activeDate}! 🎉
+        </div>
+      )}
+    </div>
+  )
+}
 
 // ── Helpers ────────────────────────────────────────────────────────────────
 function fmtDate(iso) {
@@ -4128,7 +1488,7 @@ function XPBar({ xp, mobile }) {
 }
 
 // ── Bottom Nav (mobile) ────────────────────────────────────────────────────
-function BottomNav({ domains, activeId, setActiveId }) {
+function BottomNav({ domains, activeId, setActiveId, domainProgress }) {
   return (
     <div style={{
       position: 'fixed', bottom: 0, left: 0, right: 0, zIndex: 300,
@@ -4138,15 +1498,18 @@ function BottomNav({ domains, activeId, setActiveId }) {
     }}>
       {domains.map(d => {
         const isActive = activeId === d.id
+        const prog = domainProgress[d.id]
+        const done = prog?.total > 0 && prog.read === prog.total
         return (
           <button key={d.id} onClick={() => setActiveId(d.id)} style={{
             display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
             gap: 2, padding: '8px 10px', minWidth: 60, flexShrink: 0,
             background: 'transparent', border: 'none', cursor: 'pointer', fontFamily: 'inherit',
             borderTop: isActive ? `2px solid ${d.color}` : '2px solid transparent',
-            color: isActive ? d.color : C.muted,
+            color: isActive ? d.color : done ? C.mint : C.muted,
+            position: 'relative'
           }}>
-            <span style={{ fontSize: 18 }}>{d.emoji}</span>
+            <span style={{ fontSize: 18 }}>{done ? '✅' : d.emoji}</span>
             <span style={{ fontSize: 9, fontWeight: isActive ? 800 : 500, whiteSpace: 'nowrap', letterSpacing: '0.03em' }}>
               {d.label.split(' ')[0]}
             </span>
@@ -4166,10 +1529,41 @@ export default function App() {
   const [showMenu, setShowMenu] = useState(false)
   const mobile = useIsMobile()
 
+  // read state: { [date]: { [domainId]: Set<cardId> } }
+  const [readState, setReadState] = useState({})
+  // domainProgress: { [domainId]: { read, total } }
+  const [domainProgress, setDomainProgress] = useState({})
+
+  const getReadSet = (date, domain) => {
+    return readState[date]?.[domain] || new Set()
+  }
+
+  const handleRead = (cardId) => {
+    setReadState(prev => {
+      const dateMap = { ...(prev[activeDate] || {}) }
+      const domainSet = new Set(dateMap[activeId] || [])
+      if (domainSet.has(cardId)) domainSet.delete(cardId)
+      else domainSet.add(cardId)
+      dateMap[activeId] = domainSet
+      return { ...prev, [activeDate]: dateMap }
+    })
+  }
+
+  const handleProgress = (read, total) => {
+    setDomainProgress(prev => {
+      const curr = prev[activeId]
+      if (curr?.read === read && curr?.total === total) return prev
+      return { ...prev, [activeId]: { read, total } }
+    })
+  }
+
   const active = DOMAINS.find(d => d.id === activeId) || DOMAINS[0]
   const Renderer = RENDERERS[activeId]
   const brief = ALL_BRIEFS[activeDate]
   const data = brief?.[activeId]
+  const readSet = getReadSet(activeDate, activeId)
+  const domProg = domainProgress[activeId]
+  const domainPct = domProg?.total > 0 ? Math.round((domProg.read / domProg.total) * 100) : 0
 
   const closeAll = () => { setShowDates(false); setShowMenu(false) }
 
@@ -4236,20 +1630,26 @@ export default function App() {
             {/* Desktop: domain tab strip | Mobile: menu button */}
             {!mobile && (
               <div style={{ display: 'flex', gap: 2, overflowX: 'auto', flex: 1 }}>
-                {DOMAINS.map(d => (
-                  <button key={d.id} onClick={() => setActiveId(d.id)} style={{
-                    display: 'flex', alignItems: 'center', gap: 4,
-                    padding: '7px 11px', borderRadius: '8px 8px 0 0',
-                    border: `1px solid ${activeId === d.id ? d.color + '66' : C.border}`,
-                    borderBottom: activeId === d.id ? `2px solid ${d.color}` : `1px solid ${C.border}`,
-                    background: activeId === d.id ? `${d.color}12` : 'transparent',
-                    cursor: 'pointer', fontSize: 11, fontWeight: activeId === d.id ? 800 : 500,
-                    color: activeId === d.id ? d.color : C.muted,
-                    whiteSpace: 'nowrap', fontFamily: 'inherit', transition: 'all 0.15s', flexShrink: 0
-                  }}>
-                    <span>{d.emoji}</span><span>{d.label}</span>
-                  </button>
-                ))}
+                {DOMAINS.map(d => {
+                  const prog = domainProgress[d.id]
+                  const done = prog?.total > 0 && prog.read === prog.total
+                  return (
+                    <button key={d.id} onClick={() => setActiveId(d.id)} style={{
+                      display: 'flex', alignItems: 'center', gap: 4,
+                      padding: '7px 11px', borderRadius: '8px 8px 0 0',
+                      border: `1px solid ${activeId === d.id ? d.color + '66' : C.border}`,
+                      borderBottom: activeId === d.id ? `2px solid ${d.color}` : `1px solid ${C.border}`,
+                      background: activeId === d.id ? `${d.color}12` : 'transparent',
+                      cursor: 'pointer', fontSize: 11, fontWeight: activeId === d.id ? 800 : 500,
+                      color: activeId === d.id ? d.color : done ? C.mint : C.muted,
+                      whiteSpace: 'nowrap', fontFamily: 'inherit', transition: 'all 0.15s', flexShrink: 0
+                    }}>
+                      <span>{d.emoji}</span>
+                      <span>{d.label}</span>
+                      {done && <span style={{ fontSize: 9, color: C.mint }}>✓</span>}
+                    </button>
+                  )
+                })}
               </div>
             )}
 
@@ -4298,17 +1698,35 @@ export default function App() {
         padding: mobile ? `16px 12px ${mobile ? '90px' : '40px'}` : '24px 20px 60px'
       }}>
 
-        {/* Domain header */}
+        {/* Domain header with progress */}
         {active && brief && (
           <div style={{
             marginBottom: 16, padding: mobile ? '12px 14px' : '14px 18px',
             background: `${active.color}0d`, border: `1px solid ${active.color}33`, borderRadius: 14
           }}>
-            <div style={{ fontSize: mobile ? 20 : 24, marginBottom: 4 }}>{active.emoji}</div>
-            <div style={{ fontSize: mobile ? 15 : 17, fontWeight: 900, color: active.color, marginBottom: 2 }}>{active.label}</div>
-            <div style={{ fontSize: 11, color: C.muted }}>{active.desc} · {fmtDate(activeDate)}</div>
+            <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: 8 }}>
+              <div>
+                <div style={{ fontSize: mobile ? 20 : 24, marginBottom: 4 }}>{active.emoji}</div>
+                <div style={{ fontSize: mobile ? 15 : 17, fontWeight: 900, color: active.color, marginBottom: 2 }}>{active.label}</div>
+                <div style={{ fontSize: 11, color: C.muted }}>{active.desc} · {fmtDate(activeDate)}</div>
+              </div>
+              {domProg?.total > 0 && (
+                <div style={{ textAlign: 'right', minWidth: 60 }}>
+                  <div style={{ fontSize: domainPct === 100 ? 20 : 13, fontWeight: 800, color: domainPct === 100 ? C.mint : active.color, marginBottom: 4 }}>
+                    {domainPct === 100 ? '✅' : `${domainPct}%`}
+                  </div>
+                  <div style={{ fontSize: 10, color: C.muted }}>{domProg.read}/{domProg.total} read</div>
+                </div>
+              )}
+            </div>
+            {domProg?.total > 0 && (
+              <ProgressBar value={domProg.read} total={domProg.total} color={active.color} height={5} />
+            )}
           </div>
         )}
+
+        {/* Overall daily progress */}
+        {brief && <DailyProgress domainProgress={domainProgress} activeDate={fmtDate(activeDate)} />}
 
         {/* No brief state */}
         {!brief && (
@@ -4324,7 +1742,7 @@ export default function App() {
 
         {/* Domain content */}
         {brief && Renderer && data && (
-          <Renderer data={data} color={active.color} onXP={(earned) => setXp(x => x + earned)} />
+          <Renderer data={data} color={active.color} onXP={(earned) => setXp(x => x + earned)} readSet={readSet} onRead={handleRead} onProgress={handleProgress} />
         )}
         {brief && (!Renderer || !data) && (
           <div style={{ textAlign: 'center', padding: '40px', color: C.muted, fontSize: 14 }}>Content not available for this section.</div>
@@ -4332,7 +1750,7 @@ export default function App() {
       </div>
 
       {/* ── MOBILE BOTTOM NAV ── */}
-      {mobile && <BottomNav domains={DOMAINS} activeId={activeId} setActiveId={(id) => { setActiveId(id); closeAll() }} />}
+      {mobile && <BottomNav domains={DOMAINS} activeId={activeId} setActiveId={(id) => { setActiveId(id); closeAll() }} domainProgress={domainProgress} />}
 
       {/* Backdrop */}
       {(showDates || showMenu) && (
