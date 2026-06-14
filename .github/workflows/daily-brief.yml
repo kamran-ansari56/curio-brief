@@ -1,0 +1,44 @@
+name: Daily Brief Generator
+
+on:
+  schedule:
+    # 3:00 AM UTC = 7:00 AM UAE (GST, UTC+4)
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: 'Date to generate (YYYY-MM-DD). Leave empty for T-1 (yesterday).'
+        required: false
+        default: ''
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install openai
+
+      - name: Generate brief
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TARGET_DATE: ${{ github.event.inputs.target_date }}
+        run: node .github/scripts/generate-brief.js
+
+      - name: Commit and push
+        run: |
+          git config user.name "Curio Brief Bot"
+          git config user.email "bot@curio-brief.com"
+          git add src/data/ src/App.jsx
+          git diff --staged --quiet || git commit -m "Auto-brief: $(cat /tmp/generated_date.txt)"
+          git push
