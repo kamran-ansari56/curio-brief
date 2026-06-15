@@ -2,13 +2,17 @@ name: Backfill Missing Dates
 
 on:
   schedule:
-    - cron: '30 3 * * *'  # 3:30 AM UTC = 7:30 AM UAE — runs 30 min after daily generator
+    - cron: '30 3 * * *'
   workflow_dispatch:
     inputs:
       dates:
-        description: 'Specific dates comma-separated (YYYY-MM-DD). Leave empty to auto-detect ALL missing dates.'
+        description: 'Dates to generate (comma-separated YYYY-MM-DD). Empty = auto-detect missing.'
         required: false
         default: ''
+      force:
+        description: 'Force regenerate even if file exists? (yes/no)'
+        required: false
+        default: 'no'
 
 jobs:
   backfill:
@@ -18,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Full history to avoid push conflicts
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -26,14 +30,26 @@ jobs:
 
       - run: npm install openai
 
-      - name: Generate missing dates
+      - name: Delete files if force regenerating
+        if: ${{ github.event.inputs.force == 'yes' && github.event.inputs.dates != '' }}
+        run: |
+          IFS=',' read -ra DATES <<< "${{ github.event.inputs.dates }}"
+          for date in "${DATES[@]}"; do
+            date=$(echo $date | tr -d ' ')
+            if [ -f "src/data/${date}.js" ]; then
+              echo "Deleting src/data/${date}.js for regeneration"
+              rm "src/data/${date}.js"
+            fi
+          done
+
+      - name: Generate dates
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           DATES: ${{ github.event.inputs.dates }}
           MODE: ${{ github.event.inputs.dates != '' && 'backfill-manual' || 'backfill-auto' }}
         run: node .github/scripts/generate-brief.js
 
-      - name: Commit and push with conflict handling
+      - name: Commit and push
         run: |
           git config user.name "Curio Brief Bot"
           git config user.email "bot@curio-brief.com"
@@ -42,7 +58,6 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "Backfill: $(cat /tmp/generated_date.txt 2>/dev/null || echo 'missing dates')"
-          # Pull rebase to handle concurrent pushes
+          git commit -m "Backfill: $(cat /tmp/generated_date.txt 2>/dev/null || echo 'update')"
           git pull --rebase origin main || true
           git push origin main
