@@ -638,4 +638,9 @@ news: {
       region: "Lisbon & The Algarve",
       eli5: "Imagine a city built on seven hills overlooking the Atlantic Ocean, where trams rattle up cobblestone streets, fishermen still sell sardines from boats, pastéis de nata (egg custard tarts) cost 30 cents each, and you can watch the sunset from ancient castles that have stood for 800 years. That's Lisbon. And two hours south is the Algarve — dramatic golden cliffs, secret sea caves, turquoise water, and beaches that look like they belong in a painting. Portugal is southern Europe's most underrated gem — still affordable, deeply beautiful, and genuinely friendly to visitors.",
       bestTime: "May-June or September-October — warm and sunny without the July-August crowds and peak prices. June is perfect right now.",
-      hiddenGem: "Sintra — 45 minutes from Lisbon by train — is a fairy-tale mountain town with palaces from different centuries all within walking distance. Most tourists spend 3 hours and leave. Stay the night: the palace
+      hiddenGem: "Sintra — 45 minutes from Lisbon by train — is a fairy-tale mountain town with palaces from different centuries all within walking distance. Most tourists spend 3 hours and leave. Stay the night: the palaces at sunset and dawn, with morning mist over the Atlantic, are among the most beautiful sights in Europe.",
+      mnemonic: "Portugal = Europe's best kept secret. 7 hills, ocean sunsets, ₹200 tarts 🥐"
+    },
+    visaTip: {
+      focus: "Portugal (Schengen Visa) for Indian Passport Holders",
+      eli5: "Portugal is part of the Schengen Zone — one visa gets you into 27 European countries. For Indians, you apply at the VFS Globa
