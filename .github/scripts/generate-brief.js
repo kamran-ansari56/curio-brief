@@ -6,6 +6,35 @@ import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 
+// ── Sanitize Unicode that breaks esbuild ────────────────────────────────────
+function sanitizeForJS(obj) {
+  const str = JSON.stringify(obj)
+  const cleaned = str
+    .replace(/₹/g, 'Rs.')      // ₹ Rupee
+    .replace(/€/g, 'EUR')      // € Euro
+    .replace(/£/g, 'GBP')      // £ Pound
+    .replace(/—/g, ' - ')      // — Em dash
+    .replace(/–/g, ' - ')      // – En dash
+    .replace(/‘/g, "'")        // ' Left single quote
+    .replace(/’/g, "'")        // ' Right single quote
+    .replace(/“/g, '"')        // " Left double quote
+    .replace(/”/g, '"')        // " Right double quote
+    .replace(/…/g, '...')      // … Ellipsis
+    .replace(/°/g, ' degrees') // ° Degree
+    .replace(/₂/g, '2')        // ₂ Subscript 2
+    .replace(/[À-ÖØ-öø-ÿ]/g, c => {
+      const map = {'à':'a','á':'a','â':'a','ã':'a','ä':'a','å':'a',
+                   'è':'e','é':'e','ê':'e','ë':'e','ì':'i','í':'i',
+                   'î':'i','ï':'i','ò':'o','ó':'o','ô':'o','õ':'o',
+                   'ö':'o','ù':'u','ú':'u','û':'u','ü':'u','ý':'y',
+                   'ñ':'n','ç':'c','À':'A','Á':'A','É':'E','Ñ':'N','Ç':'C'}
+      return map[c] || c
+    })
+  return JSON.parse(cleaned)
+}
+
+
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.join(__dirname, '..', '..')
 const DATA_DIR = path.join(ROOT, 'src', 'data')
@@ -177,46 +206,46 @@ Be SPECIFIC — use real names, real numbers, real places. Avoid vague generalit
 // ── Rebuild App.jsx from ALL data files ──────────────────────────────────────
 function rebuildAppJsx() {
   console.log('\nRebuilding App.jsx...')
-
   if (!fs.existsSync(DATA_DIR)) return
 
   const dateFiles = fs.readdirSync(DATA_DIR)
     .filter(f => f.match(/^\d{4}-\d{2}-\d{2}\.js$/))
     .sort()
 
-  console.log(`  Found ${dateFiles.length} date files`)
+  if (dateFiles.length === 0) { console.log('  No data files found'); return }
+  console.log(`  Found ${dateFiles.length} date files: ${dateFiles.map(f=>f.replace('.js','')).join(', ')}`)
 
   let appContent = fs.readFileSync(APP_PATH, 'utf8')
+  const START = '// ══ DATA START ══'
+  const END = '// ══ DATA END ══'
 
-  const START_MARKER = '// ══ DATA START ══'
-  const END_MARKER = '// ══ DATA END ══'
-
-  const dataLines = [START_MARKER, '']
+  const dataLines = [START, '']
   const varNames = []
 
   for (const file of dateFiles) {
     const dateStr = file.replace('.js', '')
     const varName = 'd' + dateStr.slice(2).replace(/-/g, '')
     varNames.push({ dateStr, varName })
-    const fileContent = fs.readFileSync(path.join(DATA_DIR, file), 'utf8')
-    const inlined = fileContent.replace(/^export default\s*/, `const ${varName} = `).trimEnd()
-    dataLines.push(inlined, '')
+
+    let fileContent = fs.readFileSync(path.join(DATA_DIR, file), 'utf8')
+    fileContent = fileContent.replace(/^export default\s*/, `const ${varName} = `).trimEnd()
+    dataLines.push(fileContent, '')
   }
 
   dataLines.push('const ALL_BRIEFS = {')
   for (const { dateStr, varName } of varNames) {
     dataLines.push(`  '${dateStr}': ${varName},`)
   }
-  dataLines.push('}', '', END_MARKER)
+  dataLines.push('}', '', END)
 
-  const newDataBlock = dataLines.join('\n')
+  const newBlock = dataLines.join('\n')
 
-  if (appContent.includes(START_MARKER) && appContent.includes(END_MARKER)) {
-    const before = appContent.indexOf(START_MARKER)
-    const after = appContent.indexOf(END_MARKER) + END_MARKER.length
-    appContent = appContent.slice(0, before) + newDataBlock + appContent.slice(after)
+  if (appContent.includes(START) && appContent.includes(END)) {
+    const before = appContent.indexOf(START)
+    const after = appContent.indexOf(END) + END.length
+    appContent = appContent.slice(0, before) + newBlock + appContent.slice(after)
   } else {
-    appContent = appContent.replace('const AVAILABLE_DATES', newDataBlock + '\n\nconst AVAILABLE_DATES')
+    appContent = appContent.replace('const AVAILABLE_DATES', newBlock + '\n\nconst AVAILABLE_DATES')
   }
 
   fs.writeFileSync(APP_PATH, appContent, 'utf8')
@@ -299,7 +328,7 @@ async function main() {
     }
 
     if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true })
-    fs.writeFileSync(dataPath, `export default ${JSON.stringify(brief, null, 2)}\n`, 'utf8')
+    fs.writeFileSync(dataPath, `export default ${JSON.stringify(sanitizeForJS(brief), null, 2)}\n`, 'utf8')
     console.log(`  ✓ Written: src/data/${dateStr}.js`)
   }
 
