@@ -2,11 +2,11 @@ name: Backfill Missing Dates
 
 on:
   schedule:
-    - cron: '30 3 * * *'  # 3:30 AM UTC daily — auto-fills any gaps
+    - cron: '30 3 * * *'  # 3:30 AM UTC = 7:30 AM UAE — runs 30 min after daily generator
   workflow_dispatch:
     inputs:
       dates:
-        description: 'Specific dates (comma-separated YYYY-MM-DD). Leave empty to auto-detect ALL missing dates.'
+        description: 'Specific dates comma-separated (YYYY-MM-DD). Leave empty to auto-detect ALL missing dates.'
         required: false
         default: ''
 
@@ -17,20 +17,32 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history to avoid push conflicts
+
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+
       - run: npm install openai
+
       - name: Generate missing dates
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           DATES: ${{ github.event.inputs.dates }}
           MODE: ${{ github.event.inputs.dates != '' && 'backfill-manual' || 'backfill-auto' }}
         run: node .github/scripts/generate-brief.js
-      - name: Commit and push
+
+      - name: Commit and push with conflict handling
         run: |
           git config user.name "Curio Brief Bot"
           git config user.email "bot@curio-brief.com"
           git add src/data/ src/App.jsx
-          git diff --staged --quiet || git commit -m "Backfill: $(cat /tmp/generated_date.txt 2>/dev/null || echo 'missing dates')"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Backfill: $(cat /tmp/generated_date.txt 2>/dev/null || echo 'missing dates')"
+          # Pull rebase to handle concurrent pushes
+          git pull --rebase origin main || true
+          git push origin main
