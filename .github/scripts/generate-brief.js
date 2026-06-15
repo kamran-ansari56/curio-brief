@@ -1,5 +1,5 @@
 // .github/scripts/generate-brief.js
-// Robust version: generates brief + rewrites App.jsx from all data files found on disk
+// v3: Uses OpenAI with web_search_preview tool for real news per date
 
 import OpenAI from 'openai'
 import fs from 'fs'
@@ -13,7 +13,6 @@ const APP_PATH = path.join(ROOT, 'src', 'App.jsx')
 
 const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
 
-// ── Determine target date ────────────────────────────────────────────────────
 function getTargetDate() {
   if (process.env.TARGET_DATE && process.env.TARGET_DATE.trim()) {
     return process.env.TARGET_DATE.trim()
@@ -23,74 +22,134 @@ function getTargetDate() {
   return d.toISOString().split('T')[0]
 }
 
-// ── Prompts ──────────────────────────────────────────────────────────────────
-function buildPrompts(dateLabel) {
-  const SYSTEM = `You are a content generator for a daily intelligence brief app.
-Return ONLY raw valid JSON. No markdown. No backticks. No preamble.
-Explain everything simply — like telling a curious smart person who loves stories.
-Short sentences. Analogies. Fun. No jargon. Date context: ${dateLabel}.`
+function formatDateLabel(iso) {
+  return new Date(iso + 'T00:00:00').toLocaleDateString('en-GB', {
+    day: '2-digit', month: 'long', year: 'numeric'
+  })
+}
 
-  return {
-    SYSTEM,
-    news: `Generate global news for ${dateLabel}. JSON:
-{"segments":[
-  {"name":"🌐 What's happening with countries?","color":"#a0d4f5","stories":[
-    {"headline":"...","eli5":"4 sentences simple analogy.","whyItMatters":"1 sentence.","mnemonic":"silly memory trick"},
-    {"headline":"...","eli5":"...","whyItMatters":"...","mnemonic":"..."},
-    {"headline":"...","eli5":"...","whyItMatters":"...","mnemonic":"..."}
-  ]},
-  {"name":"💸 What's happening with money?","color":"#a8edcb","stories":[
-    {"headline":"...","eli5":"...","whyItMatters":"...","mnemonic":"..."},
-    {"headline":"...","eli5":"...","whyItMatters":"...","mnemonic":"..."},
-    {"headline":"...","eli5":"...","whyItMatters":"...","mnemonic":"..."}
-  ]},
-  {"name":"💻 What's happening with technology?","color":"#c9b8f5","stories":[
-    {"headline":"...","eli5":"...","whyItMatters":"...","mnemonic":"..."},
-    {"headline":"...","eli5":"...","whyItMatters":"...","mnemonic":"..."}
-  ]},
-  {"name":"🌿 What's happening with our planet?","color":"#f5c6a0","stories":[
-    {"headline":"...","eli5":"...","whyItMatters":"...","mnemonic":"..."},
-    {"headline":"...","eli5":"...","whyItMatters":"...","mnemonic":"..."}
-  ]}
-],
-"quiz":[
-  {"q":"...","options":["A","B","C","D"],"answer":0,"funFact":"..."},
-  {"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},
-  {"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}
-]}`,
-
-    markets: `Generate markets brief for ${dateLabel}. JSON:
-{"globalPulse":{"eli5":"3-4 sentences river analogy for global markets.","keyThings":["S&P500: ...","Brent: ...","Gold: ...","Nifty: ..."]},"indianMarket":{"eli5":"3 sentences bazaar analogy.","breakouts":[{"name":"NSE:SYMBOL — Name","whyExciting":"2 sentences.","risk":"1 sentence."},{"name":"...","whyExciting":"...","risk":"..."},{"name":"...","whyExciting":"...","risk":"..."}],"ipoSpot":{"name":"IPO or None","verdict":"Apply/Avoid/Watch","eli5":"2 sentences."},"lessonOfDay":{"title":"...","story":"3-4 sentences analogy.","mnemonic":"..."}},"quiz":[{"q":"...","options":["A","B","C","D"],"answer":0,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}]}`,
-
-    psychology: `Generate psychology brief for ${dateLabel}. JSON:
-{"mindTrick":{"name":"...","eli5":"4 sentences everyday example.","realLife":"2 sentences.","mnemonic":"..."},"bodyLanguage":{"signal":"...","eli5":"3 sentences.","howToUse":"2 sentences.","mnemonic":"..."},"superpower":{"name":"...","story":"3-4 sentences tiny story.","shield":"2 sentences.","mnemonic":"..."},"quiz":[{"q":"...","options":["A","B","C","D"],"answer":0,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}]}`,
-
-    leadership: `Generate leadership brief for ${dateLabel}. JSON:
-{"leaderMove":{"name":"...","story":"4 sentences campfire story.","doThis":"2 sentences.","mnemonic":"..."},"visionarySecret":{"concept":"...","eli5":"3-4 sentences.","exercise":"2 sentences.","mnemonic":"..."},"eliteHabit":{"habit":"...","whoAndHow":"2 sentences.","whyItWorks":"2 sentences.","mnemonic":"..."},"sigmaWisdom":{"lesson":"...","story":"3 sentences stoic metaphor.","action":"1 sentence.","mnemonic":"..."},"quiz":[{"q":"...","options":["A","B","C","D"],"answer":0,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}]}`,
-
-    wealth: `Generate wealth brief for ${dateLabel}. JSON:
-{"wealthSecret":{"name":"...","story":"4 sentences seed/tree analogy.","action":"2 sentences.","mnemonic":"..."},"moneyMachine":{"type":"...","eli5":"3 sentences vending machine analogy.","indiaAngle":"2 sentences India-specific.","mnemonic":"..."},"mindsetFlip":{"oldThinking":"...","newThinking":"...","why":"2-3 sentences.","mnemonic":"..."},"magicNumber":{"number":"Rule name","eli5":"3 sentences story.","mnemonic":"..."},"quiz":[{"q":"...","options":["A","B","C","D"],"answer":0,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}]}`,
-
-    communication: `Generate communication brief for ${dateLabel}. JSON:
-{"speakingSkill":{"name":"...","story":"3-4 sentences famous speaker story.","drill":"2 sentences.","mnemonic":"..."},"negotiationMove":{"tactic":"...","eli5":"3 sentences analogy.","script":"1-2 sentences exact words.","mnemonic":"..."},"officeWin":{"rule":"...","story":"3 sentences contrast.","mistake":"1 sentence.","mnemonic":"..."},"confidenceHack":{"technique":"...","science":"2 sentences.","doItNow":"2 sentences.","mnemonic":"..."},"quiz":[{"q":"...","options":["A","B","C","D"],"answer":0,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}]}`,
-
-    mind: `Generate mind & discipline brief for ${dateLabel}. JSON:
-{"brainHack":{"name":"...","eli5":"3-4 sentences wild horse analogy.","protocol":"2-3 sentences exact steps.","mnemonic":"..."},"disciplineCode":{"principle":"...","story":"3 sentences warrior story.","todayAction":"2 sentences.","mnemonic":"..."},"impulseKiller":{"urge":"type of impulse","eli5":"2 sentences monster analogy.","interrupt":"2 sentences exact technique.","mnemonic":"..."},"bodyUpgrade":{"practice":"...","eli5":"2 sentences analogy.","minimumDose":"1 sentence.","mnemonic":"..."},"quiz":[{"q":"...","options":["A","B","C","D"],"answer":0,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}]}`,
-
-    knowledge: `Generate knowledge brief for ${dateLabel}. JSON:
-{"mathMagic":{"concept":"Math concept name","eli5":"4 sentences toy/food analogy.","realWorldUse":"2 sentences.","mnemonic":"..."},"scienceWow":{"field":"Physics/Chemistry/Biology/Astronomy","concept":"...","eli5":"4 sentences with awe.","mindBlow":"1-2 sentences.","mnemonic":"..."},"historyStory":{"event":"...","story":"4 sentences exciting narrative.","lesson":"2 sentences.","mnemonic":"..."},"earthSecret":{"place":"Country or region","secret":"3 sentences amazing fact.","edge":"2 sentences why it helps you.","mnemonic":"..."},"quiz":[{"q":"...","options":["A","B","C","D"],"answer":0,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}]}`,
-
-    ai: `Generate AI & productivity brief for ${dateLabel}. JSON:
-{"toolSpotlight":{"name":"...","category":"writing/coding/research/automation","eli5":"3-4 sentences magic robot analogy.","secretMove":"2-3 sentences power use.","mnemonic":"..."},"workflowWin":{"title":"...","problem":"2 sentences what it solves.","steps":["Step 1","Step 2","Step 3","Step 4"],"timeSaved":"1 sentence.","mnemonic":"..."},"promptOfDay":{"purpose":"What this does","prompt":"Exact ready-to-use prompt with [PLACEHOLDERS].","where":"Claude/ChatGPT/Gemini","mnemonic":"..."},"futureWatch":{"trend":"...","eli5":"3 sentences before/after story.","yourMove":"2 sentences.","mnemonic":"..."},"quiz":[{"q":"...","options":["A","B","C","D"],"answer":0,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}]}`,
-
-    travel: `Generate travel brief for ${dateLabel}. JSON:
-{"destination":{"country":"...","region":"...","eli5":"4 sentences postcard description.","bestTime":"1-2 sentences.","hiddenGem":"2 sentences secret.","mnemonic":"..."},"visaTip":{"focus":"Country visa for Indian passport","eli5":"3 sentences simple directions.","goldenTip":"2 sentences tactical tip.","mnemonic":"..."},"culturalCode":{"culture":"...","doThis":"2 sentences locals love.","neverDoThis":"2 sentences would offend.","mnemonic":"..."},"quiz":[{"q":"...","options":["A","B","C","D"],"answer":0,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}]}`
+// ── Step 1: Fetch real news headlines for the date using web search ──────────
+async function fetchRealNews(dateStr, dateLabel) {
+  console.log(`  Searching real news for ${dateStr}...`)
+  try {
+    const response = await client.responses.create({
+      model: 'gpt-4o-mini',
+      tools: [{ type: 'web_search_preview' }],
+      input: `Search for the top real world news headlines that happened on ${dateLabel} (${dateStr}). 
+      Find actual events from: world politics, global economy, technology, science/environment, Indian stock market (Nifty/Sensex levels, major movers).
+      Return a bullet list of 15-20 specific real headlines with brief facts. Be specific — include names, numbers, countries.
+      Focus on: geopolitics, US news, India news, Middle East, European news, markets, tech announcements.`
+    })
+    const text = response.output_text || ''
+    console.log(`  ✓ Got ${text.length} chars of news context`)
+    return text
+  } catch (err) {
+    console.error(`  ✗ Web search failed: ${err.message}`)
+    // Fallback: use model knowledge
+    return `Generate realistic news content for ${dateLabel} based on global events of that period in 2026.`
   }
 }
 
-// ── Generate one domain ───────────────────────────────────────────────────────
-async function generateDomain(domainId, prompt, systemPrompt) {
-  console.log(`  → ${domainId}...`)
+// ── Step 2: Generate structured domain content using real news as context ────
+async function generateDomain(domainId, dateLabel, newsContext) {
+  console.log(`  → Generating ${domainId}...`)
+
+  const prompts = {
+    news: `You are writing a daily news brief for ${dateLabel}.
+REAL NEWS CONTEXT (use these actual events — do not make up different ones):
+${newsContext}
+
+Using the real events above, create a structured news brief. Pick the most important/interesting stories.
+Return ONLY valid JSON, no markdown:
+{
+  "segments": [
+    {"name":"🌐 What's happening with countries?","color":"#a0d4f5","stories":[
+      {"headline":"Real headline from the news above","eli5":"Explain this real event simply like telling a curious friend. Use a vivid analogy. 3-4 sentences. Be specific about what actually happened.","whyItMatters":"One sentence why this matters to ordinary people.","mnemonic":"A fun memory trick for this specific story."},
+      {"headline":"...","eli5":"...","whyItMatters":"...","mnemonic":"..."},
+      {"headline":"...","eli5":"...","whyItMatters":"...","mnemonic":"..."}
+    ]},
+    {"name":"💸 What's happening with money?","color":"#a8edcb","stories":[
+      {"headline":"...","eli5":"...","whyItMatters":"...","mnemonic":"..."},
+      {"headline":"...","eli5":"...","whyItMatters":"...","mnemonic":"..."},
+      {"headline":"...","eli5":"...","whyItMatters":"...","mnemonic":"..."}
+    ]},
+    {"name":"💻 What's happening with technology?","color":"#c9b8f5","stories":[
+      {"headline":"...","eli5":"...","whyItMatters":"...","mnemonic":"..."},
+      {"headline":"...","eli5":"...","whyItMatters":"...","mnemonic":"..."}
+    ]},
+    {"name":"🌿 What's happening with our planet?","color":"#f5c6a0","stories":[
+      {"headline":"...","eli5":"...","whyItMatters":"...","mnemonic":"..."},
+      {"headline":"...","eli5":"...","whyItMatters":"...","mnemonic":"..."}
+    ]}
+  ],
+  "quiz":[
+    {"q":"Question about one of the real stories above","options":["A","B","C","D"],"answer":0,"funFact":"Interesting real fact about the answer."},
+    {"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},
+    {"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}
+  ]
+}`,
+
+    markets: `You are writing a markets brief for ${dateLabel}.
+REAL NEWS CONTEXT:
+${newsContext}
+
+Using the real market/economic context above, write the markets section.
+Return ONLY valid JSON, no markdown:
+{
+  "globalPulse":{"eli5":"3-4 sentences describing what actually happened in global markets that day using a river/water analogy. Reference real events.","keyThings":["S&P 500: specific level or movement","Brent Crude: specific price","Gold: specific price or movement","Nifty: specific level or movement"]},
+  "indianMarket":{"eli5":"2-3 sentences on Indian market that day using bazaar analogy. Reference real sector movements if known.","breakouts":[
+    {"name":"NSE:SYMBOL — Company Name","whyExciting":"Why this stock was interesting that week. 2 sentences.","risk":"Key risk. 1 sentence."},
+    {"name":"...","whyExciting":"...","risk":"..."},
+    {"name":"...","whyExciting":"...","risk":"..."}
+  ],"ipoSpot":{"name":"Active IPO name or None this week","verdict":"Apply/Avoid/Watch","eli5":"2 simple sentences."},"lessonOfDay":{"title":"One investing concept","story":"Explain with a relatable analogy. 3-4 sentences.","mnemonic":"Memory trick."}},
+  "quiz":[
+    {"q":"...","options":["A","B","C","D"],"answer":0,"funFact":"..."},
+    {"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},
+    {"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}
+  ]
+}`,
+
+    psychology: `Write a psychology & behaviour brief for ${dateLabel}. Make it timeless but reference real events from this context where relevant:
+${newsContext.slice(0, 500)}
+Return ONLY valid JSON:
+{"mindTrick":{"name":"Name of a real psychological concept","eli5":"4 sentences with everyday example. Make it vivid.","realLife":"Where you'll see this today. 2 sentences.","mnemonic":"Silly memory trick."},"bodyLanguage":{"signal":"Specific body language cue","eli5":"3 sentences. Cartoon-like description.","howToUse":"2 sentences practical application.","mnemonic":"..."},"superpower":{"name":"Influence or persuasion principle","story":"3-4 sentence story showing it in action.","shield":"2 sentences — how to defend against it.","mnemonic":"..."},"quiz":[{"q":"...","options":["A","B","C","D"],"answer":0,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}]}`,
+
+    leadership: `Write a leadership brief for ${dateLabel}. Reference real leaders or events from the news context where relevant:
+${newsContext.slice(0, 400)}
+Return ONLY valid JSON:
+{"leaderMove":{"name":"Leadership principle name","story":"4 sentences campfire story about a real or historical leader.","doThis":"2 sentences exact action today.","mnemonic":"..."},"visionarySecret":{"concept":"Visionary thinking concept","eli5":"3-4 sentences with telescope/binoculars analogy.","exercise":"2 sentences practical exercise.","mnemonic":"..."},"eliteHabit":{"habit":"Habit from Bezos/Buffett/Gates/Musk/etc","whoAndHow":"Name + exactly how they practice it. 2 sentences.","whyItWorks":"2 sentences scientific or strategic reason.","mnemonic":"..."},"sigmaWisdom":{"lesson":"Stoic or independent thinking lesson","story":"3 sentences using metaphor or ancient story.","action":"1 sentence — do this today.","mnemonic":"..."},"quiz":[{"q":"...","options":["A","B","C","D"],"answer":0,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}]}`,
+
+    wealth: `Write a wealth & financial freedom brief for ${dateLabel}.
+Return ONLY valid JSON:
+{"wealthSecret":{"name":"Wealth concept name","story":"4 sentences with seed/tree/river analogy. Very visual.","action":"2 sentences specific this-week action.","mnemonic":"..."},"moneyMachine":{"type":"Passive income vehicle name","eli5":"3 sentences — magic vending machine analogy.","indiaAngle":"2 sentences India-specific context (SIP/REIT/SGB etc).","mnemonic":"..."},"mindsetFlip":{"oldThinking":"What most people believe about money","newThinking":"What wealthy people believe instead","why":"2-3 sentences why the new way works mathematically.","mnemonic":"..."},"magicNumber":{"number":"A key financial rule/ratio/number (Rule of 72, 4% rule, etc)","eli5":"3 sentences story explaining it.","mnemonic":"..."},"quiz":[{"q":"...","options":["A","B","C","D"],"answer":0,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}]}`,
+
+    communication: `Write a communication & speaking brief for ${dateLabel}.
+Return ONLY valid JSON:
+{"speakingSkill":{"name":"Speaking technique name","story":"3-4 sentences — famous speaker using this technique.","drill":"2 sentences — exact practice drill.","mnemonic":"..."},"negotiationMove":{"tactic":"Negotiation tactic name","eli5":"3 sentences — school lunch trade analogy.","script":"1-2 sentences exact words to say.","mnemonic":"..."},"officeWin":{"rule":"Professional behavior principle","story":"3 sentences contrasting person A vs person B.","mistake":"1 sentence most common mistake.","mnemonic":"..."},"confidenceHack":{"technique":"Evidence-based confidence technique","science":"2 sentences brain/body science.","doItNow":"2 sentences — use this before a meeting/presentation.","mnemonic":"..."},"quiz":[{"q":"...","options":["A","B","C","D"],"answer":0,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}]}`,
+
+    mind: `Write a mind control & discipline brief for ${dateLabel}.
+Return ONLY valid JSON:
+{"brainHack":{"name":"Brain technique name","eli5":"3-4 sentences wild horse taming analogy.","protocol":"2-3 sentences exact protocol with timing.","mnemonic":"..."},"disciplineCode":{"principle":"Discipline principle name","story":"3 sentences warrior or athlete story.","todayAction":"2 sentences exactly what to do today.","mnemonic":"..."},"impulseKiller":{"urge":"Specific impulse type (phone/food/anger/lust/procrastination)","eli5":"2 sentences monster-in-head analogy.","interrupt":"2 sentences exact 60-second interrupt technique.","mnemonic":"..."},"bodyUpgrade":{"practice":"Physical practice name","eli5":"2 sentences simple analogy for why it works.","minimumDose":"1 sentence minimum effective dose.","mnemonic":"..."},"quiz":[{"q":"...","options":["A","B","C","D"],"answer":0,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}]}`,
+
+    knowledge: `Write a science, math & history brief for ${dateLabel}.
+Return ONLY valid JSON:
+{"mathMagic":{"concept":"Specific math/stats/probability concept name","eli5":"4 sentences — toy, food, or game analogy. Make it magical.","realWorldUse":"2 sentences — finance, sports, or engineering application.","mnemonic":"..."},"scienceWow":{"field":"Physics/Chemistry/Biology/Astronomy","concept":"Specific concept name","eli5":"4 sentences with wonder. Explain the mechanism simply.","mindBlow":"1-2 sentences most jaw-dropping fact about this.","mnemonic":"..."},"historyStory":{"event":"Specific historical event or person","story":"4 sentences — exciting narrative, not textbook. Include real names and dates.","lesson":"2 sentences — what to steal from this for today.","mnemonic":"..."},"earthSecret":{"place":"Specific country or region","secret":"3 sentences — something most people don't know. Specific facts.","edge":"2 sentences — why knowing this gives you an advantage in conversations or business.","mnemonic":"..."},"quiz":[{"q":"...","options":["A","B","C","D"],"answer":0,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}]}`,
+
+    ai: `Write an AI & productivity brief for ${dateLabel}. Reference real AI developments from this news context:
+${newsContext.slice(0, 500)}
+Return ONLY valid JSON:
+{"toolSpotlight":{"name":"Real AI tool name","category":"writing/coding/research/automation/creative","eli5":"3-4 sentences magic robot assistant analogy. Specific capabilities.","secretMove":"2-3 sentences non-obvious power use most people miss.","mnemonic":"..."},"workflowWin":{"title":"Workflow name","problem":"2 sentences what boring/hard thing it solves.","steps":["Step 1 (specific)","Step 2","Step 3","Step 4"],"timeSaved":"1 sentence realistic time saving.","mnemonic":"..."},"promptOfDay":{"purpose":"Specific use case","prompt":"The exact ready-to-use prompt with [PLACEHOLDERS IN BRACKETS].","where":"Claude/ChatGPT/Gemini","mnemonic":"..."},"futureWatch":{"trend":"Specific real AI trend happening now","eli5":"3 sentences before/after story showing impact.","yourMove":"2 sentences what to do about it right now.","mnemonic":"..."},"quiz":[{"q":"...","options":["A","B","C","D"],"answer":0,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}]}`,
+
+    travel: `Write a travel intelligence brief for ${dateLabel}.
+Return ONLY valid JSON:
+{"destination":{"country":"Specific country","region":"Specific region/city","eli5":"4 sentences — postcard description that makes you want to go immediately. Sensory details.","bestTime":"1-2 sentences optimal window and why.","hiddenGem":"2 sentences — what tourists almost never discover.","mnemonic":"..."},"visaTip":{"focus":"Specific country visa process for Indian passport holders","eli5":"3 sentences — simple directions like telling a friend.","goldenTip":"2 sentences — one tactical tip most people miss.","mnemonic":"..."},"culturalCode":{"culture":"Specific country/culture","doThis":"2 sentences — what locals love when visitors do this.","neverDoThis":"2 sentences — what would genuinely embarrass or offend locals.","mnemonic":"..."},"quiz":[{"q":"...","options":["A","B","C","D"],"answer":0,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":1,"funFact":"..."},{"q":"...","options":["A","B","C","D"],"answer":2,"funFact":"..."}]}`
+  }
+
+  const SYSTEM = `You are a brilliant content generator. Return ONLY raw valid JSON. No markdown. No backticks. No preamble. No explanation.
+Write in simple language — like explaining to a curious, smart friend who loves "aha!" moments.
+Short sentences. Vivid analogies. Make it genuinely interesting. No jargon. No generic platitudes.
+Be SPECIFIC — use real names, real numbers, real places. Avoid vague generalities.`
+
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
       const response = await client.chat.completions.create({
@@ -98,8 +157,8 @@ async function generateDomain(domainId, prompt, systemPrompt) {
         max_tokens: 2000,
         temperature: 0.7,
         messages: [
-          { role: 'system', content: systemPrompt },
-          { role: 'user', content: prompt }
+          { role: 'system', content: SYSTEM },
+          { role: 'user', content: prompts[domainId] }
         ]
       })
       const raw = response.choices[0].message.content.trim()
@@ -115,90 +174,56 @@ async function generateDomain(domainId, prompt, systemPrompt) {
   return null
 }
 
-// ── Rebuild App.jsx from ALL data files on disk ──────────────────────────────
-// This is the robust approach: instead of patching App.jsx,
-// we read the template markers and rebuild the data section completely.
+// ── Rebuild App.jsx from ALL data files ──────────────────────────────────────
 function rebuildAppJsx() {
-  console.log('\nRebuilding App.jsx from all data files...')
+  console.log('\nRebuilding App.jsx...')
 
-  // Find all date files
-  if (!fs.existsSync(DATA_DIR)) {
-    console.error('No data directory found!')
-    return
-  }
+  if (!fs.existsSync(DATA_DIR)) return
 
   const dateFiles = fs.readdirSync(DATA_DIR)
     .filter(f => f.match(/^\d{4}-\d{2}-\d{2}\.js$/))
     .sort()
 
-  console.log(`  Found ${dateFiles.length} date files: ${dateFiles.map(f => f.replace('.js','')).join(', ')}`)
+  console.log(`  Found ${dateFiles.length} date files`)
 
-  if (dateFiles.length === 0) {
-    console.error('No data files found!')
-    return
-  }
-
-  // Read current App.jsx
   let appContent = fs.readFileSync(APP_PATH, 'utf8')
 
-  // Find the marker that separates the "before data" section from everything else
   const START_MARKER = '// ══ DATA START ══'
   const END_MARKER = '// ══ DATA END ══'
 
-  // Build the new data block
-  const dataLines = []
-  dataLines.push(START_MARKER)
-  dataLines.push('')
-
+  const dataLines = [START_MARKER, '']
   const varNames = []
+
   for (const file of dateFiles) {
     const dateStr = file.replace('.js', '')
-    const varName = 'd' + dateStr.slice(2).replace(/-/g, '')  // 2026-06-15 → d260615
+    const varName = 'd' + dateStr.slice(2).replace(/-/g, '')
     varNames.push({ dateStr, varName })
-
     const fileContent = fs.readFileSync(path.join(DATA_DIR, file), 'utf8')
-    const inlined = fileContent
-      .replace(/^export default\s*/, `const ${varName} = `)
-      .trimEnd()
-
-    dataLines.push(inlined)
-    dataLines.push('')
+    const inlined = fileContent.replace(/^export default\s*/, `const ${varName} = `).trimEnd()
+    dataLines.push(inlined, '')
   }
 
-  // Build ALL_BRIEFS
   dataLines.push('const ALL_BRIEFS = {')
   for (const { dateStr, varName } of varNames) {
     dataLines.push(`  '${dateStr}': ${varName},`)
   }
-  dataLines.push('}')
-  dataLines.push('')
-  dataLines.push(END_MARKER)
+  dataLines.push('}', '', END_MARKER)
 
   const newDataBlock = dataLines.join('\n')
 
-  // Replace the data block in App.jsx
   if (appContent.includes(START_MARKER) && appContent.includes(END_MARKER)) {
-    // Replace between markers
-    const beforeMarker = appContent.indexOf(START_MARKER)
-    const afterMarker = appContent.indexOf(END_MARKER) + END_MARKER.length
-    appContent = appContent.slice(0, beforeMarker) + newDataBlock + appContent.slice(afterMarker)
-    console.log('  ✓ Replaced existing data block')
+    const before = appContent.indexOf(START_MARKER)
+    const after = appContent.indexOf(END_MARKER) + END_MARKER.length
+    appContent = appContent.slice(0, before) + newDataBlock + appContent.slice(after)
   } else {
-    // First time: insert before AVAILABLE_DATES
-    const insertBefore = 'const AVAILABLE_DATES'
-    if (!appContent.includes(insertBefore)) {
-      console.error('Cannot find insertion point in App.jsx!')
-      return
-    }
-    appContent = appContent.replace(insertBefore, newDataBlock + '\n\n' + insertBefore)
-    console.log('  ✓ Inserted new data block')
+    appContent = appContent.replace('const AVAILABLE_DATES', newDataBlock + '\n\nconst AVAILABLE_DATES')
   }
 
   fs.writeFileSync(APP_PATH, appContent, 'utf8')
   console.log(`  ✓ App.jsx updated with ${varNames.length} dates`)
 }
 
-// ── Find all missing dates from first available date to yesterday ─────────────
+// ── Find missing dates ────────────────────────────────────────────────────────
 function findMissingDates() {
   if (!fs.existsSync(DATA_DIR)) return []
 
@@ -218,89 +243,69 @@ function findMissingDates() {
 
   const missing = []
   const cursor = new Date(firstDate)
-
   while (cursor <= yesterday) {
     const iso = cursor.toISOString().split('T')[0]
-    if (!existing.has(iso)) {
-      missing.push(iso)
-    }
+    if (!existing.has(iso)) missing.push(iso)
     cursor.setDate(cursor.getDate() + 1)
   }
-
   return missing
 }
 
-// ── Main ───────────────────────────────────────────────────────────────────────
+// ── Main ──────────────────────────────────────────────────────────────────────
 async function main() {
   const mode = process.env.MODE || 'single'
-
-  console.log('\n🌌 Curio Brief Generator')
-  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n')
+  console.log('\n🌌 Curio Brief Generator v3 (with real news)\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n')
 
   let datesToGenerate = []
 
   if (mode === 'backfill-auto') {
-    // Auto-detect all missing dates
     datesToGenerate = findMissingDates()
     if (datesToGenerate.length === 0) {
-      console.log('✅ No missing dates found. All caught up!')
+      console.log('✅ No missing dates. All caught up!')
       rebuildAppJsx()
+      fs.writeFileSync('/tmp/generated_date.txt', 'no-changes')
       return
     }
-    console.log(`📋 Auto-backfill mode: ${datesToGenerate.length} missing dates`)
-    console.log(`   Dates: ${datesToGenerate.join(', ')}\n`)
+    console.log(`📋 Auto-backfill: ${datesToGenerate.length} missing dates\n`)
   } else if (mode === 'backfill-manual') {
-    // Manually specified dates via env
     datesToGenerate = (process.env.DATES || '').split(',').map(d => d.trim()).filter(Boolean)
     console.log(`📋 Manual backfill: ${datesToGenerate.join(', ')}\n`)
   } else {
-    // Single date (default: T-1)
-    const date = getTargetDate()
-    datesToGenerate = [date]
-    console.log(`📅 Single date: ${date}\n`)
+    datesToGenerate = [getTargetDate()]
+    console.log(`📅 Single date: ${datesToGenerate[0]}\n`)
   }
 
-  // Generate each date
+  const domains = ['news', 'markets', 'psychology', 'leadership', 'wealth', 'communication', 'mind', 'knowledge', 'ai', 'travel']
+
   for (const dateStr of datesToGenerate) {
-    const dateLabel = new Date(dateStr + 'T00:00:00').toLocaleDateString('en-GB', {
-      day: '2-digit', month: 'long', year: 'numeric'
-    })
-
     const dataPath = path.join(DATA_DIR, `${dateStr}.js`)
-
     if (fs.existsSync(dataPath)) {
       console.log(`⏭  ${dateStr} already exists, skipping.`)
       continue
     }
 
+    const dateLabel = formatDateLabel(dateStr)
     console.log(`\n⚡ Generating ${dateStr} (${dateLabel})`)
 
-    const prompts = buildPrompts(dateLabel)
-    const brief = {}
-    const domains = ['news', 'markets', 'psychology', 'leadership', 'wealth', 'communication', 'mind', 'knowledge', 'ai', 'travel']
+    // Fetch real news first
+    const newsContext = await fetchRealNews(dateStr, dateLabel)
+    await new Promise(r => setTimeout(r, 500))
 
+    const brief = {}
     for (const domainId of domains) {
-      const result = await generateDomain(domainId, prompts[domainId], prompts.SYSTEM)
+      const result = await generateDomain(domainId, dateLabel, newsContext)
       brief[domainId] = result || { error: true }
       await new Promise(r => setTimeout(r, 300))
     }
 
-    // Write data file
     if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true })
     fs.writeFileSync(dataPath, `export default ${JSON.stringify(brief, null, 2)}\n`, 'utf8')
     console.log(`  ✓ Written: src/data/${dateStr}.js`)
   }
 
-  // Always rebuild App.jsx from ALL files on disk
   rebuildAppJsx()
-
-  // Write generated date for commit message
   fs.writeFileSync('/tmp/generated_date.txt', datesToGenerate.join(', '))
-
-  console.log('\n✅ Complete! Vercel will deploy in ~60 seconds.\n')
+  console.log('\n✅ Done!\n')
 }
 
-main().catch(err => {
-  console.error('Fatal error:', err)
-  process.exit(1)
-})
+main().catch(err => { console.error('Fatal:', err); process.exit(1) })
