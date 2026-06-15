@@ -21,7 +21,7 @@ const DOMAINS = [
 
 // ══ DATA START ══
 
-const d0601 = {
+const d260601 = {
   news: {
     segments: [
       {
@@ -162,7 +162,7 @@ const d0601 = {
   }
 }
 
-const d0602 = {
+const d260602 = {
   news: {
     segments: [
       { name: "🌐 What's happening with countries?", color: "#a0d4f5", stories: [
@@ -282,7 +282,7 @@ const d0602 = {
   }
 }
 
-const d0612 = {
+const d260612 = {
 news: {
     segments: [
       {
@@ -643,4 +643,4 @@ news: {
     },
     visaTip: {
       focus: "Portugal (Schengen Visa) for Indian Passport Holders",
-      eli5: "Portugal is part of the Schengen Zone  -  one visa gets you into 27 European countries. For Indians, you apply at the VFS Glo
+      eli5: "Portugal is part of the Schengen Zone  -  one visa gets you into 27 European countries. For Indians, you apply at the VFS Global centr
