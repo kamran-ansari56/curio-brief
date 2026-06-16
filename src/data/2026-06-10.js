@@ -6,22 +6,16 @@ export default {
         "color": "#a0d4f5",
         "stories": [
           {
-            "headline": "Peace talks succeed in the Middle East",
-            "eli5": "Imagine two kids fighting over a toy. They finally sit down, share the toy, and play together. This is what leaders did today. They agreed to work together for peace.",
-            "whyItMatters": "Peace can lead to stability and prosperity.",
-            "mnemonic": "Middle East Peace = Kids Playing Nice"
+            "headline": "US-Iran Tensions Escalate",
+            "eli5": "Imagine two neighbors who used to argue but decided to stop fighting for a while. Now, they are back to shouting and throwing things at each other. The US and Iran had a tense ceasefire, but now they are clashing again, stirring worries about their neighborhood  -  the Middle East.",
+            "whyItMatters": "This matters because when countries fight, it can affect oil prices and global peace.",
+            "mnemonic": "Think of the US and Iran as two feuding neighbors with a history of drama."
           },
           {
-            "headline": "New trade agreement between Brazil and India",
-            "eli5": "Think of two friends trading lunch items. One has sandwiches, the other has fruit. They swap to get a better meal. That's what these countries are doing with goods.",
-            "whyItMatters": "Better trade can boost both economies.",
-            "mnemonic": "Brazil and India = Lunch Trade"
-          },
-          {
-            "headline": "Election turmoil in Belarus continues",
-            "eli5": "Imagine a game where one player keeps changing the rules to win. The other players are unhappy and want fairness. That's how people in Belarus feel about their elections.",
-            "whyItMatters": "Fair elections are key to democracy.",
-            "mnemonic": "Belarus Election = Unfair Game"
+            "headline": "Middle East Stability Concerns",
+            "eli5": "Picture a jigsaw puzzle where each piece represents a country. If two pieces shake, the whole picture can fall apart. The renewed tensions between the US and Iran are causing worries about the stability of the entire Middle East.",
+            "whyItMatters": "A stable Middle East is crucial for energy security worldwide, affecting prices at the pump.",
+            "mnemonic": "Middle East stability is like a delicate puzzle; one piece out of place can cause chaos."
           }
         ]
       },
@@ -30,22 +24,22 @@ export default {
         "color": "#a8edcb",
         "stories": [
           {
-            "headline": "Cryptocurrency sees a major surge",
-            "eli5": "Imagine a popular video game item suddenly becoming super valuable. Everyone wants it, and its price shoots up. That's what's happening with some digital coins now.",
-            "whyItMatters": "Investors can gain or lose a lot quickly.",
-            "mnemonic": "Crypto Surge = Video Game Item Price"
+            "headline": "Crude Oil Prices Rebound",
+            "eli5": "Think of crude oil prices like a balloon. When tensions rise, the balloon inflates. Today, it popped back up to over $91 per barrel, squeezing the pockets of everyone who buys gas.",
+            "whyItMatters": "Higher oil prices can hit our wallets hard when we fill up our cars or heat our homes.",
+            "mnemonic": "Crude oil prices are like balloons  -  they rise under pressure!"
           },
           {
-            "headline": "Global inflation rates stabilize",
-            "eli5": "Think of a balloon that keeps inflating. It finally stops getting bigger. That's what inflation is doing; it’s not rising so fast anymore.",
-            "whyItMatters": "Stable prices help everyone plan better.",
-            "mnemonic": "Inflation = Balloon Stopping"
+            "headline": "Investor Caution Ahead of US Inflation Data",
+            "eli5": "Imagine waiting for the results of a big test. Investors are holding their breath, waiting for the US inflation report, which could change how much money they can make. Everyone is nervous.",
+            "whyItMatters": "Inflation affects interest rates and how much we pay for things like groceries and rent.",
+            "mnemonic": "Investors are like students waiting for grades; they're anxious and cautious."
           },
           {
-            "headline": "Stock market hits a new high",
-            "eli5": "Imagine a race where cars keep getting faster. One car finally breaks the speed record. The stock market is like that car, going faster than ever.",
-            "whyItMatters": "A high stock market can boost people's confidence.",
-            "mnemonic": "Stock Market = Fast Car Record"
+            "headline": "Sensex and Nifty Performance",
+            "eli5": "The Sensex and Nifty are like scoreboards for the Indian stock market. Today, one score went up a little, and the other went down slightly, showing mixed feelings among investors.",
+            "whyItMatters": "The performance of these indices reflects the economic health, impacting jobs and investments.",
+            "mnemonic": "Stock market scores are like sports scores  -  sometimes one team wins, and sometimes the other!"
           }
         ]
       },
@@ -54,16 +48,10 @@ export default {
         "color": "#c9b8f5",
         "stories": [
           {
-            "headline": "AI makes breakthroughs in healthcare",
-            "eli5": "Picture a superhero who can solve problems quickly. That's what new AI tools are doing for doctors. They help find diseases faster than before.",
-            "whyItMatters": "This can save lives and improve health.",
-            "mnemonic": "AI Superhero = Fast Doctor Help"
-          },
-          {
-            "headline": "New smartphone features announced",
-            "eli5": "Imagine getting a new toy that does even more cool tricks. Phones are getting smarter, with new features that can help us every day.",
-            "whyItMatters": "Better technology can make life easier and fun.",
-            "mnemonic": "Smartphone = Supercharged Toy"
+            "headline": "RIL-Meta AI Partnership",
+            "eli5": "Imagine two giant tech teams joining forces to build a super robot. Reliance Industries and Meta are teaming up to create advanced AI tools, highlighting India's growing role in tech innovation.",
+            "whyItMatters": "This partnership could create jobs and boost the tech industry in India.",
+            "mnemonic": "RIL and Meta teaming up is like Batman and Superman joining forces for a tech mission."
           }
         ]
       },
@@ -72,614 +60,608 @@ export default {
         "color": "#f5c6a0",
         "stories": [
           {
-            "headline": "Climate action plan launched by G20",
-            "eli5": "Think of a big group of friends deciding to clean up a messy park together. That's what world leaders are doing to help the planet.",
-            "whyItMatters": "Working together can lead to real change.",
-            "mnemonic": "G20 Clean Up = Friendship Circle"
-          },
-          {
-            "headline": "New species discovered in the Amazon",
-            "eli5": "Imagine finding a new toy in your attic that you never knew existed. Scientists found a new animal in the jungle, adding to our understanding of nature.",
-            "whyItMatters": "Discoveries help us understand biodiversity.",
-            "mnemonic": "New Species = Hidden Toy"
+            "headline": "Geopolitical Tensions Impact Markets",
+            "eli5": "Imagine a storm brewing that makes everyone nervous. The ongoing US-Iran tensions are creating a storm in the markets, leading to lower investor confidence and impacting global economies.",
+            "whyItMatters": "When markets are shaky, it can lead to job losses and economic downturns.",
+            "mnemonic": "Tensions are like storms  -  they can disrupt everything."
           }
         ]
       }
     ],
     "quiz": [
       {
-        "q": "What recent agreement was made in the Middle East?",
+        "q": "What caused crude oil prices to rise above $91 per barrel?",
         "options": [
-          "Trade deal",
-          "Peace talks",
-          "Military alliance",
-          "Environmental pact"
+          "Increased production",
+          "US-Iran tensions",
+          "New energy sources",
+          "Lower demand"
         ],
         "answer": 1,
-        "funFact": "Peace talks can sometimes take years to achieve."
+        "funFact": "When tensions rise, oil prices often spike due to fears of supply disruptions."
       },
       {
-        "q": "What is happening to inflation rates?",
+        "q": "What are the Sensex and Nifty?",
         "options": [
-          "Increasing rapidly",
-          "Stabilizing",
-          "Dropping sharply",
-          "Unpredictable"
+          "Sports teams",
+          "Stock market indices",
+          "Types of oil",
+          "New tech companies"
         ],
         "answer": 1,
-        "funFact": "Stable inflation helps people save money."
+        "funFact": "These indices reflect the performance of the top companies in the Indian stock market."
       },
       {
-        "q": "Which sector is benefiting from new AI tools?",
+        "q": "Why are investors cautious ahead of US inflation data?",
         "options": [
-          "Transportation",
-          "Healthcare",
-          "Education",
-          "Construction"
+          "Weather changes",
+          "Interest rate decisions",
+          "New technology",
+          "Sports events"
         ],
         "answer": 1,
-        "funFact": "AI can analyze medical data faster than humans."
+        "funFact": "Inflation data can directly influence how much interest rates go up or down."
       }
     ]
   },
   "markets": {
     "globalPulse": {
-      "eli5": "Think of global markets like a big river. Sometimes the water flows smoothly, and other times there are rocky rapids. On June 10, 2026, the river had a mix of calm and choppy waters. Investors were trying to navigate through it carefully.",
+      "eli5": "On June 10, 2026, the global markets felt like a river getting choppy. Tensions between the US and Iran stirred the waters, causing crude oil prices to surge above $91 per barrel. Investors were wary, waiting for US inflation data, pushing the S&P 500 to hover around 4,300. Overall, the market was like a river with strong currents, making navigation tricky.",
       "keyThings": [
-        "S&P500: The index showed some signs of recovery after recent dips, like flowers blooming after rain.",
-        "Brent crude: Oil prices climbed as supply worries grew, like a sudden drought making water precious.",
-        "Gold: Gold prices remained steady, shining like a reliable lighthouse during a storm.",
-        "Nifty: The Indian index mirrored global trends, floating along the same currents."
+        "S&P 500: 4,300",
+        "Brent Crude: $91.50",
+        "Gold: $1,800",
+        "Nifty: 23,214.95"
       ]
     },
     "indianMarket": {
-      "eli5": "Imagine the Indian market as a bustling bazaar. Vendors are shouting prices, and customers are haggling for the best deals. On this day, some stalls were really catching people's attention.",
+      "eli5": "The Indian stock market on June 10 felt like a bustling bazaar, with some stalls thriving while others struggled. FMCG stocks were busy and bustling, but sectors like media and energy were quieter due to global concerns. The Nifty closed at 23,214.95, a mixed bag as traders navigated uncertainties.",
       "breakouts": [
         {
-          "name": "NSE:INFY — Infosys",
-          "whyExciting": "Infosys announced a groundbreaking tech partnership that got everyone talking. It's like a new recipe that promises to make the best dish in town.",
-          "risk": "The market is volatile, and any tech hiccup could sour the deal."
+          "name": "NSE:HINDUNILVR  -  Hindustan Unilever",
+          "whyExciting": "Hindustan Unilever saw a surge as consumers flocked to essential goods amidst market uncertainties. Their strong performance in the FMCG sector kept investors optimistic.",
+          "risk": "The risk lies in potential supply chain disruptions due to geopolitical tensions."
         },
         {
-          "name": "NSE:RELIANCE — Reliance Industries",
-          "whyExciting": "Reliance is expanding its green energy initiatives, aiming to be the leading player. It’s like planting a tree that could bear fruit for generations.",
-          "risk": "Regulatory changes could impact their plans and growth."
+          "name": "NSE:RELIANCE  -  Reliance Industries",
+          "whyExciting": "Reliance's partnership with Meta for AI infrastructure sparked interest, highlighting India's tech potential. Investors are keen on its future growth.",
+          "risk": "The risk stems from volatile market reactions to global events."
         },
         {
-          "name": "NSE:BAJFINANCE — Bajaj Finance",
-          "whyExciting": "Bajaj Finance reported impressive earnings, showing strong demand. It’s like a shop that’s always busy with happy customers.",
-          "risk": "High competition in the finance sector might eat into their profits."
+          "name": "NSE:TATASTEEL  -  Tata Steel",
+          "whyExciting": "Tata Steel faced selling pressure due to rising global crude prices, impacting their production costs. Investors are cautious about the steel sector's profitability.",
+          "risk": "Economic slowdown fears could further affect demand."
         }
       ],
       "ipoSpot": {
-        "name": "XYZ Tech IPO",
-        "verdict": "Watch",
-        "eli5": "This company is fresh to the market like a new stall in the bazaar. It has potential, but we need to see if it attracts enough customers."
+        "name": "None this week",
+        "verdict": "Avoid",
+        "eli5": "There are no exciting IPOs currently. It's better to wait for better options."
       },
       "lessonOfDay": {
-        "title": "The Power of Patience",
-        "story": "Investing is like planting a seed. You don't expect it to grow into a tree overnight. You water it and wait, knowing that with time, it will flourish.",
-        "mnemonic": "Seed = Patience = Growth."
+        "title": "Diversification",
+        "story": "Think of investing like planting a garden. If you only plant one type of flower, and it doesn't bloom, your garden looks bare. By planting a variety of flowers, your garden stays vibrant, even if one type struggles. This way, you have a better chance of a beautiful display.",
+        "mnemonic": "Don't put all your eggs in one basket."
       }
     },
     "quiz": [
       {
-        "q": "What does S&P500 indicate?",
+        "q": "What was the closing level of the Nifty on June 10, 2026?",
         "options": [
-          "A stock index",
-          "A bond index",
-          "A real estate index",
-          "A commodity index"
+          "23,214.95",
+          "23,983.18",
+          "22,500.00",
+          "24,000.00"
         ],
         "answer": 0,
-        "funFact": "The S&P500 includes 500 of the largest companies in the US."
+        "funFact": "The Nifty index tracks the performance of 50 major companies on the National Stock Exchange of India."
       },
       {
-        "q": "What is a common use for gold in markets?",
+        "q": "Which sector outperformed in the Indian market on this day?",
         "options": [
-          "Investment",
-          "Food",
-          "Clothing",
-          "Fuel"
-        ],
-        "answer": 1,
-        "funFact": "Gold is often seen as a safe investment during uncertain times."
-      },
-      {
-        "q": "Why is patience important in investing?",
-        "options": [
-          "It allows for better decision-making",
-          "It guarantees profits",
-          "It avoids risks",
-          "It makes you rich instantly"
+          "FMCG",
+          "IT",
+          "Energy",
+          "Realty"
         ],
         "answer": 0,
-        "funFact": "Many successful investors waited years for their investments to pay off."
+        "funFact": "FMCG stocks are often seen as safe havens during market volatility."
+      },
+      {
+        "q": "What was the price of crude oil on June 10, 2026?",
+        "options": [
+          "$91.50",
+          "$85.00",
+          "$80.00",
+          "$95.00"
+        ],
+        "answer": 0,
+        "funFact": "Crude oil prices directly impact economies, especially those reliant on energy imports."
       }
     ]
   },
   "psychology": {
     "mindTrick": {
-      "name": "The Illusion of Choice",
-      "eli5": "Imagine you go to an ice cream shop. You think you can choose any flavor, but the shop only offers three. You feel happy picking one, but your choices were limited. It's like playing a game with hidden rules.",
-      "realLife": "In conversations, people often feel they have freedom, but subtle cues can guide their choices. This can lead to unexpected decisions.",
-      "mnemonic": "CHOICE: Control Helps Oversee Intuitive Choices Everywhere."
+      "name": "Cognitive Dissonance",
+      "eli5": "Imagine you love ice cream but you just learned it's not healthy. You feel torn because you want to enjoy it but also want to be healthy. So, you might convince yourself that one scoop isn't bad. That's your brain trying to make peace with conflicting thoughts.",
+      "realLife": "Today, people might justify buying expensive coffee even when saving money is important. They might say it's a little treat that makes them happy.",
+      "mnemonic": "Ice cream vs. healthy dream."
     },
     "bodyLanguage": {
-      "signal": "Open Palms",
-      "eli5": "When someone shows you their open palms, it’s like saying, 'I come in peace.' It makes them appear friendly. Think of a puppy wagging its tail to show it means no harm.",
-      "howToUse": "Use open palms when talking to someone to build trust. It shows you are honest and approachable.",
-      "mnemonic": "PALMS: Presenting Authenticity Leads to Mutual Sympathy."
+      "signal": "Crossed arms",
+      "eli5": "Picture a cartoon character with their arms crossed, looking like a grumpy bear. This pose screams 'stay away!' like a fence around a garden. It's a big red flag that someone feels defensive or closed off.",
+      "howToUse": "If you see someone with crossed arms, try to open up the conversation gently. You might say something warm and inviting to help them relax.",
+      "mnemonic": "Arms crossed like a bear in a cave."
     },
     "superpower": {
-      "name": "Empathy Amplifier",
-      "story": "Once, a girl named Mia felt sad when her friend lost a pet. Instead of just saying 'I’m sorry,' she shared a similar story about her lost toy. This made her friend feel understood and less alone. Mia learned that sharing feelings can create strong connections.",
-      "shield": "Use this superpower to protect yourself from emotional overload. Remember, you can empathize without carrying all the weight.",
-      "mnemonic": "FEEL: Find Empathy, Engage, Listen."
+      "name": "Social Proof",
+      "story": "At a concert, everyone starts dancing when a popular song plays. Newcomers join in, thinking, 'If everyone else is having fun, it must be great!' This creates a wave of energy and excitement, drawing more people into the fun.",
+      "shield": "To defend against this, trust your own judgment instead of going with the crowd. Ask yourself if you really want to join in or if it's just peer pressure.",
+      "mnemonic": "Follow the crowd, but think aloud."
     },
     "quiz": [
       {
-        "q": "What triggers the Illusion of Choice?",
+        "q": "What is cognitive dissonance?",
         "options": [
-          "Limited options",
-          "Too many choices",
-          "Random selection",
-          "None of the above"
-        ],
-        "answer": 0,
-        "funFact": "People often feel happier when they think they have choices, even if they're restricted."
-      },
-      {
-        "q": "What does open palms signify?",
-        "options": [
-          "Aggression",
-          "Trust",
-          "Confusion",
-          "Disinterest"
+          "A feeling of harmony",
+          "A conflict between beliefs",
+          "A type of learning",
+          "A social behavior"
         ],
         "answer": 1,
-        "funFact": "Open body language can increase likability and trust in conversations."
+        "funFact": "Cognitive dissonance can lead to major changes in behavior."
       },
       {
-        "q": "How can the Empathy Amplifier help you?",
+        "q": "What does crossed arms signify?",
         "options": [
-          "Make you feel worse",
-          "Build stronger friendships",
-          "Isolate you",
-          "None of the above"
+          "Confidence",
+          "Openness",
+          "Defensiveness",
+          "Happiness"
+        ],
+        "answer": 2,
+        "funFact": "Crossed arms can happen when someone feels cold, too!"
+      },
+      {
+        "q": "What is an example of social proof?",
+        "options": [
+          "Buying alone",
+          "Dancing with friends",
+          "Reading in silence",
+          "Eating alone"
         ],
         "answer": 1,
-        "funFact": "Sharing experiences can deepen relationships and foster understanding."
+        "funFact": "Social proof is why reviews can change our buying choices!"
       }
     ]
   },
   "leadership": {
     "leaderMove": {
-      "name": "Nelson Mandela",
-      "story": "Nelson Mandela spent 27 years in prison, dreaming of a free South Africa. When he was released, he didn't seek revenge but forgiveness. He became the first black president, uniting a divided nation. His story teaches us that true leadership is about healing, not hurting.",
-      "doThis": "Practice empathy by listening to others' stories. Build trust by showing vulnerability.",
-      "mnemonic": "M.E.N.D - Mend bridges, Empathize, Navigate differences, Do good."
+      "name": "Crisis Management",
+      "story": "In 1962, President John F. Kennedy faced the Cuban Missile Crisis. He gathered his closest advisors to address the looming threat. They debated ideas and developed a plan without rushing into war. Kennedy's careful consideration avoided disaster and led to a peaceful resolution.",
+      "doThis": "Today, set aside time to listen to your team. Create a safe space for open dialogue about ongoing projects.",
+      "mnemonic": "CALM - Communicate, Analyze, Listen, Manage"
     },
     "visionarySecret": {
-      "concept": "The power of perspective.",
-      "eli5": "Imagine looking through a telescope. You see the stars clearly, but without it, they’re just dots in the sky. A visionary uses this telescope to see possibilities others miss. This helps them guide others toward bright futures.",
-      "exercise": "Spend time each week reflecting on your goals from different angles. This will sharpen your vision.",
-      "mnemonic": "S.T.A.R - See possibilities, Telescope view, Aim high, Reflect often."
+      "concept": "Future-Backward Thinking",
+      "eli5": "Imagine looking through binoculars. You see far away places clearly while missing what's right in front of you. Future-backward thinking lets you plan from a vision, then work backward to your current situation. It's like drawing a treasure map that leads you back to the present.",
+      "exercise": "Write down your five-year vision. Then, list three steps you can take this month to start moving toward that vision.",
+      "mnemonic": "MAP - Mindset, Actions, Progress"
     },
     "eliteHabit": {
-      "habit": "Daily reflection.",
-      "whoAndHow": "Oprah Winfrey practices this by journaling every night. She reflects on her day to find lessons and gratitude.",
-      "whyItWorks": "This habit fosters self-awareness and clarity. It helps leaders make better decisions.",
-      "mnemonic": "R.E.F.L.E.C.T - Review experiences, Evaluate feelings, Find lessons, Learn continuously, Engage with self, Cultivate growth, Track progress."
+      "habit": "Daily Reading",
+      "whoAndHow": "Warren Buffett reads 500 pages a day across various topics. He believes this habit helps him gain knowledge and make better decisions.",
+      "whyItWorks": "Reading expands your understanding and exposes you to new ideas. This broadens your perspective and enhances problem-solving skills.",
+      "mnemonic": "READ - Reflect, Engage, Apply, Develop"
     },
     "sigmaWisdom": {
-      "lesson": "Embrace discomfort.",
-      "story": "A farmer plants seeds in rocky soil. The seeds struggle, but those that survive grow strong. Just like the farmer, leaders must embrace challenges to thrive.",
-      "action": "Seek out one uncomfortable situation this week.",
-      "mnemonic": "G.R.O.W - Grow through challenges, Resilience builds strength, Overcome fears, Welcome discomfort."
+      "lesson": "Accepting What You Cannot Change",
+      "story": "The ancient Stoic philosopher Epictetus taught that we can't control external events, only our reactions. Imagine a ship in a storm; the sailor can't change the weather but can steer the ship. By focusing on what we can control, we find peace amidst chaos.",
+      "action": "Identify one situation today that you cannot change, and let go of the worry about it.",
+      "mnemonic": "CALM - Control, Accept, Let go, Move on"
     },
     "quiz": [
       {
-        "q": "What was Nelson Mandela's approach to leadership?",
+        "q": "Who was president during the Cuban Missile Crisis?",
         "options": [
-          "Revenge",
-          "Forgiveness",
-          "Isolation",
-          "Indifference"
+          "Richard Nixon",
+          "John F. Kennedy",
+          "Lyndon B. Johnson",
+          "Dwight D. Eisenhower"
         ],
         "answer": 1,
-        "funFact": "Mandela's leadership style inspired many leaders worldwide to adopt a more peaceful approach."
+        "funFact": "Kennedy was only 43 years old during this major crisis."
       },
       {
-        "q": "Why is perspective important for visionaries?",
+        "q": "What daily reading habit is associated with Warren Buffett?",
         "options": [
-          "It confuses them",
-          "It limits their view",
-          "It helps them see possibilities",
-          "It makes them complacent"
+          "Fiction novels",
+          "Business journals",
+          "500 pages",
+          "Social media"
         ],
         "answer": 2,
-        "funFact": "Visionaries often find success by spotting opportunities where others see obstacles."
+        "funFact": "Buffett spends about 80% of his day reading."
       },
       {
-        "q": "What habit does Oprah Winfrey practice daily?",
+        "q": "What lesson did Epictetus teach?",
         "options": [
-          "Exercise",
-          "Meditation",
-          "Reflection",
-          "Travel"
+          "Control everything",
+          "Accept what you cannot change",
+          "Avoid all risks",
+          "Always respond quickly"
         ],
-        "answer": 2,
-        "funFact": "Oprah believes that reflection helps her stay connected to her true self and goals."
+        "answer": 1,
+        "funFact": "Epictetus was a former slave who became a prominent philosopher."
       }
     ]
   },
   "wealth": {
     "wealthSecret": {
       "name": "The Seed of Wealth",
-      "story": "Think of planting a seed. With care and time, it grows into a strong tree. Each branch represents a source of income. Nurturing your finances is like watering that tree.",
-      "action": "Start by saving a little every month. Watch your wealth grow like a tree reaching for the sun.",
-      "mnemonic": "Seed, water, grow."
+      "story": "Imagine planting a tiny seed. With care, it grows into a strong tree, providing shade and fruit. Just like wealth, it starts small but needs nurturing. Water it with knowledge and effort, and it flourishes into financial freedom.",
+      "action": "This week, set aside $50 for investment. Research a local stock or mutual fund to invest in.",
+      "mnemonic": "Seed grows into wealth."
     },
     "moneyMachine": {
-      "type": "Passive Income Vending Machine",
-      "eli5": "Imagine a vending machine that gives you money. You put in a little effort upfront, like stocking it with snacks. Later, it keeps giving you money while you relax.",
-      "indiaAngle": "In India, consider real estate or creating an online course. These can be your vending machines, generating income while you sleep.",
-      "mnemonic": "Stock, relax, earn."
+      "type": "Real Estate Investment Trust (REIT)",
+      "eli5": "Think of a magic vending machine that gives you money. You put in some cash once, and it pays you back regularly. Owning a REIT is like having a piece of that vending machine, earning from rents without the hassle.",
+      "indiaAngle": "In India, investing in a REIT lets you own a slice of commercial real estate. You can earn dividends while enjoying the benefits of property investment without high costs.",
+      "mnemonic": "REIT = Real Estate Income Treat."
     },
     "mindsetFlip": {
-      "oldThinking": "Money is hard to come by.",
-      "newThinking": "Wealth is everywhere; I just need to find it.",
-      "why": "Changing your mindset opens your eyes to opportunities. When you believe wealth is abundant, you start to see ways to create it.",
-      "mnemonic": "Hard to find vs. Abundant everywhere."
+      "oldThinking": "Money is hard to get and even harder to keep.",
+      "newThinking": "Wealth comes from making money work for you.",
+      "why": "When money works for you, it grows like interest compounding. This means your earnings increase over time without extra effort, creating a snowball effect of wealth.",
+      "mnemonic": "Make money your employee."
     },
     "magicNumber": {
-      "number": "The 50/30/20 Rule",
-      "eli5": "Imagine a pie chart divided into three parts. Half is for needs, a little less than a third for wants, and the rest for savings. This helps you balance enjoying life and saving for the future.",
-      "mnemonic": "Pie, slice, save."
+      "number": "Rule of 72",
+      "eli5": "Imagine a magic trick that tells you how fast your money can grow. If you divide 72 by your investment's interest rate, it shows how many years to double your money. For example, at 6% interest, your money doubles in 12 years.",
+      "mnemonic": "72 is the magic doubling number."
     },
     "quiz": [
       {
-        "q": "What does the 50/30/20 rule help you with?",
+        "q": "What is the Rule of 72 used for?",
         "options": [
-          "Budgeting",
-          "Investing",
-          "Spending",
-          "Saving"
+          "To calculate interest rates",
+          "To estimate money doubling time",
+          "To find tax rates",
+          "To figure out savings goals"
         ],
-        "answer": 0,
-        "funFact": "Many people find budgeting easier with this simple rule!"
+        "answer": 1,
+        "funFact": "The Rule of 72 is a quick way to estimate how long it takes for an investment to double based on its annual return."
       },
       {
-        "q": "What is a passive income source?",
+        "q": "What is a REIT?",
         "options": [
-          "A job",
-          "Stocks",
-          "Renting property",
-          "All of the above"
+          "A type of stock",
+          "A real estate investment trust",
+          "A bank account",
+          "A savings plan"
         ],
-        "answer": 2,
-        "funFact": "Renting property can earn you money while you sleep!"
+        "answer": 1,
+        "funFact": "REITs allow everyday investors to earn a share of the income produced through commercial real estate."
       },
       {
-        "q": "What does nurturing your finances resemble?",
+        "q": "What does passive income mean?",
         "options": [
-          "Watering a plant",
-          "Building a house",
-          "Driving a car",
-          "Cooking a meal"
+          "Money earned from a job",
+          "Money that comes without active effort",
+          "Money saved in a bank",
+          "Money borrowed from a friend"
         ],
-        "answer": 0,
-        "funFact": "Just like plants need care, your finances need attention to flourish!"
+        "answer": 1,
+        "funFact": "Passive income can come from investments, rental properties, or royalties, allowing you to earn while you sleep."
       }
     ]
   },
   "communication": {
     "speakingSkill": {
       "name": "Storytelling",
-      "story": "Steve Jobs was a master storyteller. He captivated audiences with his simple yet powerful narratives. When he introduced the iPhone, he painted a picture of how it would change lives. People didn’t just buy a phone; they bought a dream.",
-      "drill": "Practice telling a personal story. Focus on making it relatable and engaging.",
-      "mnemonic": "STORY - Structure, Tell, Own, Relate, You"
+      "story": "Steve Jobs was a master at storytelling. During his 2005 Stanford commencement speech, he wove personal tales that captivated the audience. He made complex ideas simple and relatable, turning tech jargon into life lessons. People left feeling inspired, not just informed.",
+      "drill": "Pick a personal story that resonates with you. Practice telling it in three minutes, focusing on emotion and clarity.",
+      "mnemonic": "STORY: Simplify, Touch, Organize, Relate, Yield"
     },
     "negotiationMove": {
-      "tactic": "Win-Win Approach",
-      "eli5": "Imagine you have a peanut butter sandwich. Your friend has a jelly sandwich. You both can swap half so you both get a tasty combo. It’s about finding a way where everyone leaves happy.",
-      "script": "Let's find a solution where we both benefit. What do you think would work for you?",
-      "mnemonic": "SWAP - Share, Win, Adjust, Partner"
+      "tactic": "The Anchoring Technique",
+      "eli5": "Imagine you want pizza for lunch. You offer your friend a slice of cake first, making them think the cake is the best deal. Now when you ask for pizza, it seems reasonable compared to the cake.",
+      "script": "Let's start with this offer on the table. How about I suggest a price of $100 to kick things off?",
+      "mnemonic": "ANCHOR: Ask, Negotiate, Compare, Highlight, Offer, Review"
     },
     "officeWin": {
-      "rule": "Listen Actively",
-      "story": "In a team meeting, Sarah often interrupted others. This led to frustration and missed ideas. When she learned to listen more, the team thrived as everyone felt heard and valued.",
-      "mistake": "Not listening can lead to misunderstandings.",
-      "mnemonic": "LISTEN - Look, Inquire, Silence, Take note, Engage, Note"
+      "rule": "Active Listening",
+      "story": "Person A interrupts during meetings and often misses key points. Person B listens carefully and asks questions, making contributions that are valued. As a result, Person B earns respect and trust, while Person A struggles to connect.",
+      "mistake": "The most common mistake is thinking you have to respond immediately.",
+      "mnemonic": "LISTEN: Look, Inquire, Silence, Think, Engage, Note"
     },
     "confidenceHack": {
       "technique": "Power Posing",
-      "science": "Standing tall makes you feel stronger. It’s like putting on an armor that boosts your confidence before a big event.",
-      "doItNow": "Take a moment to stand like a superhero. Hold that pose for two minutes and feel the shift in your mindset.",
-      "mnemonic": "POSE - Power, Own, Stand, Empower"
+      "science": "Research shows that standing tall can increase testosterone and lower cortisol. This change in body language boosts confidence and reduces stress.",
+      "doItNow": "Before your meeting, find a private space. Stand with your hands on your hips for two minutes.",
+      "mnemonic": "POSE: Power, Open, Stand, Energize"
     },
     "quiz": [
       {
-        "q": "What is the key to effective storytelling?",
+        "q": "Which famous speaker is known for storytelling?",
         "options": [
-          "Complex language",
-          "Relatable narratives",
-          "Long speeches",
-          "Technical details"
+          "Barack Obama",
+          "Steve Jobs",
+          "Oprah Winfrey",
+          "Tony Robbins"
         ],
         "answer": 1,
-        "funFact": "Storytelling has been used for thousands of years to pass down knowledge and connect people."
+        "funFact": "Steve Jobs' Stanford speech is one of the most viewed on YouTube."
       },
       {
-        "q": "What does a win-win negotiation mean?",
+        "q": "What does the Anchoring Technique involve?",
         "options": [
-          "One person wins",
-          "Both parties are unhappy",
-          "Both parties benefit",
-          "No one wins"
+          "Offering a low price",
+          "Making a first offer",
+          "Agreeing quickly",
+          "Listening carefully"
         ],
         "answer": 1,
-        "funFact": "Win-win negotiations can lead to stronger relationships and better outcomes."
+        "funFact": "Anchoring can significantly influence negotiation outcomes, even in unrelated contexts."
       },
       {
-        "q": "Why is listening important in the workplace?",
+        "q": "What is a key principle of active listening?",
         "options": [
-          "To dominate conversations",
-          "To understand others",
-          "To ignore feedback",
-          "To finish quickly"
+          "Interrupting",
+          "Multitasking",
+          "Asking questions",
+          "Talking over others"
         ],
         "answer": 2,
-        "funFact": "Active listening can reduce conflicts and enhance teamwork."
+        "funFact": "Active listening can improve relationships and enhance teamwork."
       }
     ]
   },
   "mind": {
     "brainHack": {
-      "name": "Wild Horse Taming",
-      "eli5": "Imagine your thoughts are wild horses. If you want to ride them, you have to gently guide them first. Taming your mind is just like training these horses to follow your lead. With patience, they can take you anywhere you want.",
-      "protocol": "Start each day with 5 minutes of deep breathing. As thoughts come, visualize them as horses and gently bring them back to focus. Do this daily to build your mental control.",
-      "mnemonic": "Horses Lead Focus"
+      "name": "Focus Funnel",
+      "eli5": "Imagine your mind is a wild horse. It gallops everywhere, scattering thoughts like leaves in the wind. But with the Focus Funnel, you can guide that horse to a serene field where it can graze peacefully.",
+      "protocol": "Set a timer for 10 minutes. During this time, focus solely on one task, ignoring all distractions.",
+      "mnemonic": "Funnel down your focus."
     },
     "disciplineCode": {
-      "principle": "Consistency is key.",
-      "story": "Once, a young warrior trained every day, rain or shine. His friends played while he practiced, but he stayed focused. When battle came, he was ready while others faltered.",
-      "todayAction": "Pick one task you’ve been avoiding. Commit to starting it for just 10 minutes today.",
-      "mnemonic": "Warrior's Daily Battle"
+      "principle": "Consistency is Key",
+      "story": "Think of Michael Phelps, the Olympic swimmer. He practiced every single day, rain or shine, for hours. His discipline transformed him into the fastest man in water.",
+      "todayAction": "Commit to 10 minutes of practice today. No excuses, just show up and do it.",
+      "mnemonic": "Show up, swim fast."
     },
     "impulseKiller": {
-      "urge": "snacking late at night",
-      "eli5": "Imagine a monster in your head whispering for snacks. It's loud and tempting, but it's just a trick to distract you from your goals.",
-      "interrupt": "When the urge strikes, stand up and drink a glass of water. Move to a different room to break the snack cycle.",
-      "mnemonic": "Monster Water Break"
+      "urge": "procrastination",
+      "eli5": "Imagine a monster in your head, whispering, 'Do it later!' It grows bigger the longer you wait.",
+      "interrupt": "When you feel the urge to procrastinate, stand up and take a 60-second walk. Focus on your breathing and clear your mind.",
+      "mnemonic": "Walk it off, monster!"
     },
     "bodyUpgrade": {
-      "practice": "Daily stretching routine.",
-      "eli5": "Think of your body like a rubber band. If you stretch it, it becomes more flexible and strong. Regular stretching keeps you limber and ready for action.",
-      "minimumDose": "Spend 10 minutes each morning stretching right after you wake up.",
-      "mnemonic": "Rubber Band Flex"
+      "practice": "Bodyweight Squats",
+      "eli5": "Think of squats as building a sturdy house. Strong legs create a solid foundation for everything you do.",
+      "minimumDose": "Do 10 squats every day to see results.",
+      "mnemonic": "Squat to build strength."
     },
     "quiz": [
       {
-        "q": "What is a key benefit of deep breathing?",
+        "q": "What is the main goal of the Focus Funnel?",
         "options": [
-          "Reduces stress",
-          "Increases hunger",
-          "Makes you tired",
-          "Distracts you"
-        ],
-        "answer": 0,
-        "funFact": "Deep breathing can lower your heart rate and help you feel calmer."
-      },
-      {
-        "q": "What did the young warrior value most?",
-        "options": [
-          "Friends",
-          "Consistency",
-          "Food",
-          "Sleep"
+          "To distract",
+          "To concentrate",
+          "To relax",
+          "To multitask"
         ],
         "answer": 1,
-        "funFact": "Discipline often leads to success, as shown by the dedicated warrior."
+        "funFact": "Focusing can increase productivity by 25%!"
       },
       {
-        "q": "How can you combat late-night snacking?",
+        "q": "Who is an example of consistency in practice?",
+        "options": [
+          "Usain Bolt",
+          "Michael Phelps",
+          "Serena Williams",
+          "Tom Brady"
+        ],
+        "answer": 1,
+        "funFact": "Michael Phelps won 23 gold medals in his career!"
+      },
+      {
+        "q": "What should you do when feeling procrastination?",
         "options": [
           "Ignore it",
-          "Drink water",
-          "Watch TV",
-          "Go to bed"
+          "Take a 60-second walk",
+          "Call a friend",
+          "Watch TV"
         ],
         "answer": 1,
-        "funFact": "Staying hydrated can help reduce cravings and keep you focused on your goals."
+        "funFact": "Walking can boost creativity by 60%!"
       }
     ]
   },
   "knowledge": {
     "mathMagic": {
-      "concept": "Probability",
-      "eli5": "Imagine you have a bag of marbles. If you have 3 red marbles and 2 blue marbles, the chance of picking a red one is like saying, 'Out of 5 total marbles, 3 are red.' It’s like choosing your favorite candy from a mixed bag. More of your favorite means better chances!",
-      "realWorldUse": "In finance, probability helps investors decide which stocks might rise or fall. In sports, coaches use it to determine the likelihood of winning based on player performance.",
-      "mnemonic": "P = F/T: Probability equals Favorable outcomes over Total outcomes."
+      "concept": "Bayes' Theorem",
+      "eli5": "Imagine you're searching for your lost cat, Whiskers. You see a cat that looks just like him but it's not him! With Bayes' Theorem, you can update your guess based on new clues, like whether the cat is wearing a collar. It's like being a detective solving a mystery with every new piece of evidence.",
+      "realWorldUse": "In finance, Bayes' Theorem helps investors update their beliefs about market trends. In sports, coaches use it to make decisions based on player performance data.",
+      "mnemonic": "Prior plus evidence equals revised belief."
     },
     "scienceWow": {
       "field": "Astronomy",
-      "concept": "Black Holes",
-      "eli5": "Imagine a vacuum cleaner so powerful that not even light can escape it. Black holes are like cosmic whirlpools pulling everything in. They are the remnants of massive stars that collapsed under their own gravity. When you think of them, think of a giant cosmic drain!",
-      "mindBlow": "There could be black holes wandering through our galaxy, unnoticed, devouring stars and planets. Some scientists believe that supermassive black holes are at the center of most galaxies.",
-      "mnemonic": "B = M/G: Black holes are Bigger with More mass and Greater gravity."
+      "concept": "Dark Matter",
+      "eli5": "Imagine the universe is a giant cake with frosting. We can see the frosting (stars and galaxies) but the cake (dark matter) is hidden. This cake is way bigger than the frosting and holds everything together. Without it, galaxies would fly apart like balloons losing air!",
+      "mindBlow": "Dark matter makes up about 27% of the universe, but we can't see or touch it! It's like an invisible glue holding everything in place.",
+      "mnemonic": "Dark Matter = Cake Holding the Frosting."
     },
     "historyStory": {
-      "event": "The Great Fire of London (1666)",
-      "story": "In 1666, a small bakery fire in London turned into a massive inferno. The flames consumed wooden houses like dry leaves. People fled, saving only what they could carry. By the end, a huge part of the city lay in ruins, but it sparked a new era of rebuilding!",
-      "lesson": "Disasters can lead to positive change. From ashes can rise new beginnings.",
-      "mnemonic": "FIRE: Flames Ignite Rebuilding Efforts."
+      "event": "The Moon Landing",
+      "story": "On July 20, 1969, Neil Armstrong took a giant leap for mankind. He stepped onto the Moon, leaving footprints in the lunar dust. Buzz Aldrin joined him, while Michael Collins orbited above in the command module. This mission, Apollo 11, was a breathtaking show of human ingenuity and courage.",
+      "lesson": "The Moon landing teaches us the power of teamwork and dreaming big. When we unite for a common goal, we can achieve the impossible.",
+      "mnemonic": "One small step, one giant leap."
     },
     "earthSecret": {
-      "place": "Antarctica",
-      "secret": "Antarctica is home to 90% of the world's ice! It’s so cold that some lakes are beneath the ice, keeping life alive. Surprisingly, it also has mountains taller than the Alps, hidden under ice sheets.",
-      "edge": "Understanding Antarctica helps us learn about climate change and sea level rise. Protecting it is crucial for our planet’s future.",
-      "mnemonic": "ICE: Incredible Cold Environment."
+      "place": "Greenland",
+      "secret": "Greenland is actually mostly covered in ice, not green! It has the world's second-largest ice sheet, which holds about 10% of the planet's fresh water. Surprisingly, the ice is melting faster than predicted due to climate change, raising sea levels worldwide.",
+      "edge": "Knowing about Greenland's ice sheet can spark fascinating conversations about climate change. It also highlights the urgency for sustainable practices in business.",
+      "mnemonic": "Greenland = Ice, not Green."
     },
     "quiz": [
       {
-        "q": "What is the probability of drawing a red marble from a bag with 3 red and 2 blue marbles?",
+        "q": "What percentage of the universe is made up of dark matter?",
         "options": [
-          "3/5",
-          "1/2",
-          "2/5",
-          "4/5"
-        ],
-        "answer": 0,
-        "funFact": "The concept of probability dates back to ancient civilizations who used it to gamble and make decisions!"
-      },
-      {
-        "q": "What is a defining feature of a black hole?",
-        "options": [
-          "It emits light",
-          "It pulls in everything",
-          "It is made of ice",
-          "It's a star"
+          "5%",
+          "27%",
+          "50%",
+          "70%"
         ],
         "answer": 1,
-        "funFact": "The closest known black hole is about 1,000 light-years away from Earth, in the constellation V616 Monocerotis!"
+        "funFact": "Most of the universe is invisible and made up of dark matter!"
       },
       {
-        "q": "What sparked the rebuilding of London after the Great Fire?",
+        "q": "Who was the first person to walk on the Moon?",
         "options": [
-          "A new king",
-          "The destruction",
-          "A flood",
-          "A plague"
+          "Buzz Aldrin",
+          "Neil Armstrong",
+          "Yuri Gagarin",
+          "Michael Collins"
         ],
         "answer": 1,
-        "funFact": "The rebuilding led to new architectural styles and improved urban planning in London!"
+        "funFact": "Neil Armstrong's famous words were, 'That's one small step for man, one giant leap for mankind.'"
+      },
+      {
+        "q": "What is the main component of Greenland's landscape?",
+        "options": [
+          "Deserts",
+          "Forest",
+          "Ice",
+          "Mountains"
+        ],
+        "answer": 2,
+        "funFact": "Greenland's ice sheet is so massive that it influences global sea levels!"
       }
     ]
   },
   "ai": {
     "toolSpotlight": {
-      "name": "WordWiz",
+      "name": "WriteWise",
       "category": "writing",
-      "eli5": "Imagine having a magical pen that writes stories for you. You just need to whisper your ideas, and it turns them into beautiful paragraphs. It's like having a friend who knows exactly what you want to say.",
-      "secretMove": "You can use WordWiz to create outlines for your stories quickly. Just give it a few keywords, and it will draft a complete structure for your plot.",
-      "mnemonic": "Wizards Write Wonderfully"
+      "eli5": "Imagine a super-smart writing buddy that helps you draft emails, essays, or reports in seconds. It suggests better words and fixes grammar mistakes, making your writing shine. You type, and it polishes your thoughts into clear sentences, like a friend who always catches your typos.",
+      "secretMove": "It can analyze your writing style and suggest changes that match your tone, making your work feel more authentic without sacrificing quality.",
+      "mnemonic": "W for Write, W for Wise."
     },
     "workflowWin": {
-      "title": "Email Automator",
-      "problem": "Writing repetitive emails is boring and time-consuming. It eats into your productive hours.",
+      "title": "Content Creation Streamline",
+      "problem": "Creating content can be slow and tedious, especially when researching facts and structuring ideas. This tool speeds up the process, saving you from writer's block and endless revisions.",
       "steps": [
-        "Step 1: Connect your email account.",
-        "Step 2: Choose a template for common emails.",
-        "Step 3: Set triggers for when to send these emails.",
-        "Step 4: Sit back and let the tool do the work."
+        "Open WriteWise and choose the type of content you need.",
+        "Input your main idea or topic.",
+        "Let WriteWise generate an outline with key points.",
+        "Review and edit the suggested content to fit your voice."
       ],
-      "timeSaved": "You'll save hours every week that you can spend on more important tasks.",
-      "mnemonic": "Emails Effortlessly Executed"
+      "timeSaved": "You can save up to 3 hours on each article or blog post.",
+      "mnemonic": "C for Create, S for Speed."
     },
     "promptOfDay": {
-      "purpose": "This prompt helps you brainstorm story ideas quickly.",
-      "prompt": "Generate a unique story idea about [CHARACTER] who discovers [OBJECT] in [LOCATION].",
-      "where": "Claude / ChatGPT / Gemini",
-      "mnemonic": "Stories Sparked Simply"
+      "purpose": "To generate a compelling blog post on a trending topic.",
+      "prompt": "Write a blog post about [TOPIC] focusing on [SPECIFIC ASPECT] and including [EXAMPLES].",
+      "where": "ChatGPT",
+      "mnemonic": "B for Blog, T for Topic."
     },
     "futureWatch": {
-      "trend": "AI-Powered Personalization",
-      "eli5": "Think of shopping before and after AI. Before, you got random ads, like junk mail. Now, AI knows your taste and shows you exactly what you want, like a friend who knows your favorite snacks.",
-      "yourMove": "Start collecting data on your preferences today. Use that information to tailor your tools and make them work just for you.",
-      "mnemonic": "Personalized Progress"
+      "trend": "AI in Conflict Resolution",
+      "eli5": "Before, negotiations between countries took months of back-and-forth. Now, AI systems analyze data and suggest compromises in minutes, like having a wise mediator at the table. This speeds up peace talks, making it easier to resolve issues before they escalate.",
+      "yourMove": "Stay informed on AI developments in diplomacy and consider how these tools could improve local negotiations or community issues.",
+      "mnemonic": "C for Conflict, R for Resolution."
     },
     "quiz": [
       {
-        "q": "What does WordWiz do?",
+        "q": "What is the main benefit of WriteWise?",
         "options": [
-          "It writes stories",
-          "It edits videos",
-          "It sends emails",
-          "It manages calendars"
-        ],
-        "answer": 0,
-        "funFact": "WordWiz can even suggest plot twists!"
-      },
-      {
-        "q": "What problem does Email Automator solve?",
-        "options": [
-          "Too many meetings",
-          "Boring repetitive emails",
-          "Slow internet",
-          "Heavy workloads"
+          "It generates images",
+          "It helps improve writing",
+          "It organizes schedules",
+          "It plays music"
         ],
         "answer": 1,
-        "funFact": "It can automatically reply to common inquiries!"
+        "funFact": "Good writing can increase your chances of success in job applications by up to 70%."
       },
       {
-        "q": "What is the trend related to AI?",
+        "q": "How much time can you save with the Content Creation Streamline workflow?",
         "options": [
-          "Random ads",
-          "AI-Powered Personalization",
-          "Manual searches",
-          "Basic automation"
+          "1 hour",
+          "2 hours",
+          "3 hours",
+          "4 hours"
+        ],
+        "answer": 2,
+        "funFact": "The average person spends 4-5 hours writing a blog post!"
+      },
+      {
+        "q": "What does AI do in conflict resolution?",
+        "options": [
+          "Plays games",
+          "Analyzes data for compromises",
+          "Writes poems",
+          "Creates music"
         ],
         "answer": 1,
-        "funFact": "AI is making shopping feel more like a personal experience!"
+        "funFact": "AI can process thousands of data points in seconds, faster than any human negotiator."
       }
     ]
   },
   "travel": {
     "destination": {
       "country": "Japan",
-      "region": "Kyushu",
-      "eli5": "Imagine a land where ancient temples meet futuristic cities. Kyushu is Japan's southern island, full of hot springs and beautiful mountains. You can eat delicious ramen and see cherry blossoms. It's like stepping into a live-action anime.",
-      "bestTime": "The best time to visit is spring when the flowers bloom. Autumn is also beautiful with colorful leaves.",
-      "hiddenGem": "Many tourists miss the small town of Yufuin, known for its stunning views of Mount Yufu. It’s a peaceful place perfect for hot springs and art galleries.",
-      "mnemonic": "Jolly Kittens Jump"
+      "region": "Kyoto",
+      "eli5": "Imagine walking through streets lined with cherry blossoms. The air smells of sweet mochi and fresh green tea. You can hear the soft rustle of silk kimonos as locals pass by. It's a magical blend of ancient temples and modern cafes, all wrapped in tranquility.",
+      "bestTime": "The best time to visit is during cherry blossom season, from late March to early April. The pink blooms create a stunning backdrop for your adventures.",
+      "hiddenGem": "Visit the Nanzen-ji Temple early in the morning for serene gardens without crowds. Few tourists know about the hidden paths that lead to secret waterfalls nearby.",
+      "mnemonic": "Kite Cherry Blossoms, Tranquil Temples."
     },
     "visaTip": {
-      "focus": "Japan tourist visa",
-      "eli5": "Indian passport holders can get a visa easily. Apply online or visit the nearest embassy. Don’t forget to gather your travel documents.",
-      "goldenTip": "Make sure your passport is valid for at least six months. A well-prepared application speeds up the process.",
-      "mnemonic": "Just Pack Documents"
+      "focus": "Japan visa process for Indian passport holders",
+      "eli5": "Apply for a tourist visa online through the Japanese embassy's website. Gather documents like your passport, photos, and travel itinerary. Submit your application at the nearest embassy or consulate.",
+      "goldenTip": "Book your visa appointment early, as slots fill up quickly. Double-check your documents to avoid delays during the application process.",
+      "mnemonic": "VISA  -  Verify Information, Submit Application."
     },
     "culturalCode": {
-      "culture": "Respect and politeness are key in Japan.",
-      "doThis": "Bow slightly when greeting someone; it shows respect. Try to learn a few basic Japanese phrases; locals appreciate the effort.",
-      "neverDoThis": "Don’t tip in restaurants; it can be considered rude. Avoid speaking loudly in public places; it disturbs others.",
-      "mnemonic": "Respectful People Always"
+      "culture": "Japanese culture",
+      "doThis": "When you bow to greet someone, it shows respect and appreciation. Locals love it when visitors try to speak a few Japanese phrases, even just 'arigato' for thank you.",
+      "neverDoThis": "Never tip in restaurants; it's considered rude and unnecessary. Avoid pointing at people or things, as it can be seen as disrespectful.",
+      "mnemonic": "Bows for Respect, No Tips."
     },
     "quiz": [
       {
-        "q": "What is the capital of Japan?",
+        "q": "What is the famous cherry blossom festival called in Japan?",
         "options": [
-          "Tokyo",
-          "Kyoto",
-          "Osaka",
-          "Hiroshima"
+          "Hanami",
+          "Matsuri",
+          "Sakura",
+          "Tanabata"
         ],
         "answer": 0,
-        "funFact": "Tokyo is one of the most populous cities in the world, with over 13 million people!"
+        "funFact": "Hanami means 'flower viewing' in Japanese, celebrated with picnics under blooming trees."
       },
       {
-        "q": "What is a traditional Japanese hot spring called?",
+        "q": "Which famous temple is located in Kyoto?",
         "options": [
-          "Onsen",
-          "Ryokan",
-          "Sento",
-          "Yukata"
+          "Kinkaku-ji",
+          "Himeji Castle",
+          "Todai-ji",
+          "Senso-ji"
+        ],
+        "answer": 0,
+        "funFact": "Kinkaku-ji, also known as the Golden Pavilion, is covered in gold leaf and surrounded by beautiful gardens."
+      },
+      {
+        "q": "What is a popular Japanese dish made of rice and fish?",
+        "options": [
+          "Ramen",
+          "Sushi",
+          "Tempura",
+          "Okonomiyaki"
         ],
         "answer": 1,
-        "funFact": "Onsen are not just for bathing; they are places for relaxation and socializing."
-      },
-      {
-        "q": "Which flower is famously associated with Japan?",
-        "options": [
-          "Rose",
-          "Tulip",
-          "Cherry Blossom",
-          "Sunflower"
-        ],
-        "answer": 2,
-        "funFact": "The cherry blossom, or sakura, symbolizes the beauty and transience of life in Japanese culture."
+        "funFact": "Sushi has become a global favorite, with varieties like nigiri and maki enjoyed worldwide."
       }
     ]
   }
