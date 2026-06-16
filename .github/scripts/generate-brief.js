@@ -8,29 +8,36 @@ import { fileURLToPath } from 'url'
 
 // ── Sanitize Unicode that breaks esbuild ────────────────────────────────────
 function sanitizeForJS(obj) {
-  const str = JSON.stringify(obj)
-  const cleaned = str
-    .replace(/₹/g, 'Rs.')      // ₹ Rupee
-    .replace(/€/g, 'EUR')      // € Euro
-    .replace(/£/g, 'GBP')      // £ Pound
-    .replace(/—/g, ' - ')      // — Em dash
-    .replace(/–/g, ' - ')      // – En dash
-    .replace(/‘/g, "'")        // ' Left single quote
-    .replace(/’/g, "'")        // ' Right single quote
-    .replace(/“/g, '"')        // " Left double quote
-    .replace(/”/g, '"')        // " Right double quote
-    .replace(/…/g, '...')      // … Ellipsis
-    .replace(/°/g, ' degrees') // ° Degree
-    .replace(/₂/g, '2')        // ₂ Subscript 2
-    .replace(/[À-ÖØ-öø-ÿ]/g, c => {
-      const map = {'à':'a','á':'a','â':'a','ã':'a','ä':'a','å':'a',
-                   'è':'e','é':'e','ê':'e','ë':'e','ì':'i','í':'i',
-                   'î':'i','ï':'i','ò':'o','ó':'o','ô':'o','õ':'o',
-                   'ö':'o','ù':'u','ú':'u','û':'u','ü':'u','ý':'y',
-                   'ñ':'n','ç':'c','À':'A','Á':'A','É':'E','Ñ':'N','Ç':'C'}
+  let str = JSON.stringify(obj)
+  str = str
+    .replace(/\u20B9/g, 'Rs.')
+    .replace(/\u20AC/g, 'EUR')
+    .replace(/\u00A3/g, 'GBP')
+    .replace(/\u2014/g, ' - ')
+    .replace(/\u2013/g, ' - ')
+    .replace(/\u2018/g, "'")
+    .replace(/\u2019/g, "'")
+    .replace(/\u201C/g, '"')
+    .replace(/\u201D/g, '"')
+    .replace(/\u2026/g, '...')
+    .replace(/\u00B0/g, ' degrees')
+    .replace(/\u2082/g, '2')
+    .replace(/\u23F0/g, '')
+    .replace(/\u23F1/g, '')
+    .replace(/\u23F3/g, '')
+    .replace(/\u23F8/g, '')
+    .replace(/\u20E3/g, '')
+    .replace(/[\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF]/g, c => {
+      const map = {'\u00e0':'a','\u00e1':'a','\u00e2':'a','\u00e3':'a','\u00e4':'a','\u00e5':'a',
+                   '\u00e8':'e','\u00e9':'e','\u00ea':'e','\u00eb':'e',
+                   '\u00ec':'i','\u00ed':'i','\u00ee':'i','\u00ef':'i',
+                   '\u00f2':'o','\u00f3':'o','\u00f4':'o','\u00f5':'o','\u00f6':'o',
+                   '\u00f9':'u','\u00fa':'u','\u00fb':'u','\u00fc':'u',
+                   '\u00fd':'y','\u00f1':'n','\u00e7':'c',
+                   '\u00c0':'A','\u00c1':'A','\u00c9':'E','\u00d1':'N','\u00c7':'C'}
       return map[c] || c
     })
-  return JSON.parse(cleaned)
+  return JSON.parse(str)
 }
 
 
@@ -216,8 +223,8 @@ function rebuildAppJsx() {
   console.log(`  Found ${dateFiles.length} date files: ${dateFiles.map(f=>f.replace('.js','')).join(', ')}`)
 
   let appContent = fs.readFileSync(APP_PATH, 'utf8')
-  const START = '// ══ DATA START ══'
-  const END = '// ══ DATA END ══'
+  const START = '// == DATA START =='
+  const END = '// == DATA END =='
 
   const dataLines = [START, '']
   const varNames = []
