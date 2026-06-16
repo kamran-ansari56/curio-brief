@@ -23,13 +23,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-
       - run: npm install openai
-
       - name: Delete files if force regenerating
         if: ${{ github.event.inputs.force == 'yes' && github.event.inputs.dates != '' }}
         run: |
@@ -37,18 +34,16 @@ jobs:
           for date in "${DATES[@]}"; do
             date=$(echo $date | tr -d ' ')
             if [ -f "src/data/${date}.js" ]; then
-              echo "Deleting src/data/${date}.js for regeneration"
+              echo "Deleting src/data/${date}.js"
               rm "src/data/${date}.js"
             fi
           done
-
       - name: Generate dates
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           DATES: ${{ github.event.inputs.dates }}
           MODE: ${{ github.event.inputs.dates != '' && 'backfill-manual' || 'backfill-auto' }}
         run: node .github/scripts/generate-brief.js
-
       - name: Commit and push
         run: |
           git config user.name "Curio Brief Bot"
@@ -58,6 +53,6 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "Backfill: $(cat /tmp/generated_date.txt 2>/dev/null || echo 'update')"
+          git commit -m "Backfill: $(cat /tmp/generated_date.txt 2>/dev/null || echo update)"
           git pull --rebase origin main || true
           git push origin main
