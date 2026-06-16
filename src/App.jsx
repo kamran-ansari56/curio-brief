@@ -19,7 +19,7 @@ const DOMAINS = [
   { id: 'travel',        emoji: '✈️', label: 'Explore Earth',      color: '#f5c6a0', desc: 'Secrets of our planet' },
 ]
 
-// ══ DATA START ══
+// == DATA START ==
 
 const d260601 = {
   news: {
@@ -76,7 +76,7 @@ const d260601 = {
   },
   psychology: {
     mindTrick: { name: "The Dunning-Kruger Effect", eli5: "Here's one of the most important things psychology ever discovered: people who know very little about a topic tend to think they know a LOT. And people who are genuine experts tend to think they still have so much to learn. A first-year medical student is more confident about diagnosing than a 20-year surgeon. A first-time investor is more confident than Warren Buffett. This is the Dunning-Kruger Effect  -  incompetence hides from itself because you need skill to recognise what you don't know.", realLife: "Watch for this in meetings: the loudest, most confident voice is sometimes the least informed. The quietest person who speaks carefully may know far more. Also watch for it in yourself  -  sudden expertise after reading one article is the peak of the Dunning-Kruger curve.", mnemonic: "Dunning-Kruger = The less you know, the more confident you are. 'Mount Stupid' 🏔️" },
-    bodyLanguage: { signal: "Crossed Arms  -  What It Really Means", eli5: "Most people think crossed arms = defensive or closed off. But research shows it's more nuanced. People cross their arms when they're cold, when they're thinking deeply, when they feel uncomfortable, or when they're literally just comfortable. The key is to read crossed arms with other signals: if crossed arms come with a furrowed brow and avoided eye contact, that's defensiveness. If crossed arms come with leaning forward and nodding, that's concentration.", howToUse: "Don't assume someone is being defensive just because their arms are crossed. Ask an open question: 'What are your thoughts on this?' and watch if they uncross as they engage.", mnemonic: "Crossed arms ≠ always defensive. Context is everything. Read the cluster 🤔" },
+    bodyLanguage: { signal: "Crossed Arms  -  What It Really Means", eli5: "Most people think crossed arms = defensive or closed off. But research shows it's more nuanced. People cross their arms when they're cold, when they're thinking deeply, when they feel uncomfortable, or when they're literally just comfortable. The key is to read crossed arms with other signals: if crossed arms come with a furrowed brow and avoided eye contact, that's defensiveness. If crossed arms come with leaning forward and nodding, that's concentration.", howToUse: "Don't assume someone is being defensive just because their arms are crossed. Ask an open question: 'What are your thoughts on this?' and watch if they uncross as they engage.", mnemonic: "Crossed arms != always defensive. Context is everything. Read the cluster 🤔" },
     superpower: { name: "Reciprocity  -  The Ancient Rule of Give and Take", story: "In 1974, a researcher named Dennis Regan ran an experiment: one group of people received a small, unrequested Coke from a stranger. Later, the stranger asked them to buy raffle tickets. The people who received the Coke bought twice as many tickets as those who didn't. They felt obligated to give back  -  even though nobody asked them to accept the Coke in the first place. This is Reciprocity: when someone gives us something, we feel a deep, almost automatic need to give back.", shield: "Be careful about accepting unsolicited gifts or favours from people who later want something from you. The favour creates an invisible obligation. Recognise it.", mnemonic: "Reciprocity = Give first, receive later. The oldest sales technique on Earth 🎁" },
     quiz: [
       { q: "The Dunning-Kruger Effect says that...", options: ["Smart people are always more confident", "People who know little tend to overestimate their knowledge", "Experts are always the most confident voices", "Intelligence directly correlates with confidence"], answer: 1, funFact: "The study was inspired by a 1995 bank robber who robbed banks in broad daylight with no disguise, believing lemon juice on his face made him invisible to cameras. He genuinely didn't know what he didn't know." },
@@ -86,7 +86,7 @@ const d260601 = {
   },
   leadership: {
     leaderMove: { name: "The Power of 'I Don't Know'", story: "General James Mattis, one of America's most respected military leaders, built a culture in his units where saying 'I don't know  -  let me find out' was respected more than a wrong answer given confidently. In most organisations, admitting ignorance is seen as weakness. Mattis showed it's actually strength: leaders who fake knowledge make bad decisions. Leaders who admit gaps and fill them make good ones. Jeff Bezos had a similar rule at Amazon: 'I don't know' followed by genuine investigation was always preferred over confident bluffing.", doThis: "The next time someone asks you something you're not 100% certain about: say 'Let me confirm that and come back to you in an hour.' Then actually confirm it. Do this once a day.", mnemonic: "'I don't know' + curiosity = Leadership. Fake certainty = Danger 🎯" },
-    visionarySecret: { concept: "The Long Game  -  Bezos's 10-Year Horizon", eli5: "Jeff Bezos made almost every major Amazon decision by asking: 'In 10 years, will this matter?' Not next quarter, not next year  -  10 years. Amazon Web Services (AWS)  -  now worth more than the entire retail business  -  was laughed at internally when first proposed. Bezos protected it because the 10-year view said cloud computing would be massive. Most people plan in quarters. Visionaries plan in decades. The longer your time horizon, the bigger the decisions you can make correctly.", exercise: "Pick one decision you're facing right now. Write down how it looks if you zoom forward 10 years. Does the short-term difficulty still matter? Often the long-game clarity changes everything.", mnemonic: "Bezos rule: Ask 'Will this matter in 10 years?' before every big decision 🗓️➡️🌟" },
+    visionarySecret: { concept: "The Long Game  -  Bezos's 10-Year Horizon", eli5: "Jeff Bezos made almost every major Amazon decision by asking: 'In 10 years, will this matter?' Not next quarter, not next year  -  10 years. Amazon Web Services (AWS)  -  now worth more than the entire retail business  -  was laughed at internally when first proposed. Bezos protected it because the 10-year view said cloud computing would be massive. Most people plan in quarters. Visionaries plan in decades. The longer your time horizon, the bigger the decisions you can make correctly.", exercise: "Pick one decision you're facing right now. Write down how it looks if you zoom forward 10 years. Does the short-term difficulty still matter? Often the long-game clarity changes everything.", mnemonic: "Bezos rule: Ask 'Will this matter in 10 years?' before every big decision 🗓️->️🌟" },
     eliteHabit: { habit: "The Journaling Practice", whoAndHow: "Marcus Aurelius, Richard Branson, Oprah Winfrey, and Tim Ferriss all journal daily. Aurelius wrote Meditations as a private journal  -  never meant to be published. The practice: 5-10 minutes each morning or night, free-write whatever is on your mind. No format. No audience. Just honest thinking.", whyItWorks: "Writing forces you to slow your thinking down enough to actually examine it. Unexamined thoughts run on autopilot. Written thoughts reveal patterns, fears, and opportunities you didn't know were there. Studies show regular journalling reduces anxiety and improves decision-making quality.", mnemonic: "Journal = Your brain's debug mode. Thoughts in, clarity out 📓" },
     sigmaWisdom: { lesson: "Amor Fati  -  Love Your Fate", story: "Friedrich Nietzsche coined 'Amor Fati'  -  Love Your Fate. Not just tolerating what happens to you, or accepting it with resignation. Actually loving it. Marcus Aurelius practised this: when his children died, when battles were lost, when plans failed  -  he tried to see those events as necessary, as fuel, as the raw material of character. Ryan Holiday calls it 'the obstacle is the way.' Every difficult thing that happens to you contains an opportunity hiding inside it.", action: "When something goes wrong today  -  however small  -  write down one way this difficulty could actually help you in the long run. Do this before you complain about it.", mnemonic: "Amor Fati = Love your fate. Obstacles are opportunities in disguise 🌱" },
     quiz: [
@@ -96,40 +96,40 @@ const d260601 = {
     ]
   },
   wealth: {
-    wealthSecret: { name: "The Wealth Ladder  -  Assets vs Liabilities", story: "Robert Kiyosaki's most famous insight: rich people buy assets (things that put money IN your pocket  -  stocks, property, businesses), while poor and middle-class people buy liabilities thinking they're assets (cars, big TVs, expensive phones  -  things that take money OUT of your pocket every month). A car depreciates. A stock can appreciate and pay dividends. The same money spent differently creates completely different financial futures. The wealth ladder goes up when more rungs are assets.", action: "List everything you spent money on this month. Mark each item: A (asset  -  it will be worth more or pay you) or L (liability  -  it costs you money over time). Count the As and Ls. That ratio tells you your financial trajectory.", mnemonic: "Assets put money IN. Liabilities take money OUT. Rich people know the difference 💰↕️" },
+    wealthSecret: { name: "The Wealth Ladder  -  Assets vs Liabilities", story: "Robert Kiyosaki's most famous insight: rich people buy assets (things that put money IN your pocket  -  stocks, property, businesses), while poor and middle-class people buy liabilities thinking they're assets (cars, big TVs, expensive phones  -  things that take money OUT of your pocket every month). A car depreciates. A stock can appreciate and pay dividends. The same money spent differently creates completely different financial futures. The wealth ladder goes up when more rungs are assets.", action: "List everything you spent money on this month. Mark each item: A (asset  -  it will be worth more or pay you) or L (liability  -  it costs you money over time). Count the As and Ls. That ratio tells you your financial trajectory.", mnemonic: "Assets put money IN. Liabilities take money OUT. Rich people know the difference 💰<->️" },
     moneyMachine: { type: "REITs  -  Real Estate Without Buying Property", eli5: "Imagine you want to own a piece of a big shopping mall or office building  -  but you only have Rs.5,000. REITs (Real Estate Investment Trusts) let you do exactly that. A REIT pools money from thousands of investors, buys big properties, collects rent, and distributes 90% of profits as dividends. In India, Embassy Office Parks REIT and Brookfield India REIT are listed on NSE. You can buy units like buying shares.", indiaAngle: "India has 4 listed REITs as of 2026. Embassy REIT  -  India's first  -  has consistently paid quarterly dividends and is backed by global investors. Minimum investment is around Rs.300-400 per unit.", mnemonic: "REIT = Real Estate In your Trading account. Mall owner from your phone 🏢📱" },
     mindsetFlip: { oldThinking: "I need a high salary to build wealth", newThinking: "I need a high savings rate  -  salary is less important than what percentage I keep", why: "A person earning Rs.2 lakhs/month who saves 5% = Rs.10,000 saved. A person earning Rs.80,000/month who saves 30% = Rs.24,000 saved. The lower-earning person saves MORE because their ratio is higher. Wealth is built from the gap between what you earn and what you spend  -  not just from earning more.", mnemonic: "Savings rate > salary size. The gap is where wealth lives 📐" },
-    magicNumber: { number: "25x Your Annual Expenses", eli5: "This is the financial freedom number. If you spend Rs.6 lakh per year, you need Rs.1.5 crore invested to never need to work again (if invested at 8%+ returns). If you spend Rs.10 lakh per year, you need Rs.2.5 crore. The formula: annual expenses × 25 = your financial freedom target. Most people don't know their number. Once you know it, it becomes a target  -  and targets change behaviour.", mnemonic: "Freedom Number = Annual spend × 25. Know yours. Chase it 🎯" },
+    magicNumber: { number: "25x Your Annual Expenses", eli5: "This is the financial freedom number. If you spend Rs.6 lakh per year, you need Rs.1.5 crore invested to never need to work again (if invested at 8%+ returns). If you spend Rs.10 lakh per year, you need Rs.2.5 crore. The formula: annual expenses x 25 = your financial freedom target. Most people don't know their number. Once you know it, it becomes a target  -  and targets change behaviour.", mnemonic: "Freedom Number = Annual spend x 25. Know yours. Chase it 🎯" },
     quiz: [
       { q: "According to Robert Kiyosaki, a car is...", options: ["An asset because it helps you earn money", "A liability because it costs money every month and loses value", "Neutral  -  neither asset nor liability", "An asset if it's expensive enough"], answer: 1, funFact: "The average Indian car owner spends Rs.80,000 - Rs.1.5 lakh per year on fuel, insurance, servicing and EMIs. Over 10 years that's Rs.8-15 lakh that could have been invested  -  at 12% returns, that's Rs.15-30 lakh in lost wealth." },
       { q: "What is a REIT?", options: ["A government real estate bond", "A fund that owns properties and distributes rent as dividends to investors", "A bank loan for property buyers", "A tax on real estate profits"], answer: 1, funFact: "REITs were invented in the US in 1960 to allow ordinary investors to own commercial real estate. India got its first REIT  -  Embassy Office Parks  -  only in 2019. The global REIT market is worth over $2 trillion." },
-      { q: "If you spend Rs.8 lakh per year, what is your financial freedom number?", options: ["Rs.80 lakhs", "Rs.1.5 crore", "Rs.2 crore", "Rs.5 crore"], answer: 2, funFact: "Rs.8 lakh × 25 = Rs.2 crore. This is based on the '4% Safe Withdrawal Rate'  -  research showing that withdrawing 4% of a well-invested portfolio per year has never depleted the portfolio over a 30-year period historically." }
+      { q: "If you spend Rs.8 lakh per year, what is your financial freedom number?", options: ["Rs.80 lakhs", "Rs.1.5 crore", "Rs.2 crore", "Rs.5 crore"], answer: 2, funFact: "Rs.8 lakh x 25 = Rs.2 crore. This is based on the '4% Safe Withdrawal Rate'  -  research showing that withdrawing 4% of a well-invested portfolio per year has never depleted the portfolio over a 30-year period historically." }
     ]
   },
   communication: {
-    speakingSkill: { name: "Storytelling Structure: Problem → Stakes → Solution → Lesson", story: "Every great speech, pitch, and presentation follows a hidden story structure. Abraham Lincoln's Gettysburg Address: Problem (civil war tearing the nation). Stakes (the survival of democracy itself). Solution (honoring those who died by recommitting to the cause). Lesson (government of the people, by the people, for the people, shall not perish). In 272 words he delivered one of history's most powerful speeches. The structure works in 2 minutes or 2 hours.", drill: "Practice telling any story  -  news event, personal experience, company update  -  using exactly this sequence: What was the problem? What was at stake? How was it solved? What should we learn? Record yourself doing it for 90 seconds.", mnemonic: "Problem → Stakes → Solution → Lesson = Every great story ever told 📖" },
+    speakingSkill: { name: "Storytelling Structure: Problem -> Stakes -> Solution -> Lesson", story: "Every great speech, pitch, and presentation follows a hidden story structure. Abraham Lincoln's Gettysburg Address: Problem (civil war tearing the nation). Stakes (the survival of democracy itself). Solution (honoring those who died by recommitting to the cause). Lesson (government of the people, by the people, for the people, shall not perish). In 272 words he delivered one of history's most powerful speeches. The structure works in 2 minutes or 2 hours.", drill: "Practice telling any story  -  news event, personal experience, company update  -  using exactly this sequence: What was the problem? What was at stake? How was it solved? What should we learn? Record yourself doing it for 90 seconds.", mnemonic: "Problem -> Stakes -> Solution -> Lesson = Every great story ever told 📖" },
     negotiationMove: { tactic: "Anchoring  -  Set the First Number", eli5: "In any negotiation involving numbers  -  salary, price, contract value  -  whoever says the first number has enormous power. This is called anchoring. The first number becomes the psychological reference point for everything that follows. If you're negotiating your salary and your company says Rs.80,000 first, the entire negotiation happens around that anchor. If you say Rs.1,20,000 first, the negotiation happens around that instead  -  and the final number will likely be higher.", script: "In a salary negotiation: instead of waiting for them to make an offer, say 'Based on my research and the market rate for this role, I'm targeting Rs.[X]'  -  and make X higher than your minimum. The anchor is now yours.", mnemonic: "First number = Anchor. Set it high, let them negotiate down to your real target ⚓" },
     officeWin: { rule: "Over-communicate on important tasks  -  give unprompted status updates", story: "Person A is given a task and goes silent for 3 days. Person B is given the same task and sends a 2-line update on day 2: 'On track, completing by tomorrow  -  no blockers.' Person B builds more trust in 3 days than Person A builds in 3 months. Managers fear silence. They don't know if you're stuck, if you forgot, or if something went wrong. Unprompted updates remove their anxiety and mark you as reliable.", mistake: "Most people only communicate when they need something or when there's a problem. Proactive communication when things are going FINE is what builds reputations.", mnemonic: "Status update unprompted = Reliability signal. Silence = Anxiety signal 📡" },
     confidenceHack: { technique: "Slow Down Your Speech", science: "Fast speech signals anxiety. Slow, measured speech signals confidence and authority. Research shows people perceive slow speakers as more intelligent, more credible, and more trustworthy  -  even when the content is identical. Slow speech also gives your brain more time to form better sentences, reducing filler words like 'um' and 'uh'.", doItNow: "Record a 1-minute voice memo about any topic. Play it back. Count your filler words and measure your pace. Then record again  -  deliberately 20% slower. Compare how you sound. Practice this weekly.", mnemonic: "Slow speech = Authority. Fast speech = Anxiety. Slow down to speed up trust 🐢🏆" },
     quiz: [
-      { q: "The Gettysburg Address used which storytelling structure?", options: ["Past → Present → Future", "Problem → Stakes → Solution → Lesson", "Beginning → Middle → End", "Data → Analysis → Recommendation"], answer: 1, funFact: "Lincoln's Gettysburg Address was 272 words and took 2 minutes. The main speaker that day, Edward Everett, spoke for 2 hours before Lincoln. History remembered the 2-minute speech, not the 2-hour one." },
+      { q: "The Gettysburg Address used which storytelling structure?", options: ["Past -> Present -> Future", "Problem -> Stakes -> Solution -> Lesson", "Beginning -> Middle -> End", "Data -> Analysis -> Recommendation"], answer: 1, funFact: "Lincoln's Gettysburg Address was 272 words and took 2 minutes. The main speaker that day, Edward Everett, spoke for 2 hours before Lincoln. History remembered the 2-minute speech, not the 2-hour one." },
       { q: "In salary negotiations, anchoring means...", options: ["Waiting for the employer to make the first offer", "Setting the first number to create a psychological reference point", "Staying firm at one number throughout", "Negotiating from the middle ground"], answer: 1, funFact: "Studies show that in salary negotiations, the final agreed salary is statistically closest to whoever made the first offer  -  even when that first offer seemed unreasonable. Anchoring bias is that powerful." },
       { q: "Why does speaking slowly signal confidence?", options: ["It gives you more time to think of impressive words", "Fast speakers are always nervous so slow = calm", "Research shows slow speakers are perceived as more intelligent, credible, and authoritative", "It makes presentations longer and more thorough"], answer: 2, funFact: "Martin Luther King Jr. spoke at 92 words per minute in the 'I Have a Dream' speech  -  about 40% slower than normal conversation. Barack Obama averaged 110 wpm in major speeches. The average person speaks at 130-150 wpm." }
     ]
   },
   mind: {
-    brainHack: { name: "Implementation Intentions  -  If-Then Planning", eli5: "Most people set goals. Very few achieve them. The difference isn't willpower  -  it's planning. Psychologist Peter Gollwitzer discovered that adding 'when-then' specifics to any goal dramatically increases follow-through. Instead of 'I'll exercise more,' say 'When I wake up on Monday and Thursday, I will put on my shoes and walk for 20 minutes before breakfast.' The brain treats the 'when' as a trigger  -  like programming an alarm  -  and the action becomes almost automatic.", protocol: "Pick one habit you've been trying to build. Write: 'When [specific trigger], I will [specific action] for [specific duration].' Put this somewhere you'll see it. The trigger and the plan together remove the need for willpower.", mnemonic: "If-Then Planning = Pre-program your brain like an alarm clock ⏰🧠" },
-    disciplineCode: { principle: "The Compound Effect of Daily Choices", story: "Darren Hardy's book The Compound Effect starts with a thought experiment: two people live identical lives except one makes slightly better choices every day  -  1% better eating, 1% more walking, 1% more reading. The other makes 1% worse choices daily. After 5 years, they are completely different people. After 10 years, they are unrecognisable from each other. No single choice dramatically changed anything. The accumulation of tiny choices creates massive divergence over time.", todayAction: "Pick ONE tiny daily choice to improve by 1% today. Not 100%. Just 1%. Write it down. Tomorrow, look at what you wrote and do it again.", mnemonic: "1% better daily × 365 days = 37× better in a year. The maths is magic 📈" },
-    impulseKiller: { urge: "Impulse buying  -  buying things you didn't plan to", eli5: "Your brain is wired to want immediate reward. Shops, websites, and apps are designed by expert psychologists to trigger that wiring. You walk past a shop and suddenly 'need' something you didn't know existed 5 minutes ago. The urge to buy impulsively is not rational  -  it's a neurological hijack. Online shopping makes it worse: one click, instant delivery, no friction.", interrupt: "The 24-hour rule: when you feel the urge to buy something unplanned, add it to a wishlist and wait 24 hours. Most of the time, you'll check the list the next day and not actually want it anymore. The urge was temporary. The money would have been permanent.", mnemonic: "24-hour wishlist rule = Kills 80% of impulse buys before they happen 🛒⏸️" },
-    bodyUpgrade: { practice: "Morning Sunlight  -  The Free Mood Regulator", eli5: "Your brain has a master biological clock called the circadian rhythm. The single most powerful way to set it every day is getting natural light in your eyes within 30 minutes of waking up. This light triggers a cascade: it stops melatonin (sleep hormone), boosts cortisol (alertness), and sets serotonin production (mood) for the entire day. Dr. Andrew Huberman calls this the most impactful free health tool available to anyone on Earth.", minimumDose: "2-10 minutes of outdoor light within 30 minutes of waking. No sunglasses. No windows  -  glass filters the necessary wavelengths. Even on cloudy days, outdoor light is 10-50× brighter than indoor light.", mnemonic: "Morning sunlight = Free antidepressant, alarm clock for your brain ☀️🧠" },
+    brainHack: { name: "Implementation Intentions  -  If-Then Planning", eli5: "Most people set goals. Very few achieve them. The difference isn't willpower  -  it's planning. Psychologist Peter Gollwitzer discovered that adding 'when-then' specifics to any goal dramatically increases follow-through. Instead of 'I'll exercise more,' say 'When I wake up on Monday and Thursday, I will put on my shoes and walk for 20 minutes before breakfast.' The brain treats the 'when' as a trigger  -  like programming an alarm  -  and the action becomes almost automatic.", protocol: "Pick one habit you've been trying to build. Write: 'When [specific trigger], I will [specific action] for [specific duration].' Put this somewhere you'll see it. The trigger and the plan together remove the need for willpower.", mnemonic: "If-Then Planning = Pre-program your brain like an alarm clock 🧠" },
+    disciplineCode: { principle: "The Compound Effect of Daily Choices", story: "Darren Hardy's book The Compound Effect starts with a thought experiment: two people live identical lives except one makes slightly better choices every day  -  1% better eating, 1% more walking, 1% more reading. The other makes 1% worse choices daily. After 5 years, they are completely different people. After 10 years, they are unrecognisable from each other. No single choice dramatically changed anything. The accumulation of tiny choices creates massive divergence over time.", todayAction: "Pick ONE tiny daily choice to improve by 1% today. Not 100%. Just 1%. Write it down. Tomorrow, look at what you wrote and do it again.", mnemonic: "1% better daily x 365 days = 37x better in a year. The maths is magic 📈" },
+    impulseKiller: { urge: "Impulse buying  -  buying things you didn't plan to", eli5: "Your brain is wired to want immediate reward. Shops, websites, and apps are designed by expert psychologists to trigger that wiring. You walk past a shop and suddenly 'need' something you didn't know existed 5 minutes ago. The urge to buy impulsively is not rational  -  it's a neurological hijack. Online shopping makes it worse: one click, instant delivery, no friction.", interrupt: "The 24-hour rule: when you feel the urge to buy something unplanned, add it to a wishlist and wait 24 hours. Most of the time, you'll check the list the next day and not actually want it anymore. The urge was temporary. The money would have been permanent.", mnemonic: "24-hour wishlist rule = Kills 80% of impulse buys before they happen 🛒️" },
+    bodyUpgrade: { practice: "Morning Sunlight  -  The Free Mood Regulator", eli5: "Your brain has a master biological clock called the circadian rhythm. The single most powerful way to set it every day is getting natural light in your eyes within 30 minutes of waking up. This light triggers a cascade: it stops melatonin (sleep hormone), boosts cortisol (alertness), and sets serotonin production (mood) for the entire day. Dr. Andrew Huberman calls this the most impactful free health tool available to anyone on Earth.", minimumDose: "2-10 minutes of outdoor light within 30 minutes of waking. No sunglasses. No windows  -  glass filters the necessary wavelengths. Even on cloudy days, outdoor light is 10-50x brighter than indoor light.", mnemonic: "Morning sunlight = Free antidepressant, alarm clock for your brain ☀️🧠" },
     quiz: [
-      { q: "Implementation intentions improve goal achievement by...", options: ["Increasing motivation", "Adding specific when-then triggers that automate behaviour", "Setting bigger targets", "Rewarding yourself more"], answer: 1, funFact: "Peter Gollwitzer's research across 94 studies found that people who used implementation intentions (if-then planning) were 2-3× more likely to achieve their goals than those who just set intentions without specific triggers." },
-      { q: "The Compound Effect says that 1% daily improvement over 365 days results in approximately how much total improvement?", options: ["37% better", "365% better", "37× better", "100× better"], answer: 2, funFact: "The maths: 1.01^365 = 37.78. So 1% better every day for a year makes you approximately 37 times better. Conversely, 1% worse every day: 0.99^365 = 0.03  -  you become 3% of what you were. Tiny choices compound into enormous outcomes." },
+      { q: "Implementation intentions improve goal achievement by...", options: ["Increasing motivation", "Adding specific when-then triggers that automate behaviour", "Setting bigger targets", "Rewarding yourself more"], answer: 1, funFact: "Peter Gollwitzer's research across 94 studies found that people who used implementation intentions (if-then planning) were 2-3x more likely to achieve their goals than those who just set intentions without specific triggers." },
+      { q: "The Compound Effect says that 1% daily improvement over 365 days results in approximately how much total improvement?", options: ["37% better", "365% better", "37x better", "100x better"], answer: 2, funFact: "The maths: 1.01^365 = 37.78. So 1% better every day for a year makes you approximately 37 times better. Conversely, 1% worse every day: 0.99^365 = 0.03  -  you become 3% of what you were. Tiny choices compound into enormous outcomes." },
       { q: "Morning sunlight in the eyes helps your brain primarily by...", options: ["Warming your body temperature", "Setting your circadian rhythm  -  triggering alertness, mood, and energy for the whole day", "Improving eyesight", "Reducing hunger"], answer: 1, funFact: "Astronauts on the International Space Station see 16 sunrises per day, which completely disrupts their circadian rhythms. NASA now uses precisely timed artificial light to simulate a 24-hour day cycle and preserve astronaut mental health." }
     ]
   },
   knowledge: {
-    mathMagic: { concept: "Probability  -  The Mathematics of Uncertainty", eli5: "Every decision you make involves uncertainty. Probability is the science of quantifying that uncertainty. A coin has 50% chance of heads. A weather forecast of '70% rain' means: in 100 days with similar conditions, it rained 70 times. But here's what most people misunderstand: a 70% chance of rain doesn't mean 'it will definitely rain.' It means there's a 30% chance it won't. Smart decisions account for both the probability AND what happens if the unlikely outcome occurs.", realWorldUse: "In investing: 'This stock has an 80% chance of going up' sounds great. But if the 20% scenario means you lose everything, and the 80% scenario means you gain 10%  -  the expected value is still negative. Always calculate: probability × outcome for ALL scenarios, not just the most likely one.", mnemonic: "Probability = Uncertainty given a number. Know both the likely AND unlikely scenarios 🎲" },
+    mathMagic: { concept: "Probability  -  The Mathematics of Uncertainty", eli5: "Every decision you make involves uncertainty. Probability is the science of quantifying that uncertainty. A coin has 50% chance of heads. A weather forecast of '70% rain' means: in 100 days with similar conditions, it rained 70 times. But here's what most people misunderstand: a 70% chance of rain doesn't mean 'it will definitely rain.' It means there's a 30% chance it won't. Smart decisions account for both the probability AND what happens if the unlikely outcome occurs.", realWorldUse: "In investing: 'This stock has an 80% chance of going up' sounds great. But if the 20% scenario means you lose everything, and the 80% scenario means you gain 10%  -  the expected value is still negative. Always calculate: probability x outcome for ALL scenarios, not just the most likely one.", mnemonic: "Probability = Uncertainty given a number. Know both the likely AND unlikely scenarios 🎲" },
     scienceWow: { field: "Biology", concept: "Neuroplasticity  -  Your Brain Can Rewire Itself", eli5: "For most of human history, scientists thought the adult brain was fixed  -  a machine that couldn't be changed after childhood. Then in the 1990s, everything changed. Scientists discovered neuroplasticity: the brain physically rewires itself based on what you do, think, and experience. When you learn a new skill, your neurons form new connections. When you stop a habit, old pathways weaken. You are literally sculpting your brain with every thought and action. The brain you have today is not the brain you must keep.", mindBlow: "London taxi drivers, who must memorise thousands of streets, have measurably larger hippocampus (memory centre) than other people. Violinists who practise young develop larger brain regions controlling their left hand fingers. Your job, your habits, your practice  -  all physically change your brain structure.", mnemonic: "Neuroplasticity = Your brain is clay, not stone. Shape it or it shapes you 🧠🏺" },
     historyStory: { event: "The Printing Press  -  How Gutenberg Changed Everything (1440)", story: "Before Johannes Gutenberg invented the printing press around 1440, a single book cost as much as a house and took months for a monk to copy by hand. Only the rich and the church could access knowledge. Within 50 years of the printing press, over 20 million books were printed across Europe. The Protestant Reformation, the Scientific Revolution, and the spread of democracy all followed  -  because suddenly anyone could read the same ideas at the same time. One invention broke the monopoly on knowledge and changed human civilisation.", lesson: "Information monopolies create power monopolies. When information becomes democratised  -  printing press, internet, AI  -  society transforms rapidly. We are living through the third great information revolution right now with AI.", mnemonic: "Printing press 1440 = First internet. Gutenberg = First Google 📰💻" },
     earthSecret: { place: "Bhutan", secret: "Bhutan is the only carbon-negative country in the world  -  it absorbs more CO2 than it produces. The country's constitution legally mandates that 60% of its land must remain forested forever. It also measures success using Gross National Happiness instead of GDP. No fast food chains, no billboard advertising, and tourists must pay $200 per day just to enter  -  to limit mass tourism's impact on its culture and environment.", edge: "Bhutan's model shows that economic metrics beyond GDP are possible and functional. Understanding alternative development models matters as climate change reshapes which countries succeed this century.", mnemonic: "Bhutan = Carbon negative, happiness-positive, tourists pay to visit 🇧🇹🌿" },
@@ -142,8 +142,8 @@ const d260601 = {
   ai: {
     toolSpotlight: { name: "Notion AI", category: "Productivity / Writing / Organisation", eli5: "Notion is like a super-smart notebook that can also be a database, project tracker, and wiki  -  all in one. Notion AI takes it further: it can write first drafts, summarise long notes, translate meeting notes into action items, and answer questions about your own documents. Instead of searching through 100 pages of notes, you ask Notion AI 'What did we decide about the marketing budget?' and it finds and summarises the answer.", secretMove: "Use Notion AI's 'Ask AI about this page' feature in any document. Instead of rereading a 20-page meeting record, ask: 'What are the 3 most important decisions made in this document?' You can process a month of notes in 5 minutes.", mnemonic: "Notion AI = Your second brain with a search bar and a writing assistant 🧠📝" },
     workflowWin: { title: "The Weekly Review in 20 Minutes Using AI", problem: "Most people never review their week  -  they just rush into the next one, repeating the same mistakes and missing the same opportunities.", steps: ["Every Sunday, open a new document and paste your calendar events, completed tasks, and any important notes from the week", "Ask Claude or ChatGPT: 'Summarise what I accomplished this week, what I didn't complete, and what patterns you notice'", "Then ask: 'Based on this, what should be my top 3 priorities next week?'", "Capture the AI's output + your own reaction in a 'Weekly Review' note. Review these monthly."], timeSaved: "Replaces a 90-minute manual review process with 20 focused minutes  -  and produces better insight.", mnemonic: "Sunday review + AI = Clear head for Monday, every week 📋" },
-    promptOfDay: { purpose: "Turn any mistake into a learning system", prompt: "I made this mistake: [describe what happened]. Help me: 1) Understand the root cause  -  not just what happened, but why it happened, 2) Identify if there's a pattern I'm not seeing, 3) Design a simple system or rule that would prevent this specific mistake from happening again, 4) Tell me if this mistake is actually common and what I can learn from how others have handled it.", where: "Claude or ChatGPT", mnemonic: "Mistake → AI root cause → System fix → Never again. Turn pain into protocol 🔄" },
-    futureWatch: { trend: "AI is beginning to write and improve its own code", eli5: "The most significant AI development of 2026 is not AI answering questions  -  it's AI writing, testing, and improving software code without human programmers for every step. GitHub Copilot now handles 40% of code written on its platform. DeepMind's AlphaCode 2 solved programming problems better than 85% of human competitive programmers. The implication: software development is getting dramatically cheaper and faster. Every industry will be able to build software tools that previously only large tech companies could afford.", yourMove: "If you work in any industry, start asking: 'What software tool would help my work that we've never built because it was too expensive?' Those tools are becoming buildable by non-programmers using AI within 2-3 years. Being the person who knows what to build is more valuable than being the one who builds it.", mnemonic: "AI writes code = Software gets 100× cheaper. What would you build if it cost nothing? 🏗️" },
+    promptOfDay: { purpose: "Turn any mistake into a learning system", prompt: "I made this mistake: [describe what happened]. Help me: 1) Understand the root cause  -  not just what happened, but why it happened, 2) Identify if there's a pattern I'm not seeing, 3) Design a simple system or rule that would prevent this specific mistake from happening again, 4) Tell me if this mistake is actually common and what I can learn from how others have handled it.", where: "Claude or ChatGPT", mnemonic: "Mistake -> AI root cause -> System fix -> Never again. Turn pain into protocol 🔄" },
+    futureWatch: { trend: "AI is beginning to write and improve its own code", eli5: "The most significant AI development of 2026 is not AI answering questions  -  it's AI writing, testing, and improving software code without human programmers for every step. GitHub Copilot now handles 40% of code written on its platform. DeepMind's AlphaCode 2 solved programming problems better than 85% of human competitive programmers. The implication: software development is getting dramatically cheaper and faster. Every industry will be able to build software tools that previously only large tech companies could afford.", yourMove: "If you work in any industry, start asking: 'What software tool would help my work that we've never built because it was too expensive?' Those tools are becoming buildable by non-programmers using AI within 2-3 years. Being the person who knows what to build is more valuable than being the one who builds it.", mnemonic: "AI writes code = Software gets 100x cheaper. What would you build if it cost nothing? 🏗️" },
     quiz: [
       { q: "Notion AI's most powerful hidden feature is...", options: ["Writing essays from scratch", "Asking questions about your own documents and getting instant summarised answers", "Translating languages", "Managing your calendar"], answer: 1, funFact: "Notion has over 30 million users worldwide. The AI features, added in 2023, reduced average document search time by 70% according to Notion's internal data." },
       { q: "Why does a weekly review matter for productivity?", options: ["It helps you feel busy and organised", "It surfaces patterns, prevents repeated mistakes, and ensures next week's priorities are intentional not reactive", "It impresses managers when shared", "It replaces the need for daily planning"], answer: 1, funFact: "Peter Drucker, the management theorist, said: 'What gets measured gets managed.' The weekly review is a measurement of your time  -  the most scarce and non-renewable resource you have." },
@@ -166,7 +166,7 @@ const d260602 = {
   news: {
     segments: [
       { name: "🌐 What's happening with countries?", color: "#a0d4f5", stories: [
-        { headline: "Israel kills 8 in Lebanon  -  hours after Trump said fighting would stop", eli5: "President Trump announced that Israel and Hezbollah had agreed to stop shooting in Lebanon. But just hours after this announcement, Israeli strikes killed 8 people  -  including a family in a car. It's one of history's most repeated tragedies: a ceasefire is announced from a podium far away while violence continues on the ground. The gap between political announcements and battlefield reality is one of the most important lessons in how wars actually work.", whyItMatters: "Peace agreements mean nothing until they hold on the ground. This gap between rhetoric and reality is how most ceasefires fail.", mnemonic: "Ceasefire announcement ≠ ceasefire on ground. Words travel fast, orders don't 🕊️" },
+        { headline: "Israel kills 8 in Lebanon  -  hours after Trump said fighting would stop", eli5: "President Trump announced that Israel and Hezbollah had agreed to stop shooting in Lebanon. But just hours after this announcement, Israeli strikes killed 8 people  -  including a family in a car. It's one of history's most repeated tragedies: a ceasefire is announced from a podium far away while violence continues on the ground. The gap between political announcements and battlefield reality is one of the most important lessons in how wars actually work.", whyItMatters: "Peace agreements mean nothing until they hold on the ground. This gap between rhetoric and reality is how most ceasefires fail.", mnemonic: "Ceasefire announcement != ceasefire on ground. Words travel fast, orders don't 🕊️" },
         { headline: "Iran suspends US peace talks after Israel's Lebanon attacks", eli5: "Iran and the US were quietly talking about ending their conflict. Then Israel attacked Lebanon again (Iran and Hezbollah are allies). Iran said: 'We can't negotiate while our allies are being bombed' and walked away from the table. This shows the Middle East's tangled alliances  -  Israel's actions directly affected US-Iran negotiations, even though they're different conflicts. Everything is connected.", whyItMatters: "The US-Iran talks and the Israel-Lebanon conflict are linked  -  progress in one can destroy progress in the other.", mnemonic: "Middle East alliances: Pull one thread, the whole sweater unravels 🧶" },
         { headline: "Anthropic IPO: Senator Sanders wants 50% tax on AI company stocks", eli5: "When news broke that Anthropic was preparing to go public, Senator Bernie Sanders immediately proposed a 50% tax on stock profits from AI companies. His argument: AI companies are becoming enormously wealthy using data created by ordinary people  -  those people deserve a share. This debate about who profits from AI and who should share in those profits will define the next decade of politics.", whyItMatters: "How governments tax AI wealth will determine whether AI's gains are broadly shared or concentrated in a small number of hands.", mnemonic: "AI profits: Who owns the robot? Who pays the robot? Who gets the money? 🤖💰" }
       ]},
@@ -177,11 +177,11 @@ const d260602 = {
       ]},
       { name: "💻 What's happening with technology?", color: "#c9b8f5", stories: [
         { headline: "Defence Secretary Hegseth makes Pentagon press room 'classified'", eli5: "The US Defence Secretary took a dramatic step: the room where journalists ask military officials questions is now classified  -  meaning fewer reporters can attend, and certain military decisions can be discussed without public scrutiny. Journalists and press freedom groups called it unprecedented and alarming. The argument from the Pentagon: some operational security matters shouldn't be public.", whyItMatters: "Press access to military decision-making is a cornerstone of democratic accountability. Restricting it has historically preceded major policy missteps.", mnemonic: "Pentagon classified press = Lights off on military accountability 🔦🚫" },
-        { headline: "UNESCO warns AI will eliminate 40% of jobs globally within a decade", eli5: "A new UNESCO report warned that AI automation could eliminate 40% of current jobs globally within 10 years  -  the biggest labour market disruption since the Industrial Revolution. But here's the nuance: it also said new jobs will be created, and the transition depends entirely on investment in education and retraining. Countries that prepare will adapt; countries that ignore it will suffer massive unemployment.", whyItMatters: "For individuals: the question isn't 'will AI take my job?'  -  it's 'am I building skills AI cannot replace?' The answer determines your career trajectory.", mnemonic: "40% jobs → AI risk. New 40% → created. Transition = education 📚🤖" }
+        { headline: "UNESCO warns AI will eliminate 40% of jobs globally within a decade", eli5: "A new UNESCO report warned that AI automation could eliminate 40% of current jobs globally within 10 years  -  the biggest labour market disruption since the Industrial Revolution. But here's the nuance: it also said new jobs will be created, and the transition depends entirely on investment in education and retraining. Countries that prepare will adapt; countries that ignore it will suffer massive unemployment.", whyItMatters: "For individuals: the question isn't 'will AI take my job?'  -  it's 'am I building skills AI cannot replace?' The answer determines your career trajectory.", mnemonic: "40% jobs -> AI risk. New 40% -> created. Transition = education 📚🤖" }
       ]},
       { name: "🌿 What's happening with our planet?", color: "#f5c6a0", stories: [
         { headline: "Newark Mayor arrested by ICE after protesting against detention facility", eli5: "Ras Baraka, the Mayor of Newark, New Jersey, was arrested by US immigration agents while protesting outside a private detention facility in his city. He was trying to inspect conditions inside the facility, which his city had tried to shut down. A sitting mayor being arrested by federal agents is extraordinarily rare and sparked massive national attention about immigration enforcement powers.", whyItMatters: "The conflict between city governments and federal immigration enforcement is reshaping American politics  -  with implications for how immigrant communities across the country are treated.", mnemonic: "Mayor arrested at immigration protest = City vs Federal power at flashpoint 🏛️" },
-        { headline: "World Food Programme warns: Strait of Hormuz closure causing global food crisis", eli5: "The World Food Programme (WFP)  -  the UN's food agency  -  said the Strait of Hormuz closure is causing a global food crisis. Fuel and fertiliser prices have spiked because both move through the strait. No fuel = no tractors. No fertiliser = smaller harvests. The WFP said 2.5 million extra people in Somalia, 1.3 million in Sri Lanka, and 2.3 million in Afghanistan were pushed into acute food insecurity as a result.", whyItMatters: "One narrow waterway's closure is creating hunger thousands of miles away  -  showing how connected and fragile the global food system is.", mnemonic: "Hormuz closed → fuel up → fertiliser up → food crisis globally 🌾🔗" }
+        { headline: "World Food Programme warns: Strait of Hormuz closure causing global food crisis", eli5: "The World Food Programme (WFP)  -  the UN's food agency  -  said the Strait of Hormuz closure is causing a global food crisis. Fuel and fertiliser prices have spiked because both move through the strait. No fuel = no tractors. No fertiliser = smaller harvests. The WFP said 2.5 million extra people in Somalia, 1.3 million in Sri Lanka, and 2.3 million in Afghanistan were pushed into acute food insecurity as a result.", whyItMatters: "One narrow waterway's closure is creating hunger thousands of miles away  -  showing how connected and fragile the global food system is.", mnemonic: "Hormuz closed -> fuel up -> fertiliser up -> food crisis globally 🌾🔗" }
       ]},
     ],
     quiz: [
@@ -202,9 +202,9 @@ const d260602 = {
       { q: "A share buyback by a company like TCS signals...", options: ["The company is struggling and needs to reduce share count", "Management believes the shares are undervalued and the company has surplus cash", "The company is planning to delist from the stock market", "Buybacks always mean the stock will fall next"], answer: 1, funFact: "Warren Buffett has called share buybacks at the right price 'the most shareholder-friendly thing a company can do.' Apple has spent over $600 billion buying back its own shares since 2012  -  one of the largest buyback programmes in corporate history." }
     ]
   },
-  psychology: { mindTrick: { name: "Loss Aversion  -  We Fear Losing More Than We Enjoy Winning", eli5: "Kahneman and Tversky's most famous discovery: losing Rs.1,000 feels psychologically about twice as bad as winning Rs.1,000 feels good. This asymmetry is wired into human brains  -  it helped our ancestors avoid predators (the cost of being eaten is permanent). But in modern life, it makes us terrible investors. We hold losing stocks too long (can't bear to realise the loss) and sell winning stocks too early (take the gain before it disappears). Loss aversion costs the average investor 1-2% in annual returns.", realLife: "Notice when you're making a decision based on fear of losing something you already have vs. gaining something new. If the fear of loss is driving you, deliberately ask: 'Would I make this same decision if I didn't already own this?'", mnemonic: "Losing Rs.1,000 hurts 2× more than winning Rs.1,000 feels good. Evolution lied to you 🧠" },
-    bodyLanguage: { signal: "Microexpressions  -  Emotions That Flash in 1/25th of a Second", eli5: "Paul Ekman discovered that human faces flash their true emotion for just 1/25th of a second before the person controls their expression. These are called microexpressions. A flash of contempt (one side of lip curling up) before a polite smile. A flicker of fear before a confident 'no problem.' These happen involuntarily  -  the brain reveals truth before the face can hide it. FBI and CIA agents are trained to read them.", howToUse: "In high-stakes conversations, watch the first fraction of a second of someone's reaction to important news. Before they compose their response, their face tells you the truth. You can train yourself to see microexpressions with practice.", mnemonic: "Microexpression = The face's 1/25-second truth flash before the mask goes on 😐➡️😤" },
-    superpower: { name: "The Foot-in-the-Door Technique", story: "In the 1960s, two researchers went door to door asking California homeowners: 'Can we put this tiny 3-inch sign about safe driving in your window?' Nearly everyone said yes. Two weeks later, they returned asking if they could install a huge ugly billboard about safe driving in their front yard. 76% of those who had agreed to the small sign said YES  -  compared to only 17% of those who hadn't been asked first. One small yes makes a big yes far more likely.", shield: "Recognise when someone asks you for something very small first. It may be setting up a much larger request later. The small agreement creates psychological consistency pressure.", mnemonic: "Small YES → Big YES. Foot-in-door: Start small to get big 🚪" },
+  psychology: { mindTrick: { name: "Loss Aversion  -  We Fear Losing More Than We Enjoy Winning", eli5: "Kahneman and Tversky's most famous discovery: losing Rs.1,000 feels psychologically about twice as bad as winning Rs.1,000 feels good. This asymmetry is wired into human brains  -  it helped our ancestors avoid predators (the cost of being eaten is permanent). But in modern life, it makes us terrible investors. We hold losing stocks too long (can't bear to realise the loss) and sell winning stocks too early (take the gain before it disappears). Loss aversion costs the average investor 1-2% in annual returns.", realLife: "Notice when you're making a decision based on fear of losing something you already have vs. gaining something new. If the fear of loss is driving you, deliberately ask: 'Would I make this same decision if I didn't already own this?'", mnemonic: "Losing Rs.1,000 hurts 2x more than winning Rs.1,000 feels good. Evolution lied to you 🧠" },
+    bodyLanguage: { signal: "Microexpressions  -  Emotions That Flash in 1/25th of a Second", eli5: "Paul Ekman discovered that human faces flash their true emotion for just 1/25th of a second before the person controls their expression. These are called microexpressions. A flash of contempt (one side of lip curling up) before a polite smile. A flicker of fear before a confident 'no problem.' These happen involuntarily  -  the brain reveals truth before the face can hide it. FBI and CIA agents are trained to read them.", howToUse: "In high-stakes conversations, watch the first fraction of a second of someone's reaction to important news. Before they compose their response, their face tells you the truth. You can train yourself to see microexpressions with practice.", mnemonic: "Microexpression = The face's 1/25-second truth flash before the mask goes on 😐->️😤" },
+    superpower: { name: "The Foot-in-the-Door Technique", story: "In the 1960s, two researchers went door to door asking California homeowners: 'Can we put this tiny 3-inch sign about safe driving in your window?' Nearly everyone said yes. Two weeks later, they returned asking if they could install a huge ugly billboard about safe driving in their front yard. 76% of those who had agreed to the small sign said YES  -  compared to only 17% of those who hadn't been asked first. One small yes makes a big yes far more likely.", shield: "Recognise when someone asks you for something very small first. It may be setting up a much larger request later. The small agreement creates psychological consistency pressure.", mnemonic: "Small YES -> Big YES. Foot-in-door: Start small to get big 🚪" },
     quiz: [
       { q: "Loss aversion means that psychologically, losing Rs.1,000 feels...", options: ["The same as winning Rs.1,000", "Slightly worse than winning Rs.1,000", "About twice as bad as winning Rs.1,000 feels good", "Much better than winning Rs.1,000"], answer: 2, funFact: "Daniel Kahneman and Amos Tversky won the Nobel Prize in Economics for discovering loss aversion. Their work showed that human financial decisions are systematically irrational in predictable ways  -  founding the entire field of behavioural economics." },
       { q: "Microexpressions are important because...", options: ["They are always visible to the naked eye", "They reveal true emotions in the fraction of a second before someone controls their expression", "Only trained professionals can use them", "They last several seconds"], answer: 1, funFact: "Paul Ekman trained thousands of people to read microexpressions and found most people start at 50% accuracy (random chance for 2 options). After 2 hours of training, accuracy rises to 70%+. The skill is learnable." },
@@ -212,7 +212,7 @@ const d260602 = {
     ]
   },
   leadership: { leaderMove: { name: "The 1-3-1 Rule  -  Come With Solutions, Not Just Problems", story: "A CEO at a major consulting firm instituted the 1-3-1 rule: if you bring a problem to a meeting, you must also bring 1 clear definition of the problem, 3 possible solutions you've already thought through, and 1 recommendation from you. The rule transformed the culture. Instead of managers escalating every problem upward, they started solving most problems themselves. The ones that reached leadership were already half-solved.", doThis: "Next time you want to bring a problem to a colleague or manager, stop first. Spend 10 minutes thinking of 3 possible solutions. Pick one you'd recommend. Then have the conversation.", mnemonic: "1-3-1: 1 problem clear, 3 solutions thought through, 1 recommendation. Never arrive empty-handed 💼" },
-    visionarySecret: { concept: "Inversion Thinking  -  Ask What Could Go Wrong", eli5: "Most people think about how to succeed. Visionaries also think hard about how to fail  -  then they avoid those failure modes. Charlie Munger called this 'inversion': instead of asking 'How do I build a successful business?', ask 'What would guarantee this business fails?' Then don't do those things. The approach catches risks that forward thinking misses entirely. It's how engineers design bridges  -  by thinking about all the ways it could collapse, then building against each failure mode.", exercise: "For any goal you have right now, write down 5 ways you could fail to achieve it. Be brutally honest. Then design specific measures to prevent each one.", mnemonic: "Inversion: 'How do I fail?' → Don't do that → Success by elimination 🔄" },
+    visionarySecret: { concept: "Inversion Thinking  -  Ask What Could Go Wrong", eli5: "Most people think about how to succeed. Visionaries also think hard about how to fail  -  then they avoid those failure modes. Charlie Munger called this 'inversion': instead of asking 'How do I build a successful business?', ask 'What would guarantee this business fails?' Then don't do those things. The approach catches risks that forward thinking misses entirely. It's how engineers design bridges  -  by thinking about all the ways it could collapse, then building against each failure mode.", exercise: "For any goal you have right now, write down 5 ways you could fail to achieve it. Be brutally honest. Then design specific measures to prevent each one.", mnemonic: "Inversion: 'How do I fail?' -> Don't do that -> Success by elimination 🔄" },
     eliteHabit: { habit: "Single-Tasking  -  Doing One Thing at a Time", whoAndHow: "Cal Newport (author of Deep Work) and Warren Buffett both practice extreme single-tasking. Buffett says he doesn't multitask and has kept his calendar deliberately empty for decades. Newport studied the habits of the world's most productive people and found: none of them multitasked. They worked on one thing with complete focus until it was done, then moved to the next.", whyItWorks: "Neuroscience is clear: the brain cannot truly multitask. What we call 'multitasking' is actually rapid task-switching, which consumes extra cognitive energy each time and produces worse quality output than deep single-task focus. Every switch costs about 23 minutes to fully regain focus.", mnemonic: "Multitasking = Doing several things badly. Single-tasking = Doing one thing brilliantly 🎯" },
     sigmaWisdom: { lesson: "Jocko's Front-Sight Focus", story: "Navy SEAL Jocko Willink teaches that in any overwhelming situation  -  combat, business crisis, personal failure  -  the secret is to focus on the very next most important thing, not the entire problem. When 50 things are going wrong simultaneously, ask: 'What is the one most important thing I should fix right now?' Fix it. Then repeat. This 'front-sight focus' (from rifle training  -  focus on the front sight, not the target, not the surroundings) cuts overwhelm into manageable steps.", action: "When you feel overwhelmed today, write down everything on your mind. Circle the ONE most impactful item. Do only that. Then repeat.", mnemonic: "Front-sight focus: When overwhelmed, do the next ONE right thing. Then repeat 🎯" },
     quiz: [
@@ -221,7 +221,7 @@ const d260602 = {
       { q: "Why does multitasking reduce productivity?", options: ["It makes you tired faster", "The brain task-switches, not truly multitasks  -  each switch costs 23 minutes of refocus time", "It's physically impossible", "Multitasking actually improves productivity for most people"], answer: 1, funFact: "A University of California Irvine study found that after an interruption, it takes an average of 23 minutes and 15 seconds to fully return to a task. A person checking email 10 times per day loses over 3 hours of productive focus daily to recovery time alone." }
     ]
   },
-  wealth: { wealthSecret: { name: "The Latte Factor  -  Small Expenses Compounded", story: "David Bach popularised this idea: a daily Rs.200 coffee habit seems trivial. But Rs.200/day = Rs.6,000/month = Rs.72,000/year. Invested at 12% per year for 30 years, that Rs.200/day becomes approximately Rs.2.1 crore. The Latte Factor isn't about coffee  -  it's about becoming aware of small, unconscious spending that doesn't bring equivalent joy. Redirecting even 30% of that spending into investments transforms your long-term financial picture.", action: "Track every expense for one week  -  every single rupee. Categorise each as 'Brings me real joy' or 'Automatic/unconscious spending.' Calculate what the 'automatic spending' adds up to per year. Then per decade. Be shocked.", mnemonic: "Rs.200/day → Rs.2.1 crore over 30 years. The latte hides a crore ☕➡️💰" },
+  wealth: { wealthSecret: { name: "The Latte Factor  -  Small Expenses Compounded", story: "David Bach popularised this idea: a daily Rs.200 coffee habit seems trivial. But Rs.200/day = Rs.6,000/month = Rs.72,000/year. Invested at 12% per year for 30 years, that Rs.200/day becomes approximately Rs.2.1 crore. The Latte Factor isn't about coffee  -  it's about becoming aware of small, unconscious spending that doesn't bring equivalent joy. Redirecting even 30% of that spending into investments transforms your long-term financial picture.", action: "Track every expense for one week  -  every single rupee. Categorise each as 'Brings me real joy' or 'Automatic/unconscious spending.' Calculate what the 'automatic spending' adds up to per year. Then per decade. Be shocked.", mnemonic: "Rs.200/day -> Rs.2.1 crore over 30 years. The latte hides a crore ☕->️💰" },
     moneyMachine: { type: "Fixed Deposits vs Debt Mutual Funds", eli5: "Most Indians park savings in Fixed Deposits at 6-7%. But debt mutual funds  -  which invest in government bonds and AAA-rated company debt  -  often yield 7-9% with more tax efficiency. Here's the tax trick: FD interest is taxed at your slab rate (up to 30%). Debt fund gains held over 3 years are taxed at 20% with indexation (adjusting for inflation)  -  often making the effective tax much lower. Same safety, potentially better after-tax returns.", indiaAngle: "Liquid funds and ultra-short-term debt funds are better alternatives to savings accounts for your emergency fund  -  slightly better returns while still being withdrawable in 1-2 business days.", mnemonic: "Debt fund > FD for tax efficiency if held 3+ years. Same safety, better deal 📄" },
     mindsetFlip: { oldThinking: "I need to earn more money before I can start investing", newThinking: "Start investing the amount you have now  -  even Rs.500  -  and the habit and knowledge compound before the money does", why: "The most valuable thing about starting with Rs.500/month is not the Rs.500  -  it's that you learn how markets work, develop the habit of investing, and build emotional resilience before the stakes are high. By the time you can afford Rs.5,000/month, you'll invest with confidence instead of paralysis.", mnemonic: "Start with Rs.500. Buy the habit and knowledge, not just the return 🌱" },
     magicNumber: { number: "The 50-30-20 Rule", eli5: "The simplest budgeting rule: 50% of your income on needs (rent, food, transport), 30% on wants (entertainment, dining out, shopping), 20% on savings and investments. Most Indians flip this accidentally  -  spending 80-90% and saving 10%. The 50-30-20 rule makes the invisible boundary explicit. If your 'needs' exceed 50%, you either need to earn more or reduce fixed costs.", mnemonic: "50 needs + 30 wants + 20 saves = Simple money blueprint 📊" },
@@ -241,10 +241,10 @@ const d260602 = {
       { q: "Using someone's name in conversation works because...", options: ["It's a social protocol they expect", "Hearing your own name activates self-referential brain processing and increases positive engagement", "It shows you have good memory", "People are more likely to agree with those who know their names"], answer: 1, funFact: "In a classic Harvard study, waiters who repeated customers' orders back to them (using their names when possible) received 70% more in tips than those who just said 'coming right up.' The personalisation created connection." }
     ]
   },
-  mind: { brainHack: { name: "The Zeigarnik Effect  -  Your Brain Can't Forget Unfinished Tasks", eli5: "Soviet psychologist Bluma Zeigarnik discovered something fascinating: waiters in a coffee shop could perfectly remember complex ongoing orders  -  but forgot them completely once the orders were delivered and paid for. Your brain holds incomplete tasks in active working memory until they're done. This is why you remember a task you forgot to complete all day  -  and why half-finished projects keep nagging at you. Understanding this helps you use it: doing just 5 minutes of a dreaded task makes your brain 'open the loop' and you naturally want to continue.", protocol: "When you can't start a big project, start just one tiny piece  -  write the first sentence, open the document, make one phone call. The Zeigarnik loop opens and your brain now naturally pulls you toward completing it.", mnemonic: "Zeigarnik: Open the loop with 5 minutes → Brain naturally wants to close it 🔄" },
+  mind: { brainHack: { name: "The Zeigarnik Effect  -  Your Brain Can't Forget Unfinished Tasks", eli5: "Soviet psychologist Bluma Zeigarnik discovered something fascinating: waiters in a coffee shop could perfectly remember complex ongoing orders  -  but forgot them completely once the orders were delivered and paid for. Your brain holds incomplete tasks in active working memory until they're done. This is why you remember a task you forgot to complete all day  -  and why half-finished projects keep nagging at you. Understanding this helps you use it: doing just 5 minutes of a dreaded task makes your brain 'open the loop' and you naturally want to continue.", protocol: "When you can't start a big project, start just one tiny piece  -  write the first sentence, open the document, make one phone call. The Zeigarnik loop opens and your brain now naturally pulls you toward completing it.", mnemonic: "Zeigarnik: Open the loop with 5 minutes -> Brain naturally wants to close it 🔄" },
     disciplineCode: { principle: "Keystone Habits  -  The One Habit That Changes Everything", story: "Charles Duhigg discovered that certain habits  -  he called them 'keystone habits'  -  have a cascade effect. When people start exercising regularly, they spontaneously start eating better, sleeping better, and spending more productively  -  without trying. When people start making their bed every morning, their entire domestic life improves. Keystone habits reshape other habits around them. Identifying your keystone habit is more powerful than trying to fix 10 separate behaviours simultaneously.", todayAction: "Pick your ONE keystone habit  -  the one change that would make everything else easier. For most people it's: sleep, exercise, or meditation. Start with just 2 minutes of it daily for 7 days.", mnemonic: "Keystone habit = One domino that knocks over a dozen others 🎯🃏" },
-    impulseKiller: { urge: "Anger  -  reacting before thinking in conflicts", eli5: "When you feel threatened, insulted, or wronged, your brain's amygdala fires before your rational cortex has time to process. You react from pure emotion  -  the ancient fight-or-flight brain takes over for 6-8 seconds before logic catches up. During those 6-8 seconds you can say things you deeply regret. Understanding this gives you one move: create a 10-second gap between the trigger and your response.", interrupt: "When you feel sudden anger rising: bite your tongue (literally), look away, take one slow breath through your nose. Count silently to 10. By the time you've counted, the amygdala hijack has partially passed and your prefrontal cortex (rational brain) has taken back control.", mnemonic: "Amygdala hijack lasts 6-8 seconds. 10-second count = Rational brain wins 🧠⏱️" },
-    bodyUpgrade: { practice: "Deliberate Heat Exposure  -  Sauna", eli5: "Using a sauna (or even a very hot bath) for 20 minutes triggers a series of beneficial responses: growth hormone spikes, heat shock proteins repair cellular damage, and mood-enhancing compounds are released. A Finnish study found that men who used sauna 4-7 times per week had a 40% lower risk of heart disease. The heat stress is beneficial  -  the body responds to controlled stress by growing stronger, just like exercise.", minimumDose: "Even 15-20 minutes in a hot bath or steam room 2-3 times per week produces measurable benefits. A proper sauna session is 80-100 degreesC for 15-20 minutes.", mnemonic: "Sauna = Controlled heat stress → Body gets stronger. Sweat for free health benefits 🧖" },
+    impulseKiller: { urge: "Anger  -  reacting before thinking in conflicts", eli5: "When you feel threatened, insulted, or wronged, your brain's amygdala fires before your rational cortex has time to process. You react from pure emotion  -  the ancient fight-or-flight brain takes over for 6-8 seconds before logic catches up. During those 6-8 seconds you can say things you deeply regret. Understanding this gives you one move: create a 10-second gap between the trigger and your response.", interrupt: "When you feel sudden anger rising: bite your tongue (literally), look away, take one slow breath through your nose. Count silently to 10. By the time you've counted, the amygdala hijack has partially passed and your prefrontal cortex (rational brain) has taken back control.", mnemonic: "Amygdala hijack lasts 6-8 seconds. 10-second count = Rational brain wins 🧠️" },
+    bodyUpgrade: { practice: "Deliberate Heat Exposure  -  Sauna", eli5: "Using a sauna (or even a very hot bath) for 20 minutes triggers a series of beneficial responses: growth hormone spikes, heat shock proteins repair cellular damage, and mood-enhancing compounds are released. A Finnish study found that men who used sauna 4-7 times per week had a 40% lower risk of heart disease. The heat stress is beneficial  -  the body responds to controlled stress by growing stronger, just like exercise.", minimumDose: "Even 15-20 minutes in a hot bath or steam room 2-3 times per week produces measurable benefits. A proper sauna session is 80-100 degreesC for 15-20 minutes.", mnemonic: "Sauna = Controlled heat stress -> Body gets stronger. Sweat for free health benefits 🧖" },
     quiz: [
       { q: "The Zeigarnik Effect explains why...", options: ["Completed tasks are remembered better than incomplete ones", "Incomplete tasks stay active in your memory, nagging at you until finished", "People forget things when stressed", "Memory improves with age"], answer: 1, funFact: "Netflix deliberately ends episodes at unresolved cliff-hangers to exploit the Zeigarnik Effect  -  your brain holds the open loop and drives you to watch the next episode to close it. The 'autoplay next episode' feature is Zeigarnik weaponised for binge-watching." },
       { q: "A 'keystone habit' is powerful because...", options: ["It is the hardest habit to break", "It cascades  -  automatically improving other habits around it", "It requires the most willpower", "It is always health-related"], answer: 1, funFact: "Duhigg's research found that exercise is the most common keystone habit. When people begin consistent exercise, they spontaneously start sleeping more, eating less junk food, and using credit cards less  -  even though they never intentionally decided to change those things." },
@@ -262,7 +262,7 @@ const d260602 = {
     ]
   },
   ai: { toolSpotlight: { name: "Gemini Advanced (Google)", category: "Research / Multimodal Analysis", eli5: "Google's most powerful AI can do something the others struggle with: it can look at images, PDFs, spreadsheets, and long documents all at once and reason about them together. Upload a 100-page research report and ask 'what are the three biggest risks mentioned?' It reads the whole thing and answers. It can also search the real web in real time  -  so its information is always current, not limited by a training cutoff.", secretMove: "Use Gemini's 'upload and ask' feature for any document you're struggling to read quickly. Financial reports, legal contracts, academic papers  -  upload and ask specific questions. It reads them faster than you ever could and pulls out exactly what you need.", mnemonic: "Gemini = AI that reads ANY document format + searches the web. Swiss Army Knife of AI 🔍" },
-    workflowWin: { title: "Contract and Document Quick-Review System", problem: "Most people don't read contracts carefully  -  they're long, boring, and full of jargon. Then they get surprised by clause 47.", steps: ["When you receive any contract, agreement, or long document  -  upload it to Claude or Gemini", "Ask: 'What are the 5 most important things I should know before signing this? What could hurt me?'", "Ask: 'Are there any unusual or non-standard clauses in this document?'", "Ask: 'What questions should I ask the other party before agreeing?'"], timeSaved: "Replaces 2-3 hours of anxious document reading with 10 focused minutes  -  and finds things you'd miss.", mnemonic: "Upload contract → AI finds the traps → You negotiate knowing everything 📋🛡️" },
+    workflowWin: { title: "Contract and Document Quick-Review System", problem: "Most people don't read contracts carefully  -  they're long, boring, and full of jargon. Then they get surprised by clause 47.", steps: ["When you receive any contract, agreement, or long document  -  upload it to Claude or Gemini", "Ask: 'What are the 5 most important things I should know before signing this? What could hurt me?'", "Ask: 'Are there any unusual or non-standard clauses in this document?'", "Ask: 'What questions should I ask the other party before agreeing?'"], timeSaved: "Replaces 2-3 hours of anxious document reading with 10 focused minutes  -  and finds things you'd miss.", mnemonic: "Upload contract -> AI finds the traps -> You negotiate knowing everything 📋🛡️" },
     promptOfDay: { purpose: "Create a personalised learning plan for any skill", prompt: "I want to learn [SKILL] and I currently know [your current level  -  beginner/some basics/intermediate]. My goal is to [specific outcome, e.g. 'get a job as a data analyst' / 'speak conversational Spanish' / 'invest confidently in stocks']. I have [X hours per week] available. Create a detailed 12-week learning plan with: week-by-week milestones, specific resources for each week (free and paid), how to measure progress, and what to do if I fall behind.", where: "Claude, ChatGPT, or Gemini", mnemonic: "12-week plan from one prompt = Your personal curriculum, instantly built 📚" },
     futureWatch: { trend: "Multimodal AI  -  AI that sees, reads, and listens simultaneously", eli5: "First generation AI: text in, text out. Now: image in, text out. Next (here now): text + image + audio + video + documents all at once  -  processed together. You can show an AI a photo of your room and ask 'what furniture should I add?' You can upload a meeting recording and ask 'what was the most important decision made?' The AI understands context across all formats simultaneously. This fundamentally changes research, analysis, and creative work.", yourMove: "Start experimenting with uploading different types of content to AI. A photo of a problem, a PDF of a report, an audio of a meeting. The people who understand how to feed AI multimodal context will be dramatically more powerful researchers and analysts.", mnemonic: "Multimodal AI = Eyes + Ears + Reading + Thinking, all at once 👁️👂📖🧠" },
     quiz: [
@@ -298,7 +298,7 @@ news: {
             headline: "Israel fires on Lebanon even after Trump said 'all shooting will stop'",
             eli5: "Trump told the world that Israel and Hezbollah (a group in Lebanon) had agreed to stop fighting. But just hours later, Israeli drones killed 8 people in Lebanon  -  including a dentist named James Karam who was in his car with his children. It's like a referee blowing the final whistle but one player keeps playing. The gap between what leaders announce and what actually happens on the ground is one of the most important lessons in world politics.",
             whyItMatters: "Wars don't end just because a president makes an announcement. Ground-level violence continuing after a ceasefire is declared is one of history's most repeated tragedies.",
-            mnemonic: "Ceasefire ≠ Silence. Words stop at borders, bullets don't 🕊️💔"
+            mnemonic: "Ceasefire != Silence. Words stop at borders, bullets don't 🕊️💔"
           },
           {
             headline: "US kills top Tren de Aragua gang leader in Venezuela",
@@ -315,19 +315,19 @@ news: {
             headline: "SpaceX goes public  -  Elon Musk becomes Earth's first TRILLIONAIRE",
             eli5: "SpaceX  -  the rocket company that sends astronauts to space and beams internet from satellites  -  listed on the stock market on June 12. The shares were priced at $135 and jumped to $161 by end of day. This made the company worth over $2 trillion. And because Musk owns a huge chunk of SpaceX, his total wealth crossed $1 TRILLION  -  making him the first human being in history to ever be worth that much. A trillion dollars is so big that if you spent Rs.27 million every single day, it would take you 100 years to spend it all.",
             whyItMatters: "The SpaceX IPO is the largest in history  -  raising $75 billion. It proves that space is now a serious business and sets a new ceiling for what private companies can be worth.",
-            mnemonic: "SpaceX IPO: $135 → $161 in one day. SPCX = Space Cash eXplodes 🚀💰"
+            mnemonic: "SpaceX IPO: $135 -> $161 in one day. SPCX = Space Cash eXplodes 🚀💰"
           },
           {
             headline: "Indian markets expected to open green  -  crude oil drops 6% as Iran deal hopes rise",
             eli5: "When Trump hinted at peace with Iran, something amazing happened  -  oil prices dropped by 6% almost instantly. Why? Because Iran controls part of the Strait of Hormuz, a narrow water channel where 20% of the world's oil travels. If that channel was blocked by war, oil would get very expensive. Peace = open channel = cheaper oil = India's petrol stays affordable = Indian companies spend less = Nifty goes up. It's all connected like dominoes.",
             whyItMatters: "India imports 85% of its oil. Every dollar drop in crude oil saves India roughly $1.5 billion per year. Cheaper oil is like a tax cut for every Indian.",
-            mnemonic: "Iran peace → Oil drops → India smiles → Nifty rises. It's dominos! 🁢"
+            mnemonic: "Iran peace -> Oil drops -> India smiles -> Nifty rises. It's dominos! 🁢"
           },
           {
             headline: "Nifty 50 around 23,100-23,200  -  volatile week as geopolitics and US inflation collide",
             eli5: "India's Nifty index had a tough week. It started at 23,366 and fell during Iran tensions  -  then bounced back when oil dropped. The American inflation report (CPI) came in slightly better than expected, which means the US Federal Reserve is less likely to raise interest rates. Lower US rates = cheaper global borrowing = more money flows into emerging markets like India = Nifty gets a boost. Bank Nifty hit a two-month high of 55,600 on this news.",
             whyItMatters: "Understanding how US inflation affects Indian markets is one of the most powerful insights any Indian investor can have  -  global events move local money.",
-            mnemonic: "US CPI soft → Fed cools → Money flows East → India banks party 🏦🎉"
+            mnemonic: "US CPI soft -> Fed cools -> Money flows East -> India banks party 🏦🎉"
           }
         ]
       },
@@ -367,7 +367,7 @@ news: {
             headline: "El Nino threat: India's RBI warns of food inflation risk to economy",
             eli5: "El Nino is a natural weather pattern where the Pacific Ocean gets warmer than usual  -  and it messes up monsoon rains across South Asia. India's central bank (RBI) warned that a strong El Nino this year could reduce rainfall, damage crops, and push food prices up sharply. When tomatoes, onions, and pulses get expensive, the RBI has to raise interest rates to control inflation  -  which makes loans costlier for everyone.",
             whyItMatters: "India's economy is still deeply tied to agriculture and the monsoon. Weather patterns thousands of miles away in the Pacific Ocean directly affect what you pay for vegetables.",
-            mnemonic: "El Nino = Pacific gets warm → India's monsoon weakens → Onions get expensive 🧅"
+            mnemonic: "El Nino = Pacific gets warm -> India's monsoon weakens -> Onions get expensive 🧅"
           },
           {
             headline: "Pope Leo XIV stranded in Tenerife  -  Spain's King lends his private jet",
@@ -388,7 +388,7 @@ news: {
   markets: {
     globalPulse: {
       eli5: "June 12 was one of the most dramatic days for money in years. Two giant things happened at once  -  SpaceX launched the biggest IPO in history and Trump announced a possible peace deal with Iran. Stock markets went up, oil went down, and Elon Musk became Earth's first trillionaire. The money river had a huge wave today  -  some boats rose, some rocked violently.",
-      keyThings: ["SpaceX IPO: priced $135, closed $161 (+19%)", "Brent Crude dropped ~6% on Iran peace hopes (near $89/barrel)", "S&P 500 +0.4%, Nasdaq +0.2%", "India Nifty bounced from 23,072 → targeting 23,350"]
+      keyThings: ["SpaceX IPO: priced $135, closed $161 (+19%)", "Brent Crude dropped ~6% on Iran peace hopes (near $89/barrel)", "S&P 500 +0.4%, Nasdaq +0.2%", "India Nifty bounced from 23,072 -> targeting 23,350"]
     },
     indianMarket: {
       eli5: "India's stock market was like a seesaw on June 12. In the morning it was nervous  -  geopolitics and IT sector selling dragged it down. Then news broke of cheaper oil and a softer US inflation report. Banking stocks jumped. ICICI Bank hit Rs.1,333. By end of day the mood shifted from fear to cautious hope. The bazaar went from closing-time panic to a late-afternoon shopping rush.",
@@ -412,7 +412,7 @@ news: {
       name: "The Bandwagon Effect",
       eli5: "On June 12, millions of people rushed to open trading accounts just to buy SpaceX shares  -  not because they researched the company, but because everyone else was doing it. This is the Bandwagon Effect: your brain is wired to believe that if lots of people are doing something, it must be the right thing to do. It's the same reason concerts seem more fun when they're sold out, or why a restaurant with a queue outside feels better than an empty one. Evolution made you this way  -  in primitive times, following the crowd kept you safe. Today it can make you make terrible financial decisions.",
       realLife: "Every stock market bubble in history  -  from Tulip Mania in 1637 to the Crypto crash of 2022  -  was fuelled by the Bandwagon Effect. When everyone says 'buy this now!', ask: am I thinking, or just following?",
-      mnemonic: "Bandwagon Effect = Everyone's jumping on → That's exactly when to pause 🚌⛔"
+      mnemonic: "Bandwagon Effect = Everyone's jumping on -> That's exactly when to pause 🚌⛔"
     },
     bodyLanguage: {
       signal: "The Lip Press  -  Lips pressed together tightly",
@@ -424,7 +424,7 @@ news: {
       name: "Scarcity Principle",
       story: "SpaceX IPO shares were available only to those who applied early through specific brokers. Within hours, every allocation was oversubscribed  -  people were desperate to get in. The scarcity made it feel more valuable. Robert Cialdini documented this as one of the most powerful human triggers: we want what we can't easily have. 'Limited time offer.' 'Only 3 left in stock.' 'Exclusive members only.' These phrases aren't describing reality  -  they're manufacturing desire.",
       shield: "When you feel urgency to buy, join, or decide  -  stop. Ask: 'Is this genuinely rare, or is the scarcity manufactured to rush my decision?' Real opportunities rarely disappear in 24 hours.",
-      mnemonic: "Scarcity = 'Only 3 left!' → Pause. Is it real or a trick? 🔴⏳"
+      mnemonic: "Scarcity = 'Only 3 left!' -> Pause. Is it real or a trick? 🔴"
     },
     quiz: [
       { q: "The Bandwagon Effect means you...", options: ["Research carefully before deciding", "Do something because many others are doing it", "Always go against popular opinion", "Make decisions based on data"], answer: 1, funFact: "The term 'jump on the bandwagon' comes from 19th century American politics  -  literal horse-drawn bandwagons played music at political rallies, and candidates literally invited people to jump on to show support." },
@@ -444,19 +444,19 @@ news: {
       concept: "Thinking in Platforms, Not Products",
       eli5: "Most people think: 'I want to build a good rocket.' Elon Musk thought: 'Rockets are the platform  -  the real product is humanity becoming multi-planetary, plus space internet, plus AI in orbit.' When you think in platforms, you build something others can build on top of. Amazon didn't just sell books  -  it built a selling platform. Apple didn't just make phones  -  it built an app platform. The next time you start something, ask: what platform am I actually building?",
       exercise: "Write down your current goal. Then ask: if 1,000 other people wanted to build on top of what I'm creating  -  what would they build? That question reveals your real platform.",
-      mnemonic: "Product → Platform = The difference between a shop and a marketplace 🏪➡️🌐"
+      mnemonic: "Product -> Platform = The difference between a shop and a marketplace 🏪->️🌐"
     },
     eliteHabit: {
       habit: "The Pre-Mortem  -  Imagining Failure Before It Happens",
       whoAndHow: "Jeff Bezos built Amazon's decision-making culture around a concept called 'working backwards'  -  imagining the future outcome first, then planning how to get there. Psychologist Gary Klein formalised this as the Pre-Mortem: before starting any major project, imagine it has already failed spectacularly. Then ask: what went wrong? This surfaces risks you'd never see when you're optimistic at the start.",
       whyItWorks: "Our brains are bad at seeing risks when we're excited. Deliberately imagining failure short-circuits optimism bias and forces you to build real safeguards  -  not just hope things work out.",
-      mnemonic: "Pre-Mortem = Kill your idea in your head before reality does it for you 💀➡️🛡️"
+      mnemonic: "Pre-Mortem = Kill your idea in your head before reality does it for you 💀->️🛡️"
     },
     sigmaWisdom: {
       lesson: "Respond, Never React",
       story: "On June 12, global markets had a moment of chaos  -  Iran, SpaceX, oil, inflation data, all hitting at once. Traders who reacted emotionally sold at the bottom. Traders who responded  -  paused, assessed, then acted  -  bought at the low and rode the recovery. Marcus Aurelius wrote: 'Between stimulus and response, there is a space. In that space is our power to choose.' The space between something happening and you acting is where your character lives.",
       action: "Today, when something frustrates or surprises you  -  wait 10 seconds before responding. Not to be slow. To be deliberate. Reaction is instinct. Response is intelligence.",
-      mnemonic: "Stimulus → [10 second gap] → Response = Where wisdom lives ⏸️"
+      mnemonic: "Stimulus -> [10 second gap] -> Response = Where wisdom lives ️"
     },
     quiz: [
       { q: "What is a 'Pre-Mortem' in decision making?", options: ["Reviewing a project after it fails", "Imagining a project has already failed and asking what went wrong  -  before starting", "A financial analysis tool", "A type of market research"], answer: 1, funFact: "NASA uses pre-mortems before every mission. After the Space Shuttle Challenger disaster in 1986  -  which several engineers had tried to flag as risky  -  pre-mortem thinking became a standard tool in safety-critical industries." },
@@ -470,7 +470,7 @@ news: {
       name: "The IPO Trap  -  Why Most Retail Investors Lose on IPO Day",
       story: "SpaceX listed at $135 and shot to $161  -  a 19% gain in one day. Headlines screamed. Millions of retail investors who didn't get IPO allocations rushed to buy at $161, $165, $170 as the day went on. But here's what history shows: the biggest IPOs in history  -  Facebook, Uber, Lyft, WeWork  -  all fell sharply after their initial pop. The people who get rich in IPOs are the early investors and employees. Retail buyers on day one are usually buying the stock at its most expensive point ever, from people who got in much cheaper and are now selling to them.",
       action: "For any exciting IPO: don't buy on day 1. Watch for 3-6 months. If the company is genuinely great, the stock will still be a good buy after the initial excitement fades. Patience beats FOMO every time.",
-      mnemonic: "IPO Day 1 = Buying someone else's excitement at peak price. Wait 🛑⏳"
+      mnemonic: "IPO Day 1 = Buying someone else's excitement at peak price. Wait 🛑"
     },
     moneyMachine: {
       type: "Dividend Investing  -  Getting Paid While You Sleep",
@@ -482,12 +482,12 @@ news: {
       oldThinking: "I can't invest because I don't have enough money to make a difference",
       newThinking: "The habit of investing any amount is worth 100x more than the amount itself",
       why: "A Rs.500 SIP started at age 22 and continued for 35 years at 12% returns becomes approximately Rs.32 lakhs. The same Rs.500/month invested starting at age 30 becomes only Rs.14 lakhs. The difference of 8 years costs you Rs.18 lakhs  -  not because of the money, but because of lost time for compounding. The habit matters infinitely more than the amount.",
-      mnemonic: "Start small, start NOW = Time is the ingredient you can't buy back ⏰"
+      mnemonic: "Start small, start NOW = Time is the ingredient you can't buy back "
     },
     magicNumber: {
       number: "Rs.1 Crore in 20 Years",
       eli5: "Here's a goal that sounds impossible but is totally achievable: Rs.1 crore by age 42 if you start at 22. How? Invest Rs.7,500 per month in a Nifty 50 index fund. At 12% average annual returns, in 20 years you have approximately Rs.1 crore. That's Rs.250 per day  -  less than a fancy coffee and a sandwich. The goal isn't the crore. The goal is building the discipline of the Rs.250 daily habit that makes the crore inevitable.",
-      mnemonic: "Rs.7,500/month × 20 years × 12% = Rs.1 Crore. The math works. Do you? 📐"
+      mnemonic: "Rs.7,500/month x 20 years x 12% = Rs.1 Crore. The math works. Do you? 📐"
     },
     quiz: [
       { q: "Why do most retail investors lose money buying IPO stocks on Day 1?", options: ["IPO stocks always go down", "They are buying at the peak excitement price from investors who got in much cheaper", "IPOs are illegal for retail investors", "Brokers take too many fees on IPO day"], answer: 1, funFact: "According to a Harvard Business School study, the average IPO underperforms the market by 20-30% over the first 3 years after listing  -  despite massive first-day gains." },
@@ -501,7 +501,7 @@ news: {
       name: "Pregnant Pause  -  The Power of Strategic Silence",
       story: "When Elon Musk walked onto the stage at SpaceX's IPO event on June 12, he didn't speak immediately. He stood there, looked at the crowd, let the silence build for 5 full seconds  -  and then said quietly: 'Today, we begin making humanity multi-planetary.' The silence made the words land like a hammer. The best orators in history  -  Obama, Churchill, Steve Jobs  -  all used deliberate pauses. Silence forces an audience to pay attention, because human brains are wired to fill silence with anticipation.",
       drill: "Practice this: record yourself reading any 3 sentences. Insert a 3-second pause after the most important sentence. Play it back. You'll be shocked how much more powerful it sounds. Do this daily for one week.",
-      mnemonic: "Silence speaks loudest right after your best line. Pause = Power ⏸️🎤"
+      mnemonic: "Silence speaks loudest right after your best line. Pause = Power ️🎤"
     },
     negotiationMove: {
       tactic: "The High Anchor",
@@ -519,7 +519,7 @@ news: {
       technique: "The Name Anchor  -  Use People's Names Deliberately",
       science: "Your own name is the sweetest sound your brain processes. Dale Carnegie documented this in the 1930s, and neuroscience has since confirmed it: hearing your name activates the brain's reward centre. People who use names deliberately in conversation are consistently rated as more charismatic, more trustworthy, and more confident  -  not because they are, but because using a name signals: 'I see you. You matter.'",
       doItNow: "In your next conversation or meeting, use the other person's name twice  -  once at the start and once when making your key point. Not more (it becomes creepy). Exactly twice. Notice how the energy in the room shifts.",
-      mnemonic: "Name × 2 = Instant rapport. Not 3 (creepy), not 0 (forgettable). Twice 🎯"
+      mnemonic: "Name x 2 = Instant rapport. Not 3 (creepy), not 0 (forgettable). Twice 🎯"
     },
     quiz: [
       { q: "Why do great speakers use strategic silence (the pregnant pause)?", options: ["To remember their next line", "To seem mysterious and cool", "To make the preceding words land harder and build audience anticipation", "To allow the audience to take notes"], answer: 2, funFact: "Studies on TED talks show the most-watched talks contain an average of 3 deliberate pauses of 3+ seconds. The least-watched talks have almost none." },
@@ -539,7 +539,7 @@ news: {
       principle: "The Two-Minute Rule",
       story: "David Allen, author of 'Getting Things Done', realised that most people's to-do lists are full of things that take less than 2 minutes but have been sitting there for days. Every time you see that undone task, your brain spends energy on it  -  even if you don't act. Allen's rule: if something takes less than 2 minutes  -  do it immediately. Reply to the short email now. Send the file now. Confirm the appointment now. Don't manage it, just do it. The mental energy saved by eliminating small tasks immediately is enormous.",
       todayAction: "Look at your to-do list right now. Find everything that takes under 2 minutes. Do all of them in the next 10 minutes. Notice how much lighter your head feels after.",
-      mnemonic: "Under 2 minutes? DO IT NOW. Don't list it, do it ⚡2️⃣"
+      mnemonic: "Under 2 minutes? DO IT NOW. Don't list it, do it ⚡2️"
     },
     impulseKiller: {
       urge: "The urge to check market prices obsessively during volatile days",
@@ -577,7 +577,7 @@ news: {
     historyStory: {
       event: "The Dutch Tulip Mania of 1637  -  History's First Asset Bubble",
       story: "In 1630s Holland, tulip bulbs became the hottest investment in the world. Prices rose so fast that a single rare tulip bulb sold for more than a skilled craftsman's annual salary. People sold houses to buy tulip futures. Then in February 1637, prices collapsed overnight. Some investors lost everything. Sound familiar? It's SpaceX IPO day  -  everyone wants in, prices are jumping, FOMO is everywhere. History's first asset bubble was a flower. Nothing has changed about human psychology in 400 years.",
-      lesson: "Every financial mania in history  -  tulips, railways, dotcoms, crypto, real estate  -  follows the same pattern: new exciting thing → prices rise → everyone jumps in → prices disconnect from reality → collapse. The ones who made money were those who got in early and got out before the crowd.",
+      lesson: "Every financial mania in history  -  tulips, railways, dotcoms, crypto, real estate  -  follows the same pattern: new exciting thing -> prices rise -> everyone jumps in -> prices disconnect from reality -> collapse. The ones who made money were those who got in early and got out before the crowd.",
       mnemonic: "Tulip Mania 1637 = Every bubble ever. Different flower, same story 🌷💸"
     },
     earthSecret: {
@@ -617,7 +617,7 @@ news: {
       purpose: "Understand any complex news event and its impact on you personally",
       prompt: "I just read this news: [paste headline or brief description]. Explain it to me like I'm a curious, smart person who wants to understand: 1) What actually happened in simple terms, 2) Why it happened, 3) How it affects India specifically, 4) How it affects my personal finances or career, 5) What I should do about it, if anything. Be honest if the impact is actually small  -  don't exaggerate.",
       where: "Claude, ChatGPT, or Gemini",
-      mnemonic: "News → Paste → 5 questions → You understand the world better in 2 minutes 🌍"
+      mnemonic: "News -> Paste -> 5 questions -> You understand the world better in 2 minutes 🌍"
     },
     futureWatch: {
       trend: "AI is moving from 'answering questions' to 'running companies'",
@@ -643,4 +643,1304 @@ news: {
     },
     visaTip: {
       focus: "Portugal (Schengen Visa) for Indian Passport Holders",
-      eli5: "Portugal is part of the Schengen Zone  -  one visa gets you into 27 European countries. For Indians, you apply at the VFS Global centr
+      eli5: "Portugal is part of the Schengen Zone  -  one visa gets you into 27 European countries. For Indians, you apply at the VFS Global centre in major Indian cities. You need: confirmed hotel bookings, return flight tickets, travel insurance of minimum EUR30,000, bank statement showing sufficient funds (roughly Rs.3-4 lakhs for a 2-week trip), and ITR/salary slips. Apply at least 6-8 weeks before travel. Portugal is known for being one of the more applicant-friendly Schengen embassies for Indians.",
+      goldenTip: "Book all your accommodation as 'free cancellation' initially  -  it shows a confirmed itinerary for the visa application without locking you into non-refundable bookings. Once your visa is approved, you can adjust or rebook.",
+      mnemonic: "Schengen = 1 visa, 27 countries. Apply 6-8 weeks early, free cancellation bookings trick 🗺️"
+    },
+    culturalCode: {
+      culture: "Portugal",
+      doThis: "Learn two words: 'Obrigado' (thank you, if you're male) or 'Obrigada' (if female). Portuguese people light up when foreigners try even a single word of their language. Also: try the local food  -  bacalhau (salt cod) and pasteis de nata  -  without making comparisons to other cuisines. Portuguese take immense pride in their food traditions.",
+      neverDoThis: "Never confuse Portuguese with Spanish or call their language 'Spanish.' Portugal and Spain have a complex historical relationship and Portuguese people are very proud of their distinct identity and language. Also never rush through meals  -  Portuguese dining is a slow, social ritual. Asking for the bill early is considered rude.",
+      mnemonic: "Portugal rule: Obrigado + Never call it Spanish + Let the meal breathe 🍷"
+    },
+    quiz: [
+      { q: "What is the Schengen Zone?", options: ["A special tourist area in France", "A group of 27 European countries sharing one visa that allows free movement between them", "A type of European rail pass", "A discount shopping zone in Germany"], answer: 1, funFact: "The Schengen Agreement was signed in 1985 on a boat on the Moselle River near the village of Schengen in Luxembourg. The village has only 600 inhabitants but gave its name to one of the world's most significant travel agreements." },
+      { q: "The 'free cancellation booking trick' for visa applications works because...", options: ["It's cheaper", "It shows a confirmed itinerary to the embassy without committing to non-refundable bookings", "Embassies prefer flexible travellers", "It guarantees visa approval"], answer: 1, funFact: "Visa rejection is the single most common travel fear for Indian passport holders in Europe. India ranks around 80th globally in passport strength  -  but Indian applicants with clean travel history and strong financials have high approval rates for Schengen visas." },
+      { q: "What should you never do in Portugal that would offend locals?", options: ["Eat bacalhau", "Call their language 'Spanish' or confuse their culture with Spain", "Drink local wine", "Visit historic castles"], answer: 1, funFact: "Portuguese is the 6th most spoken language in the world with 260 million native speakers  -  more than French (80 million) or German (95 million). It's the dominant language of Brazil, Angola, Mozambique, and several other countries." }
+    ]
+  }
+}
+
+const d260613 = {
+news: {
+    segments: [
+      {
+        name: "🌐 What's happening with countries?", color: C.sky,
+        stories: [
+          {
+            headline: "South Korea's ex-President gets 30 years in jail",
+            eli5: "Imagine if the captain of a ship secretly sent spy-drones over an enemy island to start a fight  -  just so he could lock down his own ship and stay in charge. That's what South Korea's President Yoon did. He used drones to create fear so he could declare martial law (like a super-lockdown of the whole country). The courts said: that's cheating, and sentenced him to 30 years in prison.",
+            whyItMatters: "It shows even the most powerful person in a country must follow the rules.",
+            mnemonic: "YOON + DRONE = JAIL ZONE 🚁->️🔒"
+          },
+          {
+            headline: "FIFA World Cup 2026 has kicked off in Mexico!",
+            eli5: "The world's biggest sports party has started! 48 countries are playing football across Mexico, USA, and Canada. Mexico City's main square  -  the Zocalo  -  was packed with fans dancing and singing. It's like the whole planet threw a street party at the same time. But one Somali referee who was supposed to make history was sadly blocked from entering the USA.",
+            whyItMatters: "The World Cup brings billions of people together  -  and also reveals which countries open their doors and which don't.",
+            mnemonic: "World Cup 2026 = 3 countries, 1 ball, infinite joy ⚽🌎"
+          },
+          {
+            headline: "Taiwan waits nervously for $14 billion in weapons from the USA",
+            eli5: "Taiwan is a small island that China says belongs to it. Taiwan disagrees. The USA said it would send $14 billion worth of weapons to help Taiwan protect itself  -  but the approval is taking a long time. Taiwan is biting its nails wondering: will America really help us? It's like waiting for your big friend to show up while the school bully circles around.",
+            whyItMatters: "This affects the balance of power in all of Asia  -  and could impact global trade and peace.",
+            mnemonic: "Taiwan + 14B = small island, BIG question mark 🏝️❓"
+          }
+        ]
+      },
+      {
+        name: "💸 What's happening with money?", color: C.mint,
+        stories: [
+          {
+            headline: "Global markets nervous as World Cup spending boosts some economies",
+            eli5: "When a huge event like the World Cup happens, money moves like water. Hotels fill up, restaurants sell out, TV ads cost more. Countries hosting games  -  Mexico, USA, Canada  -  are seeing a mini money-boost. But the rest of the world is watching interest rates and wondering if borrowing money will get more expensive soon.",
+            whyItMatters: "Big events shift money in ways most people don't notice  -  understanding this is how smart investors get ahead.",
+            mnemonic: "Big events = money rivers change direction 💰🌊"
+          },
+          {
+            headline: "India's Nifty holds strong above 24,000  -  FIIs buying again",
+            eli5: "The Nifty is like a report card for India's 50 biggest companies. When it stays high, it means investors think India's businesses are healthy. Foreign investors (FIIs)  -  big global money funds  -  are buying Indian stocks again after pulling out earlier this year. Think of it like tourists coming back to a market they had left.",
+            whyItMatters: "When foreign money flows into India, the rupee gets stronger and companies can grow faster.",
+            mnemonic: "FII buying = foreign fans back in India's stadium 🏟️📈"
+          },
+          {
+            headline: "Oil prices steady near $74  -  OPEC holds production unchanged",
+            eli5: "Oil is like the blood of the world economy  -  almost everything runs on it. OPEC (a club of oil-producing countries) decided not to pump more or less oil. So prices stayed calm. When oil is cheap, transportation, food, and manufacturing all get cheaper. When it's expensive, everything costs more.",
+            whyItMatters: "Stable oil prices = stable prices at your local shop and petrol pump.",
+            mnemonic: "OPEC = Oil Price Eating Club 🛢️😄"
+          }
+        ]
+      },
+      {
+        name: "💻 What's happening with technology?", color: C.lavender,
+        stories: [
+          {
+            headline: "Apple's AI features rolling out globally on iPhones",
+            eli5: "Apple is adding a smart assistant to iPhones that can read your emails, summarise long messages, and help you write replies  -  all on your phone without your data going to the internet. It's like having a tiny genius living inside your phone who never tells anyone your secrets.",
+            whyItMatters: "When AI runs privately on your device, it changes who controls your data  -  and that's a big deal for privacy.",
+            mnemonic: "Apple AI = Genius in your pocket, secrets stay locked 🍎🔐"
+          },
+          {
+            headline: "OpenAI releases new model that can reason like a scientist",
+            eli5: "OpenAI's newest AI doesn't just answer questions  -  it thinks step by step, checks its own work, and changes its mind when it finds a mistake. It's like the difference between a student who copies answers and one who actually understands and solves the problem from scratch.",
+            whyItMatters: "AI that reasons means it can help doctors, engineers, and researchers solve harder problems faster.",
+            mnemonic: "New AI = Thinks, Checks, Fixes  -  like a scientist 🔬🤖"
+          },
+          {
+            headline: "Elon Musk's xAI launches Grok 3 with real-time internet access",
+            eli5: "Grok 3 is a chatbot that can browse the internet live while talking to you. Most chatbots only know things from when they were trained. Grok can look things up right now  -  like having a friend who googles things for you while you're having a conversation.",
+            whyItMatters: "Real-time AI changes how people will search for information  -  Google's biggest threat yet.",
+            mnemonic: "Grok = Google + Chatbot had a baby 👶🌐"
+          }
+        ]
+      },
+      {
+        name: "🌿 What's happening with our planet?", color: C.peach,
+        stories: [
+          {
+            headline: "Record heat hits parts of Europe and South Asia in June",
+            eli5: "Parts of Europe and South Asia recorded their hottest June temperatures ever. Imagine your room getting hotter every year, and your air conditioner can barely keep up. That's what's happening to Earth. Scientists say this is exactly what they warned about when they talked about climate change.",
+            whyItMatters: "Heat records breaking every year means crop failures, water shortages, and health risks are becoming normal  -  not rare.",
+            mnemonic: "Record heat = Earth's fever going up every year 🌡️🔥"
+          },
+          {
+            headline: "Amazon rainforest deforestation drops 45% in Brazil  -  a rare win",
+            eli5: "The Amazon is like Earth's lungs  -  it breathes in carbon dioxide and breathes out oxygen. Brazil's new government put strict rules against cutting trees. The result? 45% less forest was destroyed this year compared to last. It's like a patient who quit smoking and their lungs started healing.",
+            whyItMatters: "The Amazon absorbs huge amounts of CO2. Saving it slows down global warming for everyone on Earth.",
+            mnemonic: "Amazon protected = Earth's lungs healing 🫁🌳"
+          },
+          {
+            headline: "Ocean plastic: scientists find new bacteria that eats plastic",
+            eli5: "Scientists discovered bacteria in the ocean that actually eat plastic  -  they break it down like food. It's still early research, but imagine tiny invisible cleaners eating up all the plastic bags and bottles in the sea. Nature found a way  -  now humans need to help it scale up.",
+            whyItMatters: "Plastic pollution kills marine life and enters our food chain. Natural solutions like this could be a game-changer.",
+            mnemonic: "Plastic-eating bacteria = tiny ocean janitors 🦠🌊"
+          }
+        ]
+      }
+    ],
+    quiz: [
+      { q: "Why was South Korea's President Yoon sent to prison?", options: ["He stole money from the government", "He used drones and declared martial law to stay in power", "He started a war with North Korea", "He refused to hold elections"], answer: 1, funFact: "Martial law means the military takes control  -  it's usually only used in war. Using it to stay in power is considered a betrayal of democracy." },
+      { q: "What is the Nifty 50?", options: ["50 richest people in India", "A report card for India's 50 biggest companies", "India's 50 top cricket players", "50 best Indian startups"], answer: 1, funFact: "The Nifty 50 was launched in 1996. It's calculated every second the market is open  -  over 6 hours a day!" },
+      { q: "What makes Grok 3 different from most AI chatbots?", options: ["It speaks 100 languages", "It can draw pictures", "It can browse the internet in real time", "It runs on solar power"], answer: 2, funFact: "Most AI models have a 'knowledge cutoff'  -  they don't know anything after a certain date. Real-time internet access changes everything." }
+    ]
+  },
+
+  markets: {
+    globalPulse: {
+      eli5: "Think of the world's money as a big river. Right now the river is flowing calmly  -  not too fast, not too slow. The US dollar is strong, oil prices are steady, and stock markets in most countries are not crashing. But investors are watching carefully because interest rates are still high, which means borrowing money is expensive  -  like a toll booth on the money river.",
+      keyThings: ["S&P 500 near all-time highs", "USD strong vs most currencies", "Crude oil ~$74/barrel  -  stable", "India Nifty above 24,000"]
+    },
+    indianMarket: {
+      eli5: "India's stock market is like a giant bazaar. Right now the bazaar is busy and buzzing  -  shoppers (investors) are back after a quiet phase. Big foreign funds are buying Indian stocks again, especially in banking, IT, and infrastructure. The mood is cautiously excited  -  like the first day of Diwali shopping.",
+      breakouts: [
+        { name: "IRFC (Indian Railway Finance Corp)", whyExciting: "India is spending lakhs of crores on railways. IRFC funds all of it  -  like the bank for Indian Railways. Every new train, track, or station means more business for IRFC. The stock has strong momentum and government backing.", risk: "If government spending on railways slows down, IRFC growth slows too." },
+        { name: "Dixon Technologies", whyExciting: "Dixon makes electronics  -  phones, TVs, washing machines  -  for big brands in India. As global companies move manufacturing away from China to India, Dixon wins big contracts. It's riding India's 'Make in India' wave perfectly.", risk: "Highly dependent on a few big clients  -  losing one big client could hurt badly." },
+        { name: "Zomato (Eternal Ltd)", whyExciting: "Zomato is not just food delivery anymore  -  it's building a quick-commerce empire with Blinkit. Delivering groceries in 10 minutes across India is a massive business. The stock has recovered strongly and the company turned profitable.", risk: "Intense competition from Swiggy and Zepto  -  price wars can eat into profits." }
+      ],
+      ipoSpot: { name: "Ather Energy IPO (EV Scooters)", verdict: "Watch", eli5: "Ather makes premium electric scooters and is growing fast. But the EV market in India is still young and competitive. Apply only if you believe in India's EV future  -  this is a long-term bet, not a quick flip." },
+      lessonOfDay: { title: "The Rule of 72", story: "Want to know how fast your money doubles? Just divide 72 by the interest rate. Money in a fixed deposit at 7%? 72 / 7 = about 10 years to double. Money growing at 12% in stocks? 72 / 12 = 6 years to double. This tiny math trick was used by bankers in the 1400s and still works perfectly today.", mnemonic: "72 / rate = years to double. 'Seventy-Two Saves You Time' ️" }
+    },
+    quiz: [
+      { q: "What does IRFC actually do?", options: ["Builds railway stations", "Finances (funds) Indian Railways projects", "Sells train tickets", "Makes railway engines"], answer: 1, funFact: "IRFC borrows money cheaply from markets and lends it to Indian Railways. It's essentially a money pipeline for the entire railway system." },
+      { q: "Using the Rule of 72, if your money grows at 9% per year, how many years to double?", options: ["5 years", "8 years", "10 years", "12 years"], answer: 1, funFact: "72 / 9 = 8 years. Einstein reportedly called compound interest the 8th wonder of the world." },
+      { q: "What is Blinkit (owned by Zomato)?", options: ["A movie streaming app", "A 10-minute grocery delivery service", "A banking app", "An electric vehicle brand"], answer: 1, funFact: "Blinkit stores are called 'dark stores'  -  mini warehouses near you with no customers inside, only delivery workers packing orders at lightning speed." }
+    ]
+  },
+
+  psychology: {
+    mindTrick: {
+      name: "The Confirmation Bias",
+      eli5: "Your brain is secretly lazy. It already has opinions  -  and instead of changing them, it looks for proof that it was right all along. If you believe Mondays are bad, you notice every bad thing on Monday and ignore the good stuff. Scientists call this Confirmation Bias  -  your brain is its own biggest fan. It's like wearing tinted glasses and never realising the world is actually full colour.",
+      realLife: "You see this every day  -  people only read news that matches their political views, investors only hear good news about stocks they already own. Once you know this bias exists, you can fight it by actively searching for the opposite view.",
+      mnemonic: "Confirmation Bias = Your brain is a YES-MAN who hates being wrong 🙈"
+    },
+    bodyLanguage: {
+      signal: "The Steeple Hand Gesture",
+      eli5: "When someone touches their fingertips together like a church steeple (fingers pointing up, palms apart), they are quietly signalling confidence and control. Presidents, CEOs, and lawyers use this all the time during negotiations. It says 'I am calm, I know what I'm talking about, and I'm not threatened by you'  -  without saying a single word.",
+      howToUse: "Use the steeple when you're making a point in a meeting or presenting an idea. It makes you look certain even when you feel nervous inside.",
+      mnemonic: "Steeple hands = Church of Confidence ⛪👐"
+    },
+    superpower: {
+      name: "Social Proof",
+      story: "A restaurant put a sign: 'Our most ordered dish: Butter Chicken.' Sales of that dish jumped 30%  -  not because the recipe changed, but because people assumed that if everyone orders it, it must be great. This is Social Proof  -  humans are wired to copy the crowd when they're unsure. It's why 5-star reviews work, why queues make places look popular, and why influencers get paid millions.",
+      shield: "When you see 'bestseller', 'most popular', or '10,000 reviews'  -  pause. Ask: am I choosing this because it's actually good for me, or just because others chose it?",
+      mnemonic: "Social Proof = Monkey see, Monkey buy 🐒🛒"
+    },
+    quiz: [
+      { q: "What is Confirmation Bias?", options: ["Believing everything you read online", "Your brain seeking proof that it was already right", "Being extra careful before making decisions", "Changing your mind too quickly"], answer: 1, funFact: "Studies show people spend 36% more time reading articles that agree with their existing beliefs than those that challenge them." },
+      { q: "What does the steeple hand gesture communicate?", options: ["Nervousness and uncertainty", "Boredom and disinterest", "Confidence and control", "Anger and aggression"], answer: 2, funFact: "Barack Obama and Angela Merkel were both famous for using the steeple gesture in press conferences." },
+      { q: "Social Proof works because humans are wired to...", options: ["Always be original", "Copy the crowd when unsure", "Distrust popular things", "Prefer rare items"], answer: 1, funFact: "Social proof is so powerful that people will stand on a street and look up at the sky  -  and within minutes, strangers join them just because others are doing it." }
+    ]
+  },
+
+  leadership: {
+    leaderMove: {
+      name: "Extreme Ownership",
+      story: "Jocko Willink was a US Navy SEAL commander. In a battle in Iraq, his team accidentally fired on allied soldiers  -  a terrible mistake. Instead of blaming his men, Jocko stood up and said: 'It was my fault. I am responsible.' His commanders were stunned. But his team's loyalty to him became unbreakable. Leaders who own their failures inspire others to do the same. A team that never hides mistakes becomes unstoppable.",
+      doThis: "Next time something goes wrong  -  at work, at home, anywhere  -  resist blaming others. Say 'What could I have done differently?' out loud. Do it once a day for 7 days.",
+      mnemonic: "Extreme Ownership = The buck ALWAYS stops with me 🪣"
+    },
+    visionarySecret: {
+      concept: "Second-Order Thinking",
+      eli5: "Most people think one step ahead. Visionaries think two or three. When everyone panics and sells stocks during a crash, Warren Buffett buys. Why? Because he asks: 'And then what happens after that?' First order: market crashes -> sell. Second order: prices get cheap -> smart money buys -> market recovers -> patient buyers win. It's like playing chess while others play checkers.",
+      exercise: "Pick any decision you're facing today. Write down what happens first. Then ask 'and then what?' two more times. You'll see options others miss.",
+      mnemonic: "Second-order thinking = Ask 'And then what?' like a 3-year-old 🧒"
+    },
+    eliteHabit: {
+      habit: "The 5-Hour Rule  -  Deliberate Learning",
+      whoAndHow: "Bill Gates, Warren Buffett, Barack Obama and Elon Musk all protect at least 1 hour a day (5 hours per week) purely for reading and learning  -  not emails, not meetings. Gates reads 50 books a year. Buffett spends 80% of his day reading.",
+      whyItWorks: "Your brain is a muscle. Elite performers treat knowledge like compound interest  -  a little every day becomes a massive advantage over years. The world rewards people who know more and think better.",
+      mnemonic: "5-Hour Rule = 1 hour/day keeps ignorance away 📚"
+    },
+    sigmaWisdom: {
+      lesson: "Memento Mori  -  Remember You Will Die",
+      story: "Ancient Roman generals, when given a victory parade, would have a servant whisper in their ear: 'Memento Mori'  -  remember, you will die. Not to be dark. But to remind them: don't get arrogant, don't waste today, the clock is always running. Marcus Aurelius wrote in his private journal every day about death  -  not out of fear, but to stay humble, focused, and intentional.",
+      action: "Every morning, before checking your phone, say this: 'I have one less day than yesterday. What matters most today?' Then do that first.",
+      mnemonic: "Memento Mori = Death is your best time manager "
+    },
+    quiz: [
+      { q: "Extreme Ownership means...", options: ["Taking credit for everything that goes right", "Blaming others when things go wrong", "Taking full responsibility for everything  -  including failures", "Owning a business"], answer: 2, funFact: "Jocko Willink wrote a book called 'Extreme Ownership' that became required reading in many top business schools." },
+      { q: "Second-order thinking asks...", options: ["What happened before this?", "Who is responsible?", "And then what happens after that?", "What is the cheapest option?"], answer: 2, funFact: "Warren Buffett said: 'Someone is sitting in the shade today because someone planted a tree long ago.' That's second-order thinking in one sentence." },
+      { q: "What did Roman generals use Memento Mori for?", options: ["To scare enemies", "To stay humble and focused despite success", "To mourn fallen soldiers", "To plan funerals"], answer: 1, funFact: "Marcus Aurelius wrote his famous book 'Meditations' as a private journal  -  never meant to be published. It's now one of the most read leadership books in the world." }
+    ]
+  },
+
+  wealth: {
+    wealthSecret: {
+      name: "Pay Yourself First",
+      story: "Most people earn money, pay all their bills and expenses, and save whatever is left. The problem? Nothing is ever left. Rich people flip this completely. The moment money arrives, they take a fixed percentage  -  20%, 30%, whatever they decided  -  and save or invest it first. Then they live on what remains. It's like filling your car's fuel tank before giving lifts to everyone else. If you give lifts first, you run out of fuel.",
+      action: "Open a separate bank account today. The moment your salary arrives, transfer 20% into it automatically. Treat it like a bill you must pay yourself.",
+      mnemonic: "Pay Yourself First = Fuel your own tank before driving others 🚗⛽"
+    },
+    moneyMachine: {
+      type: "Index Fund Investing (SIP)",
+      eli5: "An index fund is like buying a tiny piece of every big company in India at once. Instead of betting on one company, you bet on India's entire economy growing. A SIP (Systematic Investment Plan) means you put in a fixed amount every month  -  Rs.1,000, Rs.5,000, whatever  -  automatically. Over time, your money grows like a tree you water every month without thinking.",
+      indiaAngle: "In India, Nifty 50 Index Funds from Zerodha Coin or Groww have returned 12-14% annually over 20 years. Rs.5,000/month for 20 years = approximately Rs.50 lakhs to Rs.1 crore depending on growth.",
+      mnemonic: "SIP = Slow Income Plant  -  water monthly, harvest big 🌱"
+    },
+    mindsetFlip: {
+      oldThinking: "Save money by cutting small expenses  -  skip the coffee, avoid eating out",
+      newThinking: "Grow income aggressively and invest the difference  -  focus on the big numbers",
+      why: "Skipping your daily coffee saves Rs.3,000 a year. One skill upgrade that raises your salary by Rs.50,000 a year is worth 16x more. The wealthy obsess over increasing income and returns  -  not counting rupees on small habits.",
+      mnemonic: "Don't watch the pennies  -  watch the hundreds 💯"
+    },
+    magicNumber: {
+      number: "The 4% Rule",
+      eli5: "This is the secret to financial freedom. If you have saved 25x your annual expenses  -  you can retire. You withdraw 4% of your savings per year and historically, your investments grow fast enough to replace that money forever. Example: If you spend Rs.6 lakhs a year, you need Rs.1.5 crore saved. Then you never need to work again (if you choose not to).",
+      mnemonic: "4% Rule = Save 25x your expenses -> Free forever 🗝️"
+    },
+    quiz: [
+      { q: "What does 'Pay Yourself First' mean?", options: ["Buy yourself gifts before bills", "Save/invest before spending on anything else", "Pay your salary in advance", "Never share money with others"], answer: 1, funFact: "George Clason wrote about this concept in 'The Richest Man in Babylon' in 1926  -  and it's still the most powerful wealth habit ever described." },
+      { q: "What is a SIP?", options: ["A savings interest plan", "Investing a fixed amount automatically every month", "A type of bank loan", "Stock investment premium"], answer: 1, funFact: "SIPs use 'rupee cost averaging'  -  you automatically buy more units when prices are low and fewer when high. This means market crashes actually help your long-term SIP." },
+      { q: "Using the 4% Rule, if you spend Rs.8 lakhs per year, how much do you need to retire?", options: ["Rs.80 lakhs", "Rs.1 crore", "Rs.2 crores", "Rs.5 crores"], answer: 2, funFact: "Rs.8 lakhs x 25 = Rs.2 crores. The 4% Rule was developed by financial planner William Bengen in 1994 after studying 75 years of market data." }
+    ]
+  },
+
+  communication: {
+    speakingSkill: {
+      name: "The Rhetorical Triangle  -  Ethos, Pathos, Logos",
+      story: "Aristotle, 2,400 years ago, figured out why some people can walk into a room and change minds  -  while others talk for hours and no one listens. He said every powerful speech needs three things: Ethos (why should they trust you?), Pathos (do they feel something?), Logos (does your logic make sense?). Steve Jobs used all three every time he spoke. 'This changes everything'  -  that's pathos. Showing the product working  -  logos. His history of building Apple  -  ethos.",
+      drill: "Next time you want to convince someone of anything  -  write three sentences: one that builds your credibility, one that connects emotionally, one that gives logical proof. Say all three.",
+      mnemonic: "Ethos + Pathos + Logos = EPL  -  The Premier League of Persuasion ⚽🎤"
+    },
+    negotiationMove: {
+      tactic: "The Mirroring Technique",
+      eli5: "FBI negotiator Chris Voss discovered that simply repeating the last 3 words someone said  -  as a question  -  makes them keep talking, feel heard, and reveal more information. It's like holding up a mirror to their words. No arguing, no rebutting, just reflecting back.",
+      script: "They say: 'We can't do this deal right now.' You say softly: '...Can't do it?' Then stay silent. They will fill the silence and explain themselves.",
+      mnemonic: "Mirror = Repeat last 3 words + silence = they talk more 🪞"
+    },
+    officeWin: {
+      rule: "Reply to messages within 24 hours  -  always",
+      story: "Person A gets an email from a senior manager and replies in 4 minutes with a clear answer. Person B sees the same email, thinks 'I'll do it later,' and replies in 3 days. Who gets promoted? Responsiveness signals reliability. In an office, being easy to work with is worth more than being the smartest person in the room.",
+      mistake: "Most people prioritise tasks they feel like doing over tasks that make others see them as reliable.",
+      mnemonic: "Fast replies = Trustworthy reputation, slow replies = forgotten ⚡📧"
+    },
+    confidenceHack: {
+      technique: "Power Posing for 2 Minutes",
+      science: "Harvard psychologist Amy Cuddy found that standing in a powerful pose  -  chest open, hands on hips, chin slightly up  -  for just 2 minutes raises testosterone (confidence chemical) and lowers cortisol (stress chemical) in your body. Your body changes your mind before your mind changes your body.",
+      doItNow: "Before any important meeting, presentation, or interview: go to a bathroom or private space. Stand with hands on hips, chest open, chin up for exactly 2 minutes. Walk in feeling different.",
+      mnemonic: "2 minutes of Power Pose = Superman mode activated 🦸"
+    },
+    quiz: [
+      { q: "What are the three parts of Aristotle's Rhetorical Triangle?", options: ["Logic, Emotion, Volume", "Ethos, Pathos, Logos", "Facts, Stories, Questions", "Speed, Clarity, Confidence"], answer: 1, funFact: "Aristotle wrote 'Rhetoric' in 350 BC. It is still taught in law schools, business schools, and speech programmes worldwide today." },
+      { q: "In the Mirroring technique, what do you repeat?", options: ["The first word they said", "Everything they said", "The last 3 words as a question", "Only facts and numbers"], answer: 2, funFact: "Chris Voss used mirroring to negotiate hostage releases with international criminals. The same technique works just as well in salary negotiations." },
+      { q: "Power Posing for 2 minutes changes which chemicals in your body?", options: ["Serotonin and dopamine", "Testosterone and cortisol", "Adrenaline and insulin", "Melatonin and oxytocin"], answer: 1, funFact: "Amy Cuddy's TED talk on Power Posing is one of the 5 most-watched TED talks in history with over 60 million views." }
+    ]
+  },
+
+  mind: {
+    brainHack: {
+      name: "The 5-Second Rule",
+      eli5: "Your brain has an alarm system. The moment you think of doing something hard  -  exercise, making a difficult call, starting work  -  your brain fires a tiny panic signal and distracts you. Mel Robbins discovered if you count backwards from 5 (5-4-3-2-1) and physically move your body at '1', you interrupt that alarm before it stops you. It's like launching a rocket  -  once ignition fires, it goes.",
+      protocol: "Whenever you feel the urge to delay something important: count 5-4-3-2-1 out loud or in your head, and physically move  -  stand up, open the app, pick up the phone  -  the moment you hit 1. Do not pause. Movement is the activation key.",
+      mnemonic: "5-4-3-2-1 GO = Rocket launch your brain 🚀"
+    },
+    disciplineCode: {
+      principle: "Eat the Frog First",
+      story: "Mark Twain once said: if you eat a live frog first thing in the morning, nothing worse can happen to you for the rest of the day. Brian Tracy turned this into a productivity philosophy: your most difficult, most important task is the frog. Do it first, before email, before social media, before anything else. Every Navy SEAL, elite athlete, and top CEO versions of this  -  protect the first hours for the hardest work.",
+      todayAction: "Write down the ONE task you've been avoiding most. Set your alarm 30 minutes earlier tomorrow. Do only that task first thing. Nothing else until it's done.",
+      mnemonic: "Eat the Frog = Hard thing first, easy day after 🐸"
+    },
+    impulseKiller: {
+      urge: "Phone scrolling / distraction addiction",
+      eli5: "Your phone is designed by hundreds of engineers to be as addictive as a slot machine. Every scroll, every notification is a tiny dopamine hit  -  a small reward that makes you want more. Your brain starts craving it like sugar. The 'monster' in your head says 'just one more scroll' and hours disappear.",
+      interrupt: "The moment you feel the urge to pick up your phone for no reason: put it face-down, take 3 slow deep breaths, and ask 'What was I supposed to be doing?' This 20-second interrupt breaks the automatic loop. Also: keep your phone in a different room while working.",
+      mnemonic: "Phone urge interrupt = Flip. Breathe. Refocus. 📱🔄"
+    },
+    bodyUpgrade: {
+      practice: "Cold Exposure (Cold Shower)",
+      eli5: "When you step into cold water, your body releases a huge surge of norepinephrine  -  up to 300% more than normal. This is the chemical responsible for focus, energy, and mood. Dr. Andrew Huberman at Stanford calls it the most powerful non-pharmaceutical mood booster available to anyone for free.",
+      minimumDose: "Just 30 seconds of cold water at the end of your regular shower, every morning. That's it.",
+      mnemonic: "Cold shower = Free brain upgrade, costs only discomfort 🥶⚡"
+    },
+    quiz: [
+      { q: "What does the 5-Second Rule do to your brain?", options: ["Makes you think harder", "Interrupts the panic alarm before it stops you acting", "Slows down decision making", "Improves memory"], answer: 1, funFact: "Mel Robbins developed the 5-Second Rule to stop herself from not getting out of bed. It became a book that sold over 3 million copies." },
+      { q: "What is 'Eating the Frog'?", options: ["Eating an unusual breakfast for energy", "Doing your hardest task first thing in the morning", "Facing your biggest fear once a week", "Skipping meals to improve focus"], answer: 1, funFact: "Brian Tracy's book 'Eat That Frog!' has been translated into 42 languages. The concept is older  -  attributed to Mark Twain from the 1800s." },
+      { q: "Cold exposure increases which brain chemical by up to 300%?", options: ["Serotonin", "Melatonin", "Norepinephrine", "Dopamine"], answer: 2, funFact: "Norepinephrine is used in anti-depressant medications. A cold shower gives you a natural surge of it  -  and the effect lasts hours." }
+    ]
+  },
+
+  knowledge: {
+    mathMagic: {
+      concept: "Compound Interest (The 8th Wonder)",
+      eli5: "Imagine you have a magic snowball at the top of a hill. As it rolls down, it picks up more snow. The bigger it gets, the more snow it picks up  -  faster and faster. That's compound interest. You earn money on your money. Then you earn money on THAT money. A small snowball with enough hill becomes an avalanche. Rs.10,000 at 12% per year becomes Rs.96,000 in 20 years  -  without adding a single rupee more.",
+      realWorldUse: "Every SIP, every FD, every stock investment runs on this principle. The key secret: time is the hill. Start early, and even small amounts become enormous. Start late, and even large amounts struggle to catch up.",
+      mnemonic: "Compound Interest = Snowball on a hill  -  starts small, becomes unstoppable ☃️"
+    },
+    scienceWow: {
+      field: "Astronomy",
+      concept: "The Observable Universe",
+      eli5: "Look up at the night sky. Every star you see is just in our galaxy  -  the Milky Way. But there are over 2 trillion galaxies in the observable universe. The word 'observable' is key  -  it's just the part of the universe whose light has had time to reach us in 13.8 billion years. The actual universe could be infinitely larger. You are one human, on one planet, in one solar system, in one galaxy, among 2 trillion others. And yet  -  here you are, aware of all of it.",
+      mindBlow: "If you shrank the entire observable universe to the size of Earth, the Milky Way would be smaller than a single atom. The scale is so large it literally breaks normal human intuition.",
+      mnemonic: "2 Trillion galaxies = You are small AND significant 🌌"
+    },
+    historyStory: {
+      event: "The Mongol Empire  -  Genghis Khan's Management System",
+      story: "Genghis Khan built the largest land empire in history  -  not just by fighting, but by being the greatest talent manager of the medieval world. He promoted generals based on merit, not family. He gave conquered engineers, doctors, and scholars important jobs in his empire. He created the first international postal system (Yam) across 12,000 km. He allowed religious freedom across all conquered lands. He was brutal in war  -  but brilliant in governance.",
+      lesson: "The most powerful organisations in history weren't just the strongest  -  they were the ones that attracted, kept, and promoted the best talent. Hire for skill, not loyalty. That lesson still applies in every company today.",
+      mnemonic: "Genghis Khan = The original meritocracy CEO 🏇"
+    },
+    earthSecret: {
+      place: "Singapore",
+      secret: "Singapore has no natural resources  -  no oil, no minerals, barely any land, almost no fresh water. It imports most of its water from Malaysia and even recycles toilet water into drinking water (called NEWater). In 1965 when it became independent, it was poorer than most of Africa. Today it has one of the highest GDPs per capita in the world. Its only resource was human brains.",
+      edge: "Singapore proves that a country (or a person) with zero natural advantages can become elite through systems, education, discipline, and smart governance. You don't need to be born with resources  -  you need to be resourceful.",
+      mnemonic: "Singapore = No resources + Smart systems = World-class wealth 🇸🇬"
+    },
+    quiz: [
+      { q: "Compound interest is like a snowball because...", options: ["It's cold and hard", "It gets bigger faster the bigger it already is", "It melts over time", "It only works downhill"], answer: 1, funFact: "Warren Buffett made 97% of his entire wealth after the age of 65  -  purely because compound interest had 50+ years to work on his early investments." },
+      { q: "How many galaxies are in the observable universe?", options: ["1 million", "1 billion", "200 billion", "2 trillion"], answer: 3, funFact: "Scientists upgraded the galaxy count from 200 billion to 2 trillion in 2016 using the Hubble Space Telescope's deep field images." },
+      { q: "What made Genghis Khan's empire so successful besides military power?", options: ["He had the most soldiers", "He promoted talent on merit and welcomed skilled people from conquered lands", "He taxed everyone heavily", "He refused to share power with anyone"], answer: 1, funFact: "The Mongol Empire's postal system (Yam) could deliver a message across 12,000 km in just a few days  -  faster than most 19th-century postal services." }
+    ]
+  },
+
+  ai: {
+    toolSpotlight: {
+      name: "Perplexity AI",
+      category: "Research",
+      eli5: "Perplexity is like having a research assistant who reads the entire internet, finds the most relevant pages, and gives you a clear answer with links to where it found everything. Unlike regular Google (which shows you links and you read them yourself), Perplexity reads them for you and writes a summary. It's perfect for quickly understanding any topic  -  from investing to science to current news.",
+      secretMove: "Use Perplexity's 'Focus' modes: switch to 'Academic' to search only peer-reviewed papers, or 'YouTube' to find video answers. For Indian market research, type your question and add 'India context' at the end  -  you get far more relevant results than Google.",
+      mnemonic: "Perplexity = Google + Reading + Summary, all in one 🔍📖"
+    },
+    workflowWin: {
+      title: "The Daily Brief Summariser",
+      problem: "Reading news, reports, and emails every morning takes 1-2 hours. Most of it is noise. You need the signal fast.",
+      steps: [
+        "Paste any long article or report into Claude or ChatGPT",
+        "Type: 'Summarise this in 5 bullet points for someone who has 2 minutes. Highlight what's surprising or new.'",
+        "For emails: 'What does this person actually want from me? What's the right reply?'",
+        "Save your favourite prompts as text shortcuts on your phone keyboard for instant use"
+      ],
+      timeSaved: "Save 45-60 minutes every morning  -  redirected to learning or deep work.",
+      mnemonic: "AI Summariser = Read 1 hour of content in 3 minutes 📰⚡"
+    },
+    promptOfDay: {
+      purpose: "Turn any confusing topic into a simple explanation you actually understand",
+      prompt: "Explain [TOPIC] to me like I am a curious 12-year-old who loves stories and examples. Use an analogy from everyday life. Then give me the 3 most important things I should remember about it. Then give me 1 question I should ask to go deeper.",
+      where: "Claude, ChatGPT, or Gemini",
+      mnemonic: "The 12-year-old prompt = Never be confused by anything again 🧒💡"
+    },
+    futureWatch: {
+      trend: "AI Agents  -  AI that does tasks, not just answers questions",
+      eli5: "Right now, AI chatbots are like very smart advisors  -  you ask, they answer. AI Agents are different. They take action on your behalf. They can browse the web, write and send emails, book meetings, run code, and complete multi-step tasks  -  all on their own. It's the difference between asking a friend for directions and giving them your car keys.",
+      yourMove: "Start learning how to use tools like Claude's computer use, AutoGPT, or Microsoft Copilot Actions now. The people who know how to direct AI agents will be 10x more productive than those who don't within 2 years.",
+      mnemonic: "AI Agents = AI goes from talking to DOING 🤖->️⚡"
+    },
+    quiz: [
+      { q: "What makes Perplexity AI different from Google?", options: ["It has more websites indexed", "It reads pages for you and gives a summarised answer with sources", "It has a better design", "It only works for science topics"], answer: 1, funFact: "Perplexity was founded in 2022 and reached 10 million users in its first year. It now handles over 100 million queries per month." },
+      { q: "What is an AI Agent?", options: ["An AI that only answers questions", "An AI that takes action and completes multi-step tasks on your behalf", "A human who helps train AI", "A type of robot"], answer: 1, funFact: "In 2025, companies started reporting that AI Agents reduced administrative work by 40-60%  -  the biggest productivity shift since email was invented." },
+      { q: "What should you add to the end of the 12-year-old prompt to go deeper?", options: ["More examples please", "The 1 question I should ask to go deeper", "Give me a quiz", "Translate this to simple English"], answer: 1, funFact: "The 'Feynman Technique' of learning says: if you can't explain something simply, you don't understand it yet. The 12-year-old prompt forces AI to use this method." }
+    ]
+  },
+
+  travel: {
+    destination: {
+      country: "Japan",
+      region: "Kyoto & Osaka",
+      eli5: "Imagine a place where ancient temples sit next to bullet trains, where a bowl of noodles can cost Rs.200 but feel like the best meal of your life, where vending machines sell hot coffee and cold beer on the same street corner, and where everyone around you is unfailingly polite. Kyoto is Japan's soul  -  2,000 temples, bamboo forests, geisha districts. Osaka is its stomach  -  food markets, street snacks, loud laughter. Together they are unlike anywhere else on Earth.",
+      bestTime: "March-April (cherry blossoms) or October-November (autumn leaves)  -  both are visually surreal and the weather is perfect.",
+      hiddenGem: "Fushimi Inari shrine in Kyoto has 10,000 orange torii gates winding up a mountain. Most tourists walk 20 minutes and turn back. Walk 90 minutes to the top  -  the crowds vanish completely and you have ancient Japan entirely to yourself.",
+      mnemonic: "Kyoto = Culture, Osaka = Food, Japan = Respect everything 🇯🇵"
+    },
+    visaTip: {
+      focus: "Japan Visa for Indian Passport Holders",
+      eli5: "Japan requires a tourist visa for Indians  -  but it's very straightforward if you have a clean travel history. You apply at the Japan Consulate or through an authorised travel agent. You need: confirmed hotel bookings, return flight tickets, bank statements showing sufficient funds (generally Rs.1.5-2 lakhs), and your last 3 months' salary slips or ITR. Processing takes 5-7 working days.",
+      goldenTip: "If you have a valid US, UK, Schengen, or Australian visa with travel history, Japan almost always approves your visa faster and with less scrutiny. Show prior international travel whenever possible.",
+      mnemonic: "Japan Visa = Clean documents + Past travel = Smooth approval ✈️📋"
+    },
+    culturalCode: {
+      culture: "Japan",
+      doThis: "Bow when greeting  -  even a small nod works. Remove your shoes when entering homes and many traditional restaurants (look for a raised floor at the entrance). Say 'itadakimasu' before eating  -  it means 'I humbly receive' and locals love it when foreigners know this.",
+      neverDoThis: "Never tip in Japan  -  it is considered rude, as if you're saying the staff doesn't earn enough or needs charity. Also never eat or drink while walking on the street  -  Japanese people eat only when seated. And never talk loudly on the phone on trains  -  keep calls to an absolute whisper.",
+      mnemonic: "Japan rule: Bow + No tip + No walking food = Respect unlocked 🙇"
+    },
+    quiz: [
+      { q: "What is the best-kept secret about Fushimi Inari shrine?", options: ["It's free to enter", "If you walk 90 minutes to the top, the crowds disappear", "It has the world's best ramen inside", "It's only open at night"], answer: 1, funFact: "Fushimi Inari's 10,000 torii gates were each donated by Japanese businesses. The names of the donors are written on the back of each gate." },
+      { q: "Is tipping in Japan polite or rude?", options: ["Polite  -  always tip 10%", "Rude  -  considered offensive", "Only tip at expensive restaurants", "Only tip taxi drivers"], answer: 1, funFact: "In Japan, excellent service is considered a matter of personal and professional pride  -  not something you pay extra for. Tipping can actually make staff uncomfortable." },
+      { q: "What prior visa history helps Indian travellers get Japan visa faster?", options: ["South Asian visas", "Valid US, UK, Schengen or Australian visa with travel history", "SAARC country visas", "No prior travel needed"], answer: 1, funFact: "Japan introduced a special 'trusted traveller' fast-track process for Indians with strong US/Schengen visa history in 2023, cutting processing time from 10 days to 3." }
+    ]
+  }
+}
+
+const ALL_BRIEFS = {
+  '2026-06-01': d260601,
+  '2026-06-02': d260602,
+  '2026-06-12': d260612,
+  '2026-06-13': d260613,
+}
+
+// == DATA END ==
+
+const AVAILABLE_DATES = Object.keys(ALL_BRIEFS).sort()
+
+// -- UI Components --------------------------------------------------------------
+function ELI5({ text, color }) {
+  return <div style={{ fontSize: 14, color: C.text, lineHeight: 1.85, background: `${color}0d`, borderRadius: 10, padding: '12px 14px', marginBottom: 10 }}>{text}</div>
+}
+
+function ActionRow({ label, text, color }) {
+  return (
+    <div style={{ display: 'flex', gap: 8, padding: '8px 12px', background: C.surface, borderRadius: 8, marginBottom: 6, borderLeft: `2px solid ${color}` }}>
+      <span style={{ fontSize: 11, color, fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.06em', whiteSpace: 'nowrap', paddingTop: 1, flexShrink: 0 }}>{label}</span>
+      <span style={{ fontSize: 13, color: C.muted, lineHeight: 1.6 }}>{text}</span>
+    </div>
+  )
+}
+
+function Tag({ label, color }) {
+  return <span style={{ display: 'inline-block', padding: '3px 10px', borderRadius: 20, background: `${color}22`, color, fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', marginRight: 6, marginBottom: 4 }}>{label}</span>
+}
+
+function SectionHeader({ text, color }) {
+  return <div style={{ fontSize: 11, fontWeight: 800, color, textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: 12, marginTop: 4 }}>{text}</div>
+}
+
+function Mnemonic({ text, color }) {
+  const [open, setOpen] = useState(false)
+  if (!text) return null
+  return (
+    <div onClick={() => setOpen(o => !o)} style={{ marginTop: 12, padding: '8px 14px', borderRadius: 10, border: `1px dashed ${open ? color : C.dim}`, background: open ? `${color}10` : 'transparent', cursor: 'pointer', transition: 'all 0.25s' }}>
+      <span style={{ fontSize: 11, color: open ? color : C.muted, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+        🧠 Memory Trick · {open ? 'tap to hide ^' : 'tap to reveal v'}
+      </span>
+      {open && <div style={{ marginTop: 6, fontSize: 13, color: C.text, lineHeight: 1.6 }}>{text}</div>}
+    </div>
+  )
+}
+
+// -- Progress utilities ------------------------------------------------------
+function ProgressBar({ value, total, color, height = 5, showLabel = false }) {
+  const pct = total === 0 ? 0 : Math.round((value / total) * 100)
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+      <div style={{ flex: 1, height, background: C.dim, borderRadius: height, overflow: 'hidden' }}>
+        <div style={{
+          width: `${pct}%`, height: '100%',
+          background: pct === 100
+            ? `linear-gradient(90deg, ${C.mint}, #6ee7b7)`
+            : `linear-gradient(90deg, ${color}, ${color}cc)`,
+          borderRadius: height,
+          transition: 'width 0.4s ease'
+        }} />
+      </div>
+      {showLabel && (
+        <span style={{ fontSize: 11, color: pct === 100 ? C.mint : C.muted, fontWeight: 700, whiteSpace: 'nowrap', minWidth: 36, textAlign: 'right' }}>
+          {pct === 100 ? '✅' : `${value}/${total}`}
+        </span>
+      )}
+    </div>
+  )
+}
+
+function Card({ emoji, title, color, children, mnemonic, cardId, readSet, onRead }) {
+  const [open, setOpen] = useState(true)
+  const isRead = readSet && cardId ? readSet.has(cardId) : false
+
+  const toggleRead = (e) => {
+    e.stopPropagation()
+    if (onRead && cardId) onRead(cardId)
+  }
+
+  return (
+    <div style={{
+      background: C.card, borderRadius: 14, marginBottom: 14, overflow: 'hidden',
+      border: `1px solid ${isRead ? color + '55' : C.border}`,
+      transition: 'border-color 0.3s'
+    }}>
+      <div style={{ padding: '13px 16px', display: 'flex', alignItems: 'center', gap: 10, borderBottom: open ? `1px solid ${C.border}` : 'none' }}>
+        {/* Read tick button */}
+        {onRead && (
+          <button onClick={toggleRead} style={{
+            width: 26, height: 26, borderRadius: '50%', flexShrink: 0,
+            background: isRead ? color : 'transparent',
+            border: `2px solid ${isRead ? color : C.dim}`,
+            cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center',
+            fontSize: 12, transition: 'all 0.2s', padding: 0,
+            color: isRead ? '#0d0d14' : C.dim,
+          }}>
+            {isRead ? '(check)' : ''}
+          </button>
+        )}
+        <span style={{ fontSize: 20 }}>{emoji}</span>
+        <span onClick={() => setOpen(o => !o)} style={{ flex: 1, fontWeight: 700, fontSize: 14, color: isRead ? C.muted : C.text, lineHeight: 1.3, cursor: 'pointer', textDecoration: isRead ? 'line-through' : 'none', opacity: isRead ? 0.7 : 1, transition: 'all 0.2s' }}>{title}</span>
+        <span onClick={() => setOpen(o => !o)} style={{ color: C.dim, fontSize: 12, cursor: 'pointer' }}>{open ? '^' : 'v'}</span>
+      </div>
+      {open && <div style={{ padding: '14px 16px' }}>{children}{mnemonic && <Mnemonic text={mnemonic} color={color} />}</div>}
+    </div>
+  )
+}
+
+function Quiz({ questions, color, onXP }) {
+  const [idx, setIdx] = useState(0)
+  const [selected, setSelected] = useState(null)
+  const [score, setScore] = useState(0)
+  const [done, setDone] = useState(false)
+  if (!questions?.length) return null
+  const q = questions[idx]
+  const choose = (i) => { if (selected !== null) return; setSelected(i); if (i === q.answer) setScore(s => s + 1) }
+  const next = () => {
+    if (idx + 1 >= questions.length) { setDone(true); onXP && onXP((score + (selected === q.answer ? 1 : 0)) * 10) }
+    else { setIdx(i => i + 1); setSelected(null) }
+  }
+  if (done) {
+    const final = score
+    return (
+      <div style={{ textAlign: 'center', padding: '28px', background: C.card, borderRadius: 16, border: `1px solid ${C.border}` }}>
+        <div style={{ fontSize: 52, marginBottom: 8 }}>{final === questions.length ? '🏆' : final >= 2 ? '⭐' : '📚'}</div>
+        <div style={{ fontSize: 20, fontWeight: 900, color, marginBottom: 6 }}>{final}/{questions.length} Correct!</div>
+        <div style={{ color: C.muted, fontSize: 13 }}>{final === questions.length ? 'Perfect! +30 XP!' : final >= 2 ? 'Nice work! +20 XP!' : 'Keep learning! +10 XP!'}</div>
+      </div>
+    )
+  }
+  return (
+    <div style={{ background: C.card, borderRadius: 16, border: `1px solid ${color}44`, padding: 20 }}>
+      <div style={{ fontSize: 11, color, textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: 10, fontWeight: 800 }}>🧩 Quiz · Q{idx + 1}/{questions.length}</div>
+      <div style={{ fontSize: 16, fontWeight: 700, color: C.text, marginBottom: 16, lineHeight: 1.5 }}>{q.q}</div>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 8, marginBottom: 14 }}>
+        {q.options.map((opt, i) => {
+          let bg = C.surface, border = C.border, tc = C.text
+          if (selected !== null) { if (i === q.answer) { bg = '#0d2a0d'; border = C.mint; tc = C.mint } else if (i === selected) { bg = '#2a0d0d'; border = C.rose; tc = C.rose } }
+          return <button key={i} onClick={() => choose(i)} style={{ background: bg, border: `1px solid ${border}`, borderRadius: 10, padding: '10px 14px', color: tc, fontSize: 14, textAlign: 'left', cursor: selected !== null ? 'default' : 'pointer', fontFamily: 'inherit', transition: 'all 0.2s' }}><span style={{ opacity: 0.4, marginRight: 8 }}>{['A','B','C','D'][i]}.</span>{opt}</button>
+        })}
+      </div>
+      {selected !== null && (
+        <>
+          <div style={{ padding: '12px 14px', borderRadius: 10, marginBottom: 12, background: selected === q.answer ? '#0d2a0d' : '#2a0d0d', border: `1px solid ${selected === q.answer ? C.mint : C.rose}44` }}>
+            <div style={{ fontWeight: 700, color: selected === q.answer ? C.mint : C.rose, marginBottom: 4, fontSize: 13 }}>{selected === q.answer ? '✅ Correct!' : '❌ Not quite!'}</div>
+            <div style={{ fontSize: 13, color: C.muted, lineHeight: 1.6 }}>💡 {q.funFact}</div>
+          </div>
+          <button onClick={next} style={{ width: '100%', padding: '11px', background: color, color: '#0d0d14', border: 'none', borderRadius: 10, fontWeight: 800, fontSize: 14, cursor: 'pointer', fontFamily: 'inherit' }}>
+            {idx + 1 >= questions.length ? 'See Score 🏁' : 'Next ->'}
+          </button>
+        </>
+      )}
+    </div>
+  )
+}
+
+// -- Domain Views ------------------------------------------------------------
+function NewsView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.segments) return null
+
+  // Count total cards and read cards for progress
+  const allCards = data.segments.flatMap((seg, si) => seg.stories.map((_, j) => `seg${si}-story${j}`))
+  const readCount = allCards.filter(id => readSet.has(id)).length
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+
+  return <div>
+    {data.segments.map((seg, si) => {
+      const segCardIds = seg.stories.map((_, j) => `seg${si}-story${j}`)
+      const segRead = segCardIds.filter(id => readSet.has(id)).length
+      const segDone = segRead === segCardIds.length
+
+      return (
+        <div key={si} style={{ marginBottom: 24 }}>
+          {/* Section header with completion indicator */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 10 }}>
+            <div style={{ fontSize: 11, fontWeight: 800, color: seg.color || color, textTransform: 'uppercase', letterSpacing: '0.1em', flex: 1 }}>
+              {segDone ? '✅ ' : ''}{seg.name}
+            </div>
+            <span style={{ fontSize: 11, color: segDone ? C.mint : C.muted, fontWeight: 700 }}>
+              {segRead}/{segCardIds.length}
+            </span>
+          </div>
+          <ProgressBar value={segRead} total={segCardIds.length} color={seg.color || color} height={3} />
+          <div style={{ marginTop: 10 }}>
+            {seg.stories.map((s, j) => {
+              const cardId = `seg${si}-story${j}`
+              return (
+                <Card key={j} emoji="📰" title={s.headline} color={color} mnemonic={s.mnemonic} cardId={cardId} readSet={readSet} onRead={onRead}>
+                  <ELI5 text={s.eli5} color={color} />
+                  <ActionRow label="Why care" text={s.whyItMatters} color={color} />
+                </Card>
+              )
+            })}
+          </div>
+        </div>
+      )
+    })}
+    <SectionHeader text="🧩 Test Yourself" color={color} />
+    <Quiz questions={data.quiz} color={color} onXP={onXP} />
+  </div>
+}
+
+function MarketsView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.globalPulse) return null
+  const im = data.indianMarket
+  const allCards = ['pulse', 'bazaar', 'stock0', 'stock1', 'stock2', 'ipo', 'lesson']
+  const readCount = allCards.filter(id => readSet.has(id)).length
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+
+  return <div>
+    <Card emoji="🌊" title="The World's Money River Today" color={color} cardId="pulse" readSet={readSet} onRead={onRead}>
+      <ELI5 text={data.globalPulse.eli5} color={color} />
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>{data.globalPulse.keyThings?.map((k, i) => <Tag key={i} label={k} color={color} />)}</div>
+    </Card>
+    <Card emoji="🎪" title="India's Stock Bazaar" color={color} cardId="bazaar" readSet={readSet} onRead={onRead}><ELI5 text={im?.eli5} color={color} /></Card>
+    <SectionHeader text="🚀 3 Stocks to Watch" color={color} />
+    {im?.breakouts?.map((b, i) => (
+      <Card key={i} emoji="📈" title={b.name} color={color} cardId={`stock${i}`} readSet={readSet} onRead={onRead}>
+        <ELI5 text={b.whyExciting} color={color} />
+        <ActionRow label="Risk" text={b.risk} color={C.rose} />
+      </Card>
+    ))}
+    <Card emoji="🎟️" title={`IPO: ${im?.ipoSpot?.name}`} color={color} cardId="ipo" readSet={readSet} onRead={onRead}>
+      <div style={{ marginBottom: 10 }}><span style={{ padding: '4px 16px', borderRadius: 20, fontWeight: 800, fontSize: 13, background: im?.ipoSpot?.verdict === 'Apply' ? '#0d2a0d' : im?.ipoSpot?.verdict === 'Avoid' ? '#2a0d0d' : '#2a2a0d', color: im?.ipoSpot?.verdict === 'Apply' ? C.mint : im?.ipoSpot?.verdict === 'Avoid' ? C.rose : C.lemon }}>{im?.ipoSpot?.verdict}</span></div>
+      <ELI5 text={im?.ipoSpot?.eli5} color={color} />
+    </Card>
+    <Card emoji="📖" title={im?.lessonOfDay?.title} color={color} mnemonic={im?.lessonOfDay?.mnemonic} cardId="lesson" readSet={readSet} onRead={onRead}><ELI5 text={im?.lessonOfDay?.story} color={color} /></Card>
+    <div style={{ fontSize: 11, color: C.muted, marginBottom: 16, fontStyle: 'italic' }}>⚠️ Educational only. Not SEBI-registered advice. Do your own research.</div>
+    <SectionHeader text="🧩 Test Yourself" color={color} />
+    <Quiz questions={data.quiz} color={color} onXP={onXP} />
+  </div>
+}
+
+function GenericView({ data, color, onXP, sections, readSet, onRead, onProgress }) {
+  const allCards = sections.filter(sec => data?.[sec.key]).map(sec => sec.key)
+  const readCount = allCards.filter(id => readSet.has(id)).length
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+
+  return <div>
+    {sections.map((sec, i) => {
+      const block = data?.[sec.key]
+      if (!block) return null
+      return (
+        <Card key={i} emoji={sec.emoji} title={block[sec.titleKey] || sec.fallback || sec.key} color={color} mnemonic={block[sec.mnemonicKey]} cardId={sec.key} readSet={readSet} onRead={onRead}>
+          {sec.eli5Key && <ELI5 text={block[sec.eli5Key]} color={color} />}
+          {sec.extraKeys?.map((ex, j) => block[ex.key] && <ActionRow key={j} label={ex.label} text={Array.isArray(block[ex.key]) ? block[ex.key].join(' -> ') : block[ex.key]} color={ex.rose ? C.rose : color} />)}
+        </Card>
+      )
+    })}
+    <SectionHeader text="🧩 Test Yourself" color={color} />
+    <Quiz questions={data?.quiz} color={color} onXP={onXP} />
+  </div>
+}
+
+function PsychView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.mindTrick) return null
+  return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
+    { key:'mindTrick', emoji:'🧠', titleKey:'name', eli5Key:'eli5', extraKeys:[{label:'Real Life',key:'realLife'}], mnemonicKey:'mnemonic' },
+    { key:'bodyLanguage', emoji:'👁️', titleKey:'signal', eli5Key:'eli5', extraKeys:[{label:'Use It',key:'howToUse'}], mnemonicKey:'mnemonic' },
+    { key:'superpower', emoji:'⚡', titleKey:'name', eli5Key:'story', extraKeys:[{label:'Shield',key:'shield',rose:true}], mnemonicKey:'mnemonic' },
+  ]} />
+}
+
+function LeadView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.leaderMove) return null
+  return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
+    { key:'leaderMove', emoji:'👑', titleKey:'name', eli5Key:'story', extraKeys:[{label:'Do Today',key:'doThis'}], mnemonicKey:'mnemonic' },
+    { key:'visionarySecret', emoji:'🔭', titleKey:'concept', eli5Key:'eli5', extraKeys:[{label:'Exercise',key:'exercise'}], mnemonicKey:'mnemonic', fallback:'Visionary Thinking' },
+    { key:'eliteHabit', emoji:'💎', titleKey:'habit', eli5Key:'whyItWorks', extraKeys:[{label:'Who & How',key:'whoAndHow'}], mnemonicKey:'mnemonic' },
+    { key:'sigmaWisdom', emoji:'🗿', titleKey:'lesson', eli5Key:'story', extraKeys:[{label:'Do Now',key:'action'}], mnemonicKey:'mnemonic' },
+  ]} />
+}
+
+function WealthView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.wealthSecret) return null
+  const allCards = ['wealthSecret','moneyMachine','mindsetFlip','magicNumber']
+  const readCount = allCards.filter(id => readSet.has(id)).length
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+  return <div>
+    <Card emoji="🌱" title={data.wealthSecret.name} color={color} mnemonic={data.wealthSecret.mnemonic} cardId="wealthSecret" readSet={readSet} onRead={onRead}>
+      <ELI5 text={data.wealthSecret.story} color={color} />
+      <ActionRow label="This Week" text={data.wealthSecret.action} color={color} />
+    </Card>
+    <Card emoji="🏧" title={data.moneyMachine.type} color={color} mnemonic={data.moneyMachine.mnemonic} cardId="moneyMachine" readSet={readSet} onRead={onRead}>
+      <ELI5 text={data.moneyMachine.eli5} color={color} />
+      <ActionRow label="India Angle" text={data.moneyMachine.indiaAngle} color={color} />
+    </Card>
+    <Card emoji="🔄" title="Mindset Flip" color={color} mnemonic={data.mindsetFlip?.mnemonic} cardId="mindsetFlip" readSet={readSet} onRead={onRead}>
+      <div style={{ background: '#2a0d0d', borderRadius: 10, padding: '10px 14px', marginBottom: 8 }}>
+        <div style={{ fontSize: 10, color: C.rose, fontWeight: 800, letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 4 }}>Most people think</div>
+        <div style={{ fontSize: 13, color: C.muted }}>{data.mindsetFlip?.oldThinking}</div>
+      </div>
+      <div style={{ background: '#0d2a0d', borderRadius: 10, padding: '10px 14px', marginBottom: 8 }}>
+        <div style={{ fontSize: 10, color: C.mint, fontWeight: 800, letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 4 }}>1% thinks</div>
+        <div style={{ fontSize: 14, color: C.text, fontWeight: 600 }}>{data.mindsetFlip?.newThinking}</div>
+      </div>
+      <ELI5 text={data.mindsetFlip?.why} color={color} />
+    </Card>
+    <Card emoji="🔢" title={data.magicNumber?.number} color={color} mnemonic={data.magicNumber?.mnemonic} cardId="magicNumber" readSet={readSet} onRead={onRead}>
+      <ELI5 text={data.magicNumber?.eli5} color={color} />
+    </Card>
+    <SectionHeader text="🧩 Test Yourself" color={color} />
+    <Quiz questions={data.quiz} color={color} onXP={onXP} />
+  </div>
+}
+
+function CommView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.speakingSkill) return null
+  return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
+    { key:'speakingSkill', emoji:'🎤', titleKey:'name', eli5Key:'story', extraKeys:[{label:'Drill',key:'drill'}], mnemonicKey:'mnemonic' },
+    { key:'negotiationMove', emoji:'🤝', titleKey:'tactic', eli5Key:'eli5', extraKeys:[{label:'Script',key:'script'}], mnemonicKey:'mnemonic' },
+    { key:'officeWin', emoji:'🏢', titleKey:'rule', eli5Key:'story', extraKeys:[{label:'Mistake',key:'mistake',rose:true}], mnemonicKey:'mnemonic' },
+    { key:'confidenceHack', emoji:'💪', titleKey:'technique', eli5Key:'science', extraKeys:[{label:'Do Now',key:'doItNow'}], mnemonicKey:'mnemonic' },
+  ]} />
+}
+
+function MindView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.brainHack) return null
+  return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
+    { key:'brainHack', emoji:'🚀', titleKey:'name', eli5Key:'eli5', extraKeys:[{label:'Protocol',key:'protocol'}], mnemonicKey:'mnemonic' },
+    { key:'disciplineCode', emoji:'🐸', titleKey:'principle', eli5Key:'story', extraKeys:[{label:'Today',key:'todayAction'}], mnemonicKey:'mnemonic' },
+    { key:'impulseKiller', emoji:'👾', titleKey:'urge', eli5Key:'eli5', extraKeys:[{label:'Interrupt',key:'interrupt'}], mnemonicKey:'mnemonic' },
+    { key:'bodyUpgrade', emoji:'🥶', titleKey:'practice', eli5Key:'eli5', extraKeys:[{label:'Min Dose',key:'minimumDose'}], mnemonicKey:'mnemonic' },
+  ]} />
+}
+
+function KnowView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.mathMagic) return null
+  return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
+    { key:'mathMagic', emoji:'✨', titleKey:'concept', eli5Key:'eli5', extraKeys:[{label:'Real World',key:'realWorldUse'}], mnemonicKey:'mnemonic' },
+    { key:'scienceWow', emoji:'🌌', titleKey:'concept', eli5Key:'eli5', extraKeys:[{label:'Mind Blow',key:'mindBlow'}], mnemonicKey:'mnemonic' },
+    { key:'historyStory', emoji:'📜', titleKey:'event', eli5Key:'story', extraKeys:[{label:'Lesson',key:'lesson'}], mnemonicKey:'mnemonic' },
+    { key:'earthSecret', emoji:'🗺️', titleKey:'place', eli5Key:'secret', extraKeys:[{label:'Your Edge',key:'edge'}], mnemonicKey:'mnemonic' },
+  ]} />
+}
+
+function AIView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.toolSpotlight) return null
+  const allCards = ['toolSpotlight','workflowWin','promptOfDay','futureWatch']
+  const readCount = allCards.filter(id => readSet.has(id)).length
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+  return <div>
+    <Card emoji="🤖" title={data.toolSpotlight.name} color={color} mnemonic={data.toolSpotlight.mnemonic} cardId="toolSpotlight" readSet={readSet} onRead={onRead}>
+      <Tag label={data.toolSpotlight.category} color={color} />
+      <ELI5 text={data.toolSpotlight.eli5} color={color} />
+      <ActionRow label="Secret Move" text={data.toolSpotlight.secretMove} color={color} />
+    </Card>
+    <Card emoji="⚙️" title={data.workflowWin.title} color={color} mnemonic={data.workflowWin.mnemonic} cardId="workflowWin" readSet={readSet} onRead={onRead}>
+      <ELI5 text={data.workflowWin.problem} color={color} />
+      <ol style={{ paddingLeft: 18, margin: '8px 0 10px', color: C.muted, fontSize: 13, lineHeight: 2 }}>{data.workflowWin.steps?.map((s, i) => <li key={i}>{s}</li>)}</ol>
+      <ActionRow label="Time Saved" text={data.workflowWin.timeSaved} color={color} />
+    </Card>
+    <Card emoji="📋" title={`Prompt: ${data.promptOfDay.purpose}`} color={color} mnemonic={data.promptOfDay.mnemonic} cardId="promptOfDay" readSet={readSet} onRead={onRead}>
+      <Tag label={`Use on: ${data.promptOfDay.where}`} color={color} />
+      <div style={{ marginTop: 10, padding: '14px', background: '#080812', borderRadius: 10, fontFamily: 'monospace', fontSize: 13, color: '#a8e6c0', lineHeight: 1.9, whiteSpace: 'pre-wrap' }}>{data.promptOfDay.prompt}</div>
+    </Card>
+    <Card emoji="🔮" title={data.futureWatch.trend} color={color} mnemonic={data.futureWatch.mnemonic} cardId="futureWatch" readSet={readSet} onRead={onRead}>
+      <ELI5 text={data.futureWatch.eli5} color={color} />
+      <ActionRow label="Your Move" text={data.futureWatch.yourMove} color={color} />
+    </Card>
+    <SectionHeader text="🧩 Test Yourself" color={color} />
+    <Quiz questions={data.quiz} color={color} onXP={onXP} />
+  </div>
+}
+
+function TravelView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.destination) return null
+  const allCards = ['destination','visaTip','culturalCode']
+  const readCount = allCards.filter(id => readSet.has(id)).length
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+  return <div>
+    <Card emoji="🗺️" title={`${data.destination.country} · ${data.destination.region}`} color={color} mnemonic={data.destination.mnemonic} cardId="destination" readSet={readSet} onRead={onRead}>
+      <ELI5 text={data.destination.eli5} color={color} />
+      <ActionRow label="Best Time" text={data.destination.bestTime} color={color} />
+      <ActionRow label="Hidden Gem" text={data.destination.hiddenGem} color={color} />
+    </Card>
+    <Card emoji="📋" title={`Visa: ${data.visaTip.focus}`} color={color} mnemonic={data.visaTip.mnemonic} cardId="visaTip" readSet={readSet} onRead={onRead}>
+      <ELI5 text={data.visaTip.eli5} color={color} />
+      <ActionRow label="Golden Tip" text={data.visaTip.goldenTip} color={color} />
+    </Card>
+    <Card emoji="🤲" title={`Culture: ${data.culturalCode.culture}`} color={color} mnemonic={data.culturalCode.mnemonic} cardId="culturalCode" readSet={readSet} onRead={onRead}>
+      <ActionRow label="Do This" text={data.culturalCode.doThis} color={color} />
+      <ActionRow label="Never Do" text={data.culturalCode.neverDoThis} color={C.rose} />
+    </Card>
+    <SectionHeader text="🧩 Test Yourself" color={color} />
+    <Quiz questions={data.quiz} color={color} onXP={onXP} />
+  </div>
+}
+
+const RENDERERS = { news:NewsView, markets:MarketsView, psychology:PsychView, leadership:LeadView, wealth:WealthView, communication:CommView, mind:MindView, knowledge:KnowView, ai:AIView, travel:TravelView }
+
+// -- Overall Daily Progress Bar ----------------------------------------------
+function DailyProgress({ domainProgress, activeDate }) {
+  const completedDomains = Object.values(domainProgress).filter(d => d.read === d.total && d.total > 0).length
+  const totalDomains = DOMAINS.length
+  const pct = Math.round((completedDomains / totalDomains) * 100)
+
+  if (completedDomains === 0) return null
+
+  return (
+    <div style={{ padding: '10px 14px', background: C.card, border: `1px solid ${C.border}`, borderRadius: 12, marginBottom: 16 }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 6 }}>
+        <span style={{ fontSize: 11, fontWeight: 700, color: C.muted, textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+          📅 Today's Brief
+        </span>
+        <span style={{ fontSize: 12, fontWeight: 800, color: pct === 100 ? C.mint : C.lavender }}>
+          {pct === 100 ? '🏆 Complete!' : `${completedDomains}/${totalDomains} topics done`}
+        </span>
+      </div>
+      <ProgressBar value={completedDomains} total={totalDomains} color={C.lavender} height={6} />
+      {pct === 100 && (
+        <div style={{ marginTop: 8, fontSize: 12, color: C.mint, textAlign: 'center', fontWeight: 700 }}>
+          You've read everything for {activeDate}! 🎉
+        </div>
+      )}
+    </div>
+  )
+}
+
+// -- Helpers ----------------------------------------------------------------
+function fmtDate(iso) {
+  return new Date(iso + 'T00:00:00').toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' })
+}
+function fmtDateShort(iso) {
+  return new Date(iso + 'T00:00:00').toLocaleDateString('en-GB', { day: '2-digit', month: 'short' })
+}
+
+function useIsMobile() {
+  const [mobile, setMobile] = useState(window.innerWidth < 640)
+  useEffect(() => {
+    const fn = () => setMobile(window.innerWidth < 640)
+    window.addEventListener('resize', fn)
+    return () => window.removeEventListener('resize', fn)
+  }, [])
+  return mobile
+}
+
+// -- XP Bar -----------------------------------------------------------------
+function XPBar({ xp, mobile }) {
+  const level = Math.floor(xp / 100) + 1
+  const pct = xp % 100
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+      <div style={{ fontSize: mobile ? 11 : 12, fontWeight: 800, color: C.lavender, whiteSpace: 'nowrap' }}>LVL {level}</div>
+      <div style={{ width: mobile ? 50 : 80, height: 5, background: C.dim, borderRadius: 3, overflow: 'hidden' }}>
+        <div style={{ width: `${pct}%`, height: '100%', background: `linear-gradient(90deg,${C.lavender},${C.mint})`, borderRadius: 3, transition: 'width 0.5s' }} />
+      </div>
+      <div style={{ fontSize: 11, color: C.muted, whiteSpace: 'nowrap' }}>{xp} XP</div>
+    </div>
+  )
+}
+
+// -- Persistent Progress Store (localStorage) --------------------------------
+// localStorage persists across refreshes on the same device.
+// Cross-device: user can export/import progress via a share code.
+
+const STORAGE_KEY = 'curio_progress_v2'
+const XP_KEY = 'curio_xp_v2'
+
+function serializeReadState(readState) {
+  const out = {}
+  for (const [date, domains] of Object.entries(readState)) {
+    out[date] = {}
+    for (const [domain, cardSet] of Object.entries(domains)) {
+      out[date][domain] = cardSet instanceof Set ? [...cardSet] : (Array.isArray(cardSet) ? cardSet : [])
+    }
+  }
+  return out
+}
+
+function deserializeReadState(raw) {
+  const out = {}
+  for (const [date, domains] of Object.entries(raw || {})) {
+    out[date] = {}
+    for (const [domain, cards] of Object.entries(domains || {})) {
+      out[date][domain] = new Set(Array.isArray(cards) ? cards : [])
+    }
+  }
+  return out
+}
+
+function loadLocal() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY)
+    return raw ? deserializeReadState(JSON.parse(raw)) : {}
+  } catch { return {} }
+}
+
+function saveLocal(readState) {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(serializeReadState(readState)))
+  } catch {}
+}
+
+function loadXP() {
+  try { return parseInt(localStorage.getItem(XP_KEY) || '0') } catch { return 0 }
+}
+
+function saveXP(xp) {
+  try { localStorage.setItem(XP_KEY, String(xp)) } catch {}
+}
+
+function useDebounce(fn, delay) {
+  const timer = React.useRef(null)
+  return React.useCallback((...args) => {
+    clearTimeout(timer.current)
+    timer.current = setTimeout(() => fn(...args), delay)
+  }, [])
+}
+
+// -- Bottom Nav (mobile) ----------------------------------------------------
+function BottomNav({ domains, activeId, setActiveId, domainProgress }) {
+  return (
+    <div style={{
+      position: 'fixed', bottom: 0, left: 0, right: 0, zIndex: 300,
+      background: C.surface, borderTop: `1px solid ${C.border}`,
+      display: 'flex', overflowX: 'auto', padding: '0 4px',
+      WebkitOverflowScrolling: 'touch',
+    }}>
+      {domains.map(d => {
+        const isActive = activeId === d.id
+        const prog = domainProgress[d.id]
+        const done = prog?.total > 0 && prog.read === prog.total
+        return (
+          <button key={d.id} onClick={() => setActiveId(d.id)} style={{
+            display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
+            gap: 2, padding: '8px 10px', minWidth: 60, flexShrink: 0,
+            background: 'transparent', border: 'none', cursor: 'pointer', fontFamily: 'inherit',
+            borderTop: isActive ? `2px solid ${d.color}` : '2px solid transparent',
+            color: isActive ? d.color : done ? C.mint : C.muted,
+            position: 'relative'
+          }}>
+            <span style={{ fontSize: 18 }}>{done ? '✅' : d.emoji}</span>
+            <span style={{ fontSize: 9, fontWeight: isActive ? 800 : 500, whiteSpace: 'nowrap', letterSpacing: '0.03em' }}>
+              {d.label.split(' ')[0]}
+            </span>
+          </button>
+        )
+      })}
+    </div>
+  )
+}
+
+// -- Share Modal -------------------------------------------------------------
+function ShareModal({ getShareCode, importShareCode, onClose }) {
+  const [mode, setMode] = useState('export') // export | import
+  const [code, setCode] = useState('')
+  const [msg, setMsg] = useState('')
+
+  const exportCode = getShareCode()
+
+  const copyCode = () => {
+    navigator.clipboard?.writeText(exportCode).then(() => setMsg('✅ Copied! Paste this on your other device.'))
+  }
+
+  const doImport = () => {
+    if (!code.trim()) return setMsg('Paste your sync code first.')
+    const ok = importShareCode(code)
+    setMsg(ok ? '✅ Progress imported! Refresh to see it.' : '❌ Invalid code. Make sure you copied it correctly.')
+  }
+
+  return (
+    <div style={{ position: 'absolute', top: 'calc(100% + 8px)', right: 0, left: 0, background: C.card, border: `1px solid ${C.border}`, borderRadius: 14, padding: 16, zIndex: 500, boxShadow: '0 8px 32px #00000088' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 12 }}>
+        <div style={{ fontWeight: 800, fontSize: 14, color: C.text }}>📲 Sync Across Devices</div>
+        <button onClick={onClose} style={{ background: 'none', border: 'none', color: C.muted, fontSize: 18, cursor: 'pointer', padding: 0 }}>x</button>
+      </div>
+      <div style={{ display: 'flex', gap: 6, marginBottom: 14 }}>
+        <button onClick={() => setMode('export')} style={{ flex: 1, padding: '7px', borderRadius: 8, border: `1px solid ${mode === 'export' ? C.mint : C.border}`, background: mode === 'export' ? `${C.mint}22` : 'transparent', color: mode === 'export' ? C.mint : C.muted, cursor: 'pointer', fontFamily: 'inherit', fontSize: 12, fontWeight: 700 }}>Export from this device</button>
+        <button onClick={() => setMode('import')} style={{ flex: 1, padding: '7px', borderRadius: 8, border: `1px solid ${mode === 'import' ? C.lavender : C.border}`, background: mode === 'import' ? `${C.lavender}22` : 'transparent', color: mode === 'import' ? C.lavender : C.muted, cursor: 'pointer', fontFamily: 'inherit', fontSize: 12, fontWeight: 700 }}>Import to this device</button>
+      </div>
+      {mode === 'export' ? (
+        <div>
+          <div style={{ fontSize: 12, color: C.muted, marginBottom: 8 }}>Copy this code -> paste it on your other device using "Import"</div>
+          <div style={{ background: C.surface, borderRadius: 8, padding: '10px 12px', fontFamily: 'monospace', fontSize: 11, color: C.text, wordBreak: 'break-all', maxHeight: 80, overflowY: 'auto', marginBottom: 10, border: `1px solid ${C.border}` }}>{exportCode || 'No progress yet  -  read some cards first!'}</div>
+          {exportCode && <button onClick={copyCode} style={{ width: '100%', padding: '9px', background: C.mint, color: '#0d0d14', border: 'none', borderRadius: 8, fontWeight: 800, fontSize: 13, cursor: 'pointer', fontFamily: 'inherit' }}>Copy Sync Code</button>}
+        </div>
+      ) : (
+        <div>
+          <div style={{ fontSize: 12, color: C.muted, marginBottom: 8 }}>Paste the sync code from your other device</div>
+          <textarea
+            value={code} onChange={e => setCode(e.target.value)}
+            placeholder="Paste sync code here..."
+            style={{ width: '100%', height: 80, background: C.surface, border: `1px solid ${C.border}`, borderRadius: 8, padding: '10px 12px', color: C.text, fontSize: 11, fontFamily: 'monospace', resize: 'none', marginBottom: 10, boxSizing: 'border-box' }}
+          />
+          <button onClick={doImport} style={{ width: '100%', padding: '9px', background: C.lavender, color: '#0d0d14', border: 'none', borderRadius: 8, fontWeight: 800, fontSize: 13, cursor: 'pointer', fontFamily: 'inherit' }}>Import Progress</button>
+        </div>
+      )}
+      {msg && <div style={{ marginTop: 10, fontSize: 12, color: msg.startsWith('✅') ? C.mint : C.rose, textAlign: 'center' }}>{msg}</div>}
+    </div>
+  )
+}
+
+// -- Main App ----------------------------------------------------------------
+export default function App() {
+  const [activeDate, setActiveDate] = useState(AVAILABLE_DATES[AVAILABLE_DATES.length - 1])
+  const [activeId, setActiveId] = useState('news')
+  const [xp, setXp] = useState(() => loadXP())
+  const [showDates, setShowDates] = useState(false)
+  const [showMenu, setShowMenu] = useState(false)
+  const [showShareModal, setShowShareModal] = useState(false)
+  const mobile = useIsMobile()
+
+  // Read state  -  loaded from localStorage immediately, persists across refreshes
+  const [readState, setReadState] = useState(() => loadLocal())
+  const [domainProgress, setDomainProgress] = useState({})
+
+  const getReadSet = (date, domain) => readState[date]?.[domain] || new Set()
+
+  const handleRead = (cardId) => {
+    const dateMap = { ...(readState[activeDate] || {}) }
+    const domainSet = new Set(dateMap[activeId] || [])
+    if (domainSet.has(cardId)) domainSet.delete(cardId)
+    else domainSet.add(cardId)
+    dateMap[activeId] = domainSet
+    const newState = { ...readState, [activeDate]: dateMap }
+    setReadState(newState)
+    saveLocal(newState)
+  }
+
+  const handleProgress = (read, total) => {
+    setDomainProgress(prev => {
+      const curr = prev[activeId]
+      if (curr?.read === read && curr?.total === total) return prev
+      return { ...prev, [activeId]: { read, total } }
+    })
+  }
+
+  const updateXP = (newXP) => {
+    setXp(newXP)
+    saveXP(newXP)
+  }
+
+  // Reset domainProgress when switching dates so progress recomputes from readState
+  useEffect(() => { setDomainProgress({}) }, [activeDate])
+
+  // Export progress as a share code (base64 of serialized readState)
+  const getShareCode = () => {
+    try {
+      const data = { readState: serializeReadState(readState), xp }
+      return btoa(JSON.stringify(data))
+    } catch { return '' }
+  }
+
+  // Import progress from a share code
+  const importShareCode = (code) => {
+    try {
+      const data = JSON.parse(atob(code.trim()))
+      if (data.readState) {
+        const merged = deserializeReadState(data.readState)
+        setReadState(merged)
+        saveLocal(merged)
+      }
+      if (data.xp) { setXp(data.xp); saveXP(data.xp) }
+      return true
+    } catch { return false }
+  }
+
+  const active = DOMAINS.find(d => d.id === activeId) || DOMAINS[0]
+  const Renderer = RENDERERS[activeId]
+  const brief = ALL_BRIEFS[activeDate]
+  const data = brief?.[activeId]
+  const readSet = getReadSet(activeDate, activeId)
+  const domProg = domainProgress[activeId]
+  const domainPct = domProg?.total > 0 ? Math.round((domProg.read / domProg.total) * 100) : 0
+
+  const closeAll = () => { setShowDates(false); setShowMenu(false); setShowShareModal(false) }
+
+  return (
+    <div style={{ background: C.bg, minHeight: '100vh', fontFamily: "'Inter',-apple-system,sans-serif", color: C.text }}>
+
+      {/* -- HEADER -- */}
+      <div style={{
+        background: C.surface, borderBottom: `1px solid ${C.border}`,
+        padding: mobile ? '10px 14px' : '14px 20px',
+        position: 'sticky', top: 0, zIndex: 200
+      }}>
+        <div style={{ maxWidth: 960, margin: '0 auto' }}>
+
+          {/* Top row: logo + share + xp */}
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <div style={{ fontSize: mobile ? 18 : 22, fontWeight: 900, letterSpacing: '-0.03em', background: `linear-gradient(120deg,${C.lavender},${C.mint},${C.peach})`, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+              🌌 CURIO BRIEF
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+              <button
+                onClick={() => setShowShareModal(s => !s)}
+                title="Sync progress across devices"
+                style={{ background: 'transparent', border: `1px solid ${C.border}`, borderRadius: 8, padding: '4px 10px', color: C.muted, fontSize: 13, cursor: 'pointer', fontFamily: 'inherit' }}
+              >📲</button>
+              <XPBar xp={xp} mobile={mobile} />
+            </div>
+          </div>
+
+          {/* Share/Sync Modal */}
+          {showShareModal && (
+            <ShareModal
+              getShareCode={getShareCode}
+              importShareCode={importShareCode}
+              onClose={() => setShowShareModal(false)}
+            />
+          )}
+
+          {/* Controls row */}
+          <div style={{ display: 'flex', gap: 8, marginTop: 10, alignItems: 'center' }}>
+
+            {/* Date picker */}
+            <div style={{ position: 'relative' }}>
+              <button onClick={() => { setShowDates(s => !s); setShowMenu(false) }} style={{
+                padding: mobile ? '6px 10px' : '7px 14px',
+                background: C.card, border: `1px solid ${C.mint}55`, borderRadius: 8,
+                color: C.mint, fontSize: mobile ? 12 : 13, fontWeight: 700,
+                cursor: 'pointer', fontFamily: 'inherit', display: 'flex', alignItems: 'center', gap: 4
+              }}>
+                📅 {mobile ? fmtDateShort(activeDate) : fmtDate(activeDate)} ▾
+              </button>
+              {showDates && (
+                <div style={{
+                  position: 'absolute', top: 'calc(100% + 6px)', left: 0,
+                  background: C.card, border: `1px solid ${C.border}`, borderRadius: 12,
+                  padding: 12, zIndex: 400, minWidth: 200,
+                  display: 'flex', flexDirection: 'column', gap: 4,
+                  boxShadow: '0 8px 32px #00000088'
+                }}>
+                  <div style={{ fontSize: 10, color: C.muted, textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: 4 }}>📅 Available Briefs</div>
+                  {AVAILABLE_DATES.slice().reverse().map(d => {
+                    // Check if this date is fully completed from persisted readState
+                    const dateReadState = readState[d] || {}
+                    const domainsWithData = DOMAINS.filter(dom => ALL_BRIEFS[d]?.[dom.id])
+                    const completedCount = domainsWithData.filter(dom => {
+                      const cards = dateReadState[dom.id]
+                      return cards instanceof Set ? cards.size > 0 : false
+                    }).length
+                    const isDateDone = domainsWithData.length > 0 && completedCount === domainsWithData.length
+                    return (
+                      <button key={d} onClick={() => { setActiveDate(d); setShowDates(false); setActiveId('news') }} style={{
+                        padding: '10px 12px', borderRadius: 8, fontSize: 14, cursor: 'pointer',
+                        fontFamily: 'inherit', textAlign: 'left', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                        background: activeDate === d ? `${C.mint}22` : 'transparent',
+                        border: `1px solid ${activeDate === d ? C.mint : 'transparent'}`,
+                        color: activeDate === d ? C.mint : C.text,
+                        fontWeight: activeDate === d ? 700 : 400
+                      }}>
+                        <span>{fmtDate(d)}</span>
+                        {isDateDone && <span style={{ fontSize: 12 }}>✅</span>}
+                        {!isDateDone && completedCount > 0 && <span style={{ fontSize: 10, color: C.muted }}>{completedCount}/{domainsWithData.length}</span>}
+                      </button>
+                    )
+                  })}
+                  <div style={{ borderTop: `1px solid ${C.border}`, marginTop: 6, paddingTop: 6, fontSize: 11, color: C.dim, lineHeight: 1.6 }}>
+                    More dates added daily!<br />Ask Claude to generate.
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Desktop: domain tab strip | Mobile: menu button */}
+            {!mobile && (
+              <div style={{ display: 'flex', gap: 2, overflowX: 'auto', flex: 1 }}>
+                {DOMAINS.map(d => {
+                  const prog = domainProgress[d.id]
+                  const done = prog?.total > 0 && prog.read === prog.total
+                  return (
+                    <button key={d.id} onClick={() => setActiveId(d.id)} style={{
+                      display: 'flex', alignItems: 'center', gap: 4,
+                      padding: '7px 11px', borderRadius: '8px 8px 0 0',
+                      border: `1px solid ${activeId === d.id ? d.color + '66' : C.border}`,
+                      borderBottom: activeId === d.id ? `2px solid ${d.color}` : `1px solid ${C.border}`,
+                      background: activeId === d.id ? `${d.color}12` : 'transparent',
+                      cursor: 'pointer', fontSize: 11, fontWeight: activeId === d.id ? 800 : 500,
+                      color: activeId === d.id ? d.color : done ? C.mint : C.muted,
+                      whiteSpace: 'nowrap', fontFamily: 'inherit', transition: 'all 0.15s', flexShrink: 0
+                    }}>
+                      <span>{d.emoji}</span>
+                      <span>{d.label}</span>
+                      {done && <span style={{ fontSize: 9, color: C.mint }}>(check)</span>}
+                    </button>
+                  )
+                })}
+              </div>
+            )}
+
+            {mobile && (
+              <div style={{ position: 'relative', marginLeft: 'auto' }}>
+                <button onClick={() => { setShowMenu(s => !s); setShowDates(false) }} style={{
+                  padding: '6px 12px', background: `${active.color}22`,
+                  border: `1px solid ${active.color}55`, borderRadius: 8,
+                  color: active.color, fontSize: 12, fontWeight: 700,
+                  cursor: 'pointer', fontFamily: 'inherit', display: 'flex', alignItems: 'center', gap: 5
+                }}>
+                  {active.emoji} {active.label} ▾
+                </button>
+                {showMenu && (
+                  <div style={{
+                    position: 'absolute', top: 'calc(100% + 6px)', right: 0,
+                    background: C.card, border: `1px solid ${C.border}`, borderRadius: 12,
+                    padding: 8, zIndex: 400, width: 200,
+                    display: 'flex', flexDirection: 'column', gap: 2,
+                    boxShadow: '0 8px 32px #00000088', maxHeight: '70vh', overflowY: 'auto'
+                  }}>
+                    {DOMAINS.map(d => (
+                      <button key={d.id} onClick={() => { setActiveId(d.id); setShowMenu(false) }} style={{
+                        padding: '10px 12px', borderRadius: 8, fontSize: 13, cursor: 'pointer',
+                        fontFamily: 'inherit', textAlign: 'left', display: 'flex', alignItems: 'center', gap: 8,
+                        background: activeId === d.id ? `${d.color}22` : 'transparent',
+                        border: `1px solid ${activeId === d.id ? d.color : 'transparent'}`,
+                        color: activeId === d.id ? d.color : C.text,
+                        fontWeight: activeId === d.id ? 700 : 400
+                      }}>
+                        <span style={{ fontSize: 16 }}>{d.emoji}</span>
+                        <span>{d.label}</span>
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* -- CONTENT -- */}
+      <div style={{
+        maxWidth: 760, margin: '0 auto',
+        padding: mobile ? `16px 12px ${mobile ? '90px' : '40px'}` : '24px 20px 60px'
+      }}>
+
+        {/* Domain header with progress */}
+        {active && brief && (
+          <div style={{
+            marginBottom: 16, padding: mobile ? '12px 14px' : '14px 18px',
+            background: `${active.color}0d`, border: `1px solid ${active.color}33`, borderRadius: 14
+          }}>
+            <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: 8 }}>
+              <div>
+                <div style={{ fontSize: mobile ? 20 : 24, marginBottom: 4 }}>{active.emoji}</div>
+                <div style={{ fontSize: mobile ? 15 : 17, fontWeight: 900, color: active.color, marginBottom: 2 }}>{active.label}</div>
+                <div style={{ fontSize: 11, color: C.muted }}>{active.desc} · {fmtDate(activeDate)}</div>
+              </div>
+              {domProg?.total > 0 && (
+                <div style={{ textAlign: 'right', minWidth: 60 }}>
+                  <div style={{ fontSize: domainPct === 100 ? 20 : 13, fontWeight: 800, color: domainPct === 100 ? C.mint : active.color, marginBottom: 4 }}>
+                    {domainPct === 100 ? '✅' : `${domainPct}%`}
+                  </div>
+                  <div style={{ fontSize: 10, color: C.muted }}>{domProg.read}/{domProg.total} read</div>
+                </div>
+              )}
+            </div>
+            {domProg?.total > 0 && (
+              <ProgressBar value={domProg.read} total={domProg.total} color={active.color} height={5} />
+            )}
+          </div>
+        )}
+
+        {/* Overall daily progress  -  uses domainProgress for currently-viewed domains, readState for others */}
+        {brief && Object.keys(domainProgress).length > 0 && (
+          <DailyProgress domainProgress={domainProgress} activeDate={fmtDate(activeDate)} />
+        )}
+
+        {/* No brief state */}
+        {!brief && (
+          <div style={{ textAlign: 'center', padding: '60px 20px', background: C.card, borderRadius: 16, border: `1px solid ${C.border}` }}>
+            <div style={{ fontSize: 48, marginBottom: 16 }}>📭</div>
+            <div style={{ fontSize: 18, fontWeight: 800, color: C.text, marginBottom: 10 }}>No brief for {fmtDate(activeDate)}</div>
+            <div style={{ fontSize: 14, color: C.muted, maxWidth: 320, margin: '0 auto', lineHeight: 1.8 }}>
+              Ask Claude: <strong style={{ color: C.lavender }}>"generate brief for [date]"</strong>
+            </div>
+            <div style={{ marginTop: 14, fontSize: 12, color: C.dim }}>Available: {AVAILABLE_DATES.map(d => fmtDateShort(d)).join(', ')}</div>
+          </div>
+        )}
+
+        {/* Domain content */}
+        {brief && Renderer && data && (
+          <Renderer data={data} color={active.color} onXP={(earned) => updateXP(xp + earned)} readSet={readSet} onRead={handleRead} onProgress={handleProgress} />
+        )}
+        {brief && (!Renderer || !data) && (
+          <div style={{ textAlign: 'center', padding: '40px', color: C.muted, fontSize: 14 }}>Content not available for this section.</div>
+        )}
+      </div>
+
+      {/* -- MOBILE BOTTOM NAV -- */}
+      {mobile && <BottomNav domains={DOMAINS} activeId={activeId} setActiveId={(id) => { setActiveId(id); closeAll() }} domainProgress={domainProgress} />}
+
+      {/* Backdrop */}
+      {(showDates || showMenu) && (
+        <div onClick={closeAll} style={{ position: 'fixed', inset: 0, zIndex: 100 }} />
+      )}
+
+      <style>{`
+        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        html { font-size: 16px; }
+        body { overscroll-behavior: none; }
+        ::-webkit-scrollbar { width: 3px; height: 3px; }
+        ::-webkit-scrollbar-track { background: ${C.bg}; }
+        ::-webkit-scrollbar-thumb { background: ${C.dim}; border-radius: 2px; }
+        button { transition: opacity 0.15s; -webkit-tap-highlight-color: transparent; }
+        button:active { opacity: 0.7; }
+        @media (max-width: 640px) {
+          input, select, textarea { font-size: 16px !important; }
+        }
+      `}</style>
+    </div>
+  )
+}
