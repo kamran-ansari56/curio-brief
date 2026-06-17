@@ -2,13 +2,18 @@ name: Daily Brief Generator
 
 on:
   schedule:
+    # 3:00 AM UTC = 7:00 AM UAE (Gulf Standard Time, UTC+4)
     - cron: '0 3 * * *'
   workflow_dispatch:
     inputs:
       target_date:
-        description: 'Date to generate (YYYY-MM-DD). Leave empty for T-1 (yesterday).'
+        description: 'Date to generate (YYYY-MM-DD). Leave empty for yesterday.'
         required: false
         default: ''
+      force:
+        description: 'Overwrite if date already exists (true/false)'
+        required: false
+        default: 'false'
 
 jobs:
   generate:
@@ -19,25 +24,35 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - run: npm install openai
+
+      - name: Install Anthropic SDK
+        run: npm install @anthropic-ai/sdk
+
       - name: Generate brief
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TARGET_DATE: ${{ github.event.inputs.target_date }}
+          FORCE: ${{ github.event.inputs.force }}
           MODE: single
         run: node .github/scripts/generate-brief.js
+
+      - name: Check if anything was generated
+        id: check
+        run: |
+          RESULT=$(cat /tmp/generated_date.txt 2>/dev/null || echo "no-changes")
+          echo "result=$RESULT" >> $GITHUB_OUTPUT
+          echo "Generated: $RESULT"
+
       - name: Commit and push
+        if: steps.check.outputs.result != 'no-changes'
         run: |
           git config user.name "Curio Brief Bot"
-          git config user.email "bot@curio-brief.com"
+          git config user.email "bot@curio-brief.app"
           git add src/data/ src/App.jsx
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
-          git commit -m "Auto-brief: $(cat /tmp/generated_date.txt 2>/dev/null || echo update)"
-          git pull --rebase origin main || true
-          git push origin main
+          git commit -m "curio: add brief for ${{ steps.check.outputs.result }}"
+          git pull --rebase origin main
+          git push
