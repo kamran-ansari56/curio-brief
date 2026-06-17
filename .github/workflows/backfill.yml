@@ -2,17 +2,18 @@ name: Backfill Missing Dates
 
 on:
   schedule:
+    # 3:30 AM UTC = 7:30 AM UAE — runs after daily brief
     - cron: '30 3 * * *'
   workflow_dispatch:
     inputs:
       dates:
-        description: 'Dates to generate (comma-separated YYYY-MM-DD). Empty = auto-detect missing.'
+        description: 'Comma-separated dates (YYYY-MM-DD). Leave empty for auto-detect gaps.'
         required: false
         default: ''
       force:
-        description: 'Force regenerate even if file exists? (yes/no)'
+        description: 'Overwrite existing files (true/false)'
         required: false
-        default: 'no'
+        default: 'false'
 
 jobs:
   backfill:
@@ -23,36 +24,35 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - run: npm install openai
-      - name: Delete files if force regenerating
-        if: ${{ github.event.inputs.force == 'yes' && github.event.inputs.dates != '' }}
-        run: |
-          IFS=',' read -ra DATES <<< "${{ github.event.inputs.dates }}"
-          for date in "${DATES[@]}"; do
-            date=$(echo $date | tr -d ' ')
-            if [ -f "src/data/${date}.js" ]; then
-              echo "Deleting src/data/${date}.js"
-              rm "src/data/${date}.js"
-            fi
-          done
-      - name: Generate dates
+
+      - name: Install Anthropic SDK
+        run: npm install @anthropic-ai/sdk
+
+      - name: Run backfill
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           DATES: ${{ github.event.inputs.dates }}
-          MODE: ${{ github.event.inputs.dates != '' && 'backfill-manual' || 'backfill-auto' }}
+          FORCE: ${{ github.event.inputs.force }}
+          MODE: ${{ github.event.inputs.dates && 'backfill-manual' || 'backfill-auto' }}
         run: node .github/scripts/generate-brief.js
+
+      - name: Check if anything was generated
+        id: check
+        run: |
+          RESULT=$(cat /tmp/generated_date.txt 2>/dev/null || echo "no-changes")
+          echo "result=$RESULT" >> $GITHUB_OUTPUT
+          echo "Result: $RESULT"
+
       - name: Commit and push
+        if: steps.check.outputs.result != 'no-changes'
         run: |
           git config user.name "Curio Brief Bot"
-          git config user.email "bot@curio-brief.com"
+          git config user.email "bot@curio-brief.app"
           git add src/data/ src/App.jsx
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
-          git commit -m "Backfill: $(cat /tmp/generated_date.txt 2>/dev/null || echo update)"
-          git pull --rebase origin main || true
-          git push origin main
+          git commit -m "curio: backfill ${{ steps.check.outputs.result }}"
+          git pull --rebase origin main
+          git push
