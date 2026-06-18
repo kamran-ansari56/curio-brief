@@ -514,4 +514,4195 @@ const d260604 = {
     futureWatch: { trend: "Voice AI is quietly becoming the dominant interface for millions of people", eli5: "Most AI discussions focus on text chatbots. But the fastest-growing AI use case in 2026 is voice: people talking to AI while cooking, driving, exercising, or multitasking. OpenAI's Advanced Voice Mode, Google's Gemini Live, and Amazon's new Alexa understand nuanced conversation, remember context across sessions, and respond with appropriate emotion. This is not just Siri getting smarter  -  it's the emergence of a genuinely useful ambient AI that people keep in their earbuds all day.", yourMove: "Start experimenting with voice mode on Claude or ChatGPT for tasks you'd normally type. The experience of speaking your thoughts rather than typing them changes what problems you bring to AI  -  and you'll discover use cases you hadn't imagined.", mnemonic: "Voice AI 2026 = Earbuds + AI = Ambient intelligence. The keyboard is optional now" },
     quiz: [
       { q: "Perplexity AI differs from Google primarily because...", options: ["It has better design", "It searches the internet and synthesises what it finds into a direct answer with citations, rather than showing links for you to read", "It only searches academic sources", "It's faster than Google"], answer: 1, funFact: "Perplexity was founded by ex-OpenAI and Google DeepMind researchers. It reached 100 million queries per month faster than almost any consumer tech product. Jeff Bezos is among its investors. Alphabet (Google's parent) considers it their most concerning competitor." },
-      { q: "The competitive intelligence workflow is most valuable because...", options: ["It replaces the need for a strategy team", "It gives any individual the situational awareness previously only available to companies with dedicated research teams  -  in 30 minutes per week", "It predicts competitor moves", "It's approved by most companies' IT departments"], answer: 1, funFact: "Sun Tzu wrote in The Art of War (500 BC): 'Know your enemy and know yourself; in a hundred battles, you will never be d
+      { q: "The competitive intelligence workflow is most valuable because...", options: ["It replaces the need for a strategy team", "It gives any individual the situational awareness previously only available to companies with dedicated research teams  -  in 30 minutes per week", "It predicts competitor moves", "It's approved by most companies' IT departments"], answer: 1, funFact: "Sun Tzu wrote in The Art of War (500 BC): 'Know your enemy and know yourself; in a hundred battles, you will never be defeated.' The entire discipline of competitive intelligence  -  now a multi-billion dollar industry  -  is an elaboration of this 2,500-year-old strategic insight." },
+      { q: "Voice AI is growing because...", options: ["People can't type anymore", "Voice enables AI use during activities where hands and eyes are occupied  -  driving, cooking, exercise  -  dramatically expanding when AI is accessible", "Voice AI is more accurate than text AI", "Mobile keyboards are getting worse"], answer: 1, funFact: "Research shows people think 4 times faster than they type. Voice AI allows people to interact with AI at their actual thinking speed rather than their typing speed  -  fundamentally changing the quality and depth of interactions possible." }
+    ]
+  },
+  travel: { destination: { country: "Albania", region: "Tirana & the Albanian Riviera", eli5: "Albania is Europe's best kept secret and one of the fastest-changing countries on the continent. Twenty years ago it was one of Europe's poorest nations, still recovering from 45 years of extreme communist isolation. Today: Tirana has a buzzing cafe culture, street art everywhere, and restaurants serving extraordinary food for Rs 400-700 a meal. The Albanian Riviera has beaches that rival Greece and Croatia  -  minus the crowds and with half the prices. The Kushner family (Jared Kushner, Trump's son-in-law) just proposed a controversial luxury resort development on a protected Albanian island, generating massive protests.", bestTime: "June-September for the riviera. April-June or September-October for Tirana and the mountains. Avoid August  -  popular beaches get crowded and hot.", hiddenGem: "Berat  -  a UNESCO World Heritage city 120km from Tirana  -  is called 'the city of a thousand windows.' Ottoman-era white houses climb a steep hill to a 13th-century castle. Almost no international tourists. The castle has Byzantine churches, a living community, and views that make you feel like you've stepped 400 years back.", mnemonic: "Albania = Europe's last undiscovered destination. Riviera prices at 30% of Greek prices" },
+    visaTip: { focus: "Albania Visa for Indian Passport Holders", eli5: "Albania requires a visa for Indian passport holders  -  but there's a significant shortcut. If you have a valid Schengen, US, or UK visa, Albania grants you visa-free access. Apply the Schengen visa anyway (for Greece, Italy, etc.) and Albania comes for free. If applying specifically for Albania, the embassy process takes 5-7 working days and requires the standard documents  -  hotel bookings, return tickets, bank statements.", goldenTip: "Albania uses the Albanian Lek but euros are accepted almost everywhere. Bring euros in cash  -  card acceptance is improving but not universal outside Tirana. ATMs give Lek at reasonable rates.", mnemonic: "Albania visa trick = Schengen visa = free entry to Albania. One visa, bonus country" },
+    culturalCode: { culture: "Albania", doThis: "Learn one word: 'Faleminderit' (fa-le-min-DEH-rit)  -  thank you in Albanian. Albanians are extraordinarily proud of their language (one of Europe's oldest, unrelated to any neighbouring language) and light up when foreigners try a single word. Also: the Besa code  -  an ancient Albanian hospitality oath  -  means that hosts take guest safety and comfort as a sacred personal responsibility. Accepting hospitality is taken seriously.", neverDoThis: "In Albanian, nodding your head means NO and shaking your head means YES  -  the exact opposite of most cultures. This has caused significant confusion for tourists in shops and restaurants. Memorise this before arriving. Also: never compare Albania to Kosovo or treat them as the same place  -  both countries are fiercely proud of their distinct identities despite sharing language and cultural roots.", mnemonic: "Albania: Nod means NO, shake means YES. Completely backwards. Memorise before arrival." },
+    quiz: [
+      { q: "What makes the Albanian Riviera attractive to budget-conscious travellers?", options: ["It has no tourists", "Mediterranean-quality beaches at approximately 30% of Greek or Croatian prices, with excellent food culture", "Albania has no currency", "The beaches are accessible only by boat"], answer: 1, funFact: "The Albanian Riviera's most famous beach town, Ksamil, has four small islands visible from shore and water so clear you can see the bottom at 10 metres depth. In 2015, almost no international tourists visited. By 2026, it's one of Europe's fastest-growing destinations  -  but still vastly less crowded than Mykonos or Dubrovnik." },
+      { q: "The unique Albanian head-gesture system means...", options: ["All gestures are the same as in Western Europe", "Nodding means YES as everywhere", "Nodding means NO and shaking means YES  -  the opposite of most cultures globally", "Only older Albanians use this system"], answer: 2, funFact: "This reversed head gesture system exists in a few other cultures including parts of Greece, Bulgaria, and Turkey  -  likely stemming from the Ottoman Empire's influence across the Balkans. It's one of the most frequently mentioned cultural surprises for first-time visitors to the region." },
+      { q: "The Kushner-Trump Albania resort controversy was about...", options: ["A resort in Tirana", "A controversial luxury development on a protected Albanian island that sparked major protests", "A fake investment scheme", "A resort already built and operating"], answer: 1, funFact: "The Albanian island in question, Sazan, is a former military island with unique biodiversity protection status. The proposal to develop a luxury resort there became a symbol of the debate about tourism development versus environmental protection  -  and the intersection of Trump-family business interests with American foreign policy." }
+    ]
+  }
+}
+
+const d260605 = {
+  news: { segments: [
+    { name: "🌐 What's happening with countries?", color: "#a0d4f5", stories: [
+      { headline: "Iran's elite IRGC: 'No peace until Israel leaves Lebanon'", eli5: "Iran's most powerful military force  -  the Islamic Revolutionary Guard Corps (IRGC)  -  made their position crystal clear on June 5: no ceasefire agreement with the US would hold if Israeli forces remained in Lebanon. This was a massive complication for US diplomacy. America was trying to make a peace deal with Iran while its ally Israel was doing things Iran considered absolute dealbreakers. It's like trying to end an argument between two neighbours while your best friend keeps throwing eggs at one of them.", whyItMatters: "The IRGC's condition revealed the structural problem with US-Iran negotiations: America couldn't fully control its ally Israel, making any deal fragile.", mnemonic: "IRGC = Iran's red line. Israel in Lebanon = No deal. Three-way problem in a two-party negotiation" },
+      { headline: "WFP: 6.1 million more people facing hunger because of Hormuz closure", eli5: "The World Food Programme gave its most comprehensive update yet on June 5: the closed Strait of Hormuz had now pushed 6.1 million additional people into acute food insecurity. The mechanism was elegant in its cruelty: fertiliser prices up 30%, fuel up 25%. Less fertiliser means smaller crops. Less fuel means food can't be moved from farms to cities. A military standoff between two countries neither of which grows significant food had created hunger in Somalia, Sri Lanka, Afghanistan, and Yemen.", whyItMatters: "This was the starkest illustration yet of how interconnected global supply chains are  -  a military conflict thousands of miles from a farm destroys the farm's output.", mnemonic: "WFP June 5 = Hormuz closed -> fertiliser up -> harvest down -> 6.1 million hungry. The invisible chain" },
+      { headline: "Palestinian family of five burned alive in Israeli airstrike on Gaza", eli5: "Al Jazeera reported that a Palestinian family of five  -  including small children  -  was killed in their beds by an Israeli airstrike in Gaza City overnight on June 5. The father, Rabah Lubbad, lost his daughter and grandchildren. He was captured on camera saying: 'The war did not end.' The Gaza conflict, which began in October 2023 and had killed over 50,000 Palestinians, continued relentlessly  -  overshadowed in international media by the US-Iran story.", whyItMatters: "The Gaza conflict was creating one of the largest human rights crises in modern history while global attention was divided by Iran  -  a reminder that multiple catastrophes occur simultaneously.", mnemonic: "Gaza June 5 = 'The war did not end.' Overshadowed but ongoing" }
+    ]},
+    { name: "💸 What's happening with money?", color: "#a8edcb", stories: [
+      { headline: "India's Nifty at 23,250  -  oil and Iran the only story that matters", eli5: "Indian markets on June 5 continued their oil-watching routine. Nifty held around 23,200-23,300. Every trader had a screen showing Brent crude prices alongside the Nifty chart  -  the two moved like mirror images. Oil up: Nifty down. Oil hints of falling: Nifty recovers. India imports 85% of its crude  -  making it uniquely sensitive to Hormuz developments. The rupee weakened further to around Rs 84.7 against the dollar.", whyItMatters: "Understanding that India's stock market is essentially an oil-price derivative in geopolitical crises is one of the most practically useful insights for Indian investors.", mnemonic: "Nifty June 2026 = Oil price chart with an Indian stock market label" },
+      { headline: "Boeing announces 25,000 job cuts as aircraft orders stay weak", eli5: "Boeing  -  America's iconic aircraft manufacturer  -  announced it would cut 25,000 jobs (10% of its workforce) because aircraft orders remained weak and its 737 Max safety problems had permanently damaged customer trust. Boeing's troubles were years in the making: a 2018 software malfunction in the 737 Max killed 346 people in two crashes. The company has never fully recovered. The cuts were Boeing's largest layoffs in decades.", whyItMatters: "Boeing's decline shows how a single catastrophic safety scandal can permanently reshape an industry  -  and how the consequences echo for a decade.", mnemonic: "Boeing cuts = Decade-long 737 Max fallout still claiming jobs in 2026" }
+    ]},
+    { name: "💻 What's happening with technology?", color: "#c9b8f5", stories: [
+      { headline: "TCS signs major AI partnership deal with Anthropic  -  Claude comes to Indian enterprise", eli5: "Tata Consultancy Services (TCS)  -  India's largest IT company  -  announced a significant partnership with Anthropic, the maker of Claude AI. Under the deal, TCS would deploy Claude across its enterprise clients in India and internationally, helping companies integrate AI into their business processes. For Anthropic, TCS gave access to thousands of Indian enterprise clients. For TCS, it provided cutting-edge AI to offer clients.", whyItMatters: "This deal signalled that the AI race was moving from direct consumer products to enterprise integration  -  where the real money and scale live.", mnemonic: "TCS + Anthropic = AI meets India's largest IT company. Enterprise AI comes to Indian business" }
+    ]},
+    { name: "🌿 What's happening with our planet?", color: "#f5c6a0", stories: [
+      { headline: "June 2026 tracking as one of the hottest months in recorded history", eli5: "By June 5, meteorologists were already tracking June 2026 as heading toward historic heat records. Rajasthan hit 51 degrees Celsius, Spain 44 degrees, parts of Canada 41 degrees. These were not just hot days  -  they were the sustained breach of the 1.5-degree climate threshold that scientists had warned about for decades. The world had officially moved from 'approaching a climate crisis' to 'in a climate crisis.'", whyItMatters: "The sustained breach of 1.5 degrees means extreme weather events  -  floods, droughts, heatwaves  -  become the new normal, not rare exceptions.", mnemonic: "June 2026 = History's hottest. 1.5 degrees breached. The line scientists feared is behind us" }
+    ]}
+  ], quiz: [
+    { q: "The WFP's June 5 warning connected the Strait of Hormuz closure to hunger in Somalia because...", options: ["Somalia imports oil from Iran", "Fertiliser prices spiked 30% when the strait closed  -  less fertiliser means smaller crops in developing countries dependent on imports", "Somalia is close to Iran", "The WFP warned about other reasons entirely"], answer: 1, funFact: "Nitrogen-based fertilisers are produced from natural gas, a significant portion of which trades through the Strait of Hormuz. A 30% fertiliser price spike translates directly to smaller harvests in the next growing season  -  creating a 3-6 month lag between a military conflict and its food security consequences." },
+    { q: "Boeing's 25,000 job cuts in 2026 stemmed primarily from...", options: ["Competition from Airbus", "The decade-long fallout from the 737 Max crashes in 2018-19 that killed 346 people and permanently damaged customer trust", "Declining air travel", "A new aircraft that failed"], answer: 1, funFact: "The 737 Max crashes (Lion Air October 2018, Ethiopian Airlines March 2019) revealed that Boeing had known about software vulnerabilities and had prioritised delivery schedules over safety fixes. The resulting criminal settlement, regulatory grounding, and reputational damage cost Boeing over $20 billion and has restructured the global aviation industry." },
+    { q: "India's Nifty in June 2026 moved primarily in response to...", options: ["Domestic corporate earnings", "Brent crude oil prices  -  India's 85% oil import dependency made the Nifty an effective oil price proxy during the Hormuz closure", "US Federal Reserve decisions", "Monsoon forecasts"], answer: 1, funFact: "India's crude oil import bill in FY25 was approximately Rs 12.5 lakh crore ($150 billion). A $10/barrel increase in oil prices adds Rs 80,000-90,000 crore to this bill annually  -  the equivalent of the entire budget of several Indian states." }
+  ]},
+  markets: { globalPulse: { eli5: "June 5 was a day of nervous stability. Oil was around $95-96  -  slightly eased from the $97 peak on hopes of Iran talks  -  but nobody was confident. European markets closed slightly lower. US markets were mixed. Gold continued to hold near $3,280 as institutional investors kept their 'insurance' positions. The money river was flowing carefully around dangerous rocks.", keyThings: ["Brent Crude: ~$95.50  -  slight ease from peak", "Gold: $3,278  -  elevated safe-haven demand", "Nifty: ~23,250  -  oil-sensitive", "Rupee: ~84.7 to USD  -  weakening"] },
+    indianMarket: { eli5: "India's bazaar was cautious but not panicking on June 5. Defensive sectors (pharma, IT, FMCG) were holding up. The TCS-Anthropic news gave IT a small boost  -  a reminder that even in geopolitical chaos, business keeps happening. Banks were cautious as credit growth was slowing slightly. The key question on every investor's mind: when does Hormuz reopen and oil fall?", breakouts: [
+      { name: "TCS (NSE: TCS)", whyExciting: "The Anthropic partnership deal confirmed TCS was positioning itself as India's AI integration leader for enterprise. AI partnerships command premium valuations. Plus TCS earns in USD  -  rupee weakness is a tailwind. The stock held strong despite the broader market weakness.", risk: "AI integration revenue takes time to materialise  -  there's a lag between announced partnership and actual revenue booking." , halal: true, buyPrice: 'Rs.3,480', sellPrice: 'Rs.3,850', stopLoss: 'Rs.3,280'},
+      { name: "Divis Laboratories (NSE: DIVISLAB)", whyExciting: "Divis is India's largest API (active pharmaceutical ingredient) manufacturer  -  supplying raw materials to global drug companies. As a pharma defensives play in uncertain markets AND a USD earner, it has double insulation. The company recently won approval for several high-value API supply contracts in Europe.", risk: "API pricing is competitive  -  Chinese manufacturers offer similar products at lower cost, creating constant margin pressure." , halal: true, buyPrice: 'Rs.4,850', sellPrice: 'Rs.5,400', stopLoss: 'Rs.4,550'},
+      { name: "ITC Ltd (NSE: ITC)", whyExciting: "ITC is the ultimate defensive Indian stock  -  cigarettes, hotels, FMCG, paperboard. Each business is largely recession-proof. The recent hotels demerger unlocked hidden value. ITC's dividend yield remains one of the best on Nifty  -  providing income while you wait for the market to recover.", risk: "Cigarette taxation risk  -  any sudden government duty increase compresses margins, as has happened multiple times historically." , halal: false, buyPrice: 'N/A', sellPrice: 'N/A', stopLoss: 'N/A'}
+    ], ipoSpot: { name: "No major IPO open", verdict: "Watch", eli5: "The IPO market continued to pause during geopolitical uncertainty. Ather Energy's IPO was the most anticipated  -  watching for it to open after market conditions stabilise." }, lessonOfDay: { title: "The Importance of Sector Rotation", story: "In June 2026, sophisticated Indian investors weren't just watching Nifty move up and down  -  they were rotating their money between sectors. Oil up: sell aviation and paints, buy pharma and IT. Oil news eases: rotate back. This sector rotation strategy is how active investors beat passive index returns during volatile periods. The Nifty fell 0.5% in June but pharma and IT portfolios were positive. Knowing which sectors benefit from which macro conditions is one of the most practical investing skills.", mnemonic: "Sector rotation = Oil up -> defensive. Oil eases -> cyclicals. Know your sector's sensitivity" } },
+    quiz: [
+      { q: "Divis Laboratories is insulated from market volatility because...", options: ["It's a government company", "It manufactures APIs (drug raw materials) earning in USD  -  both pharma defensiveness and currency tailwind combined", "It's the cheapest stock on Nifty", "It has government price protection"], answer: 1, funFact: "Divis Laboratories supplies APIs to 8 of the world's 10 largest pharmaceutical companies. It operates in a niche where quality requirements are so stringent that changing suppliers takes years  -  creating enormous customer stickiness and pricing power." },
+      { q: "Sector rotation works because...", options: ["All stocks move in the same direction", "Different sectors benefit from different macro conditions  -  smart investors move money to the benefiting sectors before the broader market catches on", "Small stocks outperform large stocks", "Index funds don't allow it"], answer: 1, funFact: "Research by RBC Capital Markets found that sector rotation by institutional investors explains approximately 60% of the difference between top-quartile and bottom-quartile portfolio performance over 5-year periods  -  more than individual stock selection." },
+      { q: "ITC's 'defensive' quality comes from...", options: ["Government protection from competition", "Multiple businesses (cigarettes, FMCG, hotels, paperboard) that generate consistent earnings regardless of economic cycles, plus one of Nifty's best dividend yields", "ITC makes products only the wealthy buy", "ITC is backed by foreign investment"], answer: 1, funFact: "ITC's cigarette business, despite declining volumes, generates such high margins that it funds the growth of all other ITC businesses. This 'cash cow' funding 'growth businesses' structure is why ITC has been able to build competitive positions in FMCG, hotels, and paper without ever needing to dilute shareholders." }
+    ]
+  },
+  psychology: { mindTrick: { name: "The Endowment Effect  -  We Overvalue What We Already Own", eli5: "In 1990, Richard Thaler ran a famous experiment: he gave half a group of people coffee mugs and offered the other half a chance to buy them. The mug owners demanded Rs 5 to part with their mugs. The potential buyers would pay only Rs 2.50 for the exact same mug. Same mug, different emotional relationship. We value things we own more than identical things we don't  -  purely because we own them. This explains why people hold losing investments too long, why homeowners expect more for their houses than buyers pay, and why you think your old car is worth more than the dealer offers.", realLife: "Before evaluating anything you already own  -  a stock, a relationship, a job, a strategy  -  ask: 'If I didn't already have this, would I choose it today at this price/cost?' The endowment effect makes you say yes when the honest answer is no.", mnemonic: "Endowment effect = We love what we own 2x more than identical things we don't. It's a bias, not wisdom." },
+    bodyLanguage: { signal: "Pacifying Behaviours  -  Self-Touch During Stress", eli5: "When humans feel threatened or anxious, they instinctively touch themselves  -  their neck, their face, their hair. Joe Navarro (ex-FBI) calls these 'pacifying behaviours': the brain sends the body to self-soothe. A hand covering the throat during a question. Rubbing the neck. Touching an ear. Massaging the forehead. These are tells for discomfort  -  and they happen involuntarily. A person who touches their neck when you mention a topic is uncomfortable about that topic, whether or not they show it on their face.", howToUse: "Watch for pacifying behaviours when asking difficult questions in interviews, negotiations, or important conversations. A sudden neck touch or hair adjustment right after you mention a specific topic is telling you more than the words that follow.", mnemonic: "Pacifying = Self-touch under stress. Neck touch = Something made them uncomfortable. Note the topic." },
+    superpower: { name: "Liking  -  We Say Yes to People We Like", story: "Robert Cialdini sent researchers to ask strangers for a small favour. When they started with 'I'm from your hometown' (establishing similarity), compliance doubled. When they added a genuine compliment before asking, compliance tripled. We are wired to do favours for people we like  -  and we like people who are similar to us, who compliment us genuinely, and who seem familiar. This is why salespeople ask about your family (similarity), why brands use endorsers we admire (transferred liking), and why referral-based selling closes 3x more than cold outreach.", shield: "When someone seems too immediately likeable  -  finding too many similarities too fast, complimenting you too quickly  -  notice it. You can like a person and still objectively evaluate their proposition. Separate how much you like them from whether what they're offering has merit.", mnemonic: "Liking principle = Similar + compliment + familiar = We say yes. The basis of every relationship sale." },
+    quiz: [
+      { q: "The Endowment Effect explains why mug owners demanded twice what buyers offered because...", options: ["The sellers had better information about the mug's value", "Ownership creates an emotional attachment that inflates perceived value, independent of the mug's objective worth", "The buyers were too poor", "The experiment was flawed"], answer: 1, funFact: "The Endowment Effect has been documented across cultures but varies in strength. Interestingly, it's almost absent in professional traders  -  suggesting that experience with buying and selling reduces the emotional attachment to owned assets. This is one reason professional investors outperform ordinary investors who hold losing positions too long." },
+      { q: "Pacifying behaviours (self-touch during stress) happen because...", options: ["People are trying to draw attention to their discomfort", "The brain sends the body to self-soothe in response to psychological threat  -  these movements are involuntary comfort mechanisms", "It's a cultural habit learned in childhood", "People touch themselves when thinking deeply"], answer: 1, funFact: "The suprasternal notch  -  the small depression at the base of the throat  -  is one of the most revealing areas Joe Navarro identifies. Men typically grab the throat. Women typically cover or touch the suprasternal notch with a hand. Both signal the same thing: discomfort, anxiety, or feeling exposed." },
+      { q: "The Liking Principle works in selling because...", options: ["Salespeople give discounts to people they like", "People say yes to requests from those they like, and they like those who are similar, complimentary, and familiar", "Products become better when sold by likeable people", "Liking eliminates buyer's remorse"], answer: 1, funFact: "Cialdini's research found that when Tupperware parties replaced strangers with friends and family members hosting sales events, sales increased 300%. The product didn't change. Only the relationship between seller and buyer changed  -  demonstrating that who sells something matters as much as what they're selling." }
+    ]
+  },
+  leadership: { leaderMove: { name: "The Ruthless Prioritisation Principle", story: "Steve Jobs returned to Apple in 1997 to find a company making 350 different products. He gathered his team and spent two weeks reviewing every product. Then he drew a simple grid: consumer vs professional, desktop vs portable. Four boxes. He killed 340 products and kept 4. Revenue fell briefly, then rose explosively. The iMac, MacBook, iPhone, and iPad all came from this ruthless focus. Jobs's insight: 'People think focus means saying yes to the things you have to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas that there are.'", doThis: "List every project, responsibility, or commitment you currently have. Mark each: A (only I can do this and it's critical), B (important but someone else could do it), C (not actually critical). Eliminate all Cs immediately. Delegate or reduce Bs. Focus exclusively on As.", mnemonic: "Ruthless prioritisation = 340 products killed = 4 products. Apple became Apple by STOPPING things" },
+    visionarySecret: { concept: "The Regret Minimisation Framework", eli5: "Jeff Bezos was working at a well-paid hedge fund job in 1994 when he thought about starting Amazon. He asked himself one question: 'When I'm 80, will I regret NOT having tried this?' The answer was obvious. He calls this the Regret Minimisation Framework: imagine yourself at 80 looking back. From that vantage point, which decision would cause more regret  -  trying and failing, or never trying at all? The framework consistently reveals that people regret inaction far more than action. It cuts through the short-term fear of failure by zooming out to a lifetime perspective.", exercise: "Name one decision you've been delaying because of fear. Apply Bezos's question: 'When I'm 80, which choice will I regret more?' Write the answer. You already know what it is.", mnemonic: "Regret Minimisation = 80-year-old you knows the answer. What would they regret?" },
+    eliteHabit: { habit: "Non-Negotiable Sleep  -  8 Hours as Performance Infrastructure", whoAndHow: "Jeff Bezos publicly advocates for 8 hours of sleep as non-negotiable: 'I'm more alert. I think more clearly. I have more energy. And being well-slept is something I prioritize.' LeBron James sleeps 10-12 hours daily and calls it his most important performance tool. Arianna Huffington built an entire media company (Thrive Global) after collapsing from sleep deprivation in 2007. Roger Federer reported sleeping 10-12 hours during Grand Slam tournaments.", whyItWorks: "Sleep is when the brain consolidates learning, repairs cellular damage, clears toxic metabolic waste through the glymphatic system, and regulates the hormones controlling focus, appetite, and emotional regulation. Sleep deprivation doesn't just make you tired  -  it reduces IQ by measurable amounts and is associated with dramatically increased cardiovascular disease and dementia risk.", mnemonic: "8 hours sleep = Performance infrastructure, not laziness. The most underrated productivity tool" },
+    sigmaWisdom: { lesson: "The Stoic View on Fame  -  Why External Validation Is a Prison", story: "Marcus Aurelius was the most powerful person in the world  -  Roman Emperor ruling 70 million people. In his private journal (Meditations), he wrote repeatedly about the emptiness of fame: 'The things people seek most earnestly  -  a good position, fame, wealth, power  -  are not so desirable when they are carefully examined. How many celebrated individuals have time already committed to oblivion? And how many who celebrated them have long since disappeared?' He watched emperors before him  -  worshipped in their time  -  forgotten within decades. He concluded: if your self-worth depends on others' opinions, you are a slave to their changing moods.", action: "Identify one decision you're currently making or deferring because of what others will think. Separate: what do I ACTUALLY want here vs what I want because I want others to perceive me a certain way? Make the decision based on the former.", mnemonic: "Marcus on fame = Emperor who ruled the world said 'it's empty.' What does that tell you about your Instagram?" },
+    quiz: [
+      { q: "Steve Jobs killing 340 products when he returned to Apple taught what principle?", options: ["Apple needed to diversify less", "Strategic focus requires ruthless elimination  -  saying no to good ideas to concentrate energy on great ones", "Product portfolios should be reviewed annually", "300+ products are always too many"], answer: 1, funFact: "Jobs's product grid still guides Apple today. Every major Apple product still fits into 4 categories: iPhone, iPad, Mac, Apple Watch. Each category has distinct positioning. The iMac Jobs launched in 1998  -  the first post-elimination product  -  saved Apple from bankruptcy with $309 million in revenue in its first year." },
+      { q: "Bezos's Regret Minimisation Framework works because...", options: ["Old people always make better decisions", "Zooming out to an 80-year perspective removes short-term fear and reveals that inaction is usually more regrettable than action", "Amazon was guaranteed to succeed", "He had nothing to lose"], answer: 1, funFact: "Research consistently confirms Bezos's intuition: Gilovich and Medvec's studies found that older people's biggest regrets are about inaction (things they didn't do) by a ratio of approximately 2:1 over action (things they did that went wrong). The fear of failure is stronger in the moment; the regret of inaction is stronger over a lifetime." },
+      { q: "Marcus Aurelius's view on fame was significant because...", options: ["He was a philosopher, not a ruler", "He was the most famous and powerful person in his world and still concluded that fame and external validation are empty  -  a lesson from someone who actually had what most people seek", "Roman emperors typically wanted more fame", "He wanted to be forgotten"], answer: 1, funFact: "Meditations was Marcus Aurelius's personal journal  -  never intended for publication. It was found after his death. The fact that the most powerful man in the world was privately grappling with the emptiness of power and fame  -  not celebrating it  -  makes his perspective uniquely credible." }
+    ]
+  },
+  wealth: { wealthSecret: { name: "The Power of Increasing Income  -  The Other Half of the Equation", story: "Personal finance advice focuses almost entirely on cutting expenses. But there's a mathematical ceiling to expense reduction  -  you can't cut below zero. Income has no ceiling. A person who earns Rs 5 lakh and saves 30% = Rs 1.5 lakh saved. If they grow income to Rs 8 lakh while maintaining the same lifestyle, savings jump to Rs 4.5 lakh  -  three times more without changing spending habits. Naval Ravikant says: 'Earn with your mind, not your time.' The highest ROI financial move is usually a skill upgrade that raises hourly earning power  -  not another expense cut.", action: "List three specific skills that would raise your earning power by 20%+ if developed in the next 12 months. Choose one. Begin this week.", mnemonic: "Income ceiling = None. Expense floor = Zero. Invest in earning power, not just frugality" },
+    moneyMachine: { type: "P2P Lending  -  Becoming the Bank", eli5: "Peer-to-peer (P2P) lending platforms let you lend money directly to vetted borrowers and earn interest  -  without a bank as intermediary. The bank takes your FD at 7% and lends it at 14-18%. P2P lending lets you capture more of that spread yourself. Indian platforms like LenDenClub and Faircent typically offer 10-12% returns. Borrowers get better rates than bank loans. Lenders earn more than FDs. The platform takes a small fee. The risk: defaults are real  -  diversify across many loans.", indiaAngle: "RBI now regulates P2P lending in India under NBFC-P2P guidelines. This regulation has reduced fraud risk significantly. Maximum exposure recommended: 10-15% of your investable portfolio, spread across 100+ borrowers to reduce individual default risk.", mnemonic: "P2P lending = Become the bank. 10-12% returns vs FD at 7%. Same savings, smarter deployment" },
+    mindsetFlip: { oldThinking: "I should live for today  -  you only live once", newThinking: "Future me is a real person who will have real needs. I owe them the same consideration I give today-me", why: "The problem with YOLO spending is that future-you is not a stranger  -  it's you in 20 years, possibly with lower income, health costs, and fewer options. Every Rs 1,000 spent impulsively today is Rs 17,000 that future-you won't have (at 12% compounded for 25 years). Future-you will remember every financial decision today-you made.", mnemonic: "Future me = Real person, real needs. Treat them as a stakeholder in today's decisions" },
+    magicNumber: { number: "The 3-6 Month Emergency Fund Rule", eli5: "Before any investment, build a fund equal to 3-6 months of your expenses, kept in a savings account or liquid mutual fund. Why? Without this buffer, any unexpected expense (job loss, medical bill, car repair) forces you to sell investments at the worst time  -  usually during a market dip. The emergency fund is the foundation that makes all other investment decisions calm and rational instead of panicked. Calculate: your monthly expenses x 4 = your emergency fund target.", mnemonic: "Emergency fund = The foundation of all investing. Without it, every investment is built on sand" },
+    quiz: [
+      { q: "Naval Ravikant's advice to 'earn with your mind, not your time' means...", options: ["Don't work hard", "Develop skills and assets that generate income based on value created rather than hours worked  -  no income ceiling", "Think about money instead of working", "Mental work is always better than physical work"], answer: 1, funFact: "Naval's famous 'How to Get Rich (Without Getting Lucky)' tweetstorm went viral in 2018 and has been called one of the most clear-eyed summaries of wealth creation available. Its core insight: there are two types of income  -  time-based (linear) and leverage-based (exponential). Only the second type creates true wealth." },
+      { q: "RBI regulating P2P lending in India primarily serves to...", options: ["Reduce returns for lenders", "Reduce fraud risk and ensure platforms maintain capital buffers  -  making the category safer without eliminating its return advantage over FDs", "Limit how much you can lend", "Protect banks from competition"], answer: 1, funFact: "P2P lending globally has had a chequered history  -  several platforms in China collapsed taking billions in investor money. RBI's proactive regulation of Indian P2P platforms, requiring them to register as NBFCs and maintain escrow accounts, was directly informed by the Chinese P2P debacle." },
+      { q: "An emergency fund should be kept in...", options: ["Stocks for maximum returns", "Fixed deposits that are locked for 5 years", "Savings accounts or liquid mutual funds  -  accessible within 24-48 hours while earning better than zero", "Physical cash at home"], answer: 2, funFact: "Liquid mutual funds in India invest in very short-term government bonds and commercial paper  -  they can be redeemed typically within 24 hours and have returned 6-7% annually historically. This makes them superior to savings accounts (3.5-4%) and almost as accessible  -  the ideal emergency fund vehicle." }
+    ]
+  },
+  communication: { speakingSkill: { name: "The Rule of Three  -  Magic Number for Persuasion", story: "Julius Caesar: Veni, vidi, vici (I came, I saw, I conquered). Three words. Obama's campaign: Yes. We. Can. Three words. Apple's original iPod pitch: 1,000 songs in your pocket. Aristotle's rhetoric: ethos, pathos, logos. The US Declaration of Independence: life, liberty, and the pursuit of happiness. Three is the minimum number to establish a pattern, and the maximum number the human working memory can easily hold without effort. Lists of three feel complete. Lists of four feel like you couldn't edit. Lists of two feel incomplete. This is why every great communicator thinks in threes.", drill: "Structure your next important email, pitch, or argument in exactly three points. Not two, not four. Three. Then give each point one sentence. Notice how much more memorable and complete it feels.", mnemonic: "Rule of Three = Minimum for pattern, maximum for memory. Three always wins. Always." },
+    negotiationMove: { tactic: "Conditional Concession  -  Never Give Without Getting", eli5: "Amateurs in negotiation give concessions when asked. Professionals give concessions only conditionally: 'I can do X, IF you do Y.' This keeps every concession paired with a benefit. 'I can reduce the price by Rs 5,000 if you can commit to paying in full today.' 'I can extend the deadline if you reduce the scope by two features.' 'I can approve this if you sign off on the other project.' Conditional concessions prevent the other party from treating you as an unlimited concession machine.", script: "'I can make that work, but I'd need [specific reciprocal thing] for that to be possible. Does that work for you?'", mnemonic: "Conditional concession = I'll give X IF you give Y. Never give without receiving. Ever." },
+    officeWin: { rule: "Arrive early to every meeting  -  and use those minutes strategically", story: "Person A arrives to meetings exactly on time, often slightly late, always rushing to find a seat and settle in. Person B arrives 5 minutes early, greets the first arrivals, has brief friendly conversations before the meeting starts, and is settled and present when it begins. Person B is perceived as prepared, professional, and confident. Person A, despite identical qualifications, is perceived as careless about others' time. The 5 minutes before a meeting are some of the most valuable minutes of the professional day  -  for relationship building, for gathering intelligence about the agenda, and for setting up a positive impression.", mistake: "Most people treat pre-meeting time as dead time. The smartest professionals treat it as prime networking and positioning time.", mnemonic: "5 minutes early = Relationship building + prepared perception + calm entry. Best ROI in the workday" },
+    confidenceHack: { technique: "The Name-It-to-Tame-It Technique", science: "Neuroscientist Matthew Lieberman found that labelling an emotion  -  literally naming it out loud or on paper  -  reduces the amygdala's emotional reactivity within seconds. 'I'm feeling nervous' (said silently) shifts processing from the emotional brain (amygdala) to the rational brain (prefrontal cortex). Brain scans show measurable calming within seconds of emotion labelling. This is why therapists ask 'what are you feeling right now?'  -  it's not just empathy, it's neuroscience.", doItNow: "Before your next high-stakes situation: close your eyes for 10 seconds and label exactly what you feel. 'I'm feeling anxious about being judged.' 'I'm nervous about this question.' 'I'm excited but afraid.' Naming it is enough  -  the brain's rational systems activate and the emotional intensity drops.", mnemonic: "Name it to tame it = Labelling emotion activates rational brain. 10 seconds of naming = Calmer performance" },
+    quiz: [
+      { q: "The Rule of Three works in communication because...", options: ["People can only remember three things", "Three is the minimum to establish a pattern and the maximum most people can hold in working memory simultaneously  -  making groups of three feel complete", "All great ideas have exactly three components", "Ancient Greeks invented the number three"], answer: 1, funFact: "Cognitive psychology research on 'chunking' found that humans naturally group information in 3-4 items. George Miller's famous 1956 paper 'The Magical Number Seven, Plus or Minus Two' showed working memory limits. For persuasion specifically, three is optimal  -  four or more feels like padding." },
+      { q: "Conditional concessions are more effective than unconditional ones because...", options: ["They are larger concessions", "Each concession is paired with a reciprocal benefit  -  preventing the other party from treating you as an unlimited concession source", "They sound more professional", "They prevent all negotiation"], answer: 1, funFact: "Experienced negotiators at Harvard's Program on Negotiation call unconditional concessions 'one-way doors'  -  once given, they become the new baseline and the other party simply waits for more. Conditional concessions ('if-then' structure) keep the negotiation reciprocal and prevent concession fatigue." },
+      { q: "The Name-It-to-Tame-It technique works because...", options: ["Naming emotions cures anxiety permanently", "Labelling an emotion in the prefrontal cortex reduces amygdala reactivity within seconds, measurably calming emotional intensity", "It distracts you from the emotion", "Naming feelings impresses other people"], answer: 1, funFact: "Lieberman's UCLA research showing fMRI brain scans during emotion labelling became one of the most cited neuroscience papers of the 2010s. It validated the intuitive wisdom of therapists: getting clients to name feelings is not just empathetic  -  it literally changes brain activation patterns in measurable ways." }
+    ]
+  },
+  mind: { brainHack: { name: "The Two-List System  -  Capture Everything, Process Deliberately", eli5: "Your brain is terrible at storing tasks  -  it keeps trying to remind you of things you haven't done, creating background anxiety. David Allen discovered the solution: capture every open loop (task, idea, commitment, worry) into an external system the moment it appears. Not a mental note  -  an actual list. Once captured, your brain stops trying to remember it and relaxes. The second list is your 'today' list  -  a short, deliberate selection of what you'll actually do today. The capture list is for everything. The today list is for execution.", protocol: "Keep a running capture list (phone notes, notebook  -  always accessible). Everything that occurs to you goes in immediately. Each morning: review the capture list, choose 3 tasks for today, and close everything else in your mind. The today list has only 3 items maximum.", mnemonic: "Two-list system = Brain for thinking, list for remembering. External capture = Internal peace" },
+    disciplineCode: { principle: "The Compound Habit  -  Stacking Small Wins", story: "James Clear describes a British cycling team that went 100 years without winning a single major race. In 2003, a new coach named Dave Brailsford took over with a philosophy he called 'the aggregation of marginal gains.' He improved everything by 1%: the pillows riders slept on, the massage gel used, hand-washing technique to reduce illness risk, riding position aerodynamics. Each improvement was individually meaningless. Together, they won the Tour de France within 5 years  -  and then again, and again. The team won 60% of the gold medals at the 2012 Olympics.", todayAction: "Pick ONE tiny habit you can stack onto an existing habit today. Not a big change  -  a 2-minute addition. Brush teeth: add 10 pushups. Morning coffee: add reading one article. Enter office: add a 60-second review of your top 3 priorities.", mnemonic: "Compound habits = 1% better x many things = Tour de France. Small wins compound into dominance" },
+    impulseKiller: { urge: "Comparison anxiety  -  obsessively comparing yourself to others", eli5: "Social media has turned comparison from an occasional human experience into a continuous ambient state. Your brain compares you to a curated highlight reel of hundreds of people's best moments simultaneously. This triggers a threat response  -  the same mechanism that evolved to rank social status in small tribes of 150 people is now processing thousands of comparisons per day. The result: chronic feelings of inadequacy and anxiety that have no real-world solution because the comparison pool is infinite.", interrupt: "When you catch yourself in a comparison spiral: close the app. Write one sentence: 'I am comparing myself to [person] about [thing].' Then ask: 'Would I trade my entire life  -  every part of it  -  for theirs?' The answer is almost always no. This resets the comparison to its true scope.", mnemonic: "Comparison spiral interrupt = Close app + name it + full life trade test. Usually stops immediately" },
+    bodyUpgrade: { practice: "Intermittent Fasting  -  16 Hours Off, 8 Hours On", eli5: "Intermittent fasting isn't about eating less  -  it's about when you eat. The 16:8 method: fast for 16 hours (usually 8pm to 12pm next day), then eat normally within an 8-hour window. During the fasting period, insulin drops to baseline, the body switches to burning stored fat for energy, and a process called autophagy begins  -  where cells clean up damaged components. Research shows 16:8 improves insulin sensitivity, reduces inflammation, and aids fat loss without requiring calorie counting.", minimumDose: "Stop eating at 8pm. Have your first meal at noon (12pm). Drink water, black coffee, or plain tea in the morning. This 16-hour window captures sleep time  -  making it much easier than it sounds. Start with 3 days per week.", mnemonic: "16:8 fasting = 16 hours off, 8 hours on. Easiest: stop at 8pm, start at noon. Mostly you're asleep" },
+    quiz: [
+      { q: "David Allen's capture list system reduces anxiety because...", options: ["Writing things down makes them less important", "External capture removes the burden from working memory  -  the brain stops trying to remember uncompleted tasks and relaxes", "Lists help you forget things faster", "Writing creates accountability"], answer: 1, funFact: "The psychological phenomenon of uncompleted tasks staying in working memory is called the Zeigarnik Effect (discovered in 1927). Allen's system exploits its inverse: once something is captured in a trusted external system, the brain treats it as 'handled' and releases the mental loop  -  eliminating the anxiety." },
+      { q: "Dave Brailsford's 'aggregation of marginal gains' worked because...", options: ["He bought the best equipment", "Improving everything by 1% simultaneously creates compound gains  -  many small wins combine into dramatically better overall performance", "British cyclists were already the best", "He changed team membership"], answer: 1, funFact: "Brailsford went on to apply the same philosophy to Team Ineos (formerly Team Sky) and created the most dominant Tour de France team in history, winning 6 of the 8 Tours from 2012-2019. The marginal gains philosophy is now taught in business schools globally as an operational excellence framework." },
+      { q: "Intermittent fasting works for health primarily through...", options: ["Eating less food overall", "Lowering insulin during fasting periods, triggering fat burning and autophagy (cellular cleanup)", "Only eating healthy foods", "Skipping breakfast"], answer: 1, funFact: "Yoshinori Ohsumi won the 2016 Nobel Prize in Medicine for describing autophagy  -  the cellular cleanup process that intermittent fasting activates. His research showed that cells that regularly undergo autophagy are dramatically healthier and more resistant to disease. The Nobel committee explicitly noted that intermittent fasting activates this process." }
+    ]
+  },
+  knowledge: { mathMagic: { concept: "Bayes' Theorem  -  How to Update Your Beliefs Correctly", eli5: "Thomas Bayes discovered a mathematical formula for updating beliefs based on new evidence. Most people update beliefs wrong: they either ignore new evidence (confirmation bias) or completely reverse their view on one new piece of information. Bayes says: new evidence should update your belief in proportion to both the strength of the evidence AND how likely the evidence would appear if your belief is wrong. A positive medical test should make you more worried  -  but HOW much more worried depends on: how accurate the test is AND how rare the disease is. Ignoring either factor leads to wrong conclusions.", realWorldUse: "Bayesian thinking is the foundation of evidence-based medicine, machine learning (AI), spam filtering, and intelligence analysis. Practically: when new evidence comes in, ask 'How much should I update my belief?' Not zero (ignore it). Not 100% (abandon everything). Proportionately, based on evidence quality.", mnemonic: "Bayes = Update beliefs proportionally to evidence quality. Not zero, not 100%. Proportionally." },
+    scienceWow: { field: "Biology", concept: "The Microbiome  -  You Are More Bacteria Than Human", eli5: "You have approximately 37 trillion human cells. You also carry approximately 38 trillion bacterial cells. You are, by cell count, slightly more bacterial than human. These bacteria  -  mostly in your gut  -  are not passengers. They produce vitamins, train your immune system, produce neurotransmitters that affect your mood (90% of serotonin is made in the gut), and influence your weight, mental health, and disease resistance. When scientists call the gut 'the second brain,' they're being literal  -  it has its own nervous system with 500 million neurons.", mindBlow: "Fecal microbiome transplants (taking gut bacteria from a healthy donor and transplanting them to a sick person) have cured antibiotic-resistant infections where no other treatment worked  -  showing that the bacteria you carry are as medically important as your own cells.", mnemonic: "Microbiome = More bacteria than human cells. Your gut runs your mood. The second brain is real." },
+    historyStory: { event: "The Dutch Tulip Mania of 1637  -  History's First Speculative Bubble", story: "In 1636-37, tulip bulbs in the Netherlands became the hottest investment in history. A single Semper Augustus tulip bulb  -  rarer varieties were considered prestigious  -  sold for 10 times the annual salary of a skilled craftsman. Sailors who accidentally ate cargo tulip bulbs (mistaking them for onions) were imprisoned. At the peak, futures contracts for unplanted bulbs were trading for enormous sums. Then in February 1637: it crashed. Prices collapsed 99% in weeks. Fortunes built on tulip bulbs vanished. The pattern  -  irrational exuberance, FOMO buying, and sudden collapse  -  has repeated in every subsequent speculative bubble.", lesson: "Every asset class can become a tulip. Bitcoin in 2017, dotcoms in 1999, real estate in 2007, meme stocks in 2021. The markers are always the same: people justifying prices by 'this time is different,' rapid price acceleration, and newcomers entering purely because prices are rising. Tulip Mania was 400 years ago and humans haven't changed.", mnemonic: "Tulip Mania 1637 = First bubble. Same pattern: irrational exuberance + collapse. Repeat every generation." },
+    earthSecret: { place: "Thailand", secret: "Thailand has never been colonised by a European power  -  the only country in Southeast Asia to remain independent throughout the colonial era. It accomplished this partly through clever diplomacy (playing Britain and France against each other), partly through strategic modernisation, and partly through geography. Bangkok sits in the centre of a peninsula that both colonial powers needed stable. Thailand also has the world's largest urban underground Buddhist temple (Wat Phra Dhammakaya), an ancient kingdom that predates most European nations by centuries, and a constitutional monarchy that has survived 20 coups.", edge: "Thailand's never-colonised status means its culture, architecture, and social structure developed without European interruption  -  making it genuinely different from colonised Asian nations. Understanding this helps explain why Thai Buddhism, Thai food, and Thai social norms feel distinctively original rather than hybrid.", mnemonic: "Thailand = Never colonised. The only SE Asian holdout. Independent because it was diplomatically brilliant" },
+    quiz: [
+      { q: "Bayes' Theorem is valuable for decision-making because...", options: ["It provides exact certainty about outcomes", "It provides a framework for updating beliefs proportionally to evidence quality  -  neither ignoring new information nor over-reacting to it", "It replaces all other analytical methods", "It's only used by mathematicians"], answer: 1, funFact: "Bayesian thinking is now the dominant framework in artificial intelligence (Bayesian neural networks), medical diagnosis, financial risk modelling, and intelligence analysis. The CIA and MI6 both use formal Bayesian frameworks for updating intelligence assessments  -  because the alternative (intuitive updating) is systematically biased." },
+      { q: "The human microbiome is medically significant because...", options: ["It causes most diseases", "The gut bacteria you carry produce vitamins, train immunity, produce mood neurotransmitters, and influence health in ways as important as your own cells", "It can be completely replaced by antibiotics", "Modern science has mapped it completely"], answer: 1, funFact: "The microbiome research breakthrough came when scientists discovered that identical twins with the same DNA can have completely different susceptibility to obesity, depression, and autoimmune disease  -  depending on their microbiome composition. This showed the microbiome is a second genome with equivalent influence to your actual genes." },
+      { q: "The Dutch Tulip Mania of 1637 is studied today primarily because...", options: ["Tulips are still economically important", "It established the pattern of speculative bubbles that has repeated in every major asset class since  -  from dotcoms to crypto  -  showing human financial psychology doesn't change", "It caused a major war", "It invented futures trading"], answer: 1, funFact: "Charles Kindleberger's 'Manias, Panics, and Crashes' (1978) analysed every major financial bubble from tulips to the 20th century and found remarkably consistent patterns: displacement (new technology or asset), credit expansion, euphoria, insider selling, panic, and crash. The actors change; the script doesn't." }
+    ]
+  },
+  ai: { toolSpotlight: { name: "NotebookLM (Google)", category: "Research / Knowledge Management", eli5: "NotebookLM is Google's AI-powered research assistant. You upload your own documents  -  PDFs, Google Docs, articles, notes  -  and then chat with an AI that has read all of them. It can summarise your research, find connections between documents you didn't notice, answer questions using only your provided sources, and generate audio summaries (podcasts) of your documents. The key difference from general AI: it ONLY uses what you give it, so answers are grounded in your actual materials, not AI hallucination.", secretMove: "Use NotebookLM's Audio Overview feature. Upload 5-10 documents about a topic and ask it to generate a podcast discussing the key themes. You get a 10-15 minute conversation between two AI hosts covering your reading material  -  perfect for reviewing research during commutes or exercise.", mnemonic: "NotebookLM = Your own private AI that has read all your documents. Hallucination-free, source-based answers" },
+    workflowWin: { title: "The Daily Knowledge Capture System", problem: "Most professionals read articles, attend meetings, and have insights  -  then forget 90% within a week because there's no capture system.", steps: ["Keep a single daily note open (Notion, Apple Notes, Google Keep)", "Throughout the day: every interesting insight, article summary, or meeting decision gets one line added with a date tag", "Every Friday: review the week's captures. Highlight the top 3 most valuable. Add to a 'Best Insights' document", "Monthly: review 'Best Insights' document  -  identify patterns and themes in what you're learning"], timeSaved: "The capture takes 30-60 seconds per insight. The weekly review takes 10 minutes. The payoff: you build a personal knowledge base that compounds in value over months and years.", mnemonic: "Daily capture = 30 seconds now, searchable wisdom forever. Knowledge that doesn't disappear on Monday" },
+    promptOfDay: { purpose: "Get feedback on any plan or idea before you execute it", prompt: "Here is my plan/idea: [DESCRIBE YOUR PLAN IN DETAIL]. Please analyse this from three perspectives: 1) Steel man  -  what's the strongest possible case FOR this plan? What would go well and why? 2) Red team  -  what could go wrong? What are the 3 most likely failure modes? 3) Blind spots  -  what am I not considering that someone with expertise in this area would immediately notice? Be specific and honest, not encouraging.", where: "Claude or ChatGPT", mnemonic: "Steel man + Red team + Blind spots = The three-lens reality check before any major decision" },
+    futureWatch: { trend: "AI is entering the physical world  -  robots that can actually do things", eli5: "For 70 years, robots were good at one thing: repeating a single motion perfectly (welding the same car door all day). The new generation of AI robots can do something completely different: adapt. Figure AI, 1X, Boston Dynamics, and Tesla's Optimus can now walk, pick up objects they've never seen, navigate unfamiliar spaces, and learn new tasks. Several Amazon warehouses now use humanoid robots for tasks previously requiring human hands. The implication: physical labour is beginning the same automation curve that office work experienced in 2023.", yourMove: "Any profession that involves primarily physical manipulation of objects in variable environments (warehouse work, construction, agriculture, cleaning, delivery) is beginning a 10-year transformation. If you work in these fields: the premium will increasingly go to the person who can direct and maintain the robots, not the person doing the physical task.", mnemonic: "Physical AI robots 2026 = Manual labour entering the same transformation office work did in 2023" },
+    quiz: [
+      { q: "NotebookLM differs from general AI chatbots primarily because...", options: ["It's made by Google", "It only uses documents you provide  -  grounding all answers in your actual materials rather than its general training data, eliminating hallucination risk", "It's free to use", "It generates better writing"], answer: 1, funFact: "AI hallucination (AI confidently stating false information) is one of the most significant barriers to professional AI adoption. NotebookLM's source-grounding approach directly addresses this  -  when it cites something, it links to the exact passage in your uploaded document, making factual verification immediate." },
+      { q: "The Daily Knowledge Capture System is valuable over years because...", options: ["It replaces reading", "Knowledge compounds  -  each captured insight becomes more valuable as it connects to later insights, creating a searchable personal knowledge base that grows with you", "It impresses employers", "It only works for certain professions"], answer: 1, funFact: "Charlie Munger, Warren Buffett's partner, kept a 'commonplace book'  -  a notebook of ideas, quotes, and insights collected over decades. He credits this practice with his ability to make connections across disparate fields. Luhmann, a German sociologist, built an 'external brain' of 90,000 notes over 40 years that he cited as the source of his extraordinary scholarly output." },
+      { q: "Humanoid robots like Figure AI and Tesla Optimus represent a breakthrough because...", options: ["They move faster than previous robots", "They can adapt to novel situations and objects  -  unlike previous robots that could only repeat one motion", "They are cheaper than human workers", "They replace all human jobs immediately"], answer: 1, funFact: "The key technical breakthrough was large language models combined with visual AI giving robots the ability to 'understand' their environment rather than just follow programmed instructions. This enables a robot to pick up an object it has never seen before by reasoning about its shape, weight, and purpose  -  something impossible with traditional robotics programming." }
+    ]
+  },
+  travel: { destination: { country: "Thailand", region: "Bangkok and Northern Thailand (Chiang Mai)", eli5: "Bangkok is organised chaos at its most glorious: 8-million-person city where monks in orange robes walk past neon-lit street food vendors, where gold-encrusted temples sit next to luxury malls, where you can get a full traditional Thai massage and a Michelin-starred meal on the same street for less than Rs 2,000 combined. Chiang Mai, 700km north, is Bangkok's spiritual opposite: ancient walls, elephant sanctuaries, mountain temples, slow mornings, rice fields. Thailand offers two countries for the price of one plane ticket.", bestTime: "November-April for both Bangkok and Chiang Mai  -  dry season, blue skies. Avoid May-October (monsoon season) unless you enjoy warm rain and empty temples.", hiddenGem: "Doi Inthanon National Park, 90 minutes from Chiang Mai  -  Thailand's highest peak (2,565m) with twin royal chedis (stupas) that look like something from Bhutan. On clear mornings, you're above the cloud line looking at a sea of white below you. Almost no international tourists make it this far.", mnemonic: "Thailand = Bangkok (chaos+temples) + Chiang Mai (mountains+peace). Two countries, one visa" },
+    visaTip: { focus: "Thailand Visa on Arrival for Indian Passport Holders", eli5: "India and Thailand agreed to mutual visa-free access in 2024 for up to 30 days. Indian passport holders just need a valid passport (6+ months validity), return ticket, hotel booking, and proof of funds (approximately Rs 10,000 per day of stay). No visa fee, no appointment, no embassy. Simply arrive at Bangkok's Suvarnabhumi Airport, fill in the arrival card, and enter. Processing time at immigration: 10-20 minutes.", goldenTip: "If you want to stay longer than 30 days, you can do a 'border run'  -  cross to a neighbouring country (Malaysia or Cambodia) and re-enter Thailand for another 30 days. This is technically allowed but immigration officers are increasingly tracking frequent re-entries. Better to use the 60-day Tourist Visa if planning longer stays.", mnemonic: "Thailand 2024 = Visa-free 30 days for Indians. No fee, no embassy, fill form and enter" },
+    culturalCode: { culture: "Thailand", doThis: "The 'wai' greeting (palms pressed together at chest level, slight bow) is deeply appreciated when foreigners use it  -  especially toward older people and monks. Remove your shoes before entering any temple or home. Speak softly and maintain calm  -  Thai culture values 'jai yen' (cool heart) and losing your temper or speaking loudly is deeply disrespectful.", neverDoThis: "Never touch anyone's head  -  it is the most sacred part of the body in Thai culture. Never point your feet at anyone or at a Buddha image  -  feet are considered the lowest, most impure part of the body. Never disrespect the Royal Family in any way  -  lese-majeste laws in Thailand are severe and foreigners have been imprisoned for social media posts.", mnemonic: "Thailand: Wai to greet, no head touch, no foot pointing, never disrespect the King. Four sacred rules." },
+    quiz: [
+      { q: "Thailand avoided European colonisation partly because...", options: ["It had a very strong military", "It played France and Britain diplomatically against each other, and its central location made stability more valuable to both colonial powers than conquest", "Europeans didn't know Thailand existed", "Thailand paid tribute to prevent invasion"], answer: 1, funFact: "The 1896 Anglo-French Declaration recognised Thailand (then Siam) as a buffer zone between British Burma and French Indochina. Thailand's King Chulalongkorn (Rama V) was a sophisticated diplomat who modernised the country and negotiated with European powers as an equal  -  the first Thai king educated in both Thai and Western traditions." },
+      { q: "Thailand's visa-free policy for Indian passport holders (2024) allows stay of...", options: ["15 days", "30 days", "60 days", "90 days"], answer: 1, funFact: "Thailand's visa liberalisation for India was part of a broader Thai tourism recovery strategy post-COVID. Indian tourists to Thailand grew 400% between 2022 and 2024, making India one of Thailand's top 5 source markets. The visa-free arrangement was directly linked to this growth and the Thai government's recognition of India's rapidly growing outbound travel market." },
+      { q: "Thailand's lese-majeste (royal defamation) laws are notable because...", options: ["They only apply to Thai citizens", "They are among the world's strictest, with foreigners imprisoned for social media posts  -  making this one of the most important cultural/legal awareness points for any visitor", "They were abolished in 2020", "They only apply to printed media"], answer: 1, funFact: "Section 112 of Thailand's Criminal Code provides for 3-15 years imprisonment per offense for anyone who 'defames, insults or threatens the King, the Queen, the Heir-apparent or the Regent.' Multiple tourists and expats have been imprisoned. Social media posts made outside Thailand have been used as evidence in prosecutions of people arrested later while visiting." }
+    ]
+  }
+}
+
+const d260606 = {
+  "news": {
+    "segments": [
+      {
+        "name": "\ud83c\udf10 What's happening with countries?",
+        "color": "#a0d4f5",
+        "stories": [
+          {
+            "headline": "D-Day 82nd anniversary: Hegseth shocks allies with immigration speech",
+            "eli5": "June 6 marks 82 years since the Allied D-Day landings in Normandy, France -- one of history's most sacred military commemorations where 4,400 Allied soldiers died on a single day in 1944. US Defence Secretary Pete Hegseth used his speech at the ceremony to attack European immigration policies, saying the continent faced a 'new invasion.' French officials were furious. European NATO allies called it 'profoundly inappropriate.' It was like using a funeral to pitch a product.",
+            "whyItMatters": "Using war memorial events for political speeches damages alliances that took decades to build.",
+            "mnemonic": "D-Day Hegseth speech = Sacred ground for political points. France furious, NATO allies alarmed"
+          },
+          {
+            "headline": "Israeli strikes hit Beirut despite US-brokered ceasefire framework",
+            "eli5": "Israeli jets struck targets in Beirut, Lebanon's capital, even as US diplomats claimed a ceasefire framework was in place. The strikes revealed the fundamental problem with America's Middle East diplomacy: the US could promise ceasefire terms but couldn't force Israel to hold to them. Iran pointed to the Beirut strikes as proof that any agreement with the US was worthless if Israel could simply continue attacking.",
+            "whyItMatters": "A ceasefire that one party ignores is not a ceasefire -- it's a PR statement.",
+            "mnemonic": "Beirut strikes during ceasefire = US promises, Israel acts differently. The gap that makes peace impossible"
+          },
+          {
+            "headline": "Belfast anti-immigration riots: firefighters escort immigrant families from burning homes",
+            "eli5": "A stabbing incident in Belfast, Northern Ireland sparked immediate anti-immigration riots. Immigrant families were forced to evacuate their homes as rioters set fires to properties in several neighbourhoods. Firefighters formed protective cordons to escort families out. Police used water cannons to disperse crowds in Newtownabbey. The riots reflected deep tensions across Europe where economic stress and cultural anxiety were combining into violence.",
+            "whyItMatters": "The Belfast riots showed how quickly economic anxiety becomes racial violence when political leaders inflame fear rather than address causes.",
+            "mnemonic": "Belfast riots = Economic fear + political inflaming = Families fleeing burning homes"
+          }
+        ]
+      },
+      {
+        "name": "\ud83d\udcb8 What's happening with money?",
+        "color": "#a8edcb",
+        "stories": [
+          {
+            "headline": "Global markets react to June 06 news: oil and Iran dictate direction",
+            "eli5": "June 6 markets got a brief relief rally on oil easing to around $95 as Iran talks continued. Nifty recovered to around 23,400. But the D-Day controversy introduced a new worry: if US-Europe relations deteriorated, could NATO cohesion on Iran sanctions weaken? Markets are always thinking three moves ahead.",
+            "whyItMatters": "Oil prices drive India's market more than any domestic factor in June 2026.",
+            "mnemonic": "June 06 market = Oil thermometer + Iran news feed"
+          },
+          {
+            "headline": "India's Nifty: one eye on oil, one eye on domestic fundamentals",
+            "eli5": "Indian market on June 6 saw a modest recovery as oil prices eased slightly. The diplomatic storm from D-Day didn't directly affect India, but markets noted the US-Europe alliance cracks with concern. Banking stocks led the recovery as RBI rate stability reassured lenders.",
+            "whyItMatters": "India's domestic economy was resilient -- the market weakness was imported from global oil prices, not domestic weakness.",
+            "mnemonic": "Nifty June 2026 = Global chaos, domestic resilience. Two very different stories."
+          }
+        ]
+      },
+      {
+        "name": "\ud83d\udcbb What's happening with technology?",
+        "color": "#c9b8f5",
+        "stories": [
+          {
+            "headline": "AI energy demand: Microsoft signs deal for nuclear power to run AI data centres",
+            "eli5": "Microsoft announced it was signing deals to purchase power from new nuclear reactors -- specifically to run its AI data centres. AI models consume extraordinary amounts of electricity: training GPT-4 used more electricity than some small countries generate in a day. Microsoft's nuclear deals are a sign that the AI industry has outgrown conventional renewable energy's ability to supply it.",
+            "whyItMatters": "AI's energy demand is triggering a nuclear renaissance -- the first new reactor orders in decades are specifically for AI infrastructure.",
+            "mnemonic": "AI + nuclear = The power grid of the future being built for chatbots"
+          }
+        ]
+      },
+      {
+        "name": "\ud83c\udf3f What's happening with our planet?",
+        "color": "#f5c6a0",
+        "stories": [
+          {
+            "headline": "June 2026 heat: Scientists confirm 1.5 degree threshold now breached",
+            "eli5": "Climate scientists confirmed in early June 2026 that the global average temperature had now exceeded 1.5 degrees Celsius above pre-industrial levels on a sustained basis -- the threshold that international agreements had pledged to prevent. This doesn't mean the Earth immediately becomes uninhabitable. It means the frequency and intensity of extreme weather events -- floods, droughts, heatwaves, hurricanes -- increases significantly and permanently.",
+            "whyItMatters": "The 1.5 degree breach is not a climate cliff -- it's a cost curve. Every fraction of a degree above means more damage, more displacement, more economic cost.",
+            "mnemonic": "1.5 degrees June 2026 = The line we promised never to cross, now behind us"
+          }
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Trump's June 06 claim of an imminent Iran deal was notable because it was...",
+        "options": [
+          "His first such claim",
+          "His fifth such claim",
+          "At least his 37th such claim since March -- each previous one had failed to materialise",
+          "A joint statement with Iran"
+        ],
+        "answer": 2,
+        "funFact": "The term 'cheapening the signal' describes exactly what happened: each unfulfilled announcement made the next one less credible. Markets learned to reduce their reaction to each successive claim -- until the actual deal was announced, at which point markets barely moved because they'd been crying wolf for months."
+      },
+      {
+        "q": "Tyre (Lebanon) is historically significant because...",
+        "options": [
+          "It's Lebanon's capital city",
+          "It's one of the world's oldest continuously inhabited cities, founded around 2750 BCE by the Phoenicians",
+          "It's where the 2006 Lebanon war ended",
+          "It produces most of Lebanon's oil"
+        ],
+        "answer": 1,
+        "funFact": "Tyre (called Sur in Arabic) was the birthplace of the Phoenician civilisation -- the people who invented the alphabet that all modern Western alphabets descend from. Alexander the Great spent 7 months building a causeway to reach and conquer it in 332 BCE. That causeway is still visible today as a natural land bridge."
+      },
+      {
+        "q": "The Maldives is unique geographically because...",
+        "options": [
+          "It has the most islands of any country",
+          "It is the world's lowest country (average 1.5m above sea level) and faces potential submersion from sea level rise",
+          "It has no natural fresh water at all",
+          "It is the only country entirely made of coral"
+        ],
+        "answer": 1,
+        "funFact": "The Maldivian government began buying land in Sri Lanka and India in 2008 as a contingency plan for climate migration -- becoming the first government in history to formally plan for the relocation of its entire population due to climate change."
+      }
+    ]
+  },
+  "markets": {
+    "globalPulse": {
+      "eli5": "June 6 markets got a brief relief rally on oil easing to around $95 as Iran talks continued. Nifty recovered to around 23,400. But the D-Day controversy introduced a new worry: if US-Europe relations deteriorated, could NATO cohesion on Iran sanctions weaken? Markets are always thinking three moves ahead.",
+      "keyThings": [
+        "Brent Crude: ~$95 - slight ease",
+        "Nifty: ~23,400 - mild recovery",
+        "Gold: holding near $3,270",
+        "USD: slightly softer on Europe tensions"
+      ]
+    },
+    "indianMarket": {
+      "eli5": "Indian market on June 6 saw a modest recovery as oil prices eased slightly. The diplomatic storm from D-Day didn't directly affect India, but markets noted the US-Europe alliance cracks with concern. Banking stocks led the recovery as RBI rate stability reassured lenders.",
+      "breakouts": [
+        {
+          "name": "ICICI Bank (NSE: ICICIBANK)",
+          "whyExciting": "India's second-largest private bank had been building strongly before the June volatility. At these levels it offered an attractive entry point -- one of India's best-run banks at a modest discount. Strong retail loan growth and improving asset quality were the core thesis.",
+          "risk": "Any deterioration in consumer or small business loans from high fuel cost stress.",
+          "halal": false,
+          "buyPrice": "N/A",
+          "sellPrice": "N/A",
+          "stopLoss": "N/A"
+        },
+        {
+          "name": "Wipro (NSE: WIPRO)",
+          "whyExciting": "IT sector defensiveness plus USD earnings. Wipro had been restructuring successfully and guidance was improving. The stock lagged TCS and Infosys, creating a catch-up opportunity.",
+          "risk": "Revenue growth still lagging larger peers -- restructuring takes time to show in numbers.",
+          "halal": true,
+          "buyPrice": "Rs.480",
+          "sellPrice": "Rs.540",
+          "stopLoss": "Rs.445"
+        },
+        {
+          "name": "Titan Company (NSE: TITAN)",
+          "whyExciting": "Titan makes jewellery, watches, and eyewear. The jewellery business benefits indirectly when gold prices rise (aspirational demand) while the rest is consumer discretionary. A rare stock that can be defensive AND consumer-facing.",
+          "risk": "High gold prices eventually crimp margins on jewellery if consumers become too price-sensitive.",
+          "halal": true,
+          "buyPrice": "Rs.3,280",
+          "sellPrice": "Rs.3,650",
+          "stopLoss": "Rs.3,080"
+        }
+      ],
+      "ipoSpot": {
+        "name": "No major IPO this week",
+        "verdict": "Watch",
+        "eli5": "IPO market on pause during geopolitical uncertainty. Ather Energy IPO still in pipeline for post-uncertainty market."
+      },
+      "lessonOfDay": {
+        "title": "The Importance of Market Timing vs Time in the Market",
+        "story": "June 2026 taught Indian investors a painful lesson: nobody called the bottom. The investors who tried to time the market (sell before oil spikes, buy before it recovers) almost universally missed the brief recovery windows. The investors who simply continued their SIPs automatically bought units at the dip -- at discount prices. Peter Lynch said: 'Far more money has been lost by investors preparing for corrections, or trying to anticipate corrections, than has been lost in corrections themselves.'",
+        "mnemonic": "Time IN market beats timing the market. June 2026's SIP investors proved it again"
+      }
+    },
+    "quiz": [
+      {
+        "q": "Peter Lynch's quote 'more money lost preparing for corrections than in corrections' means...",
+        "options": [
+          "Corrections are harmless",
+          "The psychological cost of trying to exit before a dip and re-enter is higher than simply holding through the dip",
+          "Investors should welcome corrections",
+          "Lynch never lost money"
+        ],
+        "answer": 1,
+        "funFact": "Research by DALBAR consistently shows that the average equity mutual fund investor significantly underperforms the fund itself -- because investors sell during downturns and miss the recovery. In 2022-2023, the average investor in S&P 500 funds earned 5% less than the S&P 500 itself, purely from mistimed entries and exits."
+      },
+      {
+        "q": "The advantage of SIPs during market volatility is...",
+        "options": [
+          "SIPs guarantee positive returns",
+          "Rupee cost averaging: fixed monthly amounts buy more units when prices fall, automatically lowering average cost",
+          "SIPs are protected from market falls",
+          "SIPs only work in bull markets"
+        ],
+        "answer": 1,
+        "funFact": "A Rs 10,000 monthly SIP started in January 2020 -- just before COVID caused the Nifty to fall 40% -- would have grown to approximately Rs 2.5 lakh by June 2023. The crash was automatically captured as a buying opportunity. The investor didn't need to do anything special -- the SIP structure did it."
+      },
+      {
+        "q": "Bajaj Finance is called India's premium consumer NBFC because...",
+        "options": [
+          "It has the highest interest rates",
+          "It has the strongest underwriting quality, lowest default rates, and most sophisticated risk management among consumer lenders",
+          "It only lends to premium income groups",
+          "The Bajaj brand makes it premium"
+        ],
+        "answer": 1,
+        "funFact": "Bajaj Finance grew its loan book from Rs 15,000 crore in 2012 to over Rs 3,00,000 crore in 2025 -- a 20x growth in 13 years while maintaining industry-leading asset quality. This combination of growth and quality is extraordinarily rare in financial services globally."
+      }
+    ]
+  },
+  "psychology": {
+    "mindTrick": {
+      "name": "The Halo Effect -- One Good Thing Makes Everything Seem Good",
+      "eli5": "Solomon Asch discovered in 1946 that when we learn one positive thing about a person, we immediately assume other positive things. A well-dressed, attractive person at a meeting is assumed to be more intelligent, more trustworthy, and more competent -- before they've said a single word. This is why we trust good-looking politicians more, why luxury brand packaging makes the product taste better, and why a first impression built on appearance persists even when contradicted by later evidence.",
+      "realLife": "Every job interview where the candidate 'looks the part' benefits from the Halo Effect. The reverse -- the Devil Effect -- works identically: one negative trait (untidy dress, awkward handshake) causes us to assume other negatives. Managing first impressions is not superficial -- it's neurologically how humans process new people.",
+      "mnemonic": "Halo Effect = One positive -> assume all positive. First impressions stick because the brain is lazy."
+    },
+    "bodyLanguage": {
+      "signal": "The Superman Pose vs the Shrinking Pose",
+      "eli5": "Your body posture directly affects your own psychology -- not just how others see you. Stand with legs wide, hands on hips, chest out (the Superman pose) for 2 minutes and your testosterone rises while cortisol (stress hormone) falls. Curl inward, shoulders hunched, arms crossed (the shrinking pose) and the opposite hormonal pattern occurs. Amy Cuddy's research showed this posture-hormone link is strong enough to affect performance outcomes.",
+      "howToUse": "Before any high-stakes situation -- presentation, difficult conversation, job interview -- spend 2 minutes in a private space in the Superman pose. Not as a trick for others -- as a neurochemical self-preparation.",
+      "mnemonic": "Superman pose 2 mins = More testosterone, less cortisol. Body chemistry changes before the meeting"
+    },
+    "superpower": {
+      "name": "Scarcity -- We Want What Is Rare",
+      "story": "Cialdini: 'The way to love anything is to realize that it might be lost.' Limited edition. Last two items in stock. Offer expires midnight. 24-hour sale. One-time opportunity. Every one of these phrases activates the same ancient brain circuit: scarcity = value. We evolved in an environment where rare resources (food, mates, territory) were genuinely valuable and common resources weren't. The brain hasn't updated for artificial scarcity manufactured by marketers -- it responds the same way to both.",
+      "shield": "When you feel urgency around a decision because of scarcity language, force a pause. Ask: 'Is this genuinely scarce or is scarcity manufactured to pressure me?' Most 'limited time offers' are not limited. Most 'last few available' alerts are triggered by code when inventory is above a threshold.",
+      "mnemonic": "Scarcity = Urgency manufacturer. Pause when you feel it. Ask: real or manufactured?"
+    },
+    "quiz": [
+      {
+        "q": "The Halo Effect means that meeting someone well-dressed makes you assume they're also...",
+        "options": [
+          "Older than they look",
+          "More intelligent, competent, and trustworthy -- before any evidence supports this",
+          "More conservative",
+          "A good cook"
+        ],
+        "answer": 1,
+        "funFact": "Research on US presidential elections found that taller candidates win more often than shorter ones -- even controlling for policy positions and debate performance. The Halo Effect associates physical stature with leadership stature, making height a genuine political advantage in a society that shouldn't care about it."
+      },
+      {
+        "q": "Amy Cuddy's 'power posing' research showed that 2 minutes in an expansive posture...",
+        "options": [
+          "Makes others see you as more dominant",
+          "Changes your own hormonal profile -- raising testosterone and lowering cortisol, affecting performance",
+          "Only works for men",
+          "Requires specific clothing to be effective"
+        ],
+        "answer": 1,
+        "funFact": "Cuddy's TED talk on power posing is one of the 5 most-viewed TED talks in history with over 65 million views. A replication crisis in 2017 challenged some of her specific findings, but the core finding -- that body posture affects self-perceived confidence and performance -- has been repeatedly confirmed."
+      },
+      {
+        "q": "The Scarcity Principle works because...",
+        "options": [
+          "Rare things are always more valuable",
+          "We evolved to treat scarcity as a reliable signal of value, and our brains respond to manufactured scarcity the same way as real scarcity",
+          "Limited editions really are better quality",
+          "Fear of missing out is a modern invention"
+        ],
+        "answer": 1,
+        "funFact": "The psychological term for scarcity-driven desire is 'reactance' -- when our freedom to choose something is threatened (by its potential unavailability), we want it more. This is why cookie jars with tight lids are accessed more than open jars even when the cookies are identical."
+      }
+    ]
+  },
+  "leadership": {
+    "leaderMove": {
+      "name": "The Mastermind Principle -- Your Circle Determines Your Ceiling",
+      "story": "Napoleon Hill, after interviewing 500 of the world's most successful people over 20 years for 'Think and Grow Rich,' identified one pattern above all others: every highly successful person had a 'mastermind group' -- a small circle of peers who challenged, supported, and elevated their thinking. Andrew Carnegie's mastermind was the group of 20 men who helped him build the largest steel empire in history. Henry Ford's mastermind included Edison, Firestone, and Harvey. Warren Buffett and Charlie Munger are each other's most important mastermind. You become the average of the people you spend the most time with.",
+      "doThis": "Identify the 5 people you spend the most professional time with. Honestly: do they challenge you to grow, or do they confirm your current thinking? If the latter: deliberately seek one relationship with someone 5-10 years ahead of where you want to be.",
+      "mnemonic": "Mastermind = Your 5 closest people are your ceiling. Choose them like you choose investments."
+    },
+    "visionarySecret": {
+      "concept": "The Adjacent Possible -- How Innovation Really Happens",
+      "eli5": "Stuart Kauffman's insight: at any moment in history, only certain innovations are possible -- because only certain building blocks exist. The iPhone couldn't exist in 1970 -- transistors, touchscreens, internet, lithium batteries, and cellular networks all had to exist first. Once all the building blocks were in place, the iPhone was almost inevitable. Multiple inventors were working on similar devices simultaneously. Innovation happens at the edge of the 'adjacent possible' -- what becomes possible when new building blocks arrive. AI was the adjacent possible of neural networks + massive data + cheap computing. All three arrived together in the 2020s.",
+      "exercise": "Look at your industry. What new building blocks have arrived in the last 2-3 years that didn't exist before? What combination of those new blocks creates something that couldn't previously exist?",
+      "mnemonic": "Adjacent possible = New innovations need new building blocks. Spot what just arrived. Combine it."
+    },
+    "eliteHabit": {
+      "habit": "The 5-Hour Rule -- Protecting Learning Time",
+      "whoAndHow": "Bill Gates (50 books/year), Elon Musk (2 books/day early in life), Warren Buffett (80% of the day reading), Mark Cuban (3 hours of reading per day) -- the pattern among elite performers is consistent: they protect at least 1 hour per day (5 hours per week) for learning. Not Netflix. Not social media. Deliberate learning: books, papers, conversations with smart people, courses.",
+      "whyItWorks": "Michael Simmons (who coined the 5-Hour Rule after studying successful people) found that learning compounds like money: each new insight connects to existing knowledge to create non-linear growth in capability. People who stop learning after formal education stop compounding their most important asset -- their mind.",
+      "mnemonic": "5-Hour Rule = 1 hour/day protected for learning. Compounding knowledge beats compounding money."
+    },
+    "sigmaWisdom": {
+      "lesson": "Amor Fati -- Love Your Fate",
+      "story": "Friedrich Nietzsche's most powerful idea: Amor Fati -- Love your Fate. Not accept it. Not endure it. Love it. Every event that happens to you -- including the worst ones -- is part of your story and has made you what you are. Marcus Aurelius practised this: when children died, when wars were lost, when plans failed -- he tried to see those events not just as necessary but as good, as the material of character. Ryan Holiday calls it 'the obstacle is the way.' The person who can genuinely love their fate (not just accept it grudgingly) has found a source of strength that nothing external can take away.",
+      "action": "Think of the worst thing that happened to you in the last year. Write one way in which that event -- despite its difficulty -- made you stronger, wiser, or different in a way that benefits you now. This reframe is not denial. It's extracting value from unavoidable pain.",
+      "mnemonic": "Amor Fati = Not just endure your fate. Love it. Mine it. The obstacle shapes the miner."
+    },
+    "quiz": [
+      {
+        "q": "Napoleon Hill's 'mastermind group' concept says success correlates with...",
+        "options": [
+          "Natural talent",
+          "The quality of your 5 closest advisors and peers -- you rise (or plateau) to their level",
+          "Working alone for maximum focus",
+          "Having a single great mentor"
+        ],
+        "answer": 1,
+        "funFact": "Jim Rohn's version of this principle -- 'You are the average of the 5 people you spend the most time with' -- became one of the most cited quotes in self-improvement culture. Quantitative research on social networks by Nicholas Christakis confirmed that behaviors, happiness, and success levels are statistically contagious across 3 degrees of social connection."
+      },
+      {
+        "q": "Stuart Kauffman's 'Adjacent Possible' explains innovation because...",
+        "options": [
+          "New ideas come from random inspiration",
+          "Innovations only become possible when their prerequisite building blocks exist -- explaining why multiple inventors often discover the same thing simultaneously",
+          "The best innovators think furthest into the future",
+          "Innovation requires permission from society"
+        ],
+        "answer": 1,
+        "funFact": "Steven Johnson documented 12 major innovations where multiple people independently invented the same thing within months of each other: calculus (Newton and Leibniz), telephone (Bell and Gray filed patents on the SAME DAY), evolution (Darwin and Wallace), and more. The adjacent possible makes certain innovations inevitable once building blocks exist."
+      },
+      {
+        "q": "The 5-Hour Rule is important because...",
+        "options": [
+          "Reading 5 hours per week guarantees success",
+          "Deliberate learning compounds -- each new insight connects to existing knowledge, creating non-linear capability growth that only continues if protected time is maintained",
+          "Successful people have 5 spare hours per week",
+          "Books are the best learning format"
+        ],
+        "answer": 1,
+        "funFact": "Elon Musk taught himself rocket science by reading aerospace textbooks. Jeff Bezos read every book on retail and supply chain before founding Amazon. Both cited specific books as changing their strategic thinking. Bill Gates takes two week-long 'Think Weeks' per year with no meetings -- only books and thinking. Learning wasn't their hobby; it was their competitive advantage infrastructure."
+      }
+    ]
+  },
+  "wealth": {
+    "wealthSecret": {
+      "name": "The Asset Allocation Framework -- How Much in What",
+      "story": "Ray Dalio at Bridgewater (the world's largest hedge fund) spent decades designing the 'All Weather Portfolio' -- a mix of assets that would perform reasonably well in any economic environment. His insight: economic conditions come in four flavours (growth + inflation, growth + deflation, recession + inflation, recession + deflation). Most portfolios do well in one environment and terribly in others. A diversified allocation across equities (30%), long-term bonds (40%), medium bonds (15%), gold (7.5%), and commodities (7.5%) has outperformed more concentrated portfolios over 25 years with significantly lower volatility.",
+      "action": "Review your own portfolio allocation. What percentage is in: equities, debt, gold, real estate? If it's 90%+ in one category, you're taking concentration risk you may not intend. A simple rebalancing to include some gold and debt significantly reduces volatility without proportionally reducing returns.",
+      "mnemonic": "All Weather Portfolio = Perform in all 4 economic conditions. Diversification is not just stocks vs bonds."
+    },
+    "moneyMachine": {
+      "type": "Index Funds vs Active Funds -- The Data Says Something Surprising",
+      "eli5": "Most mutual funds are 'actively managed' -- a fund manager picks stocks they think will outperform. For this service, they charge 1-2% per year. Index funds simply buy all the stocks in an index (like Nifty 50) mechanically, charging 0.05-0.2% per year. The shocking data: over 10+ year periods, approximately 85-90% of actively managed funds underperform their index. Most fund managers, despite their expensive offices and PhD teams, cannot beat the market consistently.",
+      "indiaAngle": "India's situation is slightly different from the US -- some actively managed midcap funds have historically beaten their indices in India because Indian markets are less efficient than US markets (more opportunities for skilled stock-picking). But for large-cap exposure: Nifty 50 index funds consistently beat most active large-cap funds over 10+ years.",
+      "mnemonic": "Index funds beat 85-90% of active funds over 10 years. The most boring investing strategy often wins."
+    },
+    "mindsetFlip": {
+      "oldThinking": "Diversification means owning many different stocks",
+      "newThinking": "True diversification means owning assets that move in DIFFERENT directions under the same conditions -- stocks AND gold AND bonds AND real estate",
+      "why": "In March 2020, almost all stocks fell together. Gold rose. Government bonds rose. A portfolio of 50 stocks was not diversified -- it just had concentrated equity risk spread across 50 baskets. True diversification requires assets with low or negative correlation -- things that zig when others zag.",
+      "mnemonic": "True diversification = Assets that move in different directions. 50 stocks is 1 bet, not 50 bets."
+    },
+    "magicNumber": {
+      "number": "The 1/N Rule for Rebalancing",
+      "eli5": "When you have N asset classes in your portfolio, allocate roughly equally (1/N each) and rebalance annually back to that allocation. Vanguard research showed this 'naive' approach outperforms more sophisticated allocation models in most market conditions -- because it forces you to sell what has risen (buy high) and buy what has fallen (buy low), automatically. The discipline of mechanical rebalancing removes emotion from investing.",
+      "mnemonic": "1/N rule = Equal allocation + annual rebalance = Automatic sell-high-buy-low. Mechanical is better than emotional."
+    },
+    "quiz": [
+      {
+        "q": "Ray Dalio's 'All Weather Portfolio' is designed to...",
+        "options": [
+          "Maximise returns in bull markets",
+          "Perform reasonably well across all four economic conditions -- growth, recession, inflation, and deflation",
+          "Protect entirely against losses",
+          "Only invest in safe government bonds"
+        ],
+        "answer": 1,
+        "funFact": "Dalio backtested the All Weather Portfolio across multiple decades and found it had positive returns in 86% of years -- including delivering positive returns during the 2008 financial crisis when most equity portfolios lost 40-50%. The secret: long-term bonds rose sharply when equities crashed, offsetting the equity losses."
+      },
+      {
+        "q": "Index funds outperform active funds over 10+ years primarily because...",
+        "options": [
+          "Index managers are smarter",
+          "Lower fees compound dramatically over time, and beating the market consistently is statistically very difficult even for professional managers",
+          "Index funds take no risk",
+          "Index funds buy better stocks"
+        ],
+        "answer": 1,
+        "funFact": "Warren Buffett won a famous $1 million bet in 2008 that a simple S&P 500 index fund would outperform a basket of hedge funds over 10 years. The index fund returned 7.1% annually. The hedge funds: 2.2%. Buffett has recommended index funds for ordinary investors repeatedly. 'Most investors would be better served by indexing.'"
+      },
+      {
+        "q": "True portfolio diversification requires...",
+        "options": [
+          "Owning 50+ different stocks",
+          "Assets with low or negative correlation -- that move in different directions under the same economic conditions",
+          "Investing in different countries only",
+          "Having both growth and value stocks"
+        ],
+        "answer": 1,
+        "funFact": "The concept of correlation is central to Modern Portfolio Theory (Harry Markowitz, 1952 -- Nobel Prize 1990). Markowitz proved mathematically that combining assets with low correlation reduces portfolio risk without proportionally reducing returns. Gold's 20-year correlation with Indian equities is approximately -0.1 (near zero to slightly negative) -- making it one of the best diversifiers for an equity-heavy Indian portfolio."
+      }
+    ]
+  },
+  "communication": {
+    "speakingSkill": {
+      "name": "The Rhetorical Question -- Engaging the Mind Before the Answer",
+      "story": "The most powerful speeches don't just tell people things -- they ask questions that make the audience think, then answer them. 'Ask not what your country can do for you -- ask what you can do for your country.' Kennedy didn't just say 'you should serve your country.' He asked, then answered. Martin Luther King used rhetorical questions throughout. Steve Jobs: 'Do you want to sell sugar water for the rest of your life, or do you want to come with me and change the world?' -- asked to Pepsi CEO John Sculley he was recruiting to Apple. The question engages the listener's brain before the answer lands.",
+      "drill": "Take your most important message in an upcoming presentation or conversation. Convert it to a rhetorical question + answer. 'The question everyone in this room is really asking is: how do we grow 30% with the same team? Here's how...' Practice until it feels natural.",
+      "mnemonic": "Rhetorical question = Engage brain before answer lands. Question + answer > Statement alone. Always."
+    },
+    "negotiationMove": {
+      "tactic": "The Higher Authority Move -- Creating Room to Consult",
+      "eli5": "Saying 'I need to check with someone else' before agreeing to anything gives you a pause, an exit, and a second opinion without looking indecisive. 'I'll need to run this by my partner.' 'Let me confirm this with my team.' 'I should verify this with our finance department.' This move is powerful even if you don't actually need to consult anyone -- it signals that you're thoughtful, it prevents impulsive agreements you'll regret, and it gives the other party time to wonder if they should offer something better.",
+      "script": "When pressured to decide immediately: 'I want to say yes to this -- it sounds good. But I need to confirm one thing before I commit. Can we talk again tomorrow?'",
+      "mnemonic": "Higher authority move = 'I need to check' = pause + exit + second opinion. Strength disguised as process."
+    },
+    "officeWin": {
+      "rule": "Disagree clearly once, then commit fully -- never passive-aggress",
+      "story": "The most destructive office behaviour is the person who nods in agreement during a decision, then passively undermines the decision afterward: 'Well, I said I didn't think this would work...' This 'I told you so' positioning is corrosive to team trust and is noticed by leadership. The respectful and powerful alternative: disagree clearly before the decision is made ('I have concerns about X'), get overruled, then commit fully to making the chosen path work. This is called 'disagree and commit' -- Amazon's culture mandates it.",
+      "mistake": "Most people either suppress disagreement (which builds resentment) or passive-aggressively signal it after the decision (which destroys trust). The third path -- clear dissent followed by full commitment -- is almost universally respected.",
+      "mnemonic": "Disagree once clearly, commit fully. No passive-aggression. 'I said so' later = Trust destroyer."
+    },
+    "confidenceHack": {
+      "technique": "Warm Up Your Voice Before Speaking",
+      "science": "The voice is a muscle instrument. Cold-starting your voice in an important meeting or presentation produces a thinner, higher-pitched sound that signals anxiety to listeners. Opera singers and professional speakers warm up their voices for 10-20 minutes before performing -- humming, lip trills, speaking text at exaggerated volumes and pitches. Five minutes of vocal warm-up produces a measurably richer, more authoritative vocal tone.",
+      "doItNow": "Before any important meeting: hum a comfortable note for 30 seconds. Then say a full sentence loudly (private space). Then say it at normal volume. Then do lip trills (brrr sound). Your voice will be demonstrably warmer and fuller for the next 60-90 minutes.",
+      "mnemonic": "Vocal warm-up = Voice is a muscle instrument. 5 minutes of prep = 60 minutes of richer, more confident sound."
+    },
+    "quiz": [
+      {
+        "q": "Rhetorical questions work in speeches because...",
+        "options": [
+          "They make speeches longer",
+          "They engage the audience's brain before the answer arrives, creating active mental participation rather than passive listening",
+          "They make the speaker seem uncertain",
+          "Audiences enjoy answering questions aloud"
+        ],
+        "answer": 1,
+        "funFact": "Cicero, Rome's greatest orator (106-43 BC), used rhetorical questions throughout his speeches and wrote extensively about their power. His most famous speech opening -- 'How long, Catiline, will you continue to abuse our patience?' -- is a rhetorical question that has been studied in rhetoric courses for 2,000 years."
+      },
+      {
+        "q": "The 'Higher Authority' negotiation move creates value by...",
+        "options": [
+          "Actually getting better advice",
+          "Creating a pause that prevents impulsive decisions, an exit if needed, and often prompts the other party to improve their offer",
+          "Appearing more important",
+          "Delaying until you have more information"
+        ],
+        "answer": 1,
+        "funFact": "The 'nibble' (asking for one more small thing at the last minute) and the 'higher authority move' are the two most consistently effective low-risk negotiation tactics across cultures, according to Herb Cohen's research. Both exploit timing and psychology without aggression."
+      },
+      {
+        "q": "Amazon's 'disagree and commit' culture requires...",
+        "options": [
+          "Never disagreeing with leadership",
+          "Expressing disagreement clearly before decisions, then fully committing to executing the chosen path without passive-aggressive resistance",
+          "Always agreeing with team decisions",
+          "Committing to disagree on important matters"
+        ],
+        "answer": 1,
+        "funFact": "Jeff Bezos used 'disagree and commit' personally in a famous letter: he disagreed with a team's decision to use a particular technology approach but committed to supporting it anyway, writing: 'I disagree and commit and hope it becomes the greatest invention ever.' The approach is now standard practice at Amazon and has been adopted by numerous other companies."
+      }
+    ]
+  },
+  "mind": {
+    "brainHack": {
+      "name": "The Intention-Behaviour Gap -- Bridge It With Planning",
+      "eli5": "Peter Gollwitzer's landmark research: people consistently report the best intentions that they then fail to act on. 'I'll exercise more.' 'I'll spend less.' 'I'll call my parents every Sunday.' The gap between intention and behaviour is not about willpower -- it's about the absence of a specific plan. When Gollwitzer added one step -- 'When exactly will you do it? Where? How?' -- follow-through rates jumped from 35% to 91%. The specific plan converts a wish into a programmed behaviour.",
+      "protocol": "For any habit or goal you genuinely want to achieve: write 'I will [behaviour] at [time] in [location] when [trigger].' Be exact. 'I will exercise at 7am, in my living room, immediately after I make my morning coffee.' The trigger-action specificity is what bridges intention and behaviour.",
+      "mnemonic": "Intention-Behaviour gap = Bridge with: When, Where, Trigger. Specific plan converts wish to program."
+    },
+    "disciplineCode": {
+      "principle": "The Identity-Based Habit -- Being Before Doing",
+      "story": "James Clear's central insight from 'Atomic Habits': most people try to change behaviour by changing outcomes ('I want to lose weight') or processes ('I'll do intermittent fasting'). The most durable change comes from changing identity: 'I am a healthy person. Healthy people don't eat that.' 'I am a runner. Runners run even when it's raining.' Every action then either confirms or contradicts your identity. The two-step process: decide who you want to be. Then prove it to yourself with small wins. Eventually the identity becomes who you actually are.",
+      "todayAction": "Choose one identity statement for a behaviour you've been trying to build: 'I am a [reader/investor/learner/athlete].' Say it out loud. Then do ONE small action that confirms it today. Not a big action. Just a confirming one.",
+      "mnemonic": "Identity-based habit = Be the person first. Do what that person does. Tiny proof, big identity."
+    },
+    "impulseKiller": {
+      "urge": "The urge to immediately respond to messages and emails",
+      "eli5": "The brain treats an unread notification like a physical object in your visual field -- it demands attention involuntarily. This is by design: messaging apps, email clients, and social platforms employ notification psychologists whose entire job is maximising compulsive checking. The average person checks their phone 96 times per day. Each check interrupts whatever you were doing and takes 23 minutes to fully resume at the same quality. Most messages could be answered in a batch 2-3 times per day with no meaningful delay.",
+      "interrupt": "Set three specific 'message check' windows per day (morning, midday, end of work). Outside those windows: notifications off, phone face-down. Communicate to key contacts: 'I check messages at 9am, 1pm, and 5pm -- for urgent things, call.' Within 2 weeks, the compulsive checking urge diminishes significantly.",
+      "mnemonic": "Message batching = 3 checks per day, 23 minutes saved per interruption avoided. Reclaim 4+ hours weekly."
+    },
+    "bodyUpgrade": {
+      "practice": "Deliberate Heat Exposure -- Sauna for Brain and Body",
+      "eli5": "A Finnish study tracking 2,315 men over 20 years found that using a sauna 4-7 times per week reduced cardiovascular disease risk by 50% compared to once per week. The mechanism: heat stress triggers cardiovascular adaptations similar to moderate exercise, releases heat shock proteins that repair cellular damage, spikes growth hormone, and floods the brain with mood-enhancing compounds (BDNF, endorphins, norepinephrine). Dr. Rhonda Patrick calls regular sauna use 'exercise in a box' for those who can't exercise much.",
+      "minimumDose": "15-20 minutes in a sauna at 80-100 degrees Celsius, 3+ times per week. If no sauna: a very hot bath for 20 minutes provides partial benefit (especially cardiovascular and stress-reduction effects).",
+      "mnemonic": "Sauna 3x/week = 50% lower cardiovascular risk in 20-year study. Controlled heat stress = free health upgrade."
+    },
+    "quiz": [
+      {
+        "q": "Gollwitzer's implementation intention research showed that adding 'when, where, and trigger' to goals...",
+        "options": [
+          "Reduced motivation by making goals seem too rigid",
+          "Increased follow-through from 35% to 91% by converting vague intentions into specific programmed responses",
+          "Only worked for simple habits",
+          "Worked for some personality types only"
+        ],
+        "answer": 1,
+        "funFact": "Gollwitzer's research on implementation intentions has been replicated across hundreds of studies in health behaviour (exercise, medication adherence), academic performance, and professional goals. The finding is remarkably consistent: specificity of when, where, and how dramatically increases follow-through regardless of the type of goal."
+      },
+      {
+        "q": "James Clear's identity-based habit approach works because...",
+        "options": [
+          "You trick yourself into thinking you already have the habit",
+          "Identity creates consistency pressure -- every action either confirms or contradicts who you believe you are",
+          "Self-image is more powerful than willpower",
+          "Big identity claims produce immediate behaviour change"
+        ],
+        "answer": 1,
+        "funFact": "Social identity theory (Henri Tajfel, 1970s) found that people behave consistently with their self-concept even when it costs them. Smokers who identified as 'smokers' were significantly harder to treat than those who described themselves as 'people who sometimes smoke' -- the identity itself predicted the behaviour, independent of addiction level."
+      },
+      {
+        "q": "Regular sauna use (4-7x/week) is associated with...",
+        "options": [
+          "Improved athletic performance only",
+          "50% reduction in cardiovascular disease risk over 20 years -- comparable to a dedicated exercise programme",
+          "Weight loss primarily",
+          "Reduced stress only"
+        ],
+        "answer": 1,
+        "funFact": "Finland has the world's highest density of saunas -- approximately 3 million saunas for 5.5 million people. Finnish culture treats sauna as a social, health, and even spiritual practice. The Laukkanen study (2018) that showed the 50% cardiovascular risk reduction was tracking Finnish men in their natural cultural habitat -- where 4-7 sauna sessions per week is normal, not exceptional."
+      }
+    ]
+  },
+  "knowledge": {
+    "mathMagic": {
+      "concept": "Exponential Growth vs Linear Growth -- The Mind-Bending Difference",
+      "eli5": "Linear growth adds a fixed amount each period. If you save Rs 1,000 per month for 10 years, you have Rs 1.2 lakh. Exponential growth multiplies by a fixed amount each period. If that Rs 1,000/month earns 12% annual returns, you have approximately Rs 2.3 lakh in 10 years and Rs 35 lakh in 30 years. The difference between linear and exponential isn't visible at first (years 1-5 they look similar) but diverges massively over time. The human brain is wired for linear thinking -- this is why people consistently underestimate compound growth and overestimate what they can achieve in one year and underestimate what they can achieve in ten.",
+      "realWorldUse": "Covid-19 spread exponentially -- cases doubled every 3-5 days. Most people's linear intuitions catastrophically underestimated the speed. The same intuition failure explains why most people dramatically underestimate investment returns over 20+ years and overestimate returns over 5 years.",
+      "mnemonic": "Exponential vs linear = Small early difference, massive long-term divergence. Human brains see linear. Reality compounds."
+    },
+    "scienceWow": {
+      "field": "Physics",
+      "concept": "Entropy -- Everything Tends Toward Disorder",
+      "eli5": "Entropy is the universe's most fundamental tendency: things naturally move from order to disorder. A room gets messy on its own. Ice melts in warm water. Salt dissolves in water. You have to work to create order -- order doesn't create itself. The Second Law of Thermodynamics says the total entropy of a closed system always increases. This means: the universe is constantly moving toward maximum disorder. Life itself is a temporary, astonishing exception -- complex ordered systems that expend energy to maintain their order against the universe's relentless tendency toward chaos.",
+      "mindBlow": "Black holes may represent maximum entropy -- the endpoint of matter. When a black hole evaporates via Hawking radiation, Stephen Hawking proposed that the information of everything that fell into it is eventually radiated back out -- but in unrecoverable form. The universe 'forgets' in a maximum entropy way.",
+      "mnemonic": "Entropy = Universe tends toward disorder always. You must expend energy to create and maintain order. Always."
+    },
+    "historyStory": {
+      "event": "The Great Fire of London 1666 -- The City That Rebuilt Itself Better",
+      "story": "On September 2, 1666, a fire started in a bakery on Pudding Lane and burned for four days, destroying 13,200 houses, 87 churches, and most of medieval London. About 65,000 people were left homeless. The king declared it an Act of God. But London rebuilt -- and rebuilt better. Christopher Wren designed 52 new churches including St Paul's Cathedral. The city adopted its first building codes (brick and stone, not timber). The fire destroyed the medieval city and created the foundation of the modern financial capital. Disaster became transformation.",
+      "lesson": "The Great Fire of London is history's clearest example of creative destruction: the old city was too cramped, too wooden, too medieval to become a modern metropolis. The fire that destroyed it enabled the transformation. Many of the biggest opportunities in business, careers, and cities come embedded in catastrophes.",
+      "mnemonic": "Great Fire 1666 = Destroyed the old, enabled the modern. Disasters create the space for transformation."
+    },
+    "earthSecret": {
+      "place": "Norway",
+      "secret": "Norway has one of the world's largest sovereign wealth funds -- the Government Pension Fund Global -- worth approximately $1.8 trillion (as of 2026). It was built entirely from oil revenues since the 1990s. Every Norwegian citizen is effectively a millionaire by proxy. Norway chose to save and invest its oil wealth rather than spend it (unlike many oil-rich nations that consumed theirs). The fund owns approximately 1.5% of ALL listed companies in the world. Norway discovered oil in 1969 and made a deliberate choice: this is a temporary resource. We will save it for generations that come after the oil runs out.",
+      "edge": "Norway's sovereign wealth fund model is studied by every oil-rich nation as the gold standard for resource wealth management. Understanding it illuminates why some countries build permanent wealth from temporary resources (Norway, Singapore) while others consume and leave nothing (Venezuela, Angola).",
+      "mnemonic": "Norway oil fund = $1.8 trillion saved for future generations. Save the windfall. Spend the interest. Perfect resource management."
+    },
+    "quiz": [
+      {
+        "q": "Exponential growth differs from linear growth most dramatically...",
+        "options": [
+          "In the first year",
+          "In the first 5 years",
+          "After 15-20+ years, when the compounding creates orders-of-magnitude differences invisible in early years",
+          "Only in mathematical models, not real life"
+        ],
+        "answer": 2,
+        "funFact": "A famous thought experiment: if a pond has one lily pad on day 1, and the number doubles each day, the pond is half full on day 29 and full on day 30. People watching the pond every day would feel no urgency until day 29 -- then have 24 hours to respond to full coverage. COVID-19 spread worked identically. So does compound investment growth."
+      },
+      {
+        "q": "Entropy means that in a closed system, disorder...",
+        "options": [
+          "Remains constant unless disturbed",
+          "Increases over time naturally -- you must expend energy to create and maintain order",
+          "Can be reversed without energy input",
+          "Only applies to physical systems, not organizations or information"
+        ],
+        "answer": 1,
+        "funFact": "The concept of entropy was developed by Rudolf Clausius in 1865 and later by Ludwig Boltzmann. Boltzmann was so depressed by the philosophical implications of entropy (that the universe will eventually reach maximum disorder and die as 'heat death') that some historians believe it contributed to his suicide in 1906. The Second Law of Thermodynamics is perhaps the most philosophically unsettling scientific discovery in history."
+      },
+      {
+        "q": "The Great Fire of London 1666 led to...",
+        "options": [
+          "The collapse of London as a city",
+          "The adoption of England's first building codes (brick instead of timber) and the rebuilding of London as a modern city with St Paul's Cathedral",
+          "London moving its capital elsewhere",
+          "A major war with France"
+        ],
+        "answer": 1,
+        "funFact": "Christopher Wren's original plan for post-fire London included wide boulevards radiating from major focal points -- essentially Paris before Paris had those boulevards. The plan was rejected because property owners wanted to rebuild on their exact previous plots. London ended up with compromise improvements rather than Wren's vision. Some urban historians argue London would be more beautiful today if the fire plan had been fully executed."
+      }
+    ]
+  },
+  "ai": {
+    "toolSpotlight": {
+      "name": "Claude (Anthropic)",
+      "category": "Research / Writing / Analysis / Coding",
+      "eli5": "Claude is Anthropic's AI assistant -- designed from the ground up with safety as a primary concern alongside capability. Unlike some AI assistants, Claude is designed to say 'I don't know' or 'I'm not sure' rather than confabulate (make things up confidently). It excels at long-form analysis, nuanced writing, coding, research synthesis, and tasks requiring careful reasoning. Claude can process very long documents (books, reports, legal contracts) in a single conversation and is particularly strong at following complex instructions.",
+      "secretMove": "Use Claude for adversarial review of your own work: paste your proposal, plan, or argument and ask 'What are the 3 strongest objections someone could make to this? What am I most likely wrong about?' Claude is honest about flaws in a way that people who know you personally might not be -- making it a valuable thinking partner for self-challenge.",
+      "mnemonic": "Claude = AI that says 'I don't know' honestly. Use it for self-challenge, not just self-confirmation."
+    },
+    "workflowWin": {
+      "title": "The Contract and Document Review System",
+      "problem": "Most people don't read contracts carefully -- they're long, technical, and boring. Then they're surprised by clause 47 that waives their rights to something important.",
+      "steps": [
+        "When you receive any contract, agreement, or important document: upload it to Claude or Gemini (both accept PDFs)",
+        "Ask: 'What are the 5 most important things I should understand before signing this? What clauses could hurt me?'",
+        "Then ask: 'Are there any unusual or non-standard terms in this document compared to typical agreements of this type?'",
+        "Finally: 'What questions should I ask the other party or a lawyer before signing?'"
+      ],
+      "timeSaved": "Replaces 2-4 hours of anxious document reading with 10-15 focused minutes -- and often finds things you would have missed.",
+      "mnemonic": "AI contract review = 15 minutes of AI reading vs 3 hours of anxiety. Find the clause 47 first."
+    },
+    "promptOfDay": {
+      "purpose": "Create a personalised habit plan that actually fits your life",
+      "prompt": "I want to build this habit: [DESCRIBE HABIT]. My current daily schedule is approximately: [DESCRIBE YOUR TYPICAL DAY - when you wake, work, eat, sleep]. My biggest obstacles to this habit have been: [DESCRIBE WHAT HAS STOPPED YOU BEFORE]. Create: 1) An implementation intention (exact when/where/trigger for the habit), 2) A minimum viable version of the habit for difficult days, 3) A habit stack (what existing habit can this attach to?), 4) A method to track it without using another app, 5) What to do when I miss a day.",
+      "where": "Claude",
+      "mnemonic": "Habit plan prompt = Schedule-specific, obstacle-aware, minimum viable, stackable. Habits that fit real life, not ideal life."
+    },
+    "futureWatch": {
+      "trend": "AI is generating scientific discoveries independently",
+      "eli5": "In 2024, Google's AlphaFold solved one of biology's greatest mysteries (protein folding) for 200 million proteins -- a problem that would have taken human scientists thousands of years. In 2026, AI systems are now independently generating hypotheses, designing experiments, and discovering materials. Microsoft's AI has identified 18 new battery materials with 70% fewer lithium requirements. Insilico Medicine used AI to design and advance a drug candidate to clinical trials in 18 months -- vs 10-15 years normally. Science itself is accelerating.",
+      "yourMove": "If you work in any research, healthcare, or technical field: the most valuable thing you can do this year is learn to work WITH AI research tools, not just use them as search engines. The researchers who learn to collaborate with AI rather than compete with it will produce significantly more significant work.",
+      "mnemonic": "AI generates science = AlphaFold solved proteins. AI accelerating discovery. Collaborate, don't compete."
+    },
+    "quiz": [
+      {
+        "q": "Claude's most distinctive design principle is...",
+        "options": [
+          "Being the fastest AI",
+          "Being designed with safety as a primary concern alongside capability, including honesty about uncertainty",
+          "Having the largest training dataset",
+          "Being free to use"
+        ],
+        "answer": 1,
+        "funFact": "Anthropic was founded by former OpenAI researchers including Dario and Daniela Amodei specifically to focus on AI safety research. Their Constitutional AI approach trains models to follow a set of principles -- making Claude more likely to acknowledge uncertainty, refuse harmful requests, and avoid sycophancy (just agreeing with users to please them)."
+      },
+      {
+        "q": "AI document review is valuable because...",
+        "options": [
+          "AI is a licensed lawyer",
+          "AI can process and identify key clauses in complex documents in minutes vs hours of human reading, flagging unusual terms and potential risks",
+          "It replaces professional legal advice",
+          "Contracts are always standardised"
+        ],
+        "answer": 1,
+        "funFact": "Studies comparing AI contract review to junior lawyer contract review found AI achieved 94% accuracy in identifying material terms and potential risks -- comparable to junior lawyers, in 1/20th the time. For everyday contracts (rental agreements, service agreements, purchase contracts), AI review is now genuinely adequate as a first pass."
+      },
+      {
+        "q": "Google AlphaFold's protein folding discovery was significant because...",
+        "options": [
+          "It found a cure for a disease",
+          "It solved in 2 years what would have taken human scientists thousands of years -- demonstrating AI independently advancing fundamental science",
+          "It made proteins cheaper to produce",
+          "It proved DNA is more important than proteins"
+        ],
+        "answer": 1,
+        "funFact": "Protein folding had been one of biology's most important unsolved problems since 1972 (when Christian Anfinsen won the Nobel Prize for showing that a protein's shape is determined by its sequence). The shape determines the protein's function. Understanding protein shapes is essential for drug design. AlphaFold didn't just solve the problem -- it gave the answer for 200 million known proteins simultaneously."
+      }
+    ]
+  },
+  "travel": {
+    "destination": {
+      "country": "Nepal",
+      "region": "Kathmandu and Pokhara",
+      "eli5": "Nepal is where you go when you want to feel genuinely small. The Himalayas -- 8 of the world's 10 highest mountains -- are right there, visible from Kathmandu on clear mornings. Kathmandu's Durbar Square has temples so old they make European cathedrals look modern. Pokhara, 7 hours west by road or 25 minutes by flight, sits beside a perfect lake with Annapurna directly behind it -- one of Earth's most dramatic landscapes. You can trek a short route from Pokhara and within 3 days be at Poon Hill (3,210m), watching the Himalayan sunrise paint the peaks orange and pink.",
+      "bestTime": "October-November for crystal clear Himalayan views after monsoon. March-May for spring trekking with rhododendron forests in bloom.",
+      "hiddenGem": "The Boudhanath Stupa in Kathmandu is one of the largest Buddhist stupas in the world -- 37 metres high, with the all-seeing Buddha eyes painted on each side. At dawn, Buddhist pilgrims walk clockwise spinning prayer wheels, Tibetan monks chant, and the city slowly wakes around this ancient monument. Arrive at 6am before tour groups arrive.",
+      "mnemonic": "Nepal = Underrated gem. Know it before everyone else does"
+    },
+    "visaTip": {
+      "focus": "Nepal Visa for Indian Passport Holders",
+      "eli5": "Indian passport holders do not need a visa for Nepal -- the two countries have an open border agreement. You can cross freely at multiple border points with just your Indian passport or even a voter ID card. No fees, no forms, no appointment.",
+      "goldenTip": "The Kathmandu-Pokhara highway is an adventure but slow (7-8 hours). The flight is 25 minutes and costs approximately Rs 3,000-5,000 one way. For first-time visitors: fly one way, bus the other for a more complete experience of Nepal's terrain.",
+      "mnemonic": "Travel tip: Research visa rules before booking. Prevention better than denied boarding"
+    },
+    "culturalCode": {
+      "culture": "Nepal",
+      "doThis": "Learn 'Namaste' (universal greeting, hands folded). Walk clockwise around all stupas and mani walls (Buddhist sacred objects). Accept hospitality graciously -- dal bhat (lentils and rice) offered by a Nepali family is one of the most genuine experiences in Asia.",
+      "neverDoThis": "Never point with a single finger -- use your whole hand. Never step over someone's legs or food. Never touch sacred objects without permission. In Hindu temples, non-Hindus are often not permitted inside -- respect the sign at the entrance.",
+      "mnemonic": "Nepal: Read the cultural dos and don'ts. Locals remember respectful visitors."
+    },
+    "quiz": [
+      {
+        "q": "What makes Nepal unique for Indian travellers?",
+        "options": [
+          "It requires a complex visa process",
+          "Its visa accessibility and cultural proximity make it one of the easiest yet most rewarding destinations",
+          "It is very expensive",
+          "It has limited tourism infrastructure"
+        ],
+        "answer": 1,
+        "funFact": "India is typically among the top 3 source countries for tourists to Nepal -- the combination of cultural familiarity, language accessibility (English widely spoken), and visa ease creates natural flow."
+      },
+      {
+        "q": "When travelling to new countries, the most important cultural research is...",
+        "options": [
+          "The best restaurants",
+          "Taboos and sacred practices -- the things that seem normal to you that are offensive there",
+          "The tipping culture",
+          "Political attitudes toward tourists"
+        ],
+        "answer": 1,
+        "funFact": "The most common tourist offences that lead to legal trouble or community hostility are almost always culturally-specific behaviours that tourists didn't know were offensive: taking photos in sacred spaces, inappropriate dress near temples, showing the soles of feet, touching sacred objects. Five minutes of research prevents all of them."
+      },
+      {
+        "q": "The most underrated value of visiting nearby Asian countries is...",
+        "options": [
+          "They are cheap",
+          "Proximity means you can actually go for 3-4 days and get genuine cultural depth -- not just a hurried week-long circuit",
+          "Flights are always direct",
+          "Food is always familiar"
+        ],
+        "answer": 1,
+        "funFact": "Research on travel satisfaction consistently shows that depth of experience (time spent in fewer places) produces higher satisfaction than breadth (more places, less time). The ideal travel experience for genuine cultural understanding requires at least 4-5 days in one location -- enough time for the initial tourist disorientation to give way to genuine curiosity."
+      }
+    ]
+  }
+}
+
+const d260607 = {
+  "news": {
+    "segments": [
+      {
+        "name": "\ud83c\udf10 What's happening with countries?",
+        "color": "#a0d4f5",
+        "stories": [
+          {
+            "headline": "Trump claims Iran deal is 'days away' -- his 37th such claim since March",
+            "eli5": "President Trump posted on Truth Social that the US was in the 'final throes' of an Iran peace deal that 'could be completed within days.' This was at least the 37th time since late March 2026 that Trump had publicly claimed a deal was imminent. Each time, talks had stalled or broken down. Markets had learned to discount these claims but each one caused a brief oil price drop as algorithmic traders responded automatically to the news.",
+            "whyItMatters": "When a leader makes the same claim 37 times without delivery, the claim loses credibility -- but markets still react because algorithms don't track credibility.",
+            "mnemonic": "Trump Iran deal claim #37 = Markets react, then remember: 36 previous claims. Algorithm bait"
+          },
+          {
+            "headline": "Belfast riots night 2: Police deploy water cannons as violence continues",
+            "eli5": "The anti-immigration riots in Belfast entered their second night, with police deploying water cannons to disperse crowds in multiple areas. Immigrant families continued to be evacuated from their homes. British Prime Minister Keir Starmer called it 'completely unacceptable' and deployed additional police. Northern Ireland's complex political history -- where community tensions are always close to the surface -- made the riots particularly alarming.",
+            "whyItMatters": "Northern Ireland's history shows how quickly community tensions can escalate. The riots were a warning signal for what happens when economic anxiety meets identity politics without strong political leadership.",
+            "mnemonic": "Belfast night 2 = Water cannons deployed. The 1970s never fully left the geography"
+          },
+          {
+            "headline": "Israeli military orders all residents of Tyre to flee -- ancient city faces destruction",
+            "eli5": "The Israeli military issued an unprecedented order for all residents of Tyre -- one of the world's oldest continuously inhabited cities, founded around 2750 BCE -- to evacuate immediately. Tyre was a Phoenician trading centre mentioned in the Bible, conquered by Alexander the Great, home to ancient ruins that predate Rome. The evacuation order raised fears that the coming military operation could damage or destroy sites of irreplaceable world heritage.",
+            "whyItMatters": "Military operations in ancient cities risk destroying human heritage that cannot be rebuilt -- a dimension of modern warfare rarely discussed in security briefings.",
+            "mnemonic": "Tyre evacuation = 4,000-year-old city ordered empty. Alexander couldn't destroy it. Will 2026?"
+          }
+        ]
+      },
+      {
+        "name": "\ud83d\udcb8 What's happening with money?",
+        "color": "#a8edcb",
+        "stories": [
+          {
+            "headline": "Global markets react to June 07 news: oil and Iran dictate direction",
+            "eli5": "On June 7, markets got excited briefly by Trump's 37th 'deal is close' claim, with oil dropping to $93 and Nifty spiking to 23,600. Then memories of the previous 36 claims cooled enthusiasm and both settled back. The brief oil dip was a preview of what a real deal would look like: India's market would jump sharply when the Strait of Hormuz finally reopened.",
+            "whyItMatters": "Oil prices drive India's market more than any domestic factor in June 2026.",
+            "mnemonic": "June 07 market = Oil thermometer + Iran news feed"
+          },
+          {
+            "headline": "India's Nifty: one eye on oil, one eye on domestic fundamentals",
+            "eli5": "June 7 Indian market had a whiplash day. Oil fell briefly on Trump's Iran deal claim, Nifty jumped, then both reversed as investors remembered the 36 previous similar claims. The brief spike showed exactly what the market was waiting for: oil below $90 would unlock a significant Nifty rally. Patience was the theme.",
+            "whyItMatters": "India's domestic economy was resilient -- the market weakness was imported from global oil prices, not domestic weakness.",
+            "mnemonic": "Nifty June 2026 = Global chaos, domestic resilience. Two very different stories."
+          }
+        ]
+      },
+      {
+        "name": "\ud83d\udcbb What's happening with technology?",
+        "color": "#c9b8f5",
+        "stories": [
+          {
+            "headline": "AI energy demand: Microsoft signs deal for nuclear power to run AI data centres",
+            "eli5": "Microsoft announced it was signing deals to purchase power from new nuclear reactors -- specifically to run its AI data centres. AI models consume extraordinary amounts of electricity: training GPT-4 used more electricity than some small countries generate in a day. Microsoft's nuclear deals are a sign that the AI industry has outgrown conventional renewable energy's ability to supply it.",
+            "whyItMatters": "AI's energy demand is triggering a nuclear renaissance -- the first new reactor orders in decades are specifically for AI infrastructure.",
+            "mnemonic": "AI + nuclear = The power grid of the future being built for chatbots"
+          }
+        ]
+      },
+      {
+        "name": "\ud83c\udf3f What's happening with our planet?",
+        "color": "#f5c6a0",
+        "stories": [
+          {
+            "headline": "June 2026 heat: Scientists confirm 1.5 degree threshold now breached",
+            "eli5": "Climate scientists confirmed in early June 2026 that the global average temperature had now exceeded 1.5 degrees Celsius above pre-industrial levels on a sustained basis -- the threshold that international agreements had pledged to prevent. This doesn't mean the Earth immediately becomes uninhabitable. It means the frequency and intensity of extreme weather events -- floods, droughts, heatwaves, hurricanes -- increases significantly and permanently.",
+            "whyItMatters": "The 1.5 degree breach is not a climate cliff -- it's a cost curve. Every fraction of a degree above means more damage, more displacement, more economic cost.",
+            "mnemonic": "1.5 degrees June 2026 = The line we promised never to cross, now behind us"
+          }
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Trump's June 07 claim of an imminent Iran deal was notable because it was...",
+        "options": [
+          "His first such claim",
+          "His fifth such claim",
+          "At least his 37th such claim since March -- each previous one had failed to materialise",
+          "A joint statement with Iran"
+        ],
+        "answer": 2,
+        "funFact": "The term 'cheapening the signal' describes exactly what happened: each unfulfilled announcement made the next one less credible. Markets learned to reduce their reaction to each successive claim -- until the actual deal was announced, at which point markets barely moved because they'd been crying wolf for months."
+      },
+      {
+        "q": "Tyre (Lebanon) is historically significant because...",
+        "options": [
+          "It's Lebanon's capital city",
+          "It's one of the world's oldest continuously inhabited cities, founded around 2750 BCE by the Phoenicians",
+          "It's where the 2006 Lebanon war ended",
+          "It produces most of Lebanon's oil"
+        ],
+        "answer": 1,
+        "funFact": "Tyre (called Sur in Arabic) was the birthplace of the Phoenician civilisation -- the people who invented the alphabet that all modern Western alphabets descend from. Alexander the Great spent 7 months building a causeway to reach and conquer it in 332 BCE. That causeway is still visible today as a natural land bridge."
+      },
+      {
+        "q": "The Maldives is unique geographically because...",
+        "options": [
+          "It has the most islands of any country",
+          "It is the world's lowest country (average 1.5m above sea level) and faces potential submersion from sea level rise",
+          "It has no natural fresh water at all",
+          "It is the only country entirely made of coral"
+        ],
+        "answer": 1,
+        "funFact": "The Maldivian government began buying land in Sri Lanka and India in 2008 as a contingency plan for climate migration -- becoming the first government in history to formally plan for the relocation of its entire population due to climate change."
+      }
+    ]
+  },
+  "markets": {
+    "globalPulse": {
+      "eli5": "On June 7, markets got excited briefly by Trump's 37th 'deal is close' claim, with oil dropping to $93 and Nifty spiking to 23,600. Then memories of the previous 36 claims cooled enthusiasm and both settled back. The brief oil dip was a preview of what a real deal would look like: India's market would jump sharply when the Strait of Hormuz finally reopened.",
+      "keyThings": [
+        "Brent Crude: brief drop to $93 on deal claim, then $94.50",
+        "Nifty: touched 23,600 briefly on oil drop",
+        "Rupee: strengthened to 84.2 briefly",
+        "Gold: fell slightly on reduced fear"
+      ]
+    },
+    "indianMarket": {
+      "eli5": "June 7 Indian market had a whiplash day. Oil fell briefly on Trump's Iran deal claim, Nifty jumped, then both reversed as investors remembered the 36 previous similar claims. The brief spike showed exactly what the market was waiting for: oil below $90 would unlock a significant Nifty rally. Patience was the theme.",
+      "breakouts": [
+        {
+          "name": "Indian Hotels Company (NSE: INDHOTEL) -- Taj Hotels",
+          "whyExciting": "India's premier hotel group was undervalued relative to its real estate holdings and brand value. Post-COVID travel recovery was strong and Taj was benefiting from both domestic tourism (strong) and international (recovering). The Tata group backing added governance premium.",
+          "risk": "High oil prices raise airline ticket costs, reducing international tourist arrivals.",
+          "halal": true,
+          "buyPrice": "Rs.580",
+          "sellPrice": "Rs.650",
+          "stopLoss": "Rs.540"
+        },
+        {
+          "name": "JSW Steel (NSE: JSWSTEEL)",
+          "whyExciting": "Steel demand in India was being driven by infrastructure spending (which continued regardless of global uncertainty). JSW was the most efficient producer with the newest facilities. Steel is one of the few sectors where India is less dependent on global conditions than most.",
+          "risk": "Global steel prices are affected by Chinese dumping -- JSW faces competitive pressure from cheap Chinese imports.",
+          "halal": true,
+          "buyPrice": "Rs.880",
+          "sellPrice": "Rs.980",
+          "stopLoss": "Rs.820"
+        },
+        {
+          "name": "Bajaj Finance (NSE: BAJFINANCE)",
+          "whyExciting": "India's premium consumer lending NBFC had been consolidating after a strong run. At these levels it offered attractive risk-reward for long-term investors. India's consumer credit penetration is still well below global peers -- the runway for growth remains enormous.",
+          "risk": "Consumer defaults rise if high oil prices create enough economic stress -- NBFC is more exposed than banks.",
+          "halal": false,
+          "buyPrice": "N/A",
+          "sellPrice": "N/A",
+          "stopLoss": "N/A"
+        }
+      ],
+      "ipoSpot": {
+        "name": "No major IPO this week",
+        "verdict": "Watch",
+        "eli5": "IPO market on pause during geopolitical uncertainty. Ather Energy IPO still in pipeline for post-uncertainty market."
+      },
+      "lessonOfDay": {
+        "title": "The Importance of Market Timing vs Time in the Market",
+        "story": "June 2026 taught Indian investors a painful lesson: nobody called the bottom. The investors who tried to time the market (sell before oil spikes, buy before it recovers) almost universally missed the brief recovery windows. The investors who simply continued their SIPs automatically bought units at the dip -- at discount prices. Peter Lynch said: 'Far more money has been lost by investors preparing for corrections, or trying to anticipate corrections, than has been lost in corrections themselves.'",
+        "mnemonic": "Time IN market beats timing the market. June 2026's SIP investors proved it again"
+      }
+    },
+    "quiz": [
+      {
+        "q": "Peter Lynch's quote 'more money lost preparing for corrections than in corrections' means...",
+        "options": [
+          "Corrections are harmless",
+          "The psychological cost of trying to exit before a dip and re-enter is higher than simply holding through the dip",
+          "Investors should welcome corrections",
+          "Lynch never lost money"
+        ],
+        "answer": 1,
+        "funFact": "Research by DALBAR consistently shows that the average equity mutual fund investor significantly underperforms the fund itself -- because investors sell during downturns and miss the recovery. In 2022-2023, the average investor in S&P 500 funds earned 5% less than the S&P 500 itself, purely from mistimed entries and exits."
+      },
+      {
+        "q": "The advantage of SIPs during market volatility is...",
+        "options": [
+          "SIPs guarantee positive returns",
+          "Rupee cost averaging: fixed monthly amounts buy more units when prices fall, automatically lowering average cost",
+          "SIPs are protected from market falls",
+          "SIPs only work in bull markets"
+        ],
+        "answer": 1,
+        "funFact": "A Rs 10,000 monthly SIP started in January 2020 -- just before COVID caused the Nifty to fall 40% -- would have grown to approximately Rs 2.5 lakh by June 2023. The crash was automatically captured as a buying opportunity. The investor didn't need to do anything special -- the SIP structure did it."
+      },
+      {
+        "q": "Bajaj Finance is called India's premium consumer NBFC because...",
+        "options": [
+          "It has the highest interest rates",
+          "It has the strongest underwriting quality, lowest default rates, and most sophisticated risk management among consumer lenders",
+          "It only lends to premium income groups",
+          "The Bajaj brand makes it premium"
+        ],
+        "answer": 1,
+        "funFact": "Bajaj Finance grew its loan book from Rs 15,000 crore in 2012 to over Rs 3,00,000 crore in 2025 -- a 20x growth in 13 years while maintaining industry-leading asset quality. This combination of growth and quality is extraordinarily rare in financial services globally."
+      }
+    ]
+  },
+  "psychology": {
+    "mindTrick": {
+      "name": "The Halo Effect -- One Good Thing Makes Everything Seem Good",
+      "eli5": "Solomon Asch discovered in 1946 that when we learn one positive thing about a person, we immediately assume other positive things. A well-dressed, attractive person at a meeting is assumed to be more intelligent, more trustworthy, and more competent -- before they've said a single word. This is why we trust good-looking politicians more, why luxury brand packaging makes the product taste better, and why a first impression built on appearance persists even when contradicted by later evidence.",
+      "realLife": "Every job interview where the candidate 'looks the part' benefits from the Halo Effect. The reverse -- the Devil Effect -- works identically: one negative trait (untidy dress, awkward handshake) causes us to assume other negatives. Managing first impressions is not superficial -- it's neurologically how humans process new people.",
+      "mnemonic": "Halo Effect = One positive -> assume all positive. First impressions stick because the brain is lazy."
+    },
+    "bodyLanguage": {
+      "signal": "The Superman Pose vs the Shrinking Pose",
+      "eli5": "Your body posture directly affects your own psychology -- not just how others see you. Stand with legs wide, hands on hips, chest out (the Superman pose) for 2 minutes and your testosterone rises while cortisol (stress hormone) falls. Curl inward, shoulders hunched, arms crossed (the shrinking pose) and the opposite hormonal pattern occurs. Amy Cuddy's research showed this posture-hormone link is strong enough to affect performance outcomes.",
+      "howToUse": "Before any high-stakes situation -- presentation, difficult conversation, job interview -- spend 2 minutes in a private space in the Superman pose. Not as a trick for others -- as a neurochemical self-preparation.",
+      "mnemonic": "Superman pose 2 mins = More testosterone, less cortisol. Body chemistry changes before the meeting"
+    },
+    "superpower": {
+      "name": "Scarcity -- We Want What Is Rare",
+      "story": "Cialdini: 'The way to love anything is to realize that it might be lost.' Limited edition. Last two items in stock. Offer expires midnight. 24-hour sale. One-time opportunity. Every one of these phrases activates the same ancient brain circuit: scarcity = value. We evolved in an environment where rare resources (food, mates, territory) were genuinely valuable and common resources weren't. The brain hasn't updated for artificial scarcity manufactured by marketers -- it responds the same way to both.",
+      "shield": "When you feel urgency around a decision because of scarcity language, force a pause. Ask: 'Is this genuinely scarce or is scarcity manufactured to pressure me?' Most 'limited time offers' are not limited. Most 'last few available' alerts are triggered by code when inventory is above a threshold.",
+      "mnemonic": "Scarcity = Urgency manufacturer. Pause when you feel it. Ask: real or manufactured?"
+    },
+    "quiz": [
+      {
+        "q": "The Halo Effect means that meeting someone well-dressed makes you assume they're also...",
+        "options": [
+          "Older than they look",
+          "More intelligent, competent, and trustworthy -- before any evidence supports this",
+          "More conservative",
+          "A good cook"
+        ],
+        "answer": 1,
+        "funFact": "Research on US presidential elections found that taller candidates win more often than shorter ones -- even controlling for policy positions and debate performance. The Halo Effect associates physical stature with leadership stature, making height a genuine political advantage in a society that shouldn't care about it."
+      },
+      {
+        "q": "Amy Cuddy's 'power posing' research showed that 2 minutes in an expansive posture...",
+        "options": [
+          "Makes others see you as more dominant",
+          "Changes your own hormonal profile -- raising testosterone and lowering cortisol, affecting performance",
+          "Only works for men",
+          "Requires specific clothing to be effective"
+        ],
+        "answer": 1,
+        "funFact": "Cuddy's TED talk on power posing is one of the 5 most-viewed TED talks in history with over 65 million views. A replication crisis in 2017 challenged some of her specific findings, but the core finding -- that body posture affects self-perceived confidence and performance -- has been repeatedly confirmed."
+      },
+      {
+        "q": "The Scarcity Principle works because...",
+        "options": [
+          "Rare things are always more valuable",
+          "We evolved to treat scarcity as a reliable signal of value, and our brains respond to manufactured scarcity the same way as real scarcity",
+          "Limited editions really are better quality",
+          "Fear of missing out is a modern invention"
+        ],
+        "answer": 1,
+        "funFact": "The psychological term for scarcity-driven desire is 'reactance' -- when our freedom to choose something is threatened (by its potential unavailability), we want it more. This is why cookie jars with tight lids are accessed more than open jars even when the cookies are identical."
+      }
+    ]
+  },
+  "leadership": {
+    "leaderMove": {
+      "name": "The Mastermind Principle -- Your Circle Determines Your Ceiling",
+      "story": "Napoleon Hill, after interviewing 500 of the world's most successful people over 20 years for 'Think and Grow Rich,' identified one pattern above all others: every highly successful person had a 'mastermind group' -- a small circle of peers who challenged, supported, and elevated their thinking. Andrew Carnegie's mastermind was the group of 20 men who helped him build the largest steel empire in history. Henry Ford's mastermind included Edison, Firestone, and Harvey. Warren Buffett and Charlie Munger are each other's most important mastermind. You become the average of the people you spend the most time with.",
+      "doThis": "Identify the 5 people you spend the most professional time with. Honestly: do they challenge you to grow, or do they confirm your current thinking? If the latter: deliberately seek one relationship with someone 5-10 years ahead of where you want to be.",
+      "mnemonic": "Mastermind = Your 5 closest people are your ceiling. Choose them like you choose investments."
+    },
+    "visionarySecret": {
+      "concept": "The Adjacent Possible -- How Innovation Really Happens",
+      "eli5": "Stuart Kauffman's insight: at any moment in history, only certain innovations are possible -- because only certain building blocks exist. The iPhone couldn't exist in 1970 -- transistors, touchscreens, internet, lithium batteries, and cellular networks all had to exist first. Once all the building blocks were in place, the iPhone was almost inevitable. Multiple inventors were working on similar devices simultaneously. Innovation happens at the edge of the 'adjacent possible' -- what becomes possible when new building blocks arrive. AI was the adjacent possible of neural networks + massive data + cheap computing. All three arrived together in the 2020s.",
+      "exercise": "Look at your industry. What new building blocks have arrived in the last 2-3 years that didn't exist before? What combination of those new blocks creates something that couldn't previously exist?",
+      "mnemonic": "Adjacent possible = New innovations need new building blocks. Spot what just arrived. Combine it."
+    },
+    "eliteHabit": {
+      "habit": "The 5-Hour Rule -- Protecting Learning Time",
+      "whoAndHow": "Bill Gates (50 books/year), Elon Musk (2 books/day early in life), Warren Buffett (80% of the day reading), Mark Cuban (3 hours of reading per day) -- the pattern among elite performers is consistent: they protect at least 1 hour per day (5 hours per week) for learning. Not Netflix. Not social media. Deliberate learning: books, papers, conversations with smart people, courses.",
+      "whyItWorks": "Michael Simmons (who coined the 5-Hour Rule after studying successful people) found that learning compounds like money: each new insight connects to existing knowledge to create non-linear growth in capability. People who stop learning after formal education stop compounding their most important asset -- their mind.",
+      "mnemonic": "5-Hour Rule = 1 hour/day protected for learning. Compounding knowledge beats compounding money."
+    },
+    "sigmaWisdom": {
+      "lesson": "Amor Fati -- Love Your Fate",
+      "story": "Friedrich Nietzsche's most powerful idea: Amor Fati -- Love your Fate. Not accept it. Not endure it. Love it. Every event that happens to you -- including the worst ones -- is part of your story and has made you what you are. Marcus Aurelius practised this: when children died, when wars were lost, when plans failed -- he tried to see those events not just as necessary but as good, as the material of character. Ryan Holiday calls it 'the obstacle is the way.' The person who can genuinely love their fate (not just accept it grudgingly) has found a source of strength that nothing external can take away.",
+      "action": "Think of the worst thing that happened to you in the last year. Write one way in which that event -- despite its difficulty -- made you stronger, wiser, or different in a way that benefits you now. This reframe is not denial. It's extracting value from unavoidable pain.",
+      "mnemonic": "Amor Fati = Not just endure your fate. Love it. Mine it. The obstacle shapes the miner."
+    },
+    "quiz": [
+      {
+        "q": "Napoleon Hill's 'mastermind group' concept says success correlates with...",
+        "options": [
+          "Natural talent",
+          "The quality of your 5 closest advisors and peers -- you rise (or plateau) to their level",
+          "Working alone for maximum focus",
+          "Having a single great mentor"
+        ],
+        "answer": 1,
+        "funFact": "Jim Rohn's version of this principle -- 'You are the average of the 5 people you spend the most time with' -- became one of the most cited quotes in self-improvement culture. Quantitative research on social networks by Nicholas Christakis confirmed that behaviors, happiness, and success levels are statistically contagious across 3 degrees of social connection."
+      },
+      {
+        "q": "Stuart Kauffman's 'Adjacent Possible' explains innovation because...",
+        "options": [
+          "New ideas come from random inspiration",
+          "Innovations only become possible when their prerequisite building blocks exist -- explaining why multiple inventors often discover the same thing simultaneously",
+          "The best innovators think furthest into the future",
+          "Innovation requires permission from society"
+        ],
+        "answer": 1,
+        "funFact": "Steven Johnson documented 12 major innovations where multiple people independently invented the same thing within months of each other: calculus (Newton and Leibniz), telephone (Bell and Gray filed patents on the SAME DAY), evolution (Darwin and Wallace), and more. The adjacent possible makes certain innovations inevitable once building blocks exist."
+      },
+      {
+        "q": "The 5-Hour Rule is important because...",
+        "options": [
+          "Reading 5 hours per week guarantees success",
+          "Deliberate learning compounds -- each new insight connects to existing knowledge, creating non-linear capability growth that only continues if protected time is maintained",
+          "Successful people have 5 spare hours per week",
+          "Books are the best learning format"
+        ],
+        "answer": 1,
+        "funFact": "Elon Musk taught himself rocket science by reading aerospace textbooks. Jeff Bezos read every book on retail and supply chain before founding Amazon. Both cited specific books as changing their strategic thinking. Bill Gates takes two week-long 'Think Weeks' per year with no meetings -- only books and thinking. Learning wasn't their hobby; it was their competitive advantage infrastructure."
+      }
+    ]
+  },
+  "wealth": {
+    "wealthSecret": {
+      "name": "The Asset Allocation Framework -- How Much in What",
+      "story": "Ray Dalio at Bridgewater (the world's largest hedge fund) spent decades designing the 'All Weather Portfolio' -- a mix of assets that would perform reasonably well in any economic environment. His insight: economic conditions come in four flavours (growth + inflation, growth + deflation, recession + inflation, recession + deflation). Most portfolios do well in one environment and terribly in others. A diversified allocation across equities (30%), long-term bonds (40%), medium bonds (15%), gold (7.5%), and commodities (7.5%) has outperformed more concentrated portfolios over 25 years with significantly lower volatility.",
+      "action": "Review your own portfolio allocation. What percentage is in: equities, debt, gold, real estate? If it's 90%+ in one category, you're taking concentration risk you may not intend. A simple rebalancing to include some gold and debt significantly reduces volatility without proportionally reducing returns.",
+      "mnemonic": "All Weather Portfolio = Perform in all 4 economic conditions. Diversification is not just stocks vs bonds."
+    },
+    "moneyMachine": {
+      "type": "Index Funds vs Active Funds -- The Data Says Something Surprising",
+      "eli5": "Most mutual funds are 'actively managed' -- a fund manager picks stocks they think will outperform. For this service, they charge 1-2% per year. Index funds simply buy all the stocks in an index (like Nifty 50) mechanically, charging 0.05-0.2% per year. The shocking data: over 10+ year periods, approximately 85-90% of actively managed funds underperform their index. Most fund managers, despite their expensive offices and PhD teams, cannot beat the market consistently.",
+      "indiaAngle": "India's situation is slightly different from the US -- some actively managed midcap funds have historically beaten their indices in India because Indian markets are less efficient than US markets (more opportunities for skilled stock-picking). But for large-cap exposure: Nifty 50 index funds consistently beat most active large-cap funds over 10+ years.",
+      "mnemonic": "Index funds beat 85-90% of active funds over 10 years. The most boring investing strategy often wins."
+    },
+    "mindsetFlip": {
+      "oldThinking": "Diversification means owning many different stocks",
+      "newThinking": "True diversification means owning assets that move in DIFFERENT directions under the same conditions -- stocks AND gold AND bonds AND real estate",
+      "why": "In March 2020, almost all stocks fell together. Gold rose. Government bonds rose. A portfolio of 50 stocks was not diversified -- it just had concentrated equity risk spread across 50 baskets. True diversification requires assets with low or negative correlation -- things that zig when others zag.",
+      "mnemonic": "True diversification = Assets that move in different directions. 50 stocks is 1 bet, not 50 bets."
+    },
+    "magicNumber": {
+      "number": "The 1/N Rule for Rebalancing",
+      "eli5": "When you have N asset classes in your portfolio, allocate roughly equally (1/N each) and rebalance annually back to that allocation. Vanguard research showed this 'naive' approach outperforms more sophisticated allocation models in most market conditions -- because it forces you to sell what has risen (buy high) and buy what has fallen (buy low), automatically. The discipline of mechanical rebalancing removes emotion from investing.",
+      "mnemonic": "1/N rule = Equal allocation + annual rebalance = Automatic sell-high-buy-low. Mechanical is better than emotional."
+    },
+    "quiz": [
+      {
+        "q": "Ray Dalio's 'All Weather Portfolio' is designed to...",
+        "options": [
+          "Maximise returns in bull markets",
+          "Perform reasonably well across all four economic conditions -- growth, recession, inflation, and deflation",
+          "Protect entirely against losses",
+          "Only invest in safe government bonds"
+        ],
+        "answer": 1,
+        "funFact": "Dalio backtested the All Weather Portfolio across multiple decades and found it had positive returns in 86% of years -- including delivering positive returns during the 2008 financial crisis when most equity portfolios lost 40-50%. The secret: long-term bonds rose sharply when equities crashed, offsetting the equity losses."
+      },
+      {
+        "q": "Index funds outperform active funds over 10+ years primarily because...",
+        "options": [
+          "Index managers are smarter",
+          "Lower fees compound dramatically over time, and beating the market consistently is statistically very difficult even for professional managers",
+          "Index funds take no risk",
+          "Index funds buy better stocks"
+        ],
+        "answer": 1,
+        "funFact": "Warren Buffett won a famous $1 million bet in 2008 that a simple S&P 500 index fund would outperform a basket of hedge funds over 10 years. The index fund returned 7.1% annually. The hedge funds: 2.2%. Buffett has recommended index funds for ordinary investors repeatedly. 'Most investors would be better served by indexing.'"
+      },
+      {
+        "q": "True portfolio diversification requires...",
+        "options": [
+          "Owning 50+ different stocks",
+          "Assets with low or negative correlation -- that move in different directions under the same economic conditions",
+          "Investing in different countries only",
+          "Having both growth and value stocks"
+        ],
+        "answer": 1,
+        "funFact": "The concept of correlation is central to Modern Portfolio Theory (Harry Markowitz, 1952 -- Nobel Prize 1990). Markowitz proved mathematically that combining assets with low correlation reduces portfolio risk without proportionally reducing returns. Gold's 20-year correlation with Indian equities is approximately -0.1 (near zero to slightly negative) -- making it one of the best diversifiers for an equity-heavy Indian portfolio."
+      }
+    ]
+  },
+  "communication": {
+    "speakingSkill": {
+      "name": "The Rhetorical Question -- Engaging the Mind Before the Answer",
+      "story": "The most powerful speeches don't just tell people things -- they ask questions that make the audience think, then answer them. 'Ask not what your country can do for you -- ask what you can do for your country.' Kennedy didn't just say 'you should serve your country.' He asked, then answered. Martin Luther King used rhetorical questions throughout. Steve Jobs: 'Do you want to sell sugar water for the rest of your life, or do you want to come with me and change the world?' -- asked to Pepsi CEO John Sculley he was recruiting to Apple. The question engages the listener's brain before the answer lands.",
+      "drill": "Take your most important message in an upcoming presentation or conversation. Convert it to a rhetorical question + answer. 'The question everyone in this room is really asking is: how do we grow 30% with the same team? Here's how...' Practice until it feels natural.",
+      "mnemonic": "Rhetorical question = Engage brain before answer lands. Question + answer > Statement alone. Always."
+    },
+    "negotiationMove": {
+      "tactic": "The Higher Authority Move -- Creating Room to Consult",
+      "eli5": "Saying 'I need to check with someone else' before agreeing to anything gives you a pause, an exit, and a second opinion without looking indecisive. 'I'll need to run this by my partner.' 'Let me confirm this with my team.' 'I should verify this with our finance department.' This move is powerful even if you don't actually need to consult anyone -- it signals that you're thoughtful, it prevents impulsive agreements you'll regret, and it gives the other party time to wonder if they should offer something better.",
+      "script": "When pressured to decide immediately: 'I want to say yes to this -- it sounds good. But I need to confirm one thing before I commit. Can we talk again tomorrow?'",
+      "mnemonic": "Higher authority move = 'I need to check' = pause + exit + second opinion. Strength disguised as process."
+    },
+    "officeWin": {
+      "rule": "Disagree clearly once, then commit fully -- never passive-aggress",
+      "story": "The most destructive office behaviour is the person who nods in agreement during a decision, then passively undermines the decision afterward: 'Well, I said I didn't think this would work...' This 'I told you so' positioning is corrosive to team trust and is noticed by leadership. The respectful and powerful alternative: disagree clearly before the decision is made ('I have concerns about X'), get overruled, then commit fully to making the chosen path work. This is called 'disagree and commit' -- Amazon's culture mandates it.",
+      "mistake": "Most people either suppress disagreement (which builds resentment) or passive-aggressively signal it after the decision (which destroys trust). The third path -- clear dissent followed by full commitment -- is almost universally respected.",
+      "mnemonic": "Disagree once clearly, commit fully. No passive-aggression. 'I said so' later = Trust destroyer."
+    },
+    "confidenceHack": {
+      "technique": "Warm Up Your Voice Before Speaking",
+      "science": "The voice is a muscle instrument. Cold-starting your voice in an important meeting or presentation produces a thinner, higher-pitched sound that signals anxiety to listeners. Opera singers and professional speakers warm up their voices for 10-20 minutes before performing -- humming, lip trills, speaking text at exaggerated volumes and pitches. Five minutes of vocal warm-up produces a measurably richer, more authoritative vocal tone.",
+      "doItNow": "Before any important meeting: hum a comfortable note for 30 seconds. Then say a full sentence loudly (private space). Then say it at normal volume. Then do lip trills (brrr sound). Your voice will be demonstrably warmer and fuller for the next 60-90 minutes.",
+      "mnemonic": "Vocal warm-up = Voice is a muscle instrument. 5 minutes of prep = 60 minutes of richer, more confident sound."
+    },
+    "quiz": [
+      {
+        "q": "Rhetorical questions work in speeches because...",
+        "options": [
+          "They make speeches longer",
+          "They engage the audience's brain before the answer arrives, creating active mental participation rather than passive listening",
+          "They make the speaker seem uncertain",
+          "Audiences enjoy answering questions aloud"
+        ],
+        "answer": 1,
+        "funFact": "Cicero, Rome's greatest orator (106-43 BC), used rhetorical questions throughout his speeches and wrote extensively about their power. His most famous speech opening -- 'How long, Catiline, will you continue to abuse our patience?' -- is a rhetorical question that has been studied in rhetoric courses for 2,000 years."
+      },
+      {
+        "q": "The 'Higher Authority' negotiation move creates value by...",
+        "options": [
+          "Actually getting better advice",
+          "Creating a pause that prevents impulsive decisions, an exit if needed, and often prompts the other party to improve their offer",
+          "Appearing more important",
+          "Delaying until you have more information"
+        ],
+        "answer": 1,
+        "funFact": "The 'nibble' (asking for one more small thing at the last minute) and the 'higher authority move' are the two most consistently effective low-risk negotiation tactics across cultures, according to Herb Cohen's research. Both exploit timing and psychology without aggression."
+      },
+      {
+        "q": "Amazon's 'disagree and commit' culture requires...",
+        "options": [
+          "Never disagreeing with leadership",
+          "Expressing disagreement clearly before decisions, then fully committing to executing the chosen path without passive-aggressive resistance",
+          "Always agreeing with team decisions",
+          "Committing to disagree on important matters"
+        ],
+        "answer": 1,
+        "funFact": "Jeff Bezos used 'disagree and commit' personally in a famous letter: he disagreed with a team's decision to use a particular technology approach but committed to supporting it anyway, writing: 'I disagree and commit and hope it becomes the greatest invention ever.' The approach is now standard practice at Amazon and has been adopted by numerous other companies."
+      }
+    ]
+  },
+  "mind": {
+    "brainHack": {
+      "name": "The Intention-Behaviour Gap -- Bridge It With Planning",
+      "eli5": "Peter Gollwitzer's landmark research: people consistently report the best intentions that they then fail to act on. 'I'll exercise more.' 'I'll spend less.' 'I'll call my parents every Sunday.' The gap between intention and behaviour is not about willpower -- it's about the absence of a specific plan. When Gollwitzer added one step -- 'When exactly will you do it? Where? How?' -- follow-through rates jumped from 35% to 91%. The specific plan converts a wish into a programmed behaviour.",
+      "protocol": "For any habit or goal you genuinely want to achieve: write 'I will [behaviour] at [time] in [location] when [trigger].' Be exact. 'I will exercise at 7am, in my living room, immediately after I make my morning coffee.' The trigger-action specificity is what bridges intention and behaviour.",
+      "mnemonic": "Intention-Behaviour gap = Bridge with: When, Where, Trigger. Specific plan converts wish to program."
+    },
+    "disciplineCode": {
+      "principle": "The Identity-Based Habit -- Being Before Doing",
+      "story": "James Clear's central insight from 'Atomic Habits': most people try to change behaviour by changing outcomes ('I want to lose weight') or processes ('I'll do intermittent fasting'). The most durable change comes from changing identity: 'I am a healthy person. Healthy people don't eat that.' 'I am a runner. Runners run even when it's raining.' Every action then either confirms or contradicts your identity. The two-step process: decide who you want to be. Then prove it to yourself with small wins. Eventually the identity becomes who you actually are.",
+      "todayAction": "Choose one identity statement for a behaviour you've been trying to build: 'I am a [reader/investor/learner/athlete].' Say it out loud. Then do ONE small action that confirms it today. Not a big action. Just a confirming one.",
+      "mnemonic": "Identity-based habit = Be the person first. Do what that person does. Tiny proof, big identity."
+    },
+    "impulseKiller": {
+      "urge": "The urge to immediately respond to messages and emails",
+      "eli5": "The brain treats an unread notification like a physical object in your visual field -- it demands attention involuntarily. This is by design: messaging apps, email clients, and social platforms employ notification psychologists whose entire job is maximising compulsive checking. The average person checks their phone 96 times per day. Each check interrupts whatever you were doing and takes 23 minutes to fully resume at the same quality. Most messages could be answered in a batch 2-3 times per day with no meaningful delay.",
+      "interrupt": "Set three specific 'message check' windows per day (morning, midday, end of work). Outside those windows: notifications off, phone face-down. Communicate to key contacts: 'I check messages at 9am, 1pm, and 5pm -- for urgent things, call.' Within 2 weeks, the compulsive checking urge diminishes significantly.",
+      "mnemonic": "Message batching = 3 checks per day, 23 minutes saved per interruption avoided. Reclaim 4+ hours weekly."
+    },
+    "bodyUpgrade": {
+      "practice": "Deliberate Heat Exposure -- Sauna for Brain and Body",
+      "eli5": "A Finnish study tracking 2,315 men over 20 years found that using a sauna 4-7 times per week reduced cardiovascular disease risk by 50% compared to once per week. The mechanism: heat stress triggers cardiovascular adaptations similar to moderate exercise, releases heat shock proteins that repair cellular damage, spikes growth hormone, and floods the brain with mood-enhancing compounds (BDNF, endorphins, norepinephrine). Dr. Rhonda Patrick calls regular sauna use 'exercise in a box' for those who can't exercise much.",
+      "minimumDose": "15-20 minutes in a sauna at 80-100 degrees Celsius, 3+ times per week. If no sauna: a very hot bath for 20 minutes provides partial benefit (especially cardiovascular and stress-reduction effects).",
+      "mnemonic": "Sauna 3x/week = 50% lower cardiovascular risk in 20-year study. Controlled heat stress = free health upgrade."
+    },
+    "quiz": [
+      {
+        "q": "Gollwitzer's implementation intention research showed that adding 'when, where, and trigger' to goals...",
+        "options": [
+          "Reduced motivation by making goals seem too rigid",
+          "Increased follow-through from 35% to 91% by converting vague intentions into specific programmed responses",
+          "Only worked for simple habits",
+          "Worked for some personality types only"
+        ],
+        "answer": 1,
+        "funFact": "Gollwitzer's research on implementation intentions has been replicated across hundreds of studies in health behaviour (exercise, medication adherence), academic performance, and professional goals. The finding is remarkably consistent: specificity of when, where, and how dramatically increases follow-through regardless of the type of goal."
+      },
+      {
+        "q": "James Clear's identity-based habit approach works because...",
+        "options": [
+          "You trick yourself into thinking you already have the habit",
+          "Identity creates consistency pressure -- every action either confirms or contradicts who you believe you are",
+          "Self-image is more powerful than willpower",
+          "Big identity claims produce immediate behaviour change"
+        ],
+        "answer": 1,
+        "funFact": "Social identity theory (Henri Tajfel, 1970s) found that people behave consistently with their self-concept even when it costs them. Smokers who identified as 'smokers' were significantly harder to treat than those who described themselves as 'people who sometimes smoke' -- the identity itself predicted the behaviour, independent of addiction level."
+      },
+      {
+        "q": "Regular sauna use (4-7x/week) is associated with...",
+        "options": [
+          "Improved athletic performance only",
+          "50% reduction in cardiovascular disease risk over 20 years -- comparable to a dedicated exercise programme",
+          "Weight loss primarily",
+          "Reduced stress only"
+        ],
+        "answer": 1,
+        "funFact": "Finland has the world's highest density of saunas -- approximately 3 million saunas for 5.5 million people. Finnish culture treats sauna as a social, health, and even spiritual practice. The Laukkanen study (2018) that showed the 50% cardiovascular risk reduction was tracking Finnish men in their natural cultural habitat -- where 4-7 sauna sessions per week is normal, not exceptional."
+      }
+    ]
+  },
+  "knowledge": {
+    "mathMagic": {
+      "concept": "Exponential Growth vs Linear Growth -- The Mind-Bending Difference",
+      "eli5": "Linear growth adds a fixed amount each period. If you save Rs 1,000 per month for 10 years, you have Rs 1.2 lakh. Exponential growth multiplies by a fixed amount each period. If that Rs 1,000/month earns 12% annual returns, you have approximately Rs 2.3 lakh in 10 years and Rs 35 lakh in 30 years. The difference between linear and exponential isn't visible at first (years 1-5 they look similar) but diverges massively over time. The human brain is wired for linear thinking -- this is why people consistently underestimate compound growth and overestimate what they can achieve in one year and underestimate what they can achieve in ten.",
+      "realWorldUse": "Covid-19 spread exponentially -- cases doubled every 3-5 days. Most people's linear intuitions catastrophically underestimated the speed. The same intuition failure explains why most people dramatically underestimate investment returns over 20+ years and overestimate returns over 5 years.",
+      "mnemonic": "Exponential vs linear = Small early difference, massive long-term divergence. Human brains see linear. Reality compounds."
+    },
+    "scienceWow": {
+      "field": "Physics",
+      "concept": "Entropy -- Everything Tends Toward Disorder",
+      "eli5": "Entropy is the universe's most fundamental tendency: things naturally move from order to disorder. A room gets messy on its own. Ice melts in warm water. Salt dissolves in water. You have to work to create order -- order doesn't create itself. The Second Law of Thermodynamics says the total entropy of a closed system always increases. This means: the universe is constantly moving toward maximum disorder. Life itself is a temporary, astonishing exception -- complex ordered systems that expend energy to maintain their order against the universe's relentless tendency toward chaos.",
+      "mindBlow": "Black holes may represent maximum entropy -- the endpoint of matter. When a black hole evaporates via Hawking radiation, Stephen Hawking proposed that the information of everything that fell into it is eventually radiated back out -- but in unrecoverable form. The universe 'forgets' in a maximum entropy way.",
+      "mnemonic": "Entropy = Universe tends toward disorder always. You must expend energy to create and maintain order. Always."
+    },
+    "historyStory": {
+      "event": "The Great Fire of London 1666 -- The City That Rebuilt Itself Better",
+      "story": "On September 2, 1666, a fire started in a bakery on Pudding Lane and burned for four days, destroying 13,200 houses, 87 churches, and most of medieval London. About 65,000 people were left homeless. The king declared it an Act of God. But London rebuilt -- and rebuilt better. Christopher Wren designed 52 new churches including St Paul's Cathedral. The city adopted its first building codes (brick and stone, not timber). The fire destroyed the medieval city and created the foundation of the modern financial capital. Disaster became transformation.",
+      "lesson": "The Great Fire of London is history's clearest example of creative destruction: the old city was too cramped, too wooden, too medieval to become a modern metropolis. The fire that destroyed it enabled the transformation. Many of the biggest opportunities in business, careers, and cities come embedded in catastrophes.",
+      "mnemonic": "Great Fire 1666 = Destroyed the old, enabled the modern. Disasters create the space for transformation."
+    },
+    "earthSecret": {
+      "place": "Norway",
+      "secret": "Norway has one of the world's largest sovereign wealth funds -- the Government Pension Fund Global -- worth approximately $1.8 trillion (as of 2026). It was built entirely from oil revenues since the 1990s. Every Norwegian citizen is effectively a millionaire by proxy. Norway chose to save and invest its oil wealth rather than spend it (unlike many oil-rich nations that consumed theirs). The fund owns approximately 1.5% of ALL listed companies in the world. Norway discovered oil in 1969 and made a deliberate choice: this is a temporary resource. We will save it for generations that come after the oil runs out.",
+      "edge": "Norway's sovereign wealth fund model is studied by every oil-rich nation as the gold standard for resource wealth management. Understanding it illuminates why some countries build permanent wealth from temporary resources (Norway, Singapore) while others consume and leave nothing (Venezuela, Angola).",
+      "mnemonic": "Norway oil fund = $1.8 trillion saved for future generations. Save the windfall. Spend the interest. Perfect resource management."
+    },
+    "quiz": [
+      {
+        "q": "Exponential growth differs from linear growth most dramatically...",
+        "options": [
+          "In the first year",
+          "In the first 5 years",
+          "After 15-20+ years, when the compounding creates orders-of-magnitude differences invisible in early years",
+          "Only in mathematical models, not real life"
+        ],
+        "answer": 2,
+        "funFact": "A famous thought experiment: if a pond has one lily pad on day 1, and the number doubles each day, the pond is half full on day 29 and full on day 30. People watching the pond every day would feel no urgency until day 29 -- then have 24 hours to respond to full coverage. COVID-19 spread worked identically. So does compound investment growth."
+      },
+      {
+        "q": "Entropy means that in a closed system, disorder...",
+        "options": [
+          "Remains constant unless disturbed",
+          "Increases over time naturally -- you must expend energy to create and maintain order",
+          "Can be reversed without energy input",
+          "Only applies to physical systems, not organizations or information"
+        ],
+        "answer": 1,
+        "funFact": "The concept of entropy was developed by Rudolf Clausius in 1865 and later by Ludwig Boltzmann. Boltzmann was so depressed by the philosophical implications of entropy (that the universe will eventually reach maximum disorder and die as 'heat death') that some historians believe it contributed to his suicide in 1906. The Second Law of Thermodynamics is perhaps the most philosophically unsettling scientific discovery in history."
+      },
+      {
+        "q": "The Great Fire of London 1666 led to...",
+        "options": [
+          "The collapse of London as a city",
+          "The adoption of England's first building codes (brick instead of timber) and the rebuilding of London as a modern city with St Paul's Cathedral",
+          "London moving its capital elsewhere",
+          "A major war with France"
+        ],
+        "answer": 1,
+        "funFact": "Christopher Wren's original plan for post-fire London included wide boulevards radiating from major focal points -- essentially Paris before Paris had those boulevards. The plan was rejected because property owners wanted to rebuild on their exact previous plots. London ended up with compromise improvements rather than Wren's vision. Some urban historians argue London would be more beautiful today if the fire plan had been fully executed."
+      }
+    ]
+  },
+  "ai": {
+    "toolSpotlight": {
+      "name": "Claude (Anthropic)",
+      "category": "Research / Writing / Analysis / Coding",
+      "eli5": "Claude is Anthropic's AI assistant -- designed from the ground up with safety as a primary concern alongside capability. Unlike some AI assistants, Claude is designed to say 'I don't know' or 'I'm not sure' rather than confabulate (make things up confidently). It excels at long-form analysis, nuanced writing, coding, research synthesis, and tasks requiring careful reasoning. Claude can process very long documents (books, reports, legal contracts) in a single conversation and is particularly strong at following complex instructions.",
+      "secretMove": "Use Claude for adversarial review of your own work: paste your proposal, plan, or argument and ask 'What are the 3 strongest objections someone could make to this? What am I most likely wrong about?' Claude is honest about flaws in a way that people who know you personally might not be -- making it a valuable thinking partner for self-challenge.",
+      "mnemonic": "Claude = AI that says 'I don't know' honestly. Use it for self-challenge, not just self-confirmation."
+    },
+    "workflowWin": {
+      "title": "The Contract and Document Review System",
+      "problem": "Most people don't read contracts carefully -- they're long, technical, and boring. Then they're surprised by clause 47 that waives their rights to something important.",
+      "steps": [
+        "When you receive any contract, agreement, or important document: upload it to Claude or Gemini (both accept PDFs)",
+        "Ask: 'What are the 5 most important things I should understand before signing this? What clauses could hurt me?'",
+        "Then ask: 'Are there any unusual or non-standard terms in this document compared to typical agreements of this type?'",
+        "Finally: 'What questions should I ask the other party or a lawyer before signing?'"
+      ],
+      "timeSaved": "Replaces 2-4 hours of anxious document reading with 10-15 focused minutes -- and often finds things you would have missed.",
+      "mnemonic": "AI contract review = 15 minutes of AI reading vs 3 hours of anxiety. Find the clause 47 first."
+    },
+    "promptOfDay": {
+      "purpose": "Create a personalised habit plan that actually fits your life",
+      "prompt": "I want to build this habit: [DESCRIBE HABIT]. My current daily schedule is approximately: [DESCRIBE YOUR TYPICAL DAY - when you wake, work, eat, sleep]. My biggest obstacles to this habit have been: [DESCRIBE WHAT HAS STOPPED YOU BEFORE]. Create: 1) An implementation intention (exact when/where/trigger for the habit), 2) A minimum viable version of the habit for difficult days, 3) A habit stack (what existing habit can this attach to?), 4) A method to track it without using another app, 5) What to do when I miss a day.",
+      "where": "Claude",
+      "mnemonic": "Habit plan prompt = Schedule-specific, obstacle-aware, minimum viable, stackable. Habits that fit real life, not ideal life."
+    },
+    "futureWatch": {
+      "trend": "AI is generating scientific discoveries independently",
+      "eli5": "In 2024, Google's AlphaFold solved one of biology's greatest mysteries (protein folding) for 200 million proteins -- a problem that would have taken human scientists thousands of years. In 2026, AI systems are now independently generating hypotheses, designing experiments, and discovering materials. Microsoft's AI has identified 18 new battery materials with 70% fewer lithium requirements. Insilico Medicine used AI to design and advance a drug candidate to clinical trials in 18 months -- vs 10-15 years normally. Science itself is accelerating.",
+      "yourMove": "If you work in any research, healthcare, or technical field: the most valuable thing you can do this year is learn to work WITH AI research tools, not just use them as search engines. The researchers who learn to collaborate with AI rather than compete with it will produce significantly more significant work.",
+      "mnemonic": "AI generates science = AlphaFold solved proteins. AI accelerating discovery. Collaborate, don't compete."
+    },
+    "quiz": [
+      {
+        "q": "Claude's most distinctive design principle is...",
+        "options": [
+          "Being the fastest AI",
+          "Being designed with safety as a primary concern alongside capability, including honesty about uncertainty",
+          "Having the largest training dataset",
+          "Being free to use"
+        ],
+        "answer": 1,
+        "funFact": "Anthropic was founded by former OpenAI researchers including Dario and Daniela Amodei specifically to focus on AI safety research. Their Constitutional AI approach trains models to follow a set of principles -- making Claude more likely to acknowledge uncertainty, refuse harmful requests, and avoid sycophancy (just agreeing with users to please them)."
+      },
+      {
+        "q": "AI document review is valuable because...",
+        "options": [
+          "AI is a licensed lawyer",
+          "AI can process and identify key clauses in complex documents in minutes vs hours of human reading, flagging unusual terms and potential risks",
+          "It replaces professional legal advice",
+          "Contracts are always standardised"
+        ],
+        "answer": 1,
+        "funFact": "Studies comparing AI contract review to junior lawyer contract review found AI achieved 94% accuracy in identifying material terms and potential risks -- comparable to junior lawyers, in 1/20th the time. For everyday contracts (rental agreements, service agreements, purchase contracts), AI review is now genuinely adequate as a first pass."
+      },
+      {
+        "q": "Google AlphaFold's protein folding discovery was significant because...",
+        "options": [
+          "It found a cure for a disease",
+          "It solved in 2 years what would have taken human scientists thousands of years -- demonstrating AI independently advancing fundamental science",
+          "It made proteins cheaper to produce",
+          "It proved DNA is more important than proteins"
+        ],
+        "answer": 1,
+        "funFact": "Protein folding had been one of biology's most important unsolved problems since 1972 (when Christian Anfinsen won the Nobel Prize for showing that a protein's shape is determined by its sequence). The shape determines the protein's function. Understanding protein shapes is essential for drug design. AlphaFold didn't just solve the problem -- it gave the answer for 200 million known proteins simultaneously."
+      }
+    ]
+  },
+  "travel": {
+    "destination": {
+      "country": "Maldives",
+      "region": "Male and North Male Atoll",
+      "eli5": "The Maldives is the world's lowest country -- average ground level is 1.5 metres above sea level. It could be largely underwater within decades. But right now, it is the most perfect tropical ocean environment on Earth: 1,200 islands across 26 atolls, most uninhabited. The water is so transparent you can see 30 metres down. The coral reefs are some of the world's most biodiverse. Every resort island is separated from the real world by a seaplane or speedboat journey that feels like crossing into another dimension.",
+      "bestTime": "November-April -- dry season, crystal visibility, calm seas. May-October is monsoon season with rougher seas and occasional heavy rain, but 30-40% lower prices and almost no tourist crowds.",
+      "hiddenGem": "Local island stays. Instead of (or alongside) a resort stay, book a night on a local Maldivian island (Maafushi or Dhigurah are excellent). You see how actual Maldivians live, the food is authentic, costs are 80% less than resort islands, and you can take day trips to uninhabited islands that resort guests never see.",
+      "mnemonic": "Maldives = Underrated gem. Know it before everyone else does"
+    },
+    "visaTip": {
+      "focus": "Maldives Visa for Indian Passport Holders",
+      "eli5": "Indian passport holders get visa on arrival for the Maldives -- free, for up to 30 days. Just show up at Velana International Airport in Male with a return ticket, hotel/resort booking, and passport. That's all.",
+      "goldenTip": "Book the sea plane or speedboat transfer to your resort BEFORE you arrive -- these fill up and the Maldives airport has very limited accommodation for stranded transfers.",
+      "mnemonic": "Travel tip: Research visa rules before booking. Prevention better than denied boarding"
+    },
+    "culturalCode": {
+      "culture": "Maldives",
+      "doThis": "Snorkel at dawn when the water is glassiest and marine life most active. If offered a meal with a local family on a local island, accept immediately. Sunset from a sandbank (a temporary island that appears only at low tide) is one of the most beautiful things you can see on Earth.",
+      "neverDoThis": "Maldives is a Muslim country -- dress modestly on local islands (no bikinis, cover shoulders and knees). Resort islands are different -- normal beachwear is fine there. Also: never take live coral or shells from the ocean -- it's illegal and environmentally catastrophic.",
+      "mnemonic": "Maldives: Read the cultural dos and don'ts. Locals remember respectful visitors."
+    },
+    "quiz": [
+      {
+        "q": "What makes Maldives unique for Indian travellers?",
+        "options": [
+          "It requires a complex visa process",
+          "Its visa accessibility and cultural proximity make it one of the easiest yet most rewarding destinations",
+          "It is very expensive",
+          "It has limited tourism infrastructure"
+        ],
+        "answer": 1,
+        "funFact": "India is typically among the top 3 source countries for tourists to Maldives -- the combination of cultural familiarity, language accessibility (English widely spoken), and visa ease creates natural flow."
+      },
+      {
+        "q": "When travelling to new countries, the most important cultural research is...",
+        "options": [
+          "The best restaurants",
+          "Taboos and sacred practices -- the things that seem normal to you that are offensive there",
+          "The tipping culture",
+          "Political attitudes toward tourists"
+        ],
+        "answer": 1,
+        "funFact": "The most common tourist offences that lead to legal trouble or community hostility are almost always culturally-specific behaviours that tourists didn't know were offensive: taking photos in sacred spaces, inappropriate dress near temples, showing the soles of feet, touching sacred objects. Five minutes of research prevents all of them."
+      },
+      {
+        "q": "The most underrated value of visiting nearby Asian countries is...",
+        "options": [
+          "They are cheap",
+          "Proximity means you can actually go for 3-4 days and get genuine cultural depth -- not just a hurried week-long circuit",
+          "Flights are always direct",
+          "Food is always familiar"
+        ],
+        "answer": 1,
+        "funFact": "Research on travel satisfaction consistently shows that depth of experience (time spent in fewer places) produces higher satisfaction than breadth (more places, less time). The ideal travel experience for genuine cultural understanding requires at least 4-5 days in one location -- enough time for the initial tourist disorientation to give way to genuine curiosity."
+      }
+    ]
+  }
+}
+
+const d260608 = {
+  news: {
+    segments: [
+      { name: "🌐 What's happening with countries?", color: "#a0d4f5", stories: [
+        { headline: "Iran and Israel exchange fire  -  most serious escalation since April ceasefire", eli5: "On June 7-8, the most dangerous moment of 2026 so far: Israel launched airstrikes on Beirut on Sunday, Iran retaliated by firing a wave of missiles at northern Israel, Israeli jets struck military sites inside Iran in response, and passengers at Ben Gurion Airport watched missiles light up the sky above them. Then on Monday morning, both sides declared a halt. The whole terrifying cycle  -  from escalation to temporary ceasefire  -  happened in about 36 hours. Trump posted: 'Israel and Iran must immediately stop shooting.' He told Netanyahu he 'better be very careful.' It was the most serious military exchange between the two countries since the original war began.", whyItMatters: "This escalation showed how fragile the ceasefire was and how quickly a regional war could reignite  -  with Iran, Israel, Lebanon, and the US all simultaneously involved.", mnemonic: "June 8 Iran-Israel = Missiles at Ben Gurion Airport. 36 hours of terror, then silence. Most dangerous moment of 2026" },
+        { headline: "Trump storms out of NBC News interview  -  refuses questions about slush fund", eli5: "Trump was being interviewed by NBC News anchor Kristen Welker when she began questioning him about a reported White House 'slush fund'  -  money allegedly held outside normal government accounting. Trump abruptly stood up, said he was done, and walked out of the interview mid-sentence. Former '60 Minutes' anchor Scott Pelley later claimed the Welker interview was an example of what happens when journalists actually hold Trump to account. The walkout dominated news cycles almost as much as the Iran-Israel escalation.", whyItMatters: "Presidential media relations define information flow to the public. A president who walks out of unfriendly interviews signals a pattern of avoiding accountability.", mnemonic: "Trump NBC walkout = Slush fund question + chair pushed back + door shut. Standard playbook when cornered" },
+        { headline: "Millions of American families lose SNAP food benefits as One Big Beautiful Bill takes effect", eli5: "The One Big Beautiful Bill  -  Trump's signature budget legislation  -  included strict new work requirements for SNAP (America's food stamps program). On June 8, the requirements kicked in fully. Millions of families who had qualified under old rules no longer did. A single mother who works part-time but doesn't meet the new hourly threshold: cut off. A disabled person whose condition isn't formally recognised: cut off. PBS reported on families emptying their fridges and wondering how to feed children by month's end.", whyItMatters: "The SNAP cuts were the largest reduction in food assistance in American history. They directly affected children, the elderly, and working-poor families  -  and signalled the priority ordering of the bill's authors.", mnemonic: "SNAP cuts June 8 = Millions fed yesterday, hungry today. Policy changes felt in fridges first" }
+      ]},
+      { name: "💸 What's happening with money?", color: "#a8edcb", stories: [
+        { headline: "Markets whipsaw on Iran-Israel exchange: Nifty swings 500 points in 8 hours", eli5: "Indian markets on June 8 had one of the most volatile sessions of 2026. When news of Iran-Israel missile exchanges broke before market open, Nifty futures fell sharply. Then when both sides declared a halt mid-morning, markets recovered. By afternoon, Nifty was almost flat despite the terrifying morning. The lesson: algorithmic traders now react in milliseconds to geopolitical news, creating extreme intraday swings that human investors who panic-sell almost always get wrong.", whyItMatters: "Market volatility during geopolitical crises punishes emotional investors who sell at the bottom and rewards those who hold or buy the fear.", mnemonic: "June 8 Nifty = 500-point swing in 8 hours. Those who sold at 9am regretted it by 3pm" },
+        { headline: "California primary raises election integrity questions  -  markets watch political risk", eli5: "California's primary ballot count was ongoing, taking several days because millions of mail-in ballots needed to be processed. This is normal and legal. But Trump's social media posts claiming fraud before counting was complete introduced political uncertainty. Markets track political stability  -  any serious threat to electoral systems in major democracies raises risk premiums. The California count was ultimately clean, but the noise created unnecessary anxiety.", whyItMatters: "When political leaders question electoral processes, it creates uncertainty that has real economic costs  -  higher risk premiums, reduced investment, and currency pressure.", mnemonic: "California count = Days-long process + fraud claims before completion = Noise that costs markets real money" }
+      ]},
+      { name: "💻 What's happening with technology?", color: "#c9b8f5", stories: [
+        { headline: "Israeli cabinet splits over Trump's demand to halt Iran strikes", eli5: "Inside Israel, there was a dramatic internal battle on June 8. Trump was demanding Israel halt its attacks in Iran. But Netanyahu's far-right coalition partners  -  Finance Minister Smotrich and National Security Minister Ben Gvir  -  wanted to keep striking. Netanyahu was caught between his most powerful ally (Trump) and his most extreme coalition partners. Israeli Channel 12 reported tense security consultations where this split was exposed. The internal Israeli politics were as complicated as the external diplomacy.", whyItMatters: "Israel's coalition government structure meant Netanyahu couldn't simply obey Trump's instructions  -  he needed to manage extreme right-wing partners who wanted escalation, not ceasefire.", mnemonic: "Netanyahu caught between Trump ('stop') and Ben Gvir ('keep hitting'). Leader squeezed from both sides" }
+      ]},
+      { name: "🌿 What's happening with our planet?", color: "#f5c6a0", stories: [
+        { headline: "Oil spills in Persian Gulf as tankers burn  -  environmental catastrophe alongside military one", eli5: "The military campaign in the Persian Gulf was creating an environmental disaster that received almost no coverage. As the US targeted tankers and Iran targeted shipping, oil was leaking into one of the world's most ecologically fragile seas. The Persian Gulf is a semi-enclosed body of water  -  oil doesn't disperse as easily as in open ocean. Marine biologists warned that coral reefs, fish populations, and the water supply of Gulf states drawing desalinated water from the Gulf were all under threat.", whyItMatters: "Military conflicts in maritime environments create environmental damage that lasts decades  -  long after the shooting stops, the ecosystem destruction continues.", mnemonic: "Persian Gulf oil spills = Military war + environmental war happening simultaneously. Only one gets coverage" }
+      ]}
+    ],
+    quiz: [
+      { q: "What triggered the Iran-Israel missile exchange on June 7-8 2026?", options: ["Iran attacked Israel first", "Israel launched strikes on Beirut on Sunday, Iran retaliated with missiles at Israel, then Israel struck inside Iran", "A US airstrike on Iran started it", "Hezbollah attacked Israel first"], answer: 1, funFact: "The June 7-8 exchange was described as 'war's 101st day'  -  the conflict between the US, Israel, and Iran had been ongoing for over three months at this point. The exchange of fire at Israeli airports was the first time civilian aviation infrastructure was directly affected." },
+      { q: "Trump's NBC interview walkout happened because...", options: ["The interview ran overtime", "Anchor Kristen Welker asked questions about an alleged White House slush fund and Trump abruptly left mid-interview", "Trump had another meeting", "Technical difficulties stopped the broadcast"], answer: 1, funFact: "The presidential interview walkout is an extremely rare event. The most famous prior example was Richard Nixon refusing to answer certain Watergate questions. Trump's walkout from Welker's interview was the first complete mid-interview presidential departure from a major network in the modern media era." },
+      { q: "SNAP food benefit cuts took effect June 8 primarily through...", options: ["Reducing the payment amounts", "Stricter work requirements that disqualified millions who had previously been eligible", "Eliminating the program entirely", "Restricting it to families with children only"], answer: 1, funFact: "SNAP (Supplemental Nutrition Assistance Program) was created during the Great Depression as the Food Stamp Program in 1939. It has expanded and contracted with political cycles ever since. The June 2026 cuts were the largest single-legislative reduction in eligibility in the program's 87-year history." }
+    ]
+  },
+  markets: {
+    globalPulse: { eli5: "June 8 was one of 2026's most volatile trading days. Iran-Israel exchange fires sent oil spiking to $98 briefly before the ceasefire halt brought it back to $94. The Dow dropped 400 points at open then recovered 300. Gold briefly hit $3,320 on panic buying. Investors who kept heads calm made money on the volatility. Those who sold in the morning fear lost real money.", keyThings: ["Brent Crude: spiked $98 then settled $94  -  wildly volatile", "Gold: briefly $3,320 then $3,285  -  safe haven rush", "Nifty: -1.2% at low, recovered to -0.3% close", "VIX (fear index): highest reading of 2026"] },
+    indianMarket: { eli5: "India's market on June 8 was a masterclass in volatility management. The morning fear-sell took Nifty to 23,050 briefly. Then the Iran-Israel ceasefire announcement reversed everything. By close, Nifty was at 23,280  -  down only marginally from the previous close. The investors who had stop-loss orders triggered in the morning were kicked out of positions that recovered the same afternoon. Lesson: volatility is not the same as risk. Risk is permanent loss. Volatility is noise.", breakouts: [
+      { name: "Gold ETFs (NSE: GOLDBEES, HDFC GOLD)", whyExciting: "Gold hit a new 2026 high during the Iran-Israel exchange. Gold ETFs  -  which track physical gold price without requiring physical storage  -  surged. In times of war, gold is the most reliable store of value. India's affinity for gold plus tax-efficient ETF structure made these a natural safe haven for Indian investors during the June crisis.", risk: "When Iran-Israel tensions ease and a deal is signed, gold typically falls 5-10% as fear premiums unwind. Timing the exit matters." , halal: true, buyPrice: 'Rs.58', sellPrice: 'Rs.66', stopLoss: 'Rs.54'},
+      { name: "ONGC (NSE: ONGC)", whyExciting: "India's largest oil producer is one of the rare Indian stocks that benefits from high oil prices. Higher crude = higher revenue for ONGC's own production. The stock had been underperforming in recent years but the oil price surge was a genuine earnings catalyst.", risk: "Government often caps ONGC's effective oil price through subsidy mechanisms  -  the market benefit of high oil doesn't always fully pass through to earnings." , halal: true, buyPrice: 'Rs.245', sellPrice: 'Rs.280', stopLoss: 'Rs.225'},
+      { name: "BSE Ltd (NSE: BSE)", whyExciting: "Stock exchanges make money from trading volume. High-volatility days like June 8 generate enormous transaction volumes, directly boosting BSE's fee income. Counterintuitively, the worse the market volatility, the better the exchange's quarterly results.", risk: "If volatility-driven volumes replace genuine investment activity, long-term fee income growth slows when markets normalise." , halal: 'conditional', buyPrice: 'Rs.4,800', sellPrice: 'Rs.5,500', stopLoss: 'Rs.4,450'}
+    ], ipoSpot: { name: "No IPO open during market volatility", verdict: "Watch", eli5: "No company wants to go public during missile exchange news days. The IPO market was fully paused in June." }, lessonOfDay: { title: "Volatility vs Risk  -  The Critical Distinction", story: "June 8 Nifty fell 1.2% at its worst point  -  scaring many investors. But Nifty closed down only 0.3%. Investors who sold at the worst point turned a temporary paper loss into a real one. Warren Buffett's definition: risk is the permanent loss of capital. Volatility is temporary price movement that doesn't represent permanent loss. A good business bought at a fair price doesn't become a bad investment because missiles were fired. The price went down. The business didn't change.", mnemonic: "Volatility = noise. Risk = permanent loss. Don't confuse the two. June 8 taught this lesson free of charge" } },
+    quiz: [
+      { q: "Why did selling Nifty at 9am on June 8 cost investors money?", options: ["Markets don't open at 9am", "Iran-Israel ceasefire was announced mid-morning, recovering most of the morning's losses  -  sellers were out at the bottom", "Nifty fell all day on June 8", "Transaction costs made selling expensive"], answer: 1, funFact: "The phenomenon of retail investors selling during morning panic and missing afternoon recoveries is so consistent that it has a name: 'capitulation at the lows.' Professional investors track unusual volume spikes in the first 30 minutes of trading as indicators of retail panic  -  and often buy against that panic." },
+      { q: "Gold ETFs outperform physical gold for Indian investors primarily because...", options: ["They track a different gold price", "No storage costs, purity risk, or making charges  -  plus they can be bought and sold in seconds at transparent market prices", "They pay dividends on gold", "They are backed by government guarantee"], answer: 1, funFact: "Physical gold jewellery in India involves 3 costs beyond the gold price: making charges (10-25%), GST (3%), and purity risk (less than 24 karat content). Gold ETFs have none of these. Over 10 years, the difference between physical gold returns and Gold ETF returns for Indian investors is typically 5-15 percentage points, entirely from these hidden costs." },
+      { q: "The VIX (fear index) measures...", options: ["The actual amount of market volatility yesterday", "The market's expectation of future volatility  -  derived from options prices  -  indicating how much uncertainty investors currently price in", "How fast the market is falling", "Individual stock risk levels"], answer: 1, funFact: "The VIX was created by the Chicago Board Options Exchange in 1990. It's derived from the implied volatility of S&P 500 options  -  essentially measuring what traders are paying to insure against future swings. A VIX above 30 typically indicates genuine market fear. During COVID (March 2020) it hit 82  -  the highest reading ever recorded." }
+    ]
+  },
+  psychology: { mindTrick: { name: "The IKEA Effect  -  We Value What We Build", eli5: "Harvard researchers Michael Norton, Daniel Mochon, and Dan Ariely ran a simple experiment: people who assembled IKEA furniture themselves valued it dramatically higher than identical pre-assembled furniture. The same effect applies to recipes you cook vs. restaurant meals, code you wrote vs. code you bought, and business strategies you developed vs. ones consultants gave you. Labour creates love. The more effort we invest in something, the more we value it  -  regardless of quality. This is why people defend mediocre decisions they worked hard to reach and discount excellent advice they received effortlessly.", realLife: "In negotiation: solutions the other party helps create are more likely to be implemented than solutions handed to them. In management: teams that develop their own strategy buy into it more than teams given a strategy from above. In product design: features users configure themselves are rated higher than identical preset features.", mnemonic: "IKEA Effect = Effort creates attachment. We love what we build, even if imperfectly built" },
+    bodyLanguage: { signal: "The Steeple  -  Fingertips Touching, Palms Apart", eli5: "The steeple gesture  -  fingertips touching, palms not touching, forming a church-steeple shape  -  is one of the most clearly positive confidence signals in body language. Joe Navarro calls it the 'confidence gesture.' It signals: 'I'm very sure of what I'm saying and not threatened by challenge.' You see it most often when someone is asked a question they know they can answer, or when they're about to make a point they're very confident about. The person who steeples while listening to a question has already decided their answer.", howToUse: "Use the steeple when you're making a point you're confident about  -  it signals certainty to listeners without aggression. Notice it in others: a person who steeples while you make an argument is already thinking of their confident counter-response.", mnemonic: "Steeple = Confidence signal. Fingertips together = 'I know exactly what I'm about to say'" },
+    superpower: { name: "Social Proof  -  We Follow What Others Are Doing", story: "Nightclub promoters figured this out decades ago: long lines outside empty clubs. The line created the impression of popularity, which created actual popularity. New York restaurants notoriously pack tables close together  -  it looks busy even when it isn't. Amazon's 'Best Seller' and '4.7 stars from 12,000 reviews' badges. YouTube's view counts. TripAdvisor rankings. Every platform that shows you what others have done is weaponising social proof. We evolved in small social groups where following the crowd genuinely was often the safest strategy. The brain hasn't updated for curated, manipulated, and purchased social signals.", shield: "When you feel drawn to something because 'everyone is buying it' or 'it has thousands of reviews'  -  ask: is the popularity genuine organic? Or manufactured? Fake reviews, purchased social media followers, and 'manufactured urgency' metrics are enormously common. Seek independent, specific, verifiable endorsements rather than aggregate popularity signals.", mnemonic: "Social proof = We follow crowds. Modern crowds can be manufactured. Verify before following." },
+    quiz: [
+      { q: "The IKEA Effect explains why teams who create their own strategy implement it more effectively than teams given a strategy because...", options: ["The self-created strategy is always better", "Labour investment creates attachment and ownership, making people more motivated to make their creation succeed", "Externally created strategies are always worse quality", "Teams don't trust outsiders"], answer: 1, funFact: "The IKEA Effect has practical implications for consulting: McKinsey research found that client-led strategy projects (where consultants facilitate rather than dictate) have 60% higher implementation rates than consultant-led projects. The quality of the strategy matters less than the ownership the client feels over it." },
+      { q: "The steeple body language gesture signals...", options: ["Prayer or religious devotion", "High confidence about what you're about to say  -  one of the clearest positive certainty signals in body language", "Nervousness disguised as confidence", "Contempt for the listener"], answer: 1, funFact: "Joe Navarro's decades of FBI interviewing found that the steeple is notably absent during deception. When people lie, they tend to adopt self-touching, closed, or protective postures. The steeple  -  with its open, upward, unprotected shape  -  is inconsistent with the anxiety of deception, making its presence a genuine positive indicator." },
+      { q: "Nightclub owners using long lines to make empty clubs look popular is an example of...", options: ["Inefficient queue management", "Manufactured social proof  -  artificially creating the appearance of popularity to generate real popularity through herd behaviour", "Legal crowd control", "Normal queueing when clubs are genuinely full"], answer: 1, funFact: "Malcolm Gladwell documented the Hush Puppies shoe revival in 'The Tipping Point': a nearly dead brand became a cultural phenomenon in 1994 when a small number of fashionable New Yorkers started wearing old stock ironically. Gladwell's insight: social trends tip when a small group of influential 'connectors' adopt something, creating social proof that cascades through larger populations." }
+    ]
+  },
+  leadership: { leaderMove: { name: "The Crisis Leadership Framework  -  Calm Is Contagious", story: "When the Iran-Israel missiles were flying on June 8, Netanyahu faced pressure from extremist coalition partners to escalate further. When Trump issued his 'stop shooting' order, some of Netanyahu's partners wanted to defy it. Leadership in crisis requires exactly what is hardest: deliberate calm in the moment of maximum pressure. Eisenhower, the night before D-Day, when everything could go wrong, wrote letters to his wife. Churchill during the Blitz worked on paperwork after warning the Cabinet. Calm leaders produce calm organisations. The inverse is also true: panicking leaders create panicking organisations that make irreversible mistakes.", doThis: "Before your next high-pressure situation  -  a difficult meeting, a crisis at work, an important decision  -  practice the '4-7-8 breath' (inhale 4, hold 7, exhale 8). Do it twice. This physiologically reduces stress hormone levels before you enter the room. Calm leadership starts with calm physiology.", mnemonic: "Crisis leadership = Calm is contagious. Your panic spreads down. Your steadiness spreads down. Choose." },
+    visionarySecret: { concept: "Second-Order Thinking  -  Think Past the Obvious", eli5: "First-order thinking: 'Oil is up  -  inflation will be higher.' Second-order thinking: 'Oil is up  -  inflation will be higher  -  central banks will raise rates  -  rate-sensitive sectors will fall  -  but gold and energy stocks will rise  -  but if the rate hike expectations are already priced in, then the actual rate hike might cause a relief rally.' Howard Marks (Oaktree Capital): 'To achieve superior results, you have to think differently from the consensus AND be right.' First-order thinking produces consensus thinking. Consensus thinking produces average results. Second-order thinking is the foundation of every genuine insight.", exercise: "Take any current prediction you believe ('the market will fall because of Iran'). Ask: 'If everyone believes this, what happens to the people who believed it after it becomes consensus? And what happens after THAT?' Keep going two levels past the obvious.", mnemonic: "Second-order thinking = And then what? And then what after that? Two levels past everyone else." },
+    eliteHabit: { habit: "The Pre-Mortem  -  Kill Your Plan Before It Kills You", whoAndHow: "Gary Klein developed the pre-mortem technique used by NASA, special forces, and top consulting firms. Before a major project or decision, gather the team and say: 'Imagine it's 6 months from now and this has failed completely. What went wrong?' People who would never publicly object to a plan before it starts freely identify risks when asked to imagine the failure already happened. It's used before every NASA mission launch, before every Army Ranger deployment, and by Jeff Bezos before every major Amazon launch.", whyItWorks: "The pre-mortem overcomes the planning fallacy (optimism bias in planning) and group-think (nobody wants to be the pessimist). By making failure hypothetical and already happened, it removes social risk from raising concerns. Teams consistently identify 20-30% more risks in pre-mortems than in standard planning reviews.", mnemonic: "Pre-mortem = 'Imagine it failed. What went wrong?' Find the failure BEFORE you start. NASA does it every time." },
+    sigmaWisdom: { lesson: "The View From Above  -  Zooming Out Changes Everything", story: "Marcus Aurelius used a mental technique he called 'the view from above': when stressed or caught in petty conflict, he would imagine himself rising above Rome, then above Italy, then above the Earth, seeing the entirety of human civilisation as a tiny dot in an infinite universe. From that altitude, the small cruelty of a colleague, the setback of a project, the anxiety of a decision  -  all shrink to their actual proportions. Today's equivalent: zoom out of the day to the year. Zoom out of the year to the decade. Zoom out of the decade to the life. Most urgencies and crises that dominate a day look trivial from the decade level.", action: "The next time something feels urgent and stressful: write at the top of a piece of paper 'In 10 years, this will...' and finish the sentence honestly. Then decide if the same level of emotional energy is warranted.", mnemonic: "View from above = Zoom out. Day -> Year -> Decade -> Life. Most urgencies disappear at altitude." },
+    quiz: [
+      { q: "Eisenhower writing letters the night before D-Day exemplifies crisis leadership because...", options: ["He was procrastinating on difficult decisions", "Deliberate calm in maximum pressure creates the psychological conditions for clear thinking and prevents panic from spreading to the organisation", "He had nothing else to do", "Letter writing was a military tradition"], answer: 1, funFact: "Eisenhower also wrote a letter the night before D-Day accepting full responsibility if the landings failed  -  to be released only if they did. Psychologists say this act of pre-acceptance removed the anxiety of 'what if I'm blamed' from his mind, freeing him to focus entirely on the decision itself rather than its consequences for his career." },
+      { q: "Second-order thinking is valuable because...", options: ["It takes longer and therefore uses more information", "First-order thinking produces consensus conclusions that everyone reaches  -  only second-order thinking can generate genuinely differentiated insight", "Complex problems always have complex solutions", "Howard Marks invented it"], answer: 1, funFact: "Charlie Munger's famous 'inversion' is first-order thinking's inverse: instead of 'how do I achieve success?', ask 'how do I guarantee failure?' Inverting problems reveals risks that forward-looking analysis misses. Munger said: 'All I want to know is where I'm going to die so I can never go there.'" },
+      { q: "The pre-mortem technique works better than standard risk analysis because...", options: ["It's faster than standard risk analysis", "Framing failure as already happened removes social risk from raising concerns, producing 20-30% more identified risks than standard planning reviews", "It involves more people", "Imagination produces more creative thinking"], answer: 1, funFact: "The planning fallacy (Kahneman and Tversky, 1979) shows that humans systematically underestimate how long tasks will take and how much they'll cost, while overestimating success probability. Pre-mortems specifically target this bias: imagining failure is already happened activates 'defensive pessimism' which counteracts the planning fallacy's optimism distortion." }
+    ]
+  },
+  wealth: { wealthSecret: { name: "Fear and Greed  -  The Market Cycle Clock", story: "Warren Buffett's most actionable piece of advice: 'Be fearful when others are greedy and greedy when others are fearful.' June 8 was a fear day  -  missiles, market drops, panic. The investors who understand market psychology know: maximum fear = maximum opportunity. When 1000 investors all try to sell the same assets on the same day, prices fall below intrinsic value. The investor who buys in that moment makes money on the way up as the same 1000 investors buy back. The CNN Fear and Greed Index hit 'Extreme Fear' on June 8. Historical data shows buying at Extreme Fear and selling at Extreme Greed beats any other timing strategy.", action: "Bookmark the CNN Fear and Greed Index (search it). Check it monthly, not daily. When it's in Extreme Fear (below 20): that's when to consider adding to good investments. When it's in Extreme Greed (above 80): that's when to slow down or take some profits.", mnemonic: "Fear = Buy signal for brave investors. Greed = Caution signal. Buffett's clock runs backwards to most people's instincts." },
+    moneyMachine: { type: "Gold as Portfolio Insurance  -  Not Just a Commodity", eli5: "Most Indian investors think of gold as jewellery or a cultural asset. Sophisticated investors think of it differently: as insurance. Gold has a historically low or negative correlation with stocks  -  when stocks fall (especially in crises), gold tends to rise. June 8 proved this perfectly: Nifty fell 1.2% at worst, Gold ETFs rose 0.8%. A portfolio that was 70% stocks, 20% bonds, 10% gold lost dramatically less than a 100% stock portfolio. Gold doesn't make you rich. Gold prevents you from becoming poor during crises.", indiaAngle: "Sovereign Gold Bonds (RBI-issued) give you gold price appreciation + 2.5% annual interest + zero capital gains tax after 8 years. This makes them objectively superior to physical gold for investment purposes. But for insurance purposes, Gold ETFs are more liquid  -  you can sell them the same day the crisis hits, unlike SGBs which have lock-ins.", mnemonic: "Gold = Portfolio insurance, not investment. 10% allocation hedges 90% portfolio against worst crisis scenarios." },
+    mindsetFlip: { oldThinking: "The best time to invest is when markets are calm and rising", newThinking: "The best time to invest is when markets are falling and scary  -  that's when prices are lowest", why: "If you buy at market peaks (calm and rising), you're paying maximum price for the same businesses. If you buy during crises (scary and falling), you're buying the same businesses at a discount. All the evidence shows markets recover from every crisis eventually. The question is not IF they recover but WHEN  -  and whether you bought at the crisis price or the peak price.", mnemonic: "Buy in fear, sell in greed. The emotional difficulty is exactly why it works  -  most people can't do it." },
+    magicNumber: { number: "10% Correction = Normal. 20% Bear Market = Opportunity.", eli5: "Markets fall 10%+ (a correction) approximately once per year on average. They fall 20%+ (a bear market) approximately every 3-4 years. Every single one of these corrections and bear markets in history has been followed by new highs  -  every one, without exception. The investor who adds money during corrections and bear markets has historically outperformed the investor who waits for 'stability' by 3-5% annually over 20 years. The corrections ARE the feature. They're the market's sale events.", mnemonic: "10% correction = Annual sale event. 20% bear market = Black Friday. Both always followed by new highs." },
+    quiz: [
+      { q: "Buffett's 'be fearful when others are greedy' is actionable through...", options: ["Avoiding markets entirely when others are buying", "Checking the CNN Fear and Greed Index and doing the opposite of the sentiment extreme  -  buying at Extreme Fear, cautious at Extreme Greed", "Only buying stocks Buffett himself buys", "Selling all stocks during every market panic"], answer: 1, funFact: "The CNN Fear and Greed Index has been backtested: buying when it reads below 20 (Extreme Fear) and holding for 12 months has historically outperformed buying when it reads above 80 (Extreme Greed) by an average of 18 percentage points. The contrarian strategy is not just emotionally difficult  -  it's mathematically validated." },
+      { q: "Gold's value as portfolio insurance comes from...", options: ["Gold always going up in price", "Its historically low or negative correlation with stocks  -  it often rises when stocks fall, reducing overall portfolio volatility", "Government guarantee on gold prices", "Gold being scarce and therefore always valuable"], answer: 1, funFact: "During the 2008 financial crisis, gold rose approximately 5% while the S&P 500 fell 38%. During COVID's March 2020 crash, gold initially fell (liquidity crisis) then rose 40% by August. The correlation between gold and equities over 20+ years is approximately -0.05 to -0.15  -  close enough to zero that they genuinely diversify each other." },
+      { q: "Every 10%+ stock market correction in history has been followed by...", options: ["Another correction immediately", "New all-time highs eventually  -  100% of corrections have been recovered from, making them temporary pain rather than permanent loss", "Government intervention to stabilise prices", "A recession"], answer: 1, funFact: "The 1929 crash (87% peak-to-trough) recovered. The 1987 Black Monday (22% single day) recovered. The 2000 dotcom bust (78% peak-to-trough) recovered. 2008 (54%) recovered. 2020 COVID (34%) recovered in 5 months. The US market has never failed to recover from any correction in its entire 200+ year history." }
+    ]
+  },
+  communication: { speakingSkill: { name: "The Power Pause  -  Control the Room by Stopping", story: "Oprah Winfrey is one of the world's most watched interviewers for one reason most people miss: she stops talking. When a guest says something important or emotional, Oprah goes completely silent. The silence forces the guest to continue  -  often saying the most revealing, most human thing they would have said. In presentations, speakers who pause after a key point create a moment where the audience's brain fills the silence with its own engagement. The pause says: 'What I just said is important enough to sit with.' Most speakers never pause  -  they fill every moment with words, losing the opportunity silence creates.", drill: "In your next presentation or important conversation, pick your three most important points. After each one: stop, take a breath, make eye contact, wait 3 full seconds. Notice how the room leans in. Notice how the point lands differently.", mnemonic: "Power pause = Silence after key point. 3 seconds that make the point land. Oprah's secret weapon" },
+    negotiationMove: { tactic: "The Reluctant Buyer/Seller  -  Pretend You Don't Need It", eli5: "The person who seems to need the deal most has the least negotiating power. The person who seems indifferent has the most. Professional negotiators deliberately cultivate the appearance of not needing to close: 'We're talking to three other suppliers.' 'I have another offer I need to get back to by Friday.' 'We could actually make do without this.' Even if none of these are true, the impression of having alternatives is almost as powerful as actually having them. The technical term: BATNA (Best Alternative to Negotiated Agreement). When your BATNA is strong (or appears strong), you negotiate from strength.", script: "'I appreciate the proposal and we're genuinely interested. But I should be transparent  -  we're also looking at [alternative] which has some advantages we'd need to weigh. Can you help me understand why your option is the right choice at this price?'", mnemonic: "Reluctant buyer = Appear not to need it. Power lies with the side that needs it less." },
+    officeWin: { rule: "Manage up deliberately  -  your manager's success is your success", story: "Two analysts, both equally talented. Analyst A does excellent work, submits it on time, and waits to be noticed. Analyst B does excellent work AND: sends a brief weekly update ('Here's what I worked on, what I learned, what I'll focus on next week'), proactively flags potential problems before they become visible crises, and explicitly asks 'What would be most useful for you this week?' After 12 months, Analyst A wonders why they haven't been promoted. Analyst B has been promoted and is managing Analyst A. The quality of work is the same. The visibility and alignment are not.", mistake: "Most high performers believe good work speaks for itself. In most organisations, good work that's invisible gets treated as no work. Managing up is not political  -  it's communication.", mnemonic: "Manage up = Weekly update + flag problems early + ask what's most useful. Visibility is not politics. It's communication." },
+    confidenceHack: { technique: "Own the Room Physically Before You Open Your Mouth", science: "Research on territorial behaviour in professional settings shows that the person who claims physical space  -  spreads materials on the table, adjusts their chair to the most commanding position, places objects deliberately  -  is perceived as more senior and authoritative before anyone has spoken. This is territorial behaviour borrowed from evolutionary psychology. The corner office, the head of the table, the wide stance  -  all physically claim more territory and signal higher status.", doItNow: "When you enter a meeting room: choose the most powerful seat (head of table or opposite the door). Spread your materials slightly. Adjust your chair height if possible. Make one slight physical claim on the space. Do it calmly and naturally, not aggressively. This takes 30 seconds and changes how the entire room perceives your seniority.", mnemonic: "Own the room physically = Spread materials, claim a seat, adjust chair. 30 seconds before speaking sets the tone for the meeting" },
+    quiz: [
+      { q: "Oprah Winfrey's strategic use of silence in interviews works because...", options: ["She forgot what to say next", "Silence creates social pressure that the other person fills  -  often with their most revealing and authentic statements", "Her production team cues her to be silent", "Silence makes people uncomfortable, which is always good in interviews"], answer: 1, funFact: "This technique has a specific name in journalism: 'sitting on the silence.' Barbara Walters described it as one of the skills that took her 10 years to master. The hardest thing for most people  -  silence  -  is one of the most powerful tools in conversation. Most people's instinct to fill silence costs them the most interesting answers they would have received." },
+      { q: "BATNA (Best Alternative to Negotiated Agreement) affects negotiation because...", options: ["Having a backup plan makes you less committed", "The strength of your alternatives determines your negotiating power  -  strong BATNA means you can walk away confidently", "BATNA is only used in legal negotiations", "Revealing your BATNA strengthens your position"], answer: 1, funFact: "Roger Fisher and William Ury developed the BATNA concept in 'Getting to Yes' (1981). Their research found that the most common negotiation mistake is entering without knowing your BATNA  -  which means you don't know at what point walking away is better than agreeing. Knowing your BATNA sets your reservation price." },
+      { q: "Physically claiming space in a meeting room works because...", options: ["Bigger people get more respect", "Territorial behaviour signals status in evolutionary terms that human brains still process  -  space ownership is subconsciously read as seniority", "Meeting rooms have limited space so claiming it is practically necessary", "Others will be intimidated by assertive behaviour"], answer: 1, funFact: "Research at Columbia Business School found that MBA students randomly assigned to sit at the head of a table were rated as significantly more competent and leaderlike by outside observers watching the same conversation. Seat position, independent of anything said, affected perceived leadership quality." }
+    ]
+  },
+  mind: { brainHack: { name: "The 5-Second Rule  -  Launch Before the Brain Kills It", eli5: "Mel Robbins discovered this through personal desperation: when you need to do something difficult  -  get out of bed, make the call, start the project  -  your brain has approximately 5 seconds before it generates reasons not to. If you count down from 5 to 1 and physically move at '1', you interrupt the hesitation circuit before it activates fully. The 5-4-3-2-1 launch is now used by military officers before difficult decisions, athletes before critical performances, and therapists with anxiety patients. The move has to be physical  -  the brain's hesitation circuit is interrupted by physical action, not mental decision.", protocol: "Any time you need to do something you're avoiding: say to yourself '5-4-3-2-1' and physically move your body at 1. Stand up, pick up the phone, open the document, take a step. The physical movement breaks the hesitation loop before the brain can close it.", mnemonic: "5-4-3-2-1 = Launch before brain vetoes. Physical move at 1. Works every time for the undecidable." },
+    disciplineCode: { principle: "Non-Negotiables  -  The Foundation Under Everything", story: "Navy SEALs have non-negotiables: physical training happens even if it's 2am, even after 18 hours of operations, even in the rain. These are called 'baseline behaviours'  -  the irreducible minimum that must happen regardless of conditions. The point is not the exercise itself. The point is that having non-negotiables trains the mind that commitments made to oneself cannot be renegotiated when conditions become uncomfortable. Jocko Willink wakes at 4:30am every morning  -  not because 4:30am is special, but because the discipline of keeping that commitment trains a mental faculty that transfers to all other commitments.", todayAction: "Identify one non-negotiable you will commit to for the next 30 days  -  not a goal, a behaviour. Something that will happen every single day regardless of conditions. Write it down. Tell one person. The accountability and specificity increase follow-through from 35% to 72%.", mnemonic: "Non-negotiable = Commitment that doesn't renegotiate when conditions change. SEAL principle for civilian life." },
+    impulseKiller: { urge: "The urge to check stock prices and news during market volatility", eli5: "During volatile market days like June 8, the most dangerous thing an investor can do is check their portfolio every 30 minutes. Each check triggers an emotional response. Emotional responses trigger the amygdala. The amygdala makes terrible long-term financial decisions. Research by Brad Barber and Terrance Odean showed that investors who check their portfolios most frequently earn 1.5-3% less annually than those who check quarterly or less. Frequent checking + emotional reaction = overtrading = worse returns. The antidote is deliberate information restriction.", interrupt: "During market volatility: set a rule  -  you can check your portfolio ONCE per day, at market close (3:30pm). Not at 9am open. Not at 10am. Once. This reduces the opportunity for emotion-driven decisions by approximately 90% during volatile periods.", mnemonic: "Check portfolio once daily at close. Every extra check = potential emotional decision = lower returns. Frequency is the enemy." },
+    bodyUpgrade: { practice: "Cold Water Face Immersion  -  The Dive Reflex", eli5: "Immersing your face in cold water for 30 seconds triggers the 'dive reflex'  -  an ancient evolutionary response that immediately slows heart rate by 10-25% and activates the parasympathetic nervous system. This reflex evolved to allow diving mammals to stay underwater longer. In humans, it's the fastest non-pharmaceutical method to reduce acute anxiety and heart rate. Used by athletes before high-pressure competitions and by therapists with panic attack patients. Faster than meditation. More reliable than breathing exercises for acute anxiety.", minimumDose: "Fill a bowl with cold water (add ice if available). Take a breath. Submerge your face for 30 seconds. Heart rate drops within 10 seconds. Useful before presentations, high-pressure meetings, or when anxiety is acute.", mnemonic: "Face in cold water 30 seconds = Dive reflex = Heart rate -10-25% immediately. Fastest anxiety reset available." },
+    quiz: [
+      { q: "The 5-Second Rule works for overcoming hesitation because...", options: ["5 seconds is always enough time to decide", "Counting down and physically moving at 1 interrupts the brain's hesitation circuit before it generates reasons to avoid the action", "It builds willpower over time", "5 is a psychologically significant number"], answer: 1, funFact: "Mel Robbins developed the 5-Second Rule in 2011 while struggling to get out of bed during a financial and personal crisis. She now describes it as interrupting the automatic 'I don't feel like it' response using activation energy  -  a concept from chemistry where a small energy input triggers a larger reaction." },
+      { q: "Investors who check their portfolios most frequently earn less because...", options: ["They pay more transaction costs", "Frequent checking triggers emotional responses that lead to overtrading  -  each extra decision is an opportunity to make an emotion-driven mistake", "They have worse financial knowledge", "Portfolio checking software has fees"], answer: 1, funFact: "Barber and Odean's landmark 2000 study 'Trading Is Hazardous to Your Wealth' analysed 66,465 household portfolios over 6 years. The most active traders earned 11.4% annual returns. The least active traders earned 18.5%. Both held the same market exposure. The entire 7-point gap came from the transaction costs and timing errors of emotional overtrading." },
+      { q: "The dive reflex from cold face immersion reduces heart rate because...", options: ["Cold water shocks the body into stillness", "It activates an evolutionary reflex that slows heart rate to allow extended underwater diving  -  repurposed for anxiety management", "The temperature drops body core temperature", "Cold causes blood vessels to constrict, raising blood pressure"], answer: 1, funFact: "The mammalian dive reflex is so powerful it can slow heart rate by 50% in champion free divers. Wim Hof ('The Iceman') has demonstrated voluntary activation of the sympathetic nervous system through cold exposure  -  abilities previously thought impossible. His techniques, while more extreme, are based on the same physiological mechanisms as the simple 30-second face immersion." }
+    ]
+  },
+  knowledge: { mathMagic: { concept: "Expected Value  -  Making Rational Decisions Under Uncertainty", eli5: "Expected value is the mathematical tool for deciding under uncertainty. Formula: multiply each possible outcome by its probability, then add them all up. Example: a coin flip for Rs 100 heads or Rs 0 tails. Expected value = (0.5 x Rs 100) + (0.5 x Rs 0) = Rs 50. So you should pay up to Rs 50 to play. If someone offers the game for Rs 30, play. If they charge Rs 70, decline. Warren Buffett uses expected value constantly: 'If I have a 90% chance of making Rs 10 crore and a 10% chance of losing Rs 1 crore, the expected value is Rs 8.9 crore. That's worth pursuing.' Most people make decisions based on hope or fear  -  not expected value.", realWorldUse: "Insurance: expected value tells you the fair premium for any risk. Investing: expected value of a stock position = (probability it rises x expected gain) - (probability it falls x expected loss). Medical decisions: expected value of a treatment = (probability of cure x quality of life improvement) - (probability of side effects x quality of life reduction).", mnemonic: "Expected value = Probability x Outcome, summed. The mathematical basis for every rational decision under uncertainty." },
+    scienceWow: { field: "Astrophysics", concept: "Neutron Stars  -  The Universe's Most Extreme Objects", eli5: "When a star 8-20 times the size of our Sun dies in a supernova explosion, what's left behind is a neutron star  -  a ball of matter approximately 20km in diameter that contains more mass than our entire Sun. A teaspoon of neutron star material weighs approximately 10 million tonnes. Neutron stars spin incredibly fast  -  some complete 700 rotations per second (pulsars). Their magnetic fields are a trillion times stronger than Earth's. They're so dense that the neutrons  -  subatomic particles  -  are packed directly against each other with no space between them. They're basically giant atomic nuclei the size of a city.", mindBlow: "When two neutron stars collide  -  an event detected for the first time in 2017  -  they produce a kilonova explosion. Scientists calculated that a single kilonova produces more gold than exists in the entire Earth. All the gold ever mined, all the gold in the oceans  -  came from neutron star collisions in our galaxy's ancient past. Your gold wedding ring was forged in a cosmic collision billions of years ago.", mnemonic: "Neutron star = Sun's mass in 20km. Your gold ring = Neutron star collision debris from billions of years ago" },
+    historyStory: { event: "The Berlin Airlift 1948-49  -  How 324,000 Flights Won the Cold War's First Battle", story: "In June 1948, the Soviet Union blocked all land and water routes to West Berlin  -  a Western enclave deep inside Soviet-controlled East Germany. Their goal: starve West Berlin into surrendering to Soviet control. American General Lucius Clay had a choice: try to force ground convoys through (risking World War III) or abandon West Berlin (surrendering without a fight). He chose a third option nobody expected: fly everything in. For 11 months, Allied planes landed in West Berlin every 3 minutes around the clock, delivering 2.3 million tonnes of food, coal, and supplies. At its peak, the airlift exceeded the pre-blockade rail deliveries. The Soviets, unable to shoot down civilian aircraft without starting a war, eventually backed down. The airlift succeeded without firing a single shot.", lesson: "The Berlin Airlift is the clearest historical example of creative problem-solving in crisis: refusing both aggressive escalation and capitulation, finding a third path nobody anticipated, and executing it with relentless precision. The lesson: when facing impossible binary choices, look for the option that doesn't exist yet.", mnemonic: "Berlin Airlift = Refused false binary (fight or surrender). Found third path. 324,000 flights won without a bullet." },
+    earthSecret: { place: "Oman", secret: "Oman is one of the world's most strategically significant countries that almost nobody knows about. It controls the southern shore of the Strait of Hormuz  -  the very strait whose closure in 2026 caused the global oil crisis. Oman has maintained neutrality and diplomatic relations with Iran, Israel, the US, and every Middle Eastern faction simultaneously for decades  -  making it history's most consistent peace broker. It hosted secret US-Iran nuclear talks in 2013 that led to the 2015 JCPOA deal. The Muscat Protocol that ended the 1988 Iran-Iraq War was negotiated there. Every major Middle East peace effort runs through Muscat.", edge: "Understanding Oman's role as the consistent back-channel for Middle East diplomacy explains why, whenever Iran and the US communicate secretly, the meetings happen in Oman. In June 2026, Omani officials were among the most active diplomats quietly working toward the Hormuz deal. This geopolitical insight  -  that Oman is the Switzerland of the Middle East  -  gives you a framework for reading every future Middle East crisis.", mnemonic: "Oman = Middle East's permanent back-channel. When US and Iran talk secretly, it's through Muscat. Always." },
+    quiz: [
+      { q: "Expected value helps decision-making by...", options: ["Eliminating all uncertainty", "Providing a mathematical framework to compare options by multiplying each possible outcome by its probability  -  enabling rational comparison across uncertain choices", "Telling you the most likely outcome", "Replacing intuition with calculation for all decisions"], answer: 1, funFact: "Pascal's Wager  -  Blaise Pascal's 17th-century argument for believing in God  -  was history's first formal expected value calculation. Pascal argued: if God exists and you believe, you gain infinite paradise. If God doesn't exist and you believe, you lose little. Expected value of belief: (probability God exists x infinity) > (probability no God x small loss). The mathematics of expected value was developed from this theological argument." },
+      { q: "All gold on Earth originally came from...", options: ["Volcanic activity concentrating heavy elements", "Neutron star collisions (kilonovae) that occurred in our galaxy billions of years before Earth formed", "The Sun's nuclear fusion", "Asteroid impacts depositing gold from space"], answer: 1, funFact: "The 2017 gravitational wave detection of two merging neutron stars (GW170817) was the first event allowing scientists to calculate kilonova gold production. The calculation: a single kilonova produces gold masses equivalent to approximately 100 Earth masses. Our galaxy has had millions of kilonovae. All of Earth's gold arrived as kilonova debris incorporated into the solar system's formation disk." },
+      { q: "The Berlin Airlift's strategic genius was...", options: ["Moving troops faster than Soviets expected", "Refusing the false binary of military confrontation or capitulation  -  finding a third option (civilian airlift) that achieved the goal without triggering war", "Having better aircraft than the Soviets", "Negotiating a treaty that ended the blockade diplomatically"], answer: 1, funFact: "The airlift's 'Candy Bomber' became one of the Cold War's most famous figures: US pilot Gail Halvorsen started dropping handkerchief parachutes with chocolate and gum to West Berlin children. The story became global news. West Berliners named him 'Uncle Wiggly Wings.' This single pilot's humanitarian gesture did more for American soft power than any official propaganda campaign  -  and was entirely spontaneous." }
+    ]
+  },
+  ai: { toolSpotlight: { name: "Gemini Advanced (Google)", category: "Research / Analysis / Coding", eli5: "Google's Gemini Advanced is the company's most capable AI, built on the Gemini Ultra model. Its standout feature: it can process an entire book, legal document, or 1,500-page report in a single conversation (1 million token context window). Ask it to summarise a 400-page report, compare two 200-page contracts, or explain chapter 7 in the context of chapters 1-3  -  Gemini handles it. It also deep-integrates with Google Workspace (Docs, Sheets, Gmail), making it the best choice if you live in the Google ecosystem.", secretMove: "Use Gemini Advanced for document comparison: upload two versions of a contract, a proposal, or a policy document and ask 'What changed between these two versions? Which changes favour me and which disadvantage me?' This task that would take a lawyer or analyst 2-3 hours takes Gemini 45 seconds.", mnemonic: "Gemini Advanced = 1 million token context. Can read entire books. Best for document comparison and analysis." },
+    workflowWin: { title: "The Weekly Personal Finance Review  -  15 Minutes That Change Everything", problem: "Most people have no idea where their money actually went until their credit card statement arrives  -  by which point it's already spent.", steps: ["Every Sunday, open your bank and credit card apps", "Review all transactions from the past week. Tag them mentally: need, want, or investment", "Write 3 numbers: total spent, total on wants specifically, total saved/invested", "Ask one question: 'Is this pattern taking me toward or away from where I want to be in 5 years?'"], timeSaved: "This 15-minute weekly review replaces the 10 hours of financial anxiety that builds up when you're not tracking  -  and typically reduces want-spending by 15-20% just through awareness.", mnemonic: "15-minute Sunday money review = Need vs want vs invest. Awareness reduces spend. No budget required." },
+    promptOfDay: { purpose: "Understand any complex news event in depth", prompt: "I just read about [NEWS EVENT - describe it briefly]. I don't have much background on this topic. Please explain: 1) What is the historical context that makes this significant? 2) Who are the key parties involved and what does each one want? 3) What are the 3 most likely ways this situation develops over the next 6-12 months? 4) Why should I (as [your background/profession]) specifically care about this? 5) What is the single most important thing to understand about this that most news coverage gets wrong or ignores?", where: "Claude or ChatGPT", mnemonic: "News explainer prompt = Context + parties + scenarios + personal relevance + what media misses. 5 questions that replace 10 articles." },
+    futureWatch: { trend: "AI is making personalised medicine real for the first time", eli5: "For most of medical history, treatment was standardised: you have disease X, here is drug Y, take it. The problem: humans vary enormously. Drug Y works brilliantly for 60% of patients, does nothing for 25%, and causes serious side effects for 15%. AI is now analysing genomic data, microbiome data, metabolic data, and treatment history to predict which drug will work for which specific patient before they take it. Tempus, Foundation Medicine, and several Indian startups are building these systems. The first cancer treatment protocols personalised by AI went into clinical use in 2026.", yourMove: "If you have a chronic condition or a family member does: ask their oncologist or specialist if genomic testing or AI-based treatment prediction is available. These tools are increasingly covered by insurance and can dramatically improve treatment outcomes by matching treatment to individual biology.", mnemonic: "AI personalised medicine = Drug Y works for 60%. AI finds your 60%. Treatment matched to your DNA, not average patient." },
+    quiz: [
+      { q: "Gemini Advanced's 1 million token context window is most useful for...", options: ["Generating longer text responses", "Processing entire books, legal documents, or massive reports in a single conversation  -  comparing, analysing, and summarising at scale impossible for shorter context windows", "Running faster than competing AIs", "Remembering previous conversations"], answer: 1, funFact: "For context: 1 million tokens is roughly 750,000 words  -  about 5-6 average novels simultaneously. GPT-4's original context window was 8,000 tokens (about 6,000 words). The 125x increase in context between 2022 and 2026 is what enabled tasks like 'analyse this entire company's legal history' or 'summarise this year of research papers' that were previously impossible." },
+      { q: "A weekly 15-minute personal finance review reduces spending primarily through...", options: ["Creating strict budgets", "Awareness  -  when people see their spending patterns explicitly, they make different choices without requiring discipline or budgeting", "Removing credit card access", "Monthly statement analysis"], answer: 1, funFact: "Research by the Journal of Consumer Research found that tracking spending in any format  -  app, spreadsheet, or handwritten notebook  -  reduces impulse spending by 14-21% without any budget target being set. The act of making spending visible is itself the intervention. Mint, YNAB, and similar apps work not because of their features but because they make spending concrete and visible." },
+      { q: "AI personalised medicine differs from standard medicine by...", options: ["Being more expensive for all patients", "Predicting which specific treatment will work for a specific patient's biology before they take it  -  rather than giving all patients with the same diagnosis the same treatment", "Replacing doctors with computers", "Only being available for rare diseases"], answer: 1, funFact: "The concept of personalised medicine received its most significant validation in oncology: the same cancer type in two patients can have completely different genetic mutations, making them respond to completely different drugs. Genomic sequencing of tumours to guide treatment selection has improved survival rates in several cancers by 30-50% compared to standard-of-care treatment." }
+    ]
+  },
+  travel: { destination: { country: "Indonesia", region: "Bali and Lombok", eli5: "Bali is so beautiful that 6.3 million tourists visited in 2024  -  a tiny island with the density of New York and the spirituality of Varanasi. Rice terraces carved into hillsides over 1,000 years, temples with incense curling into mist, surf beaches on the south, volcano hikes in the north, and the most developed tourist infrastructure in Southeast Asia. Lombok, 35km east by fast boat, is Bali 20 years ago: wilder, quieter, less crowded, with the Gili Islands (three tiny white-sand coral islands with no motorised vehicles) just offshore.", bestTime: "April-October (dry season) for Bali and Lombok. Avoid November-March (monsoon) unless you want empty beaches and grey skies.", hiddenGem: "Nusa Penida island  -  45 minutes by fast boat from Bali's Sanur beach  -  has Kelingking Beach, a T-Rex-shaped cliff with aquamarine water below it that looks digitally enhanced but is entirely real. Most tourists visiting Bali never cross to Nusa Penida. Those who do consistently call it their favourite day of the trip.", mnemonic: "Bali = Most spiritual party island. Lombok = Bali before it got discovered. Gilis = No cars, just coral." },
+    visaTip: { focus: "Indonesia Visa on Arrival for Indian Passport Holders", eli5: "Indians can get Visa on Arrival at Bali's Ngurah Rai International Airport. Cost: USD 35 (approximately Rs 2,900). Valid for 30 days with one extension possible for another 30 days (USD 35 more). You pay at the VOA counter before immigration. Bring USD cash  -  not all counters accept cards.", goldenTip: "Book accommodation in Ubud (Bali's cultural heart, 1 hour from airport) for your first 2 nights. It acclimatises you gently  -  rice terraces, meditation, art markets. Then move to the beach. Don't start at Kuta (the tourist beach area)  -  it's jarring and not representative of Bali's actual character.", mnemonic: "Bali visa = USD 35 on arrival. 30 days extendable 30 more. Start in Ubud, not Kuta." },
+    culturalCode: { culture: "Bali (Hindu Indonesia)", doThis: "Wear a sarong (provided free at temple entrances) when entering any temple  -  it's mandatory and sincerely appreciated. Participate in or respectfully observe the daily offerings (canang sari)  -  small palm-leaf baskets with flowers and incense placed everywhere by Balinese Hindu women. Ask before photographing anyone making offerings  -  it's sacred ritual, not a photo opportunity.", neverDoThis: "Never touch the head of a Balinese person, including children. Never step over or on offerings placed on the ground  -  they're sacred objects. Never enter a temple during menstruation (this is enforced and signs are posted). Never disrespect the elaborate ceremonial processions  -  if one crosses your path, stop, be quiet, and let it pass.", mnemonic: "Bali: Sarong at temples, never step on offerings, don't touch heads. Hindu sacred culture, not just tourist backdrop." },
+    quiz: [
+      { q: "Nusa Penida island is 'discovered' by so few Bali visitors because...", options: ["It requires a long ferry journey", "It requires a 45-minute fast boat ride that most Bali tourists don't think to take  -  leaving it significantly less crowded than Bali itself", "It has no tourist infrastructure", "It's restricted to guided tours only"], answer: 1, funFact: "Kelingking Beach on Nusa Penida was named 'Asia's most Instagrammed location' in 2023. Despite this, visitor numbers remain a fraction of Bali's  -  because the sea crossing creates a psychological barrier that filters out day-trippers. The result: a globally famous beach that feels surprisingly uncrowded." },
+      { q: "Indonesia's Visa on Arrival for Indians requires payment of...", options: ["Rs 5,000 at the Indonesian embassy before travel", "USD 35 at the arrival airport, giving 30 days with one possible 30-day extension", "A tourist tax paid at the hotel", "Only a valid Indian passport, no fee"], answer: 1, funFact: "Indonesia is the world's largest archipelago nation with 17,000 islands, 270 million people, and the world's largest Muslim-majority population. Bali is uniquely Hindu  -  the only Hindu-majority region in Indonesia  -  a result of the Hindu Majapahit Kingdom's culture surviving here when Islam spread across the rest of the archipelago in the 15th century." },
+      { q: "The Gili Islands (off Lombok) are unusual because...", options: ["They have no coral reefs", "They prohibit all motorised vehicles  -  transportation is only by bicycle or horse cart", "They are uninhabited", "They require a special permit to visit"], answer: 1, funFact: "The Gili Islands' no-motorised-vehicle rule was established in 1980 by the local Sasak community and has never been broken despite enormous development pressure. The absence of motorbikes and cars creates a quiet, relaxed atmosphere unprecedented in Southeast Asia's tourist areas. The horse-drawn cidomo cart is the only wheeled transport." }
+    ]
+  }
+}
+
+const d260609 = {
+  news: { segments: [
+    { name: "🌐 What's happening with countries?", color: "#a0d4f5", stories: [
+      { headline: "Trump claim #37: 'Final throes' of Iran deal  -  Tehran says ceasefire already broken", eli5: "For at least the 37th time since late March, Trump posted on Truth Social that the US was in the 'final throes' of an Iran deal that could be done 'within days.' But Iran's foreign ministry simultaneously said the US and Israel had already broken the ceasefire through continued strikes on Lebanon and Beirut. It was like a restaurant announcing the food is almost ready while the kitchen is simultaneously on fire. Markets had learned to discount these claims, but each one still caused a brief oil price blip as algorithms responded automatically.", whyItMatters: "Credibility is diplomatic currency. Each unfulfilled claim of a deal reduced the value of the next claim  -  making it harder to signal genuine progress when real progress occurred.", mnemonic: "Trump deal claim #37 = Markets react, then remember 36 previous claims. Algorithm bait dressed as diplomacy" },
+      { headline: "Israel bombs Lebanese city of Tyre after ordering all residents to evacuate", eli5: "After issuing evacuation orders for Tyre  -  one of the world's oldest continuously inhabited cities, founded around 2750 BCE  -  Israeli jets carried out strikes on the area. Most residents had fled. The military rationale: Hezbollah infrastructure in the city. The cultural cost: Tyre contains Phoenician ruins, Roman columns, and UNESCO World Heritage sites that predate Rome itself. Alexander the Great spent seven months building a causeway to reach and conquer Tyre in 332 BCE. Modern missiles reached it in seconds.", whyItMatters: "Military operations in ancient cities risk destroying world heritage that cannot be rebuilt. The bombing of Tyre raised questions about proportionality that most news cycles skipped past.", mnemonic: "Tyre June 9 = 4,000-year-old city bombed. Alexander spent 7 months to take it. Israeli jets: seconds." },
+      { headline: "Trump loudly booed during NBA Finals Game 3 at Madison Square Garden", eli5: "In what became one of June 2026's most viral moments, President Trump attended Game 3 of the NBA Finals at Madison Square Garden in New York  -  where the New York Knicks were playing the San Antonio Spurs. When Trump appeared on the scoreboard, the crowd at MSG gave him a sustained, loud, unmistakable booing. New York, which Trump lost by 20 points in the election, was not his crowd. The Knicks won the game. Trump posted afterward that the crowd 'loved' him.", whyItMatters: "Presidential approval and public sentiment are best read not through polls but through unscripted moments where people react authentically without cameras pointing at them individually.", mnemonic: "Trump booed at MSG June 9 = New York's authentic opinion, unfiltered. Knicks won. Trump claimed love." }
+    ]},
+    { name: "💸 What's happening with money?", color: "#a8edcb", stories: [
+      { headline: "Oil drops to $92 on deal talk  -  India's market breathes briefly", eli5: "Trump's deal claim (#37) briefly pushed oil down to $92  -  the first time it had been below $93 in three weeks. India's market responded immediately: Nifty jumped 1.2%, the rupee strengthened to 83.9, and aviation stocks (IndiGo, Air India) surged as lower oil means lower fuel costs. The brief rally was a preview of what a genuine deal would look like for India. Then oil crept back toward $94 as Iran denied any deal was imminent, and markets gave back some gains.", whyItMatters: "India's extreme oil price sensitivity  -  85% import dependency  -  means every $5 change in crude oil moves Nifty 0.5-1% in the opposite direction. Understanding this relationship is the single most important macro factor for Indian investors in 2026.", mnemonic: "Oil at $92 = Nifty up 1.2%. Oil back to $94 = Gains evaporate. India's market: oil's shadow" },
+      { headline: "Trump nominates Todd Blanche as Attorney General  -  his personal lawyer to run the DOJ", eli5: "Trump formally nominated Todd Blanche  -  the lawyer who personally defended Trump in his 34-felony criminal conviction case  -  to be Attorney General of the United States. The Attorney General runs the Department of Justice: the FBI, all federal prosecutors, and all federal law enforcement. Critics argued this was the most direct version of 'putting your defence lawyer in charge of the organisation that prosecuted you' in American history. Supporters argued Blanche was highly qualified.", whyItMatters: "The Attorney General controls prosecutorial discretion  -  which cases the federal government pursues and which it ignores. Nominating a personal ally has significant implications for rule of law perceptions.", mnemonic: "Blanche AG nomination = Defence lawyer now runs the prosecutors. The circle is complete." }
+    ]},
+    { name: "💻 What's happening with technology?", color: "#c9b8f5", stories: [
+      { headline: "NYC Mayor Mamdani pushes back against Trump immigration threats", eli5: "New York's new mayor, Zohran Mamdani  -  who had won the Democratic primary in a major upset  -  publicly confronted Trump's 'Border Czar' Tom Homan, who had threatened a surge of ICE agents into New York City. Mamdani said New York would not cooperate with federal immigration enforcement and would provide legal protection to immigrants. The confrontation between New York City and the federal government mirrored similar battles in Chicago, Los Angeles, and Denver  -  creating a patchwork of 'sanctuary city' policies versus federal enforcement.", whyItMatters: "The federal-city conflict over immigration enforcement created legal uncertainty, policy chaos, and human costs for millions of immigrants living in major American cities.", mnemonic: "NYC vs Trump on immigration = City shields, federal hunts. 8 million New Yorkers caught between" }
+    ]},
+    { name: "🌿 What's happening with our planet?", color: "#f5c6a0", stories: [
+      { headline: "Nigeria frees 360 Boko Haram hostages  -  largest rescue operation of 2026", eli5: "Nigeria's military announced its largest single hostage rescue of 2026: 360 people freed from Boko Haram captivity in a coordinated operation across northeast Nigeria. Boko Haram  -  whose name roughly translates as 'Western education is forbidden'  -  had been running the largest ongoing mass abduction crisis in the world since 2014. The rescue included women and children who had been held for months or years. Nigeria's military had been running a sustained counter-Boko Haram campaign since January 2026.", whyItMatters: "Nigeria's stability matters for all of West Africa  -  it's the continent's largest economy and most populous nation. Progress against Boko Haram is one of the most important security stories in Africa.", mnemonic: "Nigeria 360 freed = World's largest ongoing abduction crisis slowly being rolled back, one operation at a time" }
+    ]}
+  ], quiz: [
+    { q: "Trump's 37th Iran deal claim was significant because...", options: ["It was the first time he used the phrase 'final throes'", "Each previous claim had not produced a deal, progressively reducing the credibility of each subsequent announcement", "Iran confirmed it for the first time", "Congress endorsed it"], answer: 1, funFact: "The concept of 'cheapening the signal' is central to signalling theory in economics. When a signal is repeated without delivery, its information content declines. By claim #37, oil markets were discounting Trump's Iran announcements by approximately 70% of their original price impact  -  meaning the actual deal announcement (when it came) produced surprisingly muted market movement." },
+    { q: "Trump was booed at NBA Finals Game 3 because...", options: ["He supported the opposing team", "He attended Madison Square Garden in New York City  -  which he lost by 20 points in the election  -  and the crowd expressed their authentic unfiltered opinion", "Booing presidents at sporting events is traditional", "He arrived late and disrupted the game"], answer: 1, funFact: "The NBA has historically been the US sports league most willing to engage with political issues  -  players have worn political messages, coaches have given political speeches, and leagues have moved games in protest of state laws. MSG crowds in particular have a long history of politically vocal responses going back to the 1970s." },
+    { q: "India's Nifty responded to oil falling to $92 on June 9 by...", options: ["Falling 1.2% on geopolitical fears", "Rising 1.2% as lower oil reduces India's import costs and improves corporate margins for oil-sensitive sectors", "Not responding significantly", "Rising 3% on the news"], answer: 1, funFact: "India is the world's third-largest oil importer after China and the US. India's oil import bill was approximately $150 billion in FY25. A $10/barrel reduction in crude prices reduces India's annual import bill by approximately Rs 70,000-80,000 crore  -  equivalent to the GDP of several smaller Indian states." }
+  ]},
+  markets: { globalPulse: { eli5: "June 9 was a relief-rally day interrupted by reality. Oil fell to $92 on deal talk, then crept back to $94 when Iran denied everything. Nifty had its best hour in three weeks (up 1.2%) then gave back half the gains. Gold eased slightly on reduced fear. The pattern of the month: brief hope rallies, reality reversals.", keyThings: ["Brent Crude: touched $92, settled $94", "Nifty: +1.2% peak, +0.6% close", "Rupee: strengthened briefly to 83.9", "Indian aviation stocks: strongest gainers on oil dip"] },
+    indianMarket: { eli5: "India's bazaar on June 9 showed how hungry it was for good news. The moment oil dipped, money rushed into oil-sensitive sectors. IndiGo jumped 2.3%, Asian Paints up 1.8%, chemicals up 1.5%. Then the gains moderated as oil recovered. Banking stocks remained steady  -  domestic fundamentals were solid regardless of oil. The day confirmed that every Rs 5 fall in oil = approximately 0.5% Nifty gain.", breakouts: [
+      { name: "IndiGo Airlines (NSE: INDIGO)", whyExciting: "India's largest airline had fallen 18% since the Hormuz closure as fuel costs soared. At these depressed levels, any oil price normalisation would produce explosive recovery. IndiGo's fundamentals  -  60% market share, youngest fleet in Asia, best on-time performance  -  were unchanged. The stock was pricing in permanent $97 oil, which was obviously temporary.", risk: "If Iran deal falls through and oil stays above $95 for another quarter, IndiGo's losses accelerate significantly." , halal: true, buyPrice: 'Rs.3,650', sellPrice: 'Rs.4,200', stopLoss: 'Rs.3,400'},
+      { name: "UltraTech Cement (NSE: ULTRACEMCO)", whyExciting: "India's largest cement company was benefiting from government infrastructure spending that was largely oil-price independent. Cement prices were holding up, volumes were strong, and the company had pricing power. A defensive industrial play with growth characteristics.", risk: "Any broad economic slowdown from sustained high oil prices reduces construction activity and cement demand." , halal: true, buyPrice: 'Rs.9,800', sellPrice: 'Rs.11,000', stopLoss: 'Rs.9,200'},
+      { name: "Zomato (NSE: ZOMATO)", whyExciting: "India's food delivery leader was in growth mode, expanding into quick commerce (10-minute delivery). The business was benefiting from India's consumer resilience even during global uncertainty. Zomato had also moved into dining-out bookings. The stock had pulled back 12% from its 2026 high, creating an attractive entry for the core thesis.", risk: "High inflation from oil prices reduces discretionary spending  -  food delivery is a discretionary expense." , halal: true, buyPrice: 'Rs.195', sellPrice: 'Rs.230', stopLoss: 'Rs.178'}
+    ], ipoSpot: { name: "Ather Energy IPO  -  Electric Scooters", verdict: "Watch", eli5: "Ather Energy, India's premium electric scooter maker (backed by Hero MotoCorp), had filed for an IPO with SEBI. At a time when oil prices were at $92-97, an electric vehicle company's IPO narrative was extremely compelling  -  people were actively considering alternatives to petrol vehicles. Watch the subscription numbers when it opens." }, lessonOfDay: { title: "Understanding Market Cycles: Fear-Relief-Greed-Fear", story: "June 2026 compressed a complete market cycle into three weeks. Fear phase (oil above $97): investors sold stocks, bought gold and bonds. Relief rally phase (oil briefly $92): buy everything oil-sensitive. Greed phase (if oil stays low): everyone rushes in at higher prices. Fear again (oil back to $95): those who bought the relief rally at peak are stuck. Understanding where you are in the cycle  -  not just where the market is  -  is the key to not being on the wrong side of each rotation.", mnemonic: "Market cycle = Fear -> Relief -> Greed -> Fear. Always in this order. Know which phase you're in." } },
+    quiz: [
+      { q: "IndiGo Airlines' stock fell 18% during the Hormuz closure because...", options: ["Passenger numbers fell", "Jet fuel (ATF) typically constitutes 30-35% of IndiGo's operating costs  -  $97 oil directly increases this cost by billions, compressing margins to near zero", "Government changed aviation regulations", "IndiGo grounded its fleet"], answer: 1, funFact: "IndiGo (InterGlobe Aviation) is the world's fifth-largest airline by fleet size with over 350 aircraft. Its Airbus A320neo fleet is significantly more fuel-efficient than older aircraft  -  reducing but not eliminating its oil price vulnerability. At $97/barrel, each IndiGo flight adds approximately Rs 1.5-2 lakh in additional fuel cost versus a $75/barrel baseline." },
+      { q: "The market cycle phase of 'relief rally' is dangerous for investors who don't recognise it because...", options: ["Stocks become genuinely cheaper during relief rallies", "Relief rallies occur on temporary good news  -  investors who buy at relief-rally peaks often face another fear phase before fundamentals actually improve", "Relief rallies always turn into sustained bull markets", "It's difficult to profit from relief rallies"], answer: 1, funFact: "The phenomenon of 'dead cat bounce' in financial markets describes relief rallies within bear trends that reverse before establishing new uptrends. The expression comes from the morbid observation that 'even a dead cat bounces if it falls from a great height.' Professional traders use relief rallies to reduce positions rather than add them." },
+      { q: "The Ather Energy IPO narrative was particularly compelling during high oil prices because...", options: ["Ather was profitable", "High petrol costs make electric vehicle alternatives more economically attractive  -  a Rs 97/litre petrol environment shifts the EV vs petrol calculation significantly toward electric", "Ather had government backing", "Electric scooters cost less than petrol scooters"], answer: 1, funFact: "The total cost of ownership analysis for electric vs petrol scooters in India flips to EV advantage at approximately Rs 80-85/litre petrol (depending on driving pattern). With petrol at Rs 90-97/litre through June 2026, the economics strongly favoured electric. Ather's premium positioning ($1,200+ scooters) targets urban professionals who ran the numbers." }
+    ]
+  },
+  psychology: { mindTrick: { name: "Narrative Transportation  -  Stories Change Minds, Facts Don't", eli5: "Melanie Green and Timothy Brock discovered in 2000 that when people are absorbed in a story, their critical thinking temporarily disengages. They call this 'narrative transportation.' When you're lost in a novel or film, you don't fact-check the characters' claims or analyse the logic  -  you experience it. Advertisers, politicians, and religious leaders have known this intuitively for millennia. Jesus taught in parables. Buddha taught through stories. Every culture transmits values through narrative. A fact presented as data can be dismissed. The same fact embedded in a story about a real person cannot be easily dismissed  -  because you experienced it.", realLife: "When trying to change someone's mind on any topic: don't argue with facts first. Tell a story about a real person experiencing the reality you want to convey. Let the story create the emotional experience. Then, if needed, add the supporting data afterward.", mnemonic: "Narrative transportation = Story suspends critical thinking. Facts inform. Stories transform. Know which you need." },
+    bodyLanguage: { signal: "Mirroring  -  The Subconscious Bond Builder", eli5: "Humans instinctively copy the body language of people they like and feel comfortable with. Two friends at lunch mirror each other's postures. A student who likes a teacher mirrors the teacher's head tilts. This mirroring happens automatically  -  but it can be used deliberately. When you subtly mirror someone's posture, gesture speed, and vocal rhythm (not mockingly  -  5-10 seconds delayed), they experience a subconscious sense of 'this person is like me.' That feeling of similarity increases trust, liking, and receptivity to your message.", howToUse: "In your next important meeting: after a few minutes, subtly match the other person's posture (crossed legs if they're crossed, leaning forward if they lean forward). Match their speaking speed. Notice how the conversation's warmth changes. This is used by negotiators, therapists, and salespeople worldwide.", mnemonic: "Mirroring = Subconscious 'we're alike' signal. 5-second delayed copy of posture. Trust builder without a word." },
+    superpower: { name: "Reciprocity  -  Give First, Receive Later", story: "In 1974, anthropologist Richard Leakey argued that reciprocity is the foundation of human culture  -  the ability to say 'I will do this for you if you do that for me' is what enabled humans to cooperate at civilisational scale. Cialdini demonstrated the power in a restaurant experiment: waiters who gave diners a small chocolate with the bill received 3.3% higher tips. Two chocolates: 14% higher tips. But here's the twist: if the waiter gave one chocolate, started to leave, then 'spontaneously' came back to give another, tips jumped 23%. The key: the reciprocity trigger was activated by the gift, not just the size of it.", shield: "Be aware when gifts, favours, or 'free trials' precede a request  -  the reciprocity principle has been activated deliberately. You are not obligated to reciprocate manipulation. A genuine gift creates no obligation. A gift designed to extract feels different  -  usually faster and more transactional.", mnemonic: "Reciprocity = Give first, receive later. Fundamental to human cooperation AND to manipulation. Know both sides." },
+    quiz: [
+      { q: "Narrative transportation makes stories more persuasive than facts because...", options: ["Stories contain more information", "Absorption in a story temporarily disengages critical thinking  -  the audience experiences the reality rather than analysing it", "Stories are easier to remember", "People are too lazy to process facts"], answer: 1, funFact: "fMRI research shows that reading a detailed story activates motor cortex (as if performing the described actions), sensory cortex (as if experiencing the described sensations), and emotional centres simultaneously. Reading a dry fact activates only language processing areas. Stories literally engage more of the brain than facts  -  which is why they're more persuasive and memorable." },
+      { q: "The reciprocity principle in tipping research showed that a waiter returning to give a second chocolate produced 23% higher tips because...", options: ["Two chocolates are worth more than one", "The spontaneous return made the gift seem genuine rather than transactional, amplifying the reciprocity trigger beyond what the amount of chocolate warranted", "Customers forgot they had already received the first chocolate", "The second visit created more interaction time"], answer: 1, funFact: "Cialdini's research on the rule of reciprocity showed it operates even when the initial gift is unsolicited, small, or from a stranger. The Hare Krishna organisation in the 1970s used this principle by giving travelers flowers at airports before asking for donations  -  increasing donations significantly despite travelers often being annoyed by the tactic. The gift still activated the reciprocity trigger regardless of the emotional context." },
+      { q: "Mirroring in body language works because...", options: ["It confuses the other person", "Humans instinctively like people who seem similar to them  -  mirroring creates a subconscious experience of similarity that increases trust and liking", "It shows attentiveness through imitation", "It forces the other person to match your energy"], answer: 1, funFact: "Research by William Maddux found that negotiators who mirrored their counterparts reached agreements 67% of the time, vs 12% for those who didn't mirror. The mirrored groups also reported significantly higher satisfaction with the negotiation outcome  -  even when the actual terms were identical. Mirroring changed how the process felt without changing what was agreed." }
+    ]
+  },
+  leadership: { leaderMove: { name: "The Feedback Loop  -  Leaders Who Learn Fastest Win", story: "Jeff Bezos's 'Day 1' philosophy at Amazon: always operate with the urgency and feedback loops of a first-day startup, regardless of how large the company becomes. Amazon's most powerful feedback mechanism: its obsessive customer reviews and return data. Bezos could know within 24 hours which products were failing customers  -  and could reverse decisions before the problem compounded. The leaders and companies that build the fastest feedback loops between reality and decision-making consistently outperform those with longer loops. Military doctrine calls this 'OODA loop speed'  -  Observe, Orient, Decide, Act. Faster loops beat bigger forces.", doThis: "Identify the slowest feedback loop in your work right now  -  the thing where you take an action and only find out days or weeks later if it worked. Design one way to get that feedback in hours instead of days. Speed of learning is competitive advantage.", mnemonic: "Feedback loop speed = Competitive advantage. Amazon's 24-hour customer feedback made it unbeatable. Speed of learning wins." },
+    visionarySecret: { concept: "The Flywheel Effect  -  Slow Start, Then Unstoppable", eli5: "Jim Collins identified the flywheel pattern in great companies: massive effort for little visible result at first, then momentum builds, then the flywheel becomes unstoppable. Amazon's flywheel: more customers -> more sellers -> lower prices -> more customers. No single push starts the flywheel. Thousands of consistent small pushes over years create momentum that eventually becomes self-sustaining. Apple's flywheel: more iPhone users -> more app developers -> better apps -> more iPhone users. The mistake most people make: expecting visible results before the flywheel has built momentum. The breakthrough looks sudden but is actually the result of years of invisible accumulation.", exercise: "Map your personal or professional flywheel: what creates what, that creates what? Where are you in the cycle? Are you in the 'small visible progress' phase? That's the most important phase  -  keep pushing.", mnemonic: "Flywheel = Massive effort, little visible result, then unstoppable. The breakthrough is never sudden. It's accumulated." },
+    eliteHabit: { habit: "The Decision Journal  -  Writing Down Predictions to Learn From", whoAndHow: "Daniel Kahneman recommends what he calls a 'decision journal'  -  writing down your predictions before key decisions. Before a business call: 'I predict the client will respond positively.' Before a market investment: 'I predict this stock reaches Rs 2,500 within 12 months.' After the outcome: review your predictions and update your mental models based on what you got right and wrong. Ray Dalio has done this systematically since the 1990s, creating a living database of his own reasoning errors that he uses to build better decision frameworks.", whyItWorks: "Without a written record, humans rewrite their memories to match outcomes  -  a phenomenon called 'hindsight bias.' We consistently remember that we 'knew it all along.' A written prediction record prevents this  -  forcing genuine learning from both successes and failures.", mnemonic: "Decision journal = Write prediction before, review after. Prevents hindsight bias. Learning from real mistakes, not remembered ones." },
+    sigmaWisdom: { lesson: "The Negative Visualisation  -  Appreciate What You Already Have", story: "The Stoics practised negative visualisation (premeditatio malorum): deliberately imagining the loss of what you value most. Imagine your closest relationship ending. Imagine your health failing. Imagine losing your job. Not to be morbid  -  but because this visualisation produces an immediate, genuine appreciation for what you currently have that no affirmation or gratitude journal can replicate. It works by contrast: the brain doesn't appreciate the baseline until it imagines the baseline being gone. Epictetus, who was born a slave and became one of history's greatest philosophers, said: 'He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.'", action: "Close your eyes for 60 seconds. Imagine your most important relationship is gone. Imagine your health is significantly worse. Imagine your income is half what it is. Feel what that's like. Then open your eyes. Notice your actual reality from that contrast. This is the Stoic shortcut to gratitude.", mnemonic: "Negative visualisation = Imagine losing it to appreciate having it. The fastest path to genuine gratitude." },
+    quiz: [
+      { q: "Amazon's 'Day 1' philosophy means...", options: ["Amazon is always in its first year of business", "Maintaining the urgency, learning speed, and customer obsession of a startup regardless of company size", "Treating every day as a chance to reinvent the company", "Never being satisfied with current results"], answer: 1, funFact: "Bezos wrote a 'Day 2' memo describing what Amazon must avoid: 'Day 2 is stasis. Followed by irrelevance. Followed by excruciating, painful decline. Followed by death. And that is why it is always Day 1.' He even named Amazon's main headquarters building 'Day 1.' The fear of becoming a slow, bureaucratic Day 2 company was Amazon's most deliberate cultural engineering project." },
+      { q: "The Flywheel Effect's most important implication for individuals is...", options: ["Results should come quickly or the strategy is wrong", "The phase of 'massive effort with little visible result' is crucial and must be sustained  -  because momentum only becomes visible after years of consistent pushing", "Success comes from one big breakthrough", "Flywheels are only relevant for large companies"], answer: 1, funFact: "Collins found that every great company he studied had a flywheel period lasting an average of 10-15 years before their breakthrough became publicly visible. Amazon's flywheel ran from 1995 to approximately 2005 before Wall Street recognised what was happening. Apple's post-Jobs flywheel ran from 2001 (iPod) through 2007 (iPhone) before it became unstoppable." },
+      { q: "A decision journal prevents hindsight bias by...", options: ["Improving the quality of decisions made", "Creating a written record of predictions before outcomes are known  -  making it impossible to later misremember that you 'knew all along' what would happen", "Forcing you to take more time with decisions", "Providing accountability to others"], answer: 1, funFact: "Kahneman's research on hindsight bias showed that across every domain studied  -  medical diagnosis, financial forecasting, political prediction, sports outcomes  -  humans systematically overestimate how much they 'knew in advance' once they know the outcome. The bias is not about lying  -  people genuinely rewrite their memories. A written record is the only reliable protection." }
+    ]
+  },
+  wealth: { wealthSecret: { name: "The Cashflow Quadrant  -  Which Box Are You In?", story: "Robert Kiyosaki's most useful framework: all income falls into four quadrants. E (Employee): trading time for a fixed salary. S (Self-Employed): trading time for variable income  -  same as E but with no job security. B (Business Owner): having systems and people work for you. I (Investor): having money work for you. The rich live in the B and I quadrants. The financially stressed live entirely in E and S. The journey from E to B to I is the essence of financial transformation  -  and it happens in stages, not leaps. Most people stay in E because it feels safest. The most important question: which quadrant does your next move take you toward?", action: "Map all your current income sources to the four quadrants. What percentage is E or S? What percentage is B or I? Write down one concrete action that moves money from E toward B or I this month  -  even if it's starting a Rs 500 SIP.", mnemonic: "Cashflow Quadrant = E+S (time for money) vs B+I (money works for you). Which box are you building toward?" },
+    moneyMachine: { type: "Real Estate Investment Trusts (REITs)  -  Property Without the Property", eli5: "REITs are companies that own income-producing real estate  -  commercial offices, malls, warehouses, hospitals  -  and are required by law to pay 90% of their income to shareholders as dividends. You buy REIT units on the stock exchange (just like buying shares) and receive rental income without ever owning or managing property. In India: Embassy REIT, Mindspace REIT, Brookfield REIT. Embassy REIT  -  owning prime office parks in Bangalore and Mumbai  -  pays approximately Rs 22-24 per unit per quarter in distributions.", indiaAngle: "Indian REITs are relatively new (first listed in 2019) but have attracted significant institutional investment. Embassy REIT's tenants include Amazon, IBM, JP Morgan, and Google. The risk profile: low volatility, high dividend yield (approximately 7-8%), but limited capital appreciation. Best used as a fixed-income substitute, not an equity substitute.", mnemonic: "REITs = Property income without owning property. Embassy REIT gives you Google's Bangalore rent. 7-8% yield." },
+    mindsetFlip: { oldThinking: "Investing is complicated and requires expertise I don't have", newThinking: "Index funds require no expertise and outperform most expert investors. Complexity is often the enemy of results", why: "SEBI data shows that 70-80% of large-cap mutual funds underperformed the Nifty 50 index over 10 years in India. The simple Nifty 50 index fund  -  which requires no analysis, no expertise, and costs 0.05% per year  -  beats most 'expert-managed' funds. The biggest investing edge most people have access to is simplicity: index fund + regular SIP + long time period.", mnemonic: "Simple beats complex in investing. Index fund + SIP + time = beats 80% of experts. No expertise required." },
+    magicNumber: { number: "Rs 5,000/month at 12% for 30 years = Rs 1.76 crore", eli5: "The number that changes lives: a Rs 5,000 monthly SIP in a Nifty 50 index fund, earning approximately 12% annually (Nifty's long-term average), becomes Rs 1.76 crore in 30 years. You invested Rs 18 lakh (Rs 5,000 x 360 months). You received Rs 1.76 crore. The market added Rs 1.58 crore through compounding. This is not theory  -  the Nifty 50 has averaged approximately 12% annually since inception. The only variables: how much you invest and how long you invest it.", mnemonic: "Rs 5,000/month x 30 years x 12% = Rs 1.76 crore. You invest Rs 18 lakh. Market gives Rs 1.58 crore free." },
+    quiz: [
+      { q: "Kiyosaki's B quadrant (Business Owner) differs from S (Self-Employed) because...", options: ["Business owners earn more than self-employed", "Business owners have systems and people working for them  -  income continues without their direct time. Self-employed trade time for money like employees, just variably.", "Business ownership requires more education", "The legal structure is different"], answer: 1, funFact: "Kiyosaki's most powerful insight: a doctor who is self-employed (S quadrant) cannot take a 3-month vacation without losing income. A business owner (B quadrant) can. The test: if you stopped working for 3 months, would your income continue? If no, you're in E or S regardless of what you call yourself." },
+      { q: "Indian REITs like Embassy REIT are most suitable for...", options: ["Investors seeking high capital appreciation", "Investors seeking regular income with lower volatility  -  as a fixed-income substitute offering 7-8% yield from premium commercial real estate", "Young investors with a 5-year horizon", "Investors who want direct property ownership benefits"], answer: 1, funFact: "Embassy Office Parks REIT, India's first REIT, was listed in April 2019. Its portfolio includes 45 million square feet of office space, primarily in Bangalore and Pune. Its largest tenants include Amazon, IBM, JP Morgan, and Google  -  making it essentially a bet on India's IT services sector's continued office demand." },
+      { q: "A Rs 5,000/month SIP becomes Rs 1.76 crore in 30 years at 12% because...", options: ["The monthly investment amount grows", "Compound interest adds returns on both the original investment and all previously accumulated returns  -  creating exponential growth over long periods", "The government adds matching contributions", "12% annual returns are guaranteed by law"], answer: 1, funFact: "The Nifty 50 index has delivered approximately 11.8% CAGR since its 1996 inception through 2025  -  through multiple crashes (dot-com bust, 2008 crisis, COVID), wars, elections, and policy changes. No 20-year period in the Nifty's history has produced negative returns. This historical consistency is the basis for the 12% assumption in long-term SIP calculations." }
+    ]
+  },
+  communication: { speakingSkill: { name: "The Callback  -  Creating Comedy and Connection", story: "Jerry Seinfeld describes the callback as his most powerful comedic technique: say something in the first minute of a set that seems like a throwaway line. Then, 15 minutes later, when the audience has forgotten it, reference it again. The audience gets a double reward: they remember the original joke AND feel smart for catching the reference. Great speeches, presentations, and conversations use callbacks the same way. A great speaker plants a seed at the start ('I started this morning thinking about one thing...') and returns to it at the end ('And that one thing is...') creating a satisfying full circle.", drill: "In your next long presentation: open with a specific story, image, or question. Don't resolve it. About 60-70% of the way through, reference it briefly. At the very end, return to it and complete the circle. Notice how the audience's attention sharpens at each callback.", mnemonic: "Callback = Plant seed early, harvest late. Audience feels smart for catching it. Double reward for both of you." },
+    negotiationMove: { tactic: "The Ackermann Method  -  Systematic Offers That Win", eli5: "FBI hostage negotiator Chris Voss developed the Ackermann model for price negotiations. When making offers: start at 65% of your target, then 85%, then 95%, then 100%. The specific pattern matters: each move is smaller (15%, 10%, 5%), signalling you're running out of room. Use an odd precise number at the end (Rs 3,14,562, not Rs 3,15,000)  -  odd numbers signal careful calculation rather than round-number guessing. End with a small non-monetary concession (throw in something cheap to you but valuable-seeming to them) to close.", script: "Buying a Rs 5 lakh item: offer Rs 3.25 lakh. If they counter: Rs 4.25 lakh. Rs 4.75 lakh. Rs 4,97,500. Then: 'That's honestly my absolute ceiling  -  but I'll [small concession] to make this work.'", mnemonic: "Ackermann: 65% -> 85% -> 95% -> 100%. Odd precise numbers. Small concession at end. FBI-tested." },
+    officeWin: { rule: "Read the room before speaking  -  match energy to situation", story: "Presentation skill #1 that nobody teaches: reading the room before you start. A presenter walks in energetically with slides full of content, ready to go. The room is exhausted, it's 4pm, two difficult meetings just ended. The presenter charges ahead regardless. Nobody engages. Result: failure. The same presenter, trained to read the room: walks in, scans faces, slows down, starts with 'I know it's been a long day  -  let's just cover the three things that actually matter' and sits down rather than standing. Engagement triples. The content was identical.", mistake: "Most presenters and communicators plan their delivery, not their adaptation. The most powerful skill is reading and matching the room's actual energy, not the energy you arrived with.", mnemonic: "Read the room = Energy audit before speaking. Your prepared energy is irrelevant. Their current energy is everything." },
+    confidenceHack: { technique: "The Gratitude Priming  -  90 Seconds Before Any Social Interaction", science: "Research by Robert Emmons (UC Davis) showed that people who took 90 seconds to recall three specific things they were grateful for before a social interaction were rated as significantly warmer, more likeable, and more trustworthy by the people they then interacted with. The 90-second practice physically changes facial expression, vocal tone, and body language through genuine emotional activation  -  you can't fake the warmth that actual gratitude produces.", doItNow: "Before your next important meeting, call, or social interaction: close your eyes, take three slow breaths, and recall three specific things you're genuinely grateful for. Not generic ('I'm grateful for my health')  -  specific ('I'm grateful my mother called yesterday'). Notice how differently you feel walking into the room.", mnemonic: "Gratitude priming = 90 seconds + 3 specific gratitudes = Warmer, more likeable, more trustworthy. Science-confirmed." },
+    quiz: [
+      { q: "The callback technique in presentations creates connection because...", options: ["It reduces presentation length", "Audiences feel smart and rewarded for catching the reference to something said earlier  -  double engagement from one idea", "Repetition helps memory retention", "It shows the speaker's preparation"], answer: 1, funFact: "Aristotle described the callback in 'Rhetoric' as epanalepsis  -  the return to a theme stated at the beginning. He considered it one of the five most powerful rhetorical devices. 2,400 years later, every stand-up comedian, TED speaker, and top negotiator uses versions of the technique he described." },
+      { q: "The Ackermann negotiation method uses progressively smaller concessions (15%, 10%, 5%) because...", options: ["It saves the negotiator money", "Decreasing offer moves signal that you're genuinely running out of room  -  the other party can see the pattern and recognises you're near your limit", "It's more mathematically logical", "FBI hostage negotiators use it exclusively"], answer: 1, funFact: "Chris Voss's research on price negotiations found that buyers who started with a round number offer (Rs 3,00,000) were perceived as guessing and faced harder counter-negotiations than those who offered an odd precise number (Rs 2,94,750). The specific number signals careful calculation  -  giving the impression the offer was derived from real constraints rather than psychological anchoring." },
+      { q: "Gratitude priming before social interactions changes how others perceive you because...", options: ["You tell them what you're grateful for", "Genuine positive emotions physically change facial expression, vocal tone, and body language  -  others respond to these non-verbal signals automatically", "It improves your memory of the interaction", "You become more verbally complimentary"], answer: 1, funFact: "Paul Ekman's research on micro-expressions found that genuine emotional states (including genuine gratitude) produce distinctive micro-expressions that last 1/25th to 1/5th of a second and are processed subconsciously by observers. You cannot consciously fake the micro-expressions that accompany genuine emotion  -  only actually feeling the emotion produces them." }
+    ]
+  },
+  mind: { brainHack: { name: "Mental Contrasting  -  The Science-Backed Alternative to Positive Thinking", eli5: "Gabriel Oettingen spent 20 years studying positive thinking and discovered something surprising: pure positive visualisation of success actually REDUCES motivation and performance. Imagining success without obstacles makes the brain treat the goal as already achieved, reducing drive. The effective alternative: Mental Contrasting (WOOP). Wish: name your goal. Outcome: vividly imagine achieving it. Obstacle: honestly identify the main obstacle. Plan: if-then plan for the obstacle. This combination of positive vision with honest obstacle recognition consistently outperforms pure positive thinking across sports, health, academic, and business contexts.", protocol: "WOOP your most important current goal: Write it down. Describe the best outcome in 3 sentences (vivid, sensory). Identify the single main obstacle to achieving it. Write: 'If [obstacle occurs], then I will [specific action].' This 5-minute exercise has been shown to double follow-through rates.", mnemonic: "WOOP = Wish + Outcome + Obstacle + Plan. Beats pure positive thinking in every study. Honest vision works; fantasy doesn't." },
+    disciplineCode: { principle: "Environmental Design  -  Make Good Easy, Bad Hard", story: "James Clear's most practical insight: willpower is unreliable. Environment design is reliable. Anne Thorndike, a Boston hospital doctor, rearranged her hospital cafeteria in 2012  -  placing water bottles at eye level in every refrigerator (previously only sodas were at eye level) and putting fruit prominently by the checkout. No messaging, no health campaigns. Just rearrangement. Water sales rose 25%. Soda sales fell 11%. Nobody was told anything. The environment changed, behaviour changed. Applied personally: put your gym shoes by the bed. Put unhealthy food at the back of the cupboard. Put your book on your pillow.", todayAction: "Identify one habit you want to build and one you want to reduce. Redesign your physical environment to make the good habit the path of least resistance and the bad habit require active effort. Do the rearrangement tonight  -  don't wait.", mnemonic: "Environmental design = Make good easy, bad hard. Rearrangement beats willpower. Every time." },
+    impulseKiller: { urge: "Spending on unplanned items while shopping or browsing online", eli5: "The retail environment  -  physical and digital  -  is designed by teams of psychologists and data scientists to maximise impulse purchases. Amazon's 'frequently bought together' and 'customers also viewed.' The checkout aisle candy. IKEA's maze layout. Flash sales. Countdown timers. Limited quantity warnings. Every element is a scientifically tested impulse trigger. The brain's reward system fires at novelty and deals, bypassing the prefrontal cortex's cost-benefit analysis. By the time you're at the checkout, the rational brain is not in charge.", interrupt: "The 48-hour rule: any unplanned purchase above Rs 500 goes onto a 'want list' with today's date. You can only buy it 48 hours later. This single rule eliminates approximately 70% of impulse purchases  -  because the desire almost always passes within 48 hours and you realise you didn't actually want it.", mnemonic: "48-hour rule: Unplanned buy > Rs 500? Write it down. Wait 48 hours. If still want: buy. 70% of the time: you won't." },
+    bodyUpgrade: { practice: "The Morning Sunlight Protocol  -  Your Circadian Anchor", eli5: "Dr. Andrew Huberman's most widely adopted recommendation: get outside within 30-60 minutes of waking and expose your eyes (not your face  -  just let sunlight reach your eyes, don't stare at the sun) to natural light for 10-30 minutes. This does three things: it sets your cortisol peak for the morning (giving you natural energy), it anchors your circadian clock for the day (improving sleep quality that night), and it triggers serotonin production (the mood molecule). It's free, requires no equipment, and the effects are measurable in sleep quality studies.", minimumDose: "10-15 minutes of outdoor morning light (within 1 hour of waking). Overcast days: 20-30 minutes  -  you still get sufficient photons through clouds. On sunny days: 10 minutes. Don't use sunglasses for these minutes  -  the light signal needs to reach the eyes.", mnemonic: "Morning sunlight 10-30 min = Cortisol peak, circadian anchor, serotonin. Three benefits, zero cost." },
+    quiz: [
+      { q: "Mental Contrasting (WOOP) outperforms pure positive thinking because...", options: ["Positive thinking is ineffective for all goals", "Imagining success without obstacles makes the brain treat the goal as achieved, reducing drive. WOOP adds honest obstacle recognition that maintains motivation.", "WOOP is shorter and faster", "Obstacles are always easier than they appear"], answer: 1, funFact: "Gabriel Oettingen's WOOP studies included a weight loss trial where participants who used positive visualisation alone lost less weight than a control group. Participants who used WOOP lost significantly more. The finding was counterintuitive enough that it took Oettingen 20 years and hundreds of studies to publish with confidence. The New York University psychology department now considers it one of the most robust findings in motivational psychology." },
+      { q: "Anne Thorndike's cafeteria experiment worked because...", options: ["She added health information labels", "Placing healthy options at eye level made them the path of least resistance  -  people chose what was easiest to reach without any messaging or willpower", "She removed unhealthy food entirely", "Staff were instructed to recommend healthier choices"], answer: 1, funFact: "Thorndike's hospital cafeteria study is one of the most cited examples of 'choice architecture'  -  the design of environments to guide decisions. The concept was developed by Thaler and Sunstein in their 2008 book 'Nudge,' which won Thaler the 2017 Nobel Prize in Economics. Governments worldwide now use choice architecture to improve public health and financial wellbeing outcomes." },
+      { q: "Morning sunlight exposure (within 60 minutes of waking) benefits sleep quality that night because...", options: ["Sunlight makes you tired earlier in the day", "It anchors the circadian clock  -  the same morning light signal that sets the cortisol peak creates a 14-16 hour countdown to the melatonin signal that produces sleep", "It reduces blue light exposure during the day", "Sunshine vitamin D improves sleep"], answer: 1, funFact: "The circadian system is a feedback loop: morning light activates the suprachiasmatic nucleus in the hypothalamus, which triggers cortisol rise (alertness), and starts a 14-16 hour timer after which melatonin rises (sleepiness). Inconsistent morning light (different each day) produces inconsistent melatonin timing  -  which explains why shift workers and frequent travellers have significantly higher rates of insomnia, depression, and metabolic disease." }
+    ]
+  },
+  knowledge: { mathMagic: { concept: "Regression to the Mean  -  Why Extraordinary Is Temporary", eli5: "Francis Galton discovered in 1886 that tall parents have children who are tall but less tall than the parents. Short parents have children who are short but less short. Genius parents have children who are smart but less genius. This is regression to the mean: extreme values in any measured system tend to be followed by values closer to average. In sports: the best player this season often does slightly worse next season (not because they got worse  -  regression). In business: exceptional profit quarters are followed by more average ones. In medicine: patients who see a doctor when they feel worst will feel better afterward  -  often because of regression, not treatment.", realWorldUse: "Investors who buy stocks after an exceptional quarter expecting another exceptional quarter are fighting regression to the mean. Managers who punish underperforming employees see improvement  -  often because of regression, not management. Regression to the mean is why good outcomes after bad decisions feel like validation and bad outcomes after good decisions feel like punishment.", mnemonic: "Regression to mean = Extreme results revert toward average. Great quarter often followed by average. Not failure  -  statistics." },
+    scienceWow: { field: "Chemistry", concept: "Chirality  -  Mirror Image Molecules That Are Completely Different", eli5: "Your left and right hands look identical but are mirror images that cannot be superimposed on each other. Many molecules work the same way  -  they have left-handed and right-handed versions (chirality). The tragedy of thalidomide: in the 1950s, a drug prescribed to pregnant women for morning sickness. One chiral form relieved nausea. The other, its mirror image, caused catastrophic birth defects. The drug contained both. 10,000 children were born with malformed limbs before the drug was withdrawn. Now pharmaceutical regulation requires testing both chiral forms separately. Your nose can even detect chirality: L-carvone smells like spearmint; D-carvone (its mirror image) smells like caraway seeds. Same atoms, different 3D arrangement, completely different experience.", mindBlow: "Amino acids  -  the building blocks of all life on Earth  -  are almost exclusively left-handed (L-amino acids). Right-handed amino acids exist but are almost never used by living organisms. Why life chose one handedness over the other, billions of years ago, remains one of biology's greatest mysteries.", mnemonic: "Chirality = Mirror molecules that behave completely differently. Thalidomide's tragedy: one mirror heals, one harms." },
+    historyStory: { event: "The Printing Press (1440)  -  The Original Information Revolution", story: "In 1440, Johannes Gutenberg completed his printing press with movable type in Mainz, Germany. Before: a single monk could copy approximately 4 pages of text per day. The Bible required 3 years to copy by hand. After: the printing press produced 3,600 pages per day. Within 50 years, 20 million books were in circulation across Europe  -  more books produced in 50 years than in the previous 1,000. The consequences: the Protestant Reformation (Luther's 95 Theses spread at a speed previously impossible), the Scientific Revolution (scientists could share findings with colleagues across Europe), the Enlightenment, and eventually democracy (widespread literacy required text to be available to read). One invention by one man in one German city changed the entire trajectory of human civilisation.", lesson: "Information technology transformations follow a consistent pattern: they begin as tools for elites, spread to ordinary people, then transform power structures completely  -  because knowledge becomes available to people who previously didn't have access. The internet and AI are following exactly the same pattern. The people who dismiss these changes as 'just tools' are making the same mistake as the medieval Church, which initially dismissed the printing press as a minor technical novelty.", mnemonic: "Printing press 1440 = Original information revolution. Luther + Science + Democracy all followed. AI is next." },
+    earthSecret: { place: "Vietnam", secret: "Vietnam defeated the US military  -  the most powerful military force in world history  -  in what Americans call the Vietnam War and Vietnamese call 'The American War.' The war ended in 1975 with Vietnamese reunification after 30 years of combined French and American occupation. Today, Vietnam has the fastest-growing middle class in Southeast Asia, is a major manufacturing hub (many Apple products are made there), has one of the world's fastest-growing tech sectors, and receives more American tourists than almost any other country in the region. A country that fought the US for 30 years now welcomes American tourists as one of its most valued visitor groups.", edge: "Vietnam's economic trajectory  -  from one of the world's poorest countries in 1990 to a projected middle-income nation by 2030  -  is one of the most dramatic development stories in modern history. Understanding Vietnam's Doi Moi reforms (1986 economic liberalisation, similar to China's but earlier in some respects) gives you a framework for understanding how societies transform from communist command economies to market economies while maintaining political continuity.", mnemonic: "Vietnam = Defeated the US. Now welcomes American tourists. Most dramatic national transformation in modern history." },
+    quiz: [
+      { q: "Regression to the mean explains why punishing underperforming employees often appears to 'work' because...", options: ["Punishment improves performance", "Employees who perform worst at a moment are often below their normal level due to random variation  -  they regress toward their mean regardless of the punishment", "Fear is a motivator", "Managers who punish make better decisions"], answer: 1, funFact: "Kahneman described regression to the mean as one of the most important statistical concepts that almost nobody understands intuitively. He heard a flight instructor claim that praising good landings made pilots worse and criticising bad landings made them better. Kahneman explained: random variation means a bad landing is followed by a better one and a good landing is followed by a worse one regardless of instructor feedback  -  the feedback gets the credit that belongs to statistics." },
+      { q: "Chirality (molecular handedness) was tragically demonstrated by thalidomide because...", options: ["The drug was misdosed", "One chiral form of thalidomide relieved morning sickness while the mirror-image chiral form caused birth defects  -  both were present in the drug as prescribed", "The drug was given to the wrong patients", "Thalidomide was not approved for use"], answer: 1, funFact: "The thalidomide tragedy (1957-1962) directly caused the modern pharmaceutical regulatory system. The US FDA, because of a single cautious pharmacologist named Frances Kelsey who refused to approve thalidomide for the US market pending further testing, prevented the US tragedy experienced in Europe and Australia. Kelsey received the President's Award for Distinguished Federal Civilian Service in 1962 directly for this decision." },
+      { q: "Gutenberg's printing press was culturally revolutionary primarily because...", options: ["It made books cheaper for wealthy people", "It collapsed the time and cost of producing text  -  enabling knowledge to spread to populations previously excluded by the scarcity of hand-copied manuscripts", "It improved the quality of illustrations", "It standardised spelling across Europe"], answer: 1, funFact: "Martin Luther's 95 Theses (posted 1517) would have remained a local academic debate without the printing press. Instead, they were translated and printed across Europe within weeks  -  reaching audiences Luther couldn't have imagined. Elizabeth Eisenstein's 'The Printing Press as an Agent of Change' documents how the Reformation, Scientific Revolution, and Enlightenment were all structurally dependent on the printing press's information-sharing capability." }
+    ]
+  },
+  ai: { toolSpotlight: { name: "Grok (xAI / Elon Musk)", category: "Research / Current Events / Coding", eli5: "Grok is Elon Musk's AI, built by his company xAI and integrated into X (formerly Twitter). Its key differentiator: real-time access to X's entire platform  -  meaning Grok can search and analyse current social media conversations, trending topics, and breaking news in real time. If something is happening right now and is being discussed on X, Grok knows about it. It also tends toward a less filtered, more direct communication style than other AI assistants  -  designed to 'answer the questions other AIs won't touch.'", secretMove: "Use Grok for real-time sentiment analysis: 'What are people on X saying about [company/topic/event] right now?' or 'What's the current consensus on [stock] among financial commentators on X?' This real-time social sentiment data is something other AIs can't provide  -  it requires live platform access.", mnemonic: "Grok = Real-time X data. What Twitter thinks right now. Other AIs have knowledge cutoffs. Grok has this morning." },
+    workflowWin: { title: "The Skill Gap Analysis  -  Build What the Market Actually Wants", problem: "Most people build skills they find interesting or that seem impressive, then wonder why they're not in demand. The market pays for specific skill combinations, not broad general competence.", steps: ["Search 20 job postings in your target role/industry on LinkedIn or Naukri", "Make a list of every skill mentioned more than 3 times across the 20 postings", "Compare to your current skills. Gaps = your development priorities", "For each gap: find one free resource (YouTube, Coursera free tier, documentation) and commit to 1 hour per week"], timeSaved: "Replaces months of unfocused skill building with targeted development of skills the market is actively paying for. Typical result: 6-12 months faster time to salary increase or role change.", mnemonic: "Skill gap analysis: 20 job postings + frequency count = Market's actual wish list. Build that, not what you find interesting." },
+    promptOfDay: { purpose: "Write a compelling LinkedIn post about any topic", prompt: "I want to write a LinkedIn post about [TOPIC]. My target audience is [WHO READS YOUR LINKEDIN - colleagues, clients, recruiters]. The key insight I want to share is [YOUR MAIN POINT]. Write 3 versions: 1) A storytelling version starting with a personal moment or observation, 2) A contrarian version that challenges a common belief in my industry, 3) A data-driven version starting with a surprising statistic. Each should be 150-250 words, end with a question to encourage comments, and avoid corporate jargon.", where: "Claude or ChatGPT", mnemonic: "LinkedIn post prompt: Story + Contrarian + Data. 3 versions, choose best. Question at end drives engagement." },
+    futureWatch: { trend: "AI agents are starting to take autonomous multi-step actions on your behalf", eli5: "Until 2025, AI was a question-answer tool: you asked, it answered. In 2026, AI agents are doing multi-step tasks autonomously. You say: 'Research three competitors, summarise their pricing strategies, and draft a competitive positioning document.' The agent opens browsers, reads websites, compiles information, writes the document, and presents it to you  -  all without you doing anything after the initial instruction. Anthropic's Claude, OpenAI's Operator, and Google's Project Mariner are all building these agentic capabilities. The implications for white-collar work are enormous.", yourMove: "Start experimenting with agentic AI tasks: give Claude or ChatGPT a multi-step task that normally requires 2-3 hours of research and synthesis. Watch where it succeeds and where it needs human judgment. Learning which tasks to delegate to AI agents and which require your involvement is becoming a core professional skill.", mnemonic: "AI agents 2026 = Not just answers. Multi-step autonomous tasks. Delegate research, get document. New professional skill." },
+    quiz: [
+      { q: "Grok AI's primary advantage over other AI assistants is...", options: ["It's free for all users", "Real-time access to X (Twitter) platform data  -  enabling current social sentiment analysis impossible for AI systems with knowledge cutoffs", "It has the largest training dataset", "It was built by the most experienced AI team"], answer: 1, funFact: "X's data firehose  -  approximately 500 million posts per day  -  contains real-time information about breaking news, market sentiment, political opinion, and cultural trends that no other publicly available data source matches for speed and breadth. The company that controls this data has a structural advantage in real-time AI applications." },
+      { q: "The skill gap analysis approach (scanning 20 job postings) is more effective than self-directed skill building because...", options: ["Employers always list exactly what they need", "It reveals what the market is actually willing to pay for  -  eliminating the misalignment between what you want to learn and what employers need", "20 is the statistically significant number of job postings needed", "It reduces time spent learning"], answer: 1, funFact: "LinkedIn's 2024 Global Talent Trends report found that the gap between skills workers are developing and skills employers need was at its widest point in the report's history  -  primarily due to AI transforming job requirements faster than educational systems adapt. The skills-gap analysis approach is the most direct way to bridge this institutional lag." },
+      { q: "AI agents differ from AI chatbots because...", options: ["They are more accurate", "They can autonomously perform multi-step tasks  -  browsing, reading, writing, and compiling  -  without human involvement at each step", "They require no human oversight", "They are significantly more expensive"], answer: 1, funFact: "The concept of AI agents was described by Alan Turing in 1950 as 'machines that could be programmed to do things.' The technical breakthrough enabling practical AI agents in 2025-2026 was 'tool use'  -  giving language models the ability to call external tools (web browser, code interpreter, calendar) and use their outputs to take further actions. This tool-use capability transforms AI from a knowledge system to an action system." }
+    ]
+  },
+  travel: { destination: { country: "Vietnam", region: "Hanoi and Ha Long Bay", eli5: "Vietnam is Southeast Asia at its most dramatic. Hanoi  -  the capital  -  is a city of narrow tube houses, lakes reflecting ornate pagodas, street food eaten on low plastic stools at the edge of thundering motorbike traffic, and coffee culture that the French left behind and the Vietnamese improved beyond recognition. Two hours east, Ha Long Bay: 1,600 limestone islands rising vertically from jade-green water, some with internal caves lit by coloured lights, some with floating fishing villages that have existed for generations. UNESCO World Heritage Site, and genuinely one of the most spectacular seascapes on Earth.", bestTime: "October-April for Hanoi (cool, dry). November-April for Ha Long Bay (calmer seas). Avoid June-August (very hot and humid in the north, typhoon risk in the south).", hiddenGem: "Ninh Binh  -  2 hours south of Hanoi  -  is called 'Ha Long Bay on Land': the same dramatic limestone karst formations but rising from rice paddies and rivers rather than ocean. You row through caves and past water buffalo in small wooden boats. Almost no international tourists go here despite it being equally beautiful to Ha Long at a fraction of the cost and crowd.", mnemonic: "Vietnam = Hanoi coffee + Ha Long Bay limestone + the warmth of people who've survived everything" },
+    visaTip: { focus: "Vietnam E-Visa for Indian Passport Holders", eli5: "Indian passport holders need a visa for Vietnam but the E-Visa process is straightforward and entirely online. Apply at evisa.gov.vn. Cost: $25 USD. Processing time: 3 working days. Valid for 90 days single entry. You upload your passport photo and data page, pay by card, and receive your e-visa as a PDF. Show it at immigration on arrival.", goldenTip: "Apply for the 90-day multi-entry e-visa even if you're only going for 2 weeks  -  it's the same price and gives you flexibility. Vietnam processes evisa applications within 72 hours for standard cases. Emergency processing (24 hours) is available for $50.", mnemonic: "Vietnam e-visa: $25 online, 3 days, 90 days. Visit evisa.gov.vn directly. Avoid third-party visa agents charging extra." },
+    culturalCode: { culture: "Vietnam", doThis: "Remove your shoes before entering a Vietnamese home (always) and most traditional restaurants and shops (watch for a pile of shoes at the entrance as your signal). The greeting is a slight bow with both hands slightly forward  -  more respectful than a handshake. Try pho, banh mi, and ca phe trung (egg coffee, a Hanoi invention) without modification on the first try  -  Vietnamese take enormous pride in their food heritage.", neverDoThis: "Never point with a single finger  -  use your whole hand. Never touch someone's head. Never gesture with your index finger curled (it's used to call animals, deeply offensive to use toward people). When photographing war sites (many in Vietnam), maintain respect and quiet  -  these are not tourist attractions to the Vietnamese, they are burial grounds and sites of immense national trauma.", mnemonic: "Vietnam: Shoes off at homes, no single-finger pointing, no curled beckoning. War sites are sacred, not attractions." },
+    quiz: [
+      { q: "Vietnam's Ha Long Bay UNESCO status is based on...", options: ["Its military history", "Its exceptional natural beauty  -  1,600 limestone karst islands created over 500 million years, with unique ecosystems including cave systems and floating village cultures", "Its size as Asia's largest bay", "Ancient shipwrecks in the bay"], answer: 1, funFact: "Ha Long Bay was named a UNESCO World Heritage site for natural beauty in 1994. The name means 'Descending Dragon Bay' from Vietnamese legend: the gods sent dragons to spit jewels that became the islands, protecting Vietnam from invaders. The limestone formations were created by millions of years of acidic water erosion during periods when the bay was above sea level." },
+      { q: "Vietnam's e-visa system is efficient because...", options: ["Vietnam wants to maximise tourism revenue", "It entirely digitised the application, payment, and issuance process  -  eliminating embassy visits, postal applications, and processing delays", "Indian passport holders have a special agreement", "All Southeast Asian countries now use e-visa systems"], answer: 1, funFact: "Vietnam introduced its e-visa system in 2017 as part of a tourism liberalisation strategy that increased arrivals from 10 million (2016) to 18 million (2019). The e-visa system is considered one of the world's best-designed government digital services  -  the application, photo upload, and payment take under 10 minutes. Vietnam's tourism ministry won an ASEAN award for digital government innovation specifically for this system." },
+      { q: "Ninh Binh is described as 'Ha Long Bay on Land' because...", options: ["It's adjacent to Ha Long Bay", "It has the same dramatic limestone karst formations but surrounded by rice paddies and rivers rather than ocean", "It has a similar name in Vietnamese", "It was historically part of Ha Long Bay before sea levels fell"], answer: 1, funFact: "Ninh Binh was Vietnam's capital (Hoa Lu) in the 10th century before the capital moved to Hanoi. The ancient citadel of Hoa Lu, with 10th-century temple architecture, is one of Vietnam's most important historical sites. Despite this combination of stunning landscape and significant history, Ninh Binh receives approximately 5-10% of the tourist numbers that Ha Long Bay receives  -  making it one of Southeast Asia's genuinely undiscovered gems." }
+    ]
+  }
+}
+
+const d260610 = {
+  news: { segments: [
+    { name: "🌐 What's happening with countries?", color: "#a0d4f5", stories: [
+      { headline: "US attacks Iranian water reservoirs  -  Pentagon accused of targeting civilian infrastructure", eli5: "On June 10, the US military struck water reservoirs in Iran that supplied drinking water to approximately 10 villages. Iran's foreign ministry called it 'a calculated war crime and a flagrant violation of human rights  -  not collateral damage.' Experts on international law noted that water infrastructure supplying civilian populations is protected under the Geneva Conventions. The Pentagon did not immediately deny the strikes. This was the moment the Iran conflict moved from targeting military and nuclear sites to infrastructure that served ordinary civilians.", whyItMatters: "Targeting civilian water infrastructure crosses a widely recognised international law threshold  -  it raises the legal and moral stakes of the conflict dramatically and signals an escalation in the war's scope.", mnemonic: "June 10 = Water reservoirs hit. Iran: 'War crime.' Pentagon: silent. The war crossed a new line" },
+      { headline: "US inflation hits 3-year high driven by gas prices  -  Hormuz effect reaches American wallets", eli5: "Official US inflation data released June 10 showed the highest reading in three years: driven almost entirely by gasoline prices, which had risen 28% since the Strait of Hormuz closed. This was the Hormuz crisis hitting ordinary Americans most viscerally  -  not through abstract 'oil price' headlines but through the price on the petrol station sign. Every dollar of additional gas spending is a dollar not spent on food, clothing, or savings. The Federal Reserve faced an impossible choice: raise rates to fight inflation or keep them low to avoid recession.", whyItMatters: "High inflation erodes purchasing power for every American family, reduces consumer spending across the economy, and forces central bank decisions that affect global markets.", mnemonic: "June 10 US inflation = Hormuz closed -> gas up 28% -> inflation 3-year high -> American wallets hit directly" },
+      { headline: "House Republicans approve $70 billion for Trump immigration enforcement", eli5: "The House of Representatives passed a $70 billion appropriation for Trump's immigration crackdown  -  the largest single immigration enforcement budget in US history. The money would fund: 100,000 additional detention beds, new border infrastructure, and 10,000 additional ICE agents. Critics noted $70 billion would be enough to build several world-class university systems. Supporters argued it was necessary for national security. The Senate face a harder vote.", whyItMatters: "The $70 billion immigration bill was the largest domestic policy spending package of 2026  -  its passage signalled the direction of US domestic policy for the coming years.", mnemonic: "70 billion for immigration = Largest in US history. 100,000 detention beds. Senate next." }
+    ]},
+    { name: "💸 What's happening with money?", color: "#a8edcb", stories: [
+      { headline: "Global tech stocks fall sharply  -  AI bubble fears hit markets", eli5: "A sharp selloff in US technology stocks on June 10 triggered falls in Indian IT stocks. The concern: AI-related company valuations had reached levels that required perfect execution to justify. Nvidia was trading at 40x forward earnings. Microsoft at 35x. Any suggestion of slower AI adoption, more competition, or regulatory pressure sent these stocks tumbling. Indian IT stocks  -  Infosys, TCS, Wipro  -  fell 2-3% as part of the global tech selloff even though their own valuations were much more reasonable.", whyItMatters: "The global tech selloff showed that even fundamentally sound businesses (Indian IT) get caught in the sentiment wave when their sector peers in the US are sold off.", mnemonic: "June 10 tech selloff = AI valuation reality check. Nifty IT -2.7%. Same fundamentals, different fear." },
+      { headline: "Nifty falls to 23,072 as US inflation and oil fears combine", eli5: "India's Nifty dropped to its lowest point since March on June 10. The twin hammer: high oil (still above $95) and now US inflation data suggesting the Federal Reserve might raise rates. Higher US interest rates pull foreign investment out of emerging markets like India  -  it's safer to earn 5.5% from US bonds than to take the risk of Indian equities when rates are high. Foreign institutional investors (FIIs) sold Rs 3,200 crore of Indian equities in a single day.", whyItMatters: "When the Fed raises rates, money flows from emerging markets (India, Brazil, Indonesia) to US bonds  -  creating currency depreciation and stock market falls in those countries regardless of their domestic fundamentals.", mnemonic: "Nifty June 10 low = High oil + US rate fear + FII selling. Three hammers at once." }
+    ]},
+    { name: "💻 What's happening with technology?", color: "#c9b8f5", stories: [
+      { headline: "SpaceX IPO preparations confirmed  -  could be history's largest public offering", eli5: "PBS News Hour confirmed detailed reporting on SpaceX's IPO preparations in June 2026. SpaceX  -  Elon Musk's rocket company  -  was valued at approximately $350 billion privately, making any IPO potentially larger than Saudi Aramco's 2019 offering (history's largest at $29 billion). SpaceX's business had transformed: Starlink (its satellite internet service) was generating billions annually, Falcon 9 was the world's most used orbital rocket, and Starship was being prepared for commercial service. A SpaceX IPO would potentially make Musk the world's first trillionaire.", whyItMatters: "A SpaceX IPO would represent the largest wealth creation event in history  -  and would give retail investors access to the company that's reshaping space, internet access, and satellite technology.", mnemonic: "SpaceX IPO 2026 = $350 billion company. History's largest IPO? Musk trillionaire? The biggest listing ever approached" }
+    ]},
+    { name: "🌿 What's happening with our planet?", color: "#f5c6a0", stories: [
+      { headline: "AI boom's enormous water, carbon, and land footprint revealed by UN scientist", eli5: "A UN scientist published research on June 10 revealing the extraordinary environmental cost of the AI boom: training a single large language model (like GPT-4) consumed approximately 700,000 litres of water for cooling, produced carbon emissions equivalent to 300 flights from London to New York, and required rare earth mining that damaged ecosystems across three continents. The paper called AI the 'new form of imperialism'  -  rich countries outsourcing the environmental cost of computation to poorer countries where data centres were less regulated.", whyItMatters: "AI is often presented as a purely clean technology. The reality of its resource consumption  -  water, energy, rare materials  -  is rarely discussed in mainstream AI coverage.", mnemonic: "AI training = 700,000 litres water + 300 flights of carbon. The environmental cost nobody talks about." }
+    ]}
+  ], quiz: [
+    { q: "The US striking Iranian water reservoirs was controversial because...", options: ["It was inefficient militarily", "Water infrastructure supplying civilian populations is protected under the Geneva Conventions  -  targeting it is widely considered a war crime under international law", "Iran had not struck US water infrastructure", "It was expensive"], answer: 1, funFact: "Protocol I of the 1977 Additional Protocols to the Geneva Conventions specifically lists civilian water sources as protected objects under Article 54: 'It is prohibited to attack, destroy, remove, or render useless objects indispensable to the survival of the civilian population'  -  explicitly including 'drinking water installations and supplies.' The US has signed this protocol." },
+    { q: "US inflation hitting a 3-year high in June 2026 was directly caused by...", options: ["Excessive government spending", "Gasoline prices rising 28% due to the Strait of Hormuz closure  -  oil supply restrictions flowing directly through to consumer pump prices and logistics costs", "Federal Reserve policy errors", "Wage growth exceeding productivity"], answer: 1, funFact: "Energy's share of the Consumer Price Index (CPI) is approximately 7% directly, but energy costs affect transportation, manufacturing, and agriculture  -  making the total oil-price effect on inflation approximately 2-3 times the direct energy component. A 28% gas price increase typically adds 1.5-2.5 percentage points to headline CPI, which is exactly what the June 2026 data showed." },
+    { q: "The SpaceX IPO would potentially make Elon Musk the world's first trillionaire because...", options: ["He would receive a salary bonus", "SpaceX was valued at ~$350 billion privately; as its largest shareholder (approximately 44%), Musk's stake alone would approach $150 billion  -  adding to his Tesla and other holdings crossing $1 trillion total", "SpaceX would acquire Tesla", "The IPO price would be set above market value"], answer: 2, funFact: "Musk's wealth crossed $300 billion in 2021 (briefly the world's richest person). The SpaceX IPO, combined with Tesla and X (Twitter) valuations, would potentially push his total to $1 trillion+  -  a milestone no human in recorded history has reached. For context: $1 trillion is larger than the GDP of all but 16 countries." }
+  ]},
+  markets: { globalPulse: { eli5: "June 10 was the worst day of the month for global markets. US inflation data shocked, the Fed signalled possible rate hikes, tech stocks sold off hard, and oil stayed stubbornly above $95. Risk assets fell globally. Safe havens (US bonds, gold, dollar) rallied. The message: the Hormuz crisis was no longer just a geopolitical story  -  it was an inflation story, a rate story, and a growth story all simultaneously.", keyThings: ["US CPI: 3-year high  -  biggest surprise of the month", "Nifty IT index: -2.7%  -  worst single-day fall since March", "Nifty: fell to 23,072  -  2026 low point", "FII net selling: Rs 3,200 crore in one session"] },
+    indianMarket: { eli5: "June 10 was genuinely painful for Indian investors. Nifty at 23,072 was significantly below where it had been just 5 weeks earlier. But context: India's domestic economy was still growing at 7%+. Corporate earnings for FY26 were mostly beating estimates. The selloff was externally driven  -  oil, US rates, global risk-off. The investor who understood the distinction between domestic fundamentals (strong) and external sentiment (weak) saw opportunity rather than reason to panic.", breakouts: [
+      { name: "ITC Ltd (NSE: ITC)  -  Defensive play", whyExciting: "On the worst day for most stocks, ITC fell only 0.4%. This is what defensive stocks do: they don't participate in crashes because they don't depend on the macro conditions driving the crash. ITC's cigarette and FMCG revenues continue regardless of oil prices, US rates, or Iran. For investors looking to reduce portfolio volatility during uncertain periods, ITC represents the 'boring is beautiful' principle perfectly.", risk: "ITC's upside is limited precisely because it doesn't benefit from economic acceleration. It's insurance, not an opportunity." , halal: false, buyPrice: 'N/A', sellPrice: 'N/A', stopLoss: 'N/A'},
+      { name: "NTPC (NSE: NTPC)  -  Power sector defensive", whyExciting: "India's largest power generation company has government backing, guaranteed revenue through power purchase agreements, and demand that doesn't fall during economic uncertainty (people need electricity regardless). High oil making coal relatively more attractive for power generation, and NTPC's coal-heavy fleet was benefiting from this dynamic.", risk: "Government intervention in power tariff setting can reduce profitability. NTPC is also transitioning to renewable energy which requires significant capital." , halal: true, buyPrice: 'Rs.340', sellPrice: 'Rs.385', stopLoss: 'Rs.315'},
+      { name: "Nestle India (NSE: NESTLEIND)  -  FMCG defensive", whyExciting: "Maggi noodles, KitKat, Munch  -  brands that sell through every economic cycle. Nestle India had pricing power and volume resilience. During market selloffs driven by macro fears rather than domestic weakness, FMCG defensives like Nestle typically outperform by 5-8%. The stock was near a technical support level.", risk: "High valuation (PE above 70x) means any earnings miss or economic slowdown that hits urban consumers hits the stock hard." , halal: true, buyPrice: 'Rs.2,280', sellPrice: 'Rs.2,550', stopLoss: 'Rs.2,120'}
+    ], ipoSpot: { name: "No IPO in volatile market conditions", verdict: "Watch", eli5: "No company went public on June 10. Smart CFOs watch the VIX. When markets are this volatile, IPO pricing is unfavourable  -  companies defer." }, lessonOfDay: { title: "The Difference Between Price and Value", story: "On June 10, Nifty at 23,072 was approximately 8% below its April high. Did India's economy shrink 8%? Did corporate earnings fall 8%? Did the long-term growth story change? None of the above  -  the price fell, but the value of India's underlying businesses was unchanged. This distinction  -  between price (what the market says today) and value (what the business is actually worth)  -  is the foundation of value investing. Warren Buffett's favourite definition: 'Price is what you pay. Value is what you get.'", mnemonic: "Price vs value = Market says 23,072 (price). India's economy unchanged (value). Price created opportunity." } },
+    quiz: [
+      { q: "A defensive stock like ITC falling only 0.4% on the market's worst day shows...", options: ["ITC is immune to market movements", "Defensive businesses with recession-proof revenue streams absorb market selloffs with minimal impact because their earnings are insensitive to the macro conditions causing the fear", "ITC was undervalued and correcting", "Investors were buying ITC as a substitute for bonds"], answer: 1, funFact: "In market downturns, the 'beta' of a stock determines its typical movement relative to the index. Defensive stocks like FMCG, utilities, and pharmaceuticals have betas below 1 (ITC: approximately 0.4)  -  they fall less than the market in selloffs and rise less in rallies. They're mathematically designed to dampen portfolio volatility." },
+      { q: "When the US Federal Reserve raises interest rates, Indian equities often fall because...", options: ["Indian companies pay more interest to American banks", "Higher US rates make US bonds more attractive relative to riskier emerging market equities, causing capital to flow out of India into the US", "RBI always mirrors Fed rate decisions", "Indian inflation rises when US rates rise"], answer: 1, funFact: "The relationship between US interest rates and emerging market flows is so reliable that it's one of the most-traded macro strategies globally. In 2022, when the Fed raised rates from 0% to 4.5% in 12 months, FIIs withdrew approximately Rs 2.5 lakh crore from Indian equities. In 2023, when the pace of hikes slowed, the same money returned, pushing Nifty to new highs." },
+      { q: "The AI boom's environmental cost highlighted in the June 10 UN paper primarily involves...", options: ["High electricity bills for AI companies", "Massive water consumption for cooling, carbon from energy use, and rare earth mining damage  -  costs borne partly in developing countries where data centre regulations are weaker", "Economic displacement of workers", "Cybersecurity vulnerabilities from AI systems"], answer: 1, funFact: "Training GPT-4 reportedly required enough electricity to power 1,000 US homes for a year. Microsoft's AI data centre buildout requires so much water that communities near planned facilities in Arizona and Wisconsin have objected, citing impacts on local water tables. The environmental justice dimension  -  wealthy tech companies externalising costs to poorer communities  -  is one of the least-covered aspects of the AI revolution." }
+    ]
+  },
+  psychology: { mindTrick: { name: "Anchoring  -  The First Number Owns the Negotiation", eli5: "Amos Tversky and Daniel Kahneman discovered in 1974 that humans are disproportionately influenced by the first number they hear. Spin a wheel that randomly shows 10 or 65. Ask people to estimate the percentage of African countries in the United Nations. People who saw 10 estimate 25%. People who saw 65 estimate 45%. The random number anchored their estimate. In real estate: the first asking price sets the negotiation frame  -  even for expert appraisers. In salary: the first number spoken owns the conversation. The rule: whoever says the first number owns the anchor.", realLife: "In any negotiation  -  salary, purchase, contract  -  if you can say the first number, do so. Make it higher than your actual target (you can always come down). If the other party anchors first, never negotiate from their anchor. Challenge it directly: 'That number doesn't work for us  -  we're thinking about this differently. Here's our starting point...'", mnemonic: "Anchoring = First number sets mental baseline. Say it first. Or explicitly reject theirs before countering." },
+    bodyLanguage: { signal: "Pupil Dilation  -  The Truth the Poker Face Cannot Hide", eli5: "Pupils dilate involuntarily when we see something we desire (a person, food, an interesting object) or when we're engaged and interested. They constrict when we see something we dislike. This response is controlled by the autonomic nervous system  -  it cannot be consciously controlled. Card sharks learned this centuries before neuroscience confirmed it: a player's pupils dilate when they have a good hand. Retailers put lights above products specifically to dilate customers' pupils (making products look more appealing). Job candidates' pupils dilate when a role genuinely interests them.", howToUse: "In a conversation about options or proposals: watch pupils when each option is mentioned. Dilation = genuine interest regardless of what words say. Note: pupil response is affected by light levels  -  only meaningful in consistent lighting.", mnemonic: "Pupil dilation = Involuntary desire signal. Body truth the face can't control. Look for genuine interest." },
+    superpower: { name: "Authority  -  We Obey Experts Even When We Shouldn't", story: "Stanley Milgram's famous 1963 experiment: participants were instructed by a researcher in a white coat to administer increasingly powerful electric shocks to a person in another room (actually an actor). Despite apparent cries of pain, 65% of participants administered what they believed was a potentially lethal final shock  -  simply because an authority figure told them to. The white coat was the only difference between this and random instruction. Milgram called it 'the banality of evil'  -  ordinary people doing terrible things because an authority figure sanctioned it.", shield: "Authority is used legitimately (doctors, engineers, pilots  -  expertise matters) and manipulatively (fake reviews, bought credentials, actors in white coats). Before deferring to authority: verify the credentials are real, verify the authority is in their domain of expertise, and verify their advice aligns with your actual interests.", mnemonic: "Authority principle = We obey experts. White coat = 65% compliance. Verify credentials. Check domain. Check interests." },
+    quiz: [
+      { q: "The anchoring effect on UN percentage estimates (wheel showing 10 vs 65) demonstrates...", options: ["People are bad at geography", "A random irrelevant number systematically shifted estimates in the direction of that number  -  showing the brain uses the first number as a reference point even when irrelevant", "Wheel results are correlated with UN membership", "Estimates improve with more information"], answer: 1, funFact: "Tversky and Kahneman's anchoring experiment is one of the most replicated findings in all of psychology. The effect persists even when people are explicitly told the wheel is random and instructed to ignore it. The anchor modifies estimates even when the estimator knows it should not  -  making it one of the most powerful and most difficult to counteract cognitive biases." },
+      { q: "Pupil dilation is a more reliable signal of genuine interest than verbal responses because...", options: ["Eyes are larger than mouths", "It's controlled by the autonomic nervous system and cannot be consciously suppressed  -  it reveals genuine desire regardless of what the person says", "People concentrate harder when interested", "Pupils are visible from a greater distance"], answer: 1, funFact: "Eye tracking and pupillometry (measuring pupil size) are used in market research to test which product packaging, advertisements, and store layouts generate genuine interest responses. A-B testing with pupil data reveals true preferences that surveys and interviews miss  -  because survey respondents give socially desirable answers while their eyes reveal genuine reactions." },
+      { q: "Milgram's authority experiment showed that 65% of participants gave potentially lethal shocks because...", options: ["Participants were sadistic", "The authority of the researcher in a white coat overrode their own moral judgment  -  demonstrating how powerfully the authority principle can override personal ethics", "The experiment was poorly designed", "Participants didn't believe the shocks were real"], answer: 1, funFact: "Milgram ran 18 variations of his experiment. Compliance dropped to 10% when the experimenter wore street clothes instead of a white coat. It dropped to 20% when instructions were given by phone rather than in person. Compliance rose above 90% when two 'researcher' authority figures gave instructions together. The white coat alone caused a 55-percentage-point difference in willingness to harm." }
+    ]
+  },
+  leadership: { leaderMove: { name: "The 70% Rule  -  Act on Incomplete Information", story: "US military doctrine for decision-making: if you have 70% of the information you'd ideally want, you should act. Waiting for 90% or 100% in a competitive environment means your competitor acts first with less information and establishes a position you must now respond to. Jeff Bezos adapted this as the 70% rule for business: 'Most decisions should probably be made with somewhere around 70% of the information you wish you had. If you wait for 90%, in most cases, you're probably being slow.' The insight: gathering the last 30% of information takes disproportionate time and the decision quality improvement from it is usually marginal.", doThis: "Before your next important decision: list what information you have, what's missing, and what it would take to get the missing piece. Then ask: would having that missing 30% actually change my decision? If probably not, decide now.", mnemonic: "70% rule = Act on 70% of information. 30% more data, disproportionate time cost, marginal decision improvement." },
+    visionarySecret: { concept: "The Innovator's Dilemma  -  Why Great Companies Fail at the Top", eli5: "Clayton Christensen's Nobel-worthy insight: great companies fail precisely because they do everything right. A company dominates a market by listening to its best customers, investing in its best products, and squeezing maximum efficiency from its best processes. Then a startup enters with an inferior product that serves non-customers at low cost. The dominant company rationally ignores it  -  it's not competing for their premium customers. The startup improves. Suddenly it's competing for mainstream customers. The dominant company's reaction is always too late. Nokia ignored smartphones because it served Nokia's premium feature-phone customers poorly. Blockbuster ignored streaming because its best customers wanted physical DVDs.", exercise: "Apply the innovator's dilemma to your industry: who is the 'startup serving non-customers at low cost' right now? What would happen if they improved enough to compete for mainstream customers? How much time do you have to adapt?", mnemonic: "Innovator's Dilemma = Great companies fail by doing right things for current customers. Ignoring the startup that serves no one... until it serves everyone." },
+    eliteHabit: { habit: "The Single Metric  -  What's Your One Number?", whoAndHow: "Jeff Bezos's north star metric for Amazon in its early years: number of items in stock. Not revenue. Not profit. Not traffic. One metric that predicted everything else. Spotify's: monthly active users. Netflix: time spent watching. LinkedIn: weekly active professionals. The insight from Jim Collins: great companies identify one measurable thing that determines success better than any other, then optimise ruthlessly for that one thing. Leaders who can identify their single most important metric  -  and track it weekly  -  make consistently better decisions.", whyItWorks: "Multiple metrics create conflicting priorities. One metric creates clarity: every decision can be evaluated by whether it moves the metric. Teams align around one goal rather than negotiating between many. The CEO of a company that tracks one metric and shares it weekly with the team typically builds faster than one that shares monthly P&Ls.", mnemonic: "Single metric = What's your north star number? Amazon: items in stock. Define yours. Track weekly. Decide by it." },
+    sigmaWisdom: { lesson: "Imperturbability  -  The Stoic Superpower", story: "Cato the Younger walked barefoot through the scorching North African desert with his army for 30 days rather than surrender to Julius Caesar. When food and water ran critically low, he distributed the last supplies to his soldiers before taking his own portion. When officers complained about the conditions, Cato walked ahead of everyone  -  barefoot, burdened, visibly suffering  -  without complaint. His physical endurance was a living argument that hardship was bearable. He called it imperturbability: the internal condition of being unaffected by external conditions. Not suppressing emotion  -  genuinely not being destabilised by what cannot be controlled.", action: "Identify the external condition causing you the most anxiety right now. Write it down. Then write: 'This is outside my control. What IS in my control about this situation?' Focus every unit of energy on the second list. The first list gets zero energy.", mnemonic: "Imperturbability = Not destabilised by what cannot be controlled. Cato: barefoot in the desert, distributing water to others first." },
+    quiz: [
+      { q: "Bezos's 70% information rule addresses which business failure mode?", options: ["Analysis paralysis  -  waiting for perfect information causes delays that allow competitors to move first on sufficient information", "Overconfidence  -  acting on too little data", "Information overload  -  having too much data confuses decisions", "Short-termism  -  focusing on immediate information"], answer: 0, funFact: "Amazon's 'two-pizza teams' rule (teams small enough to be fed by two pizzas) was designed to enable fast decision-making with partial information. Large teams require more consensus and more information-gathering before deciding. Small teams can decide with 70% information because there are fewer stakeholders who need to be convinced before action." },
+      { q: "Clayton Christensen's Innovator's Dilemma explains that great companies fail because...", options: ["They are poorly managed", "They rationally serve existing premium customers well while ignoring inferior products serving non-customers  -  until those products improve enough to take mainstream customers away", "Innovation is always random", "Markets change unpredictably"], answer: 1, funFact: "Christensen predicted in 1997 that Apple's iPhone would disrupt Nokia  -  before the iPhone was invented. He was using his own framework to predict what kind of disruption would come to mobile. Nokia's CEO famously said 'we didn't do anything wrong' when Nokia collapsed in 2012. Christensen's response: 'That's exactly the problem.' They did nothing wrong for their existing business model  -  and that's why they failed." },
+      { q: "A 'north star metric' improves company performance primarily by...", options: ["Simplifying financial reporting", "Creating clarity  -  every decision can be evaluated by whether it moves the single most important metric, eliminating conflicting priorities and team misalignment", "Reducing the need for other metrics", "Making performance bonuses easier to calculate"], answer: 1, funFact: "LinkedIn's north star metric shift is the most documented case: when it changed from 'registered users' (vanity metric) to 'weekly active professionals' (engagement metric), product decisions changed dramatically. Features that increased sign-ups but not weekly engagement were cut. Features that increased weekly engagement but not sign-ups were prioritised. Revenue followed engagement, not registration." }
+    ]
+  },
+  wealth: { wealthSecret: { name: "The Latte Factor  -  Tiny Leaks Sink Big Ships", story: "David Bach's most famous and most debated concept: the average American spends $5-7/day on coffee shop purchases  -  approximately Rs 400-500 in India. Rs 400/day invested instead at 12% annual returns for 30 years = Rs 1.4 crore. Bach's point was never literally about lattes  -  it was about the invisible spending that compounds just as powerfully as investing, but in the wrong direction. Every Rs 200 subscriptions you don't use, every Rs 1,000 impulse purchases, every Rs 5,000 convenience upgrade  -  they all have 30-year compounding opportunity costs.", action: "Do the latte factor audit: list every regular daily/weekly spend below Rs 1,000 that you make without much thought. Calculate: if you invested that money instead for 20 years at 12%, how much would it be? The number is usually startling enough to change behaviour.", mnemonic: "Latte factor = Small daily spend compounded over 30 years = lakhs of foregone wealth. Find your latte." },
+    moneyMachine: { type: "Dividend Growth Investing  -  Income That Grows Itself", eli5: "There's a subset of dividend investing that's particularly powerful: companies that don't just pay dividends but grow them every year. HDFC Bank has grown its dividend over 15% annually for 20 years. Asian Paints has grown dividends 12% annually for 25 years. The power: if you buy a stock with a 2% dividend yield and it grows the dividend 12% annually, in 10 years your yield on original cost (YOC) is 6.2%. In 20 years: 19.3%. You're earning 19% per year on your original investment just from dividends  -  before any share price appreciation.", indiaAngle: "Indian dividend growth stocks to research: HDFC Bank, Asian Paints, TCS, Infosys, Nestle India, and Pidilite  -  all have 10+ year histories of consistent dividend growth. The strategy requires patience: low initial yield that compounds to high yield-on-cost over time. Best suited for 15+ year investment horizons.", mnemonic: "Dividend growth = 2% yield now, 19% yield-on-cost in 20 years. Income that compounds without adding capital." },
+    mindsetFlip: { oldThinking: "I need a large salary to build wealth", newThinking: "I need a high savings rate. A Rs 3 lakh salary with 40% savings rate builds more wealth than a Rs 10 lakh salary with 5% savings rate", why: "The maths: Rs 3 lakh salary, 40% savings rate = Rs 1.2 lakh/year invested. Rs 10 lakh salary, 5% savings rate = Rs 50,000/year invested. The Rs 3 lakh earner invests 2.4x more annually. Over 25 years at 12%: the 'lower earner' accumulates Rs 2.1 crore vs the 'higher earner's' Rs 87 lakh. Savings rate is more powerful than income.", mnemonic: "Savings rate > Income. The frugal Rs 3 lakh earner beats the lavish Rs 10 lakh earner every time." },
+    magicNumber: { number: "The 25x Rule  -  How Much Do You Need to Retire?", eli5: "The 25x rule (also called the 4% rule): multiply your annual expenses by 25 to find your financial independence number. If you spend Rs 6 lakh per year: Rs 6 lakh x 25 = Rs 1.5 crore. At this number, you can withdraw 4% annually indefinitely  -  because a diversified portfolio historically grows faster than 4% over long periods, meaning you never actually deplete the principal. The math: 4% of Rs 1.5 crore = Rs 6 lakh/year = your annual expenses. The money funds itself forever.", mnemonic: "25x rule: Annual expenses x 25 = Financial independence number. Rs 6 lakh/year? Need Rs 1.5 crore. That's the target." },
+    quiz: [
+      { q: "The Latte Factor's most powerful insight is...", options: ["Saving on coffee makes you rich", "Small daily expenditures compound just as powerfully as investments  -  but in the wrong direction. Opportunity cost of spending is invisible but mathematically enormous over 30 years.", "Frugality is the only path to wealth", "Rs 400/day is too much to spend on coffee"], answer: 1, funFact: "Bach's latte factor concept received significant pushback from economists who argued that spending enjoyment today is valuable. The debate produced a useful synthesis: the latte factor isn't about eliminating all pleasure spending  -  it's about eliminating UNCONSCIOUS pleasure spending on things you don't particularly value, and redirecting that money to things you genuinely want, including future financial security." },
+      { q: "Dividend growth investing's YOC (Yield on Cost) concept means...", options: ["The dividend yield changes every quarter", "If a stock pays 2% initially but grows the dividend 12% annually, your return on the original purchase price reaches 19%+ after 20 years  -  regardless of share price movements", "Companies reduce dividends as they grow", "Yield on cost is calculated from current price"], answer: 1, funFact: "Warren Buffett's Berkshire Hathaway bought Coca-Cola shares in 1988 at a cost basis of approximately $1.30/share. By 2023, Coca-Cola pays approximately $1.84/share in annual dividends. Buffett's YOC on Coca-Cola exceeds 50%  -  he earns more than half his original investment cost back every single year, just from dividends, without selling a single share." },
+      { q: "The 25x Rule (financial independence number) is based on...", options: ["Arbitrary multiple for simplicity", "The 4% Safe Withdrawal Rate  -  historical research showing a 4% annual portfolio withdrawal has never depleted a diversified portfolio over any 30-year period in US market history", "Government pension calculations", "Average life expectancy minus retirement age"], answer: 1, funFact: "The 4% rule was developed by financial planner William Bengen in 1994, studying historical US market returns from 1926-1976. He found that a 4% initial withdrawal, adjusted annually for inflation, never depleted a 50/50 stocks-bonds portfolio over any 30-year period in the historical data. The research has been updated multiple times; the rule remains approximately valid for most scenarios." }
+    ]
+  },
+  communication: { speakingSkill: { name: "Signposting  -  Tell Them What You'll Tell Them", story: "The most effective teachers, presenters, and communicators use signposting obsessively. Before each section: 'Now I'm going to explain why X matters.' After each section: 'So what you need to remember from that is: Y.' Before the end: 'Let me pull the three most important things together.' Great speeches tell you what they're about to say, say it, then tell you what they said. This sounds redundant but serves a crucial cognitive function: the audience's working memory is limited, and signposting provides the scaffolding that allows complex information to be retained.", drill: "Write your next presentation or talk. Add explicit signposts at the start of every section ('What I want to show you here is...') and at the end of every section ('The key takeaway from this is...'). Count how many signposts you've added. Most first-time signposters add 5-8, then realise they need 15-20.", mnemonic: "Signposting = Tell them what you'll say. Say it. Tell them what you said. 3x for the working memory limit." },
+    negotiationMove: { tactic: "The Summary  -  Control the Narrative of What Was Agreed", eli5: "After any negotiation, meeting, or important conversation: immediately write and send a brief summary of what was agreed. This serves two negotiation functions simultaneously. First: it establishes the official record  -  if there's later disagreement about what was decided, your written record sets the baseline. Second: if the other party had a different understanding of what was agreed, they must now explicitly object to your written version  -  which surfaces the disagreement while it's still easy to resolve, rather than when it's become a crisis.", script: "Email within 30 minutes of any important discussion: 'Quick summary of what we agreed in today's conversation: 1) [X]. 2) [Y]. 3) [Z]. Next step: [who does what by when]. Please let me know if I've missed anything.'", mnemonic: "Summary after negotiation = You write the record, you set the baseline. First writer controls the narrative." },
+    officeWin: { rule: "Be the person who makes decisions easy for their manager", story: "Two junior analysts both present recommendations to the same manager. Analyst A: 'Here's the situation [5 slides]. Here are the considerations [8 slides]. Here are some options [4 slides]. What do you think we should do?' Analyst B: 'Here's my recommendation: Option C. Here's my one-paragraph rationale. Here are the main risks and how I'd mitigate them. I can provide more detail on any aspect if helpful.' The manager's reaction to A: frustration. To B: relief, trust, and a mental promotion of that person's status. The manager is paid to decide. The analyst who brings well-reasoned recommendations makes the manager's job easier and gets positioned as a future decision-maker themselves.", mistake: "Presenting analysis without a recommendation is a failure of leadership confidence disguised as thoroughness. It transfers the cognitive burden to your manager while appearing hard-working.", mnemonic: "Make decisions easy for manager = Give recommendation first. Analysis second. Make them look good." },
+    confidenceHack: { technique: "Slow Down  -  Speed Signals Anxiety", science: "Research on speech rate and perceived confidence shows a consistent pattern: speakers who talk faster than their natural rate are perceived as anxious, less credible, and less expert than those speaking at moderate pace. Fast speech signals a desire to get through the material  -  which listeners subconsciously interpret as discomfort with the content. Slow, deliberate speech signals ownership of the material. Every great orator  -  Obama, Churchill, Mandela  -  spoke at approximately 130 words per minute. Average anxious presenter: 180-200 WPM.", doItNow: "Record 60 seconds of yourself talking about something you know well. Count the words. If above 160 per minute, deliberately slow down by 20%. Most people are shocked by how slow 'too slow' actually sounds to them vs how normal it sounds to listeners.", mnemonic: "Slow speech = Confidence signal. Fast speech = Anxiety signal. 130 WPM for the best orators. Record yourself." },
+    quiz: [
+      { q: "Signposting ('What I'm about to show you is...') helps audiences because...", options: ["It fills time in presentations", "Working memory is limited  -  explicit signposts provide cognitive scaffolding that allows the audience to retain complex information by knowing in advance what structure to file it under", "It gives presenters time to remember what comes next", "Audiences prefer predictable presentations"], answer: 1, funFact: "George Miller's 1956 research established that working memory can hold approximately 7 items simultaneously. Signposting reduces cognitive load by giving the brain a filing structure before content arrives  -  information is categorised in real time rather than retrospectively sorted. This is why textbook chapters have learning objectives at the start and summaries at the end." },
+      { q: "Sending a summary after a negotiation primarily achieves...", options: ["Demonstrating good manners", "Establishing the official record of what was agreed and surfacing any misunderstandings while they're still easy to resolve", "Creating documentation for legal purposes only", "Thanking the other party for their time"], answer: 1, funFact: "Mediation research consistently shows that parties in disputes most frequently disagree not on what was decided but on what was 'understood' without being explicitly said. Contract disputes, partnership disagreements, and employment conflicts most commonly arise from implicit agreements that each party remembered differently. Written summaries create explicit agreements  -  reducing the most common source of professional conflict." },
+      { q: "Speaking at 130 words per minute (vs 180-200) signals confidence because...", options: ["Slower speakers have more to say", "Deliberate pace signals ownership of the material and absence of anxiety  -  the subconscious message 'I'm completely comfortable with this content'", "Audiences can process information better at 130 WPM", "130 WPM matches the brain's reading speed"], answer: 1, funFact: "President Obama's average speech rate was measured at 112-130 WPM  -  significantly slower than the average person speaks in conversation (150-200 WPM). Winston Churchill's radio addresses averaged 100 WPM. Both deliberately cultivated this pace as a confidence and authority signal. Both trained themselves to speak more slowly than felt natural to them at the time." }
+    ]
+  },
+  mind: { brainHack: { name: "The Memory Palace  -  Ancient Technique for Modern Recall", eli5: "2,500 years ago, Greek orators memorised hours-long speeches using a technique called the memory palace (method of loci). Choose a familiar location (your home, a regular commute route). Mentally walk through it. At each distinct location, place a vivid image representing what you need to remember. To recall: mentally walk through the same route, collecting the images in order. Memory champions use this technique to memorise 1,000+ random digits in an hour. The technique works because the human brain has excellent spatial memory  -  evolved to remember the landscape  -  but poor abstract memory.", protocol: "To memorise any list: map your home rooms in order. For each item to remember, create an absurd, vivid image in one room. Want to remember 'milk, eggs, bread, butter, pasta': a cow swimming in your living room, a giant egg cracking on your kitchen table, a loaf of bread wearing sunglasses in the bedroom, butter melting on the bathroom floor, pasta tornado in the garden.", mnemonic: "Memory palace = Ancient Greek trick. Spatial memory > abstract memory. Place vivid images in familiar spaces." },
+    disciplineCode: { principle: "The Minimum Viable Effort  -  Never Miss Twice", story: "Jerry Seinfeld's calendar productivity method: get a big yearly wall calendar and put a red X on every day you do your most important habit. After a few days, you have a chain of Xs. Your job: don't break the chain. James Clear adapted this: on difficult days, the minimum viable effort counts. A runner who can't run 5km runs for 2 minutes instead  -  keeping the identity intact and the chain unbroken. The most dangerous moment in any habit is missing once. Missing twice creates a new pattern. Missing once is an accident. Missing twice is starting a new habit of not doing the thing.", todayAction: "Identify your most important habit. Create a paper chain (or calendar). Put today's mark on it. Commit to never missing twice. When you miss once (you will), your only job is to not miss the very next day. The recovery, not the miss, defines the habit.", mnemonic: "Never miss twice = Miss once: accident. Miss twice: new pattern forming. Recovery defines the habit, not the streak." },
+    impulseKiller: { urge: "Catastrophising  -  the anxiety loop of imagining worst cases", eli5: "The brain's anxiety system evolved for survival: when detecting a threat, it simulates all possible worst cases to prepare for them. A useful system when real predators existed. A counterproductive system when the 'threat' is a difficult meeting, a health concern, or a financial worry. Catastrophising is this system in overdrive: taking a realistic concern ('I might lose this client') and amplifying it through a chain of worst cases ('which means I'll lose my job, which means I won't pay rent, which means I'll become homeless'). Each step activates more anxiety, which triggers more catastrophising, creating an anxiety spiral that has no real connection to the original probability.", interrupt: "Interrupt the catastrophising chain by asking: 'What's the actual probability of each step in this chain?' Most catastrophising chains have a step that's very unlikely that the brain skips past. Find that step, assign it a realistic probability (10%? 5%?), and the whole chain's probability collapses to that number.", mnemonic: "Catastrophising interrupt = What's the probability of each link in this chain? Usually: very low. Chain collapses." },
+    bodyUpgrade: { practice: "Breathwork  -  The Box Breathing Protocol", eli5: "Box breathing (Navy SEAL breathing, 4-4-4-4): inhale for 4 counts, hold for 4 counts, exhale for 4 counts, hold for 4 counts. This specific pattern activates the parasympathetic nervous system (rest and digest) while maintaining alertness. It's used by Navy SEALs before combat operations, surgeons before difficult procedures, and Olympic athletes before competition. It reduces heart rate and cortisol within 90 seconds while keeping the mind alert  -  unlike most relaxation techniques that cause drowsiness.", minimumDose: "4 cycles of box breathing (approximately 90 seconds) before any high-pressure situation. Also effective: 5 minutes of box breathing before sleep for faster sleep onset.", mnemonic: "Box breathing 4-4-4-4 = 90 seconds, calmer physiology, alert mind. Navy SEAL pre-combat. Your pre-meeting." },
+    quiz: [
+      { q: "The memory palace works because...", options: ["Spatial information is processed in a dedicated brain region that has evolved for detailed long-term recall", "It creates visual associations that are easier to recall than abstract lists", "It uses both hemispheres of the brain", "Walking while memorising improves retention"], answer: 0, funFact: "The hippocampus, which manages spatial navigation and memory, is one of the brain's most developed and reliable memory systems  -  it processes location information with exceptional detail and persistence. Studies on London taxi drivers showed significantly enlarged hippocampi compared to non-drivers, from years of detailed spatial memory demands. The memory palace exploits this evolutionary strength." },
+      { q: "Seinfeld's 'don't break the chain' strategy works because...", options: ["Long chains of Xs become psychologically valuable in themselves  -  motivating maintenance beyond the original goal", "Visual tracking improves habit memory", "Calendars are more effective than apps", "The red X specifically has psychological significance"], answer: 0, funFact: "The chain strategy works through both loss aversion (breaking a long chain feels like losing something valuable) and identity reinforcement (a calendar full of Xs becomes visible proof of who you are). James Clear notes that the calendar chain is most powerful when the habit is tied to identity: 'I am a person who writes/exercises/reads every day'  -  the chain is evidence of the identity, not just a habit tracker." },
+      { q: "Catastrophising anxiety loops can be interrupted by...", options: ["Distraction from the anxiety-producing thought", "Identifying the lowest-probability link in the worry chain and assigning it a realistic probability  -  which collapses the entire chain's apparent likelihood", "Positive affirmations that counter catastrophic thinking", "Accepting that worst cases are possible"], answer: 1, funFact: "Cognitive Behavioural Therapy (CBT) calls this technique 'probability estimation' or 'decatastrophising.' Research by Aaron Beck (CBT's founder) found that anxious patients consistently overestimated the probability of catastrophic outcomes by factors of 5-10x. Asking 'what's the actual probability?' and doing a realistic estimate interrupts the anxiety loop by engaging the prefrontal cortex  -  which provides more realistic risk assessment than the amygdala's catastrophising." }
+    ]
+  },
+  knowledge: { mathMagic: { concept: "Game Theory  -  Understanding Strategic Interaction", eli5: "John Nash (the Beautiful Mind mathematician) developed game theory: the mathematics of strategic interaction. When your decision depends on what others decide, and their decision depends on what you decide, standard probability doesn't work. Game theory analyses these situations. The Prisoner's Dilemma is the most famous example: two people who committed a crime separately. Each can confess (implicating the other) or stay silent. If both stay silent: 1 year each. If both confess: 5 years each. If one confesses and other doesn't: confessor goes free, other gets 10 years. What should you do? Nash proved: each player, thinking rationally about the other's likely choice, will confess  -  even though both staying silent is the better collective outcome. This 'Nash Equilibrium' explains arms races, price wars, and climate negotiations.", realWorldUse: "Game theory explains why companies in oligopolies often end up with similar prices (Nash Equilibrium in pricing). Why countries over-fish shared waters even though restraint would benefit everyone. Why nuclear disarmament is so difficult. The insight: individual rational behaviour can produce collectively irrational outcomes.", mnemonic: "Game theory = Prisoner's Dilemma. Individual rational choice -> collective disaster. Nash Equilibrium explains every arms race." },
+    scienceWow: { field: "Genetics", concept: "CRISPR  -  Gene Editing as Precisely as a Word Processor", eli5: "In 2012, Jennifer Doudna and Emmanuelle Charpentier discovered CRISPR-Cas9  -  a molecular tool that can find a specific sequence in DNA (among 3 billion base pairs) and cut it precisely, allowing scientists to delete, replace, or add genetic material. It's like a word processor for DNA: find the word, delete it or change it, done. Previously, genetic modification took years and produced imprecise results. CRISPR does the same in days with surgical precision. Clinical trials using CRISPR to cure sickle cell disease (a devastating inherited blood disorder) showed 90%+ cure rates in 2023. In 2026, the first CRISPR therapies for cancer are in clinical trials.", mindBlow: "Doudna won the Nobel Prize in 2020. But the most mind-bending implication: CRISPR could theoretically edit human germline cells (eggs, sperm, embryos)  -  making genetic changes that are inherited by all future descendants. A Chinese scientist did this in 2018 (to create HIV-resistant babies) and was imprisoned. But the capability exists. The ethical debate about designed humans is no longer science fiction.", mnemonic: "CRISPR = Word processor for DNA. Cut/paste genes with precision. Sickle cell: 90% cured. Designer babies: now possible." },
+    historyStory: { event: "The Apollo 13 Mission  -  Failure as Innovation", story: "On April 13, 1970, an oxygen tank in Apollo 13's service module exploded 200,000 miles from Earth. The planned moon landing became a survival mission. NASA engineers on the ground had 4 days to figure out how to get three astronauts home alive using only the equipment already on the spacecraft. One critical problem: the carbon dioxide scrubbers in the lunar module couldn't accommodate the command module's CO2 filters. The filters were square pegs; the lunar module's openings were round holes. NASA engineers, using only materials the astronauts had on board, designed a solution using plastic bags, cardboard, duct tape, and a sock. It worked. The astronauts returned safely.", lesson: "Apollo 13 is studied in every engineering and leadership program in the world for one reason: the combination of extreme constraint and extreme urgency produced innovation that peacetime, unlimited-budget engineering couldn't have generated. The constraint  -  you can only use what's on the ship  -  forced a solution the engineers might never have found with unlimited resources.", mnemonic: "Apollo 13 = Disaster -> Innovation. Square pegs, round holes, duct tape and a sock. Constraint creates creativity." },
+    earthSecret: { place: "Turkey (Turkiye)", secret: "Turkey sits at the most strategically important point on Earth: it controls the Bosphorus and Dardanelles  -  the only maritime connection between the Black Sea and the Mediterranean. This means Turkey controls access to Russian, Ukrainian, Bulgarian, and Romanian ports. Without Turkish permission, no ship can transit. Turkey is simultaneously a NATO member and maintains close relations with Russia, buys Russian air defence systems despite US objection, and plays both sides of every conflict  -  including the Ukraine war  -  with remarkable success. Under Erdogan, it has become the most powerful diplomatic freelancer in the world.", edge: "Understanding Turkey's unique position  -  NATO member with Russian weapons, Bosphorus controller, EU candidate for 30 years that never joined  -  explains why Turkey's vote is the most valuable vote in every international coalition. They always get concessions from everyone because everyone needs them more than they need anyone.", mnemonic: "Turkey = Bosphorus controller. NATO member with Russian missiles. Most valuable diplomatic vote on Earth. Everyone needs Turkey." },
+    quiz: [
+      { q: "The Prisoner's Dilemma shows that...", options: ["Criminals always confess", "Individual rational choices (confessing) produce collectively worse outcomes (both imprisoned 5 years) than collective irrational choices (both silent, 1 year each)", "Game theory proves cooperation is always optimal", "Nash equilibrium maximises collective welfare"], answer: 1, funFact: "The Prisoner's Dilemma was first formalised by RAND Corporation researchers in 1950 during the Cold War  -  as a mathematical model of nuclear deterrence. The US and Soviet Union faced exactly this dilemma: individual rational action (build more nuclear weapons) led to the collectively terrible outcome (both countries spent trillions on weapons neither could use). The Cold War was a 40-year Prisoner's Dilemma." },
+      { q: "CRISPR's medical significance comes from...", options: ["Being the first genetic technology", "Its unprecedented precision  -  finding and editing a specific genetic sequence among 3 billion base pairs  -  enabling disease treatment at the genetic root cause", "Being inexpensive compared to previous gene therapies", "Working without any side effects"], answer: 1, funFact: "The first CRISPR therapy approved by the FDA, Casgevy (for sickle cell disease and beta thalassemia), was approved in December 2023. Its price: $2.2 million per patient. The development cost has driven enormous debate about drug pricing. CRISPR therapies for cancer, Alzheimer's, HIV, and inherited blindness are all in clinical trials as of 2026." },
+      { q: "The Apollo 13 'square peg round hole' CO2 problem was solved by...", options: ["Returning immediately to Earth before CO2 reached dangerous levels", "NASA engineers designing a solution from materials already on the spacecraft  -  including duct tape, plastic bags, cardboard, and a sock", "An emergency spacewalk to retrieve equipment", "Reducing crew activity to lower CO2 production to safe levels"], answer: 1, funFact: "The Apollo 13 mission inspired the phrase 'failure is not an option'  -  Gene Kranz's famous statement that became the title of his memoir. The improvised CO2 scrubber solution took 30 engineers 16 hours to design. They called the completed device 'the mailbox.' It reduced CO2 levels below dangerous thresholds within 15 minutes of assembly. NASA's mission control team won the Presidential Medal of Freedom for the recovery." }
+    ]
+  },
+  ai: { toolSpotlight: { name: "Midjourney V7", category: "Creative / Visual", eli5: "Midjourney is the leading AI image generator  -  type a description, receive a photorealistic or stylised image in 30 seconds. Version 7 (2026) produces images that professional designers and photographers frequently cannot distinguish from actual photography or human-created art. Used by advertising agencies, book cover designers, concept artists, game studios, and marketing teams worldwide. A single Midjourney subscription ($10-60/month) replaces what would have required a professional photographer, studio, and post-processing pipeline.", secretMove: "Use Midjourney's 'style reference' feature: upload an image you love, then describe what you want but with the same visual style. This lets you create consistent branded imagery without a graphic designer. Also: --ar 16:9 for widescreen, --ar 1:1 for Instagram, --ar 9:16 for phone wallpapers.", mnemonic: "Midjourney V7 = Type description, get professional-quality image in 30 seconds. Replaces photo studio for most tasks." },
+    workflowWin: { title: "The Learning-to-Earning Pipeline  -  Monetising New Skills", problem: "Most people learn new skills that never translate to income because there's no bridge between 'I learned X' and 'I earn money from X.'", steps: ["Learn a specific, valuable skill (SQL, Python basics, data visualisation, copywriting, video editing, AI prompting)", "Build 3 portfolio pieces showing the skill applied to real or realistic problems", "List on Upwork, Fiverr, or LinkedIn Services  -  your first 3 projects should be underpriced to get reviews", "Use those reviews to charge market rates. Document the workflow. Scale."], timeSaved: "The pipeline from first learning to first paid project typically takes 3-6 months following this structure. Without the structure, skills often die in Coursera completion certificates.", mnemonic: "Learn -> Portfolio -> 3 underpriced projects -> Reviews -> Market rates. Knowledge monetised." },
+    promptOfDay: { purpose: "Get AI to help you prepare for a difficult conversation", prompt: "I need to have a difficult conversation with [WHO - colleague, manager, family member, client] about [TOPIC]. The main concern I need to raise is [YOUR CONCERN]. Their likely reaction will be [DESCRIBE HOW YOU EXPECT THEM TO RESPOND]. My goal for the conversation is [OUTCOME YOU WANT]. Please: 1) Give me an opening line that is direct but not aggressive, 2) List the 3 likely objections they'll raise and how I should respond to each, 3) Suggest what to say if the conversation becomes heated or defensive, 4) Propose a closing line that moves toward action.", where: "Claude", mnemonic: "Difficult conversation prep = Opening + 3 objections + de-escalation + closing. Prepare the script, then speak naturally." },
+    futureWatch: { trend: "AI is replacing entry-level knowledge work  -  the graduate job crisis is real", eli5: "Law firms that used to hire 50 junior associates to review documents are now hiring 10 and using AI for the rest. Consulting firms using AI to produce first-draft analyses with 2 analysts instead of 10. Investment banks automating equity research summaries. The pattern: work that required a college degree but was repetitive and structured is being automated first. This is creating a genuine crisis for recent graduates competing for entry-level positions that are rapidly declining in number.", yourMove: "The skills that still require humans  -  judgment, client relationship, novel problem-solving, creative direction, ethical oversight  -  are premium skills. Building explicit expertise in these areas (rather than skills that are replicable by AI) is the most important career investment for the next decade.", mnemonic: "Entry-level knowledge work = AI's first target. Document review, research summaries, data analysis. Climb to judgment." },
+    quiz: [
+      { q: "Midjourney's 'style reference' feature is particularly valuable for...", options: ["Making all images look the same", "Creating consistent visual branding  -  using an existing image's style as a template for new images without requiring a graphic designer", "Copying competitors' designs", "Making images more detailed"], answer: 1, funFact: "Several Fortune 500 companies' marketing departments have publicly acknowledged using Midjourney for concept ideation  -  showing AI-generated concept images to clients before committing to expensive photo shoots. The AI serves as a rapid prototyping tool that compresses creative approval cycles from days to hours." },
+      { q: "The learning-to-earning pipeline's most critical step is...", options: ["Learning the skill", "Building 3 portfolio pieces  -  because skill without demonstrated application is invisible to potential clients who can't assess abstract capability", "Pricing correctly from the start", "Getting a certification"], answer: 1, funFact: "LinkedIn's economic graph data shows that job candidates with 3+ portfolio pieces in a new skill are 6x more likely to get an interview for roles requiring that skill than candidates with certificates alone. Employers are risk-averse: they can't assess whether a Coursera completion certificate represents real capability. They can assess a portfolio project directly." },
+      { q: "Entry-level knowledge work is being automated first because...", options: ["Entry-level workers are less productive than AI", "Structured, repetitive knowledge tasks (document review, research summarisation, data formatting) are within current AI capabilities, while the judgment and relationship skills above them are not", "Companies want to reduce costs", "AI is more accurate than human workers for all tasks"], answer: 1, funFact: "A 2024 Goldman Sachs report estimated that 300 million full-time jobs globally were exposed to AI automation, with the highest concentration in administrative, legal, financial, and analytical entry-level roles. The same report noted that historically, each technological transformation has created new job categories  -  but the transition period produces significant displacement." }
+    ]
+  },
+  travel: { destination: { country: "Turkey (Turkiye)", region: "Istanbul and Cappadocia", eli5: "Istanbul is the only city in the world built on two continents simultaneously  -  the Bosphorus strait divides it between Europe and Asia. It has been the capital of the Byzantine Empire and the Ottoman Empire  -  1,600 years of being the centre of world power. The Hagia Sophia was the world's largest building for nearly a thousand years. The Grand Bazaar has been continuously operating since 1461. Cappadocia, 8 hours south by bus (or 1 hour by flight), looks like another planet: volcanic rock formations called 'fairy chimneys,' underground cities carved 8 storeys deep by early Christians, and the world's most famous hot air balloon landscape at dawn.", bestTime: "April-May and September-October for Istanbul (mild, less crowded). Same for Cappadocia  -  but hot air ballooning is possible year-round (weather permitting).", hiddenGem: "The Basilica Cistern in Istanbul: a underground Roman water cistern built in 532 AD, with 336 columns stretching as far as you can see in the dim, reflective water. Two columns stand on the heads of Medusa sculptures from older Roman temples  -  repurposed upside down and sideways. It's 8 metres underground, climate-controlled by the water, and looks like a scene from an Indiana Jones film.", mnemonic: "Istanbul = 2 continents, 1,600 years of empire, Hagia Sophia. Cappadocia = Fairy chimneys + hot air balloons at dawn." },
+    visaTip: { focus: "Turkey E-Visa for Indian Passport Holders", eli5: "India is not on Turkey's visa-free list  -  you need an e-visa. The process is completely online at evisa.gov.tr. Cost: $35 USD. Processing: usually within 24 hours. Valid for 180 days with multiple entries, each stay up to 30 days. You'll need a valid passport (6+ months), a credit or debit card, and an email address. The e-visa is a PDF you show at the airport.", goldenTip: "Apply through the official Turkish government website only (evisa.gov.tr). Multiple scam sites mimic the official site and charge 3-5x the actual price. The official site charges exactly $35 USD. Any site charging more is a scam.", mnemonic: "Turkey e-visa = $35 on evisa.gov.tr ONLY. 24 hours. Scam sites charge 3x. Official site only." },
+    culturalCode: { culture: "Turkey", doThis: "Turkish people are intensely hospitable  -  if invited into a home, accept tea (chai is central to Turkish social culture). Remove shoes at homes. Learning to say 'Tesekkur ederim' (teh-SHEK-kur eh-deh-REEM: thank you) produces immediate warmth. Turkish coffee culture is an art form  -  the coffee is thick, unfiltered, and often served with Turkish delight. Drinking it slowly is the expected gesture of appreciation.", neverDoThis: "Never photograph military installations, border areas, or security forces  -  it is illegal and has resulted in tourist arrests. Do not publicly insult Ataturk (the founder of modern Turkey)  -  it is a criminal offence under Turkish law. In mosques: dress modestly (cover head for women, remove shoes for both). Do not visit during active prayer times if you're just sightseeing.", mnemonic: "Turkey: Accept hospitality + never photograph military + Ataturk insult is illegal + modest dress in mosques." },
+    quiz: [
+      { q: "Istanbul is unique geographically because...", options: ["It's the world's largest city by area", "It's the only city built simultaneously on two continents  -  split between Europe and Asia by the Bosphorus strait", "It has more mosques than any other city", "It was never conquered by an outside power"], answer: 1, funFact: "The Bosphorus strait is 31km long and ranges from 700m to 3.5km wide. Approximately 50,000 ships transit it annually  -  making it one of the world's busiest maritime passages. Turkey legally controls transit rights under the 1936 Montreux Convention, giving it significant geopolitical leverage over all Black Sea nations including Russia." },
+      { q: "Cappadocia's unique landscape was formed by...", options: ["Ancient human construction", "Millions of years of volcanic eruptions from Mount Erciyes depositing thick ash layers, then wind and water erosion sculpting the distinctive 'fairy chimney' formations", "Underground water carving the rock", "An ancient meteorite impact"], answer: 1, funFact: "Early Christians fleeing Roman persecution carved extensive underground cities into Cappadocia's soft volcanic rock (tuff). The city of Derinkuyu had 18 floors extending 60 metres underground and could shelter 20,000 people. It contained wine presses, stables, churches, and schools. These cities were only rediscovered in the 1960s when a homeowner knocked through a wall and found a room leading to a vast underground complex." },
+      { q: "The Hagia Sophia's historical significance comes from...", options: ["Being the world's tallest building for centuries", "Being continuously one of the world's most architecturally significant buildings for 1,500 years  -  built as a Christian cathedral (532 AD), converted to a mosque (1453), made a museum (1935), reconverted to a mosque (2020)", "Being built by the same architect as the Parthenon", "Being the model for all subsequent mosque architecture"], answer: 1, funFact: "The Hagia Sophia's dome, completed in 537 AD, appeared to float without visible support  -  an engineering achievement so remarkable that Byzantine chroniclers wrote that the dome was 'suspended from heaven by a golden chain.' The structural secret: 40 windows at the dome's base create an optical illusion of the dome floating in light. It was the world's largest dome for nearly 1,000 years." }
+    ]
+  }
+}
+
+const d260611 = {
+  news: { segments: [
+    { name: "🌐 What's happening with countries?", color: "#a0d4f5", stories: [
+      { headline: "US strikes Iran second day in a row  -  Hegseth: 'We negotiate with bombs if necessary'", eli5: "For the second consecutive day, US forces struck targets inside Iran. Defence Secretary Pete Hegseth, speaking from Guantanamo Bay on June 11, said: 'President Trump is willing to go back and fight as necessary. If they want to tap, then the president will turn to the War Department. If we need to negotiate with bombs, we'll negotiate with bombs. And we're very good at it.' Iran's foreign ministry responded that the strikes had rendered the ceasefire 'practically meaningless.' The peace deal Trump had been claiming for weeks seemed further away than ever.", whyItMatters: "Two consecutive days of US strikes on Iran marked an escalation that raised questions about whether the conflict was expanding beyond its original boundaries.", mnemonic: "June 11 = Day 2 of US strikes. Hegseth: 'Negotiate with bombs.' Iran: ceasefire meaningless. Diplomacy retreating." },
+      { headline: "US strikes tanker off Oman coast  -  3 Indian sailors killed on MV Settebello", eli5: "US forces struck the Palau-flagged tanker MV Settebello off the coast of Oman, killing three Indian sailors. The ship had 21 Indian crew members. India's Ports Minister Sarbananda Sonowal announced the deaths on X. India's foreign ministry summoned a US diplomat to demand an end to such strikes. The three sailors who died  -  who were following orders from their shipping company and working in international waters  -  were casualties of the US blockade of Iranian oil shipments. They had names and families.", whyItMatters: "Indian sailors killed by US military action created a direct India-US diplomatic incident  -  the most personally painful consequence of the Iran conflict for India.", mnemonic: "3 Indian sailors killed by US strike = June 11's most personal tragedy. Names: Sonowal announced them. India summoned US diplomat." },
+      { headline: "Amnesty International: Israel conducting ethnic cleansing in the West Bank", eli5: "Amnesty International released a major report on June 11 accusing Israel of ethnic cleansing in the West Bank (distinct from the Gaza conflict). The report documented systematic demolition of Palestinian homes and villages, forced displacement of communities that had lived there for generations, expansion of Israeli settlements into areas where Palestinians were removed, and a pattern that Amnesty described as meeting the legal definition of ethnic cleansing under international law. Israel rejected the report entirely, calling it 'antisemitic propaganda.'", whyItMatters: "An Amnesty International ethnic cleansing accusation against Israel in the West Bank  -  separate from Gaza  -  represented a significant escalation in international human rights organisations' assessments of Israeli actions.", mnemonic: "Amnesty June 11 = Ethnic cleansing accusation for West Bank (not Gaza). Separate conflict, same organization's alarm" }
+    ]},
+    { name: "💸 What's happening with money?", color: "#a8edcb", stories: [
+      { headline: "SpaceX IPO would make Musk world's first trillionaire  -  the numbers", eli5: "As SpaceX IPO details leaked, analysts ran the numbers. SpaceX's current private valuation: approximately $350 billion. Elon Musk owns approximately 44% of SpaceX. At IPO valuation: Musk's SpaceX stake = ~$154 billion. Add his Tesla stake (approximately $80 billion), X (Twitter) stake (approximately $20 billion), and other holdings: total estimated at approximately $1.05-1.1 trillion. The world's first trillionaire would be created by a rocket company going public.", whyItMatters: "SpaceX's IPO would represent the largest concentration of private-to-public wealth transfer in history  -  and would give retail investors access to the company leading commercial space, satellite internet, and rocket technology.", mnemonic: "SpaceX IPO math = $350B company x 44% Musk stake = $154B. Plus Tesla plus X = Trillionaire. First in history." },
+      { headline: "Nifty recovers to 23,161  -  Indian IT sector worst hit, down 2.7% on week", eli5: "After hitting 23,072 the previous day, Nifty recovered slightly to 23,161 by close on June 11. But the week was brutal for Indian IT. Nifty IT fell 2.7% as a combination of factors hit: global tech selloff from AI valuation concerns, rupee weakness (bad for rupee-denominated reports of dollar earnings), and general risk-off sentiment. TCS, Infosys, HCL Tech all fell significantly. The recovery from the day's low showed there were buyers at 23,000-23,100  -  an important technical support level.", whyItMatters: "IT sector weakness during a global risk-off shows the interconnection between Indian IT companies (which earn globally) and US tech sentiment  -  they can't fully escape the sector they're associated with.", mnemonic: "Nifty June 11 = 23,161 close. IT -2.7% on week. But 23,000 held as support. Buyers emerged at the lows." }
+    ]},
+    { name: "💻 What's happening with technology?", color: "#c9b8f5", stories: [
+      { headline: "FBI raids pro-Palestinian activists in Michigan  -  surveillance and civil liberties debate", eli5: "FBI agents conducted raids on pro-Palestinian activists in Michigan on June 11. The activists said the raids were politically motivated targeting of free speech and assembly. The FBI cited national security concerns. Civil liberties organisations including the ACLU condemned the raids. The tension between national security surveillance powers and First Amendment protections was sharpened by the Iran conflict  -  war always provides justification for expanded surveillance powers.", whyItMatters: "Government surveillance expansion during wartime follows a consistent historical pattern  -  the rights expanded during conflict periods are rarely fully returned afterward.", mnemonic: "FBI raids pro-Palestinian activists = National security justification + civil liberties concern. War always expands surveillance first." },
+      { headline: "US measles cases top 2,000 for second consecutive year  -  public health warning", eli5: "The CDC reported that US measles cases crossed 2,000 for the second straight year in 2026  -  a disease that was declared eliminated in the US in 2000. The resurgence was directly linked to declining vaccination rates following RFK Jr.'s appointment as Health Secretary, whose public statements questioning vaccine safety had reduced vaccination rates in several states. Measles is one of the world's most contagious diseases  -  an unvaccinated person has a 90% chance of being infected after exposure.", whyItMatters: "Measles resurgence from vaccine hesitancy is a direct, measurable consequence of public health leadership that questions vaccine safety.", mnemonic: "2,000 US measles cases = Declared eliminated in 2000. Now back. Vaccination rates down = Disease rates up." }
+    ]},
+    { name: "🌿 What's happening with our planet?", color: "#f5c6a0", stories: [
+      { headline: "US inflation and oil creating global food crisis  -  the chain from war to hunger", eli5: "By June 11, analysts were mapping the full chain from the Hormuz closure to global hunger: oil up -> shipping costs up -> food import costs up in poor countries -> emergency food purchases crowding out other spending -> health and education spending cut -> long-term development set back by years. The World Bank estimated the Hormuz crisis would add 50 million people to global food insecurity over the following 12 months. Not from lack of food  -  but from transport and fertiliser costs pricing it out of reach.", whyItMatters: "The indirect food security consequences of the Iran conflict were predicted to exceed the direct military casualties by orders of magnitude.", mnemonic: "June 11 chain: Hormuz closed -> oil up -> shipping up -> food costs up -> 50M more hungry. War's invisible casualties." }
+    ]}
+  ], quiz: [
+    { q: "Three Indian sailors were killed on June 11 because...", options: ["They were accidentally targeted by Iran", "The US struck the tanker MV Settebello off Oman as part of its blockade of Iranian oil shipping  -  the Indian sailors were crew members following their shipping company's instructions", "Pirates attacked the vessel", "The ship was in an Iranian military zone"], answer: 1, funFact: "The killing of Indian sailors by US forces created India's most delicate diplomatic moment of 2026. India needed US support for various geopolitical issues (China, Pakistan) but couldn't publicly accept the killing of its citizens without response. India's 'summoning' of a US diplomat  -  a formal diplomatic protest  -  was calibrated to be serious without being confrontational." },
+    { q: "SpaceX's IPO preparations in 2026 were significant because...", options: ["It would be the first space company to go public", "At a ~$350B valuation, it would potentially be history's largest IPO and Musk's stake could make him the world's first trillionaire", "It would give the US government additional space funding", "SpaceX needed public market capital to fund Starship development"], answer: 1, funFact: "Saudi Aramco's 2019 IPO raised $29.4 billion on a $1.7 trillion valuation and remains the largest IPO in history. SpaceX's projected IPO range of $30-50 billion raised would surpass it. The difference: Aramco's government-controlled pricing; SpaceX's market-determined pricing on a company with rapidly growing commercial revenues from Starlink." },
+    { q: "Measles reaching 2,000 US cases (2nd year running) shows...", options: ["Measles has mutated to be more contagious", "Vaccine hesitancy, amplified by public officials questioning vaccine safety, has restored measles to pre-elimination levels in a country that declared it eradicated 26 years ago", "The measles vaccine has become less effective", "International travel is spreading new measles variants"], answer: 1, funFact: "Measles has a basic reproduction number (R0) of 12-18  -  meaning one infected person infects 12-18 others in an unvaccinated population. It's one of the most contagious pathogens ever documented. The MMR vaccine is 97% effective after two doses. Herd immunity requires approximately 95% vaccination coverage. Any fall below this threshold allows outbreaks even in populations with majority vaccination." }
+  ]},
+  markets: { globalPulse: { eli5: "June 11 global markets were cautious but slightly recovering. The 'second day of US strikes on Iran' news was already partly priced in. Oil eased slightly to $94.50. Nifty recovered from its lows. IT stocks stabilised. The mood: not good, but not getting worse. Markets were in 'show me the deal' mode  -  nothing would move substantially until the Iran-US negotiations produced something concrete.", keyThings: ["Brent Crude: $94.50 - slight ease from $95.50", "Nifty: 23,161  -  recovering from 23,072 low", "Nifty IT: -2.7% for the week overall", "Gold: holding near $3,290  -  safe haven demand maintained"] },
+    indianMarket: { eli5: "The TCS-Anthropic partnership deal continued to provide a positive narrative for Indian IT despite the sector's weekly underperformance. India's domestic economic data (GST, PMI, credit growth) remained resilient throughout the June volatility  -  confirming that the selloff was externally driven. The investors who understood this  -  global risk-off hitting India's market but not India's economy  -  would be well-positioned once oil normalised.", breakouts: [
+      { name: "Bharti Airtel (NSE: BHARTIARTL)", whyExciting: "India's second-largest telecom was expanding aggressively into Africa and had strong domestic 5G rollout momentum. Telecom is largely oil-price insensitive  -  people continue paying mobile bills regardless of geopolitical conditions. Airtel's ARPU (average revenue per user) was rising consistently as the market consolidated around two main players (Airtel and Jio).", risk: "Competitive pressure from Jio (Reliance)  -  price wars could compress margins. Significant debt from 5G spectrum payments still being absorbed." , halal: true, buyPrice: 'Rs.1,680', sellPrice: 'Rs.1,900', stopLoss: 'Rs.1,580'},
+      { name: "HDFC Life Insurance (NSE: HDFCLIFE)", whyExciting: "Insurance demand in India was growing structurally as the middle class expanded and awareness increased. Life insurance penetration in India (2.7% of GDP) remains far below global standards (5-7%). HDFC Life's distribution network and brand made it the preferred partner for any financial distribution channel. Insurance is entirely domestic and oil-price insensitive.", risk: "Insurance companies' investment portfolios can underperform in rising interest rate environments, reducing reported profits." , halal: 'conditional', buyPrice: 'Rs.640', sellPrice: 'Rs.720', stopLoss: 'Rs.595'},
+      { name: "Macrotech Developers (NSE: LODHA)  -  Lodha", whyExciting: "Lodha was India's largest real estate developer by sales, focused on mid-to-premium residential in Mumbai and expanding to Pune, Bengaluru, and London. India's real estate cycle was in a structural upcycle  -  urbanisation, income growth, and nuclear family formation driving demand. Pre-sales for FY27 were tracking ahead of FY26 levels despite the macro volatility.", risk: "High debt levels. Real estate is sensitive to interest rates  -  any RBI rate hike to fight oil-driven inflation would increase mortgage costs and reduce demand." , halal: true, buyPrice: 'Rs.1,380', sellPrice: 'Rs.1,580', stopLoss: 'Rs.1,280'}
+    ], ipoSpot: { name: "Ather Energy IPO  -  filing stage", verdict: "Watch", eli5: "Ather Energy's SEBI filing was progressing. The EV narrative was very strong in a high-oil environment. Watch for the final red herring prospectus (RHP) to understand valuation, then decide." }, lessonOfDay: { title: "Resilience vs Fragility in Portfolios", story: "The investors who survived June 2026's volatility with their financial plans intact shared one characteristic: they weren't overexposed to a single risk factor. Pure oil-sensitive portfolios were decimated. Pure IT portfolios suffered. Pure gold portfolios soared then corrected. Balanced portfolios  -  with domestic defensives, IT, some gold, and oil-insensitive growth stocks  -  moved through the month relatively unscathed. Nassim Taleb's concept of antifragility: the portfolio that benefits from volatility rather than being destroyed by it.", mnemonic: "Portfolio resilience = No single risk factor dominates. Balanced: domestic + export + defensive + gold. All in different directions." } },
+    quiz: [
+      { q: "Telecom stocks like Airtel are considered oil-price insensitive because...", options: ["They buy oil for their cell towers", "Revenue comes from mobile subscriptions  -  people continue paying their phone bills regardless of oil prices or geopolitical events", "Telecom companies hedge all oil costs", "Government subsidises telecom during oil crises"], answer: 1, funFact: "India's telecom sector went from 12 private operators in 2016 to essentially a duopoly (Airtel and Jio) by 2024, after Vodafone Idea's near-collapse and Jio's price war consolidation. This consolidation is significant because duopolies have pricing power  -  Airtel and Jio can raise prices without losing customers who have nowhere else to go at comparable quality." },
+      { q: "Insurance penetration growth in India is considered a structural opportunity because...", options: ["Insurance companies pay high dividends", "India's insurance penetration (2.7% of GDP) is far below global standards, and rising middle-class incomes with increasing risk awareness create decades of growth runway", "Government mandates insurance purchases", "Indian insurance companies are cheaper than global peers"], answer: 1, funFact: "India's life insurance market is expected to become the world's sixth-largest by 2032, adding approximately $100 billion in annual premiums. The growth driver is simple demographics: 900 million working-age Indians, most without any life insurance, getting their first financial planning exposure through smartphone apps and bancassurance channels." },
+      { q: "Nassim Taleb's concept of antifragility applies to portfolios by suggesting...", options: ["Avoiding all risk", "Building a portfolio that benefits from volatility rather than being destroyed by it  -  with positions in assets that gain from uncertainty alongside core defensive holdings", "Predicting future volatility accurately", "Holding only gold during uncertain times"], answer: 1, funFact: "Taleb's Barbell Strategy  -  his practical application of antifragility  -  involves holding 85-90% in extremely safe assets and 10-15% in extremely volatile, high-upside bets. The middle ground (moderate risk, moderate return) is avoided because it's fragile  -  it suffers from volatility without having the convexity to benefit from it." }
+    ]
+  },
+  psychology: { mindTrick: { name: "The Zeigarnik Effect  -  Unfinished Tasks Live Rent-Free in Your Head", eli5: "Bluma Zeigarnik was a Soviet psychologist who noticed in a Vienna cafe in 1927 that waiters remembered every detail of unpaid bills but instantly forgot paid ones. She tested this systematically: participants who were interrupted mid-task remembered those tasks twice as well as completed ones. Unfinished tasks create a mental 'cognitive loop' that the brain keeps open, consuming working memory and creating low-level anxiety until the task is completed. This is why cliffhangers in TV shows are so effective. And why your to-do list haunts you at 2am.", realLife: "The Zeigarnik effect explains why starting a task (even for 5 minutes) dramatically reduces procrastination  -  the open loop pulls you back more strongly than the completed-task reward pulls you forward. Also: why email subjects that create curiosity gaps ('You won't believe what we found') are so hard to ignore. The incomplete thought demands completion.", mnemonic: "Zeigarnik = Unfinished tasks live rent-free in working memory. Start the task to open the loop. It pulls you back." },
+    bodyLanguage: { signal: "The Head Tilt  -  Genuine Listening Signal", eli5: "Tilting the head to one side exposes the carotid artery  -  evolution's vulnerability signal. We do this instinctively with people we trust and are genuinely listening to. It's the classic pose of a dog listening attentively. In humans: during active listening, heads tilt. During defensive listening or when hearing something threatening, heads straighten. The head tilt in conversation is one of the most reliable signals of genuine engagement  -  it's the body's way of saying 'I am fully present and this is registering.'", howToUse: "Notice when your own head tilts  -  you're probably genuinely engaged. Notice when it straightens  -  you're probably becoming defensive or disengaged. Use deliberate head tilts when you want to signal active listening to someone who needs to feel heard.", mnemonic: "Head tilt = Vulnerability + genuine attention. Straightens when defensive. Your body knows before you do." },
+    superpower: { name: "Commitment and Consistency  -  We Feel Compelled to Honour Past Commitments", story: "Jonathan Freedman and Scott Fraser tested this in 1966: they asked California homeowners to put a massive, ugly 'Drive Carefully' billboard in their front yard. 17% agreed. Then they asked a different group to first sign a small petition for safe driving. Weeks later, they asked THIS group about the billboard. 76% agreed  -  because they had already publicly committed to being 'safe driving supporters.' Cialdini: 'Once we have made a choice or taken a stand, we will encounter personal and interpersonal pressures to behave consistently with that commitment.'", shield: "Notice when you're being asked for a small commitment before a large one  -  the small commitment is often a setup. Also notice when you feel compelled to do something because 'you said you would' even though the situation has changed. Past commitments should be revisited in light of current information, not honoured automatically regardless of new context.", mnemonic: "Commitment consistency = Small yes now, big yes later. They're building your self-image as someone who agrees." },
+    quiz: [
+      { q: "The Zeigarnik effect is used in TV show design through...", options: ["Making episodes exactly 30 minutes", "Cliffhangers  -  ending episodes at unresolved moments creates an open cognitive loop that compels viewers to continue watching", "Multiple storylines happening simultaneously", "High production values"], answer: 1, funFact: "Netflix's autoplay feature (automatically starting the next episode 5 seconds after the last ends) is a direct exploitation of the Zeigarnik effect. The 5-second window is too short for the conscious mind to override the drive to close the open cognitive loop from the cliffhanger. Netflix estimated autoplay increased viewing by 25% globally." },
+      { q: "The head tilt as a listening signal evolved because...", options: ["It improves hearing by changing ear angle", "It exposes the carotid artery  -  biology's vulnerability signal  -  indicating to the other person that we feel safe and unthreatened in their presence", "It reduces neck tension during long conversations", "It's a culturally learned behaviour across most societies"], answer: 1, funFact: "Dogs' head tilts when listening are the most emotionally resonant example of this behaviour  -  studies have confirmed dogs tilt their heads more when their owners use words they recognise versus unfamiliar words. The tilt appears to help process the sound better, but it also serves as a social signal of attention and engagement that humans and dogs have co-evolved to use." },
+      { q: "Freedman and Fraser's billboard experiment showed that people agreed more after a small petition because...", options: ["They were more informed about traffic safety after the petition", "The small commitment created a self-image as 'a safe driving supporter'  -  and the billboard request activated the consistency drive to honour that self-image", "The billboard request followed legal consent established by the petition", "People in that neighbourhood cared about traffic safety"], answer: 1, funFact: "Cialdini calls this 'the foot-in-the-door technique' and documents its use across cultures. Car salespeople use it by starting with small agreements ('You do want a safe car for your family, right?'). Cult recruitment uses it through small initial commitments (attending a free dinner) before larger ones (donating money, living communally). The technique works identically in all cultures studied." }
+    ]
+  },
+  leadership: { leaderMove: { name: "The Resting Standard  -  Perform Even When Nobody Is Watching", story: "Kobe Bryant was famous for arriving at the gym at 4am  -  3 hours before anyone else, including coaches. He wasn't training harder because cameras were rolling or because management was watching. He trained the same way with witnesses as without. This is the resting standard: your level of effort when nobody is evaluating you. The resting standard separates truly elite performers from those who are only elite under observation. Soldiers who maintain discipline in base camp perform better in combat. Doctors who are careful with routine cases make fewer catastrophic errors. The practice of unseen excellence transfers directly to seen performance.", doThis: "Identify one aspect of your work that's currently lower quality when nobody is evaluating it than when they are. Close that gap  -  not to impress anyone, but to build consistency. Consistency under all conditions is the foundation of genuine performance.", mnemonic: "Resting standard = How you perform when nobody watches. That's your real standard. Kobe's 4am was his true standard." },
+    visionarySecret: { concept: "The 10,000 Hour Rule  -  With One Important Caveat", eli5: "Malcolm Gladwell popularised Ericsson's research: 10,000 hours of practice are required to achieve expertise in complex domains. This is mostly right. The caveat Gladwell left out, that Ericsson himself emphasised: it's 10,000 hours of DELIBERATE practice  -  not 10,000 hours of doing the thing. A doctor who sees patients for 30 years without actively analysing their diagnostic errors doesn't become 10x better than a doctor with 5 years who actively analyses errors and seeks feedback. The hours must be structured, intentional, outside the comfort zone, and actively seeking feedback.", exercise: "Identify the skill most important to your professional success. Are your practice hours deliberate? Do you seek feedback after each attempt? Do you target your weakest areas specifically? If not, you may have 10,000 hours of habit, not 10,000 hours of improvement.", mnemonic: "10,000 hours = Only if deliberate. Comfort zone practice = 10,000 hours of the same level. Seek feedback. Target weakness." },
+    eliteHabit: { habit: "The 1-3-5 Priority System  -  One Big, Three Medium, Five Small", whoAndHow: "Alex Cavoulacos developed this framework used at The Muse and adopted by numerous productivity coaches: each day, plan exactly 1 thing that absolutely must be accomplished (the big), 3 things that should be accomplished (mediums), and 5 things that would be nice to accomplish (smalls). Total: 9 tasks. Crucially: the 1 big thing gets done FIRST. Before email. Before meetings. Before anything. The big thing is often the thing you most want to avoid  -  which is exactly why it produces the most anxiety when undone and the most relief when complete.", whyItWorks: "Most to-do lists are long, undifferentiated, and paralyse decision-making (which of 20 tasks to start?). The 1-3-5 system forces prioritisation before the day starts, creates achievable daily targets, and sequences work so the highest-value task happens when energy is highest.", mnemonic: "1-3-5 = 1 Big (do first), 3 Medium, 5 Small. 9 tasks total. Prioritisation beats volume every time." },
+    sigmaWisdom: { lesson: "The Stockdale Paradox  -  Face the Brutal Facts AND Keep Faith", story: "James Stockdale was a US Navy pilot shot down over Vietnam in 1965 and held as a prisoner of war for 8 years  -  longer than any other naval officer. He was tortured over 20 times. When Jim Collins asked him how he survived, Stockdale said: 'I never lost faith that I would prevail in the end. But I also never confused that faith with the reality of my situation. I always confronted the most brutal facts of my current reality.' The optimists who said 'we'll be out by Christmas' died of broken hearts when Christmas came and went. The pessimists who gave up died of despair. Stockdale survived by holding both simultaneously: unwavering faith in ultimate outcome, ruthless honesty about current reality.", action: "Look at the hardest situation in your life right now. Hold both simultaneously: 'I will resolve this eventually' AND 'here is exactly how hard it is right now, stated honestly.' Don't let faith become delusion. Don't let honesty become despair.", mnemonic: "Stockdale Paradox = Unwavering faith in final outcome + ruthless honesty about current reality. Both simultaneously." },
+    quiz: [
+      { q: "Kobe Bryant's 4am training habit was significant because...", options: ["He needed more sleep than other players", "It demonstrated his 'resting standard'  -  the same quality of effort regardless of whether coaches or cameras were present, building consistency that transferred to games", "4am is physically the optimal training time", "He had no other time available in his schedule"], answer: 1, funFact: "Kobe Bryant is the most studied athlete in NBA history for practice habits. His former trainer Tim Grover documented that Bryant would call him at 3am asking to start training sessions that he'd then extend until 11am. The pattern was consistent across his entire 20-year career  -  practice intensity didn't correlate with game importance or contract status, only with his internal standard." },
+      { q: "Ericsson's deliberate practice research says 10,000 hours matters only if...", options: ["You're naturally talented to begin with", "Practice is structured, intentional, outside your comfort zone, and actively seeking feedback on performance  -  not just repetition of tasks you can already do", "You practice the same skill for 10,000 consecutive hours", "Practice begins before age 10"], answer: 1, funFact: "Ericsson studied chess grandmasters, violin virtuosos, and memory champions. The consistent finding: elite performers practice differently from near-elite performers. Elites deliberately practice weaknesses, seek immediate feedback, and push past comfort. Near-elites practice strengths, get limited feedback, and stay within comfortable performance ranges. The number of hours was secondary to the quality of those hours." },
+      { q: "The Stockdale Paradox shows that the optimists died in POW camps because...", options: ["They were physically weaker", "They set specific timeline expectations ('out by Christmas') that, when unfulfilled, destroyed their psychological resilience  -  confusing optimistic faith with denial of brutal reality", "Optimism reduces survival instinct", "They received harsher treatment"], answer: 1, funFact: "Collins documented the Stockdale Paradox as one of the key characteristics distinguishing great companies from good ones: the best companies acknowledge brutal facts (declining market share, competitive threats, operational failures) while maintaining confidence in ultimate success. Companies that combine denial of hard facts with confidence tend to make decisions that worsen their situation rather than address it." }
+    ]
+  },
+  wealth: { wealthSecret: { name: "The Three Buckets Framework  -  Now, Soon, Later", story: "Financial planners use three time buckets: Now (0-2 years), Soon (2-7 years), Later (7+ years). Each bucket needs different assets. Now-bucket money: cash and liquid instruments  -  never in stocks. You cannot wait 3 years for a bear market to recover if you need the money next year. Soon-bucket money: balanced, moderate risk  -  some stocks, some bonds. Later-bucket money: full equity  -  maximum growth, maximum time to recover from any crash. Most people put ALL their money in one bucket (usually all-stock or all-cash) and are either underearning or dangerously illiquid.", action: "Calculate your three buckets: How much do you need in the next 2 years? (Keep in FD/liquid fund.) How much in 2-7 years? (Balanced funds/hybrid.) How much is truly 7+ years away? (Equity SIP, small-cap, maximum growth.) Put each rupee in its correct bucket.", mnemonic: "Three buckets = Now (cash), Soon (balanced), Later (equity). Wrong bucket = either underearning or illiquid at worst time." },
+    moneyMachine: { type: "Systematic Transfer Plan (STP)  -  The Dollar Cost Average on Steroids", eli5: "You have Rs 10 lakh to invest but fear that the market is at a high (or it's volatile like June 2026). The STP solution: put all Rs 10 lakh in a liquid mutual fund today (earning 6-7%). Then set up an automatic transfer of Rs 50,000 per week into your chosen equity fund. Over 20 weeks, your entire Rs 10 lakh moves to equity  -  but automatically bought at different prices each week (high weeks, low weeks, average weeks). You automatically buy more units on the weeks prices are low.", indiaAngle: "Most Indian mutual fund platforms (Zerodha Coin, MF Central, Groww) allow STP setup in 5 minutes. The standard recommendation: STP duration equal to 3-6 months for lump sums. This reduces market timing risk while keeping the money earning something (liquid fund) rather than sitting in a savings account at 3.5%.", mnemonic: "STP = Park lump sum in liquid fund, auto-transfer weekly to equity. Buys at different prices. Market timing risk reduced." },
+    mindsetFlip: { oldThinking: "Market is too risky right now  -  I'll invest when it calms down", newThinking: "Market calm = Market expensive. Market volatile = Market potentially cheap. I should invest more when volatility is high, not less", why: "Volatility and price are inversely related: when markets are calm (everyone is comfortable), prices are high because everyone is buying. When markets are volatile (everyone is scared), prices are lower because people are selling. 'Wait until it calms down' is the precise equivalent of 'I'll buy when it's expensive.' The rational action is the counterintuitive one.", mnemonic: "Calm market = Expensive. Volatile market = Discounted. Invest more into fear, not into comfort. Backwards feels right." },
+    magicNumber: { number: "72 / Interest Rate = Years to Double Money", eli5: "The Rule of 72 is the fastest mental maths in investing. Divide 72 by your interest or return rate and you get the years required to double your money. Bank FD at 7%: 72/7 = 10.3 years to double. Nifty SIP at 12%: 72/12 = 6 years to double. Business earning 25% ROI: 72/25 = 2.9 years to double. This rule works in reverse for inflation: inflation at 6% halves the value of money in 72/6 = 12 years. Your Rs 1 lakh today buys what Rs 50,000 buys in 12 years.", mnemonic: "Rule of 72: 72 / rate = years to double. FD at 7%: 10 years. Nifty at 12%: 6 years. Inflation at 6%: halves in 12." },
+    quiz: [
+      { q: "The three buckets framework prevents the classic mistake of...", options: ["Having too many investment accounts", "Putting money needed in 1-2 years into equity  -  where a bear market could force selling at a loss precisely when the money is needed", "Over-diversification", "Paying too much in fees"], answer: 1, funFact: "The 2008 financial crisis destroyed many people's retirement savings precisely because of bucket misalignment: people approaching retirement age had 100% equity portfolios and were forced to sell at the bottom when markets fell 50%, converting temporary paper losses to permanent real losses. The three-bucket framework specifically prevents this by keeping near-term needs in assets that can't fall 50%." },
+      { q: "A Systematic Transfer Plan (STP) beats a lump-sum investment during volatile markets because...", options: ["It earns interest in the liquid fund before transferring", "It automatically buys at different price points across weeks  -  capturing both high and low prices  -  reducing the risk of investing everything at a market peak", "Mutual fund companies prefer STPs", "Smaller transfers have lower transaction costs"], answer: 1, funFact: "Quantitative research by Vanguard found that lump-sum investing outperforms dollar-cost averaging (DCA/STP) approximately 66% of the time over 12-month periods  -  because markets rise more than they fall. However, DCA outperforms in the 34% of periods where markets fall significantly. Psychologically, DCA produces far less investor regret even when lump-sum would have performed better mathematically." },
+      { q: "The Rule of 72 shows that inflation at 6% halves the value of money in 12 years because...", options: ["6% inflation for 12 years compounds to exactly 50% reduction", "72/6 = 12 years  -  the same mathematical relationship that shows how fast money grows also shows how fast inflation destroys purchasing power", "6% is the standard inflation assumption used in financial planning", "Money halves in exactly half the time it doubles"], answer: 1, funFact: "Warren Buffett has described inflation as 'the Invisible Tax'  -  one that requires no legislation, no announcement, and no direct action from governments. It takes its toll silently through purchasing power erosion. His solution: own businesses that can raise prices with inflation (pricing power)  -  which is why he values companies like Coca-Cola (which can charge more for Coke as prices rise) over companies that cannot raise prices." }
+    ]
+  },
+  communication: { speakingSkill: { name: "The STAR Method  -  Telling Stories That Prove Points", story: "The STAR method was developed by industrial psychologists for behavioural interviews but is now used by the world's best presenters, lawyers, and storytellers. Situation: set the scene briefly. Task: explain the challenge. Action: describe what YOU specifically did. Result: share the specific measurable outcome. This structure works because it provides narrative arc (tension and resolution), specificity (not generic claims), and evidence (the result proves the capability). Obama used STAR in speeches constantly. The best lawyers use it in opening statements. The best salespeople use it in case studies.", drill: "Take your most impressive professional achievement. Write it in STAR format in exactly 4 sentences: one for each letter. Read it back. This is now your go-to answer for 'tell me about a time you...' in any context.", mnemonic: "STAR = Situation + Task + Action + Result. 4 sentences. Every story, every achievement, every proof." },
+    negotiationMove: { tactic: "Strategic Empathy  -  Name What They're Feeling", eli5: "Chris Voss's most powerful negotiation move: label the other party's emotion before they've expressed it. 'It seems like this situation has been really frustrating.' 'I get the sense you're not fully satisfied with where we are.' 'You look like you're concerned about something I might be missing.' This technique  -  which Voss calls 'labelling'  -  does something counterintuitive: it disarms negative emotions by naming them. When someone's frustration is named out loud, it loses some of its power. And the person feels understood  -  which immediately moves the negotiation toward problem-solving rather than conflict.", script: "'It sounds like...' or 'It seems like...' followed by your read of their emotional state. Then be quiet. Let them confirm or correct. Both responses move the conversation forward.", mnemonic: "Strategic empathy = Name their emotion before they say it. 'It seems like you're frustrated.' Silence. Disarms anger, builds trust." },
+    officeWin: { rule: "Document your wins  -  nobody else will do it for you", story: "Performance review season. Two employees with identical quality of work over the year. Employee A walks in without documentation  -  relies on memory and their manager's memory. Employee B walks in with a one-page document: 'Key contributions this year: [list of 7 specific projects with outcomes]. Key metrics improved: [3 numbers]. Client/stakeholder feedback received: [2 quotes].' Employee B gets the higher rating and the raise  -  not because they worked harder, but because their work was visible and documented. Most people assume good work is noticed. It often isn't unless you make it impossible to miss.", mistake: "Modesty about self-promotion in professional contexts is not a virtue  -  it's a career-limiting behaviour. Document wins in real time (when they happen) not just before reviews.", mnemonic: "Document wins = Nobody else will. One-page annual record. Performance review is won before you enter the room." },
+    confidenceHack: { technique: "The Question Behind the Question  -  Controlling Adversarial Conversations", science: "In any adversarial conversation  -  a difficult interview question, a critical client, a confrontational colleague  -  your first job is to buy time to formulate the best response. The technique: answer the question behind the question. 'What are you really asking?' then answer that version. 'What I think you're really asking is whether we can deliver on time  -  and the answer is...' This buys 3-5 seconds, shows sophistication, and often reframes the question to a version more favourable to you while being genuinely responsive.", doItNow: "In your next meeting where you're likely to face a challenging question: practice this technique once deliberately. Say 'What I think you're asking is...' and pause for one second before completing the sentence. Notice how much better your answer becomes from the brief thinking time.", mnemonic: "Question behind the question = Reframe what they're REALLY asking. Buys 5 seconds, shows insight, improves answer." },
+    quiz: [
+      { q: "The STAR method is effective for storytelling because...", options: ["It provides exactly the right amount of information", "It creates narrative arc (tension through task and action, resolution through result) while providing specificity and evidence that general claims lack", "Psychological research recommends 4-sentence stories", "Interviewers are trained to evaluate STAR responses"], answer: 1, funFact: "Behavioural interview research (using STAR-structured questions) shows that past behaviour predicts future performance approximately 3x more accurately than hypothetical questions ('What would you do if...'). This is why STAR-based interviewing ('Tell me about a time when...') has replaced traditional interview formats at most major companies." },
+      { q: "Chris Voss's 'labelling' technique works in negotiation because...", options: ["It shows you understand their position", "Naming an emotion out loud reduces its psychological intensity while making the person feel understood  -  shifting the conversation from emotional conflict to collaborative problem-solving", "It establishes empathy that creates rapport", "It forces the other party to explain their feelings"], answer: 1, funFact: "Neuroscience research by Matthew Lieberman found that labelling emotions (putting feelings into words) reduces amygdala activation  -  literally calming the emotional brain. This is why therapists ask 'how does that make you feel?'  -  it's not just empathy, it's a neurological intervention. Voss applied this clinical finding to high-stakes negotiation." },
+      { q: "Documenting professional wins matters most because...", options: ["Managers don't track employee contributions", "Memory is selective and unreliable  -  without documentation, good work is invisible at review time, and managers allocate rewards based on available evidence, not actual performance", "It helps with resume writing", "It's required by most HR departments"], answer: 1, funFact: "Research on performance reviews found that recency bias (weighting recent events over the full year) causes managers to evaluate the last 6-8 weeks of an employee's work as representing the whole year. Employees who document contributions throughout the year are able to present a full-year record that counteracts this bias." }
+    ]
+  },
+  mind: { brainHack: { name: "Task Batching  -  Group Similar Work for Deep Flow", eli5: "Every time you switch between different types of tasks  -  email to deep work to meeting to creative to administrative  -  your brain pays a 'switching cost' that averages 20-23 minutes to fully recover the previous level of focus. If you switch tasks 15 times in a day, you lose approximately 5 hours to switching costs alone. Task batching solves this: group all similar tasks together and do them in one block. All emails in one hour. All calls in one block. All deep creative work in one unbroken morning block. The reduction in switching costs is the equivalent of adding hours to your productive day.", protocol: "Design tomorrow using task batching: 9-12pm (deep work, no interruption), 12-1pm (calls and meetings), 1-1:30pm (lunch), 1:30-3pm (administrative and emails), 3-5pm (collaborative work). Protect the morning block absolutely  -  it's your highest cognitive value time.", mnemonic: "Task batching = Switching costs 20-23 min each. 15 switches = 5 hours lost. Batch by type, not by urgency." },
+    disciplineCode: { principle: "The Power Hour  -  60 Minutes That Changes the Trajectory", story: "Robin Sharma popularised the '5am Club'  -  a framework where the first hour of the day is divided into three 20-minute sections: 20 minutes of intense exercise, 20 minutes of journalling and reflection, 20 minutes of learning (reading, audio, course). The science behind it: cortisol is naturally highest in the morning (the body's 'get up and go' hormone), BDNF (brain-derived neurotrophic factor, which increases neuroplasticity) is produced by exercise, and the quiet of early morning before notifications arrive provides the best learning conditions of the day.", todayAction: "Design YOUR power hour  -  not Sharma's exact format, but your own. What combination of physical, mental, and creative activity would make the best possible start to your day? Write it. Try it for 5 consecutive days. Then evaluate.", mnemonic: "Power hour = First 60 minutes owned by you, not your inbox. Physical + mental + learning. Cortisol and BDNF on your side." },
+    impulseKiller: { urge: "Overcommitting  -  saying yes to everything and everyone", eli5: "The 'yes' reflex is learned in childhood (good children comply) and reinforced in workplaces where availability signals commitment. But saying yes to everything has a hidden tax: every yes is a no to something else. Your time is fixed. Your attention is finite. Each yes reduces the quality of every other yes. Warren Buffett: 'The difference between successful people and very successful people is that very successful people say no to almost everything.' The yes-impulse is particularly dangerous because it feels generous and cooperative while actually producing mediocre work across too many commitments.", interrupt: "Before saying yes to any request: write down what you would have to give up or deprioritise to honour this commitment. Then decide. Most unnecessary yeses happen because the trade-off is invisible  -  making it visible changes the decision.", mnemonic: "Yes reflex interrupt = Write what you'd give up for this yes. Make the trade-off visible. Then decide." },
+    bodyUpgrade: { practice: "The Non-Sleep Deep Rest (NSDR) Protocol  -  20 Minutes for Recovery", eli5: "Dr. Andrew Huberman popularised NSDR: a 20-minute practice of lying still in a darkened room while listening to a body-scan script or yoga nidra recording. Unlike sleep, NSDR keeps a thin thread of consciousness while the body achieves a deeply relaxed state. Studies show 20 minutes of NSDR restores motor performance and cognitive capacity equivalent to 60-90 minutes of sleep. Used by Google to provide NSDR pods for employees. Adopted by several professional sports teams for between-match recovery.", minimumDose: "20 minutes, lying still, eyes closed, following a body-scan audio (free on YouTube: search 'NSDR Huberman' or 'yoga nidra 20 minutes'). Best times: after lunch (2-3pm, when cortisol naturally dips) or between demanding work sessions. Not before sleep  -  it reduces sleep drive.", mnemonic: "NSDR = 20 min lying still = 60-90 min sleep equivalent for cognitive recovery. Free. Google uses it." },
+    quiz: [
+      { q: "Task batching reduces lost time because...", options: ["Batched tasks complete faster individually", "Each task-type switch costs 20-23 minutes of recovery time  -  reducing switches from 15 to 4 per day recovers approximately 5 hours of productive capacity", "It reduces total number of tasks", "Similar tasks share resources making each faster"], answer: 1, funFact: "The cognitive switching cost was quantified by Gloria Mark at UC Irvine across multiple office worker studies. Her finding that it takes an average of 23 minutes to fully return to a task after interruption has been cited in over 10,000 academic papers and popularised in Cal Newport's 'Deep Work.' The implications for open-plan offices and constant notification cultures are significant." },
+      { q: "Buffett's 'very successful people say no to almost everything' insight means...", options: ["Successful people don't help others", "Focus is a prerequisite for excellence  -  distributing attention across too many commitments prevents any single commitment from receiving the sustained attention required for outstanding work", "Successful people have fewer responsibilities", "Saying no improves negotiating power"], answer: 1, funFact: "Steve Jobs said the secret to Apple's success was not what Apple decided to build  -  it was what Apple decided NOT to build. When he returned to Apple in 1997, he cut 340 products down to 4. Buffett has held Berkshire's portfolio to approximately 5-10 major positions his entire career. Both cite focus (saying no to everything except the most important) as their primary competitive advantage." },
+      { q: "NSDR (Non-Sleep Deep Rest) provides cognitive recovery because...", options: ["It replaces sleep completely", "Deep physical relaxation with thin consciousness allows neurological restoration processes similar to sleep without the full sleep cycle  -  partially restoring cognitive capacity in 20 minutes", "It's a meditative practice that reduces stress hormones", "Lying still reduces energy consumption allowing recovery"], answer: 1, funFact: "Yoga nidra, the ancient practice NSDR is based on, has been studied since the 1970s. EEG studies show that experienced yoga nidra practitioners reach the hypnagogic state (between wakefulness and sleep) within minutes  -  the same neurological state associated with creative insight and deep learning consolidation. NASA has studied NSDR-type practices for astronaut fatigue management during long missions." }
+    ]
+  },
+  knowledge: { mathMagic: { concept: "Benford's Law  -  Why Numbers in Real Data Start With 1 Most Often", eli5: "In any naturally occurring dataset  -  population figures, stock prices, river lengths, company revenues, tax returns  -  the digit 1 appears as the first digit approximately 30% of the time. The digit 9 appears only about 5% of the time. This counterintuitive pattern (shouldn't each digit appear roughly 11%?) holds across languages, cultures, and unrelated phenomena. Accountants and forensic investigators use Benford's Law to detect financial fraud: fake numbers fabricated by humans don't follow Benford's distribution because humans don't intuitively know about it. If a tax return or financial statement has too many 7s and 8s as leading digits, it may be fabricated.", realWorldUse: "The IRS, SEC, and tax authorities worldwide use Benford's Law as an initial fraud screening tool. Greek government statistics that deviated significantly from Benford's Law raised early suspicions before the 2009 Greek financial crisis was officially revealed.", mnemonic: "Benford's Law = Real data starts with 1 most often (30%). Fabricated data doesn't. Fraud detector for accountants." },
+    scienceWow: { field: "Neuroscience", concept: "Neuroplasticity  -  Your Brain Rewires Itself Every Day", eli5: "The brain you had 10 years ago is structurally different from the brain you have today. Every new experience, skill, and thought pattern creates new neural connections and strengthens or weakens existing ones. Neuroplasticity (the brain's ability to rewire itself) continues throughout life  -  it's highest in childhood but never stops. London taxi drivers have measurably larger hippocampi than non-drivers. Musicians have expanded auditory cortex. Meditators have thicker prefrontal cortices. The brain you'll have in 10 years depends on what you do with the next 10 years.", mindBlow: "Phantom limb pain  -  when amputees feel pain in a limb that no longer exists  -  is caused by neuroplasticity working against the patient: the brain's sensory map hasn't updated to reflect the limb's absence. V.S. Ramachandran cured it using a mirror box that tricks the brain's visual system into updating its map, eliminating pain that was neurologically real but physically impossible.", mnemonic: "Neuroplasticity = Brain rewires daily. What you practice grows. What you neglect shrinks. You are building tomorrow's brain today." },
+    historyStory: { event: "The Cuban Missile Crisis 1962  -  How the World Almost Ended and Survived", story: "In October 1962, US spy planes discovered Soviet nuclear missiles in Cuba, aimed at the US. For 13 days, the world stood at the edge of nuclear war. Kennedy and Khrushchev negotiated through back-channels. The critical moment: Kennedy's advisors  -  including the joint chiefs  -  unanimously recommended air strikes on Cuba. Kennedy refused to bomb. He chose a naval blockade instead. A Soviet submarine (without contact with Moscow for weeks) had already been authorised to use nuclear torpedoes if attacked. The submarine captain, Vasili Arkhipov, was the ONLY officer who refused to authorise the launch  -  his single dissent prevented what would likely have been nuclear war. One man's refusal saved civilisation.", lesson: "The Cuban Missile Crisis shows that nuclear deterrence doesn't rest on rational game theory  -  it rests on individual humans at critical moments making individual decisions. Arkhipov, a submarine officer nobody has heard of, is probably the most important human being of the 20th century. The lesson for organisations: the culture that empowers dissent at critical moments is the culture that avoids catastrophic errors.", mnemonic: "Cuban Missile Crisis = Vasili Arkhipov's single 'no' saved the world. One person's dissent. History's most important 'no'." },
+    earthSecret: { place: "Japan", secret: "Japan has a word  -  'nenko joretsu'  -  for its seniority-based promotion system where age and tenure matter more than performance. But it also has 'ikigai' (reason for being), 'wabi-sabi' (finding beauty in imperfection), and 'shokunin' (craftsperson spirit  -  pursuing one thing to perfection). Japan is the world's only country to have suffered nuclear attack (twice) and rebuilt to become an economic superpower within 25 years. It has the world's oldest population (30% over 65), the world's highest life expectancy, almost zero natural resources, and one of the world's highest standards of living. It sustains this through extraordinary productivity per worker and cultural emphasis on quality.", edge: "Understanding Japan's contradiction  -  extremely hierarchical bureaucracy and extraordinary individual craftsmanship  -  explains why Japanese products (Toyota, Sony, Canon, Nintendo) are globally trusted while Japanese corporate governance is globally questioned. The shokunin spirit at the product level coexists with bureaucratic dysfunction at the corporate level. Japanese management techniques (Kaizen, 5S, just-in-time manufacturing) have been adopted worldwide.", mnemonic: "Japan = Bombed twice, built the world's best manufacturing. Ikigai + Shokunin + Kaizen. Contradictions that somehow work." },
+    quiz: [
+      { q: "Benford's Law is used for fraud detection because...", options: ["Fraudsters don't know how to count", "Naturally occurring data follows a specific non-intuitive distribution of leading digits  -  fabricated data doesn't follow this pattern, flagging anomalies", "Computers can detect Benford violations automatically", "Most fraud involves small numbers"], answer: 1, funFact: "Benford's Law was independently discovered twice: by astronomer Simon Newcomb in 1881 (noticing library logarithm tables were more worn at the front) and by physicist Frank Benford in 1938, who tested it on 20,229 different datasets including river lengths, street addresses, molecular weights, and population figures. Every dataset confirmed the pattern." },
+      { q: "London taxi drivers having measurably larger hippocampi demonstrates neuroplasticity because...", options: ["They are born with larger hippocampi, which is why they choose driving careers", "Years of navigating complex spatial routes physically expand the brain region responsible for spatial navigation  -  proving the brain structurally adapts to demands placed on it", "Driving causes physical brain growth through vibration", "Hippocampus size correlates with memory generally"], answer: 1, funFact: "Eleanor Maguire's 2000 study of London cabbies (who must memorise 25,000 streets to pass 'The Knowledge') found that the posterior hippocampus (spatial navigation) was significantly larger than in bus drivers and non-drivers. Crucially, the size correlated with years of cab-driving experience  -  and after retirement, the hippocampi gradually shrunk back toward normal. Use it or lose it applies at the anatomical level." },
+      { q: "Vasili Arkhipov's significance in history comes from...", options: ["Designing the Soviet nuclear program", "Being the single officer who refused to authorise a nuclear torpedo launch from a Soviet submarine during the Cuban Missile Crisis  -  his lone dissent likely prevented nuclear war", "Defecting to the US with missile blueprints", "Reporting Soviet nuclear violations to the UN"], answer: 1, funFact: "The B-59 submarine had been out of contact with Moscow for weeks during the missile crisis. The captain and political officer both agreed to launch the nuclear torpedo (which carried a 15-kiloton warhead). Soviet protocol required all three senior officers to agree. Arkhipov  -  as flotilla commander  -  refused. The decision required unanimous consent. His 'no' was sufficient." }
+    ]
+  },
+  ai: { toolSpotlight: { name: "ElevenLabs", category: "Audio / Voice AI", eli5: "ElevenLabs converts text to speech  -  but not the robotic voice you're used to. The voices are indistinguishable from human recordings. You can clone your own voice (5 minutes of audio required), create custom AI voices, or use their library of thousands of preset voices in 29 languages. Used by: audiobook publishers (creating narrations without hiring actors), YouTube creators (dubbing content into 29 languages automatically), podcast producers (auto-generating summaries), and accessibility tools (reading complex text for visually impaired users).", secretMove: "The Voice Cloning feature for content creators: record 5 minutes of your own voice reading varied content. Upload to ElevenLabs. Now generate any script in your own voice without recording. Ideal for YouTube narrations, podcast intros, or corporate training content where your voice is the brand.", mnemonic: "ElevenLabs = Your voice, cloned. Any script, any language, sounds human. 5 minutes of recording = infinite narrations." },
+    workflowWin: { title: "The AI Research Assistant  -  From Question to Report in 30 Minutes", problem: "Researching any topic deeply typically requires reading 15-20 sources, comparing perspectives, and synthesising  -  a 4-6 hour process.", steps: ["Open Perplexity AI. Ask your research question with 'Give me a comprehensive overview of [topic] with specific examples and contradictions in the research.'", "Open Claude or ChatGPT. Paste Perplexity's response and ask: 'What's missing from this? What are the strongest counterarguments? What would an expert critic say?'", "Open Perplexity again. Search for the specific counterarguments and missing elements Claude identified.", "Synthesise into your own document: 2-3 paragraphs of overview, 3 bullet points of key tensions/debates, your own conclusion."], timeSaved: "This 30-minute AI-assisted research process produces output comparable to 4-6 hours of solo reading for most topics.", mnemonic: "AI research: Perplexity (breadth) + Claude critique (depth) + Perplexity gaps (precision) + your synthesis (value)." },
+    promptOfDay: { purpose: "Build a customised learning curriculum for any skill", prompt: "I want to learn [SKILL] to the level where I can [SPECIFIC COMPETENCY GOAL - e.g. 'do this professionally', 'understand it deeply enough to teach', 'use it daily in my work as a [ROLE]']. I have [TIME AVAILABLE - e.g. '30 minutes per day' or '5 hours per week']. I currently know [CURRENT LEVEL - beginner/intermediate/advanced with specifics]. Build me a 12-week learning curriculum with: Week-by-week topics, one primary resource per week (free or paid under Rs 2,000), one practical exercise per week, and a milestone test I can do at weeks 4, 8, and 12 to measure progress. Be specific  -  not 'learn SQL basics' but exactly which SQL concepts and which practice problems.", where: "Claude", mnemonic: "12-week curriculum prompt = Week topics + one resource + one exercise + milestone tests. Specific beats general, always." },
+    futureWatch: { trend: "Multimodal AI  -  seeing, hearing, reading, and understanding together", eli5: "First-generation AI could only process text. Second-generation (2023) could process text and images. Third-generation (2026) is truly multimodal: it simultaneously processes text, images, video, audio, code, and data  -  and can generate any combination in response. You can show it a video of a factory floor and ask what safety violations it sees. Show it architectural blueprints and ask what structural problems it identifies. Play it a piece of music and ask what scale it's in. Send it a spreadsheet and ask it to create a visual presentation. The inputs and outputs are no longer limited to words.", yourMove: "If you currently only use AI for text tasks: deliberately experiment with an image, audio, or video input this week. Show Claude or Gemini an image from your work and ask a question you'd normally ask a colleague. The experience will reveal use cases you hadn't imagined.", mnemonic: "Multimodal AI = Eyes + ears + reading simultaneously. Show it anything, get expert analysis. The input limit is gone." },
+    quiz: [
+      { q: "ElevenLabs' voice cloning requires 5 minutes of audio primarily because...", options: ["Longer audio improves processing speed", "5 minutes of varied speech provides sufficient phoneme variety for the model to learn the unique acoustic characteristics of a specific voice", "Copyright law limits recordings to 5 minutes", "Longer recordings reduce quality"], answer: 1, funFact: "ElevenLabs' voice cloning technology raised significant ethical concerns when it was used to create fake audio of public figures shortly after launch. The company added consent requirements and detection tools. The broader 'deepfake audio' problem  -  using voice AI to fabricate statements by real people  -  has created new challenges for journalism, legal proceedings, and security." },
+      { q: "The Perplexity + Claude research method is more effective than using one tool alone because...", options: ["Two AI systems are always better than one", "Perplexity provides broad real-time research coverage while Claude adds critical analysis and gap identification  -  the combination produces breadth + depth that neither provides alone", "Both systems have different training data", "Using multiple tools reduces AI errors"], answer: 1, funFact: "The concept of using AI systems to critique each other's outputs is called 'Constitutional AI' (Anthropic's term) or 'Red-Teaming' in AI safety research. When one AI points out flaws in another's reasoning, the combined output is typically more balanced and complete than either alone  -  a digital version of the peer review process used in academic research." },
+      { q: "Multimodal AI's significance for professional work is that...", options: ["It makes AI faster", "It extends AI assistance from text-only tasks to any information format  -  images, video, audio, data  -  dramatically expanding the number of professional tasks AI can assist with", "It reduces the cost of AI systems", "Multiple modalities improve accuracy for text tasks"], answer: 1, funFact: "GPT-4V (Vision), released in 2023, was the first mainstream multimodal AI. In its first week, it was used by radiologists to analyse X-rays, engineers to review CAD drawings, and fashion designers to analyse competitor products  -  none of these use cases were officially launched by OpenAI. Users discovered the applications themselves. The pattern suggests multimodal AI's most valuable use cases are still being discovered." }
+    ]
+  },
+  travel: { destination: { country: "Japan", region: "Tokyo, Kyoto and Osaka", eli5: "Japan is the world's most organised country and one of its most beautiful. Tokyo is the world's largest city that somehow feels calm  -  bullet trains run to the second, convenience stores (konbini) sell better food than most restaurants, vending machines are everywhere, and the streets are immaculately clean. Kyoto, 2.5 hours southwest by Shinkansen, is the opposite: 1,600 Buddhist temples, geisha districts where time has stopped, bamboo groves that silence the outside world, and tea ceremony culture 1,000 years old. Osaka is where Japanese people actually relax  -  street food capital of Japan, comedy culture, and the friendliest city in the country.", bestTime: "March-April (cherry blossom season  -  the most famous natural spectacle in Asia) or October-November (autumn foliage). Both have perfect mild weather. Avoid July-August (brutally hot and humid) and Golden Week (early May  -  extremely crowded and expensive).", hiddenGem: "Fushimi Inari shrine, Kyoto  -  10,000 orange torii gates winding up a forested mountain for 2.4km. The famous photogenic section (hundreds of closely spaced gates) is at the base. Walk 45 minutes further and you're alone on the mountain, in a completely different world of isolated shrines and forest. Most tourists photograph the base and leave. The upper mountain is one of Japan's most peaceful and beautiful walks.", mnemonic: "Japan: Tokyo = World's largest calm city. Kyoto = 1,600 temples. Osaka = Japan relaxed. Go March-April for sakura." },
+    visaTip: { focus: "Japan Visa for Indian Passport Holders", eli5: "Indian passport holders need a tourist visa for Japan. The process has become significantly easier since 2023 when Japan streamlined its e-visa system. Apply through the Japan Visa Application Service at japanvisa.com or at the Japanese consulate in your nearest major city (Delhi, Mumbai, Chennai, Bengaluru, Kolkata). Cost: Rs 1,500-2,000 for processing fee plus service charge. Processing time: 5-7 working days. Required documents: passport, bank statement (approximately Rs 1 lakh per week of trip), hotel bookings, return tickets, and employment letter or ITR.", goldenTip: "Japan introduced a 'short-term stay' visa for Indian nationals in 2023 that's valid for multiple entries across 5 years. Apply for this even if you're only going once  -  subsequent trips use the same visa without reapplication. The multiple-entry, 5-year validity makes Japan trips much easier to plan spontaneously.", mnemonic: "Japan visa = 5-7 days processing. 5-year multi-entry available since 2023. Bank statement showing Rs 1L/week required." },
+    culturalCode: { culture: "Japan", doThis: "Bow when greeting  -  the depth of bow indicates respect (deeper = more formal). Always use two hands when giving or receiving business cards, gifts, or anything important  -  one-handed exchange is rude. Remove shoes when entering homes and many traditional restaurants (look for slippers provided). Be extremely quiet on public transport  -  no phone calls, very low conversation. The Japanese value of 'meiwaku' (not imposing on others) means silence in shared spaces is mandatory social courtesy.", neverDoThis: "Never tip  -  it is considered insulting in Japan (implying the person is desperate for extra money rather than providing professional service). Never blow your nose in public  -  it is considered rude. Never stick chopsticks vertically into rice  -  it resembles funeral rites. Never eat or drink while walking on the street (except at festivals). Tattoos are prohibited in many onsen (hot spring baths) due to historical associations with yakuza  -  check the policy before visiting.", mnemonic: "Japan: Bow to greet, two-hand for cards, no tipping, silent on trains, no standing chopsticks in rice. Five rules to memorise." },
+    quiz: [
+      { q: "Japan's Shinkansen (bullet train) network is significant because...", options: ["It's the world's fastest train system", "It combines very high speed (up to 320 km/h), extreme punctuality (average delay under 1 minute), and has operated without a single passenger fatality since 1964  -  62 years", "It was the world's first high-speed rail", "It's entirely solar-powered"], answer: 1, funFact: "Japan's Shinkansen opened October 1, 1964  -  10 days before the Tokyo Olympics. In 62 years of operation (through earthquakes, typhoons, and mechanical failures), no passenger has died from a derailment or collision. The average delay is 0.9 minutes including weather-related disruptions. This safety record is unmatched by any other transportation system in the world." },
+      { q: "Japan's 'no tipping' culture differs from Western culture because...", options: ["Japanese service workers are paid higher salaries", "Japanese service culture embeds quality in the professional role itself  -  payment is for the service, and additional money implies the service was below standard or the professional is economically desperate", "Tips are illegal in Japan", "Japanese restaurants add service charges automatically"], answer: 1, funFact: "If you leave money behind in Japan, staff will often run after you to return it  -  assuming you forgot it. This has surprised countless Western tourists. Some high-end ryokan (traditional inns) do accept 'o-kokorozuke' (a gracious gift) placed in an envelope with two hands  -  but this is a very specific cultural ritual distinct from the informal tipping Western tourists attempt." },
+      { q: "Cherry blossom (sakura) season makes Japan March-April the peak travel period because...", options: ["Japan has perfect weather only during this period", "The simultaneous flowering of thousands of cherry trees across Japan for approximately 2 weeks creates one of the world's most spectacular natural phenomena  -  a major cultural event as much as a natural one", "It's during Japan's school holiday period", "Prices are lowest during this period"], answer: 1, funFact: "Japan's Meteorological Corporation issues daily cherry blossom forecast maps (sakura zensen) that Japanese people use to plan 'hanami' (flower viewing) picnics weeks in advance. The cultural significance of sakura  -  simultaneous blooming and falling, representing life's beautiful impermanence  -  is central to Japanese aesthetics. The Japanese government's Botanical Garden in Tokyo has been recording sakura bloom dates since 1953." }
+    ]
+  }
+}
+
+const d260612 = {
+news: {
+    segments: [
+      {
+        name: "🌐 What's happening with countries?", color: C.sky,
+        stories: [
+          {
+            headline: "USA and Iran say the war is almost over  -  but nobody is fully sure yet",
+            eli5: "For weeks, America and Iran were in a scary fight. The USA dropped bombs on Iran, and Iran fired back. Then President Trump suddenly said: 'We just made a great settlement  -  the war is over!' But here's the twist  -  Iran's leaders said: 'Hold on, nothing is signed yet.' It's like two kids who had a huge fight and one says 'we're friends again!' but the other says 'I didn't say that.' Everyone is watching to see what actually happens next.",
+            whyItMatters: "If the deal holds, oil prices drop, global markets celebrate, and millions of people in the Middle East breathe easier. If it falls apart, the world gets more dangerous fast.",
+            mnemonic: "USA+Iran = Fire, then 'maybe peace?'  -  Watch the ink, not the words 🖊️"
+          },
+          {
+            headline: "Israel fires on Lebanon even after Trump said 'all shooting will stop'",
+            eli5: "Trump told the world that Israel and Hezbollah (a group in Lebanon) had agreed to stop fighting. But just hours later, Israeli drones killed 8 people in Lebanon  -  including a dentist named James Karam who was in his car with his children. It's like a referee blowing the final whistle but one player keeps playing. The gap between what leaders announce and what actually happens on the ground is one of the most important lessons in world politics.",
+            whyItMatters: "Wars don't end just because a president makes an announcement. Ground-level violence continuing after a ceasefire is declared is one of history's most repeated tragedies.",
+            mnemonic: "Ceasefire ≠ Silence. Words stop at borders, bullets don't 🕊️💔"
+          },
+          {
+            headline: "US kills top Tren de Aragua gang leader in Venezuela",
+            eli5: "Tren de Aragua is one of the most feared criminal gangs in South America  -  it started in a Venezuelan prison and spread across the continent. Trump announced that a US military strike killed their leader, Hector Guerrero Flores. Think of it like the world's most dangerous school bully finally being stopped by the principal  -  except the 'principal' used a missile. This is part of Trump's aggressive crackdown on gangs across Latin America.",
+            whyItMatters: "Tren de Aragua has terrorised Venezuela, Colombia, Peru and even reached the USA. Removing its top leader could slow its operations  -  or trigger a violent leadership battle inside the gang.",
+            mnemonic: "Tren de Aragua = Venezuela's deadliest export, now minus its boss 🚨"
+          }
+        ]
+      },
+      {
+        name: "💸 What's happening with money?", color: C.mint,
+        stories: [
+          {
+            headline: "SpaceX goes public  -  Elon Musk becomes Earth's first TRILLIONAIRE",
+            eli5: "SpaceX  -  the rocket company that sends astronauts to space and beams internet from satellites  -  listed on the stock market on June 12. The shares were priced at $135 and jumped to $161 by end of day. This made the company worth over $2 trillion. And because Musk owns a huge chunk of SpaceX, his total wealth crossed $1 TRILLION  -  making him the first human being in history to ever be worth that much. A trillion dollars is so big that if you spent Rs.27 million every single day, it would take you 100 years to spend it all.",
+            whyItMatters: "The SpaceX IPO is the largest in history  -  raising $75 billion. It proves that space is now a serious business and sets a new ceiling for what private companies can be worth.",
+            mnemonic: "SpaceX IPO: $135 → $161 in one day. SPCX = Space Cash eXplodes 🚀💰"
+          },
+          {
+            headline: "Indian markets expected to open green  -  crude oil drops 6% as Iran deal hopes rise",
+            eli5: "When Trump hinted at peace with Iran, something amazing happened  -  oil prices dropped by 6% almost instantly. Why? Because Iran controls part of the Strait of Hormuz, a narrow water channel where 20% of the world's oil travels. If that channel was blocked by war, oil would get very expensive. Peace = open channel = cheaper oil = India's petrol stays affordable = Indian companies spend less = Nifty goes up. It's all connected like dominoes.",
+            whyItMatters: "India imports 85% of its oil. Every dollar drop in crude oil saves India roughly $1.5 billion per year. Cheaper oil is like a tax cut for every Indian.",
+            mnemonic: "Iran peace → Oil drops → India smiles → Nifty rises. It's dominos! 🁢"
+          },
+          {
+            headline: "Nifty 50 around 23,100-23,200  -  volatile week as geopolitics and US inflation collide",
+            eli5: "India's Nifty index had a tough week. It started at 23,366 and fell during Iran tensions  -  then bounced back when oil dropped. The American inflation report (CPI) came in slightly better than expected, which means the US Federal Reserve is less likely to raise interest rates. Lower US rates = cheaper global borrowing = more money flows into emerging markets like India = Nifty gets a boost. Bank Nifty hit a two-month high of 55,600 on this news.",
+            whyItMatters: "Understanding how US inflation affects Indian markets is one of the most powerful insights any Indian investor can have  -  global events move local money.",
+            mnemonic: "US CPI soft → Fed cools → Money flows East → India banks party 🏦🎉"
+          }
+        ]
+      },
+      {
+        name: "💻 What's happening with technology?", color: C.lavender,
+        stories: [
+          {
+            headline: "SpaceX's Starship V3 can carry 100 tons to space  -  the biggest rocket ever built",
+            eli5: "To put SpaceX's new rocket in perspective: the biggest cargo planes today carry about 100 tons. SpaceX's Starship V3 can carry that same 100 tons  -  but to SPACE. And it lands back on Earth like a pencil standing on its tip, ready to fly again. This is why SpaceX is worth $2 trillion. Reusable rockets change the economics of space the same way reusable containers changed global shipping.",
+            whyItMatters: "Cheaper access to space means satellites, space stations, Mars missions, and space-based internet for everyone on Earth become realistic  -  not science fiction.",
+            mnemonic: "Starship V3 = 100 tons to space, lands like a pencil, flies again 🖊️🚀"
+          },
+          {
+            headline: "AI's hidden cost: UN scientist warns AI boom uses as much water as small countries",
+            eli5: "Every time you ask an AI a question, giant computers called data centres process it. Those computers get so hot that they need enormous amounts of water to cool down. A UN scientist revealed that the global AI boom is now consuming water, electricity, and land at a scale comparable to small nations. Training one large AI model can use as much water as 700 homes use in a year. Your chatbot has a carbon footprint you never see.",
+            whyItMatters: "AI's environmental cost is becoming a serious policy issue. Expect regulations on data centre water and energy use within the next few years.",
+            mnemonic: "AI query = tiny question, HUGE thirst behind the curtain 💧🤖"
+          },
+          {
+            headline: "World Cup VAR controversy: USMNT mistaken identity case stuns football world",
+            eli5: "In one of the World Cup's most bizarre moments, the video referee (VAR) flagged the wrong player for a foul in the USA match  -  confusing two players because they looked similar on camera. It's like a teacher giving a detention to the wrong student. The incident went viral and restarted the global debate about whether technology is actually making football fairer or just adding new ways to get things wrong.",
+            whyItMatters: "VAR is used in major leagues worldwide. This case shows technology's limits  -  systems are only as reliable as the humans and cameras behind them.",
+            mnemonic: "VAR mistake = Tech is the referee now, but tech can also be wrong 📹❌"
+          }
+        ]
+      },
+      {
+        name: "🌿 What's happening with our planet?", color: C.peach,
+        stories: [
+          {
+            headline: "US strikes Iranian water reservoirs  -  scientists horrified",
+            eli5: "During the Iran conflict, the United States reportedly struck Iranian water infrastructure  -  reservoirs that supply drinking water to civilian areas. Scientists and international law experts called this deeply alarming. Water is a basic human need, not a military target. Under international law, attacking water supplies for civilian populations is considered a war crime. This has sparked massive global debate about the rules of modern warfare.",
+            whyItMatters: "When water infrastructure becomes a military target, the humanitarian cost extends far beyond the conflict  -  affecting ordinary people for years after fighting stops.",
+            mnemonic: "Water strike = Weapon against civilians, not soldiers 💧⚠️"
+          },
+          {
+            headline: "El Nino threat: India's RBI warns of food inflation risk to economy",
+            eli5: "El Nino is a natural weather pattern where the Pacific Ocean gets warmer than usual  -  and it messes up monsoon rains across South Asia. India's central bank (RBI) warned that a strong El Nino this year could reduce rainfall, damage crops, and push food prices up sharply. When tomatoes, onions, and pulses get expensive, the RBI has to raise interest rates to control inflation  -  which makes loans costlier for everyone.",
+            whyItMatters: "India's economy is still deeply tied to agriculture and the monsoon. Weather patterns thousands of miles away in the Pacific Ocean directly affect what you pay for vegetables.",
+            mnemonic: "El Nino = Pacific gets warm → India's monsoon weakens → Onions get expensive 🧅"
+          },
+          {
+            headline: "Pope Leo XIV stranded in Tenerife  -  Spain's King lends his private jet",
+            eli5: "Pope Leo XIV was visiting Spain and was about to fly home to Rome when his plane developed a technical problem at Tenerife airport. Spain's King Felipe VI stepped in immediately and offered his own private royal jet to take the Pope home. It's a small but charming story about the old world of royals and church still mattering in modern Europe  -  a king lending his plane to a pope, like something out of a history book.",
+            whyItMatters: "A light story  -  but it shows that ceremony, protocol, and personal relationships still shape how leaders interact, even in the age of technology.",
+            mnemonic: "Pope + broken plane + King's jet = History in a funny moment ✈️👑"
+          }
+        ]
+      }
+    ],
+    quiz: [
+      { q: "What makes Elon Musk a 'trillionaire' on June 12, 2026?", options: ["Tesla stock hit a new record", "SpaceX went public and his stake crossed $1 trillion in value", "He sold all his companies", "The US government gave him a contract"], answer: 1, funFact: "A trillion dollars is 1,000 billions. Before Musk, no human in recorded history had ever accumulated this much wealth  -  even adjusting for inflation, it surpasses historical estimates for figures like John D. Rockefeller." },
+      { q: "Why did oil prices drop 6% on June 12?", options: ["OPEC increased production", "New oil fields were discovered", "Trump hinted at a peace deal with Iran, reducing fears of Strait of Hormuz blockage", "India reduced its oil imports"], answer: 2, funFact: "The Strait of Hormuz is only 33km wide at its narrowest point  -  yet 20% of the world's entire oil supply passes through it daily. It is arguably the most strategically important waterway on Earth." },
+      { q: "What is El Nino?", options: ["A Spanish festival", "A Pacific Ocean warming pattern that disrupts global weather and monsoons", "A type of hurricane", "An Indian agricultural policy"], answer: 1, funFact: "The name 'El Nino' means 'The Little Boy' or 'Christ Child' in Spanish  -  Peruvian fishermen named it because it typically appears around Christmas, when the warm currents devastate their fish catches." }
+    ]
+  },
+
+  markets: {
+    globalPulse: {
+      eli5: "June 12 was one of the most dramatic days for money in years. Two giant things happened at once  -  SpaceX launched the biggest IPO in history and Trump announced a possible peace deal with Iran. Stock markets went up, oil went down, and Elon Musk became Earth's first trillionaire. The money river had a huge wave today  -  some boats rose, some rocked violently.",
+      keyThings: ["SpaceX IPO: priced $135, closed $161 (+19%)", "Brent Crude dropped ~6% on Iran peace hopes (near $89/barrel)", "S&P 500 +0.4%, Nasdaq +0.2%", "India Nifty bounced from 23,072 → targeting 23,350"]
+    },
+    indianMarket: {
+      eli5: "India's stock market was like a seesaw on June 12. In the morning it was nervous  -  geopolitics and IT sector selling dragged it down. Then news broke of cheaper oil and a softer US inflation report. Banking stocks jumped. ICICI Bank hit Rs.1,333. By end of day the mood shifted from fear to cautious hope. The bazaar went from closing-time panic to a late-afternoon shopping rush.",
+      breakouts: [
+        { name: "ICICI Bank (NSE: ICICIBANK)", whyExciting: "ICICI Bank jumped 1.83% to Rs.1,317 on June 11 on exceptional volume. With US Fed likely to hold rates, foreign investors love Indian private banks  -  ICICI is their first pick. Bank Nifty hitting a 2-month high of 55,600 confirms the sector is in recovery mode.", risk: "Any escalation in Iran conflict or surprise Fed rate hike could reverse banking sector gains sharply." , halal: false, buyPrice: 'N/A', sellPrice: 'N/A', stopLoss: 'N/A'},
+        { name: "Oil Marketing Companies: BPCL / HPCL", halal: true, buyPrice: "BPCL Rs.310 / HPCL Rs.385", sellPrice: "BPCL Rs.355 / HPCL Rs.445", stopLoss: "BPCL Rs.288 / HPCL Rs.358", whyExciting: "When crude oil drops 6% in a day, the biggest winners are companies that buy oil and sell petrol in India. BPCL and HPCL's profit margins directly expand when crude is cheaper. This is a short-to-medium term trade as long as Iran tensions stay calm.", risk: "If Iran deal collapses, oil spikes back and these stocks fall hard. High news-event dependency." },
+        { name: "Adani Ports (NSE: ADANIPORTS)", whyExciting: "Peace in the Middle East means shipping routes through the Gulf reopen fully. Adani Ports handles a massive share of India's maritime trade  -  especially goods going to/from Middle East and Europe. Reduced geopolitical risk = more ship traffic = more port revenue.", risk: "Adani group stocks carry governance risk. Any negative news about the group affects all Adani stocks together." , halal: 'conditional', buyPrice: 'N/A', sellPrice: 'N/A', stopLoss: 'N/A'}
+      ],
+      ipoSpot: { name: "SpaceX (SPCX)  -  Nasdaq listed, not Indian", verdict: "Watch", eli5: "SpaceX listed in the USA on June 12 at $135 and hit $161. Indian investors cannot buy it directly on NSE/BSE, but you can access it through international brokers like Vested, INDmoney, or Groww's US stocks feature. It's a high-risk, high-excitement bet on the future of space. Not for short-term traders." },
+      lessonOfDay: { title: "Buy Fear, Sell Greed  -  The Contrarian's Code", story: "On June 12, when Iran tensions peaked and Nifty fell to 23,072, most retail investors panicked and sold. That was the exact moment smart institutional money stepped in and bought. Warren Buffett's most famous rule: 'Be fearful when others are greedy, and greedy when others are fearful.' The market's biggest single-day drops are often immediately followed by the strongest recoveries  -  but only patient people who didn't sell get to enjoy them.", mnemonic: "Buy Fear + Sell Greed = The contrarian's superpower 😨📈" }
+    },
+    quiz: [
+      { q: "SpaceX's IPO ticker symbol on Nasdaq is?", options: ["SPACE", "MUSK", "SPCX", "SPEX"], answer: 2, funFact: "SpaceX raised $75 billion in its IPO  -  the largest IPO in history. For comparison, the previous record was Saudi Aramco's $25.6 billion IPO in 2019." },
+      { q: "When crude oil prices fall, which Indian companies benefit most immediately?", options: ["IT companies like Infosys", "Oil Marketing Companies like BPCL and HPCL", "Pharmaceutical companies", "Real estate companies"], answer: 1, funFact: "India spends over $150 billion per year importing crude oil. A 10% drop in oil prices saves India roughly $15 billion annually  -  equivalent to building 15,000 schools." },
+      { q: "What does 'Buy Fear, Sell Greed' mean in investing?", options: ["Never invest during market crashes", "Buy stocks when everyone is panicking and sell when everyone is excited", "Only buy stocks with low prices", "Follow what the majority of investors are doing"], answer: 1, funFact: "Studies show that retail investors who panic-sold during the COVID crash of March 2020 and bought back 6 months later lost an average of 35% in potential gains compared to those who held through the fear." }
+    ]
+  },
+
+  psychology: {
+    mindTrick: {
+      name: "The Bandwagon Effect",
+      eli5: "On June 12, millions of people rushed to open trading accounts just to buy SpaceX shares  -  not because they researched the company, but because everyone else was doing it. This is the Bandwagon Effect: your brain is wired to believe that if lots of people are doing something, it must be the right thing to do. It's the same reason concerts seem more fun when they're sold out, or why a restaurant with a queue outside feels better than an empty one. Evolution made you this way  -  in primitive times, following the crowd kept you safe. Today it can make you make terrible financial decisions.",
+      realLife: "Every stock market bubble in history  -  from Tulip Mania in 1637 to the Crypto crash of 2022  -  was fuelled by the Bandwagon Effect. When everyone says 'buy this now!', ask: am I thinking, or just following?",
+      mnemonic: "Bandwagon Effect = Everyone's jumping on → That's exactly when to pause 🚌⛔"
+    },
+    bodyLanguage: {
+      signal: "The Lip Press  -  Lips pressed together tightly",
+      eli5: "When someone presses their lips together into a thin line, they are holding back something  -  a disagreement, a concern, or a negative emotion they're not ready to voice. Negotiators and therapists watch for this signal constantly. It happens faster than people can control. If your boss presses their lips while listening to your idea, they have a concern they haven't said yet. That's your cue to ask: 'What do you think?' before moving forward.",
+      howToUse: "In meetings or negotiations, watch for lip-pressing after you make a key statement. It means: something I just said created friction. Address it directly before proceeding.",
+      mnemonic: "Lips pressed tight = Words being swallowed. Ask what's inside 👄🔒"
+    },
+    superpower: {
+      name: "Scarcity Principle",
+      story: "SpaceX IPO shares were available only to those who applied early through specific brokers. Within hours, every allocation was oversubscribed  -  people were desperate to get in. The scarcity made it feel more valuable. Robert Cialdini documented this as one of the most powerful human triggers: we want what we can't easily have. 'Limited time offer.' 'Only 3 left in stock.' 'Exclusive members only.' These phrases aren't describing reality  -  they're manufacturing desire.",
+      shield: "When you feel urgency to buy, join, or decide  -  stop. Ask: 'Is this genuinely rare, or is the scarcity manufactured to rush my decision?' Real opportunities rarely disappear in 24 hours.",
+      mnemonic: "Scarcity = 'Only 3 left!' → Pause. Is it real or a trick? 🔴"
+    },
+    quiz: [
+      { q: "The Bandwagon Effect means you...", options: ["Research carefully before deciding", "Do something because many others are doing it", "Always go against popular opinion", "Make decisions based on data"], answer: 1, funFact: "The term 'jump on the bandwagon' comes from 19th century American politics  -  literal horse-drawn bandwagons played music at political rallies, and candidates literally invited people to jump on to show support." },
+      { q: "When someone presses their lips tightly together during a conversation, they are most likely...", options: ["Feeling happy and satisfied", "Getting ready to agree with you", "Holding back a concern or disagreement", "Feeling bored"], answer: 2, funFact: "Joe Navarro, a former FBI agent who spent 25 years reading body language, says the lip press is one of the most reliable stress signals  -  it occurs even in people who are trained to control their expressions." },
+      { q: "The Scarcity Principle works because...", options: ["Rare things are always better quality", "Humans are wired to want things that seem hard to get", "Limited products are always cheaper", "Scarcity signals a product is safe"], answer: 1, funFact: "In a famous study, people rated cookies as more desirable and tastier when told there were only 2 left in a jar  -  even though the cookies were identical to ones in a jar with 10." }
+    ]
+  },
+
+  leadership: {
+    leaderMove: {
+      name: "The Art of the Pivot  -  Changing Direction Without Losing Authority",
+      story: "Trump announced a ceasefire with Iran  -  then Iran said there was no deal  -  then Trump insisted there was. In politics and business, leaders constantly have to change course while still appearing in control. The best leaders frame pivots as evolution, not failure: 'Based on new information, here's how we're moving forward.' Weak leaders deny they changed course. Great leaders explain why the new direction is stronger. Elon Musk pivoted SpaceX from a small satellite company to a Mars-mission rocket builder to an AI-competing data empire  -  each time framing it as the next chapter, not an admission that the last chapter failed.",
+      doThis: "Next time you change your mind publicly, don't hide it. Say: 'I've updated my view on this because of [reason]. Here's the better path.' People respect transparency far more than false consistency.",
+      mnemonic: "Pivot with purpose = Leaders evolve, followers pretend they were always right 🔄"
+    },
+    visionarySecret: {
+      concept: "Thinking in Platforms, Not Products",
+      eli5: "Most people think: 'I want to build a good rocket.' Elon Musk thought: 'Rockets are the platform  -  the real product is humanity becoming multi-planetary, plus space internet, plus AI in orbit.' When you think in platforms, you build something others can build on top of. Amazon didn't just sell books  -  it built a selling platform. Apple didn't just make phones  -  it built an app platform. The next time you start something, ask: what platform am I actually building?",
+      exercise: "Write down your current goal. Then ask: if 1,000 other people wanted to build on top of what I'm creating  -  what would they build? That question reveals your real platform.",
+      mnemonic: "Product → Platform = The difference between a shop and a marketplace 🏪➡️🌐"
+    },
+    eliteHabit: {
+      habit: "The Pre-Mortem  -  Imagining Failure Before It Happens",
+      whoAndHow: "Jeff Bezos built Amazon's decision-making culture around a concept called 'working backwards'  -  imagining the future outcome first, then planning how to get there. Psychologist Gary Klein formalised this as the Pre-Mortem: before starting any major project, imagine it has already failed spectacularly. Then ask: what went wrong? This surfaces risks you'd never see when you're optimistic at the start.",
+      whyItWorks: "Our brains are bad at seeing risks when we're excited. Deliberately imagining failure short-circuits optimism bias and forces you to build real safeguards  -  not just hope things work out.",
+      mnemonic: "Pre-Mortem = Kill your idea in your head before reality does it for you 💀➡️🛡️"
+    },
+    sigmaWisdom: {
+      lesson: "Respond, Never React",
+      story: "On June 12, global markets had a moment of chaos  -  Iran, SpaceX, oil, inflation data, all hitting at once. Traders who reacted emotionally sold at the bottom. Traders who responded  -  paused, assessed, then acted  -  bought at the low and rode the recovery. Marcus Aurelius wrote: 'Between stimulus and response, there is a space. In that space is our power to choose.' The space between something happening and you acting is where your character lives.",
+      action: "Today, when something frustrates or surprises you  -  wait 10 seconds before responding. Not to be slow. To be deliberate. Reaction is instinct. Response is intelligence.",
+      mnemonic: "Stimulus → [10 second gap] → Response = Where wisdom lives ️"
+    },
+    quiz: [
+      { q: "What is a 'Pre-Mortem' in decision making?", options: ["Reviewing a project after it fails", "Imagining a project has already failed and asking what went wrong  -  before starting", "A financial analysis tool", "A type of market research"], answer: 1, funFact: "NASA uses pre-mortems before every mission. After the Space Shuttle Challenger disaster in 1986  -  which several engineers had tried to flag as risky  -  pre-mortem thinking became a standard tool in safety-critical industries." },
+      { q: "Thinking in Platforms means...", options: ["Building only one product very well", "Creating something others can build businesses on top of", "Copying successful platforms", "Focusing only on digital products"], answer: 1, funFact: "The App Store alone generates over $100 billion per year for Apple  -  far more than the iPhone hardware. Apple's real business is the platform, not the phone." },
+      { q: "The 10-second gap between stimulus and response is important because...", options: ["It gives you time to think of something clever to say", "It converts emotional reaction into deliberate, intelligent response", "It makes others think you are mysterious", "It shows you are considering their feelings"], answer: 1, funFact: "Viktor Frankl, who survived Nazi concentration camps, wrote about this space between stimulus and response as the last human freedom  -  one that no circumstance can take away." }
+    ]
+  },
+
+  wealth: {
+    wealthSecret: {
+      name: "The IPO Trap  -  Why Most Retail Investors Lose on IPO Day",
+      story: "SpaceX listed at $135 and shot to $161  -  a 19% gain in one day. Headlines screamed. Millions of retail investors who didn't get IPO allocations rushed to buy at $161, $165, $170 as the day went on. But here's what history shows: the biggest IPOs in history  -  Facebook, Uber, Lyft, WeWork  -  all fell sharply after their initial pop. The people who get rich in IPOs are the early investors and employees. Retail buyers on day one are usually buying the stock at its most expensive point ever, from people who got in much cheaper and are now selling to them.",
+      action: "For any exciting IPO: don't buy on day 1. Watch for 3-6 months. If the company is genuinely great, the stock will still be a good buy after the initial excitement fades. Patience beats FOMO every time.",
+      mnemonic: "IPO Day 1 = Buying someone else's excitement at peak price. Wait 🛑"
+    },
+    moneyMachine: {
+      type: "Dividend Investing  -  Getting Paid While You Sleep",
+      eli5: "Some companies share their profits with shareholders every few months  -  this is called a dividend. If you own 1,000 shares of a company that pays Rs.10 dividend per share every year, you get Rs.10,000 in your account  -  without selling anything, without working, just for owning the shares. The best dividend companies in India (like Coal India, ITC, HDFC Bank) have paid dividends consistently for decades. It's like owning a small orchard  -  every season the trees drop fruit without you having to do anything.",
+      indiaAngle: "Coal India has one of the highest dividend yields on the Indian market  -  sometimes 8-10% per year. ONGC and Power Grid are also known for consistent dividends. Search 'NSE high dividend yield stocks 2026' for the current list.",
+      mnemonic: "Dividends = Your money working a night shift while you sleep 🌙💰"
+    },
+    mindsetFlip: {
+      oldThinking: "I can't invest because I don't have enough money to make a difference",
+      newThinking: "The habit of investing any amount is worth 100x more than the amount itself",
+      why: "A Rs.500 SIP started at age 22 and continued for 35 years at 12% returns becomes approximately Rs.32 lakhs. The same Rs.500/month invested starting at age 30 becomes only Rs.14 lakhs. The difference of 8 years costs you Rs.18 lakhs  -  not because of the money, but because of lost time for compounding. The habit matters infinitely more than the amount.",
+      mnemonic: "Start small, start NOW = Time is the ingredient you can't buy back "
+    },
+    magicNumber: {
+      number: "Rs.1 Crore in 20 Years",
+      eli5: "Here's a goal that sounds impossible but is totally achievable: Rs.1 crore by age 42 if you start at 22. How? Invest Rs.7,500 per month in a Nifty 50 index fund. At 12% average annual returns, in 20 years you have approximately Rs.1 crore. That's Rs.250 per day  -  less than a fancy coffee and a sandwich. The goal isn't the crore. The goal is building the discipline of the Rs.250 daily habit that makes the crore inevitable.",
+      mnemonic: "Rs.7,500/month  20 years  12% = Rs.1 Crore. The math works. Do you? 📐"
+    },
+    quiz: [
+      { q: "Why do most retail investors lose money buying IPO stocks on Day 1?", options: ["IPO stocks always go down", "They are buying at the peak excitement price from investors who got in much cheaper", "IPOs are illegal for retail investors", "Brokers take too many fees on IPO day"], answer: 1, funFact: "According to a Harvard Business School study, the average IPO underperforms the market by 20-30% over the first 3 years after listing  -  despite massive first-day gains." },
+      { q: "What is a dividend?", options: ["A type of stock bonus given when you open a trading account", "A share of company profits paid regularly to shareholders", "Interest earned on a savings account", "A government subsidy for investors"], answer: 1, funFact: "Warren Buffett's company Berkshire Hathaway receives over $6 billion in dividends every year from companies it owns  -  money that arrives without Buffett or his team doing anything that day." },
+      { q: "To reach Rs.1 crore in 20 years at 12% returns, you need to invest roughly how much per month?", options: ["Rs.2,000", "Rs.5,000", "Rs.7,500", "Rs.15,000"], answer: 2, funFact: "Rs.7,500 per month is Rs.250 per day  -  approximately the cost of a single ride-share trip or a coffee and snack at a cafe. The crore is hidden in your daily discretionary spending." }
+    ]
+  },
+
+  communication: {
+    speakingSkill: {
+      name: "Pregnant Pause  -  The Power of Strategic Silence",
+      story: "When Elon Musk walked onto the stage at SpaceX's IPO event on June 12, he didn't speak immediately. He stood there, looked at the crowd, let the silence build for 5 full seconds  -  and then said quietly: 'Today, we begin making humanity multi-planetary.' The silence made the words land like a hammer. The best orators in history  -  Obama, Churchill, Steve Jobs  -  all used deliberate pauses. Silence forces an audience to pay attention, because human brains are wired to fill silence with anticipation.",
+      drill: "Practice this: record yourself reading any 3 sentences. Insert a 3-second pause after the most important sentence. Play it back. You'll be shocked how much more powerful it sounds. Do this daily for one week.",
+      mnemonic: "Silence speaks loudest right after your best line. Pause = Power ️🎤"
+    },
+    negotiationMove: {
+      tactic: "The High Anchor",
+      eli5: "In every negotiation, whoever says the first number has a huge psychological advantage. This is called anchoring. If a seller says Rs.10 lakhs first, the whole conversation happens around that number. If you said Rs.6 lakhs first, you'd be negotiating around that. SpaceX priced its IPO at $135  -  a carefully chosen anchor. Even though many analysts said it was overvalued, traders couldn't help referencing $135 as the 'real' price all day. The anchor shapes all thinking that follows.",
+      script: "In any price negotiation, name your number first and name it confidently. If buying: start 30-40% below your real target. If selling: start 30-40% above. The final number will land closer to your anchor than to theirs.",
+      mnemonic: "Anchor first, anchor high (or low). The first number owns the room ⚓"
+    },
+    officeWin: {
+      rule: "Never send a message when you're angry  -  write it, save it as draft, reread tomorrow",
+      story: "On volatile market days like June 12, traders and managers send aggressive messages they regret. A risk manager fires off: 'Your position is reckless and you've lost the team money.' Hours later, the position recovers 8%. The message can't be unsent. The relationship is damaged. Abraham Lincoln had a rule: when he was furious, he'd write the letter in full  -  call it a 'hot letter'  -  and then put it in a drawer and never send it. It was writing for catharsis, not communication.",
+      mistake: "Most professionals treat their outbox like a trash can for frustration. Your worst messages are always sent in the first 15 minutes of anger.",
+      mnemonic: "Angry email = Write it. Save it. Sleep on it. Delete it. 🗑️😤"
+    },
+    confidenceHack: {
+      technique: "The Name Anchor  -  Use People's Names Deliberately",
+      science: "Your own name is the sweetest sound your brain processes. Dale Carnegie documented this in the 1930s, and neuroscience has since confirmed it: hearing your name activates the brain's reward centre. People who use names deliberately in conversation are consistently rated as more charismatic, more trustworthy, and more confident  -  not because they are, but because using a name signals: 'I see you. You matter.'",
+      doItNow: "In your next conversation or meeting, use the other person's name twice  -  once at the start and once when making your key point. Not more (it becomes creepy). Exactly twice. Notice how the energy in the room shifts.",
+      mnemonic: "Name  2 = Instant rapport. Not 3 (creepy), not 0 (forgettable). Twice 🎯"
+    },
+    quiz: [
+      { q: "Why do great speakers use strategic silence (the pregnant pause)?", options: ["To remember their next line", "To seem mysterious and cool", "To make the preceding words land harder and build audience anticipation", "To allow the audience to take notes"], answer: 2, funFact: "Studies on TED talks show the most-watched talks contain an average of 3 deliberate pauses of 3+ seconds. The least-watched talks have almost none." },
+      { q: "What is 'anchoring' in negotiation?", options: ["Making the other person feel secure", "The first number named sets the psychological centre of all future discussion", "Refusing to move from your original position", "Writing down your target before negotiating"], answer: 1, funFact: "In a famous experiment, people were asked to spin a wheel that landed on either 10 or 65  -  then guess the percentage of African countries in the UN. Those who got 65 guessed much higher than those who got 10. Even completely random numbers anchor our thinking." },
+      { q: "How many times should you use someone's name in a conversation for maximum rapport?", options: ["Once, at the start", "As many times as possible", "Twice  -  once at the start, once at a key moment", "Never  -  it sounds forced"], answer: 2, funFact: "Dale Carnegie's book 'How to Win Friends and Influence People'  -  published in 1936  -  is still one of the top 10 best-selling non-fiction books in history, with over 30 million copies sold." }
+    ]
+  },
+
+  mind: {
+    brainHack: {
+      name: "Emotional Labelling  -  Name It to Tame It",
+      eli5: "On a day like June 12  -  with war news, a historic IPO, crashing oil prices, and a Pope stranded at an airport  -  your brain is flooded with emotions. Fear, excitement, confusion, urgency. Neuroscientist Matthew Lieberman discovered something remarkable: the moment you put a name on an emotion, the brain's alarm system (amygdala) immediately calms down. 'I feel anxious' is more powerful than just feeling anxious without naming it. Words give the brain a handle on the feeling  -  and suddenly it's something you have, not something that has you.",
+      protocol: "When you feel emotionally flooded: stop. Ask yourself: what exactly am I feeling? Name it specifically  -  not just 'bad' but 'frustrated', 'scared', 'jealous', 'overwhelmed'. Say it aloud or write it. Watch the intensity drop within 60-90 seconds.",
+      mnemonic: "Name it to Tame it = Emotion labelled is emotion managed 🏷️"
+    },
+    disciplineCode: {
+      principle: "The Two-Minute Rule",
+      story: "David Allen, author of 'Getting Things Done', realised that most people's to-do lists are full of things that take less than 2 minutes but have been sitting there for days. Every time you see that undone task, your brain spends energy on it  -  even if you don't act. Allen's rule: if something takes less than 2 minutes  -  do it immediately. Reply to the short email now. Send the file now. Confirm the appointment now. Don't manage it, just do it. The mental energy saved by eliminating small tasks immediately is enormous.",
+      todayAction: "Look at your to-do list right now. Find everything that takes under 2 minutes. Do all of them in the next 10 minutes. Notice how much lighter your head feels after.",
+      mnemonic: "Under 2 minutes? DO IT NOW. Don't list it, do it ⚡2️"
+    },
+    impulseKiller: {
+      urge: "The urge to check market prices obsessively during volatile days",
+      eli5: "On June 12, millions of Indian investors checked their portfolio 10, 20, 50 times. Every drop caused a tiny panic. Every rise caused a tiny thrill. This is called 'checking behaviour' and it's a form of compulsion  -  your brain gets a small dopamine hit from each refresh, even though frequent checking makes you more anxious and leads to worse decisions. Studies show investors who check their portfolio daily earn less than those who check monthly  -  because daily checkers panic-sell at the wrong time.",
+      interrupt: "Set a rule: you may check your portfolio maximum ONCE per day, at a fixed time (e.g. 4pm after market close). Put your investment apps in a separate folder on the last screen of your phone. Friction kills impulse.",
+      mnemonic: "Portfolio check = Once a day, after market close. Like weighing yourself once a week ⚖️"
+    },
+    bodyUpgrade: {
+      practice: "Box Breathing  -  The Navy SEAL Stress Reset",
+      eli5: "US Navy SEALs use this technique before entering a dangerous situation to instantly calm their nervous system. Breathe in for 4 counts, hold for 4 counts, breathe out for 4 counts, hold for 4 counts. Repeat 4 times. This box pattern activates the parasympathetic nervous system  -  your body's 'calm down' switch. It works in under 2 minutes and can be done anywhere  -  before a presentation, a difficult conversation, or a volatile market decision.",
+      minimumDose: "4 rounds of box breathing (about 90 seconds) before any high-stakes moment. Works immediately.",
+      mnemonic: "Box Breathing: 4 in, 4 hold, 4 out, 4 hold = Square = Calm 🔲🌬️"
+    },
+    quiz: [
+      { q: "What happens in the brain when you label an emotion with a specific word?", options: ["The emotion intensifies", "The brain's alarm system calms down", "You become more confused about how you feel", "Nothing  -  labelling has no effect"], answer: 1, funFact: "Matthew Lieberman's UCLA study showed that labelling emotions reduced amygdala activity by 30-40%  -  equivalent to what therapists try to achieve in sessions over weeks." },
+      { q: "The Two-Minute Rule says you should...", options: ["Only work on tasks for 2-minute bursts", "If a task takes under 2 minutes, do it immediately instead of adding it to a list", "Rest for 2 minutes every hour", "Spend 2 minutes planning before every task"], answer: 1, funFact: "David Allen's 'Getting Things Done' method is used by over 2 million people worldwide. Google, Dropbox, and many Fortune 500 companies have run official GTD training programmes for employees." },
+      { q: "Box Breathing consists of...", options: ["Breathing in slowly and out slowly", "4 counts in, 4 hold, 4 out, 4 hold  -  repeated 4 times", "Alternating breathing through left and right nostrils", "Breathing only through the mouth"], answer: 1, funFact: "Box Breathing is formally called 'tactical breathing' in military training. It's also used by surgeons before complex operations, pilots before emergencies, and athletes before pressure moments." }
+    ]
+  },
+
+  knowledge: {
+    mathMagic: {
+      concept: "Exponential Growth vs Linear Growth",
+      eli5: "Most people think in straight lines: I earn Rs.1,000 today, Rs.1,000 tomorrow, Rs.1,000 next week. Linear. But SpaceX's valuation didn't grow linearly  -  it went from $200 billion to $2 trillion as the rocket reuse technology suddenly made all their numbers multiply. That's exponential: each step multiplies the previous one instead of just adding to it. A chess legend says: if you put one grain of rice on the first square, double it on the next square, double again, and so on  -  by square 64 you have more rice than has ever been grown in human history. That's exponential growth.",
+      realWorldUse: "Compound interest is exponential growth applied to money. Viral social media posts are exponential growth applied to attention. Understanding this distinction changes how you plan careers, investments, and businesses.",
+      mnemonic: "Linear = Add each time. Exponential = Multiply each time. SpaceX = Exponential 🚀"
+    },
+    scienceWow: {
+      field: "Physics",
+      concept: "The Rocket Equation  -  Why Space is So Hard",
+      eli5: "The reason getting to space is so expensive is a cruel piece of physics called the Tsiolkovsky Rocket Equation. To go faster, you need more fuel. But more fuel is heavier. To carry heavier fuel, you need even more fuel. It spirals  -  most of a rocket's weight is just fuel to carry the fuel. SpaceX's genius wasn't building a better rocket  -  it was landing and reusing the rocket so you don't throw away $50 million of hardware after each launch. Reuse breaks the equation's cruelty.",
+      mindBlow: "To get 1 kilogram of anything into orbit costs roughly $1,000-$2,000 using SpaceX today. Before SpaceX, it cost $50,000-$60,000 per kilogram. They made space 50x cheaper in 15 years.",
+      mnemonic: "Rocket equation = The cruelest physics. Reuse = The elegant cheat 🔄🚀"
+    },
+    historyStory: {
+      event: "The Dutch Tulip Mania of 1637  -  History's First Asset Bubble",
+      story: "In 1630s Holland, tulip bulbs became the hottest investment in the world. Prices rose so fast that a single rare tulip bulb sold for more than a skilled craftsman's annual salary. People sold houses to buy tulip futures. Then in February 1637, prices collapsed overnight. Some investors lost everything. Sound familiar? It's SpaceX IPO day  -  everyone wants in, prices are jumping, FOMO is everywhere. History's first asset bubble was a flower. Nothing has changed about human psychology in 400 years.",
+      lesson: "Every financial mania in history  -  tulips, railways, dotcoms, crypto, real estate  -  follows the same pattern: new exciting thing → prices rise → everyone jumps in → prices disconnect from reality → collapse. The ones who made money were those who got in early and got out before the crowd.",
+      mnemonic: "Tulip Mania 1637 = Every bubble ever. Different flower, same story 🌷💸"
+    },
+    earthSecret: {
+      place: "The Strait of Hormuz, Oman",
+      secret: "This tiny waterway between Iran and Oman is only 33 kilometres wide at its narrowest point  -  narrower than the English Channel. Yet 20% of the world's entire oil supply passes through it every day. About 17 million barrels of oil, every single day, squeezed through this narrow passage. When tensions rise between the USA and Iran, the whole world holds its breath about this one small channel  -  because if it closes, oil-dependent economies from India to Japan to Europe all face a crisis within weeks.",
+      edge: "Understanding the Strait of Hormuz explains 40 years of Middle East geopolitics instantly. Every US military base in the region, every Saudi-Iran rivalry, every oil price spike  -  it comes back to this 33km gap.",
+      mnemonic: "Strait of Hormuz = 33km wide, controls 20% of world's energy 🗺️⚡"
+    },
+    quiz: [
+      { q: "What is the key difference between linear and exponential growth?", options: ["Linear is faster initially", "Linear adds each time, exponential multiplies each time", "They are the same but with different starting points", "Exponential growth always slows down eventually"], answer: 1, funFact: "The human brain is naturally wired for linear thinking  -  which is why we consistently underestimate exponential growth. This is called 'exponential growth bias' and it causes us to under-invest in compound growth opportunities." },
+      { q: "SpaceX made access to space cheaper mainly by...", options: ["Using cheaper materials", "Landing and reusing rockets instead of throwing them away after each launch", "Making smaller rockets", "Getting government subsidies"], answer: 1, funFact: "SpaceX's Falcon 9 booster has been reused over 20 times on individual boosters. Each reuse saves approximately $50 million versus building a new one  -  making SpaceX's launch costs the lowest in history." },
+      { q: "What was unique about the Dutch Tulip Mania of 1637?", options: ["It was the first government-run investment scheme", "It was history's first recorded speculative asset bubble  -  driven entirely by human psychology and FOMO", "It only affected wealthy investors", "It was caused by a disease that made tulips rare"], answer: 1, funFact: "At the peak of Tulip Mania, a single Semper Augustus tulip bulb sold for 10,000 guilders  -  equivalent to roughly $500,000 today. The bubble collapsed in days, not months." }
+    ]
+  },
+
+  ai: {
+    toolSpotlight: {
+      name: "Claude (Anthropic)",
+      category: "Research / Analysis / Writing / Coding",
+      eli5: "Claude is an AI assistant built by Anthropic  -  a company focused on making AI that is safe and genuinely useful. Unlike chatbots that try to agree with you, Claude is designed to tell you when it doesn't know something, push back when it disagrees, and think through complex problems step by step. It's particularly strong at analysis, writing long documents, understanding nuanced questions, and explaining difficult topics simply  -  exactly what you're using it for right now.",
+      secretMove: "Use Claude for 'devil's advocate' analysis: describe your investment idea, business plan, or decision  -  then ask 'argue strongly against this decision. What are all the ways this could fail?' Most people ask AI to validate their ideas. Asking it to attack your ideas is where the real value hides.",
+      mnemonic: "Claude = The AI that tells you what you need to hear, not just what you want 🎯"
+    },
+    workflowWin: {
+      title: "The Daily Market Intelligence Workflow",
+      problem: "Reading financial news, understanding global events, and connecting them to your portfolio takes 2-3 hours a day for most investors. Most people either skip it or drown in information without extracting insight.",
+      steps: [
+        "Spend 10 mins reading headlines only (no articles) from Economic Times, Bloomberg India",
+        "Paste the 5 most important headlines into Claude and ask: 'How do each of these affect Indian markets? What sectors win, what sectors lose?'",
+        "Ask: 'What is the single most important thing I should watch in markets this week and why?'",
+        "Save the response in a daily notes file  -  review weekly to spot patterns in your own thinking"
+      ],
+      timeSaved: "Compress 2 hours of reading into 20 focused minutes with sharper insight.",
+      mnemonic: "10 min headlines + AI analysis = 2 hours of insight in 20 minutes 📰⚡"
+    },
+    promptOfDay: {
+      purpose: "Understand any complex news event and its impact on you personally",
+      prompt: "I just read this news: [paste headline or brief description]. Explain it to me like I'm a curious, smart person who wants to understand: 1) What actually happened in simple terms, 2) Why it happened, 3) How it affects India specifically, 4) How it affects my personal finances or career, 5) What I should do about it, if anything. Be honest if the impact is actually small  -  don't exaggerate.",
+      where: "Claude, ChatGPT, or Gemini",
+      mnemonic: "News → Paste → 5 questions → You understand the world better in 2 minutes 🌍"
+    },
+    futureWatch: {
+      trend: "AI is moving from 'answering questions' to 'running companies'",
+      eli5: "In 2024, AI answered questions. In 2025, AI started writing code and drafting emails. In 2026, companies are deploying AI agents that schedule meetings, manage supplier relationships, process invoices, and even hire contractors  -  without human involvement for each step. SpaceX's ground operations reportedly use AI agents to manage launch scheduling. The question is no longer 'can AI do my job?'  -  it's 'which parts of my job can AI do better, and what should I focus on instead?'",
+      yourMove: "Audit your own job. List every task you do in a week. Mark tasks that are: information processing, pattern recognition, scheduling, drafting standard documents. Those are the first to be automated. Double down on: relationship building, creative problem-solving, ethical judgment, leadership. That's where humans will keep winning.",
+      mnemonic: "AI takes tasks. Humans keep judgment, relationships, creativity. Know the difference 🤝🤖"
+    },
+    quiz: [
+      { q: "What is the most powerful way to use AI for decision-making?", options: ["Ask it to confirm your ideas are good", "Ask it to argue against your idea and find all the ways it could fail", "Ask it to predict the future", "Ask it to do everything automatically"], answer: 1, funFact: "Charlie Munger (Warren Buffett's partner) famously said: 'I have nothing to add' was his most common statement in meetings  -  because he used 'inversion thinking' to kill bad ideas before they started. AI devil's advocate thinking is inversion thinking at scale." },
+      { q: "What should you focus on developing as AI automates more tasks?", options: ["Speed at data entry", "Relationship building, creative problem-solving, and ethical judgment", "Learning more programming languages", "Doing tasks faster than AI"], answer: 1, funFact: "A 2026 World Economic Forum report found that the top 3 skills most valued by employers as AI spreads are: complex problem-solving, emotional intelligence, and creative thinking  -  all deeply human." },
+      { q: "The '10 minutes headlines + AI analysis' workflow saves how much time?", options: ["30 minutes", "1 hour", "About 100 minutes  -  from 2 hours to 20 minutes", "5 minutes"], answer: 2, funFact: "A Reuters Institute study found that most people who read financial news spend 70% of their time on articles that ultimately have no actionable impact on their decisions. The filtering step (headlines only first) eliminates most of that waste." }
+    ]
+  },
+
+  travel: {
+    destination: {
+      country: "Portugal",
+      region: "Lisbon & The Algarve",
+      eli5: "Imagine a city built on seven hills overlooking the Atlantic Ocean, where trams rattle up cobblestone streets, fishermen still sell sardines from boats, pasteis de nata (egg custard tarts) cost 30 cents each, and you can watch the sunset from ancient castles that have stood for 800 years. That's Lisbon. And two hours south is the Algarve  -  dramatic golden cliffs, secret sea caves, turquoise water, and beaches that look like they belong in a painting. Portugal is southern Europe's most underrated gem  -  still affordable, deeply beautiful, and genuinely friendly to visitors.",
+      bestTime: "May-June or September-October  -  warm and sunny without the July-August crowds and peak prices. June is perfect right now.",
+      hiddenGem: "Sintra  -  45 minutes from Lisbon by train  -  is a fairy-tale mountain town with palaces from different centuries all within walking distance. Most tourists spend 3 hours and leave. Stay the night: the palaces at sunset and dawn, with morning mist over the Atlantic, are among the most beautiful sights in Europe.",
+      mnemonic: "Portugal = Europe's best kept secret. 7 hills, ocean sunsets, Rs.200 tarts 🥐"
+    },
+    visaTip: {
+      focus: "Portugal (Schengen Visa) for Indian Passport Holders",
+      eli5: "Portugal is part of the Schengen Zone  -  one visa gets you into 27 European countries. For Indians, you apply at the VFS Global centre in major Indian cities. You need: confirmed hotel bookings, return flight tickets, travel insurance of minimum EUR30,000, bank statement showing sufficient funds (roughly Rs.3-4 lakhs for a 2-week trip), and ITR/salary slips. Apply at least 6-8 weeks before travel. Portugal is known for being one of the more applicant-friendly Schengen embassies for Indians.",
+      goldenTip: "Book all your accommodation as 'free cancellation' initially  -  it shows a confirmed itinerary for the visa application without locking you into non-refundable bookings. Once your visa is approved, you can adjust or rebook.",
+      mnemonic: "Schengen = 1 visa, 27 countries. Apply 6-8 weeks early, free cancellation bookings trick 🗺️"
+    },
+    culturalCode: {
+      culture: "Portugal",
+      doThis: "Learn two words: 'Obrigado' (thank you, if you're male) or 'Obrigada' (if female). Portuguese people light up when foreigners try even a single word of their language. Also: try the local food  -  bacalhau (salt cod) and pasteis de nata  -  without making comparisons to other cuisines. Portuguese take immense pride in their food traditions.",
+      neverDoThis: "Never confuse Portuguese with Spanish or call their language 'Spanish.' Portugal and Spain have a complex historical relationship and Portuguese people are very proud of their distinct identity and language. Also never rush through meals  -  Portuguese dining is a slow, social ritual. Asking for the bill early is considered rude.",
+      mnemonic: "Portugal rule: Obrigado + Never call it Spanish + Let the meal breathe 🍷"
+    },
+    quiz: [
+      { q: "What is the Schengen Zone?", options: ["A special tourist area in France", "A group of 27 European countries sharing one visa that allows free movement between them", "A type of European rail pass", "A discount shopping zone in Germany"], answer: 1, funFact: "The Schengen Agreement was signed in 1985 on a boat on the Moselle River near the village of Schengen in Luxembourg. The village has only 600 inhabitants but gave its name to one of the world's most significant travel agreements." },
+      { q: "The 'free cancellation booking trick' for visa applications works because...", options: ["It's cheaper", "It shows a confirmed itinerary to the embassy without committing to non-refundable bookings", "Embassies prefer flexible travellers", "It guarantees visa approval"], answer: 1, funFact: "Visa rejection is the single most common travel fear for Indian passport holders in Europe. India ranks around 80th globally in passport strength  -  but Indian applicants with clean travel history and strong financials have high approval rates for Schengen visas." },
+      { q: "What should you never do in Portugal that would offend locals?", options: ["Eat bacalhau", "Call their language 'Spanish' or confuse their culture with Spain", "Drink local wine", "Visit historic castles"], answer: 1, funFact: "Portuguese is the 6th most spoken language in the world with 260 million native speakers  -  more than French (80 million) or German (95 million). It's the dominant language of Brazil, Angola, Mozambique, and several other countries." }
+    ]
+  }
+}
+
+const d260613 = {
+news: {
+    segments: [
+      {
+        name: "🌐 What's happening with countries?", color: C.sky,
+        stories: [
+          {
+            headline: "South Korea's ex-President gets 30 years in jail",
+            eli5: "Imagine if the captain of a ship secretly sent spy-drones over an enemy island to start a fight  -  just so he could lock down his own ship and stay in charge. That's what South Korea's President Yoon did. He used drones to create fear so he could declare martial law (like a super-lockdown of the whole country). The courts said: that's cheating, and sentenced him to 30 years in prison.",
+            whyItMatters: "It shows even the most powerful person in a country must follow the rules.",
+            mnemonic: "YOON + DRONE = JAIL ZONE 🚁➡️🔒"
+          },
+          {
+            headline: "FIFA World Cup 2026 has kicked off in Mexico!",
+            eli5: "The world's biggest sports party has started! 48 countries are playing football across Mexico, USA, and Canada. Mexico City's main square  -  the Zocalo  -  was packed with fans dancing and singing. It's like the whole planet threw a street party at the same time. But one Somali referee who was supposed to make history was sadly blocked from entering the USA.",
+            whyItMatters: "The World Cup brings billions of people together  -  and also reveals which countries open their doors and which don't.",
+            mnemonic: "World Cup 2026 = 3 countries, 1 ball, infinite joy ⚽🌎"
+          },
+          {
+            headline: "Taiwan waits nervously for $14 billion in weapons from the USA",
+            eli5: "Taiwan is a small island that China says belongs to it. Taiwan disagrees. The USA said it would send $14 billion worth of weapons to help Taiwan protect itself  -  but the approval is taking a long time. Taiwan is biting its nails wondering: will America really help us? It's like waiting for your big friend to show up while the school bully circles around.",
+            whyItMatters: "This affects the balance of power in all of Asia  -  and could impact global trade and peace.",
+            mnemonic: "Taiwan + 14B = small island, BIG question mark 🏝️❓"
+          }
+        ]
+      },
+      {
+        name: "💸 What's happening with money?", color: C.mint,
+        stories: [
+          {
+            headline: "Global markets nervous as World Cup spending boosts some economies",
+            eli5: "When a huge event like the World Cup happens, money moves like water. Hotels fill up, restaurants sell out, TV ads cost more. Countries hosting games  -  Mexico, USA, Canada  -  are seeing a mini money-boost. But the rest of the world is watching interest rates and wondering if borrowing money will get more expensive soon.",
+            whyItMatters: "Big events shift money in ways most people don't notice  -  understanding this is how smart investors get ahead.",
+            mnemonic: "Big events = money rivers change direction 💰🌊"
+          },
+          {
+            headline: "India's Nifty holds strong above 24,000  -  FIIs buying again",
+            eli5: "The Nifty is like a report card for India's 50 biggest companies. When it stays high, it means investors think India's businesses are healthy. Foreign investors (FIIs)  -  big global money funds  -  are buying Indian stocks again after pulling out earlier this year. Think of it like tourists coming back to a market they had left.",
+            whyItMatters: "When foreign money flows into India, the rupee gets stronger and companies can grow faster.",
+            mnemonic: "FII buying = foreign fans back in India's stadium 🏟️📈"
+          },
+          {
+            headline: "Oil prices steady near $74  -  OPEC holds production unchanged",
+            eli5: "Oil is like the blood of the world economy  -  almost everything runs on it. OPEC (a club of oil-producing countries) decided not to pump more or less oil. So prices stayed calm. When oil is cheap, transportation, food, and manufacturing all get cheaper. When it's expensive, everything costs more.",
+            whyItMatters: "Stable oil prices = stable prices at your local shop and petrol pump.",
+            mnemonic: "OPEC = Oil Price Eating Club 🛢️😄"
+          }
+        ]
+      },
+      {
+        name: "💻 What's happening with technology?", color: C.lavender,
+        stories: [
+          {
+            headline: "Apple's AI features rolling out globally on iPhones",
+            eli5: "Apple is adding a smart assistant to iPhones that can read your emails, summarise long messages, and help you write replies  -  all on your phone without your data going to the internet. It's like having a tiny genius living inside your phone who never tells anyone your secrets.",
+            whyItMatters: "When AI runs privately on your device, it changes who controls your data  -  and that's a big deal for privacy.",
+            mnemonic: "Apple AI = Genius in your pocket, secrets stay locked 🍎🔐"
+          },
+          {
+            headline: "OpenAI releases new model that can reason like a scientist",
+            eli5: "OpenAI's newest AI doesn't just answer questions  -  it thinks step by step, checks its own work, and changes its mind when it finds a mistake. It's like the difference between a student who copies answers and one who actually understands and solves the problem from scratch.",
+            whyItMatters: "AI that reasons means it can help doctors, engineers, and researchers solve harder problems faster.",
+            mnemonic: "New AI = Thinks, Checks, Fixes  -  like a scientist 🔬🤖"
+          },
+          {
+            headline: "Elon Musk's xAI launches Grok 3 with real-time internet access",
+            eli5: "Grok 3 is a chatbot that can browse the internet live while talking to you. Most chatbots only know things from when they were trained. Grok can look things up right now  -  like having a friend who googles things for you while you're having a conversation.",
+            whyItMatters: "Real-time AI changes how people will search for information  -  Google's biggest threat yet.",
+            mnemonic: "Grok = Google + Chatbot had a baby 👶🌐"
+          }
+        ]
+      },
+      {
+        name: "🌿 What's happening with our planet?", color: C.peach,
+        stories: [
+          {
+            headline: "Record heat hits parts of Europe and South Asia in June",
+            eli5: "Parts of Europe and South Asia recorded their hottest June temperatures ever. Imagine your room getting hotter every year, and your air conditioner can barely keep up. That's what's happening to Earth. Scientists say this is exactly what they warned about when they talked about climate change.",
+            whyItMatters: "Heat records breaking every year means crop failures, water shortages, and health risks are becoming normal  -  not rare.",
+            mnemonic: "Record heat = Earth's fever going up every year 🌡️🔥"
+          },
+          {
+            headline: "Amazon rainforest deforestation drops 45% in Brazil  -  a rare win",
+            eli5: "The Amazon is like Earth's lungs  -  it breathes in carbon dioxide and breathes out oxygen. Brazil's new government put strict rules against cutting trees. The result? 45% less forest was destroyed this year compared to last. It's like a patient who quit smoking and their lungs started healing.",
+            whyItMatters: "The Amazon absorbs huge amounts of CO2. Saving it slows down global warming for everyone on Earth.",
+            mnemonic: "Amazon protected = Earth's lungs healing 🫁🌳"
+          },
+          {
+            headline: "Ocean plastic: scientists find new bacteria that eats plastic",
+            eli5: "Scientists discovered bacteria in the ocean that actually eat plastic  -  they break it down like food. It's still early research, but imagine tiny invisible cleaners eating up all the plastic bags and bottles in the sea. Nature found a way  -  now humans need to help it scale up.",
+            whyItMatters: "Plastic pollution kills marine life and enters our food chain. Natural solutions like this could be a game-changer.",
+            mnemonic: "Plastic-eating bacteria = tiny ocean janitors 🦠🌊"
+          }
+        ]
+      }
+    ],
+    quiz: [
+      { q: "Why was South Korea's President Yoon sent to prison?", options: ["He stole money from the government", "He used drones and declared martial law to stay in power", "He started a war with North Korea", "He refused to hold elections"], answer: 1, funFact: "Martial law means the military takes control  -  it's usually only used in war. Using it to stay in power is considered a betrayal of democracy." },
+      { q: "What is the Nifty 50?", options: ["50 richest people in India", "A report card for India's 50 biggest companies", "India's 50 top cricket players", "50 best Indian startups"], answer: 1, funFact: "The Nifty 50 was launched in 1996. It's calculated every second the market is open  -  over 6 hours a day!" },
+      { q: "What makes Grok 3 different from most AI chatbots?", options: ["It speaks 100 languages", "It can draw pictures", "It can browse the internet in real time", "It runs on solar power"], answer: 2, funFact: "Most AI models have a 'knowledge cutoff'  -  they don't know anything after a certain date. Real-time internet access changes everything." }
+    ]
+  },
+
+  markets: {
+    globalPulse: {
+      eli5: "Think of the world's money as a big river. Right now the river is flowing calmly  -  not too fast, not too slow. The US dollar is strong, oil prices are steady, and stock markets in most countries are not crashing. But investors are watching carefully because interest rates are still high, which means borrowing money is expensive  -  like a toll booth on the money river.",
+      keyThings: ["S&P 500 near all-time highs", "USD strong vs most currencies", "Crude oil ~$74/barrel  -  stable", "India Nifty above 24,000"]
+    },
+    indianMarket: {
+      eli5: "India's stock market is like a giant bazaar. Right now the bazaar is busy and buzzing  -  shoppers (investors) are back after a quiet phase. Big foreign funds are buying Indian stocks again, especially in banking, IT, and infrastructure. The mood is cautiously excited  -  like the first day of Diwali shopping.",
+      breakouts: [
+        { name: "IRFC (Indian Railway Finance Corp)", halal: "conditional", buyPrice: "Rs.175", sellPrice: "Rs.200", stopLoss: "Rs.162", whyExciting: "India is spending lakhs of crores on railways. IRFC funds all of it  -  like the bank for Indian Railways. Every new train, track, or station means more business for IRFC. The stock has strong momentum and government backing.", risk: "If government spending on railways slows down, IRFC growth slows too." },
+        { name: "Dixon Technologies", halal: true, buyPrice: "Rs.14,500", sellPrice: "Rs.16,500", stopLoss: "Rs.13,400", whyExciting: "Dixon makes electronics  -  phones, TVs, washing machines  -  for big brands in India. As global companies move manufacturing away from China to India, Dixon wins big contracts. It's riding India's 'Make in India' wave perfectly.", risk: "Highly dependent on a few big clients  -  losing one big client could hurt badly." },
+        { name: "Zomato (Eternal Ltd)", halal: true, buyPrice: "Rs.195", sellPrice: "Rs.230", stopLoss: "Rs.178", whyExciting: "Zomato is not just food delivery anymore  -  it's building a quick-commerce empire with Blinkit. Delivering groceries in 10 minutes across India is a massive business. The stock has recovered strongly and the company turned profitable.", risk: "Intense competition from Swiggy and Zepto  -  price wars can eat into profits." }
+      ],
+      ipoSpot: { name: "Ather Energy IPO (EV Scooters)", verdict: "Watch", eli5: "Ather makes premium electric scooters and is growing fast. But the EV market in India is still young and competitive. Apply only if you believe in India's EV future  -  this is a long-term bet, not a quick flip." },
+      lessonOfDay: { title: "The Rule of 72", story: "Want to know how fast your money doubles? Just divide 72 by the interest rate. Money in a fixed deposit at 7%? 72  7 = about 10 years to double. Money growing at 12% in stocks? 72  12 = 6 years to double. This tiny math trick was used by bankers in the 1400s and still works perfectly today.", mnemonic: "72  rate = years to double. 'Seventy-Two Saves You Time' ️" }
+    },
+    quiz: [
+      { q: "What does IRFC actually do?", options: ["Builds railway stations", "Finances (funds) Indian Railways projects", "Sells train tickets", "Makes railway engines"], answer: 1, funFact: "IRFC borrows money cheaply from markets and lends it to Indian Railways. It's essentially a money pipeline for the entire railway system." },
+      { q: "Using the Rule of 72, if your money grows at 9% per year, how many years to double?", options: ["5 years", "8 years", "10 years", "12 years"], answer: 1, funFact: "72  9 = 8 years. Einstein reportedly called compound interest the 8th wonder of the world." },
+      { q: "What is Blinkit (owned by Zomato)?", options: ["A movie streaming app", "A 10-minute grocery delivery service", "A banking app", "An electric vehicle brand"], answer: 1, funFact: "Blinkit stores are called 'dark stores'  -  mini warehouses near you with no customers inside, only delivery workers packing orders at lightning speed." }
+    ]
+  },
+
+  psychology: {
+    mindTrick: {
+      name: "The Confirmation Bias",
+      eli5: "Your brain is secretly lazy. It already has opinions  -  and instead of changing them, it looks for proof that it was right all along. If you believe Mondays are bad, you notice every bad thing on Monday and ignore the good stuff. Scientists call this Confirmation Bias  -  your brain is its own biggest fan. It's like wearing tinted glasses and never realising the world is actually full colour.",
+      realLife: "You see this every day  -  people only read news that matches their political views, investors only hear good news about stocks they already own. Once you know this bias exists, you can fight it by actively searching for the opposite view.",
+      mnemonic: "Confirmation Bias = Your brain is a YES-MAN who hates being wrong 🙈"
+    },
+    bodyLanguage: {
+      signal: "The Steeple Hand Gesture",
+      eli5: "When someone touches their fingertips together like a church steeple (fingers pointing up, palms apart), they are quietly signalling confidence and control. Presidents, CEOs, and lawyers use this all the time during negotiations. It says 'I am calm, I know what I'm talking about, and I'm not threatened by you'  -  without saying a single word.",
+      howToUse: "Use the steeple when you're making a point in a meeting or presenting an idea. It makes you look certain even when you feel nervous inside.",
+      mnemonic: "Steeple hands = Church of Confidence ⛪👐"
+    },
+    superpower: {
+      name: "Social Proof",
+      story: "A restaurant put a sign: 'Our most ordered dish: Butter Chicken.' Sales of that dish jumped 30%  -  not because the recipe changed, but because people assumed that if everyone orders it, it must be great. This is Social Proof  -  humans are wired to copy the crowd when they're unsure. It's why 5-star reviews work, why queues make places look popular, and why influencers get paid millions.",
+      shield: "When you see 'bestseller', 'most popular', or '10,000 reviews'  -  pause. Ask: am I choosing this because it's actually good for me, or just because others chose it?",
+      mnemonic: "Social Proof = Monkey see, Monkey buy 🐒🛒"
+    },
+    quiz: [
+      { q: "What is Confirmation Bias?", options: ["Believing everything you read online", "Your brain seeking proof that it was already right", "Being extra careful before making decisions", "Changing your mind too quickly"], answer: 1, funFact: "Studies show people spend 36% more time reading articles that agree with their existing beliefs than those that challenge them." },
+      { q: "What does the steeple hand gesture communicate?", options: ["Nervousness and uncertainty", "Boredom and disinterest", "Confidence and control", "Anger and aggression"], answer: 2, funFact: "Barack Obama and Angela Merkel were both famous for using the steeple gesture in press conferences." },
+      { q: "Social Proof works because humans are wired to...", options: ["Always be original", "Copy the crowd when unsure", "Distrust popular things", "Prefer rare items"], answer: 1, funFact: "Social proof is so powerful that people will stand on a street and look up at the sky  -  and within minutes, strangers join them just because others are doing it." }
+    ]
+  },
+
+  leadership: {
+    leaderMove: {
+      name: "Extreme Ownership",
+      story: "Jocko Willink was a US Navy SEAL commander. In a battle in Iraq, his team accidentally fired on allied soldiers  -  a terrible mistake. Instead of blaming his men, Jocko stood up and said: 'It was my fault. I am responsible.' His commanders were stunned. But his team's loyalty to him became unbreakable. Leaders who own their failures inspire others to do the same. A team that never hides mistakes becomes unstoppable.",
+      doThis: "Next time something goes wrong  -  at work, at home, anywhere  -  resist blaming others. Say 'What could I have done differently?' out loud. Do it once a day for 7 days.",
+      mnemonic: "Extreme Ownership = The buck ALWAYS stops with me 🪣"
+    },
+    visionarySecret: {
+      concept: "Second-Order Thinking",
+      eli5: "Most people think one step ahead. Visionaries think two or three. When everyone panics and sells stocks during a crash, Warren Buffett buys. Why? Because he asks: 'And then what happens after that?' First order: market crashes → sell. Second order: prices get cheap → smart money buys → market recovers → patient buyers win. It's like playing chess while others play checkers.",
+      exercise: "Pick any decision you're facing today. Write down what happens first. Then ask 'and then what?' two more times. You'll see options others miss.",
+      mnemonic: "Second-order thinking = Ask 'And then what?' like a 3-year-old 🧒"
+    },
+    eliteHabit: {
+      habit: "The 5-Hour Rule  -  Deliberate Learning",
+      whoAndHow: "Bill Gates, Warren Buffett, Barack Obama and Elon Musk all protect at least 1 hour a day (5 hours per week) purely for reading and learning  -  not emails, not meetings. Gates reads 50 books a year. Buffett spends 80% of his day reading.",
+      whyItWorks: "Your brain is a muscle. Elite performers treat knowledge like compound interest  -  a little every day becomes a massive advantage over years. The world rewards people who know more and think better.",
+      mnemonic: "5-Hour Rule = 1 hour/day keeps ignorance away 📚"
+    },
+    sigmaWisdom: {
+      lesson: "Memento Mori  -  Remember You Will Die",
+      story: "Ancient Roman generals, when given a victory parade, would have a servant whisper in their ear: 'Memento Mori'  -  remember, you will die. Not to be dark. But to remind them: don't get arrogant, don't waste today, the clock is always running. Marcus Aurelius wrote in his private journal every day about death  -  not out of fear, but to stay humble, focused, and intentional.",
+      action: "Every morning, before checking your phone, say this: 'I have one less day than yesterday. What matters most today?' Then do that first.",
+      mnemonic: "Memento Mori = Death is your best time manager "
+    },
+    quiz: [
+      { q: "Extreme Ownership means...", options: ["Taking credit for everything that goes right", "Blaming others when things go wrong", "Taking full responsibility for everything  -  including failures", "Owning a business"], answer: 2, funFact: "Jocko Willink wrote a book called 'Extreme Ownership' that became required reading in many top business schools." },
+      { q: "Second-order thinking asks...", options: ["What happened before this?", "Who is responsible?", "And then what happens after that?", "What is the cheapest option?"], answer: 2, funFact: "Warren Buffett said: 'Someone is sitting in the shade today because someone planted a tree long ago.' That's second-order thinking in one sentence." },
+      { q: "What did Roman generals use Memento Mori for?", options: ["To scare enemies", "To stay humble and focused despite success", "To mourn fallen soldiers", "To plan funerals"], answer: 1, funFact: "Marcus Aurelius wrote his famous book 'Meditations' as a private journal  -  never meant to be published. It's now one of the most read leadership books in the world." }
+    ]
+  },
+
+  wealth: {
+    wealthSecret: {
+      name: "Pay Yourself First",
+      story: "Most people earn money, pay all their bills and expenses, and save whatever is left. The problem? Nothing is ever left. Rich people flip this completely. The moment money arrives, they take a fixed percentage  -  20%, 30%, whatever they decided  -  and save or invest it first. Then they live on what remains. It's like filling your car's fuel tank before giving lifts to everyone else. If you give lifts first, you run out of fuel.",
+      action: "Open a separate bank account today. The moment your salary arrives, transfer 20% into it automatically. Treat it like a bill you must pay yourself.",
+      mnemonic: "Pay Yourself First = Fuel your own tank before driving others 🚗⛽"
+    },
+    moneyMachine: {
+      type: "Index Fund Investing (SIP)",
+      eli5: "An index fund is like buying a tiny piece of every big company in India at once. Instead of betting on one company, you bet on India's entire economy growing. A SIP (Systematic Investment Plan) means you put in a fixed amount every month  -  Rs.1,000, Rs.5,000, whatever  -  automatically. Over time, your money grows like a tree you water every month without thinking.",
+      indiaAngle: "In India, Nifty 50 Index Funds from Zerodha Coin or Groww have returned 12-14% annually over 20 years. Rs.5,000/month for 20 years = approximately Rs.50 lakhs to Rs.1 crore depending on growth.",
+      mnemonic: "SIP = Slow Income Plant  -  water monthly, harvest big 🌱"
+    },
+    mindsetFlip: {
+      oldThinking: "Save money by cutting small expenses  -  skip the coffee, avoid eating out",
+      newThinking: "Grow income aggressively and invest the difference  -  focus on the big numbers",
+      why: "Skipping your daily coffee saves Rs.3,000 a year. One skill upgrade that raises your salary by Rs.50,000 a year is worth 16x more. The wealthy obsess over increasing income and returns  -  not counting rupees on small habits.",
+      mnemonic: "Don't watch the pennies  -  watch the hundreds 💯"
+    },
+    magicNumber: {
+      number: "The 4% Rule",
+      eli5: "This is the secret to financial freedom. If you have saved 25x your annual expenses  -  you can retire. You withdraw 4% of your savings per year and historically, your investments grow fast enough to replace that money forever. Example: If you spend Rs.6 lakhs a year, you need Rs.1.5 crore saved. Then you never need to work again (if you choose not to).",
+      mnemonic: "4% Rule = Save 25x your expenses → Free forever 🗝️"
+    },
+    quiz: [
+      { q: "What does 'Pay Yourself First' mean?", options: ["Buy yourself gifts before bills", "Save/invest before spending on anything else", "Pay your salary in advance", "Never share money with others"], answer: 1, funFact: "George Clason wrote about this concept in 'The Richest Man in Babylon' in 1926  -  and it's still the most powerful wealth habit ever described." },
+      { q: "What is a SIP?", options: ["A savings interest plan", "Investing a fixed amount automatically every month", "A type of bank loan", "Stock investment premium"], answer: 1, funFact: "SIPs use 'rupee cost averaging'  -  you automatically buy more units when prices are low and fewer when high. This means market crashes actually help your long-term SIP." },
+      { q: "Using the 4% Rule, if you spend Rs.8 lakhs per year, how much do you need to retire?", options: ["Rs.80 lakhs", "Rs.1 crore", "Rs.2 crores", "Rs.5 crores"], answer: 2, funFact: "Rs.8 lakhs  25 = Rs.2 crores. The 4% Rule was developed by financial planner William Bengen in 1994 after studying 75 years of market data." }
+    ]
+  },
+
+  communication: {
+    speakingSkill: {
+      name: "The Rhetorical Triangle  -  Ethos, Pathos, Logos",
+      story: "Aristotle, 2,400 years ago, figured out why some people can walk into a room and change minds  -  while others talk for hours and no one listens. He said every powerful speech needs three things: Ethos (why should they trust you?), Pathos (do they feel something?), Logos (does your logic make sense?). Steve Jobs used all three every time he spoke. 'This changes everything'  -  that's pathos. Showing the product working  -  logos. His history of building Apple  -  ethos.",
+      drill: "Next time you want to convince someone of anything  -  write three sentences: one that builds your credibility, one that connects emotionally, one that gives logical proof. Say all three.",
+      mnemonic: "Ethos + Pathos + Logos = EPL  -  The Premier League of Persuasion ⚽🎤"
+    },
+    negotiationMove: {
+      tactic: "The Mirroring Technique",
+      eli5: "FBI negotiator Chris Voss discovered that simply repeating the last 3 words someone said  -  as a question  -  makes them keep talking, feel heard, and reveal more information. It's like holding up a mirror to their words. No arguing, no rebutting, just reflecting back.",
+      script: "They say: 'We can't do this deal right now.' You say softly: '...Can't do it?' Then stay silent. They will fill the silence and explain themselves.",
+      mnemonic: "Mirror = Repeat last 3 words + silence = they talk more 🪞"
+    },
+    officeWin: {
+      rule: "Reply to messages within 24 hours  -  always",
+      story: "Person A gets an email from a senior manager and replies in 4 minutes with a clear answer. Person B sees the same email, thinks 'I'll do it later,' and replies in 3 days. Who gets promoted? Responsiveness signals reliability. In an office, being easy to work with is worth more than being the smartest person in the room.",
+      mistake: "Most people prioritise tasks they feel like doing over tasks that make others see them as reliable.",
+      mnemonic: "Fast replies = Trustworthy reputation, slow replies = forgotten ⚡📧"
+    },
+    confidenceHack: {
+      technique: "Power Posing for 2 Minutes",
+      science: "Harvard psychologist Amy Cuddy found that standing in a powerful pose  -  chest open, hands on hips, chin slightly up  -  for just 2 minutes raises testosterone (confidence chemical) and lowers cortisol (stress chemical) in your body. Your body changes your mind before your mind changes your body.",
+      doItNow: "Before any important meeting, presentation, or interview: go to a bathroom or private space. Stand with hands on hips, chest open, chin up for exactly 2 minutes. Walk in feeling different.",
+      mnemonic: "2 minutes of Power Pose = Superman mode activated 🦸"
+    },
+    quiz: [
+      { q: "What are the three parts of Aristotle's Rhetorical Triangle?", options: ["Logic, Emotion, Volume", "Ethos, Pathos, Logos", "Facts, Stories, Questions", "Speed, Clarity, Confidence"], answer: 1, funFact: "Aristotle wrote 'Rhetoric' in 350 BC. It is still taught in law schools, business schools, and speech programmes worldwide today." },
+      { q: "In the Mirroring technique, what do you repeat?", options: ["The first word they said", "Everything they said", "The last 3 words as a question", "Only facts and numbers"], answer: 2, funFact: "Chris Voss used mirroring to negotiate hostage releases with international criminals. The same technique works just as well in salary negotiations." },
+      { q: "Power Posing for 2 minutes changes which chemicals in your body?", options: ["Serotonin and dopamine", "Testosterone and cortisol", "Adrenaline and insulin", "Melatonin and oxytocin"], answer: 1, funFact: "Amy Cuddy's TED talk on Power Posing is one of the 5 most-watched TED talks in history with over 60 million views." }
+    ]
+  },
+
+  mind: {
+    brainHack: {
+      name: "The 5-Second Rule",
+      eli5: "Your brain has an alarm system. The moment you think of doing something hard  -  exercise, making a difficult call, starting work  -  your brain fires a tiny panic signal and distracts you. Mel Robbins discovered if you count backwards from 5 (5-4-3-2-1) and physically move your body at '1', you interrupt that alarm before it stops you. It's like launching a rocket  -  once ignition fires, it goes.",
+      protocol: "Whenever you feel the urge to delay something important: count 5-4-3-2-1 out loud or in your head, and physically move  -  stand up, open the app, pick up the phone  -  the moment you hit 1. Do not pause. Movement is the activation key.",
+      mnemonic: "5-4-3-2-1 GO = Rocket launch your brain 🚀"
+    },
+    disciplineCode: {
+      principle: "Eat the Frog First",
+      story: "Mark Twain once said: if you eat a live frog first thing in the morning, nothing worse can happen to you for the rest of the day. Brian Tracy turned this into a productivity philosophy: your most difficult, most important task is the frog. Do it first, before email, before social media, before anything else. Every Navy SEAL, elite athlete, and top CEO versions of this  -  protect the first hours for the hardest work.",
+      todayAction: "Write down the ONE task you've been avoiding most. Set your alarm 30 minutes earlier tomorrow. Do only that task first thing. Nothing else until it's done.",
+      mnemonic: "Eat the Frog = Hard thing first, easy day after 🐸"
+    },
+    impulseKiller: {
+      urge: "Phone scrolling / distraction addiction",
+      eli5: "Your phone is designed by hundreds of engineers to be as addictive as a slot machine. Every scroll, every notification is a tiny dopamine hit  -  a small reward that makes you want more. Your brain starts craving it like sugar. The 'monster' in your head says 'just one more scroll' and hours disappear.",
+      interrupt: "The moment you feel the urge to pick up your phone for no reason: put it face-down, take 3 slow deep breaths, and ask 'What was I supposed to be doing?' This 20-second interrupt breaks the automatic loop. Also: keep your phone in a different room while working.",
+      mnemonic: "Phone urge interrupt = Flip. Breathe. Refocus. 📱🔄"
+    },
+    bodyUpgrade: {
+      practice: "Cold Exposure (Cold Shower)",
+      eli5: "When you step into cold water, your body releases a huge surge of norepinephrine  -  up to 300% more than normal. This is the chemical responsible for focus, energy, and mood. Dr. Andrew Huberman at Stanford calls it the most powerful non-pharmaceutical mood booster available to anyone for free.",
+      minimumDose: "Just 30 seconds of cold water at the end of your regular shower, every morning. That's it.",
+      mnemonic: "Cold shower = Free brain upgrade, costs only discomfort 🥶⚡"
+    },
+    quiz: [
+      { q: "What does the 5-Second Rule do to your brain?", options: ["Makes you think harder", "Interrupts the panic alarm before it stops you acting", "Slows down decision making", "Improves memory"], answer: 1, funFact: "Mel Robbins developed the 5-Second Rule to stop herself from not getting out of bed. It became a book that sold over 3 million copies." },
+      { q: "What is 'Eating the Frog'?", options: ["Eating an unusual breakfast for energy", "Doing your hardest task first thing in the morning", "Facing your biggest fear once a week", "Skipping meals to improve focus"], answer: 1, funFact: "Brian Tracy's book 'Eat That Frog!' has been translated into 42 languages. The concept is older  -  attributed to Mark Twain from the 1800s." },
+      { q: "Cold exposure increases which brain chemical by up to 300%?", options: ["Serotonin", "Melatonin", "Norepinephrine", "Dopamine"], answer: 2, funFact: "Norepinephrine is used in anti-depressant medications. A cold shower gives you a natural surge of it  -  and the effect lasts hours." }
+    ]
+  },
+
+  knowledge: {
+    mathMagic: {
+      concept: "Compound Interest (The 8th Wonder)",
+      eli5: "Imagine you have a magic snowball at the top of a hill. As it rolls down, it picks up more snow. The bigger it gets, the more snow it picks up  -  faster and faster. That's compound interest. You earn money on your money. Then you earn money on THAT money. A small snowball with enough hill becomes an avalanche. Rs.10,000 at 12% per year becomes Rs.96,000 in 20 years  -  without adding a single rupee more.",
+      realWorldUse: "Every SIP, every FD, every stock investment runs on this principle. The key secret: time is the hill. Start early, and even small amounts become enormous. Start late, and even large amounts struggle to catch up.",
+      mnemonic: "Compound Interest = Snowball on a hill  -  starts small, becomes unstoppable ☃️"
+    },
+    scienceWow: {
+      field: "Astronomy",
+      concept: "The Observable Universe",
+      eli5: "Look up at the night sky. Every star you see is just in our galaxy  -  the Milky Way. But there are over 2 trillion galaxies in the observable universe. The word 'observable' is key  -  it's just the part of the universe whose light has had time to reach us in 13.8 billion years. The actual universe could be infinitely larger. You are one human, on one planet, in one solar system, in one galaxy, among 2 trillion others. And yet  -  here you are, aware of all of it.",
+      mindBlow: "If you shrank the entire observable universe to the size of Earth, the Milky Way would be smaller than a single atom. The scale is so large it literally breaks normal human intuition.",
+      mnemonic: "2 Trillion galaxies = You are small AND significant 🌌"
+    },
+    historyStory: {
+      event: "The Mongol Empire  -  Genghis Khan's Management System",
+      story: "Genghis Khan built the largest land empire in history  -  not just by fighting, but by being the greatest talent manager of the medieval world. He promoted generals based on merit, not family. He gave conquered engineers, doctors, and scholars important jobs in his empire. He created the first international postal system (Yam) across 12,000 km. He allowed religious freedom across all conquered lands. He was brutal in war  -  but brilliant in governance.",
+      lesson: "The most powerful organisations in history weren't just the strongest  -  they were the ones that attracted, kept, and promoted the best talent. Hire for skill, not loyalty. That lesson still applies in every company today.",
+      mnemonic: "Genghis Khan = The original meritocracy CEO 🏇"
+    },
+    earthSecret: {
+      place: "Singapore",
+      secret: "Singapore has no natural resources  -  no oil, no minerals, barely any land, almost no fresh water. It imports most of its water from Malaysia and even recycles toilet water into drinking water (called NEWater). In 1965 when it became independent, it was poorer than most of Africa. Today it has one of the highest GDPs per capita in the world. Its only resource was human brains.",
+      edge: "Singapore proves that a country (or a person) with zero natural advantages can become elite through systems, education, discipline, and smart governance. You don't need to be born with resources  -  you need to be resourceful.",
+      mnemonic: "Singapore = No resources + Smart systems = World-class wealth 🇸🇬"
+    },
+    quiz: [
+      { q: "Compound interest is like a snowball because...", options: ["It's cold and hard", "It gets bigger faster the bigger it already is", "It melts over time", "It only works downhill"], answer: 1, funFact: "Warren Buffett made 97% of his entire wealth after the age of 65  -  purely because compound interest had 50+ years to work on his early investments." },
+      { q: "How many galaxies are in the observable universe?", options: ["1 million", "1 billion", "200 billion", "2 trillion"], answer: 3, funFact: "Scientists upgraded the galaxy count from 200 billion to 2 trillion in 2016 using the Hubble Space Telescope's deep field images." },
+      { q: "What made Genghis Khan's empire so successful besides military power?", options: ["He had the most soldiers", "He promoted talent on merit and welcomed skilled people from conquered lands", "He taxed everyone heavily", "He refused to share power with anyone"], answer: 1, funFact: "The Mongol Empire's postal system (Yam) could deliver a message across 12,000 km in just a few days  -  faster than most 19th-century postal services." }
+    ]
+  },
+
+  ai: {
+    toolSpotlight: {
+      name: "Perplexity AI",
+      category: "Research",
+      eli5: "Perplexity is like having a research assistant who reads the entire internet, finds the most relevant pages, and gives you a clear answer with links to where it found everything. Unlike regular Google (which shows you links and you read them yourself), Perplexity reads them for you and writes a summary. It's perfect for quickly understanding any topic  -  from investing to science to current news.",
+      secretMove: "Use Perplexity's 'Focus' modes: switch to 'Academic' to search only peer-reviewed papers, or 'YouTube' to find video answers. For Indian market research, type your question and add 'India context' at the end  -  you get far more relevant results than Google.",
+      mnemonic: "Perplexity = Google + Reading + Summary, all in one 🔍📖"
+    },
+    workflowWin: {
+      title: "The Daily Brief Summariser",
+      problem: "Reading news, reports, and emails every morning takes 1-2 hours. Most of it is noise. You need the signal fast.",
+      steps: [
+        "Paste any long article or report into Claude or ChatGPT",
+        "Type: 'Summarise this in 5 bullet points for someone who has 2 minutes. Highlight what's surprising or new.'",
+        "For emails: 'What does this person actually want from me? What's the right reply?'",
+        "Save your favourite prompts as text shortcuts on your phone keyboard for instant use"
+      ],
+      timeSaved: "Save 45-60 minutes every morning  -  redirected to learning or deep work.",
+      mnemonic: "AI Summariser = Read 1 hour of content in 3 minutes 📰⚡"
+    },
+    promptOfDay: {
+      purpose: "Turn any confusing topic into a simple explanation you actually understand",
+      prompt: "Explain [TOPIC] to me like I am a curious 12-year-old who loves stories and examples. Use an analogy from everyday life. Then give me the 3 most important things I should remember about it. Then give me 1 question I should ask to go deeper.",
+      where: "Claude, ChatGPT, or Gemini",
+      mnemonic: "The 12-year-old prompt = Never be confused by anything again 🧒💡"
+    },
+    futureWatch: {
+      trend: "AI Agents  -  AI that does tasks, not just answers questions",
+      eli5: "Right now, AI chatbots are like very smart advisors  -  you ask, they answer. AI Agents are different. They take action on your behalf. They can browse the web, write and send emails, book meetings, run code, and complete multi-step tasks  -  all on their own. It's the difference between asking a friend for directions and giving them your car keys.",
+      yourMove: "Start learning how to use tools like Claude's computer use, AutoGPT, or Microsoft Copilot Actions now. The people who know how to direct AI agents will be 10x more productive than those who don't within 2 years.",
+      mnemonic: "AI Agents = AI goes from talking to DOING 🤖➡️⚡"
+    },
+    quiz: [
+      { q: "What makes Perplexity AI different from Google?", options: ["It has more websites indexed", "It reads pages for you and gives a summarised answer with sources", "It has a better design", "It only works for science topics"], answer: 1, funFact: "Perplexity was founded in 2022 and reached 10 million users in its first year. It now handles over 100 million queries per month." },
+      { q: "What is an AI Agent?", options: ["An AI that only answers questions", "An AI that takes action and completes multi-step tasks on your behalf", "A human who helps train AI", "A type of robot"], answer: 1, funFact: "In 2025, companies started reporting that AI Agents reduced administrative work by 40-60%  -  the biggest productivity shift since email was invented." },
+      { q: "What should you add to the end of the 12-year-old prompt to go deeper?", options: ["More examples please", "The 1 question I should ask to go deeper", "Give me a quiz", "Translate this to simple English"], answer: 1, funFact: "The 'Feynman Technique' of learning says: if you can't explain something simply, you don't understand it yet. The 12-year-old prompt forces AI to use this method." }
+    ]
+  },
+
+  travel: {
+    destination: {
+      country: "Japan",
+      region: "Kyoto & Osaka",
+      eli5: "Imagine a place where ancient temples sit next to bullet trains, where a bowl of noodles can cost Rs.200 but feel like the best meal of your life, where vending machines sell hot coffee and cold beer on the same street corner, and where everyone around you is unfailingly polite. Kyoto is Japan's soul  -  2,000 temples, bamboo forests, geisha districts. Osaka is its stomach  -  food markets, street snacks, loud laughter. Together they are unlike anywhere else on Earth.",
+      bestTime: "March-April (cherry blossoms) or October-November (autumn leaves)  -  both are visually surreal and the weather is perfect.",
+      hiddenGem: "Fushimi Inari shrine in Kyoto has 10,000 orange torii gates winding up a mountain. Most tourists walk 20 minutes and turn back. Walk 90 minutes to the top  -  the crowds vanish completely and you have ancient Japan entirely to yourself.",
+      mnemonic: "Kyoto = Culture, Osaka = Food, Japan = Respect everything 🇯🇵"
+    },
+    visaTip: {
+      focus: "Japan Visa for Indian Passport Holders",
+      eli5: "Japan requires a tourist visa for Indians  -  but it's very straightforward if you have a clean travel history. You apply at the Japan Consulate or through an authorised travel agent. You need: confirmed hotel bookings, return flight tickets, bank statements showing sufficient funds (generally Rs.1.5-2 lakhs), and your last 3 months' salary slips or ITR. Processing takes 5-7 working days.",
+      goldenTip: "If you have a valid US, UK, Schengen, or Australian visa with travel history, Japan almost always approves your visa faster and with less scrutiny. Show prior international travel whenever possible.",
+      mnemonic: "Japan Visa = Clean documents + Past travel = Smooth approval ✈️📋"
+    },
+    culturalCode: {
+      culture: "Japan",
+      doThis: "Bow when greeting  -  even a small nod works. Remove your shoes when entering homes and many traditional restaurants (look for a raised floor at the entrance). Say 'itadakimasu' before eating  -  it means 'I humbly receive' and locals love it when foreigners know this.",
+      neverDoThis: "Never tip in Japan  -  it is considered rude, as if you're saying the staff doesn't earn enough or needs charity. Also never eat or drink while walking on the street  -  Japanese people eat only when seated. And never talk loudly on the phone on trains  -  keep calls to an absolute whisper.",
+      mnemonic: "Japan rule: Bow + No tip + No walking food = Respect unlocked 🙇"
+    },
+    quiz: [
+      { q: "What is the best-kept secret about Fushimi Inari shrine?", options: ["It's free to enter", "If you walk 90 minutes to the top, the crowds disappear", "It has the world's best ramen inside", "It's only open at night"], answer: 1, funFact: "Fushimi Inari's 10,000 torii gates were each donated by Japanese businesses. The names of the donors are written on the back of each gate." },
+      { q: "Is tipping in Japan polite or rude?", options: ["Polite  -  always tip 10%", "Rude  -  considered offensive", "Only tip at expensive restaurants", "Only tip taxi drivers"], answer: 1, funFact: "In Japan, excellent service is considered a matter of personal and professional pride  -  not something you pay extra for. Tipping can actually make staff uncomfortable." },
+      { q: "What prior visa history helps Indian travellers get Japan visa faster?", options: ["South Asian visas", "Valid US, UK, Schengen or Australian visa with travel history", "SAARC country visas", "No prior travel needed"], answer: 1, funFact: "Japan introduced a special 'trusted traveller' fast-track process for Indians with strong US/Schengen visa history in 2023, cutting processing time from 10 days to 3." }
+    ]
+  }
+}
+
+const d260614 = {
+  news: { segments: [
+    { name: "🌐 What's happening with countries?", color: "#a0d4f5", stories: [
+      { headline: "Trump announces Strait of Hormuz deal  -  oil blockade to end Friday", eli5: "After 37 false starts, something finally changed on June 14. Trump posted that the US had reached an agreement with Iran: the Strait of Hormuz would reopen and the US blockade would lift on Friday when the deal was formally signed. The crucial difference this time  -  Iran did NOT immediately deny it. Every previous announcement had been shot down by Tehran within hours. This silence from Iran was read by experienced Middle East watchers as confirmation. Oil fell $7 in a single day  -  the largest single-day oil price fall in three months.", whyItMatters: "A genuine Hormuz reopening would reduce Indian petrol prices, strengthen the rupee, boost the Nifty, and ease global food inflation for millions of people simultaneously.", mnemonic: "June 14 Hormuz deal = Iran didn't deny it. Oil fell $7. The 38th claim was finally the real one." },
+      { headline: "Trump turns 80 at UFC Freedom 250 on White House South Lawn", eli5: "President Trump celebrated his 80th birthday on June 14 by hosting the first-ever UFC event at the White House South Lawn  -  UFC Freedom 250. It was invitation-only with political allies, celebrities, and top fighters. UFC president Dana White organised the event as a gift to Trump. The images: a boxing ring on the South Lawn of the presidential residence, surrounded by political guests and fight fans. Whatever one thinks of the politics, it was historically unprecedented  -  no president had ever hosted a combat sports event at the White House.", whyItMatters: "Presidential optics shape how the president is perceived. Hosting a fighting event on his birthday signalled the cultural identity Trump wanted to project  -  unconventional, dominant, entertainment-driven.", mnemonic: "UFC at White House June 14 = Trump 80th birthday + South Lawn boxing ring. First ever. Historically unprecedented." },
+      { headline: "Britain investigates sanctioned Russian shadow fleet tanker seized in English Channel", eli5: "British authorities seized a tanker suspected of being part of Russia's 'shadow fleet'  -  a network of approximately 600 ships that transport Russian oil in violation of Western sanctions, using false flags, changing names, and obscure registrations. The vessel was stopped in the English Channel and investigators boarded it. The Hormuz crisis had actually increased shadow fleet activity as sanctioned Russian oil found alternative buyers who couldn't access Middle Eastern oil.", whyItMatters: "The Russian shadow fleet shows how sanctions create shadow economies  -  and how geopolitical crises create demand for sanctions-evading supply chains.", mnemonic: "Russian shadow fleet = 600 ships evading sanctions. Britain seized one. The tanker game played in plain sight." }
+    ]},
+    { name: "💸 What's happening with money?", color: "#a8edcb", stories: [
+      { headline: "Oil falls from $95 to $88  -  India's markets post best day of June", eli5: "June 14 was India's best market day in over a month. Oil fell $7 on the Hormuz deal. Nifty gained 1.8%. IndiGo soared 5.3%  -  the airline's best single day since the FIFA World Cup booking rush. Asian Paints jumped 3.2%. The rupee strengthened from Rs 84.8 to Rs 83.5 per dollar. Foreign investors (FIIs) flipped from net sellers to net buyers  -  pouring Rs 2,100 crore into Indian equities in a single session. Three weeks of fear unravelled in eight hours.", whyItMatters: "India's oil sensitivity means a $7/barrel oil fall improves corporate margins across aviation, paints, chemicals, logistics, and FMCG simultaneously  -  creating broad market gains.", mnemonic: "June 14 market = $7 oil fall -> Nifty +1.8% -> IndiGo +5.3% -> FIIs buy Rs 2,100 crore. The release valve opens." },
+      { headline: "France and Germany sign EUR 180 billion climate technology deal", eli5: "France and Germany  -  Europe's two largest economies  -  announced a major bilateral climate technology partnership. EUR 180 billion over 10 years, covering: shared hydrogen infrastructure, joint nuclear development (a historic reversal for Germany which closed its last nuclear plants in 2023), cross-border electricity grid integration, and clean technology industrial policy. Germany's nuclear reversal was the headline  -  driven directly by the energy crisis caused by the Hormuz closure making energy security a political emergency.", whyItMatters: "The Franco-German deal was the most significant European energy policy shift since Russia's 2022 gas cutoff  -  signalling that energy security would permanently override anti-nuclear sentiment in European policy.", mnemonic: "France-Germany EUR 180B deal = Germany reverses on nuclear. Hormuz crisis changed European energy politics permanently." }
+    ]},
+    { name: "💻 What's happening with technology?", color: "#c9b8f5", stories: [
+      { headline: "New York Knicks win NBA Championship  -  Jalen Brunson named Finals MVP", eli5: "The New York Knicks defeated the San Antonio Spurs in five games to win their first NBA Championship since 1973  -  ending a 53-year drought. Jalen Brunson, the Knicks' point guard who had become the face of their rebuild, was named Finals MVP. Madison Square Garden, already famous for booing Trump days earlier, became the site of one of New York City's largest celebrations in decades. New York had won the World Cup (soccer) host city designation, the NBA title, and was hosting the UN General Assembly later in 2026  -  a New York year.", whyItMatters: "Sports championships have measurable economic effects on cities: increased tourism, merchandise sales, and civic morale. The Knicks' title gave New York a cultural moment during what had been an economically tense summer.", mnemonic: "Knicks 2026 NBA champions = 53-year wait over. Brunson MVP. MSG: booed Trump one week, celebrated a title the next." }
+    ]},
+    { name: "🌿 What's happening with our planet?", color: "#f5c6a0", stories: [
+      { headline: "Oil price fall: what lower crude means for India's petrol prices", eli5: "With Brent crude falling from $95 to $88, analysts calculated the potential impact on Indian petrol prices. At $88/barrel (and the rupee at 83.5), the 'ideal' price of petrol in India would be approximately Rs 92-94 per litre  -  versus the artificially capped price of Rs 94-95 that the government had been holding. If oil stabilised at $85 post-deal, there was actually scope for government to reduce petrol prices slightly  -  a political gift ahead of state elections in four states scheduled for late 2026.", whyItMatters: "Indian petrol prices directly affect the cost of living for 1.4 billion people  -  transportation, food delivery, goods movement, and agricultural costs all cascade from the pump price.", mnemonic: "Oil to $88 = Petrol price relief possible. State elections in 2026: political gift timing. Government math works at $85." }
+    ]}
+  ], quiz: [
+    { q: "The June 14 Hormuz deal announcement was credible because...", options: ["Trump used different wording than before", "Iran did not immediately deny it  -  a significant change from all previous announcements where Tehran quickly contradicted Trump's claims", "Oman confirmed the deal", "Oil markets were correct 100% of the time previously"], answer: 1, funFact: "Oman has been the back-channel broker between Iran and the US for every major negotiation since 2013  -  including the Obama-era JCPOA talks, the Trump-era preliminary contacts, and the 2026 negotiations. When Oman's foreign minister makes positive statements about 'progress,' it reliably signals genuine diplomatic movement. The Oman signal came 48 hours before the June 14 announcement." },
+    { q: "The Knicks' 1973 championship reference matters because...", options: ["1973 was a memorable year for other reasons", "The 53-year championship drought made this the longest wait ended by any major sports title in recent US history  -  making the emotional significance proportional to the wait", "The 1973 team had the same players", "Basketball was more popular in 1973"], answer: 1, funFact: "The New York Knicks' 1973 championship team was led by Walt Frazier and Willis Reed  -  the latter famous for limping onto the court injured before Game 7 of the 1970 Finals (their other championship) in one of sports history's most dramatic moments. By 2026, the longest-suffering fanbase in major US sports had outlasted the Cubs' 108-year baseball drought (ended 2016) in terms of emotional intensity." },
+    { q: "Germany's nuclear reversal in the France-Germany deal was driven by...", options: ["Scientific consensus changing on nuclear safety", "The Hormuz closure creating an energy security emergency that made the cost of anti-nuclear ideology too high to maintain", "France pressuring Germany for decades", "New nuclear reactor technology making it safer"], answer: 1, funFact: "Germany paid the highest industrial electricity prices in the developed world during 2022-2026 as a direct result of shutting nuclear plants and depending on Russian gas. German industrial competitiveness declined measurably. The political cost of maintaining the anti-nuclear stance, in the face of these concrete economic consequences, finally exceeded the political cost of reversing it." }
+  ]},
+  markets: { globalPulse: { eli5: "June 14 was the global market's best day in months. Oil fell $7, the risk-off trade reversed completely. USD weakened. Emerging market currencies strengthened. European stocks gained 1.5-2%. Asian markets surged. Bond yields fell as inflation expectations reduced. The mood: cautious relief. Three weeks of fear compressing into one day's gain.", keyThings: ["Brent Crude: $95 -> $88  -  largest single-day fall since March", "Nifty: +1.8%  -  best single day since April", "IndiGo: +5.3%  -  aviation sector leader", "FII buying: Rs 2,100 crore net purchase  -  first net buying week in June"] },
+    indianMarket: { eli5: "India's market on June 14 showed exactly what happens when three weeks of pent-up buying pressure meets a genuine oil positive trigger. Every oil-sensitive sector moved sharply and simultaneously: aviation, paints, chemicals, logistics, consumer discretionary. The rupee's 130-paisa strengthening was equally important for import-heavy businesses. This was the market pricing a deal that hadn't been signed yet  -  pure expectation buying.", breakouts: [
+      { name: "IndiGo Airlines (NSE: INDIGO)", whyExciting: "Up 5.3% on the day. The airline had fallen 18% in June  -  so this recovery was just the start. IndiGo's breakeven is near $85/barrel. At $88 and falling, Q2 FY27 profitability was being repriced immediately. The market was doing the maths in real time.", risk: "If deal falls through and oil returns above $90, the recovery reverses completely. Geopolitical risk is binary here." , halal: true, buyPrice: 'Rs.3,650', sellPrice: 'Rs.4,200', stopLoss: 'Rs.3,400'},
+      { name: "Asian Paints (NSE: ASIANPAINT)", whyExciting: "Up 3.2% on oil fall. Raw material costs (55% of total costs) directly tied to crude. Every $5/barrel fall in oil improves Asian Paints' margins by roughly 50-70 basis points. At $88 oil, the valuation re-rating thesis becomes very attractive.", risk: "If oil stabilises at $88 rather than falling to $80, the full margin recovery is only partial." , halal: true, buyPrice: 'Rs.2,680', sellPrice: 'Rs.3,050', stopLoss: 'Rs.2,500'},
+      { name: "Berger Paints (NSE: BERGEPAINT)", whyExciting: "Asian Paints' main competitor had fallen even more sharply. The same raw material sensitivity, but with faster growth in Tier 2-3 markets and a lower valuation. The recovery would likely be sharper.", risk: "Smaller balance sheet, less ability to absorb sustained high input costs if the deal collapses." , halal: 'conditional', buyPrice: 'N/A', sellPrice: 'N/A', stopLoss: 'N/A'}
+    ], ipoSpot: { name: "Ather Energy IPO  -  approaching launch window", verdict: "Watch closely", eli5: "With oil at $88 and the EV narrative re-energised, Ather's IPO window was opening. EV adoption accelerates when fossil fuel prices are both high currently AND expected to rise in future  -  the Hormuz crisis created both conditions permanently in investor minds." }, lessonOfDay: { title: "Markets Move on Expectations, Not Reality", story: "The Hormuz deal was unsigned on June 14. No formal agreement existed. Yet oil fell $7 and Nifty gained 1.8%. By the time the deal was formally signed Friday, most of the gain was already made. This is how markets work: they don't price current reality  -  they price expected future reality. The investor who understood this bought on the expectation, not the confirmation. 'Buy the rumour, sell the news' is one of investing's oldest rules for this reason.", mnemonic: "Markets price expectations not reality. Hormuz deal unsigned, oil already fell $7. Buy the expectation, not the confirmation." } },
+    quiz: [
+      { q: "FIIs switching to net buying on June 14 shows...", options: ["They received new mandates", "Reduced oil risk changed the emerging market risk-reward calculation  -  India became more attractive as oil risk reduced", "Retail investors led them in", "SEBI changed FII rules"], answer: 1, funFact: "Foreign institutional investors hold approximately 20% of Indian market capitalisation. Their flows are the single largest short-to-medium term driver of Nifty direction. The June 14 Rs 2,100 crore net buying  -  after weeks of selling  -  was one of the sharpest single-day sentiment reversals of 2026." },
+      { q: "IndiGo's 5.3% single-day gain on June 14 reflected...", options: ["Strong quarterly earnings", "Markets immediately repricing the airline's earnings power as oil fell  -  $7/barrel lower oil means billions in reduced annual fuel costs", "New route announcements", "Government aviation policy changes"], answer: 1, funFact: "Aviation stocks globally are considered among the highest-beta plays on oil price  -  they move disproportionately to oil changes because fuel is 30-35% of their operating costs. When oil falls 7%, aviation stocks typically move 3-5x that percentage in the positive direction as markets price the full margin improvement." },
+      { q: "Germany's energy crisis from 2022-2026 was caused partly by...", options: ["Closing nuclear plants and depending on Russian gas  -  both of which proved fragile simultaneously", "Excessive renewable energy investment", "EU energy regulations", "German industrial decline"], answer: 0, funFact: "Germany's Energiewende (energy transition) shut nuclear plants from 2011-2023 while natural gas (primarily from Russia) filled the gap. When Russia invaded Ukraine in 2022 and cut gas, Germany faced an energy crisis. The Hormuz closure in 2026 added oil supply pressure. The dual energy shocks within 4 years made the case for nuclear energy impossible to politically resist." }
+    ]
+  },
+  psychology: { mindTrick: { name: "The Peak-End Rule  -  Only Peak and Ending Are Remembered", eli5: "Daniel Kahneman discovered that humans don't remember experiences by their average quality  -  they remember them by two moments: the most intense moment (peak) and how it ended. A 30-minute uncomfortable medical procedure that ended gently was remembered as less painful than a shorter one that ended abruptly on a painful note  -  even though the shorter one involved less total pain. Disney parks engineer this obsessively: the last thing you do before leaving is designed to be positive. Airlines are rated by the landing experience. Restaurants by the farewell.", realLife: "Every service business should engineer positive peaks and positive endings. Every professional should end meetings on a constructive note, end presentations with their strongest point, end client relationships with warmth. The middle can be mediocre  -  the peak and end determine the memory.", mnemonic: "Peak-end rule = Only peak and ending matter for memory. Engineer both deliberately. The middle is forgiven." },
+    bodyLanguage: { signal: "The Touch Barrier  -  Brief Appropriate Touch Builds Trust", eli5: "In any interaction, who initiates appropriate touch first signals social comfort and warmth. Waiters who briefly touch customers' arm when giving change receive 35% higher tips. Doctors who briefly touch patients' forearm during consultation receive higher satisfaction ratings. The brief, contextually appropriate touch creates connection that words alone cannot. It activates oxytocin  -  the trust hormone  -  in both the toucher and the touched.", howToUse: "A firm, warm handshake with both hands briefly. A light touch on the shoulder when someone shares difficult news. These brief touches within cultural norms create warmth that extends through the entire interaction.", mnemonic: "Brief appropriate touch = Trust accelerant. 35% more tips in restaurant studies. Oxytocin activator." },
+    superpower: { name: "Mere Exposure Effect  -  Familiarity Creates Preference", story: "Robert Zajonc showed people Turkish words repeatedly. Then showed pairs  -  one seen before, one new  -  and asked which they preferred. They consistently preferred words they had seen before, even though all words were meaningless to them. Familiarity = preference, regardless of merit. This is why advertising repetition works, why political signs win votes, why you like a song more on the fifth listen than the first. The brain interprets familiarity as safety.", shield: "Before choosing anything based on preference  -  a brand, a politician, an idea  -  ask: do I actually have evidence this is good, or have I just been exposed to it repeatedly? Mere exposure creates the feeling of preference without the substance of it.", mnemonic: "Mere Exposure = Seen 3 times -> Preferred. Political signs work on this alone. Familiarity feels like quality." },
+    quiz: [
+      { q: "Disney engineers positive last experiences because...", options: ["Last experiences are cheapest", "The Peak-End Rule means the final moment disproportionately shapes the entire memory of the visit  -  a positive farewell overrides much of what came before", "Disney wants repeat business", "Guests are most tired at the end"], answer: 1, funFact: "Kahneman's colonoscopy experiment: patients preferred a 7-minute procedure that ended at moderate discomfort over a 4-minute one that ended at high discomfort  -  even though the longer one involved more total pain. The ending dominated the memory so completely that it determined overall satisfaction rating." },
+      { q: "The 35% tip increase from a waiter's brief arm touch works because...", options: ["Touched customers feel obligated", "Brief appropriate touch activates social bonding and warmth  -  increasing perceived quality of the entire service experience", "Waiters who touch earn higher base wages", "Restaurants train waiters to touch"], answer: 1, funFact: "Nicolas Guegen's restaurant research across multiple French establishments found the touch effect worked consistently  -  but only when the touch was: brief (under 1 second), contextually appropriate, and not repeated. A second touch in the same meal had no additional effect. The first touch was the warmth trigger." },
+      { q: "The Mere Exposure Effect explains why advertising repetition works even without persuasive content because...", options: ["Ads become more convincing with repetition", "Repeated exposure creates familiarity which the brain interprets as preference  -  without any logical persuasion required", "People remember ads better with repetition", "Advertising agencies charge for repetition"], answer: 1, funFact: "Zajonc's research showed the mere exposure effect works even for subliminal exposures  -  images flashed too quickly to be consciously registered still created preference for those images when shown later. The preference builds without awareness, which is both advertising's most powerful technique and its most ethically complex one." }
+    ]
+  },
+  leadership: { leaderMove: { name: "The Abundance Mindset  -  Others' Success Isn't Your Failure", story: "Elon Musk open-sourced all of Tesla's patents in 2014. His reasoning: more electric vehicles globally would grow the EV infrastructure (charging networks, battery supply chains) that Tesla needed. A rising tide for EV lifts Tesla's boat. By 2026, the global EV market was 15x what it was in 2014. Tesla's early patent sharing helped create an industry that Tesla now leads. Stephen Covey called this the abundance mindset: believing there is enough for everyone, that others' success creates more opportunity rather than less.", doThis: "Identify one person whose success you feel even slight competitive resentment toward. Write down two ways their success could actually benefit you  -  through inspiration, network effects, or by raising your field's profile. The reframe is uncomfortable but changes everything.", mnemonic: "Abundance mindset = Tesla open-sourced patents. EV market grew 15x. Rising tide strategy. Others' success = your opportunity." },
+    visionarySecret: { concept: "The Beginner's Mind  -  Fresh Eyes See What Experts Cannot", eli5: "Zen Buddhism's 'shoshin': approaching situations as if for the first time, without the assumptions expertise creates. Experts are fast because of pattern recognition  -  but blind to patterns that don't match their templates. Bezos' 'Day 1 thinking' is the business version: 'What would we do if we were starting today, knowing nothing about our existing investments?' The beginner sees what the expert has normalised.", exercise: "Pick your area of deepest expertise. Ask: 'If I encountered this field for the first time today, what would immediately seem strange, wrong, or like an obvious opportunity?' Write three things. These are your innovation targets.", mnemonic: "Beginner's mind = Expert's speed minus expert's blindness. Fresh eyes see what expertise makes invisible." },
+    eliteHabit: { habit: "The Evening Preview  -  Design Tomorrow Before You Sleep", whoAndHow: "Cal Newport's shutdown ritual: review calendar and task list, capture open items, declare 'shutdown complete.' Tony Robbins' evening practice: review wins and lessons, visualise tomorrow's key outcome as already achieved. Both serve the same function: closing cognitive loops before sleep (improving sleep quality) and priming tomorrow's priorities before the morning scramble begins.", whyItWorks: "Unresolved tasks stay in working memory (Zeigarnik effect), consuming sleep quality. Deliberately closing them signals the brain that tomorrow is handled  -  reducing the 2am anxiety spiral. Morning clarity is designed the night before.", mnemonic: "Evening preview = Close today's loops, prime tomorrow's wins. 10 minutes before sleep designs the next morning." },
+    sigmaWisdom: { lesson: "The Inner Scorecard  -  Know When You Did Your Best", story: "Warren Buffett: 'The big question about how people behave is whether they've got an inner scorecard or an outer scorecard. Would you rather be the world's greatest lover but have everyone think you're the world's worst? Or the world's worst lover but have everyone think you're the world's greatest?' The person with an inner scorecard knows intrinsically whether they did their best work, independent of applause. The outer scorecard person needs external validation to know if anything was worth doing.", action: "After your most important work this week: close your eyes and answer honestly  -  'On my own standard, ignoring what anyone else thinks, was this my best?' Notice how different this feels from waiting for someone else's verdict.", mnemonic: "Inner scorecard = You know when you did your best. No applause required. Buffett's secret to not caring about critics." },
+    quiz: [
+      { q: "Tesla open-sourcing patents in 2014 was strategically smart because...", options: ["Tesla had too many patents to maintain", "Growing the overall EV market through shared technology would build the infrastructure Tesla needed  -  a rising EV tide lifts Tesla's boat", "Patents were expiring anyway", "Regulations required it"], answer: 1, funFact: "Musk's 2014 patent release announcement included the line: 'If we clear a path to the creation of compelling electric vehicles, but then lay intellectual property landmines behind us to inhibit others, we are acting in a manner contrary to that goal.' Tesla's decision to grow the market rather than protect its position is studied in business schools as the definitive example of abundance-mindset competitive strategy." },
+      { q: "Cal Newport's 'shutdown complete' ritual works because...", options: ["It marks the end of the work day", "Deliberately closing cognitive loops before sleep reduces the Zeigarnik effect (unresolved tasks consuming working memory)  -  improving sleep quality and morning clarity", "It helps with work-life balance", "It documents completed work"], answer: 1, funFact: "Newport documented in 'Deep Work' that knowledge workers who use explicit shutdown rituals report falling asleep 23% faster and waking with clearer priorities than those who transition from work to evening without ritual. The brain needs explicit signals that tasks are handled before it will release them from working memory." },
+      { q: "Buffett's inner vs outer scorecard matters for sustained excellence because...", options: ["External validation motivates consistently", "Inner scorecard provides stable, self-referential motivation that doesn't depend on others' changing opinions  -  outer scorecard people are vulnerable to manipulation by praise and criticism", "Outer scorecards require more effort", "Buffett invented the concept"], answer: 1, funFact: "Buffett attributes his ability to hold Berkshire positions through public criticism  -  refusing dotcom stocks through 1999-2000 when he was called 'out of touch,' and refusing bank stocks in 2007 when everyone thought he was being too cautious  -  entirely to his inner scorecard. He knew his reasoning was sound and didn't need the market to confirm it in real time." }
+    ]
+  },
+  wealth: { wealthSecret: { name: "Financial Independence  -  The Number That Changes Everything", story: "Mr. Money Mustache (Pete Adeney) retired at 30 with $600,000  -  not because he was rich, but because he calculated his FI (financial independence) number and hit it. FI Number = Annual Expenses x 25 (the 25x Rule). If you spend Rs 6 lakh per year: Rs 6 lakh x 25 = Rs 1.5 crore. At Rs 1.5 crore invested in a diversified portfolio growing at 12% annually, you can withdraw Rs 6 lakh per year indefinitely  -  the portfolio grows faster than you draw it down. This number  -  your FI number  -  is the most important financial calculation you can make. Everything else follows from it.", action: "Calculate your FI number right now: add up your current annual expenses. Multiply by 25. That's the number. Write it down. Now calculate how far you are. The gap becomes your investment target.", mnemonic: "FI Number = Annual expenses x 25. At this number, investments fund your life forever. Calculate yours. Today." },
+    moneyMachine: { type: "Business Ownership Through Index Funds", eli5: "When you buy a Nifty 50 index fund, you own fractional shares of India's 50 largest companies  -  TCS, HDFC Bank, Reliance, Infosys, Asian Paints, and 45 more. You're a part-owner of the largest businesses in India. As those businesses grow  -  and they have grown at roughly 12% annually for 30 years  -  your fractional ownership grows with them. This is the magic of index investing: you own a tiny piece of every great Indian business without having to pick which ones will win.", indiaAngle: "The Nifty 50 has returned approximately 12% annually since inception in 1996. Rs 1,000 invested at inception would be approximately Rs 20,000 today  -  20x in 30 years. A monthly SIP of Rs 5,000 over the same period would have grown to approximately Rs 1.5 crore. This is available to any Indian with a Demat account.", mnemonic: "Index fund = Tiny ownership of 50 best Indian companies. 12% average annual return for 30 years. The simplest path to wealth." },
+    mindsetFlip: { oldThinking: "I need to pick the right stocks to build wealth", newThinking: "Owning all the best companies through an index fund beats stock picking for 85% of investors over 10+ years", why: "SEBI data shows 70-80% of actively managed large-cap funds underperform the Nifty 50 index over 10 years. The index fund  -  which costs 0.05-0.1% per year  -  beats most 'expert' fund managers who charge 1-2% per year. The fee difference alone explains most of the performance gap. Simplicity wins in investing.", mnemonic: "Index beats stock picking = 80% of experts lose to Nifty over 10 years. Boring is beautiful in investing." },
+    magicNumber: { number: "4% Safe Withdrawal Rate", eli5: "The 4% rule (William Bengen, 1994): once you've reached your FI number, you can safely withdraw 4% of your portfolio annually  -  adjusted for inflation  -  without ever running out of money over a 30-year retirement. At Rs 1.5 crore: 4% = Rs 6 lakh per year. The rule is based on 70+ years of market history: no 30-year period starting with 4% withdrawal has ever depleted a diversified portfolio. This rule is the mathematical foundation of financial independence.", mnemonic: "4% rule = Safe annual withdrawal from FI portfolio. Rs 1.5 crore -> Rs 6 lakh/year forever. Maths proven over 70 years." },
+    quiz: [
+      { q: "The 25x FI Number works because...", options: ["25 is a round number that's easy to calculate", "At 25x annual expenses invested, a 4% annual withdrawal equals your annual expenses  -  and a diversified portfolio historically grows faster than 4%, so the principal is never depleted", "Government recommends 25x savings", "25 years is the average retirement length"], answer: 1, funFact: "Pete Adeney ('Mr. Money Mustache') published his early retirement story in 2011 on a blog that became one of the most-read personal finance publications in the world. His core insight: most people drastically overestimate how much they need to retire and drastically underestimate the power of reducing spending. Reducing annual expenses by Rs 1 lakh doesn't just save Rs 1 lakh  -  it reduces your FI number by Rs 25 lakh (Rs 1L x 25)." },
+      { q: "The Nifty 50 index fund outperforms most active fund managers because...", options: ["Active managers make poor decisions", "Lower fees (0.05-0.1% vs 1-2%) compound dramatically over time, and consistently beating market returns is statistically very difficult even for professionals", "Index funds take less risk", "Nifty 50 companies are always the best companies"], answer: 1, funFact: "The fee difference seems small: 0.1% index fund vs 1.5% active fund = 1.4% difference. Over 30 years on Rs 10 lakh: the index fund portfolio is approximately Rs 2.95 crore. The active fund portfolio (assuming same gross return minus higher fee): approximately Rs 2.25 crore. The 1.4% fee difference creates a Rs 70 lakh difference  -  entirely from fees on the same underlying return." },
+      { q: "The 4% safe withdrawal rate has never depleted a portfolio because...", options: ["4% is below average market return", "Diversified portfolios historically grow at 10-12% annually  -  even after 4% annual withdrawals and inflation adjustments, the remaining capital continues compounding", "The rule has government backing", "4% matches inflation precisely"], answer: 1, funFact: "Bengen's original research covered US markets from 1926-1976. His finding held through the Great Depression, World War II, the 1970s stagflation, and the 1987 crash. Updated research including global markets and extending to 1994-2024 has confirmed the rule holds  -  though some researchers suggest 3.5% for longer retirements (40+ years) given lower expected future returns." }
+    ]
+  },
+  communication: { speakingSkill: { name: "The Framing Effect  -  How You Say It Changes What They Hear", story: "Kahneman's famous experiment: doctors chose between two cancer surgeries differently based on wording. 'This surgery has a 90% survival rate': 82% chose it. 'This surgery has a 10% mortality rate': 50% chose it. Identical information. Completely different decisions. Framing is everything. A project behind schedule becomes 'we've completed 80% and are optimising the final phase.' A proposal rejected becomes 'we've learned exactly what the client needs and are refining accordingly.' A missed target becomes 'we captured 60% of the opportunity and have a clear path to the remaining 40%.'", drill: "Take the most uncomfortable message you need to deliver this week. Write it as a straight negative: 'We missed the target.' Now rewrite it framed around what was achieved and what comes next. Notice how the same facts produce completely different responses.", mnemonic: "Framing = Same facts, different emphasis = Different decision. 90% survival vs 10% mortality. Engineer the frame." },
+    negotiationMove: { tactic: "The Nibble  -  One Small Addition After Agreement", eli5: "Once a deal is agreed and both parties are mentally 'done,' asking for one small additional thing is called a nibble. 'Great, we have a deal. Could you also include [small thing] to make this complete?' At this point, the other party doesn't want to re-open the negotiation over something minor. Most nibbles succeed  -  the small addition seems trivial relative to the main deal. The key: ask after agreement, frame it as the thing that makes this 'work completely', and make it genuinely small relative to the deal.", script: "'Perfect  -  we're agreed on everything. One small thing that would really help: could you also include [specific item]? That would make this work seamlessly for our team.'", mnemonic: "Nibble = After deal agreed, ask for one small extra. Nobody wants to reopen over small things. 70%+ success rate." },
+    officeWin: { rule: "Give credit publicly, always", story: "Manager A presents team work to leadership: 'I built this model.' Manager B: 'Sarah's analysis revealed this pattern, and James built the model that made it actionable.' After 12 months: Manager A's team has stopped contributing beyond the minimum  -  there's no upside to exceptional work. Manager B's team works harder because their names reach senior leadership. The manager who gives public credit loses nothing and gains everything: a team that produces more, stays longer, and makes the manager look great by proxy.", mistake: "Taking credit for team work gains it once (the presentation) and loses it permanently in team motivation and retention. The maths decisively favours credit generosity.", mnemonic: "Public credit = 'Sarah's analysis.' 'James's model.' Your team produces more. You look like a great leader." },
+    confidenceHack: { technique: "Eliminate Hedging Language  -  Speak in Declarations", science: "Research shows speakers who use hedging language ('I think,' 'maybe,' 'sort of,' 'I'm not entirely sure but...') are rated as significantly less confident, less expert, and less persuasive than speakers saying the exact same content directly. The hedge signals lack of ownership. Replace: 'I think we should maybe consider...' with 'We should consider...' Replace: 'It might be possible that...' with 'The evidence shows...' If you're genuinely uncertain, state it directly: 'I don't have data on that'  -  not 'I sort of think it might be...'", doItNow: "Record yourself answering a question you know well. Count every hedging word. Rerecord without them. Notice how different the same content sounds from the same person.", mnemonic: "No hedging = Replace 'I think maybe' with direct statements. Same content, completely different authority signal." },
+    quiz: [
+      { q: "Kahneman's 90% survival vs 10% mortality framing experiment shows...", options: ["Doctors make poor decisions", "Identical information with different emphasis produces dramatically different choices  -  even from trained experts", "Survival rates matter more than mortality rates medically", "Framing only affects non-experts"], answer: 1, funFact: "Tversky and Kahneman ran the framing experiment with medical professionals, graduate students, and the general public. The results were consistent across all groups  -  experts were as susceptible as novices to the framing effect. This finding challenged the assumption that training and expertise reduce cognitive bias. In many cases, expertise creates overconfidence that makes people MORE susceptible to well-executed framing." },
+      { q: "The nibble works after agreement is reached because...", options: ["Deals are never truly final", "Mental closure on the main deal makes the other party unwilling to re-open over something small  -  the psychological cost of re-opening exceeds the small concession", "People are more generous after agreement", "It's a standard contract provision"], answer: 1, funFact: "Roger Dawson's research on nibbles across real estate, business, and employment negotiations: 70% success rate for nibbles asked immediately after agreement, vs 30% for the same request made during negotiation. The post-agreement timing is the entire technique  -  the same request at a different moment has a completely different outcome." },
+      { q: "Eliminating hedging language improves perceived expertise because...", options: ["Experts never have uncertainty", "Direct declarative speech signals ownership and confidence  -  listeners subconsciously rate direct speakers as more competent regardless of the content being identical", "Shorter sentences are always clearer", "Hedging wastes time"], answer: 1, funFact: "Robin Lakoff's 1975 linguistics research first documented 'women's speech' patterns including hedging and tag questions  -  and correlated them with lower perceived authority. Later research showed the same patterns in any speaker (regardless of gender) consistently reduce perceived expertise. Professional communication training now explicitly addresses hedging elimination as a confidence skill." }
+    ]
+  },
+  mind: { brainHack: { name: "The Implementation Intention  -  Bridge Intention and Action", eli5: "Peter Gollwitzer's research: people who stated specific when-where-how plans for their goals followed through at 91% rate vs 35% for those with only intention. The formula: 'When [specific trigger], I will [specific action] in [specific location].' 'When I sit at my desk at 9am, I will open my draft document and write for 25 minutes.' The specificity converts a vague goal into a pre-programmed response  -  the trigger automatically activates the action without requiring willpower.", protocol: "For your most important current goal: write exactly: 'When [specific moment/trigger], I will [exact action] in [exact location].' The more specific, the more powerful. Vague intentions fail. Specific triggers succeed.", mnemonic: "Implementation intention = When X happens, I will do Y at Z. 91% vs 35% follow-through. Specificity is the mechanism." },
+    disciplineCode: { principle: "Identity-Based Habits  -  Be Before You Do", story: "James Clear's central insight: most people try to change behaviour by targeting outcomes ('I want to lose weight') or processes ('I'll do intermittent fasting'). The most durable change starts with identity: 'I am a healthy person.' Every action either confirms or contradicts the identity. The two-step: decide who you want to be. Prove it with small actions. Each small proof reinforces the identity. The identity becomes genuinely who you are.", todayAction: "Choose one identity statement for a habit you've been struggling to build: 'I am a [reader/investor/runner/learner].' Write it down. Do one small action today that proves it. Not a big action  -  a confirming one. One page. One investment. Ten minutes of running.", mnemonic: "Identity habit = 'I am a reader' -> reads one page. Identity drives behaviour. Behaviour confirms identity." },
+    impulseKiller: { urge: "Revenge bedtime procrastination  -  staying up late as the only 'me time'", eli5: "A phenomenon first named by Chinese internet users: 'revenge bedtime procrastination.' People whose days are controlled by work, family, and obligation stay up 1-2 hours later than they should, scrolling their phones or watching TV  -  as an act of psychological revenge against days with no free time. The result: chronic sleep deprivation that makes every subsequent day harder, requiring more revenge procrastination the next night. It's a trap that compounds.", interrupt: "Recognise the pattern. The solution isn't willpower  -  it's building genuine free time into the day so bedtime isn't the only escape. Schedule 30 minutes of unstructured time in the afternoon. The bedtime procrastination reduces when there's another outlet.", mnemonic: "Revenge bedtime procrastination = Staying up late as only me-time. Fix: schedule daytime free time. Give the pressure another outlet." },
+    bodyUpgrade: { practice: "Resistance Training 2x Per Week  -  Compound Health Returns", eli5: "Lifting weights (or resistance training with bodyweight) produces benefits that compound over decades: preserves muscle mass (natural ageing reduces it 3-5% per decade after 30), increases resting metabolic rate, strengthens bones against osteoporosis, improves insulin sensitivity, and reduces depression as effectively as medication in several clinical trials. The minimum effective dose is lower than most people believe: two 30-45 minute sessions per week covering major muscle groups.", minimumDose: "2x per week, 30-45 minutes, covering: legs (squats/lunges), back (rows/pullups), chest (pushups), shoulders. Bodyweight exercises are sufficient for the first 3-6 months  -  no gym membership required.", mnemonic: "Resistance training 2x/week = Decade-long health compounding. Antidepressant equivalent. No gym needed to start." },
+    quiz: [
+      { q: "Implementation intentions achieve 91% follow-through vs 35% for plain intentions because...", options: ["They are written down", "Specific trigger-action-location plans create pre-programmed responses that activate automatically when the trigger occurs  -  bypassing the willpower required to initiate vague intentions", "They are shorter commitments", "Research participants were more motivated"], answer: 1, funFact: "Gollwitzer's 20+ years of implementation intention research has been replicated across diet, exercise, voting, study habits, and medication adherence. The finding holds across cultures and age groups. The specificity requirement is non-negotiable: 'I will exercise more' has 35% follow-through. 'When I wake up on Tuesday at 7am, I will put on my running shoes and go outside for 20 minutes' has 91%." },
+      { q: "James Clear's identity-based habit approach is more durable than outcome-based goals because...", options: ["Identity is easier to change than behaviour", "Identity creates internal consistency pressure  -  each action either confirms or contradicts who you believe you are, creating automatic motivation that doesn't require willpower", "Outcomes are often not in our control", "Clear's research sample was larger"], answer: 1, funFact: "Clear's Atomic Habits sold over 15 million copies globally  -  making it one of the best-selling non-fiction books of the 2020s. The identity-based habit concept directly counters the self-help industry's traditional outcome focus ('lose 10 kilos', 'earn Rs 10 lakh') with the insight that identity ('I am a healthy person') produces the outcomes as a natural consequence rather than forcing the outcomes through willpower." },
+      { q: "Revenge bedtime procrastination is a trap because...", options: ["Sleep is medically important", "The sleep deprivation it causes makes subsequent days more stressful and constraining, increasing the need for revenge procrastination the next night  -  creating a self-reinforcing cycle", "Screen time before bed reduces sleep quality", "It only happens on weeknights"], answer: 1, funFact: "The term 'revenge bedtime procrastination' (baofuyingxing aoyebobuzhao) went viral on Chinese social media in 2020 during COVID lockdowns when people's days became almost entirely controlled by others. Dr. Daphne K. Lee's tweet explaining the concept was shared over 50,000 times in 24 hours  -  the concept clearly resonated with millions who had never had a name for the pattern they experienced." }
+    ]
+  },
+  knowledge: { mathMagic: { concept: "The Travelling Salesman Problem  -  Why Some Problems Are Impossibly Hard", eli5: "A salesman needs to visit 10 cities and return home, taking the shortest possible route. How many possible routes are there? 362,880. For 20 cities: 2.4 quintillion routes. For 30 cities: more routes than atoms in the observable universe. Even the world's fastest computers cannot solve the optimal route for 30+ cities by checking all possibilities. This is an NP-hard problem  -  a class of problems where finding the perfect solution requires exponentially more computing power as the problem grows. Google Maps, airline routing, and supply chain optimisation all use approximation algorithms because the exact solution is computationally impossible.", realWorldUse: "Amazon's delivery routing, Google Maps' navigation, circuit board design, and DNA sequencing all face variants of this problem. The solution: accept a 'good enough' answer found quickly over a 'perfect' answer that would take forever. This trade-off  -  optimising vs satisficing  -  is one of the most practically important ideas in computer science.", mnemonic: "Travelling Salesman = 30 cities: more routes than atoms in universe. Perfect is impossible. Good enough, fast. The algorithm mindset." },
+    scienceWow: { field: "Astronomy", concept: "The Fermi Paradox  -  Where Is Everyone?", eli5: "In 1950, physicist Enrico Fermi asked a simple question at lunch: given that the universe is 13.8 billion years old, that there are approximately 400 billion stars in our galaxy alone, and that many have Earth-like planets  -  where are all the aliens? If intelligent life developed elsewhere even once in all that time and space, they should have had millions of years to spread across the galaxy. We should see evidence of them everywhere. We see nothing. This is the Fermi Paradox: the contradiction between the near-certainty that extraterrestrial life should exist and the complete absence of evidence.", mindBlow: "Possible explanations include the 'Great Filter'  -  some barrier that almost all civilisations fail to pass. The terrifying version: the filter is ahead of us (nuclear war, AI catastrophe, climate collapse) rather than behind us. The hopeful version: we've already passed it (the improbability of life's origin, or of consciousness evolving).", mnemonic: "Fermi Paradox = Universe 13.8B years old, 400B stars in our galaxy. Where is everyone? No answer. The most unsettling silence." },
+    historyStory: { event: "The Partition of India 1947  -  History's Largest Forced Migration", story: "On August 15, 1947, India gained independence from Britain. The same night, Pakistan was created. The boundary  -  drawn in 36 days by a British lawyer named Cyril Radcliffe who had never been to India  -  divided Punjab and Bengal. Approximately 14-18 million people were forced to migrate across the new border. An estimated 1-2 million were killed in sectarian violence  -  Hindus and Sikhs moving east, Muslims moving west  -  as trains arrived at their destinations full of massacred passengers. Communities that had coexisted for centuries destroyed each other in months.", lesson: "The Partition demonstrates how quickly social identity can be weaponised into violence  -  and how the decisions of a few people in distant rooms (British Cabinet, Radcliffe) produce consequences measured in millions of lives. Every subsequent India-Pakistan conflict, nuclear standoff, and Kashmir dispute descends directly from 36 days of line-drawing in 1947.", mnemonic: "Partition 1947 = 18 million displaced, 2 million killed, in 36 days of British line-drawing. Every India-Pakistan tension: this origin." },
+    earthSecret: { place: "The UAE (United Arab Emirates)", secret: "The UAE was desert with a few fishing villages and pearl diving communities until oil was discovered in 1958. By 2026, Dubai is one of the world's top 5 most visited cities, Abu Dhabi manages the world's largest sovereign wealth fund (ADIA: approximately $850 billion), and the UAE has a per-capita income higher than most Western European countries. The UAE has built the world's tallest building (Burj Khalifa), the world's largest indoor ski slope (in Dubai Mall, in the desert), and is building the world's first planned sustainable city (Masdar). It did all of this in approximately 60 years.", edge: "The UAE's model  -  using resource wealth to buy time to build a knowledge economy (tourism, finance, logistics, technology) before the oil runs out  -  is the most studied development model in the Gulf. Understanding it gives you context for every Gulf state's economic strategy and for why Dubai's role as a global financial and logistics hub has grown even as oil's importance has declined.", mnemonic: "UAE = Desert + oil (1958) = World's top city in 60 years. ADIA: $850B sovereign fund. The fastest development story in history." },
+    quiz: [
+      { q: "The Travelling Salesman Problem is computationally important because...", options: ["It involves actual salespeople", "It demonstrates that some real-world optimisation problems grow exponentially complex  -  requiring approximation algorithms rather than exact solutions for practical scales", "It was the first computer science problem", "It only applies to geography"], answer: 1, funFact: "The Travelling Salesman Problem belongs to the NP-hard class  -  a set of problems that are believed to have no efficient solution (polynomial time algorithm). The P vs NP problem (whether NP-hard problems can be solved efficiently) is one of the 7 Millennium Prize Problems  -  solving it comes with a $1 million prize and would potentially upend cryptography, artificial intelligence, and theoretical computer science simultaneously." },
+      { q: "The Fermi Paradox remains unsolved because...", options: ["We haven't searched enough space", "The contradiction between the mathematical near-certainty of extraterrestrial life existing and the complete absence of any detectable signal has no agreed explanation", "Radio telescopes aren't sensitive enough", "Aliens deliberately hide"], answer: 1, funFact: "The SETI Institute has been systematically searching for extraterrestrial signals since 1984 using radio telescopes across multiple frequency bands. As of 2026, no confirmed extraterrestrial signal has been detected. The WOW! signal (1977) remains unexplained but was never repeated. The silence is statistically remarkable given the number of potentially habitable planets we now know exist." },
+      { q: "The Partition of India's violence was particularly sudden because...", options: ["India and Pakistan had always been in conflict", "Communities that had coexisted for centuries were given days to move across a boundary drawn in 36 days  -  the speed and scale overwhelmed any capacity for orderly transition", "British forces actively encouraged violence", "The boundary was intentionally unfair"], answer: 1, funFact: "Cyril Radcliffe, the British lawyer who drew the partition boundary, arrived in India on July 8, 1947, and completed the boundary award by August 12  -  36 days total. He had no previous experience in India, no detailed maps of mixed communities, and impossible political pressures from all sides. He burned his papers and returned to England immediately after. He never returned to India and refused all requests for interviews about his role." }
+    ]
+  },
+  ai: { toolSpotlight: { name: "Adobe Firefly (Creative AI Suite)", category: "Creative / Design", eli5: "Adobe Firefly is Adobe's AI integrated into Photoshop, Illustrator, and Premiere. The key difference from other AI image tools: Firefly is trained only on licensed content, making it commercially safe  -  businesses can use its outputs without copyright concerns. In Photoshop: 'Generative Fill' allows you to select any area, describe what you want, and AI replaces it seamlessly. Remove objects, extend backgrounds, add people, change lighting. Firefly also does text-to-image, text effects, and video editing in Premiere.", secretMove: "Generative Fill for product photography: take a simple product photo on a plain background, use Firefly to generate a professional studio environment, lifestyle context, or seasonal setting around the product. A Rs 1,000 product photo becomes a Rs 50,000 production shot in 5 minutes.", mnemonic: "Adobe Firefly = AI built into Photoshop. Commercially safe (licensed training data). Generative Fill: replace anything." },
+    workflowWin: { title: "The Content Repurposing System  -  Create Once, Publish Everywhere", problem: "Creating content for multiple platforms (LinkedIn, email newsletter, WhatsApp, Instagram) requires different formats, lengths, and tones  -  consuming hours of reformatting time.", steps: ["Write your core content in long form (a LinkedIn article, a blog post, a detailed email)", "Paste into Claude with: 'Repurpose this into: 1) a 280-character tweet, 2) a 3-bullet WhatsApp message, 3) a 150-word email newsletter section, 4) an Instagram caption with 5 hashtags'", "Review and lightly edit each output (AI usually gets 80-90% right)", "Schedule using Buffer, Hootsuite, or Later  -  one hour of creation becomes a week of cross-platform content"], timeSaved: "Reduces multi-platform content production from 4-6 hours to 60-90 minutes per week.", mnemonic: "Repurposing system = Write once, 4 formats in 10 minutes. One hour of content -> one week of platforms." },
+    promptOfDay: { purpose: "Negotiate a better salary or fee", prompt: "I'm about to negotiate my [salary/freelance fee/consulting rate]. My current [salary/rate] is [AMOUNT]. The market rate for my role and experience in [CITY/INDUSTRY] is approximately [RANGE]. My key achievements in the last year are: [LIST 3 SPECIFIC MEASURABLE ACHIEVEMENTS]. The offer on the table is [AMOUNT]. I want to negotiate to [TARGET AMOUNT]. Write me: 1) An opening line that anchors high without seeming unreasonable, 2) How to respond if they say 'that's too high', 3) What to say if they say 'the budget is fixed', 4) A walkaway line if they won't move at all.", where: "Claude", mnemonic: "Salary negotiation prompt = Opening anchor + objection responses + walkaway line. Prepare all 4 scenarios before the call." },
+    futureWatch: { trend: "AI tutors are achieving better learning outcomes than human teachers for certain subjects", eli5: "Khan Academy's Khanmigo (AI tutor) and several similar systems have produced striking results in controlled studies: students using AI tutors for maths showed 2 standard deviation improvement (equivalent to moving from average to top 5%) in randomised trials. The mechanism: AI tutors have infinite patience, adapt to each student's pace and learning style in real time, never embarrass students for asking basic questions, and provide immediate feedback. For subjects with clear right and wrong answers (maths, coding, language learning), AI tutoring is outperforming the average human teacher in measurable outcomes.", yourMove: "If you're learning anything technical  -  a programming language, mathematics, statistics, a new software  -  try an AI tutor for 30 days before or alongside traditional courses. The combination of structured curriculum (traditional) and adaptive practice (AI tutor) is showing stronger results than either alone.", mnemonic: "AI tutors = 2 standard deviation improvement in maths. Infinite patience + immediate feedback + no judgment. Try for 30 days." },
+    quiz: [
+      { q: "Adobe Firefly's commercial safety advantage comes from...", options: ["Adobe being a large company", "Its training data consists only of licensed content  -  meaning AI-generated outputs can be used commercially without copyright infringement risk", "Adobe guarantees all outputs legally", "Firefly doesn't generate realistic images"], answer: 1, funFact: "The copyright question in AI-generated images became legally significant in 2023-2024 when Getty Images, stock photographers, and artists sued multiple AI image companies for training on unlicensed content. Adobe's decision to train only on licensed Adobe Stock content and public domain images was a deliberate differentiator that made Firefly the enterprise-safe choice for commercial use." },
+      { q: "The content repurposing system's value is primarily...", options: ["It improves content quality", "It eliminates the reformatting time between platforms  -  the same ideas can reach different audiences at appropriate format and length without creating each from scratch", "It reduces the need to create original content", "AI improves quality in repurposing"], answer: 1, funFact: "Gary Vaynerchuk's content team built one of the earliest systematic repurposing workflows: take one long-form piece of content (a keynote, podcast, long video) and extract 20-30 pieces of short-form content from it. This '1 to many' model allowed consistent multi-platform presence without proportionally increasing creation time." },
+      { q: "AI tutors outperforming average human teachers for maths results from...", options: ["AI knowing more mathematics", "Infinite patience, real-time adaptation to each student's pace, immediate feedback, and zero social judgment creating optimal learning conditions that average class sizes prevent human teachers from providing", "AI replacing the need for teachers entirely", "Students preferring AI to humans"], answer: 1, funFact: "Benjamin Bloom's 1984 '2 Sigma Problem' research showed that one-on-one human tutoring produced 2 standard deviation improvement over conventional classroom instruction. The problem: one-on-one human tutoring is economically impossible to scale. AI tutoring appears to achieve similar outcomes at near-zero marginal cost  -  potentially solving one of education's most persistent challenges." }
+    ]
+  },
+  travel: { destination: { country: "France", region: "Paris and Provence", eli5: "France is where civilisation showed off. Paris has the Louvre (35,000 artworks including the Mona Lisa), Notre-Dame Cathedral (rebuilt and reopened December 2024 after the 2019 fire), the Eiffel Tower, and cafes where philosophy was invented over coffee. Provence in the south is France without Paris's crowds: lavender fields in full bloom by June, Roman aqueducts two thousand years old, villages clinging to limestone cliffs, and vineyards that have operated since before the French Revolution. The TGV high-speed train connects Paris to Avignon in 2 hours 40 minutes.", bestTime: "May-June for Provence lavender in bloom and mild Paris weather. September-October for harvest season and fewer crowds. Avoid July-August: school holidays, maximum crowds, peak prices everywhere.", hiddenGem: "The Calanques near Marseille  -  a series of narrow, steep-sided inlets carved into white limestone cliffs plunging directly into the Mediterranean. The water is turquoise and clear to 10 metres depth. Accessible by boat or a 3-hour hike from Marseille. Most Paris-focused tourists never reach Marseille, let alone the Calanques. It's one of Europe's most dramatic coastal landscapes and almost uncrowded.", mnemonic: "France: Paris for art and history. Provence for lavender and Roman ruins. Calanques near Marseille: Europe's secret coast." },
+    visaTip: { focus: "Schengen Visa for France  -  Indian Passport Holders", eli5: "France is in the Schengen Zone  -  one visa for 27 European countries. Apply through VFS Global in Delhi, Mumbai, Bengaluru, Chennai, Hyderabad, or Kolkata. Requirements: refundable hotel bookings, return flights, travel insurance (minimum EUR 30,000), bank statement (Rs 3-4 lakh for 2 weeks), employment letter or ITR. Processing: 15 working days. Cost: approximately Rs 8,000-10,000 total including VFS fees. Book 6-8 weeks ahead, especially for summer.", goldenTip: "Book all accommodation as 'free cancellation' for the visa application  -  shows a complete confirmed itinerary without non-refundable risk. Once the visa is approved, rebook at better rates or at non-refundable lower prices. This approach is legal, standard practice, and reduces financial risk during the uncertain application period.", mnemonic: "Schengen visa trick = Free cancellation bookings for application, rebook after approval. Legal, standard, reduces risk." },
+    culturalCode: { culture: "France", doThis: "Always say 'Bonjour, Monsieur/Madame' before any interaction  -  before asking for directions, before ordering, before entering a shop. French people consider this a basic social contract, and its absence is the most common source of 'rude French' complaints from tourists. Learn five words: Bonjour, Merci, Excusez-moi, S'il vous plait, Pardon. A genuine attempt at even basic French transforms most interactions completely.", neverDoThis: "Never ask for a cafe au lait (coffee with milk) after 11am  -  it marks you immediately as a tourist. Never eat while walking on the street in France  -  it is considered uncouth. Never be loud in restaurants  -  French dining is quiet and conversational. Do not expect ice in drinks unless you specifically request it. Never cut queues anywhere  -  the French queue seriously.", mnemonic: "France: Bonjour Madame/Monsieur FIRST. No cafe au lait after 11am. Quiet in restaurants. Queue seriously." },
+    quiz: [
+      { q: "Notre-Dame Cathedral's 2026 significance is...", options: ["It was never damaged", "It was rebuilt and reopened in December 2024  -  5 years after the 2019 fire  -  in one of history's most watched architectural restoration projects", "It was converted to a museum", "The original structure was too old to repair"], answer: 1, funFact: "The April 2019 fire destroyed Notre-Dame's spire and roof. The rebuilding, completed in 2024, used medieval construction techniques alongside modern engineering  -  with craftspeople from across France and internationally relearning skills not practiced in centuries. The rebuilt spire is an exact replica of Viollet-le-Duc's 19th century design. Approximately 1 billion euros was donated globally for the reconstruction." },
+      { q: "Provence lavender blooms in June because...", options: ["Farmers control blooming through irrigation", "Lavender flowers in summer when long days and warm temperatures trigger flowering  -  June is the peak window before harvest in July", "Lavender was specifically bred for June flowering", "The Mediterranean climate creates ideal June conditions only"], answer: 1, funFact: "Provence produces approximately 1,500 tonnes of lavender essential oil annually  -  approximately 80% of the world's fine lavender oil. The Valensole plateau, visible from the road between Manosque and Riez, is the most photographed lavender landscape  -  rows of purple extending to the horizon with a Provencal stone farmhouse in the background. Peak bloom is typically June 15 to July 15." },
+      { q: "The Calanques near Marseille are unusual because...", options: ["They are the oldest geological formation in France", "They are steep-sided limestone inlets plunging directly into Mediterranean water  -  one of Europe's most dramatic coastal landscapes accessible from a major city but almost uncrowded", "They contain unique marine species found nowhere else", "They are protected national park with limited visitor access"], answer: 1, funFact: "The Calanques National Park (Parc National des Calanques) was established in 2012 and is the only French national park that includes both land and marine territories simultaneously. The park's 8,500 hectares contain 900 plant species, 500 animal species, and water visibility of up to 25 metres  -  making it one of Europe's premier scuba diving destinations, virtually unknown outside France." }
+    ]
+  }
+}
+
+const d260615 = {
+  news: { segments: [
+    { name: "🌐 What's happening with countries?", color: "#a0d4f5", stories: [
+      { headline: "US-Iran deal signed  -  Strait of Hormuz reopens after 8 weeks of closure", eli5: "On Sunday June 15, the formal agreement between the US and Iran was signed in Muscat, Oman. The Strait of Hormuz  -  closed since April  -  would reopen to commercial shipping within 24 hours. The deal's key terms: the US lifts the oil blockade, Iran agrees to limits on uranium enrichment verified by international inspectors, and both sides release frozen assets. Israel's position in Lebanon was addressed in a separate side agreement through Qatari mediation. Oil fell from $88 to $82 in hours  -  the biggest two-day oil price fall since 2020.", whyItMatters: "The Hormuz reopening was the single most important economic event of 2026  -  directly reducing energy costs for 4 billion people across Asia, Africa, and Europe simultaneously.", mnemonic: "June 15 = Hormuz deal signed in Muscat. Oil $88 -> $82. 8 weeks of crisis ends. Oman brokered what everyone else couldn't." },
+      { headline: "FIFA World Cup 2026 Day 5  -  major group stage upsets shake predictions", eli5: "The FIFA World Cup 2026 (hosted across USA, Mexico, and Canada with 48 teams for the first time) continued its group stage on June 15. Several major upsets: Morocco beat Germany 2-1 in Los Angeles, Japan defeated Colombia 3-2 in Dallas, and Saudi Arabia held Brazil to a 1-1 draw in Mexico City. The expanded 48-team format was producing more competitive matches than expected  -  smaller nations had significantly closed the gap with traditional powerhouses. The World Cup was generating enormous commercial activity in host cities.", whyItMatters: "The FIFA World Cup is the most-watched sporting event in human history  -  5 billion viewers for the 2022 final. The 2026 edition in North America was on track to break all records.", mnemonic: "World Cup 2026 Day 5: Morocco beats Germany. Japan beats Colombia. Saudi holds Brazil. Smaller nations compete." },
+      { headline: "Belfast riots end as community leaders broker peace  -  investigation begins", eli5: "After six nights of anti-immigration riots in Belfast that saw homes burned and families evacuated, community leaders from both sides of Belfast's traditional sectarian divide brokered a ceasefire among the rioters. The UK government announced a commission to investigate both the immediate causes of the riots and the deeper economic grievances that had made immigration a flash point. Northern Ireland's peace process, already fragile after Brexit, faced its most serious stress test in years.", whyItMatters: "Belfast's riots were a symptom of broader European social tensions around immigration, economic inequality, and identity  -  and their ending through community leadership rather than government force was significant.", mnemonic: "Belfast riots end June 15 = Community leaders brokered peace, not government force. Economic investigation begins." }
+    ]},
+    { name: "💸 What's happening with money?", color: "#a8edcb", stories: [
+      { headline: "Oil falls to $82 on Hormuz deal  -  India celebrates as petrol relief possible", eli5: "Two days of oil price falls: $95 on June 13, $88 on June 14, $82 on June 15. A $13 fall in three days  -  the fastest sustained oil price decline since COVID lockdowns ended in 2021. India's response: Nifty surged another 2.1% on June 15. IndiGo gained another 4.2% (up nearly 10% in two days). The rupee strengthened to Rs 82.9. Petrol price reduction of Rs 3-4/litre was now mathematically possible and politically attractive  -  state elections were coming. Finance ministry officials began calculating the fiscal space.", whyItMatters: "Oil at $82 changes the economics of India's entire economy: petrol prices fall, logistics costs fall, manufacturing margins improve, consumer spending increases, and inflation eases.", mnemonic: "Oil $82 June 15 = Nifty +2.1%, IndiGo +4.2%, rupee at 82.9. Two days of oil falls changed India's outlook completely." },
+      { headline: "Sensex crosses 77,000  -  market posts best two-day gain of 2026", eli5: "The combination of the Hormuz deal and oil falling to $82 produced one of India's strongest two-day market rallies in years. Sensex crossed 77,000 for the first time since February. Nifty at 23,750 was rapidly approaching its 2026 high. Breadth was excellent: 1,800 stocks advanced vs 200 declined. Every sector gained  -  even IT, which had been hit by global tech fears, joined the rally. The mood: genuine relief that the worst-case scenario (permanent $95+ oil) was off the table.", whyItMatters: "The Sensex 77,000 milestone represented India's stock market reassessing the entire macro outlook  -  from 'oil emergency' to 'oil normalisation' in 48 hours.", mnemonic: "Sensex 77,000 June 15 = Best 2-day gain of 2026. 1,800 stocks up. Oil crisis officially over in markets' eyes." }
+    ]},
+    { name: "💻 What's happening with technology?", color: "#c9b8f5", stories: [
+      { headline: "SpaceX files IPO documentation with SEC  -  $350 billion valuation confirmed", eli5: "Following weeks of reporting, SpaceX formally filed its S-1 registration document with the SEC on June 15  -  the first official step in going public. The filing confirmed: $350 billion valuation, Starlink (satellite internet) generating $8.2 billion in annual revenue and growing at 40% annually, Falcon 9 with 95% market share in commercial orbital launches, and Starship approaching commercial readiness. Musk's stake: 42%. At $350 billion, his SpaceX holding alone was worth approximately $147 billion.", whyItMatters: "SpaceX's S-1 filing made the IPO real  -  and provided the first detailed look at the financials of the world's most important private company.", mnemonic: "SpaceX S-1 filed June 15 = $350B valuation confirmed. Starlink: $8.2B revenue, 40% growth. Real numbers, real IPO." }
+    ]},
+    { name: "🌿 What's happening with our planet?", color: "#f5c6a0", stories: [
+      { headline: "Oil at $82 accelerates clean energy investment slowdown  -  the irony of the crisis", eli5: "Environmental economists noted a striking irony on June 15: the Hormuz crisis, which had pushed oil to $97 and created enormous momentum for clean energy adoption, was ending just as that momentum had become most visible. Oil at $82  -  still historically elevated but falling  -  reduced the urgency of EV adoption, solar installation, and efficiency investments at the margin. Every $10 fall in oil reduces clean energy's relative economic advantage. The crisis that had inadvertently accelerated the energy transition was resolving.", whyItMatters: "Energy transition momentum depends partly on fossil fuel prices  -  sustained high prices accelerate clean energy; price normalisation slows the urgency. The Hormuz crisis was clean energy's most powerful recent tailwind.", mnemonic: "Oil at $82 = Clean energy urgency eases slightly. Crisis inadvertently accelerated transition. Resolution slows it again. The irony." }
+    ]}
+  ], quiz: [
+    { q: "The Hormuz deal was signed in Muscat, Oman because...", options: ["Oman is geographically closest to Iran", "Oman has maintained diplomatic relations with Iran, Israel, the US, and all regional powers simultaneously  -  making it the only back-channel everyone trusts", "The UAE refused to host", "Oman offered the best facilities"], answer: 1, funFact: "Oman has hosted: the 2013 secret US-Iran talks that led to the 2015 JCPOA nuclear deal, the 2019 preliminary contacts between the Trump administration and Tehran, and now the 2026 Hormuz settlement. Oman's neutrality is structural  -  it shares a maritime border with Iran, depends on the Strait of Hormuz for its own exports, and has maintained non-alignment since Sultan Qaboos established the policy in 1970." },
+    { q: "The 2026 FIFA World Cup's expanded 48-team format produced more upsets because...", options: ["Better referees in 2026", "More teams from previously under-represented regions (Africa, Asia, North America) had significantly closed the talent gap with traditional European and South American powers", "European teams were weakened by Iran conflict distraction", "The expanded format included weaker teams that beat stronger ones randomly"], answer: 1, funFact: "Morocco's victory over Germany in the 2026 World Cup group stage continued a pattern: Morocco had reached the semi-finals of the 2022 World Cup (the first African team ever to do so), and by 2026 had built on that foundation with professional leagues, European-based players, and UEFA-standard coaching. The talent globalisation of football had created genuine competitive parity that the 48-team format showcased." },
+    { q: "India's Sensex crossing 77,000 on June 15 reflected...", options: ["Strong quarterly earnings", "Markets repricing India's entire economic outlook from 'oil emergency at $95+' to 'oil normalisation at $82'  -  a complete macro reassessment in 48 hours", "Government stimulus announcement", "FII mandates requiring India purchases"], answer: 1, funFact: "The Sensex's two-day gain of approximately 3,000 points (June 14-15) was the fastest 3,000-point gain since the COVID vaccine announcement in November 2020. Both events shared the same characteristic: a binary shift from a feared negative outcome being removed from the table, rather than a positive surprise being added." }
+  ]},
+  markets: { globalPulse: { eli5: "June 15 completed the best two-day global market rally of 2026. Oil at $82, the crisis officially resolved, risk appetite restored. Emerging markets surged globally. European markets gained another 1%. Gold fell as safe-haven demand unwound. Bond yields rose as inflation expectations improved. The great rotation: sell safety assets (gold, bonds, USD), buy risk assets (equities, emerging markets, oil-sensitive sectors). Three weeks of fear priced out in 48 hours.", keyThings: ["Brent Crude: $82  -  down $13 from two-day high of $95", "Sensex: crossed 77,000  -  2026 high", "Nifty: 23,750  -  up 4.2% in two days", "Rupee: 82.9  -  strongest since early June"] },
+    indianMarket: { eli5: "India's market on June 15 was a release of three weeks of compressed buying. Every sector participated: aviation up 4-5%, paints up 3-4%, chemicals up 3%, IT recovered 2%, banks up 2%, FMCG up 1.5%. The breadth was the most important indicator  -  1,800 stocks advancing vs 200 declining meant this was genuine market-wide recovery, not just a few sectors. FIIs bought another Rs 1,800 crore. Domestic institutional investors (DIIs) also participated after holding back during the crisis.", breakouts: [
+      { name: "InterGlobe Aviation / IndiGo (NSE: INDIGO)", whyExciting: "The biggest winner of the two-day rally: up nearly 10% from June 13 close. Oil at $82 vs $95 = Rs 6,000-8,000 crore annual fuel cost saving. IndiGo's Q2 FY27 now expected to be profitable vs earlier fear of significant losses. The stock had given back two months of gains during the crisis  -  it was recovering those losses rapidly.", risk: "Any geopolitical flare-up that re-closes Hormuz would immediately reverse the recovery. The tail risk remains." , halal: true, buyPrice: 'Rs.3,650', sellPrice: 'Rs.4,200', stopLoss: 'Rs.3,400'},
+      { name: "Pidilite Industries (NSE: PIDILITIND)", whyExciting: "Pidilite makes Fevicol (India's dominant adhesive brand) and dozens of industrial adhesives  -  all petroleum-derived. The oil fall improved margins directly. Pidilite's consumer dominance (Fevicol has over 70% market share) and pricing power made it a high-quality beneficiary of falling input costs.", risk: "High PE valuation (60x+) means any earnings disappointment hits the stock hard regardless of oil prices." , halal: 'conditional', buyPrice: 'N/A', sellPrice: 'N/A', stopLoss: 'N/A'},
+      { name: "Motherson Sumi Systems (NSE: MOTHERSON)", whyExciting: "India's largest auto component manufacturer had been hurt by high input costs AND lower automotive production volumes (high oil = fewer car purchases). Both reversed simultaneously: oil falls = more car purchases AND lower component costs. A double benefit.", risk: "Significant exposure to global automotive markets, especially Europe, which faces its own structural EV transition challenges." , halal: 'conditional', buyPrice: 'N/A', sellPrice: 'N/A', stopLoss: 'N/A'}
+    ], ipoSpot: { name: "Ather Energy IPO  -  likely to price week of June 22", verdict: "Apply cautiously", eli5: "With oil at $82 and falling, the EV narrative is slightly less urgent than at $95. But Ather's fundamental thesis  -  India's growing EV market, premium positioning, Hero MotoCorp backing  -  is intact. Watch the subscription levels on Day 1 before committing." }, lessonOfDay: { title: "How Crises Create Clarity", story: "June 2026's oil crisis lasted 8 weeks. During those 8 weeks, every Indian investor learned: which stocks are oil-sensitive, what the Strait of Hormuz is and why it matters, how Indian inflation and rupee move with crude, which sectors are defensive and which are cyclical, and how much global events matter to Indian portfolios. Three years of investment education compressed into 8 weeks of real market experience. Crises are expensive universities.", mnemonic: "Crises are expensive universities. June 2026: 8 weeks of oil crisis = 3 years of market education. Pay attention when it hurts." } },
+    quiz: [
+      { q: "IndiGo's near-10% gain in two days from the oil fall shows...", options: ["Airlines are always volatile", "Aviation stocks have extreme oil price sensitivity  -  fuel is 30-35% of costs, making each dollar of oil price change worth hundreds of crores in annual earnings", "IndiGo announced positive earnings", "Investors were catching up from overselling"], answer: 1, funFact: "Warren Buffett has historically avoided airline stocks specifically because of their oil price sensitivity and thin margins. He made an exception in 2016-2020, buying stakes in four US airlines, then sold all of them at a loss during COVID. His analysis of aviation: 'For investors, the net return from all this frenetic activity has been negative  -  a durable competitive advantage has proven elusive for the industry.'" },
+      { q: "Market breadth of 1,800 stocks advancing vs 200 declining was significant because...", options: ["More stocks always means bigger market gain", "Wide breadth indicates genuine market-wide recovery rather than a few large-cap stocks distorting the index  -  confirming the rally was driven by macro improvement, not individual stock stories", "It was a record reading", "It signalled a bear market end"], answer: 1, funFact: "The advance-decline ratio (ADR) is one of the most reliable breadth indicators in technical analysis. An ADR above 5:1 (5 advancing for every declining stock) typically confirms a genuine broad-based rally. The June 15 reading of approximately 9:1 (1,800 vs 200) was exceptional  -  suggesting the Hormuz deal's positive impact reached across the entire economy, not just oil-sensitive sectors." },
+      { q: "The Hormuz deal being signed in Oman reflects which geopolitical reality?", options: ["Oman is the most powerful Gulf state", "Small neutral states with trusted diplomatic relationships with all parties are often more effective peace brokers than powerful nations with vested interests", "Iran only trusts Oman", "The US insisted on Oman"], answer: 1, funFact: "Switzerland has historically played this role in European diplomacy  -  hosting negotiations between powers that don't trust each other because Switzerland's neutrality and banking discretion are credible to all parties. Oman has built an equivalent reputation in Gulf diplomacy. Sultan Qaboos (ruled 1970-2020) deliberately built Oman's neutrality as a foreign policy asset  -  and his successor Sultan Haitham has maintained it." }
+    ]
+  },
+  psychology: { mindTrick: { name: "The Fresh Start Effect  -  New Beginnings Create New Motivation", eli5: "Researchers Hengchen Dai, Katherine Milkman, and Jason Riis discovered that people are significantly more likely to pursue goals immediately after temporal landmarks  -  New Year, birthdays, Monday, the start of a month, the day after a holiday. They called it the Fresh Start Effect: these moments create a psychological separation from past failures, allowing people to see their future self as distinct from their past self. This is why gym memberships spike in January and why 'I'll start Monday' is a real psychological phenomenon  -  not just laziness.", realLife: "The fresh start effect is genuine and exploitable productively. Use temporal landmarks deliberately: start a new habit on Monday rather than Wednesday. Begin a savings goal on the 1st of the month. Launch a project at the start of a quarter. The psychology of a new beginning is real  -  harness it rather than dismissing it as irrational.", mnemonic: "Fresh Start Effect = Temporal landmarks create new beginnings psychologically. Use Mondays, month-starts, birthdays. Real, not just motivation talk." },
+    bodyLanguage: { signal: "The Eyebrow Flash  -  Universal Recognition Signal", eli5: "In every culture studied  -  from Papua New Guinea tribes to Japanese businesspeople to Brazilian favela residents  -  when people recognise someone they know and feel positively about, they raise their eyebrows briefly (0.1-0.2 seconds). This 'eyebrow flash' is completely unconscious and universal. Irenaus Eibl-Eibesfeldt documented it across 21 cultures without finding an exception. Importantly: you can use a deliberate eyebrow flash toward someone you've just met  -  it signals recognition and warmth, creating an instant subconscious 'I know you' feeling.", howToUse: "When entering a room or being introduced: add a brief, genuine eyebrow flash as you make eye contact. Combined with a warm smile, it creates an instant feeling of recognition and familiarity that accelerates rapport.", mnemonic: "Eyebrow flash = Universal recognition signal. 0.2 seconds, every culture. Deliberate flash = instant warmth signal." },
+    superpower: { name: "Unity  -  Shared Identity as the Deepest Influence", story: "Robert Cialdini added a seventh influence principle in 2016 (to his original six): Unity  -  shared identity, not just similarity. Similarity says 'we like the same things.' Unity says 'we are the same thing  -  same family, same tribe, same community, same team.' A request from a family member succeeds where the same request from a friend fails. Military units fight and die for each other not because of similarity but because of the 'we' identity. Political leaders create in-group/out-group dynamics to mobilise this principle. Brands that create genuine community (Apple, Nike, Harley-Davidson) access loyalty that rational product comparison cannot explain.", shield: "Notice when you're being given an identity label ('You're one of us', 'As a [group member] you understand', 'We're family here') before a request. Unity is the most powerful influence principle  -  and the most commonly used manipulatively. Genuine belonging is valuable; manufactured belonging is designed to extract.", mnemonic: "Unity principle = Not just 'we're similar' but 'we ARE the same thing.' Most powerful influence lever. Family beats friends always." },
+    quiz: [
+      { q: "The Fresh Start Effect explains why gym memberships peak in January because...", options: ["People have more free time in January", "The New Year temporal landmark creates psychological separation from past failures  -  people see the new year as a genuinely new beginning where past patterns don't apply", "Gyms advertise more in January", "Cold weather makes exercise feel necessary"], answer: 1, funFact: "Milkman and colleagues analysed 10 years of Google search data for diet and exercise terms, gym attendance data, and personal goal-setting apps. The data confirmed fresh start spikes at: New Year (strongest), start of new week (Monday), start of new month, personal birthdays, and day after holidays. The effect was strongest for people who felt their recent past was 'bad'  -  the desire to mentally separate from a failed period was the mechanism." },
+      { q: "The eyebrow flash's universality across 21 cultures suggests...", options: ["All cultures learned it from common ancestry", "It is an innate biological signal rather than a culturally learned one  -  suggesting deep evolutionary origin as a rapid social recognition mechanism", "All humans are born knowing the same signals", "Researchers found similar cultures"], answer: 1, funFact: "Eibl-Eibesfeldt's cross-cultural research on facial expressions in the 1960s-70s confirmed Darwin's 1872 hypothesis that basic facial expressions are universal  -  not culturally learned. The eyebrow flash, along with the six basic emotional expressions (happiness, sadness, fear, anger, surprise, disgust) identified by Paul Ekman, is now considered hardwired rather than learned." },
+      { q: "Cialdini's Unity principle is more powerful than mere Similarity because...", options: ["Unity involves more people", "Shared identity ('we ARE the same') triggers deeper loyalty obligations than shared preferences ('we like the same things')  -  family membership obligates behaviour that friendship does not", "Unity is more recently discovered", "Similarity is easier to fake"], answer: 1, funFact: "Cialdini discovered Unity while studying fundraising campaigns. Campaigns that framed donors as 'part of the family' of researchers, alumni, or community members dramatically outperformed campaigns that highlighted shared values or similar backgrounds. The 'we' identity created obligation that 'we're alike' could not  -  even when the we-identity was only suggested, not verified." }
+    ]
+  },
+  leadership: { leaderMove: { name: "The After Action Review  -  Learning from Every Experience", story: "The US Army mandates an After Action Review (AAR) after every significant operation, exercise, and training event. The format is simple but rigorous: What was supposed to happen? What actually happened? Why was there a difference? What do we do differently next time? No rank in the AAR  -  a private can critique a general's decision in this format. The AAR is the mechanism behind the Army's ability to improve relentlessly. Ray Dalio built the same practice into Bridgewater with the 'dot collector' system. The principle: any experience not systematically reviewed is only partially learned from.", doThis: "After any significant project, presentation, negotiation, or decision: write four sentences. What was the intended outcome? What actually happened? Why was there a gap? What specifically changes next time? Do this within 24 hours while the experience is vivid. This 10-minute practice is responsible for more professional growth than any course.", mnemonic: "After Action Review = 4 questions: Intended, Actual, Why gap, What changes? 10 minutes, more growth than any course." },
+    visionarySecret: { concept: "Black Swan Preparation  -  Design for What You Can't Predict", eli5: "Nassim Taleb's central insight: rare, high-impact, unpredictable events (Black Swans  -  like the Hormuz closure) dominate history more than predictable events. Most planning is optimised for normal conditions and fails catastrophically during Black Swans. The solution isn't to predict Black Swans (impossible) but to build systems that are robust to any Black Swan: diversified supply chains, cash reserves, redundant systems, no single points of failure. The Hormuz closure was a Black Swan for companies with 100% Middle Eastern oil exposure. It was manageable for those with diversified supply.", exercise: "For your most important professional or personal system: identify its single biggest point of failure (the one thing, if it breaks, breaks everything). Then design one redundancy. One backup supplier. One emergency fund. One alternative plan. You don't need to predict the Black Swan  -  just make your system survive it.", mnemonic: "Black Swan prep = You can't predict it. Design redundancy for the single point of failure. Survive any swan." },
+    eliteHabit: { habit: "The Energy Audit  -  Manage Energy, Not Time", whoAndHow: "Jim Loehr and Tony Schwartz's research with elite athletes and top executives in 'The Power of Full Engagement': performance is determined by energy management, not time management. There are four energy types: physical (sleep, exercise, nutrition), emotional (relationships, stress, recovery), mental (focus, attention, creativity), and spiritual (purpose, values, meaning). High performers manage all four deliberately. Most people manage only time  -  which is why they can have 'enough time' but still perform poorly.", whyItWorks: "Time is finite and equal for everyone  -  24 hours. Energy is variable and manageable. An hour of depleted mental energy produces 10% of the output of an hour of peak energy. Managing when you do demanding work (high mental energy periods) vs low-demand work (low energy periods) produces more results without more time.", mnemonic: "Energy audit = Physical + Emotional + Mental + Spiritual. Manage these, not just time. 1 hour peak energy = 10x depleted." },
+    sigmaWisdom: { lesson: "Memento Mori  -  Remember You Will Die", story: "Roman generals returning from victory parades had a slave walk beside them whispering 'Memento Mori'  -  remember you will die. The purpose: prevent the hubris of thinking the moment's triumph was permanent. The Stoics practised daily death reflection not as morbidity but as clarity  -  if this were your last day, what would matter? Marcus Aurelius: 'You could leave life right now. Let that determine what you do and say and think.' Steve Jobs: 'Remembering that I'll be soon dead is the most important tool I've ever encountered to help me make the big choices in life.'", action: "Spend 2 minutes today imagining this is your final week. What would you do differently? Who would you call? What would you stop caring about? What would you wish you had started? The answers are instructions from your wisest self.", mnemonic: "Memento Mori = Remember death. Roman generals heard it at their greatest triumph. Clarity accelerant for what actually matters." },
+    quiz: [
+      { q: "The Army's After Action Review's 'no rank' principle is critical because...", options: ["The Army wants to appear democratic", "Honest assessment of what went wrong requires psychological safety  -  rank-based deference prevents junior members from identifying senior errors that may be the most important lessons", "Privates often know more than generals", "It builds morale"], answer: 1, funFact: "The AAR was developed by the US Army after the Vietnam War, where poor battlefield learning (mistakes repeated throughout the conflict) contributed to strategic failure. The AAR system was first formally implemented in the 1970s at the National Training Center. By the Gulf War (1991), the Army's ability to adapt in real-time using AAR-based learning was considered a significant tactical advantage." },
+      { q: "Nassim Taleb's Black Swan theory recommends...", options: ["Predicting unlikely events more carefully", "Building systems robust to any unpredicted high-impact event  -  through redundancy, diversification, and eliminating single points of failure", "Avoiding all risky activities", "Focusing only on likely scenarios"], answer: 1, funFact: "Taleb's Antifragile (2012) extended Black Swan theory: systems that benefit from volatility and disorder (antifragile) outperform systems designed for stability (fragile) in Black Swan environments. His investment strategy: hold mostly safe assets that survive any scenario, plus a small percentage of asymmetric bets that pay enormously in Black Swan events. The Hormuz closure was exactly the kind of Black Swan his framework was designed to navigate." },
+      { q: "Steve Jobs citing Memento Mori ('I'll be soon dead') as his most important tool was about...", options: ["His fear of death motivating productivity", "Using death awareness as a filter for decision-making  -  if this is truly important given life's finitude, do it; if not, eliminate it", "Inspiring his employees with mortality reminders", "A Buddhist practice he adopted"], answer: 1, funFact: "Jobs gave his famous 2005 Stanford commencement address ('Stay Hungry, Stay Foolish') just months after his first cancer diagnosis. The speech's core message  -  'your time is limited, so don't waste it living someone else's life'  -  drew directly from his mortality awareness. He said later that being diagnosed with cancer was the most important thing that ever happened to him, because it made every decision clear: will this matter given that I'll die?" }
+    ]
+  },
+  wealth: { wealthSecret: { name: "The Investment Policy Statement  -  Your Rules for Not Panicking", story: "During the 2008 financial crisis, investors who had written Investment Policy Statements (IPS) before the crash  -  documenting their asset allocation targets, rebalancing rules, and investment philosophy  -  sold their stocks 60% less often than those without written policies. The IPS is a document you write when you're calm that tells your future panicking self what to do. 'If Nifty falls 20%, I will buy not sell.' 'I will not look at my portfolio more than once per month.' 'My asset allocation is 70% equity, 20% debt, 10% gold.' The document overrides panic with pre-committed rationality.", action: "Write a one-page Investment Policy Statement this week. Include: your target asset allocation, your rebalancing rule, what you'll do if markets fall 20%, and your reason for investing. Read it the next time the market is volatile.", mnemonic: "Investment Policy Statement = Rules written when calm, followed when panicking. Overrides emotion with pre-committed rationality." },
+    moneyMachine: { type: "Angel Investing and Startup Equity  -  High Risk, High Ceiling", eli5: "Angel investing: putting small amounts (Rs 2-5 lakh) into early-stage startups in exchange for equity. Most will fail (90%). But the ones that succeed can return 10-100x your investment. Rs 5 lakh in Zomato at Series A would be worth Rs 25 crore today. The maths: if 10 investments each of Rs 3 lakh (total: Rs 30 lakh) produce: 7 failures (Rs 0), 2 modest returns (2x = Rs 6 lakh each = Rs 12 lakh), 1 big winner (30x = Rs 90 lakh)  -  total: Rs 1.02 crore on Rs 30 lakh invested. 3.4x overall return on a portfolio that was 70% failures.", indiaAngle: "SEBI registered angel networks: AngelList India, Indian Angel Network, Mumbai Angels, LetsVenture. Minimum ticket: typically Rs 2-5 lakh. You need to be an 'accredited investor' (income above Rs 25 lakh annually or net worth above Rs 2 crore). Start as a scout for established networks before investing independently.", mnemonic: "Angel investing = 90% fail, 10% win. One 30x return covers all failures. Portfolio approach essential. Start via established networks." },
+    mindsetFlip: { oldThinking: "The stock market is too risky and unpredictable", newThinking: "Not investing in equities is a guaranteed loss to inflation  -  the 'safe' choice has the highest long-term risk", why: "At 6% inflation, the value of Rs 1 lakh in a savings account (earning 4%) halves in 18 years in real purchasing power terms. Meanwhile, Rs 1 lakh in a Nifty 50 index fund at 12% average return becomes Rs 10.8 lakh in 20 years. The 'risky' investment was actually the safer one over long time horizons. Risk is contextual  -  it depends entirely on your time horizon.", mnemonic: "Not investing = Guaranteed inflation loss. Equity 'risky' short-term, safest long-term. Risk depends on time horizon." },
+    magicNumber: { number: "20% Annual Return = 3.6 Years to Double (Rule of 72)", eli5: "The Rule of 72 applied to business: 72 / 20 = 3.6 years to double. A business growing 20% annually doubles in 3.6 years. Doubles again in another 3.6 years. In 10 years at 20% growth: your original investment is worth approximately 6x. This is why venture capitalists need their portfolio companies to grow 20%+ annually  -  it's the minimum threshold for returns that justify the risk of startup investing. For your personal income: grow your earnings 20% per year through skill and role advancement, and your income in 10 years is 6x today's.", mnemonic: "20% annual growth = 3.6 years to double. 10 years = 6x. Business or income  -  the mathematics are the same." },
+    quiz: [
+      { q: "An Investment Policy Statement reduces panic-selling during crashes because...", options: ["It legally prevents selling", "Rules written when calm override emotional impulses when panicking  -  the IPS is a pre-commitment device from your rational self to your future emotional self", "It requires filing with SEBI", "Banks won't process panic sales if you have an IPS"], answer: 1, funFact: "Dalbar's annual Quantitative Analysis of Investor Behavior consistently shows that the average equity fund investor earns 3-4% less annually than the fund itself  -  entirely from mistimed buying and selling. The gap is called 'behavior gap.' The Investment Policy Statement is the most evidence-backed tool for closing this gap." },
+      { q: "Angel investing's 90% failure rate produces positive overall returns because...", options: ["Most investments are small", "The rare large winners (30-100x) in a diversified portfolio mathematically overcome the losses from failed investments  -  making portfolio construction the primary skill", "Government subsidises angel losses", "90% is an overestimate"], answer: 1, funFact: "Cambridge Associates' data on venture capital returns shows the top 1% of investments generate approximately 25% of total returns. The top 10% generate approximately 65% of returns. This extreme power law distribution means diversification (many investments) and patience (holding through to exits) are the primary drivers of angel investing returns  -  not superior deal selection." },
+      { q: "Inflation makes 'safe' savings accounts riskier than equities over long time horizons because...", options: ["Banks can fail", "At 6% inflation, purchasing power halves in 12 years  -  guaranteed. Equities at 12% annual return produce 10x in 20 years. The 'safe' choice produces guaranteed loss in real terms while the 'risky' one produces growth", "Interest rates will fall", "Government taxes savings more than investments"], answer: 1, funFact: "Warren Buffett's most important insight about risk: 'Risk comes from not knowing what you are doing.' For investors with 20+ year horizons who understand they're buying diversified ownership of businesses, equity markets have been less risky than savings accounts in every 20-year period in recorded history. The risk framing changes completely when time horizon is incorporated." }
+    ]
+  },
+  communication: { speakingSkill: { name: "The Rule of Three  -  Magic Number for Memory", story: "Julius Caesar's 'Veni, vidi, vici.' Obama's 'Yes we can.' Apple's 'Think different.' Lincoln's 'government of the people, by the people, for the people.' The US Declaration of Independence: 'life, liberty, and the pursuit of happiness.' Three is the minimum number to establish a pattern and the maximum number most people can hold in working memory simultaneously. Lists of two feel incomplete. Lists of four feel padded. Three feels complete. Every great speech, every memorable slogan, every effective argument is built on threes.", drill: "Structure your next important communication  -  a presentation, an email, a pitch  -  in exactly three points. Write them: Point 1, Point 2, Point 3. Then give each point one memorable sentence. This is the skeleton of every effective communication ever created.", mnemonic: "Rule of Three = Pattern needs minimum 3. Memory holds maximum 3. Caesar, Obama, Apple all knew. 3 always." },
+    negotiationMove: { tactic: "Tactical Empathy  -  Make Them Feel Understood Before You Ask for Anything", eli5: "Chris Voss's foundational principle: before any request, make the other party feel genuinely understood. Not agreed with  -  understood. 'It seems like this situation has been really frustrating.' 'I can see why this matters so much to you.' 'It sounds like you've been working on this for a long time.' These acknowledgements  -  called 'labels'  -  are not concessions. They cost nothing. But they dramatically increase the other party's receptivity to what comes next. People negotiate differently with those who understand them.", script: "Open with: 'Before I get to what I need to discuss, I want to make sure I understand where you're coming from...' Then summarise their position accurately. Only then present your request. The understanding phase cannot be rushed  -  it must be genuine.", mnemonic: "Tactical empathy = Make them feel understood FIRST. Then ask. Understand != Agree. Cost nothing, worth everything." },
+    officeWin: { rule: "Build relationships before you need them", story: "Two professionals need an introduction to a senior executive. Professional A has never spoken to the middle-person, reaches out only when they need something: 'Could you introduce me to [Executive]?' The answer is usually no or a weak introduction. Professional B has been maintaining a genuine relationship  -  occasional relevant articles sent, brief check-ins, genuine interest in the person's work  -  for 18 months. The same request receives an enthusiastic introduction with genuine endorsement. The relationship bank was full before the withdrawal was needed.", mistake: "Most people build professional relationships reactively  -  when they need something. The deposits must precede the withdrawals. Build the relationship during the seasons you don't need it for the seasons you do.", mnemonic: "Relationship bank = Deposit first, withdraw later. Never make your first contact a request. Build before you need." },
+    confidenceHack: { technique: "The Pre-Mortem  -  Reduce Anxiety by Imagining Failure", science: "Gary Klein's research: visualising successful outcomes increases anxiety (because you focus on what could go wrong to prevent it). Paradoxically, visualising failure reduces anxiety (because you've faced and planned for the worst  -  it no longer feels threatening). The pre-mortem technique: before an important event, spend 3 minutes imagining it has gone badly. What went wrong? What did you do to recover? Having mentally rehearsed the failure and recovery, the actual performance anxiety decreases  -  because the worst case no longer feels unmanageable.", doItNow: "Before your next important presentation, negotiation, or meeting: spend 3 minutes imagining it went poorly. What happened? Now: what would you do? Now: notice how much less scary the event feels having faced the worst case mentally.", mnemonic: "Pre-mortem = Imagine the failure before it happens. Face it, plan recovery. Actual anxiety reduces. Fear the imagined less than the unknown." },
+    quiz: [
+      { q: "Obama's 'Yes We Can' and Caesar's 'Veni Vidi Vici' both use the Rule of Three because...", options: ["Three is a lucky number", "Three is the minimum for pattern recognition and maximum for simultaneous working memory  -  creating messages that feel complete and are easily remembered", "Both had speech coaches who taught them", "Three syllables are easier to say"], answer: 1, funFact: "Aristotle's Rhetoric (350 BC) identified the tricolon  -  three parallel elements  -  as the most powerful rhetorical device for memory and persuasion. Two thousand years of public speaking, advertising, and literature have confirmed his finding empirically. The three-part structure is so fundamental to human communication that deviating from it requires justification." },
+      { q: "Tactical empathy ('making them feel understood') works in negotiation because...", options: ["Empathy makes people like you", "People who feel understood are significantly more cooperative and flexible  -  feeling misunderstood triggers defensiveness that closes negotiation possibilities", "It creates obligation to reciprocate understanding", "Empathy signals weakness that opponents exploit"], answer: 1, funFact: "FBI hostage negotiation data (from Voss's published research) shows that negotiations that began with labelling the hostage-taker's emotional state had 80%+ peaceful resolution rates vs 45% for those that began with demands or logic. The same principle applies to business negotiations  -  the party that creates understanding first consistently achieves better outcomes." },
+      { q: "Building professional relationships before you need them works because...", options: ["People prefer giving to those they know", "Reciprocity and liking operate on accumulated interaction history  -  someone who has received value from you before is significantly more likely to provide value when asked", "Networking events provide enough relationship building", "Most professionals respond to cold requests"], answer: 1, funFact: "Harvard research on professional network effectiveness found that 'weak ties' (people you know casually but maintain contact with) were more valuable for career advancement than 'strong ties' (close friends and family). The reason: weak ties in different professional circles provide information and introductions not available in your immediate network. Maintaining many weak tie relationships is the highest-ROI professional networking activity." }
+    ]
+  },
+  mind: { brainHack: { name: "The Two-Minute Rule  -  Eliminate Small Task Anxiety", eli5: "David Allen's simplest and most practical rule from Getting Things Done: if a task takes less than two minutes to do, do it immediately. Don't put it on a list. Don't defer it. Do it. The reason: the cognitive overhead of adding it to a list, tracking it, reviewing it, and eventually doing it costs far more than the two minutes the task takes. Small deferred tasks accumulate as low-level anxiety  -  the mental weight of 'things I haven't done.' The two-minute rule empties this anxiety bucket continuously.", protocol: "Apply immediately: when an email arrives that takes 30 seconds to reply to  -  reply now, archive it. When you notice something out of place that takes 90 seconds to fix  -  fix it now. The habit of instant small-task completion creates a remarkably clean cognitive environment.", mnemonic: "Two-minute rule = If it takes under 2 minutes, do it NOW. Adding to list costs more than doing it. Empty the anxiety bucket." },
+    disciplineCode: { principle: "The Long Game  -  Patience as Competitive Advantage", story: "Jeff Bezos started Amazon in 1994. For 7 years, Amazon lost money and was mocked as 'Amazon.toast' and 'Amazon.bomb.' In 2001, analysts declared it would run out of cash and die. By 2006, Amazon Web Services launched. By 2012, it was the world's largest cloud computing company. By 2026, AWS generates more profit than Amazon's entire retail operation. Bezos's deliberate long-game thinking  -  setting 7-year strategy cycles instead of quarterly ones  -  created advantages that short-term competitors couldn't match because they couldn't wait.", todayAction: "Identify one important area where you're seeking short-term results from a long-term investment. Write down the 3-year version of success rather than the 3-month version. Then ask: what does that require you to do consistently for 3 years that you haven't started yet? Start it today.", mnemonic: "Long game = Bezos played 7-year cycles while competitors played quarterly. Patience itself is the competitive advantage." },
+    impulseKiller: { urge: "FOMO investing  -  buying what's already risen because everyone is talking about it", eli5: "Fear Of Missing Out (FOMO) investing is one of the most reliable ways to lose money. The pattern: an asset rises dramatically, people talk about it, you feel like you're missing out, you buy at near the peak, it falls, you panic-sell at a loss. This happened with crypto in 2021, meme stocks in 2021, AI stocks in 2023, and oil stocks in mid-June 2026 (just as oil was peaking and about to fall). By the time an investment is on everyone's radar, the opportunity has often already passed.", interrupt: "When feeling FOMO on any investment: write down who is telling you about it and why they might be telling you now. Often the answer reveals that the information is reaching you after those who bought earlier  -  which means you'd be buying at a higher price than they did.", mnemonic: "FOMO investing interrupt = By the time everyone talks about it, you're buying high. Who told you? When did they buy? Timing matters." },
+    bodyUpgrade: { practice: "Heat + Cold Contrast  -  Post-Exercise Recovery Protocol", eli5: "Elite sports recovery has converged on contrast therapy as the most effective post-exercise protocol. The sequence: 3 minutes in hot water (40-42 degrees), then 30-60 seconds cold (10-15 degrees), repeated 3-4 cycles. This creates a 'vascular pump'  -  vessels dilate then constrict, flushing metabolic waste more effectively than either hot or cold alone. Most Indian homes have hot showers  -  the protocol is fully accessible by ending each shower with 4 cycles of 3-minute hot, 30-second cold.", minimumDose: "3-4 cycles of 3 minutes hot / 30 seconds cold. Total: 14-18 minutes. Do post-exercise or in the evening. Benefits appear within 2-3 sessions; peak benefits take 2-3 weeks of consistent practice.", mnemonic: "Contrast therapy: 3 min hot / 30 sec cold x 4 cycles. Vascular pump flushes waste. 14 minutes, elite recovery protocol." },
+    quiz: [
+      { q: "The two-minute rule prevents task accumulation anxiety by...", options: ["Removing all small tasks from to-do lists", "Doing tasks immediately that cost less than 2 minutes eliminates the cognitive overhead of tracking and deferring them  -  preventing small undone tasks from accumulating as background anxiety", "Time boxing small tasks", "Delegating tasks under 2 minutes"], answer: 1, funFact: "David Allen tested the two-minute rule with thousands of executives and found that most people's inboxes contained 60-70% of items that could be handled in under 2 minutes. They had instead deferred them to 'process later'  -  creating a queue of low-priority tasks that consumed mental bandwidth every time they were reviewed. The two-minute rule collapsed most of the queue immediately." },
+      { q: "Amazon's 7-year strategy cycles gave it competitive advantage because...", options: ["Longer planning is always better", "Short-term competitors couldn't sustain investment in areas that lost money for 7 years  -  allowing Amazon to establish dominant positions before competition intensified", "Bezos could predict 7 years ahead accurately", "Amazon had unlimited capital for long-term investment"], answer: 1, funFact: "Amazon Web Services was internally considered a failure for its first 3 years. Quarterly-reporting pressures at public competitors would likely have killed it at year 2. Amazon's ability to sustain 7-year cycles  -  shielded partly by Wall Street's unusual willingness to give Bezos long runway  -  allowed AWS to survive to dominance. AWS now generates approximately $90 billion in annual revenue." },
+      { q: "FOMO investing consistently produces losses because...", options: ["Popular investments always fall", "By the time an investment reaches broad public awareness, early buyers have already captured most of the gain  -  late entrants buy at peak prices and bear the full downside risk", "Most investors make bad decisions", "Social media spreads false investment advice"], answer: 1, funFact: "Research on retail investor timing (Barber and Odean, 2000) found that individual investors consistently bought stocks 5-7 days after positive news and sold 5-7 days after negative news  -  essentially buying high and selling low systematically. The mechanism: news reaches the median retail investor with a delay that means they're acting on yesterday's price moves, not tomorrow's." }
+    ]
+  },
+  knowledge: { mathMagic: { concept: "Nash Equilibrium  -  Why Rational Actors Produce Irrational Outcomes", eli5: "John Nash proved that in any strategic interaction, there exists at least one state where no player can improve their outcome by changing their strategy alone  -  this is the Nash Equilibrium. The Prisoner's Dilemma equilibrium (both confess) is Nash: if your partner confesses, you should confess; if your partner stays silent, you should confess. Confessing is dominant regardless of what the other does  -  producing the equilibrium where both confess and both get 5 years, even though both staying silent (1 year each) would be better for both. Individual rationality produces collective irrationality.", realWorldUse: "Arms races are Nash Equilibria: both countries build weapons because if the other builds and you don't, you're vulnerable. Both building leads to a worse outcome than both not building  -  but neither can unilaterally stop. Traffic congestion is Nash: everyone taking the fastest route individually creates gridlock that's slower for everyone. Climate negotiations face this structure daily.", mnemonic: "Nash Equilibrium = No one can improve by changing alone. Arms race = both build = worse than neither building. Rational trap." },
+    scienceWow: { field: "Quantum Computing", concept: "Qubits  -  Computing with Superposition", eli5: "Classical computers store information as bits: 0 or 1. A quantum computer uses qubits that exist in superposition: both 0 AND 1 simultaneously, until measured. 50 qubits can represent 2^50 (over 1 quadrillion) states simultaneously. While a classical computer tests solutions one by one, a quantum computer explores all possible solutions simultaneously. For specific problems (cryptography, drug discovery, financial optimization), quantum computers could solve in minutes what classical computers would take millions of years. Google's Sycamore performed a specific calculation in 200 seconds that would take a classical computer 10,000 years.", mindBlow: "Quantum computers will eventually break all current internet encryption (RSA and AES), because factoring large numbers  -  the mathematical basis of encryption  -  is trivially easy for quantum computers. Governments and tech companies are already racing to build 'post-quantum cryptography' before large quantum computers exist. The race has enormous national security implications.", mnemonic: "Quantum computer = Qubits in superposition. 50 qubits = 1 quadrillion states at once. Will break all encryption. Post-quantum race is real." },
+    historyStory: { event: "The Space Race 1957-1969  -  Ideology Meets Engineering", story: "On October 4, 1957, the Soviet Union launched Sputnik  -  a beeping metal sphere the size of a beach ball  -  into orbit. Americans panicked. If Soviets could put a satellite in orbit, they could put nuclear warheads there. The Space Race began. 12 years and $25 billion later (about $180 billion today), Neil Armstrong stepped on the Moon. The Apollo programme employed 400,000 people across 20,000 companies. It invented: miniaturised electronics (which became personal computers), scratch-resistant lenses, memory foam, water filtration, and dozens of other technologies still in everyday use. The Moon landing was watched by 600 million people  -  one-sixth of humanity.", lesson: "The Space Race shows what human civilisation achieves when there is a clear, ambitious, time-bound goal with massive resources and existential stakes. The Apollo programme's secondary innovation  -  the technologies it created as byproducts  -  exceeded its primary achievement in long-term economic value. Moonshot thinking produces earth-changing spillovers.", mnemonic: "Apollo programme = $180B -> Moon landing + personal computer technology + memory foam. Moonshot thinking creates more than the moon." },
+    earthSecret: { place: "Brazil", secret: "Brazil is the world's most biodiverse country  -  containing approximately 20% of all species on Earth. The Amazon rainforest alone produces 20% of the world's oxygen and cycles so much water it creates its own rainfall patterns. Brazil is also the world's largest exporter of: coffee, sugar, soybeans, beef, orange juice, and chicken. And it is simultaneously the world's largest adopter of flex-fuel vehicles (cars that run on either petrol or ethanol from sugarcane)  -  making it the country that has most successfully reduced its oil dependency through an alternative fuel. 85% of Brazilian cars are flex-fuel.", edge: "Brazil's sugarcane ethanol programme (ProAlcool, started 1975) is history's most successful liquid fuel transition  -  reducing Brazil's oil import dependency at a time when oil prices were crushing its economy. Understanding Brazil's ethanol model gives context for the global energy transition debate: what actually works vs what sounds good in policy documents.", mnemonic: "Brazil = 20% of Earth's species + world's largest food exporter + 85% flex-fuel cars. Most successful oil alternative in history." },
+    quiz: [
+      { q: "Nash Equilibrium explains arms races because...", options: ["Countries are inherently aggressive", "Each country's rational strategy (build weapons given the other might) leads to both building  -  a worse outcome than both not building, but one neither can escape unilaterally", "Arms production is economically beneficial", "Military leaders control foreign policy"], answer: 1, funFact: "The Nash Equilibrium analysis of nuclear deterrence was developed at RAND Corporation in the 1950s (where Nash himself worked briefly). The 'stability' of nuclear deterrence is actually a Nash Equilibrium: neither side has incentive to disarm unilaterally, creating a stable but collectively terrible outcome. Arms control treaties work by creating credible commitments that allow both sides to escape the equilibrium simultaneously." },
+      { q: "Quantum computers threaten current encryption because...", options: ["They are faster than classical computers for all tasks", "Factoring large numbers (the mathematical basis of RSA encryption) is exponentially easy for quantum computers  -  classical encryption that would take millions of years to break classically takes minutes quantum-mechanically", "All computers will eventually become quantum", "Quantum computers can read encrypted data directly"], answer: 1, funFact: "Peter Shor published his quantum factoring algorithm in 1994, immediately threatening RSA encryption. NIST (US standards body) began a post-quantum cryptography standardisation process in 2016 and published the first post-quantum standards in 2024. Most government encryption is already transitioning. The timeline for large enough quantum computers to break current encryption: estimated 10-15 years, but with significant uncertainty." },
+      { q: "The Apollo programme's most valuable long-term contribution was...", options: ["The Moon landing itself", "The spillover technologies created as byproducts  -  miniaturised electronics, water filtration, memory foam, and dozens more  -  whose economic value exceeded the programme's cost", "International scientific cooperation", "Proving capitalism outcompeted communism"], answer: 1, funFact: "NASA's Technology Transfer Programme has documented over 2,000 technologies that originated from Apollo-era research. The integrated circuit (basis of all modern computing) was miniaturised specifically to meet Apollo's weight requirements. Tang (the orange drink) and Velcro (both NASA-adjacent legends) are myths  -  but scratch-resistant lenses, portable vacuum cleaners, water purification tablets, and LED lighting all trace directly to NASA research." }
+    ]
+  },
+  ai: { toolSpotlight: { name: "Anthropic Claude (API)", category: "Enterprise AI / Development", eli5: "While Claude.ai is the consumer interface, the Claude API is what developers use to build applications powered by Claude. Companies integrate Claude into: customer service chatbots, document analysis tools, code review systems, research assistants, and content generation pipelines. The Claude API is available at console.anthropic.com with pay-per-token pricing  -  you pay only for what you use. Claude's extended context window (up to 200,000 tokens  -  roughly 150,000 words, or about 500 pages) makes it uniquely capable for tasks requiring analysis of entire books, legal contracts, or large codebases.", secretMove: "Use Claude API's system prompt for persona consistency: define your assistant's role, tone, knowledge boundaries, and response format once in the system prompt. Every interaction then inherits this context  -  you get consistent, customised AI behaviour without repeating instructions. Essential for any multi-user application.", mnemonic: "Claude API = Developer access to Claude. System prompt = Define persona once, consistent forever. 200K context = 500 pages at once." },
+    workflowWin: { title: "The Weekly Planning Session  -  30 Minutes for 10x Clarity", problem: "Most professionals start Monday reactive  -  responding to whatever arrives first rather than executing on what actually matters most.", steps: ["Sunday evening or Monday morning: open your calendar for the week", "Identify your 3 most important outcomes for the week (not tasks  -  outcomes you'd be proud of by Friday)", "Work backwards: what specific actions produce each outcome? Block time for those actions first, before anything else fills the calendar", "Identify potential interruptions and plan responses in advance: 'If X happens, I will do Y'"], timeSaved: "This 30-minute weekly planning session typically recovers 5-8 hours of productive capacity by ensuring high-priority work is scheduled first rather than squeezed into whatever gaps remain after reactive tasks fill the calendar.", mnemonic: "Weekly planning: 3 outcomes -> backwards plan -> block time first. Reactive work fills gaps. Proactive work fills priority." },
+    promptOfDay: { purpose: "Create a professional bio for any context", prompt: "Write a professional bio for me. Here's my background: [NAME, ROLE, COMPANY/INDUSTRY, YEARS OF EXPERIENCE, 2-3 KEY ACHIEVEMENTS, WHAT YOU'RE KNOWN FOR OR PASSIONATE ABOUT]. Create 3 versions: 1) A 50-word version for a conference name badge or social media bio, 2) A 150-word version for a website About page, 3) A 300-word version for a speaking engagement introduction. Tone: professional but human  -  avoid corporate jargon. Write in third person. Each version should end with one memorable line that distinguishes me from others with similar backgrounds.", where: "Claude", mnemonic: "Bio prompt = 3 lengths (50/150/300 words). Professional but human. Third person. Memorable last line. All contexts covered." },
+    futureWatch: { trend: "The AI-native company  -  built with AI from day one", eli5: "The first generation of AI adoption was retrofitting: taking existing companies and adding AI tools. The next generation is AI-native: companies designed from the ground up assuming AI handles specific functions. An AI-native law firm has 3 lawyers and 10 AI systems handling research, document drafting, and due diligence  -  enabling the 3 humans to serve 10x the clients of a traditional firm. AI-native companies in healthcare, accounting, architecture, and consulting are already competing against 10x-larger traditional firms. By 2030, the competitive landscape will be dominated by AI-native organisations.", yourMove: "If you're building anything  -  a business, a team, a practice  -  design it AI-native from the start rather than adding AI to an existing structure. The question is not 'which of our processes can AI help with?' but 'which processes require humans, and which can be AI-primary with human oversight?'", mnemonic: "AI-native company = 3 lawyers + 10 AI = 10x traditional firm output. Design AI-first, not AI-retrofitted." },
+    quiz: [
+      { q: "Claude API's 200,000 token context window is practically useful for...", options: ["Writing very long responses", "Processing entire books, legal contracts, or codebases in a single API call  -  enabling tasks like 'summarise this 400-page report' or 'find inconsistencies in this entire contract' impossible with shorter context", "Storing conversation history", "Training better AI models"], answer: 1, funFact: "200,000 tokens is approximately 150,000 words  -  enough to process all of Shakespeare's complete works in a single context window, or a 500-page technical manual, or an entire legal case's worth of documents. This context length was not practically achievable before 2024 and represents one of the key capability jumps that made enterprise AI applications viable." },
+      { q: "The weekly planning session's value comes primarily from...", options: ["Spending more time planning", "Forcing prioritisation before the week begins  -  ensuring high-importance work is blocked in the calendar before reactive tasks fill all available time", "Reviewing the previous week's accomplishments", "Reducing meeting frequency"], answer: 1, funFact: "Cal Newport's research on academic productivity found that professors who scheduled their most important research work first (blocking calendar time before any meetings were booked) published significantly more than those who worked on research in gaps between meetings. The publication rate difference was approximately 3:1  -  not from working more hours, but from when during the day and week the work was done." },
+      { q: "AI-native companies outcompete traditional companies because...", options: ["They have better AI tools", "By designing workflows around AI capabilities from the start, they achieve output-per-employee ratios that traditional companies (with legacy human-centric processes) cannot match without fundamental restructuring", "AI reduces their costs to zero", "They attract better talent"], answer: 1, funFact: "McKinsey's 2024 research on AI adoption found that companies integrating AI into core workflows (rather than adding it as a supplementary tool) achieved 40-60% productivity improvements vs 10-15% for supplementary integration. The difference: core integration redesigns processes around AI capabilities; supplementary integration adds AI to existing human processes." }
+    ]
+  },
+  travel: { destination: { country: "Portugal", region: "Lisbon and the Algarve", eli5: "Portugal is Western Europe's most underrated country. Lisbon is built on seven hills above the Tagus river estuary, where trams rattle through medieval alleys, azulejo tile facades cover every surface, and fado music drifts from restaurants at midnight. It's cheaper than Spain, warmer than France, and has better seafood than both. The Algarve coast in the south has the Atlantic's most dramatic cliff-backed beaches: golden limestone formations rising from jade water, arches carved by waves, and caves only accessible by kayak. Portugal was the first global maritime empire  -  it mapped coastlines from Brazil to Japan in the 15th and 16th centuries.", bestTime: "May-June and September-October for Lisbon (perfect weather, fewer tourists than peak summer). June-September for Algarve (warm enough for beaches, but July-August gets extremely crowded).", hiddenGem: "The Alentejo region  -  inland Portugal between Lisbon and the Algarve  -  is almost completely ignored by international tourists. Ancient hilltop villages (Marvao, Monsaraz) with medieval walls and views over plains of cork oak and olive trees. The best Portuguese wine (Alentejo reds) and food (black pork from acorn-fed pigs). Slower, quieter, and more authentically Portuguese than anywhere on the coast.", mnemonic: "Portugal = Lisbon's trams + Algarve cliffs + Alentejo's ancient villages. Western Europe's best value. First global empire." },
+    visaTip: { focus: "Schengen Visa for Portugal (Indian Passport Holders)", eli5: "Portugal is in the Schengen Zone  -  one visa for 27 European countries. Same process as France: apply through VFS Global in major Indian cities. Documents: refundable hotel bookings, return flights, travel insurance (EUR 30,000 minimum), bank statement (Rs 3-4 lakh for 2 weeks), employment letter or ITR. Processing: 15 working days. Portugal is particularly popular because it's cheaper than France, Italy, or Spain once you're there  -  the same Schengen visa gets you more value for money.", goldenTip: "Portugal's Golden Visa programme (investment-based residence) and Digital Nomad Visa (for remote workers earning above EUR 3,280/month) have made Portugal a growing destination for Indian professionals seeking European base. If you're considering longer stays or investment: consult an immigration lawyer about these programmes.", mnemonic: "Portugal Schengen = Same visa as France, cheaper destination. Digital Nomad Visa for remote workers EUR 3,280/month." },
+    culturalCode: { culture: "Portugal", doThis: "Say 'Obrigado' (men) or 'Obrigada' (women) for thank you  -  Portuguese people genuinely appreciate the effort. Accept food when offered: Portuguese hospitality is built around abundance and sharing. Try the local specialities without asking for modifications: pastel de nata (custard tart) fresh from Pasteis de Belem in Lisbon, bacalhau (salted cod) in its hundreds of preparations, and Alentejo pork. Fado music in restaurants: listen respectfully  -  it's a serious art form, not background music.", neverDoThis: "Never confuse Portuguese with Spanish  -  it's a different language, different culture, different food. Saying 'it's like Spanish' is mildly offensive to Portuguese people who are very proud of their distinct identity. Never arrive late to meals (punctuality matters more than in Spain). In Lisbon's tram 28 (tourist route): be vigilant about pickpockets  -  it's the most pickpocket-intensive route in the city.", mnemonic: "Portugal: Obrigado/Obrigada for thank you. Don't call it 'like Spanish'  -  different language, proud distinct culture. Tram 28: watch pockets." },
+    quiz: [
+      { q: "Portugal's historical significance as a maritime empire comes from...", options: ["Its proximity to Africa", "Portuguese explorers in the 15th-16th centuries created the first global trade network  -  mapping coastlines from Brazil to Japan and establishing trade routes that connected Europe, Africa, Asia, and America for the first time", "Being the first democracy in Europe", "Portugal's superior naval technology"], answer: 1, funFact: "Vasco da Gama's 1498 voyage to India (finding the sea route around Africa) broke the Arab and Venetian monopoly on spice trade, fundamentally reshaping global economics. The Portuguese established trading posts from Goa to Macau to Mozambique  -  most of which retained Portuguese as an official language for over 500 years. Portuguese is now the 6th most-spoken language globally, spoken natively by 260 million people." },
+      { q: "The Alentejo region is considered more authentically Portuguese than the coast because...", options: ["It has older buildings", "Low international tourist presence has preserved traditional food, wine, agriculture, and village life that coastal areas have modified to serve tourism", "The Portuguese government designates it as protected", "Coastal regions have been colonised by foreigners"], answer: 1, funFact: "Alentejo produces some of Portugal's most distinctive red wines (Alentejo DOC) from varieties like Aragonez, Trincadeira, and Alicante Bouschet that are rarely found elsewhere. The region also produces approximately 50% of the world's cork (from cork oak bark)  -  making Alentejo the source of most of the world's wine bottle stoppers." },
+      { q: "Portugal's Digital Nomad Visa targets...", options: ["All international professionals", "Remote workers earning above a minimum threshold who want European residence while working for non-Portuguese employers  -  reflecting Portugal's positioning as an attractive remote work destination", "Digital technology workers only", "EU citizens working remotely"], answer: 1, funFact: "Portugal's Digital Nomad Visa was launched in October 2022  -  among the first dedicated remote work visas in Europe. By 2025, over 10,000 non-EU professionals had taken up the visa, with Indians, Americans, and Brazilians as the top three nationalities. Lisbon's NomadX community ranked it the 3rd most popular digital nomad city globally in 2025." }
+    ]
+  }
+}
+
+const d260616 = {
+  news: { segments: [
+    { name: "🌐 What's happening with countries?", color: "#a0d4f5", stories: [
+      { headline: "Strait of Hormuz open  -  first commercial tankers transit since April", eli5: "On June 16, the first commercial tankers since April transited the Strait of Hormuz without incident. The physical reopening confirmed what the deal had promised: the narrow waterway between Iran and Oman was open for business again. Oil tankers that had been anchored and waiting for weeks began moving. Oil fell further to $79  -  its lowest since before the crisis began. India's petroleum ministry began calculating when reduced oil prices would flow through to domestic petrol pump prices.", whyItMatters: "The physical opening  -  not just the political announcement  -  was the confirmation markets needed. Oil at $79 was now pricing in a sustained return to pre-crisis supply conditions.", mnemonic: "June 16 = First tankers transit Hormuz. Oil $79. Physical confirmation beats political promises." },
+      { headline: "SpaceX Starship reaches full orbital velocity  -  commercial space age accelerates", eli5: "On June 16, SpaceX's Starship  -  the largest and most powerful rocket ever built  -  completed its most successful test yet: achieving full orbital velocity, re-entering the atmosphere, and landing both the Super Heavy booster and Starship spacecraft. This was the technological milestone that proved Starship's full reusability was achievable. With the SpaceX IPO S-1 already filed, the Starship success was a marketing gift  -  demonstrating the technology that would underpin Musk's promised $10 million per launch cost.", whyItMatters: "Starship achieving full reusability changes the economics of space: launch costs from $67 million (Falcon 9) toward $10 million (Starship) would democratise access to orbit, accelerate satellite deployment, and eventually enable Mars missions.", mnemonic: "Starship full orbital June 16 = Reusability proven. $10M launch cost is real. IPO timing perfect." },
+      { headline: "G7 summit emergency session  -  rebuilding post-Hormuz global supply chains", eli5: "G7 leaders convened an emergency video summit on June 16 to coordinate the response to the post-Hormuz supply chain disruption. The 8-week closure had revealed extreme vulnerabilities in global supply chains: over-dependence on Middle Eastern oil, inadequate alternative shipping routes, and insufficient strategic reserves in several countries. The summit produced commitments to: double strategic petroleum reserves, invest in alternative fuel infrastructure, and coordinate on Iran sanctions relaxation in line with the deal terms.", whyItMatters: "The post-Hormuz G7 summit was the geopolitical equivalent of a post-COVID supply chain review  -  identifying systemic vulnerabilities revealed by the crisis and committing to structural changes.", mnemonic: "G7 post-Hormuz = Double strategic reserves + alternative fuels + sanctions coordination. Crisis revealed weaknesses. Now rebuilding." }
+    ]},
+    { name: "💸 What's happening with money?", color: "#a8edcb", stories: [
+      { headline: "Oil reaches $79  -  Indian petrol price cut of Rs 2-3 likely within two weeks", eli5: "With oil at $79 and the rupee at Rs 82.5, the petrol price equation had decisively shifted. India's government-determined petrol price was last cut in March 2024. At $79 oil and Rs 82.5 per dollar, the theoretical petrol price (without government markup) was approximately Rs 88-90 per litre  -  compared to the current price of Rs 94-95. A Rs 3-5 cut was now economically possible and politically attractive: state elections were scheduled in Maharashtra, Jharkhand, and Delhi in late 2026.", whyItMatters: "A petrol price cut in India reduces inflation, increases consumer spending, helps airlines, and benefits the party in power ahead of elections  -  a rare convergence of economic and political incentives.", mnemonic: "Oil $79 + rupee 82.5 = Petrol cut possible. Maharashtra + Delhi elections = Government math works. Expect announcement within 2 weeks." },
+      { headline: "Nifty hits 24,000  -  all June losses erased, 2026 high approaching", eli5: "On June 16, Nifty crossed 24,000 for the first time since early April  -  erasing all of June's losses and approaching its 2026 high. The three-day rally from June 14-16 was one of the most powerful in the Nifty's recent history. Total gains: Nifty up 4.2% in three trading days. The market was now pricing: lower oil ($79), stronger rupee (82.5), potential petrol price cut, improved corporate margins across oil-sensitive sectors, and the end of the Iran uncertainty premium.", whyItMatters: "Nifty at 24,000 restored investor confidence after three weeks of anxiety  -  and opened the possibility of new all-time highs if oil stabilised at $75-80.", mnemonic: "Nifty 24,000 June 16 = All June losses erased in 3 days. Oil crisis premium fully removed from market." }
+    ]},
+    { name: "💻 What's happening with technology?", color: "#c9b8f5", stories: [
+      { headline: "Women's T20 World Cup begins  -  12 teams competing in England", eli5: "The ICC Women's T20 World Cup 2026 began in England on June 16 with 12 teams competing. India, Australia, England, and the West Indies were the early favourites. The tournament ran until July 5 and was widely expected to break viewership records  -  the 2020 Women's T20 World Cup final attracted 86,000 spectators at the MCG and 1.1 billion viewers globally. India's team, led by Smriti Mandhana, was considered a genuine title contender.", whyItMatters: "Women's cricket had grown extraordinarily in the 2020s  -  the global audience, prize money, and sponsorship had increased 5x between 2018 and 2026. The T20 World Cup was the peak event.", mnemonic: "Women's T20 WC starts June 16 = India, Australia, England favoured. 1 billion viewers expected. Cricket's fastest-growing product." }
+    ]},
+    { name: "🌿 What's happening with our planet?", color: "#f5c6a0", stories: [
+      { headline: "Oil at $79 begins unwinding emergency clean energy investment  -  the post-crisis irony", eli5: "Environmental economists tracking clean energy investment flows reported the first signs of post-crisis pullback: several major EV fleet orders from European logistics companies were being reconsidered as oil at $79 made diesel trucks competitive again. Several rooftop solar installations that had been fast-tracked due to $95 oil costs were deferred. The Hormuz crisis had been the most powerful clean energy catalyst of the decade  -  and its resolution was beginning to unwind that momentum at the margin.", whyItMatters: "The renewable energy transition depends partly on fossil fuel price signals. Lower oil reduces urgency, extending dependence and slowing climate progress.", mnemonic: "Oil $79 = Some clean energy urgency unwinding. Diesel competitive again vs EV. Crisis was clean energy's best ally. Resolution its challenge." }
+    ]}
+  ], quiz: [
+    { q: "Physical tanker transits on June 16 mattered more than the political deal because...", options: ["Tankers are the most important measure", "Markets and oil importers needed physical confirmation  -  political agreements can be reversed but tanker movements prove the strait is genuinely open", "The deal wasn't officially announced until June 16", "Tanker companies have independent verification systems"], answer: 1, funFact: "The Strait of Hormuz is 54km wide at its narrowest navigable point. Approximately 17-20 million barrels of oil transit it daily  -  roughly 20% of global oil consumption. The strait has two 3-kilometre shipping lanes: one inbound, one outbound. During the closure, tankers that had been anchored waiting formed queues visible on satellite imagery." },
+    { q: "Starship's full orbital success on June 16 was commercially significant because...", options: ["It was the first orbital rocket ever launched", "Proving full reusability validated the $10 million launch cost target  -  making SpaceX's IPO financial projections credible to investors who had been sceptical of the cost claim", "NASA required orbital proof before the Moon contract", "It beat a competitor rocket to orbit"], answer: 1, funFact: "Starship is the largest rocket ever built: 121 metres tall (taller than the Statue of Liberty), powered by 33 Raptor engines producing 7,590 tonnes of thrust (2x the Saturn V that went to the Moon). Its payload capacity to low Earth orbit (150 tonnes) is 5x the Falcon 9. The economics: reuse the first stage 20+ times, reducing cost per launch from $67M to approximately $10M." },
+    { q: "Nifty at 24,000 erasing all June losses in 3 days shows...", options: ["The market overreacted downward during the crisis", "Markets can price in and out macro risks rapidly  -  the 3-week oil-crisis premium and the 3-day post-deal recovery both represent efficient pricing of expected future conditions, not overreaction", "Algorithmic trading creates excessive volatility", "Indian markets are disconnected from fundamentals"], answer: 1, funFact: "The speed of the Nifty's recovery  -  from 23,072 (June 10 low) to 24,000 (June 16) in 6 trading days  -  was faster than most analysts predicted. The recovery demonstrated that the June selloff was entirely driven by one macro factor (oil/Iran) that reversed completely, allowing the market to reprice to fundamentals rapidly once the risk was removed." }
+  ]},
+  markets: { globalPulse: { eli5: "June 16 completed the post-Hormuz global market recovery. Oil at $79, first tankers transiting, the crisis officially over. Markets globally were pricing in the return to normalcy: lower energy costs, easing inflation, improved corporate margins. The only question: how quickly would lower oil flow through to consumer prices and improved corporate earnings? The answer: faster than the oil price rise, slower than markets hoped.", keyThings: ["Brent Crude: $79  -  below pre-crisis April average", "Nifty: 24,000  -  all June losses erased", "Rupee: 82.5  -  strongest since March", "Global equity markets: 3rd consecutive gaining day"] },
+    indianMarket: { eli5: "India's market on June 16 completed one of the most dramatic V-shaped recoveries in recent memory. From the June 10 low of 23,072 to 24,000 on June 16  -  a 4% recovery in 6 trading sessions. The sectors that fell hardest (aviation, paints, chemicals) recovered most sharply. The sectors that held up during the crisis (pharma, IT, FMCG) lagged slightly  -  classic post-crisis rotation from defensives back to cyclicals.", breakouts: [
+      { name: "IndiGo Airlines (NSE: INDIGO)", whyExciting: "The biggest single-stock beneficiary of the entire June oil story. From crisis low to June 16: approximately +15%. Oil at $79 means IndiGo's Q2 FY27 will likely be strongly profitable. Full recovery from the crisis is complete  -  and if oil stays at $75-80, IndiGo's FY27 could be its best year ever.", risk: "Any geopolitical flare-up that affects Middle Eastern oil supply would immediately reverse. The Iran deal's durability is unproven." , halal: true, buyPrice: 'Rs.3,650', sellPrice: 'Rs.4,200', stopLoss: 'Rs.3,400'},
+      { name: "Tata Motors (NSE: TATAMOTORS)", whyExciting: "Lower oil improves car sales (people factor running costs), reduces Tata's manufacturing input costs, and strengthens the UK pound (Jaguar Land Rover earnings in GBP get translated to stronger rupees when rupee weakens, but the reverse also applies). Tata's JLR division was also seeing strong EV demand for its Range Rover Sport Electric.", risk: "JLR's premium vehicle sales are sensitive to global economic slowdown. UK economic conditions affect JLR significantly." , halal: 'conditional', buyPrice: 'N/A', sellPrice: 'N/A', stopLoss: 'N/A'},
+      { name: "Adani Ports (NSE: ADANIPORTS)", whyExciting: "India's largest port operator was a direct beneficiary of the Hormuz reopening: shipping volume through Indian ports was now recovering as supply chains normalised. The company's Mundra port (India's largest private port) was seeing booking volumes surge as shipments diverted during the crisis returned to normal routes.", risk: "Adani Group conglomerate risk  -  any Hindenburg-style short seller report on any Adani group company affects the whole group's stocks." , halal: 'conditional', buyPrice: 'N/A', sellPrice: 'N/A', stopLoss: 'N/A'}
+    ], ipoSpot: { name: "Ather Energy IPO  -  price band likely to be announced this week", verdict: "Apply if PE under 40x FY27 revenue", eli5: "With Nifty at 24,000 and oil at $79, the IPO market window is wide open. Ather's EV scooter thesis is intact  -  oil at $79 is still historically high, and the memory of $95 makes EV economics compelling." }, lessonOfDay: { title: "The V-Shaped Recovery  -  What It Teaches About Fear", story: "From June 10 (Nifty 23,072) to June 16 (Nifty 24,000): a 4% recovery in 6 trading sessions. The investors who sold in fear between June 8-10 missed the entire recovery. The investors who held through the fear  -  or bought during it  -  were fully rewarded. This V-shaped recovery is not unusual in markets: approximately 70% of 5%+ market drops recover within 3 months. The fear phase, in retrospect, was the opportunity. As it always is.", mnemonic: "V-shaped recovery = Fear phase was the opportunity. 70% of 5%+ drops recover within 3 months. Holding through fear is always the harder and better choice." } },
+    quiz: [
+      { q: "The post-crisis rotation from defensives back to cyclicals on June 16 happened because...", options: ["Defensive stocks had become overvalued", "Once the macro risk (oil crisis) that drove investors to defensives was removed, money rotated back to the sectors that benefit most from economic normalisation", "Cyclicals had better earnings", "Institutional investors received new mandates"], answer: 1, funFact: "Sector rotation is one of the most reliable and documented patterns in equity markets. The typical cycle: economic expansion (cyclicals outperform), late expansion (quality/defensive), contraction (defensive), early recovery (value/cyclical). The June 2026 oil crisis compressed this cycle into 3 weeks  -  from 'economic contraction fear' (oil spike) to 'early recovery' (oil deal) in compressed timeframe." },
+      { q: "Adani Ports benefiting from the Hormuz reopening demonstrates...", options: ["Adani's political connections helped them", "Port operators benefit from volume  -  supply chain disruptions reduce port throughput; resumption increases it directly and measurably in shipping bookings", "Indian ports were closed during the crisis", "Adani had exclusive shipping contracts"], answer: 1, funFact: "Mundra Port (Adani Ports) handles approximately 155 million tonnes of cargo annually  -  making it India's largest commercial port. During the Hormuz closure, crude oil tanker volumes through Mundra fell significantly as Middle Eastern oil supplies reduced. The reopening immediately restored normal crude oil import volumes, which are Mundra's largest single cargo category." },
+      { q: "70% of market drops of 5%+ recovering within 3 months historically means...", options: ["Investors should always hold through drops", "Statistically, the majority of significant market declines are temporary  -  making patient holding of quality assets the mathematically superior strategy for long-term investors in most scenarios", "30% of drops become prolonged bear markets", "All market declines are temporary"], answer: 1, funFact: "JP Morgan's 2022 research on market corrections: investors who missed just the 10 best single days in the S&P 500 over 20 years (2002-2022) had returns 54% lower than those who stayed invested. The best days typically cluster within 2 weeks of the worst days  -  meaning investors who sold during the crisis missed the recovery entirely. June 2026 was a textbook example." }
+    ]
+  },
+  psychology: { mindTrick: { name: "The Pratfall Effect  -  Mistakes Make You More Likeable", eli5: "Elliot Aronson discovered in 1966 that highly competent people who make minor mistakes become MORE likeable  -  not less. He called this the Pratfall Effect. A perfect person is intimidating and unrelatable. A perfect person who spills coffee becomes human. The key word: MINOR mistakes by competent people. Major mistakes by incompetent people decrease likeability. This is why politicians who can laugh at themselves poll better than those who project invulnerability. Why professors who admit they don't know something are rated more trustworthy than those who always have an answer.", realLife: "You don't need to pretend to be perfect  -  it actually works against you. Appropriate self-disclosure of minor mistakes, learning moments, or vulnerabilities ('I initially got this completely wrong...') makes you more relatable and trustworthy. The key: confess a past mistake after establishing competence, not instead of establishing competence.", mnemonic: "Pratfall Effect = Competent person + minor mistake = MORE likeable. Spilling coffee makes the expert human. Strategic vulnerability." },
+    bodyLanguage: { signal: "Congruence  -  When Body and Words Say the Same Thing", eli5: "When someone's words and body language say the same thing, they're congruent  -  and we trust congruent people instinctively. When words and body diverge  -  'I'm completely fine' with tight jaw and crossed arms, 'This is exciting' with flat eyes and slumped shoulders  -  the body overrides the words. Albert Mehrabian's research: when words and non-verbals conflict, people believe the non-verbals 93% of the time. This is why politicians with speech writers and acting coaches are still caught in incongruence  -  the body reveals what the words conceal.", howToUse: "Before any important communication: ensure your belief in what you're saying produces congruent body language. If you're selling something you don't believe in, your body will signal that. If you genuinely believe your message, congruence happens automatically  -  the most powerful communication tool is actual conviction.", mnemonic: "Congruence = Body and words aligned = Trust. Incongruence = Body overrides words 93% of time. Conviction produces congruence automatically." },
+    superpower: { name: "Priming  -  Setting the Stage for What Comes Next", story: "John Bargh's experiment: participants who unscrambled sentences containing words about old age (wrinkled, forgetful, retired) walked significantly more slowly to the elevator afterward  -  without knowing why. The words primed their behaviour. A hospital study: placing hand sanitiser at eye level in hospital rooms increased use dramatically vs placing it below countertops. TV shows featuring beautiful people prime subsequent judgements of ordinary people's attractiveness downward. Everything in the environment primes everything that follows  -  understanding this makes you both a better designer of environments and a more aware recipient of design.", shield: "Awareness of priming allows you to design your own environment deliberately. Want to be more patient? Surround yourself with images of people you respect. Want to work harder? Work in environments where others are working. Want to be more creative? Introduce novelty and colour to your workspace. The primes are working whether or not you've set them intentionally.", mnemonic: "Priming = Environment sets stage for behaviour. Old age words -> slower walking. Design your primes deliberately." },
+    quiz: [
+      { q: "The Pratfall Effect works only for competent people making minor mistakes because...", options: ["Competent people get sympathy for mistakes", "The minor mistake humanises an otherwise intimidating figure  -  adding relatability without reducing the underlying competence that makes the person valuable", "Minor mistakes are forgiven by society", "Competent people recover from mistakes faster"], answer: 1, funFact: "Aronson's original experiment: participants heard a recording of a quiz contestant answering questions perfectly. Then they heard the same contestant either spilling coffee or not. The coffee-spiller was rated significantly more likeable by people who heard the brilliant performance. When a mediocre contestant spilled coffee, they became less likeable. The humanising effect of mistake-making requires the competence baseline." },
+      { q: "Mehrabian's finding that non-verbals override words 93% of the time during incongruence matters because...", options: ["Most communication is non-verbal always", "When body language contradicts words, listeners are hardwired to trust the body  -  making genuine conviction the most powerful communication tool available", "People are more visual than auditory learners", "Mehrabian's research applied only to emotional communication"], answer: 1, funFact: "Mehrabian's research is frequently misquoted as '93% of communication is non-verbal' (the complete statistic). The actual finding was specifically about communicating feelings and attitudes when verbal and non-verbal signals conflict  -  not about all communication. In purely informational communication without conflict, verbal content dominates. The statistic is most relevant in credibility and persuasion contexts where genuine belief matters." },
+      { q: "Bargh's old age priming experiment showed that environment affects behaviour because...", options: ["Old age concepts directly slow motor function", "Activating a concept in the mind (through language, images, or context) automatically influences subsequent cognition and behaviour without conscious awareness", "Participants guessed the purpose of the experiment", "Walking speed naturally varies by context"], answer: 1, funFact: "Bargh's automaticity research revolutionised social psychology's understanding of conscious vs unconscious behaviour. He demonstrated that much of what people thought were deliberate choices (walking speed, word selection, food choices, charitable behaviour) were actually automatically primed by environmental cues below conscious awareness. The work challenged the fundamental assumption of rational agency in human decision-making." }
+    ]
+  },
+  leadership: { leaderMove: { name: "The Culture Code  -  What Actually Drives Performance", story: "Daniel Coyle studied the world's highest-performing groups  -  Navy SEALs, San Antonio Spurs, Pixar, KIPP schools, Google  -  and found three things made the difference: belonging cues (signals that 'you are safe here'), vulnerability (leaders showing uncertainty and asking for help), and purpose (why this work matters beyond the task). The organisations that lacked any of these three  -  even when they had talent, resources, and smart strategy  -  consistently underperformed. The culture code was the operating system that either multiplied or diminished everything else.", doThis: "As a leader, team member, or colleague: this week deliberately send one belonging cue to a team member who might be feeling uncertain ('Your contribution on X really made a difference'), demonstrate one vulnerability ('I don't know the answer to this  -  help me think through it'), and connect one piece of work to its larger purpose. Three actions, enormous culture impact.", mnemonic: "Culture code = Belonging + Vulnerability + Purpose. The operating system that multiplies everything else. Three signals, any level." },
+    visionarySecret: { concept: "The Overton Window  -  What Ideas Become Possible Over Time", eli5: "Joseph Overton discovered that in any society at any moment, only a narrow range of ideas are considered politically acceptable  -  the 'window' of acceptable discourse. Ideas outside the window are considered radical, unthinkable, or extreme. But the window moves: things unthinkable 10 years ago become radical, then debatable, then mainstream, then accepted. Gay marriage (unthinkable in 1990, legal in 50 states by 2015). Germany reversing nuclear policy (unthinkable in 2020, law in 2026 because of the energy crisis). Visionaries identify where the window will move and position early.", exercise: "In your industry: what idea is currently considered 'too radical' that you think will be mainstream in 10 years? Position yourself now  -  build expertise, write about it, speak on it. By the time the window moves, you'll be the established expert.", mnemonic: "Overton Window = Range of acceptable ideas. It moves. Identify where it's moving. Position in advance." },
+    eliteHabit: { habit: "The Reading Habit  -  One Book Per Week Across Domains", whoAndHow: "Warren Buffett reads 500 pages per day. Charlie Munger has been called 'a book with legs' by Buffett. Bill Gates reads 50 books per year (documented). Elon Musk reportedly read the entire Encyclopaedia Britannica at age 9 and two books per day thereafter. The pattern among elite performers: reading across domains (not just their own field) creates the cross-domain connections that produce breakthrough insights unavailable to single-domain specialists.", whyItWorks: "Charlie Munger's 'mental models' framework: each discipline (physics, biology, economics, history, psychology) provides a set of models for understanding the world. The person with 50 mental models from 10 disciplines consistently outperforms the person with 500 models from 1 discipline  -  because novel problems rarely fit cleanly into a single discipline's models.", mnemonic: "Reading across domains = Cross-domain connections = Breakthrough insights. Munger: 100 models from 10 fields > 1000 from 1. Read widely." },
+    sigmaWisdom: { lesson: "The Dichotomy of Control  -  What You Control, What You Don't", story: "Epictetus was a Greek philosopher born a slave. His master broke his leg for sport. He walked with a limp his entire life. He became one of history's greatest philosophers because he spent his life understanding what he could and could not control  -  and finding freedom precisely in that distinction. His most famous teaching: 'Some things are in our control and others not. Things in our control are opinion, pursuit, desire, aversion, and, in one word, whatever are our own actions. Things not in our control are body, reputation, command, and, in one word, whatever are not our own actions.' He chose what to do with his mind. Not what was done to his body.", action: "Write your most significant current stressor at the top of a paper. Draw a line. Above: what you can control about this. Below: what you cannot. Put all your energy above the line. Release everything below it. Epictetus did this with a broken leg and a life of slavery. You can do it with your situation.", mnemonic: "Dichotomy of control = Above line (yours): opinions, actions, response. Below line (not yours): others' actions, outcomes. Energy only above the line." },
+    quiz: [
+      { q: "Daniel Coyle's research found that the highest-performing groups shared...", options: ["The best talent and highest compensation", "Three specific cultural signals: belonging cues, leader vulnerability, and explicit purpose connection  -  without which even talented groups underperformed", "The most experienced leadership", "The clearest strategy and goals"], answer: 1, funFact: "Coyle's study of the San Antonio Spurs (multiple NBA championships) found that coach Gregg Popovich's most powerful habit was asking players personal questions before discussing basketball  -  'How's your family? How's your daughter doing in school?'  -  deliberately creating belonging before demanding performance. Players reported this as the primary reason for the team's extraordinary trust and cohesion." },
+      { q: "The Overton Window concept is valuable for strategic positioning because...", options: ["It predicts political elections", "Understanding that acceptable ideas shift over time allows positioning in advance of mainstream adoption  -  establishing expertise before competition intensifies", "It shows which ideas are correct", "It applies only to political topics"], answer: 1, funFact: "Overton himself died in 2003, never knowing how widely his concept would be used. His idea was originally about public policy  -  how politically feasible an idea is at any given time. It has since been applied to technology adoption (ideas like self-driving cars, legal marijuana, and same-sex marriage all moved through the Overton Window on predictable timelines), business models, and social norms." },
+      { q: "Reading across multiple disciplines (Munger's approach) produces better insights than deep single-discipline expertise because...", options: ["Generalists are always smarter than specialists", "Novel problems rarely fit a single discipline's models  -  cross-domain thinkers bring multiple frameworks to bear simultaneously, finding solutions specialists miss", "Broad reading is easier than deep reading", "Multiple disciplines provide better credentials"], answer: 1, funFact: "Munger's list of disciplines he considers essential mental models: mathematics (compounding, probability), physics (critical mass, feedback systems), biology (evolution, ecosystems), economics (supply/demand, opportunity cost), psychology (biases, motivation), history, and philosophy. He has stated that any of his greatest investment insights came from applying a model from one of these fields to a problem in another." }
+    ]
+  },
+  wealth: { wealthSecret: { name: "The Wealth Hierarchy  -  Build in This Order", story: "Most people skip steps in building wealth and wonder why it doesn't work. The correct order: 1) Emergency fund (3-6 months expenses in liquid assets  -  cannot skip this step), 2) Eliminate high-interest debt (credit cards at 30-40% interest first), 3) Employer match in provident fund (free money  -  always take 100% of any employer match), 4) Health and life insurance (protect downside before building upside), 5) Index fund SIP (equity for long term), 6) Real estate or advanced investing. Skipping Step 1 (emergency fund) means every market dip forces you to sell investments at a loss. Skipping Step 4 means one health event wipes out years of wealth building.", action: "Map yourself on the hierarchy right now. Which step are you on? Which step have you skipped? Fix the gaps in order. You cannot build sustainable wealth on an unstable foundation.", mnemonic: "Wealth hierarchy: Emergency fund -> Debt cleared -> Insurance -> Index SIP -> Advanced investing. Order matters. Cannot skip." },
+    moneyMachine: { type: "Intellectual Property  -  Create Once, License Infinitely", eli5: "Patents, trademarks, copyrights, and trade secrets are intellectual property (IP) that can generate royalties  -  income from others using your creation. A musician receives royalties every time their song plays. A pharmaceutical company charges for their patented drug formula. An inventor licenses their patent to manufacturers. In India: a software developer who creates a useful tool, files a copyright, and licenses it to companies can generate passive income indefinitely. IP is the purest form of 'create once, earn forever'  -  if the creation has genuine value.", indiaAngle: "India's Copyright Act protects software code automatically from creation  -  no registration required. Patent registration through the Indian Patent Office costs Rs 8,000-20,000 and takes 2-4 years. The Indian government's Startup India programme provides patent fee rebates of 80% for startups. The most accessible IP income for most Indians: creating and licensing digital products, templates, or tools.", mnemonic: "Intellectual Property = Create once, license forever. Patent, copyright, trademark. India patent office: Rs 8,000-20,000." },
+    mindsetFlip: { oldThinking: "I need to find the perfect investment at the perfect time", newThinking: "Time in the market matters more than timing the market. The best time to invest was yesterday. The second best is now.", why: "If you had invested Rs 1 lakh in Nifty 50 on October 1, 2020 (just after COVID had crashed markets): Rs 1.8 lakh by June 2026. If you had waited for the 'perfect' time and invested on December 1, 2020 (after markets had recovered and looked safer): Rs 1.55 lakh. The person who invested at the scariest moment made 16% more than the person who waited for certainty. Waiting for perfect conditions means waiting forever  -  markets never give you permission.", mnemonic: "Time in market > Timing market. Invested at COVID bottom: +80%. Waited for clarity: +55%. Permission never comes." },
+    magicNumber: { number: "The 1% Improvement Compound  -  37x Better in a Year", eli5: "James Clear's mathematical proof of small improvements: 1.01 raised to the power of 365 = 37.78. If you improve 1% each day, you're 37x better in a year. The inverse: 0.99 to the power of 365 = 0.03. Declining 1% each day leaves you at 3% of where you started. This isn't just motivational  -  it's the mathematical foundation of compound improvement. A 1% better conversation each day. A 1% better investment decision each week. A 1% better health choice each meal. The improvements compound exactly like interest.", mnemonic: "1% daily improvement = 37x in a year. 1% daily decline = 3% of original. Compound improvement = compound interest for everything." },
+    quiz: [
+      { q: "The wealth hierarchy starts with an emergency fund because...", options: ["Cash is always the best investment", "Without liquid emergency savings, any unexpected expense forces selling investments at potentially the worst time  -  destroying the long-term compounding that makes wealth building possible", "Banks require emergency funds for loans", "Emergency funds earn the best interest"], answer: 1, funFact: "SEBI data shows that individual investors in Indian equity markets are net sellers during market downturns at exactly the wrong time. The most common reason reported: needing the cash for an emergency. An adequately funded emergency account (3-6 months expenses) would have prevented these forced sales  -  allowing those investors to instead hold or buy during the dip." },
+      { q: "Intellectual property income is considered the purest passive income because...", options: ["It requires no initial investment", "The creation happens once and generates income infinitely through licensing or royalties  -  with zero marginal cost per additional unit of income generated", "IP cannot be taxed", "IP always appreciates in value"], answer: 1, funFact: "The Beatles' publishing rights (controlled by Michael Jackson after he bought them in 1985 for $47 million) generated approximately $500 million in licensing income over the subsequent 30 years  -  entirely from royalties on music created in the 1960s. Paul McCartney sold his Lennon-McCartney songwriting catalogue in 2021 for a reported $200-250 million. The same songs created in the 1960s are still generating income 60 years later." },
+      { q: "Investing at the scariest moment (COVID crash) produced better returns than waiting for clarity because...", options: ["COVID was a unique event", "Asset prices were lower during maximum fear  -  the same investment bought more assets at lower prices, producing higher returns when prices normalised than the same investment made after prices recovered", "Markets always recover immediately", "Government interventions guaranteed recovery"], answer: 1, funFact: "The Nifty 50's COVID low was March 23, 2020 at approximately 7,511. Investors who bought at this point (the scariest day, with apocalyptic headlines) and held 3 years saw returns of approximately 220%. Investors who waited until August 2020 (after markets had recovered to 'feel safe') saw 3-year returns of approximately 100%. The fear premium was worth double the subsequent calm entry." }
+    ]
+  },
+  communication: { speakingSkill: { name: "The Curiosity Question  -  Show Interest and Learn Simultaneously", story: "Richard Feynman, the Nobel Prize-winning physicist, was famous for asking the simplest possible questions in any domain  -  questions that exposed the gap between assumed understanding and actual understanding. 'But why does electricity flow through copper?' when other physicists took it for granted. This technique  -  asking genuine curiosity questions  -  serves two purposes simultaneously: you actually learn something, and the person being asked feels valued and interesting. Great conversationalists aren't those who say interesting things  -  they're those who ask questions that make others say interesting things.", drill: "In your next three professional conversations: ask one question you genuinely don't know the answer to. Not a test question. Not a rhetorical question. A genuine 'I don't know this, tell me' question. Notice what happens to the quality of the conversation and the other person's engagement.", mnemonic: "Curiosity question = Genuine interest, double reward. Learn AND make them feel valued. Feynman asked why copper conducts. Always ask why." },
+    negotiationMove: { tactic: "The Written Proposal  -  Change the Dynamic Completely", eli5: "There's a moment in any negotiation where everything changes: when one party puts a written proposal on the table. Verbal negotiations are fluid  -  positions shift, memories differ, agreements are imprecise. A written proposal anchors the discussion to specific numbers and terms, creates a formal record, and signals that this is being taken seriously. The party that writes the first draft of any agreement has enormous influence over the final terms  -  you frame every element, others react to your framing.", script: "'I'd like to put something concrete on paper so we can discuss specific terms rather than general principles. I'll send you a draft proposal by tomorrow morning and we can use that as the starting point for finalisation.'", mnemonic: "Written proposal = Anchor + record + signal of seriousness. First draft writer frames every element. Always offer to write the draft." },
+    officeWin: { rule: "Learn something from every interaction", story: "The most intellectually effective professionals share one habit: they extract learning from every meeting, conversation, and interaction  -  not just from formal training. After every significant meeting: what did I learn that I didn't know before? After every client interaction: what did I understand better about their needs? After every difficult conversation: what did I learn about how to handle this better? This 60-second mental review, practised consistently, produces more professional growth than quarterly performance reviews.", mistake: "Most professionals treat meetings as tasks to complete rather than learning opportunities. The same conversation, approached with 'what can I learn here?' vs 'how do I get through this quickly?' produces completely different experiences and outcomes.", mnemonic: "Learn from every interaction = 60-second post-meeting: What did I learn? Consistently applied, beats formal training." },
+    confidenceHack: { technique: "Reframe Anxiety as Excitement  -  The Physiological Trick", science: "Harvard research by Alison Wood Brooks: anxiety and excitement are physiologically identical  -  same elevated heart rate, same cortisol, same physical sensations. The difference is entirely cognitive. And crucially: saying 'I am excited' (rather than 'I am nervous') before a performance actually improves performance. Telling yourself 'calm down' is difficult because you're fighting physiology. Telling yourself 'I'm excited' is easy because it's physiologically accurate  -  you're just relabelling the same sensations.", doItNow: "Before your next presentation, difficult conversation, or high-pressure situation: instead of 'I'm nervous, I need to calm down' say out loud 'I'm excited about this.' Say it twice. The reframe is physiologically accurate (you ARE excited, just labelling it as anxiety) and measurably improves performance outcomes.", mnemonic: "Anxiety = Excitement, physiologically identical. Relabel: 'I'm excited.' Easier than calming down, better performance results." },
+    quiz: [
+      { q: "Feynman asking 'why does copper conduct electricity?' was valuable because...", options: ["He didn't know the answer", "Asking simple genuinely curious questions exposes assumed understanding  -  forcing clearer thinking  -  while simultaneously making the responder feel valued and interesting", "Physicists needed to learn basic questions", "Simple questions always produce complex insights"], answer: 1, funFact: "Feynman developed what became known as the 'Feynman Technique' for learning: explain any concept as if teaching it to a 12-year-old. When you can't explain it simply, you've identified what you don't actually understand. His 'why does copper conduct' questions were this technique in conversation form  -  finding where assumed understanding masked genuine ignorance." },
+      { q: "The party that writes the first draft of a negotiation document has disproportionate influence because...", options: ["They demonstrate organisation skills", "Every element of the agreement is framed by the drafter  -  the other party reacts to specific numbers, terms, and structures rather than building from scratch", "Written proposals are legally binding", "First draft writers are always more experienced"], answer: 1, funFact: "The principle of 'first draft advantage' is central to legal negotiation training. Law school negotiation courses universally advise: if you have the right to draft the contract, exercise it  -  you control the baseline. The psychological phenomenon: people tend to accept proposed structures and negotiate specific numbers within them, rather than rejecting the entire structure. Your framing becomes the reference point." },
+      { q: "Reframing 'I'm nervous' as 'I'm excited' improves performance because...", options: ["Positive thinking overrides negative thinking", "Anxiety and excitement have identical physiology  -  the reframe is physiologically accurate and converts the same arousal from an avoidance signal to an approach signal", "Saying things out loud makes them true", "The brain believes what we tell it"], answer: 1, funFact: "Wood Brooks tested the reframe in three contexts: singing (measured by karaoke machine accuracy), math (timed arithmetic), and public speaking (presentation quality rated by observers). In all three, participants told to say 'I am excited' outperformed those told to 'calm down' or given no instruction. The magnitude: 17% improvement in singing accuracy, 22% in math, and significantly higher presentation ratings." }
+    ]
+  },
+  mind: { brainHack: { name: "The Morning Pages  -  Julia Cameron's Daily Brain Dump", eli5: "Julia Cameron's most powerful technique from 'The Artist's Way': write three pages of longhand writing immediately upon waking  -  before coffee, before phone, before anything. The content doesn't matter. It can be complaints, to-do lists, observations, fears, ideas, random thoughts. The point: emptying the mental noise that builds overnight. After 30 days of morning pages, most people report: clearer thinking throughout the day, reduced anxiety, unexpected creative breakthroughs, and better decision-making. The act of writing externalises and resolves mental loops that otherwise run in background processes consuming focus.", protocol: "Three pages of longhand (not typing), immediately upon waking, every day. Do not read back what you write for at least 8 weeks. Don't self-censor  -  this is not a journal to be read, it's a mental hygiene practice. Set a timer for 30 minutes if three pages feels overwhelming at first.", mnemonic: "Morning pages = 3 longhand pages on waking. Don't censor. Don't re-read. Empty the mental cache before the day fills it." },
+    disciplineCode: { principle: "The Progress Principle  -  Small Wins Fuel Intrinsic Motivation", story: "Teresa Amabile (Harvard Business School) analysed 12,000 daily work diary entries from 238 knowledge workers across 7 companies. Her finding: the single biggest driver of positive emotions, strong motivation, and creative thinking was making progress on meaningful work  -  even small progress. Not recognition. Not compensation. Not relationships. Progress. A day where you completed one meaningful thing, even small, produced measurably better subsequent work than a day where you did many things that didn't progress toward anything real.", todayAction: "Define one 'meaningful work' item for today that represents real progress toward something that matters. Not busy work. Not maintenance. Progress. Complete it first. Notice how the rest of the day changes when you begin with genuine progress rather than email responses.", mnemonic: "Progress principle = Small wins fuel motivation more than recognition or pay. Define one real progress item daily. Do it first." },
+    impulseKiller: { urge: "Procrastination on creative or difficult work", eli5: "Procrastination is not laziness  -  it's avoidance of a specific emotion: the discomfort of uncertainty, judgement, or difficulty. You don't procrastinate on eating or watching TV  -  you procrastinate on things that feel threatening. The feeling is always worse in anticipation than in execution. Every experienced writer reports that starting is the hardest part and the writing is easier than the not-writing. Every experienced athlete reports that getting dressed for the workout is the hardest step.", interrupt: "The two-minute start: commit to doing only two minutes of the avoided task. Set a timer. After two minutes, you're allowed to stop. In practice: 80% of the time you continue past the two minutes because starting was the only real obstacle. The timer removes the perceived permanence of the commitment that makes starting feel overwhelming.", mnemonic: "Procrastination interrupt = 2-minute start. Commit only to starting. 80% continue past 2 minutes. Starting is the whole problem." },
+    bodyUpgrade: { practice: "Sunlight + Walking  -  The Free Mental Health Prescription", eli5: "Two of the most well-researched lifestyle interventions for mental health are free and widely available: morning sunlight exposure (sets circadian rhythm, boosts serotonin, improves sleep quality) and daily walking (reduces anxiety, improves mood, stimulates creative thinking, extends lifespan). Stanford researchers found that walking 21 minutes daily reduced anxiety symptoms by 20%  -  comparable to moderate medication. The combination  -  morning walk in sunlight  -  provides both benefits simultaneously. Yet the majority of office workers spend 90%+ of daylight hours indoors.", minimumDose: "20-30 minutes of walking outdoors in the morning or before noon. This single habit, practised consistently, produces measurable improvements in mood, focus, sleep quality, and anxiety within 2 weeks.", mnemonic: "Morning walk in sunlight = Free antidepressant + circadian anchor + 20% anxiety reduction + creative thinking. 20 minutes daily." },
+    quiz: [
+      { q: "Morning pages work for mental clarity because...", options: ["Writing improves memory", "Externalising mental noise through writing closes cognitive loops  -  emptying the background processing that consumes focus and creates low-level anxiety", "Longhand is superior to typing for thinking", "Morning is the best time for writing"], answer: 1, funFact: "Neuroscientist Mark Solms has described the default mode network (the brain's 'background' processing) as the source of the 'unfinished business' that occupies consciousness when not actively engaged in tasks. Morning pages appear to deliberately trigger and exhaust this background processing, leaving the mind clearer for intentional work  -  functioning similarly to how meditation reduces mind-wandering." },
+      { q: "Teresa Amabile's progress principle research found that the strongest motivator was...", options: ["Compensation and bonuses", "Making progress on meaningful work  -  even small progress  -  which produced better emotional states and stronger subsequent work than recognition, relationships, or pay", "Social recognition from colleagues", "Clear goals and deadlines"], answer: 1, funFact: "Amabile's research challenged Self-Determination Theory (Deci and Ryan), which predicted autonomy and relatedness would be the primary motivators in knowledge work. Her diary study found that competence (feeling effective through progress) was the dominant driver. The implication: managers who remove obstacles to progress and celebrate small wins are doing more for motivation than those who focus primarily on compensation or team building." },
+      { q: "The two-minute start technique reduces procrastination because...", options: ["Two minutes is too short to procrastinate about", "Removing the perceived permanence of the commitment ('just two minutes') eliminates the avoidance response  -  the actual work is rarely as difficult as the anticipation made it seem", "Starting always produces a reward signal", "Procrastination only lasts two minutes maximum"], answer: 1, funFact: "The psychological phenomenon behind the two-minute start is called 'affective forecasting error'  -  people consistently over-predict the negative emotional experience of doing difficult tasks. Kahneman found that the memory of an experience (including the anticipation of a future experience) is typically more negative than the actual experience. The two-minute timer forces experiencing the actual task rather than continuing to imagine the feared version." }
+    ]
+  },
+  knowledge: { mathMagic: { concept: "Chaos Theory  -  Why Small Differences Produce Huge Outcomes", eli5: "Edward Lorenz discovered in 1961 that a weather simulation starting with slightly different initial conditions (0.000127 difference in one decimal) produced completely different weather forecasts after a few weeks. He called this 'sensitive dependence on initial conditions'  -  later popularised as the Butterfly Effect: a butterfly flapping its wings in Brazil could theoretically cause a tornado in Texas through cascading amplifications of the initial perturbation. Chaos theory shows that many real systems (weather, ecosystems, economies, social movements) are impossible to predict long-term even with perfect short-term models.", realWorldUse: "Financial markets are chaotic systems  -  tiny differences in information, timing, or sentiment cascade into enormous price movements. This is why long-term market prediction is impossible and short-term market prediction (by professionals) is barely better than chance. Climate models are chaotic  -  which is why 10-day weather forecasts are reasonable but 30-day forecasts are barely better than averages.", mnemonic: "Chaos Theory = Tiny initial difference, completely different outcome. Butterfly Effect is real. Long-term prediction: impossible." },
+    scienceWow: { field: "Biology", concept: "Epigenetics  -  How Environment Switches Genes On and Off", eli5: "Your DNA is not your destiny. You have approximately 20,000 genes. Whether each gene is 'expressed' (turned on) or 'silenced' (turned off) depends on epigenetic markers  -  chemical tags on the DNA that act as switches. Stress, diet, exercise, sleep, social connection, and even meditation change which genes are expressed without changing the underlying DNA sequence. Children of Holocaust survivors have measurably different stress hormone regulation than controls  -  inherited not through DNA changes but through epigenetic changes in their parents' stress responses.", mindBlow: "A study of identical twins found that by age 50, twins who had lived different lives had dramatically different epigenetic profiles  -  different genes expressed despite identical DNA. Your life literally writes itself onto your genome, and those marks can be inherited by your children. You are not just passing on genes  -  you're passing on the consequences of your life.", mnemonic: "Epigenetics = Lifestyle switches genes on/off. Stress, diet, exercise change gene expression. Your life writes onto your genome." },
+    historyStory: { event: "The Reformation 1517  -  How One Man with a Printing Press Changed Everything", story: "On October 31, 1517, Martin Luther nailed his 95 Theses to a church door in Wittenberg, Germany  -  a list of complaints about Catholic Church corruption. This had been done before by others without consequence. The difference: Gutenberg's printing press, invented 77 years earlier, could now spread Luther's arguments across all of Europe within weeks. Luther reached audiences he could never have accessed without printing. Within 10 years, significant portions of Europe had broken from the Catholic Church. Within 100 years, the religious map of Europe was permanently redrawn. One man with the right idea met the right technology at the right moment, and Western civilisation's power structure was permanently altered.", lesson: "The Reformation illustrates the multiplication effect of ideas meeting enabling technology. Luther's ideas were not new  -  John Wycliffe had argued similar points 100 years earlier and been suppressed. The printing press made the difference. The equivalent today: good ideas combined with social media, AI distribution, or algorithmic amplification can spread faster than institutions can respond.", mnemonic: "Reformation 1517 = Luther's ideas + printing press = Western civilisation changed. Right idea + right technology = unstoppable." },
+    earthSecret: { place: "India  -  The Country Most People Don't Fully Know", secret: "India is the world's most complex single political entity: 22 officially recognised languages (with approximately 1,600 spoken languages total), 6 major religions practiced by significant populations, the world's largest democracy (970 million voters in 2024), the world's fastest-growing major economy, and simultaneously one of the world's most unequal societies. India produces more engineers than any country except China, more films than any country globally (Bollywood plus regional industries), and will be the world's most populous country for the next several decades. It contains the oldest continuously functioning legal system (the Indian common law tradition) alongside one of the world's youngest median age populations (28 years).", edge: "Understanding India's complexity  -  its simultaneous economic dynamism and social inequality, its democratic institutions and governance challenges, its global diaspora's influence on every major tech company and university  -  is essential context for understanding the 21st century's most important economic story. India in 2026 is at approximately the same developmental stage China was in 1995  -  and the subsequent 30 years of China's trajectory suggests what India's next 30 years might hold.", mnemonic: "India = 22 languages, 1.4B people, fastest growing economy, 970M voters. World's most complex democracy. China 1995 = India 2026." },
+    quiz: [
+      { q: "Chaos Theory's Butterfly Effect means for financial markets...", options: ["Small investors affect markets significantly", "Long-term market prediction is fundamentally impossible because tiny initial differences cascade into completely different outcomes  -  not just difficult, but mathematically impossible beyond certain time horizons", "Butterflies symbolise market volatility", "Random events determine all market movements"], answer: 1, funFact: "Benoit Mandelbrot (discoverer of fractals) spent his career showing that financial markets exhibit chaotic fractal patterns  -  the same volatility structure at every timescale (daily, monthly, yearly). His conclusion: standard financial risk models (which assume normal distributions) dramatically underestimate the frequency of extreme events. Black swans are a natural consequence of chaotic systems, not rare exceptions to normal behaviour." },
+      { q: "Epigenetic changes inherited from parents mean...", options: ["DNA changes between generations", "Life experiences create chemical gene expression markers that can be passed to children  -  not changing the underlying DNA but changing how genes are expressed in the next generation", "Parents pass on learned behaviours genetically", "Children share all their parents' experiences"], answer: 1, funFact: "The Dutch Hunger Winter study (1944-45 Dutch famine during Nazi occupation) showed that children born to mothers who were pregnant during the famine had measurably different metabolic and health profiles than their siblings born before or after. The epigenetic differences were still detectable in grandchildren born 40-50 years later  -  showing epigenetic inheritance across at least two generations." },
+      { q: "The Reformation's dependence on the printing press shows...", options: ["Luther was a printer by trade", "Good ideas that previously couldn't spread (Wycliffe's similar arguments 100 years earlier were suppressed) became unstoppable when paired with technology that distributed them faster than institutional response could suppress", "Religious change always follows technological change", "The Catholic Church caused the printing press's invention"], answer: 1, funFact: "Within 2 years of Luther's 95 Theses, over 300,000 copies had been printed and distributed across Europe  -  an impossible feat in the pre-Gutenberg era. The Catholic Church, which had successfully suppressed previous reformers by controlling manuscript copying, had no mechanism to control the printing press. The Reformation was, in a fundamental way, the first viral information campaign." }
+    ]
+  },
+  ai: { toolSpotlight: { name: "Suno AI", category: "Creative / Music", eli5: "Suno AI generates original music from text descriptions in seconds. Type 'upbeat Indian classical fusion track with tabla and electric guitar, optimistic mood, 3 minutes' and receive a complete, original song with vocals and instrumentation. The quality (as of 2026) is good enough for background music, social media content, corporate presentations, and personal projects. Professional musicians still far exceed Suno's quality ceiling, but for 95% of music needs that previously required either expensive licensing or amateur creation, Suno provides a third option.", secretMove: "Use Suno's 'extend' feature: generate a 1-minute clip you like, then extend it section by section, adding a middle section, chorus, and outro. You can also feed it lyrics you've written and have it compose the music. The most powerful use: create background music for video content without copyright concerns  -  all Suno output is original and unlicensed.", mnemonic: "Suno AI = Type a description, get original music in seconds. Background music, social content, presentations. No licensing issues." },
+    workflowWin: { title: "The Personal Knowledge Management System", problem: "Information consumed (articles, books, podcasts, conversations) disappears from memory within days without a systematic capture and retrieval system.", steps: ["Choose one capture tool you'll actually use (Notion, Obsidian, Apple Notes, physical notebook)", "Every time you encounter something valuable: capture it in 1-3 sentences maximum. Include source and date.", "Weekly: review captures and tag with 2-3 relevant themes (leadership, investing, psychology, etc.)", "Monthly: review tags, notice patterns and connections. Write 1 paragraph synthesising what you've learned about each major theme."], timeSaved: "Not time saved  -  value created. This system turns the information you consume into a compound-interest knowledge base that becomes more valuable each year.", mnemonic: "PKM system = Capture -> Tag -> Weekly review -> Monthly synthesis. Knowledge that compounds. Information becomes wisdom." },
+    promptOfDay: { purpose: "Create a 30-day learning plan for any skill", prompt: "I want to learn [SKILL] in 30 days to reach [SPECIFIC COMPETENCY LEVEL]. I have [TIME AVAILABLE PER DAY] to dedicate. My learning style: I prefer [reading/video/practice/combination]. Create a day-by-day 30-day learning plan with: specific micro-topics for each day, one 15-minute practice exercise per day, three milestone checkpoints at days 10, 20, and 30 to assess progress, one project I'll have completed by day 30 that demonstrates the skill. Err toward specificity  -  not 'learn the basics' but 'understand and practice [specific concept] using [specific exercise].'", where: "Claude", mnemonic: "30-day skill plan = Day-by-day micro-topics + daily practice + 3 milestones + final project. Specific beats general." },
+    futureWatch: { trend: "The AI hardware race  -  who builds the chips that run the future", eli5: "The AI boom requires enormous amounts of computing power. NVIDIA currently makes the GPUs (graphics processing units) that power most AI training  -  they've become the most valuable company in the world multiple times in 2025-2026. But challengers are emerging: Google's custom TPUs, Amazon's Trainium chips, Meta's MTIA, Apple's Neural Engine, and several startups. The country or company that controls AI chip production controls AI capability. This is why the US has restricted advanced chip exports to China  -  AI chips are the new strategic weapon.", yourMove: "Semiconductor companies (especially those making AI chips or components) are among the most strategically important businesses of the next decade. Understanding the chip supply chain  -  TSMC in Taiwan, ASML in Netherlands, Lam Research in US  -  gives you a framework for understanding geopolitical tensions that will dominate the next 20 years.", mnemonic: "AI chip race = Nvidia dominant, challengers coming. Chips = strategic weapon. TSMC (Taiwan) = world's most important factory." },
+    quiz: [
+      { q: "Suno AI's most practical business advantage is...", options: ["Music quality exceeding professional recordings", "Providing original, unlicensed music for content creators without copyright concerns  -  a third option beyond expensive licensing and amateur creation", "Being cheaper than Spotify", "Creating music that sounds human"], answer: 1, funFact: "YouTube copyright claims cost creators estimated $100M+ in demonetisation annually  -  songs used in videos trigger Content ID matches that redirect ad revenue to rights holders. Suno-generated music is original and not in any copyright database  -  eliminating this risk entirely for video creators." },
+      { q: "Personal Knowledge Management (PKM) systems are valuable over years because...", options: ["They improve reading speed", "Systematic capture and regular review create a compound interest effect on knowledge  -  each new piece connects to existing knowledge, making the database exponentially more valuable than the sum of its parts", "They replace reading books", "Digital notes are easier to search than physical ones"], answer: 1, funFact: "Niklas Luhmann, the German sociologist who created the Zettelkasten (slip box) system (an early PKM), produced over 50 books and 600 articles using his 90,000-note system. He attributed his extraordinary output to the 'communication with the slip box'  -  the system surfaced unexpected connections between ideas that he hadn't consciously made. Modern digital PKM tools (Obsidian, Roam Research) are digital implementations of his analog system." },
+      { q: "The US restricting advanced chip exports to China is geopolitically significant because...", options: ["China was underpaying for chips", "AI capability is directly determined by chip access  -  controlling chip exports means controlling AI development capacity, making semiconductors the most strategically important technology in great power competition", "Chinese chips were inferior to American ones", "The restriction protects American jobs"], answer: 1, funFact: "TSMC (Taiwan Semiconductor Manufacturing Company) manufactures approximately 90% of the world's most advanced chips (3nm and below). This makes Taiwan geopolitically indispensable  -  any military conflict that disrupted TSMC's operations would immediately halt AI development, smartphone production, and military electronics globally. The 'silicon shield' theory: TSMC's indispensability may protect Taiwan from invasion more effectively than any military deterrent." }
+    ]
+  },
+  travel: { destination: { country: "Sri Lanka", region: "Colombo, Galle and the Hill Country", eli5: "Sri Lanka is India's teardrop island neighbour  -  80 kilometres across the Palk Strait from Tamil Nadu, but feeling like a different world. The hill country around Kandy has tea plantations that carpet the mountains in green, colonial-era trains that wind through misty peaks, and a climate so mild it feels like visiting England except with better food. The south coast around Galle has a 17th-century Dutch fort town (still inhabited), surf beaches, and whale watching from January-April. Colombo is a city in rapid transformation  -  skyscrapers rising beside colonial-era buildings, a dining scene that punches well above the country's economic weight.", bestTime: "December-April for the south coast and west coast beaches. May-September for the east coast. Hill country is good year-round (some rain any month).", "hiddenGem": "Ella  -  a small town in the hill country accessible by the most beautiful train journey in Asia (Kandy to Ella, 5 hours). Ella Rock (a 3-hour hike) gives views over the entire south coast of Sri Lanka on clear days. The Nine Arches Bridge, a colonial-era railway viaduct surrounded by tea plantations, is one of the most photographed sites in Asia. Almost no crowds before 10am.", mnemonic: "Sri Lanka = 80km from India, completely different. Hill country tea + Galle Dutch fort + Colombo transformation. Train Kandy to Ella: Asia's best." },
+    visaTip: { focus: "Sri Lanka ETA for Indian Passport Holders", eli5: "Indian passport holders can get an Electronic Travel Authorisation (ETA) for Sri Lanka entirely online at eta.gov.lk. Cost: USD 35 for tourism. Processing: usually within 24 hours, sometimes instant. Valid for 30 days single entry, extendable to 90 days. The Sri Lanka ETA is one of Asia's simplest online visa systems  -  10 minutes to apply, 24 hours to receive.", goldenTip: "Sri Lanka accepted Indian rupees at many tourist locations as of 2026  -  reducing currency exchange hassle. The Sri Lankan Rupee is approximately Rs 0.25 = 1 LKR, meaning most things seem inexpensive to Indians. A quality hotel in Colombo costs Rs 3,000-6,000 Indian rupees per night. A full traditional rice and curry meal: Rs 150-250 Indian rupees.", mnemonic: "Sri Lanka ETA = USD 35 online, 24 hours. Indian rupees accepted widely. Rs 150-250 for full meal. Genuinely affordable." },
+    culturalCode: { culture: "Sri Lanka (predominantly Buddhist)", doThis: "Dress modestly at all Buddhist temples: shoulders covered, knees covered, shoes removed before entering. The Sri Lankan greeting is 'Ayubowan' (A-you-bo-wan)  -  meaning 'may you live long'  -  with palms pressed together. Genuinely attempting this greeting produces warm reactions everywhere. Try the local food without reservations: hoppers (bowl-shaped rice flour pancakes), kottu roti (chopped roti stir-fried with vegetables and egg), and string hoppers (rice noodle pancakes) are all worth experiencing in local restaurants rather than tourist versions.", neverDoThis: "Never turn your back to a Buddha statue for photographs  -  face the statue, don't position it behind you. Never point your feet toward a Buddha or shrine. In temples, walk clockwise. Do not touch monks  -  even women who are Buddhist must not physically touch monks. Never photograph people's homes or private ceremonies without explicit permission.", mnemonic: "Sri Lanka: Ayubowan greeting + modest dress at temples + clockwise walking + never feet toward Buddha. Buddhist island, Buddhist rules." },
+    quiz: [
+      { q: "The Kandy to Ella train journey is considered Asia's best because...", options: ["It's the fastest train in Asia", "It winds through tea plantation mountains, over colonial viaducts, and past waterfalls for 5 hours  -  providing constantly changing dramatic landscape visible from the open train doors", "It was built by the British as a luxury train", "It connects two of Sri Lanka's most important cities"], answer: 1, funFact: "The Kandy to Ella railway was built by British colonial engineers between 1864-1894  -  a 33-year project requiring extraordinary feats of 19th-century engineering across the Central Highlands. The Nine Arches Bridge near Ella, built entirely from stone and brick without steel (because WWI had made steel unavailable), is considered one of the finest examples of colonial railway architecture in Asia." },
+      { q: "Sri Lanka being 80km from India but feeling 'like a different world' reflects...", options: ["Geographic barriers creating isolation", "Centuries of distinct cultural development  -  Buddhist, Sinhala, Tamil, Dutch, Portuguese, and British influences layering onto each other differently than the Indian mainland", "Sri Lanka was never part of India", "The ocean crossing creates cultural distance"], answer: 1, funFact: "Sri Lanka (ancient Serendib, then Ceylon) was independently ruled for most of its history despite proximity to India. The Sinhalese kingdom at Sigiriya (5th century AD) built a palace on top of a 200-metre rock  -  the most spectacular ancient palace in South Asia. Portuguese, Dutch, and British colonial periods each left architectural and cultural marks. The result: a culture that's deeply connected to India but distinctly its own." },
+      { q: "Sri Lanka's economy in 2026 is significant because...", options: ["It became the fastest growing economy in South Asia", "After the 2022 economic collapse (fuel shortages, food lines, president fled the country), Sri Lanka has been slowly rebuilding  -  making it one of Asia's most dramatic economic recovery stories", "Sri Lanka discovered oil deposits", "Tourism was permanently damaged by COVID"], answer: 1, funFact: "Sri Lanka's 2022 crisis was triggered by: COVID eliminating tourism revenue (30% of GDP), fertiliser import ban causing agricultural collapse, and excessive foreign debt. Citizens queued 12+ hours for fuel. The president fled to the Maldives after protesters stormed his residence. The IMF provided a $2.9 billion bailout in 2023. By 2026, recovery was underway but fragile  -  making Sri Lanka both a cautionary tale and a study in economic resilience." }
+    ]
+  }
+}
+
+const ALL_BRIEFS = {
+  '2026-06-01': d260601,
+  '2026-06-02': d260602,
+  '2026-06-03': d260603,
+  '2026-06-04': d260604,
+  '2026-06-05': d260605,
+  '2026-06-06': d260606,
+  '2026-06-07': d260607,
+  '2026-06-08': d260608,
+  '2026-06-09': d260609,
+  '2026-06-10': d260610,
+  '2026-06-11': d260611,
+  '2026-06-12': d260612,
+  '2026-06-13': d260613,
+  '2026-06-14': d260614,
+  '2026-06-15': d260615,
+  '2026-06-16': d260616,
+}
+
+// == DATA END ==
+
+const AVAILABLE_DATES = Object.keys(ALL_BRIEFS).sort()
+
+// Returns all card IDs that exist for a given date+domain, matching exactly what each view tracks.
+// Used for accurate completion checking in the date picker.
+function getExpectedCards(brief, domainId) {
+  const d = brief?.[domainId]
+  if (!d) return []
+  if (domainId === 'news') {
+    if (!d.segments) return []
+    return d.segments.flatMap((seg, si) => seg.stories.map((_, j) => `seg${si}-story${j}`))
+  }
+  if (domainId === 'markets') return ['pulse','bazaar','stock0','stock1','stock2','ipo','lesson'].filter(id => {
+    if (id === 'pulse') return !!d.globalPulse
+    if (id === 'bazaar' || id.startsWith('stock') || id === 'ipo' || id === 'lesson') return !!d.indianMarket
+    return false
+  })
+  if (domainId === 'wealth') return ['wealthSecret','moneyMachine','mindsetFlip','magicNumber'].filter(id => !!d[id])
+  if (domainId === 'ai') return ['toolSpotlight','workflowWin','promptOfDay','futureWatch'].filter(id => !!d[id])
+  if (domainId === 'travel') return ['destination','visaTip','culturalCode'].filter(id => !!d[id])
+  if (domainId === 'psychology') return ['mindTrick','bodyLanguage','superpower'].filter(id => !!d[id])
+  if (domainId === 'leadership') return ['leaderMove','visionarySecret','eliteHabit','sigmaWisdom'].filter(id => !!d[id])
+  if (domainId === 'communication') return ['speakingSkill','negotiationMove','officeWin','confidenceHack'].filter(id => !!d[id])
+  if (domainId === 'mind') return ['brainHack','disciplineCode','impulseKiller','bodyUpgrade'].filter(id => !!d[id])
+  if (domainId === 'knowledge') return ['mathMagic','scienceWow','historyStory','earthSecret'].filter(id => !!d[id])
+  return []
+}
+
+// Returns true only when every card in every domain for a date is read
+function isDateFullyComplete(brief, dateReadState) {
+  if (!brief) return false
+  return DOMAINS.every(dom => {
+    const expected = getExpectedCards(brief, dom.id)
+    if (expected.length === 0) return true // domain not present for this date
+    const read = dateReadState[dom.id] || new Set()
+    return expected.every(cardId => read instanceof Set ? read.has(cardId) : false)
+  })
+}
+
+// -- UI Components --------------------------------------------------------------
+function ELI5({ text, color }) {
+  return <div style={{ fontSize: 14, color: C.text, lineHeight: 1.85, background: `${color}0d`, borderRadius: 10, padding: '12px 14px', marginBottom: 10 }}>{text}</div>
+}
+
+function ActionRow({ label, text, color }) {
+  return (
+    <div style={{ display: 'flex', gap: 8, padding: '8px 12px', background: C.surface, borderRadius: 8, marginBottom: 6, borderLeft: `2px solid ${color}` }}>
+      <span style={{ fontSize: 11, color, fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.06em', whiteSpace: 'nowrap', paddingTop: 1, flexShrink: 0 }}>{label}</span>
+      <span style={{ fontSize: 13, color: C.muted, lineHeight: 1.6 }}>{text}</span>
+    </div>
+  )
+}
+
+function Tag({ label, color }) {
+  return <span style={{ display: 'inline-block', padding: '3px 10px', borderRadius: 20, background: `${color}22`, color, fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', marginRight: 6, marginBottom: 4 }}>{label}</span>
+}
+
+function SectionHeader({ text, color }) {
+  return <div style={{ fontSize: 11, fontWeight: 800, color, textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: 12, marginTop: 4 }}>{text}</div>
+}
+
+function Mnemonic({ text, color }) {
+  const [open, setOpen] = useState(false)
+  if (!text) return null
+  return (
+    <div onClick={() => setOpen(o => !o)} style={{ marginTop: 12, padding: '8px 14px', borderRadius: 10, border: `1px dashed ${open ? color : C.dim}`, background: open ? `${color}10` : 'transparent', cursor: 'pointer', transition: 'all 0.25s' }}>
+      <span style={{ fontSize: 11, color: open ? color : C.muted, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+        🧠 Memory Trick · {open ? 'tap to hide ^' : 'tap to reveal v'}
+      </span>
+      {open && <div style={{ marginTop: 6, fontSize: 13, color: C.text, lineHeight: 1.6 }}>{text}</div>}
+    </div>
+  )
+}
+
+// -- Progress utilities ------------------------------------------------------
+function ProgressBar({ value, total, color, height = 5, showLabel = false }) {
+  const pct = total === 0 ? 0 : Math.round((value / total) * 100)
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+      <div style={{ flex: 1, height, background: C.dim, borderRadius: height, overflow: 'hidden' }}>
+        <div style={{
+          width: `${pct}%`, height: '100%',
+          background: pct === 100
+            ? `linear-gradient(90deg, ${C.mint}, #6ee7b7)`
+            : `linear-gradient(90deg, ${color}, ${color}cc)`,
+          borderRadius: height,
+          transition: 'width 0.4s ease'
+        }} />
+      </div>
+      {showLabel && (
+        <span style={{ fontSize: 11, color: pct === 100 ? C.mint : C.muted, fontWeight: 700, whiteSpace: 'nowrap', minWidth: 36, textAlign: 'right' }}>
+          {pct === 100 ? '✅' : `${value}/${total}`}
+        </span>
+      )}
+    </div>
+  )
+}
+
+function Card({ emoji, title, color, children, mnemonic, cardId, readSet, onRead }) {
+  const [open, setOpen] = useState(true)
+  const isRead = readSet && cardId ? readSet.has(cardId) : false
+
+  const toggleRead = (e) => {
+    e.stopPropagation()
+    if (onRead && cardId) onRead(cardId)
+  }
+
+  return (
+    <div style={{
+      background: C.card, borderRadius: 14, marginBottom: 14, overflow: 'hidden',
+      border: `1px solid ${isRead ? color + '55' : C.border}`,
+      transition: 'border-color 0.3s'
+    }}>
+      <div style={{ padding: '13px 16px', display: 'flex', alignItems: 'center', gap: 10, borderBottom: open ? `1px solid ${C.border}` : 'none' }}>
+        {/* Read tick button */}
+        {onRead && (
+          <button onClick={toggleRead} style={{
+            width: 26, height: 26, borderRadius: '50%', flexShrink: 0,
+            background: isRead ? color : 'transparent',
+            border: `2px solid ${isRead ? color : C.dim}`,
+            cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center',
+            fontSize: 12, transition: 'all 0.2s', padding: 0,
+            color: isRead ? '#0d0d14' : C.dim,
+          }}>
+            {isRead ? '(check)' : ''}
+          </button>
+        )}
+        <span style={{ fontSize: 20 }}>{emoji}</span>
+        <span onClick={() => setOpen(o => !o)} style={{ flex: 1, fontWeight: 700, fontSize: 14, color: isRead ? C.muted : C.text, lineHeight: 1.3, cursor: 'pointer', textDecoration: isRead ? 'line-through' : 'none', opacity: isRead ? 0.7 : 1, transition: 'all 0.2s' }}>{title}</span>
+        <span onClick={() => setOpen(o => !o)} style={{ color: C.dim, fontSize: 12, cursor: 'pointer' }}>{open ? '^' : 'v'}</span>
+      </div>
+      {open && <div style={{ padding: '14px 16px' }}>{children}{mnemonic && <Mnemonic text={mnemonic} color={color} />}</div>}
+    </div>
+  )
+}
+
+function Quiz({ questions, color, onXP }) {
+  const [idx, setIdx] = useState(0)
+  const [selected, setSelected] = useState(null)
+  const [score, setScore] = useState(0)
+  const [done, setDone] = useState(false)
+  if (!questions?.length) return null
+  const q = questions[idx]
+  const choose = (i) => { if (selected !== null) return; setSelected(i); if (i === q.answer) setScore(s => s + 1) }
+  const next = () => {
+    if (idx + 1 >= questions.length) { setDone(true); onXP && onXP((score + (selected === q.answer ? 1 : 0)) * 10) }
+    else { setIdx(i => i + 1); setSelected(null) }
+  }
+  if (done) {
+    const final = score
+    return (
+      <div style={{ textAlign: 'center', padding: '28px', background: C.card, borderRadius: 16, border: `1px solid ${C.border}` }}>
+        <div style={{ fontSize: 52, marginBottom: 8 }}>{final === questions.length ? '🏆' : final >= 2 ? '⭐' : '📚'}</div>
+        <div style={{ fontSize: 20, fontWeight: 900, color, marginBottom: 6 }}>{final}/{questions.length} Correct!</div>
+        <div style={{ color: C.muted, fontSize: 13 }}>{final === questions.length ? 'Perfect! +30 XP!' : final >= 2 ? 'Nice work! +20 XP!' : 'Keep learning! +10 XP!'}</div>
+      </div>
+    )
+  }
+  return (
+    <div style={{ background: C.card, borderRadius: 16, border: `1px solid ${color}44`, padding: 20 }}>
+      <div style={{ fontSize: 11, color, textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: 10, fontWeight: 800 }}>🧩 Quiz · Q{idx + 1}/{questions.length}</div>
+      <div style={{ fontSize: 16, fontWeight: 700, color: C.text, marginBottom: 16, lineHeight: 1.5 }}>{q.q}</div>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 8, marginBottom: 14 }}>
+        {q.options.map((opt, i) => {
+          let bg = C.surface, border = C.border, tc = C.text
+          if (selected !== null) { if (i === q.answer) { bg = '#0d2a0d'; border = C.mint; tc = C.mint } else if (i === selected) { bg = '#2a0d0d'; border = C.rose; tc = C.rose } }
+          return <button key={i} onClick={() => choose(i)} style={{ background: bg, border: `1px solid ${border}`, borderRadius: 10, padding: '10px 14px', color: tc, fontSize: 14, textAlign: 'left', cursor: selected !== null ? 'default' : 'pointer', fontFamily: 'inherit', transition: 'all 0.2s' }}><span style={{ opacity: 0.4, marginRight: 8 }}>{['A','B','C','D'][i]}.</span>{opt}</button>
+        })}
+      </div>
+      {selected !== null && (
+        <>
+          <div style={{ padding: '12px 14px', borderRadius: 10, marginBottom: 12, background: selected === q.answer ? '#0d2a0d' : '#2a0d0d', border: `1px solid ${selected === q.answer ? C.mint : C.rose}44` }}>
+            <div style={{ fontWeight: 700, color: selected === q.answer ? C.mint : C.rose, marginBottom: 4, fontSize: 13 }}>{selected === q.answer ? '✅ Correct!' : '❌ Not quite!'}</div>
+            <div style={{ fontSize: 13, color: C.muted, lineHeight: 1.6 }}>💡 {q.funFact}</div>
+          </div>
+          <button onClick={next} style={{ width: '100%', padding: '11px', background: color, color: '#0d0d14', border: 'none', borderRadius: 10, fontWeight: 800, fontSize: 14, cursor: 'pointer', fontFamily: 'inherit' }}>
+            {idx + 1 >= questions.length ? 'See Score 🏁' : 'Next ->'}
+          </button>
+        </>
+      )}
+    </div>
+  )
+}
+
+// -- Domain Views ------------------------------------------------------------
+function NewsView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.segments) return null
+
+  // Count total cards and read cards for progress
+  const allCards = data.segments.flatMap((seg, si) => seg.stories.map((_, j) => `seg${si}-story${j}`))
+  const readCount = allCards.filter(id => readSet.has(id)).length
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+
+  return <div>
+    {data.segments.map((seg, si) => {
+      const segCardIds = seg.stories.map((_, j) => `seg${si}-story${j}`)
+      const segRead = segCardIds.filter(id => readSet.has(id)).length
+      const segDone = segRead === segCardIds.length
+
+      return (
+        <div key={si} style={{ marginBottom: 24 }}>
+          {/* Section header with completion indicator */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 10 }}>
+            <div style={{ fontSize: 11, fontWeight: 800, color: seg.color || color, textTransform: 'uppercase', letterSpacing: '0.1em', flex: 1 }}>
+              {segDone ? '✅ ' : ''}{seg.name}
+            </div>
+            <span style={{ fontSize: 11, color: segDone ? C.mint : C.muted, fontWeight: 700 }}>
+              {segRead}/{segCardIds.length}
+            </span>
+          </div>
+          <ProgressBar value={segRead} total={segCardIds.length} color={seg.color || color} height={3} />
+          <div style={{ marginTop: 10 }}>
+            {seg.stories.map((s, j) => {
+              const cardId = `seg${si}-story${j}`
+              return (
+                <Card key={j} emoji="📰" title={s.headline} color={color} mnemonic={s.mnemonic} cardId={cardId} readSet={readSet} onRead={onRead}>
+                  <ELI5 text={s.eli5} color={color} />
+                  <ActionRow label="Why care" text={s.whyItMatters} color={color} />
+                </Card>
+              )
+            })}
+          </div>
+        </div>
+      )
+    })}
+    <SectionHeader text="🧩 Test Yourself" color={color} />
+    <Quiz questions={data.quiz} color={color} onXP={onXP} />
+  </div>
+}
+
+function MarketsView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.globalPulse) return null
+  const im = data.indianMarket
+  const allCards = ['pulse', 'bazaar', 'stock0', 'stock1', 'stock2', 'ipo', 'lesson']
+  const readCount = allCards.filter(id => readSet.has(id)).length
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+
+  return <div>
+    <Card emoji="🌊" title="The World's Money River Today" color={color} cardId="pulse" readSet={readSet} onRead={onRead}>
+      <ELI5 text={data.globalPulse.eli5} color={color} />
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>{data.globalPulse.keyThings?.map((k, i) => <Tag key={i} label={k} color={color} />)}</div>
+    </Card>
+    <Card emoji="🎪" title="India's Stock Bazaar" color={color} cardId="bazaar" readSet={readSet} onRead={onRead}><ELI5 text={im?.eli5} color={color} /></Card>
+    <SectionHeader text="🚀 3 Stocks to Watch (Halal)" color={color} />
+    {im?.breakouts?.map((b, i) => (
+      <Card key={i} emoji="📈" title={b.name} color={color} cardId={`stock${i}`} readSet={readSet} onRead={onRead}>
+        {/* Halal badge */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 10 }}>
+          {b.halal === true && (
+            <span style={{ background: '#0d2a0d', color: C.mint, fontSize: 11, fontWeight: 800, padding: '3px 10px', borderRadius: 20, border: `1px solid ${C.mint}44` }}>
+              ✅ Halal
+            </span>
+          )}
+          {b.halal === false && (
+            <span style={{ background: '#2a0d0d', color: C.rose, fontSize: 11, fontWeight: 800, padding: '3px 10px', borderRadius: 20, border: `1px solid ${C.rose}44` }}>
+              ⚠️ Not Halal
+            </span>
+          )}
+          {b.halal === 'conditional' && (
+            <span style={{ background: '#2a2a0d', color: C.lemon, fontSize: 11, fontWeight: 800, padding: '3px 10px', borderRadius: 20, border: `1px solid ${C.lemon}44` }}>
+              🔍 Check Scholar
+            </span>
+          )}
+        </div>
+        <ELI5 text={b.whyExciting} color={color} />
+        {/* Buy / Sell / Stop Loss row */}
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 6, margin: '10px 0' }}>
+          {[
+            { label: 'Buy Below', value: b.buyPrice, accent: C.mint },
+            { label: 'Target', value: b.sellPrice, accent: C.lavender },
+            { label: 'Stop Loss', value: b.stopLoss, accent: C.rose },
+          ].map(({ label, value, accent }) => (
+            <div key={label} style={{ background: C.surface, borderRadius: 8, padding: '8px 10px', border: `1px solid ${accent}33`, textAlign: 'center' }}>
+              <div style={{ fontSize: 10, color: C.muted, marginBottom: 3, textTransform: 'uppercase', letterSpacing: '0.05em' }}>{label}</div>
+              <div style={{ fontSize: 13, fontWeight: 800, color: value && value !== 'N/A' ? accent : C.dim }}>
+                {value || 'N/A'}
+              </div>
+            </div>
+          ))}
+        </div>
+        <ActionRow label="Risk" text={b.risk} color={C.rose} />
+      </Card>
+    ))}
+    {/* Fallback if no breakouts this week */}
+    {(!im?.breakouts || im.breakouts.length === 0) && (
+      <Card emoji="💰" title="Top Halal Dividend Stock This Week" color={color} cardId="stock0" readSet={readSet} onRead={onRead}>
+        <ELI5 text={im?.dividendPick?.eli5 || 'No active trade setups this week with clean halal status. Check back next brief.'} color={color} />
+        {im?.dividendPick && <ActionRow label="Dividend Yield" text={im.dividendPick.yield} color={color} />}
+      </Card>
+    )}
+    <Card emoji="🎟️" title={`IPO: ${im?.ipoSpot?.name}`} color={color} cardId="ipo" readSet={readSet} onRead={onRead}>
+      <div style={{ marginBottom: 10 }}><span style={{ padding: '4px 16px', borderRadius: 20, fontWeight: 800, fontSize: 13, background: im?.ipoSpot?.verdict === 'Apply' ? '#0d2a0d' : im?.ipoSpot?.verdict === 'Avoid' ? '#2a0d0d' : '#2a2a0d', color: im?.ipoSpot?.verdict === 'Apply' ? C.mint : im?.ipoSpot?.verdict === 'Avoid' ? C.rose : C.lemon }}>{im?.ipoSpot?.verdict}</span></div>
+      <ELI5 text={im?.ipoSpot?.eli5} color={color} />
+    </Card>
+    <Card emoji="📖" title={im?.lessonOfDay?.title} color={color} mnemonic={im?.lessonOfDay?.mnemonic} cardId="lesson" readSet={readSet} onRead={onRead}><ELI5 text={im?.lessonOfDay?.story} color={color} /></Card>
+    <div style={{ fontSize: 11, color: C.muted, marginBottom: 16, fontStyle: 'italic' }}>⚠️ Educational only. Not SEBI-registered advice. Verify halal status with your scholar. Do your own research.</div>
+    <SectionHeader text="🧩 Test Yourself" color={color} />
+    <Quiz questions={data.quiz} color={color} onXP={onXP} />
+  </div>
+}
+
+function GenericView({ data, color, onXP, sections, readSet, onRead, onProgress }) {
+  const allCards = sections.filter(sec => data?.[sec.key]).map(sec => sec.key)
+  const readCount = allCards.filter(id => readSet.has(id)).length
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+
+  return <div>
+    {sections.map((sec, i) => {
+      const block = data?.[sec.key]
+      if (!block) return null
+      return (
+        <Card key={i} emoji={sec.emoji} title={block[sec.titleKey] || sec.fallback || sec.key} color={color} mnemonic={block[sec.mnemonicKey]} cardId={sec.key} readSet={readSet} onRead={onRead}>
+          {sec.eli5Key && <ELI5 text={block[sec.eli5Key]} color={color} />}
+          {sec.extraKeys?.map((ex, j) => block[ex.key] && <ActionRow key={j} label={ex.label} text={Array.isArray(block[ex.key]) ? block[ex.key].join(' -> ') : block[ex.key]} color={ex.rose ? C.rose : color} />)}
+        </Card>
+      )
+    })}
+    <SectionHeader text="🧩 Test Yourself" color={color} />
+    <Quiz questions={data?.quiz} color={color} onXP={onXP} />
+  </div>
+}
+
+function PsychView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.mindTrick) return null
+  return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
+    { key:'mindTrick', emoji:'🧠', titleKey:'name', eli5Key:'eli5', extraKeys:[{label:'Real Life',key:'realLife'}], mnemonicKey:'mnemonic' },
+    { key:'bodyLanguage', emoji:'👁️', titleKey:'signal', eli5Key:'eli5', extraKeys:[{label:'Use It',key:'howToUse'}], mnemonicKey:'mnemonic' },
+    { key:'superpower', emoji:'⚡', titleKey:'name', eli5Key:'story', extraKeys:[{label:'Shield',key:'shield',rose:true}], mnemonicKey:'mnemonic' },
+  ]} />
+}
+
+function LeadView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.leaderMove) return null
+  return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
+    { key:'leaderMove', emoji:'👑', titleKey:'name', eli5Key:'story', extraKeys:[{label:'Do Today',key:'doThis'}], mnemonicKey:'mnemonic' },
+    { key:'visionarySecret', emoji:'🔭', titleKey:'concept', eli5Key:'eli5', extraKeys:[{label:'Exercise',key:'exercise'}], mnemonicKey:'mnemonic', fallback:'Visionary Thinking' },
+    { key:'eliteHabit', emoji:'💎', titleKey:'habit', eli5Key:'whyItWorks', extraKeys:[{label:'Who & How',key:'whoAndHow'}], mnemonicKey:'mnemonic' },
+    { key:'sigmaWisdom', emoji:'🗿', titleKey:'lesson', eli5Key:'story', extraKeys:[{label:'Do Now',key:'action'}], mnemonicKey:'mnemonic' },
+  ]} />
+}
+
+function WealthView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.wealthSecret) return null
+  const allCards = ['wealthSecret','moneyMachine','mindsetFlip','magicNumber']
+  const readCount = allCards.filter(id => readSet.has(id)).length
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+  return <div>
+    <Card emoji="🌱" title={data.wealthSecret.name} color={color} mnemonic={data.wealthSecret.mnemonic} cardId="wealthSecret" readSet={readSet} onRead={onRead}>
+      <ELI5 text={data.wealthSecret.story} color={color} />
+      <ActionRow label="This Week" text={data.wealthSecret.action} color={color} />
+    </Card>
+    <Card emoji="🏧" title={data.moneyMachine.type} color={color} mnemonic={data.moneyMachine.mnemonic} cardId="moneyMachine" readSet={readSet} onRead={onRead}>
+      <ELI5 text={data.moneyMachine.eli5} color={color} />
+      <ActionRow label="India Angle" text={data.moneyMachine.indiaAngle} color={color} />
+    </Card>
+    <Card emoji="🔄" title="Mindset Flip" color={color} mnemonic={data.mindsetFlip?.mnemonic} cardId="mindsetFlip" readSet={readSet} onRead={onRead}>
+      <div style={{ background: '#2a0d0d', borderRadius: 10, padding: '10px 14px', marginBottom: 8 }}>
+        <div style={{ fontSize: 10, color: C.rose, fontWeight: 800, letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 4 }}>Most people think</div>
+        <div style={{ fontSize: 13, color: C.muted }}>{data.mindsetFlip?.oldThinking}</div>
+      </div>
+      <div style={{ background: '#0d2a0d', borderRadius: 10, padding: '10px 14px', marginBottom: 8 }}>
+        <div style={{ fontSize: 10, color: C.mint, fontWeight: 800, letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 4 }}>1% thinks</div>
+        <div style={{ fontSize: 14, color: C.text, fontWeight: 600 }}>{data.mindsetFlip?.newThinking}</div>
+      </div>
+      <ELI5 text={data.mindsetFlip?.why} color={color} />
+    </Card>
+    <Card emoji="🔢" title={data.magicNumber?.number} color={color} mnemonic={data.magicNumber?.mnemonic} cardId="magicNumber" readSet={readSet} onRead={onRead}>
+      <ELI5 text={data.magicNumber?.eli5} color={color} />
+    </Card>
+    <SectionHeader text="🧩 Test Yourself" color={color} />
+    <Quiz questions={data.quiz} color={color} onXP={onXP} />
+  </div>
+}
+
+function CommView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.speakingSkill) return null
+  return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
+    { key:'speakingSkill', emoji:'🎤', titleKey:'name', eli5Key:'story', extraKeys:[{label:'Drill',key:'drill'}], mnemonicKey:'mnemonic' },
+    { key:'negotiationMove', emoji:'🤝', titleKey:'tactic', eli5Key:'eli5', extraKeys:[{label:'Script',key:'script'}], mnemonicKey:'mnemonic' },
+    { key:'officeWin', emoji:'🏢', titleKey:'rule', eli5Key:'story', extraKeys:[{label:'Mistake',key:'mistake',rose:true}], mnemonicKey:'mnemonic' },
+    { key:'confidenceHack', emoji:'💪', titleKey:'technique', eli5Key:'science', extraKeys:[{label:'Do Now',key:'doItNow'}], mnemonicKey:'mnemonic' },
+  ]} />
+}
+
+function MindView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.brainHack) return null
+  return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
+    { key:'brainHack', emoji:'🚀', titleKey:'name', eli5Key:'eli5', extraKeys:[{label:'Protocol',key:'protocol'}], mnemonicKey:'mnemonic' },
+    { key:'disciplineCode', emoji:'🐸', titleKey:'principle', eli5Key:'story', extraKeys:[{label:'Today',key:'todayAction'}], mnemonicKey:'mnemonic' },
+    { key:'impulseKiller', emoji:'👾', titleKey:'urge', eli5Key:'eli5', extraKeys:[{label:'Interrupt',key:'interrupt'}], mnemonicKey:'mnemonic' },
+    { key:'bodyUpgrade', emoji:'🥶', titleKey:'practice', eli5Key:'eli5', extraKeys:[{label:'Min Dose',key:'minimumDose'}], mnemonicKey:'mnemonic' },
+  ]} />
+}
+
+function KnowView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.mathMagic) return null
+  return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
+    { key:'mathMagic', emoji:'✨', titleKey:'concept', eli5Key:'eli5', extraKeys:[{label:'Real World',key:'realWorldUse'}], mnemonicKey:'mnemonic' },
+    { key:'scienceWow', emoji:'🌌', titleKey:'concept', eli5Key:'eli5', extraKeys:[{label:'Mind Blow',key:'mindBlow'}], mnemonicKey:'mnemonic' },
+    { key:'historyStory', emoji:'📜', titleKey:'event', eli5Key:'story', extraKeys:[{label:'Lesson',key:'lesson'}], mnemonicKey:'mnemonic' },
+    { key:'earthSecret', emoji:'🗺️', titleKey:'place', eli5Key:'secret', extraKeys:[{label:'Your Edge',key:'edge'}], mnemonicKey:'mnemonic' },
+  ]} />
+}
+
+function AIView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.toolSpotlight) return null
+  const allCards = ['toolSpotlight','workflowWin','promptOfDay','futureWatch']
+  const readCount = allCards.filter(id => readSet.has(id)).length
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+  return <div>
+    <Card emoji="🤖" title={data.toolSpotlight.name} color={color} mnemonic={data.toolSpotlight.mnemonic} cardId="toolSpotlight" readSet={readSet} onRead={onRead}>
+      <Tag label={data.toolSpotlight.category} color={color} />
+      <ELI5 text={data.toolSpotlight.eli5} color={color} />
+      <ActionRow label="Secret Move" text={data.toolSpotlight.secretMove} color={color} />
+    </Card>
+    <Card emoji="⚙️" title={data.workflowWin.title} color={color} mnemonic={data.workflowWin.mnemonic} cardId="workflowWin" readSet={readSet} onRead={onRead}>
+      <ELI5 text={data.workflowWin.problem} color={color} />
+      <ol style={{ paddingLeft: 18, margin: '8px 0 10px', color: C.muted, fontSize: 13, lineHeight: 2 }}>{data.workflowWin.steps?.map((s, i) => <li key={i}>{s}</li>)}</ol>
+      <ActionRow label="Time Saved" text={data.workflowWin.timeSaved} color={color} />
+    </Card>
+    <Card emoji="📋" title={`Prompt: ${data.promptOfDay.purpose}`} color={color} mnemonic={data.promptOfDay.mnemonic} cardId="promptOfDay" readSet={readSet} onRead={onRead}>
+      <Tag label={`Use on: ${data.promptOfDay.where}`} color={color} />
+      <div style={{ marginTop: 10, padding: '14px', background: '#080812', borderRadius: 10, fontFamily: 'monospace', fontSize: 13, color: '#a8e6c0', lineHeight: 1.9, whiteSpace: 'pre-wrap' }}>{data.promptOfDay.prompt}</div>
+    </Card>
+    <Card emoji="🔮" title={data.futureWatch.trend} color={color} mnemonic={data.futureWatch.mnemonic} cardId="futureWatch" readSet={readSet} onRead={onRead}>
+      <ELI5 text={data.futureWatch.eli5} color={color} />
+      <ActionRow label="Your Move" text={data.futureWatch.yourMove} color={color} />
+    </Card>
+    <SectionHeader text="🧩 Test Yourself" color={color} />
+    <Quiz questions={data.quiz} color={color} onXP={onXP} />
+  </div>
+}
+
+function TravelView({ data, color, onXP, readSet, onRead, onProgress }) {
+  if (!data?.destination) return null
+  const allCards = ['destination','visaTip','culturalCode']
+  const readCount = allCards.filter(id => readSet.has(id)).length
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+  return <div>
+    <Card emoji="🗺️" title={`${data.destination.country} · ${data.destination.region}`} color={color} mnemonic={data.destination.mnemonic} cardId="destination" readSet={readSet} onRead={onRead}>
+      <ELI5 text={data.destination.eli5} color={color} />
+      <ActionRow label="Best Time" text={data.destination.bestTime} color={color} />
+      <ActionRow label="Hidden Gem" text={data.destination.hiddenGem} color={color} />
+    </Card>
+    <Card emoji="📋" title={`Visa: ${data.visaTip.focus}`} color={color} mnemonic={data.visaTip.mnemonic} cardId="visaTip" readSet={readSet} onRead={onRead}>
+      <ELI5 text={data.visaTip.eli5} color={color} />
+      <ActionRow label="Golden Tip" text={data.visaTip.goldenTip} color={color} />
+    </Card>
+    <Card emoji="🤲" title={`Culture: ${data.culturalCode.culture}`} color={color} mnemonic={data.culturalCode.mnemonic} cardId="culturalCode" readSet={readSet} onRead={onRead}>
+      <ActionRow label="Do This" text={data.culturalCode.doThis} color={color} />
+      <ActionRow label="Never Do" text={data.culturalCode.neverDoThis} color={C.rose} />
+    </Card>
+    <SectionHeader text="🧩 Test Yourself" color={color} />
+    <Quiz questions={data.quiz} color={color} onXP={onXP} />
+  </div>
+}
+
+const RENDERERS = { news:NewsView, markets:MarketsView, psychology:PsychView, leadership:LeadView, wealth:WealthView, communication:CommView, mind:MindView, knowledge:KnowView, ai:AIView, travel:TravelView }
+
+// -- Overall Daily Progress Bar ----------------------------------------------
+function DailyProgress({ domainProgress, activeDate, readState }) {
+  const brief = ALL_BRIEFS[activeDate]
+  // Use precise card-level completion from persisted readState
+  const drs = readState[activeDate] || {}
+  const domsWithData = DOMAINS.filter(dom => brief?.[dom.id])
+  const fullyDoneDoms = domsWithData.filter(dom => {
+    const expected = getExpectedCards(brief, dom.id)
+    if (expected.length === 0) return false
+    const readCards = drs[dom.id] || new Set()
+    return expected.every(id => readCards instanceof Set ? readCards.has(id) : false)
+  }).length
+  const totalDoms = domsWithData.length
+  const pct = totalDoms > 0 ? Math.round((fullyDoneDoms / totalDoms) * 100) : 0
+  const allComplete = isDateFullyComplete(brief, drs)
+
+  // Fall back to session domainProgress for current domain (live feedback)
+  const sessionDone = Object.values(domainProgress).filter(d => d.read === d.total && d.total > 0).length
+
+  if (fullyDoneDoms === 0 && sessionDone === 0) return null
+
+  return (
+    <div style={{ padding: '10px 14px', background: allComplete ? `${C.mint}12` : C.card, border: `1px solid ${allComplete ? C.mint : C.border}`, borderRadius: 12, marginBottom: 16, transition: 'all 0.3s' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 6 }}>
+        <span style={{ fontSize: 11, fontWeight: 700, color: C.muted, textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+          📅 Today's Brief
+        </span>
+        <span style={{ fontSize: 12, fontWeight: 800, color: allComplete ? C.mint : C.lavender }}>
+          {allComplete ? '🏆 Complete!' : `${fullyDoneDoms}/${totalDoms} topics done`}
+        </span>
+      </div>
+      <ProgressBar value={fullyDoneDoms} total={totalDoms} color={allComplete ? C.mint : C.lavender} height={6} />
+      {allComplete && (
+        <div style={{ marginTop: 8, fontSize: 12, color: C.mint, textAlign: 'center', fontWeight: 700 }}>
+          You've completed everything for {fmtDate(activeDate)}! 🎉
+        </div>
+      )}
+    </div>
+  )
+}
+
+// -- Helpers ----------------------------------------------------------------
+function fmtDate(iso) {
+  return new Date(iso + 'T00:00:00').toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' })
+}
+function fmtDateShort(iso) {
+  return new Date(iso + 'T00:00:00').toLocaleDateString('en-GB', { day: '2-digit', month: 'short' })
+}
+
+function useIsMobile() {
+  const [mobile, setMobile] = useState(window.innerWidth < 640)
+  useEffect(() => {
+    const fn = () => setMobile(window.innerWidth < 640)
+    window.addEventListener('resize', fn)
+    return () => window.removeEventListener('resize', fn)
+  }, [])
+  return mobile
+}
+
+// -- XP Bar -----------------------------------------------------------------
+function XPBar({ xp, mobile }) {
+  const level = Math.floor(xp / 100) + 1
+  const pct = xp % 100
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+      <div style={{ fontSize: mobile ? 11 : 12, fontWeight: 800, color: C.lavender, whiteSpace: 'nowrap' }}>LVL {level}</div>
+      <div style={{ width: mobile ? 50 : 80, height: 5, background: C.dim, borderRadius: 3, overflow: 'hidden' }}>
+        <div style={{ width: `${pct}%`, height: '100%', background: `linear-gradient(90deg,${C.lavender},${C.mint})`, borderRadius: 3, transition: 'width 0.5s' }} />
+      </div>
+      <div style={{ fontSize: 11, color: C.muted, whiteSpace: 'nowrap' }}>{xp} XP</div>
+    </div>
+  )
+}
+
+// -- Config ------------------------------------------------------------------
+// Supabase: auto-sync progress across all devices in real time.
+// Replace the placeholder values with your actual Supabase project credentials.
+
+const SUPABASE_URL = 'https://ffgcgahrzaenkwvndsho.supabase.co'
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZmZ2NnYWhyemFlbmt3dm5kc2hvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE3MDcyODEsImV4cCI6MjA5NzI4MzI4MX0.ixSPpbzka3TM66hniCWFv53FqaNVU4aOSlY_6A1oPHQ'
+const SYNC_USER_ID = 'kamy_main' // single-user app  -  fixed ID
+
+// -- Persistent Progress Store (localStorage + Supabase) ---------------------
+// localStorage: instant reads/writes, zero latency on current device.
+// Supabase:     syncs to cloud on every change, pulls on app open.
+// Result:       open on phone → progress from laptop is already there.
+
+const STORAGE_KEY = 'curio_progress_v2'
+const XP_KEY = 'curio_xp_v2'
+
+function serializeReadState(readState) {
+  const out = {}
+  for (const [date, domains] of Object.entries(readState)) {
+    out[date] = {}
+    for (const [domain, cardSet] of Object.entries(domains)) {
+      out[date][domain] = cardSet instanceof Set ? [...cardSet] : (Array.isArray(cardSet) ? cardSet : [])
+    }
+  }
+  return out
+}
+
+function deserializeReadState(raw) {
+  const out = {}
+  for (const [date, domains] of Object.entries(raw || {})) {
+    out[date] = {}
+    for (const [domain, cards] of Object.entries(domains || {})) {
+      out[date][domain] = new Set(Array.isArray(cards) ? cards : [])
+    }
+  }
+  return out
+}
+
+// localStorage  -  instant, zero-latency local reads
+function loadLocal() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY)
+    return raw ? deserializeReadState(JSON.parse(raw)) : {}
+  } catch { return {} }
+}
+
+function saveLocal(readState) {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(serializeReadState(readState)))
+  } catch {}
+}
+
+function loadXP() {
+  try { return parseInt(localStorage.getItem(XP_KEY) || '0') } catch { return 0 }
+}
+
+function saveXP(xp) {
+  try { localStorage.setItem(XP_KEY, String(xp)) } catch {}
+}
+
+// Supabase helpers  -  push and pull from cloud
+async function supabasePush(readState, xp) {
+  if (!SUPABASE_URL || SUPABASE_URL.includes('placeholder')) return
+  try {
+    const body = JSON.stringify({
+      user_id: SYNC_USER_ID,
+      read_state: serializeReadState(readState),
+      xp,
+      updated_at: new Date().toISOString()
+    })
+    await fetch(`${SUPABASE_URL}/rest/v1/progress`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+        'Prefer': 'resolution=merge-duplicates'
+      },
+      body
+    })
+  } catch {}
+}
+
+async function supabasePull() {
+  if (!SUPABASE_URL || SUPABASE_URL.includes('placeholder')) return null
+  try {
+    const res = await fetch(
+      `${SUPABASE_URL}/rest/v1/progress?user_id=eq.${SYNC_USER_ID}&select=read_state,xp`,
+      {
+        headers: {
+          'apikey': SUPABASE_ANON_KEY,
+          'Authorization': `Bearer ${SUPABASE_ANON_KEY}`
+        }
+      }
+    )
+    const data = await res.json()
+    if (data?.[0]) return data[0]
+  } catch {}
+  return null
+}
+
+// GitHub deploy is handled externally (Vercel auto-deploys on GitHub push).
+// No in-app GitHub push needed  -  Supabase handles cross-device sync.
+
+function useDebounce(fn, delay) {
+  const timer = React.useRef(null)
+  return React.useCallback((...args) => {
+    clearTimeout(timer.current)
+    timer.current = setTimeout(() => fn(...args), delay)
+  }, [])
+}
+
+// -- Bottom Nav (mobile) ----------------------------------------------------
+function BottomNav({ domains, activeId, setActiveId, domainProgress }) {
+  return (
+    <div style={{
+      position: 'fixed', bottom: 0, left: 0, right: 0, zIndex: 300,
+      background: C.surface, borderTop: `1px solid ${C.border}`,
+      display: 'flex', overflowX: 'auto', padding: '0 4px',
+      WebkitOverflowScrolling: 'touch',
+    }}>
+      {domains.map(d => {
+        const isActive = activeId === d.id
+        const prog = domainProgress[d.id]
+        const done = prog?.total > 0 && prog.read === prog.total
+        return (
+          <button key={d.id} onClick={() => setActiveId(d.id)} style={{
+            display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
+            gap: 2, padding: '8px 10px', minWidth: 60, flexShrink: 0,
+            background: 'transparent', border: 'none', cursor: 'pointer', fontFamily: 'inherit',
+            borderTop: isActive ? `2px solid ${d.color}` : '2px solid transparent',
+            color: isActive ? d.color : done ? C.mint : C.muted,
+            position: 'relative'
+          }}>
+            <span style={{ fontSize: 18 }}>{done ? '✅' : d.emoji}</span>
+            <span style={{ fontSize: 9, fontWeight: isActive ? 800 : 500, whiteSpace: 'nowrap', letterSpacing: '0.03em' }}>
+              {d.label.split(' ')[0]}
+            </span>
+          </button>
+        )
+      })}
+    </div>
+  )
+}
+
+// -- Sync Modal -------------------------------------------------------------
+function SyncModal({ syncStatus, lastSynced, onForceSync, onClose }) {
+  const syncColor = syncStatus === 'synced' ? C.mint : syncStatus === 'syncing' ? C.amber : syncStatus === 'error' ? C.rose : C.muted
+  const syncLabel = syncStatus === 'synced' ? 'Synced across all devices'
+    : syncStatus === 'syncing' ? 'Syncing...'
+    : syncStatus === 'error' ? 'Sync unavailable  -  saved locally'
+    : 'Setting up...'
+
+  return (
+    <div style={{ position: 'absolute', top: 'calc(100% + 8px)', right: 0, left: 0, background: C.card, border: `1px solid ${C.border}`, borderRadius: 14, padding: 16, zIndex: 500, boxShadow: '0 8px 32px #00000088' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 14 }}>
+        <div style={{ fontWeight: 800, fontSize: 14, color: C.text }}>☁️ Sync Status</div>
+        <button onClick={onClose} style={{ background: 'none', border: 'none', color: C.muted, fontSize: 18, cursor: 'pointer', padding: 0 }}></button>
+      </div>
+
+      <div style={{ background: C.surface, borderRadius: 10, padding: '12px 14px', marginBottom: 12, border: `1px solid ${C.border}` }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 4 }}>
+          <div style={{ width: 8, height: 8, borderRadius: '50%', background: syncColor, flexShrink: 0 }} />
+          <div style={{ fontWeight: 700, fontSize: 13, color: C.text }}>{syncLabel}</div>
+        </div>
+        {lastSynced && (
+          <div style={{ fontSize: 11, color: C.muted, marginLeft: 16 }}>Last sync: {lastSynced}</div>
+        )}
+      </div>
+
+      <button
+        onClick={onForceSync}
+        style={{ width: '100%', padding: '9px', background: `${C.mint}22`, color: C.mint, border: `1px solid ${C.mint}44`, borderRadius: 8, cursor: 'pointer', fontFamily: 'inherit', fontSize: 13, fontWeight: 700, marginBottom: 10 }}
+      >
+        Force sync now
+      </button>
+
+      <div style={{ fontSize: 11, color: C.muted, lineHeight: 1.7 }}>
+        Progress saves automatically every time you tick a card. Open Curio Brief on any device  -  your progress is already there.
+      </div>
+    </div>
+  )
+}
+
+// -- Main App ----------------------------------------------------------------
+export default function App() {
+  const [activeDate, setActiveDate] = useState(AVAILABLE_DATES[AVAILABLE_DATES.length - 1])
+  const [activeId, setActiveId] = useState('news')
+  const [xp, setXp] = useState(() => loadXP())
+  const [showDates, setShowDates] = useState(false)
+  const [showMenu, setShowMenu] = useState(false)
+  const [showShareModal, setShowShareModal] = useState(false)
+  const mobile = useIsMobile()
+
+  // Sync state
+  const [syncStatus, setSyncStatus] = useState('idle') // idle | syncing | synced | error
+  const [lastSynced, setLastSynced] = useState('')
+  const syncTimerRef = React.useRef(null)
+
+  // Read state  -  loaded from localStorage immediately, persists across refreshes
+  const [readState, setReadState] = useState(() => loadLocal())
+  const [domainProgress, setDomainProgress] = useState({})
+
+  const getReadSet = (date, domain) => readState[date]?.[domain] || new Set()
+
+  // Pull from Supabase on app open.
+  // Strategy: UNION of local + remote  -  progress is never lost.
+  // Local state is loaded synchronously from localStorage first (line above),
+  // so the UI renders immediately with local data. Remote data merges in after.
+  React.useEffect(() => {
+    if (SUPABASE_URL.includes('placeholder')) {
+      setSyncStatus('idle')
+      return
+    }
+    setSyncStatus('syncing')
+    supabasePull().then(remote => {
+      if (remote?.read_state) {
+        const remoteState = deserializeReadState(remote.read_state)
+        setReadState(prev => {
+          // Union merge: every card marked on any device is preserved
+          const merged = {}
+          const allDates = new Set([...Object.keys(prev), ...Object.keys(remoteState)])
+          for (const date of allDates) {
+            merged[date] = {}
+            const localDomains = prev[date] || {}
+            const remoteDomains = remoteState[date] || {}
+            const allDomains = new Set([...Object.keys(localDomains), ...Object.keys(remoteDomains)])
+            for (const domain of allDomains) {
+              const localCards = localDomains[domain] || new Set()
+              const remoteCards = remoteDomains[domain] || new Set()
+              merged[date][domain] = new Set([...localCards, ...remoteCards])
+            }
+          }
+          saveLocal(merged)
+          return merged
+        })
+        // Only update XP if remote is higher
+        const localXP = loadXP()
+        if ((remote.xp || 0) > localXP) { setXp(remote.xp); saveXP(remote.xp) }
+        setSyncStatus('synced')
+        setLastSynced(new Date().toLocaleTimeString())
+      } else {
+        setSyncStatus('error')
+      }
+    }).catch(() => setSyncStatus('error'))
+  }, [])
+
+  // Debounced push to Supabase whenever readState changes
+  const debouncePushTimer = React.useRef(null)
+  const debouncedPush = React.useCallback((state, xpVal) => {
+    clearTimeout(debouncePushTimer.current)
+    setSyncStatus('syncing')
+    debouncePushTimer.current = setTimeout(async () => {
+      await supabasePush(state, xpVal)
+      setSyncStatus('synced')
+      setLastSynced(new Date().toLocaleTimeString())
+    }, 1500)
+  }, [])
+
+  const forceSync = async () => {
+    setSyncStatus('syncing')
+    await supabasePush(readState, xp)
+    setSyncStatus('synced')
+    setLastSynced(new Date().toLocaleTimeString())
+  }
+
+  const handleRead = (cardId) => {
+    const dateMap = { ...(readState[activeDate] || {}) }
+    const domainSet = new Set(dateMap[activeId] || [])
+    if (domainSet.has(cardId)) domainSet.delete(cardId)
+    else domainSet.add(cardId)
+    dateMap[activeId] = domainSet
+    const newState = { ...readState, [activeDate]: dateMap }
+    setReadState(newState)
+    saveLocal(newState)
+    debouncedPush(newState, xp)
+  }
+
+  const handleProgress = (read, total) => {
+    setDomainProgress(prev => {
+      const curr = prev[activeId]
+      if (curr?.read === read && curr?.total === total) return prev
+      return { ...prev, [activeId]: { read, total } }
+    })
+  }
+
+  const updateXP = (newXP) => {
+    setXp(newXP)
+    saveXP(newXP)
+    debouncedPush(readState, newXP)
+  }
+
+  // Reset domainProgress when switching dates so progress recomputes from readState
+  useEffect(() => { setDomainProgress({}) }, [activeDate])
+
+  const active = DOMAINS.find(d => d.id === activeId) || DOMAINS[0]
+  const Renderer = RENDERERS[activeId]
+  const brief = ALL_BRIEFS[activeDate]
+  const data = brief?.[activeId]
+  const readSet = getReadSet(activeDate, activeId)
+  const domProg = domainProgress[activeId]
+  const domainPct = domProg?.total > 0 ? Math.round((domProg.read / domProg.total) * 100) : 0
+
+  const closeAll = () => { setShowDates(false); setShowMenu(false); setShowShareModal(false) }
+
+  return (
+    <div style={{ background: C.bg, minHeight: '100vh', fontFamily: "'Inter',-apple-system,sans-serif", color: C.text }}>
+
+      {/* -- HEADER -- */}
+      <div style={{
+        background: C.surface, borderBottom: `1px solid ${C.border}`,
+        padding: mobile ? '10px 14px' : '14px 20px',
+        position: 'sticky', top: 0, zIndex: 200
+      }}>
+        <div style={{ maxWidth: 960, margin: '0 auto' }}>
+
+          {/* Top row: logo + share + xp */}
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <div style={{ fontSize: mobile ? 18 : 22, fontWeight: 900, letterSpacing: '-0.03em', background: `linear-gradient(120deg,${C.lavender},${C.mint},${C.peach})`, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+              🌌 CURIO BRIEF
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+              <button
+                onClick={() => setShowShareModal(s => !s)}
+                title={syncStatus === 'synced' ? 'Synced' : syncStatus === 'syncing' ? 'Syncing...' : 'Sync progress'}
+                style={{ background: 'transparent', border: `1px solid ${C.border}`, borderRadius: 8, padding: '4px 10px', color: C.muted, fontSize: 13, cursor: 'pointer', fontFamily: 'inherit', display: 'flex', alignItems: 'center', gap: 5 }}
+              >
+                ☁️
+                <span style={{
+                  width: 6, height: 6, borderRadius: '50%', display: 'inline-block',
+                  background: syncStatus === 'synced' ? C.mint : syncStatus === 'syncing' ? C.amber : syncStatus === 'error' ? C.rose : C.muted
+                }} />
+              </button>
+              <XPBar xp={xp} mobile={mobile} />
+            </div>
+          </div>
+
+          {/* Sync Modal */}
+          {showShareModal && (
+            <SyncModal
+              syncStatus={syncStatus}
+              lastSynced={lastSynced}
+              onForceSync={forceSync}
+              onClose={() => setShowShareModal(false)}
+            />
+          )}
+
+          {/* Controls row */}
+          <div style={{ display: 'flex', gap: 8, marginTop: 10, alignItems: 'center' }}>
+
+            {/* Date picker */}
+            <div style={{ position: 'relative' }}>
+              <button onClick={() => { setShowDates(s => !s); setShowMenu(false) }} style={{
+                padding: mobile ? '6px 10px' : '7px 14px',
+                background: C.card, border: `1px solid ${C.mint}55`, borderRadius: 8,
+                color: C.mint, fontSize: mobile ? 12 : 13, fontWeight: 700,
+                cursor: 'pointer', fontFamily: 'inherit', display: 'flex', alignItems: 'center', gap: 4
+              }}>
+                📅 {mobile ? fmtDateShort(activeDate) : fmtDate(activeDate)} ▾
+              </button>
+              {showDates && (() => {
+                const allDates = AVAILABLE_DATES.slice().reverse()
+                // Group by month for clarity
+                const byMonth = {}
+                allDates.forEach(d => {
+                  const m = d.slice(0, 7)
+                  if (!byMonth[m]) byMonth[m] = []
+                  byMonth[m].push(d)
+                })
+                const monthLabel = m => {
+                  const [y, mo] = m.split('-')
+                  return new Date(+y, +mo - 1, 1).toLocaleString('default', { month: 'long', year: 'numeric' })
+                }
+                return (
+                  <div style={{
+                    position: 'absolute', top: 'calc(100% + 6px)', left: 0,
+                    background: C.card, border: `1px solid ${C.border}`, borderRadius: 12,
+                    padding: '6px 0', zIndex: 400, minWidth: 220,
+                    boxShadow: '0 8px 32px #00000088',
+                    maxHeight: 'min(320px, 70vh)', overflowY: 'auto'
+                  }}>
+                    {Object.entries(byMonth).map(([month, mDates]) => (
+                      <div key={month}>
+                        <div style={{
+                          fontSize: 10, color: C.muted, textTransform: 'uppercase',
+                          letterSpacing: '0.1em', padding: '6px 14px 3px',
+                          position: 'sticky', top: 0, background: C.card, zIndex: 1
+                        }}>
+                          {monthLabel(month)}
+                        </div>
+                        {mDates.map(d => {
+                          const brief = ALL_BRIEFS[d]
+                          const drs = readState[d] || {}
+                          // Precise: count domains where ALL expected cards are read
+                          const domsWithData = DOMAINS.filter(dom => brief?.[dom.id])
+                          const fullyDoneDoms = domsWithData.filter(dom => {
+                            const expected = getExpectedCards(brief, dom.id)
+                            if (expected.length === 0) return false
+                            const readCards = drs[dom.id] || new Set()
+                            return expected.every(id => readCards instanceof Set ? readCards.has(id) : false)
+                          }).length
+                          const allDone = isDateFullyComplete(brief, drs)
+                          const partialDone = fullyDoneDoms > 0 && !allDone
+                          return (
+                            <button key={d}
+                              onClick={() => { setActiveDate(d); setShowDates(false); setActiveId('news') }}
+                              style={{
+                                width: '100%', padding: '9px 14px', fontSize: 13, cursor: 'pointer',
+                                fontFamily: 'inherit', textAlign: 'left',
+                                display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                                background: allDone ? `${C.mint}10` : activeDate === d ? `${C.mint}18` : 'transparent',
+                                border: 'none',
+                                borderLeft: allDone ? `3px solid ${C.mint}` : activeDate === d ? `3px solid ${C.mint}` : '3px solid transparent',
+                                color: activeDate === d ? C.mint : allDone ? C.mint : C.text,
+                                fontWeight: activeDate === d || allDone ? 700 : 400
+                              }}>
+                              <span>{fmtDate(d)}</span>
+                              <span>
+                                {allDone && <span style={{ fontSize: 13 }}>✅</span>}
+                                {partialDone && (
+                                  <span style={{ fontSize: 10, color: C.muted, background: `${C.muted}22`, borderRadius: 4, padding: '1px 5px' }}>
+                                    {fullyDoneDoms}/{domsWithData.length}
+                                  </span>
+                                )}
+                              </span>
+                            </button>
+                          )
+                        })}
+                      </div>
+                    ))}
+                    <div style={{ borderTop: `1px solid ${C.border}`, margin: '4px 0 0', padding: '8px 14px', fontSize: 11, color: C.dim, lineHeight: 1.6 }}>
+                      New dates added manually.<br />Ask Claude to generate next.
+                    </div>
+                  </div>
+                )
+              })()}
+            </div>
+
+
+            {/* Desktop: domain tab strip | Mobile: menu button */}
+            {!mobile && (
+              <div style={{ display: 'flex', gap: 2, overflowX: 'auto', flex: 1 }}>
+                {DOMAINS.map(d => {
+                  const prog = domainProgress[d.id]
+                  const done = prog?.total > 0 && prog.read === prog.total
+                  return (
+                    <button key={d.id} onClick={() => setActiveId(d.id)} style={{
+                      display: 'flex', alignItems: 'center', gap: 4,
+                      padding: '7px 11px', borderRadius: '8px 8px 0 0',
+                      border: `1px solid ${activeId === d.id ? d.color + '66' : C.border}`,
+                      borderBottom: activeId === d.id ? `2px solid ${d.color}` : `1px solid ${C.border}`,
+                      background: activeId === d.id ? `${d.color}12` : 'transparent',
+                      cursor: 'pointer', fontSize: 11, fontWeight: activeId === d.id ? 800 : 500,
+                      color: activeId === d.id ? d.color : done ? C.mint : C.muted,
+                      whiteSpace: 'nowrap', fontFamily: 'inherit', transition: 'all 0.15s', flexShrink: 0
+                    }}>
+                      <span>{d.emoji}</span>
+                      <span>{d.label}</span>
+                      {done && <span style={{ fontSize: 9, color: C.mint }}>(check)</span>}
+                    </button>
+                  )
+                })}
+              </div>
+            )}
+
+            {mobile && (
+              <div style={{ position: 'relative', marginLeft: 'auto' }}>
+                <button onClick={() => { setShowMenu(s => !s); setShowDates(false) }} style={{
+                  padding: '6px 12px', background: `${active.color}22`,
+                  border: `1px solid ${active.color}55`, borderRadius: 8,
+                  color: active.color, fontSize: 12, fontWeight: 700,
+                  cursor: 'pointer', fontFamily: 'inherit', display: 'flex', alignItems: 'center', gap: 5
+                }}>
+                  {active.emoji} {active.label} ▾
+                </button>
+                {showMenu && (
+                  <div style={{
+                    position: 'absolute', top: 'calc(100% + 6px)', right: 0,
+                    background: C.card, border: `1px solid ${C.border}`, borderRadius: 12,
+                    padding: 8, zIndex: 400, width: 200,
+                    display: 'flex', flexDirection: 'column', gap: 2,
+                    boxShadow: '0 8px 32px #00000088', maxHeight: '70vh', overflowY: 'auto'
+                  }}>
+                    {DOMAINS.map(d => (
+                      <button key={d.id} onClick={() => { setActiveId(d.id); setShowMenu(false) }} style={{
+                        padding: '10px 12px', borderRadius: 8, fontSize: 13, cursor: 'pointer',
+                        fontFamily: 'inherit', textAlign: 'left', display: 'flex', alignItems: 'center', gap: 8,
+                        background: activeId === d.id ? `${d.color}22` : 'transparent',
+                        border: `1px solid ${activeId === d.id ? d.color : 'transparent'}`,
+                        color: activeId === d.id ? d.color : C.text,
+                        fontWeight: activeId === d.id ? 700 : 400
+                      }}>
+                        <span style={{ fontSize: 16 }}>{d.emoji}</span>
+                        <span>{d.label}</span>
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* -- CONTENT -- */}
+      <div style={{
+        maxWidth: 760, margin: '0 auto',
+        padding: mobile ? `16px 12px ${mobile ? '90px' : '40px'}` : '24px 20px 60px'
+      }}>
+
+        {/* Domain header with progress */}
+        {active && brief && (
+          <div style={{
+            marginBottom: 16, padding: mobile ? '12px 14px' : '14px 18px',
+            background: `${active.color}0d`, border: `1px solid ${active.color}33`, borderRadius: 14
+          }}>
+            <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: 8 }}>
+              <div>
+                <div style={{ fontSize: mobile ? 20 : 24, marginBottom: 4 }}>{active.emoji}</div>
+                <div style={{ fontSize: mobile ? 15 : 17, fontWeight: 900, color: active.color, marginBottom: 2 }}>{active.label}</div>
+                <div style={{ fontSize: 11, color: C.muted }}>{active.desc} · {fmtDate(activeDate)}</div>
+              </div>
+              {domProg?.total > 0 && (
+                <div style={{ textAlign: 'right', minWidth: 60 }}>
+                  <div style={{ fontSize: domainPct === 100 ? 20 : 13, fontWeight: 800, color: domainPct === 100 ? C.mint : active.color, marginBottom: 4 }}>
+                    {domainPct === 100 ? '✅' : `${domainPct}%`}
+                  </div>
+                  <div style={{ fontSize: 10, color: C.muted }}>{domProg.read}/{domProg.total} read</div>
+                </div>
+              )}
+            </div>
+            {domProg?.total > 0 && (
+              <ProgressBar value={domProg.read} total={domProg.total} color={active.color} height={5} />
+            )}
+          </div>
+        )}
+
+        {/* Overall daily progress  -  uses domainProgress for currently-viewed domains, readState for others */}
+        {brief && Object.keys(domainProgress).length > 0 && (
+          <DailyProgress domainProgress={domainProgress} activeDate={activeDate} readState={readState} />
+        )}
+
+        {/* No brief state */}
+        {!brief && (
+          <div style={{ textAlign: 'center', padding: '60px 20px', background: C.card, borderRadius: 16, border: `1px solid ${C.border}` }}>
+            <div style={{ fontSize: 48, marginBottom: 16 }}>📭</div>
+            <div style={{ fontSize: 18, fontWeight: 800, color: C.text, marginBottom: 10 }}>No brief for {fmtDate(activeDate)}</div>
+            <div style={{ fontSize: 14, color: C.muted, maxWidth: 320, margin: '0 auto', lineHeight: 1.8 }}>
+              Ask Claude: <strong style={{ color: C.lavender }}>"generate brief for [date]"</strong>
+            </div>
+            <div style={{ marginTop: 14, fontSize: 12, color: C.dim }}>Available: {AVAILABLE_DATES.map(d => fmtDateShort(d)).join(', ')}</div>
+          </div>
+        )}
+
+        {/* Domain content */}
+        {brief && Renderer && data && (
+          <Renderer data={data} color={active.color} onXP={(earned) => updateXP(xp + earned)} readSet={readSet} onRead={handleRead} onProgress={handleProgress} />
+        )}
+        {brief && (!Renderer || !data) && (
+          <div style={{ textAlign: 'center', padding: '40px', color: C.muted, fontSize: 14 }}>Content not available for this section.</div>
+        )}
+      </div>
+
+      {/* -- MOBILE BOTTOM NAV -- */}
+      {mobile && <BottomNav domains={DOMAINS} activeId={activeId} setActiveId={(id) => { setActiveId(id); closeAll() }} domainProgress={domainProgress} />}
+
+      {/* Backdrop */}
+      {(showDates || showMenu) && (
+        <div onClick={closeAll} style={{ position: 'fixed', inset: 0, zIndex: 100 }} />
+      )}
+
+      <style>{`
+        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        html { font-size: 16px; }
+        body { overscroll-behavior: none; }
+        ::-webkit-scrollbar { width: 3px; height: 3px; }
+        ::-webkit-scrollbar-track { background: ${C.bg}; }
+        ::-webkit-scrollbar-thumb { background: ${C.dim}; border-radius: 2px; }
+        button { transition: opacity 0.15s; -webkit-tap-highlight-color: transparent; }
+        button:active { opacity: 0.7; }
+        @media (max-width: 640px) {
+          input, select, textarea { font-size: 16px !important; }
+        }
+      `}</style>
+    </div>
+  )
+}
