@@ -3949,12 +3949,12 @@ function Card({ emoji, title, color, children, mnemonic, cardId, readSet, onRead
             fontSize: 12, transition: 'all 0.2s', padding: 0,
             color: isRead ? '#0d0d14' : C.dim,
           }}>
-            {isRead ? '(check)' : ''}
+            {isRead ? '✓' : ''}
           </button>
         )}
         <span style={{ fontSize: 20 }}>{emoji}</span>
         <span onClick={() => setOpen(o => !o)} style={{ flex: 1, fontWeight: 700, fontSize: 14, color: isRead ? C.muted : C.text, lineHeight: 1.3, cursor: 'pointer', textDecoration: isRead ? 'line-through' : 'none', opacity: isRead ? 0.7 : 1, transition: 'all 0.2s' }}>{title}</span>
-        <span onClick={() => setOpen(o => !o)} style={{ color: C.dim, fontSize: 12, cursor: 'pointer' }}>{open ? '^' : 'v'}</span>
+        <span onClick={() => setOpen(o => !o)} style={{ color: C.dim, fontSize: 12, cursor: 'pointer' }}>{open ? '▾' : '▸'}</span>
       </div>
       {open && <div style={{ padding: '14px 16px' }}>{children}{mnemonic && <Mnemonic text={mnemonic} color={color} />}</div>}
     </div>
@@ -4515,7 +4515,7 @@ function SyncModal({ syncStatus, lastSynced, onForceSync, onClose }) {
     <div style={{ position: 'absolute', top: 'calc(100% + 8px)', right: 0, left: 0, background: C.card, border: `1px solid ${C.border}`, borderRadius: 14, padding: 16, zIndex: 500, boxShadow: '0 8px 32px #00000088' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 14 }}>
         <div style={{ fontWeight: 800, fontSize: 14, color: C.text }}>☁️ Sync Status</div>
-        <button onClick={onClose} style={{ background: 'none', border: 'none', color: C.muted, fontSize: 18, cursor: 'pointer', padding: 0 }}></button>
+        <button onClick={onClose} style={{ background: 'none', border: 'none', color: C.muted, fontSize: 18, cursor: 'pointer', padding: 0 }}>×</button>
       </div>
 
       <div style={{ background: C.surface, borderRadius: 10, padding: '12px 14px', marginBottom: 12, border: `1px solid ${C.border}` }}>
@@ -4816,7 +4816,7 @@ export default function App() {
                     }}>
                       <span>{d.emoji}</span>
                       <span>{d.label}</span>
-                      {done && <span style={{ fontSize: 9, color: C.mint }}>(check)</span>}
+                      {done && <span style={{ fontSize: 9, color: C.mint }}>✓</span>}
                     </button>
                   )
                 })}
@@ -4925,7 +4925,7 @@ export default function App() {
       {mobile && <BottomNav domains={DOMAINS} activeId={activeId} setActiveId={(id) => { setActiveId(id); closeAll() }} domainProgress={domainProgress} />}
 
       {/* Backdrop */}
-      {(showDates || showMenu) && (
+      {(showDates || showMenu || showShareModal) && (
         <div onClick={closeAll} style={{ position: 'fixed', inset: 0, zIndex: 100 }} />
       )}
 
