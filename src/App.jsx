@@ -3941,7 +3941,7 @@ function Card({ emoji, title, color, children, mnemonic, cardId, readSet, onRead
       <div style={{ padding: '13px 16px', display: 'flex', alignItems: 'center', gap: 10, borderBottom: open ? `1px solid ${C.border}` : 'none' }}>
         {/* Read tick button */}
         {onRead && (
-          <button onClick={toggleRead} style={{
+          <button onClick={toggleRead} aria-label={isRead ? 'Mark as unread' : 'Mark as read'} style={{
             width: 26, height: 26, borderRadius: '50%', flexShrink: 0,
             background: isRead ? color : 'transparent',
             border: `2px solid ${isRead ? color : C.dim}`,
@@ -4418,6 +4418,15 @@ function saveXP(xp) {
   try { localStorage.setItem(XP_KEY, String(xp)) } catch {}
 }
 
+// Track XP already awarded per quiz (date:domain) so re-answering can't farm XP.
+const QUIZXP_KEY = 'curio_quizxp_v2'
+function loadQuizXP() {
+  try { const raw = localStorage.getItem(QUIZXP_KEY); return raw ? JSON.parse(raw) : {} } catch { return {} }
+}
+function saveQuizXP(map) {
+  try { localStorage.setItem(QUIZXP_KEY, JSON.stringify(map)) } catch {}
+}
+
 // Supabase helpers  -  push and pull from cloud
 async function supabasePush(readState, xp) {
   if (!SUPABASE_URL || SUPABASE_URL.includes('placeholder')) return
@@ -4428,7 +4437,7 @@ async function supabasePush(readState, xp) {
       xp,
       updated_at: new Date().toISOString()
     })
-    await fetch(`${SUPABASE_URL}/rest/v1/progress`, {
+    const res = await fetch(`${SUPABASE_URL}/rest/v1/progress`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -4438,7 +4447,8 @@ async function supabasePush(readState, xp) {
       },
       body
     })
-  } catch {}
+    if (!res.ok) console.warn('[curio sync] push rejected:', res.status, await res.text().catch(() => ''))
+  } catch (e) { console.warn('[curio sync] push failed:', e) }
 }
 
 async function supabasePull() {
@@ -4453,9 +4463,10 @@ async function supabasePull() {
         }
       }
     )
+    if (!res.ok) { console.warn('[curio sync] pull rejected:', res.status); return null }
     const data = await res.json()
     if (data?.[0]) return data[0]
-  } catch {}
+  } catch (e) { console.warn('[curio sync] pull failed:', e) }
   return null
 }
 
@@ -4515,7 +4526,7 @@ function SyncModal({ syncStatus, lastSynced, onForceSync, onClose }) {
     <div style={{ position: 'absolute', top: 'calc(100% + 8px)', right: 0, left: 0, background: C.card, border: `1px solid ${C.border}`, borderRadius: 14, padding: 16, zIndex: 500, boxShadow: '0 8px 32px #00000088' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 14 }}>
         <div style={{ fontWeight: 800, fontSize: 14, color: C.text }}>☁️ Sync Status</div>
-        <button onClick={onClose} style={{ background: 'none', border: 'none', color: C.muted, fontSize: 18, cursor: 'pointer', padding: 0 }}>×</button>
+        <button onClick={onClose} aria-label="Close" style={{ background: 'none', border: 'none', color: C.muted, fontSize: 18, cursor: 'pointer', padding: 0 }}>×</button>
       </div>
 
       <div style={{ background: C.surface, borderRadius: 10, padding: '12px 14px', marginBottom: 12, border: `1px solid ${C.border}` }}>
@@ -4547,6 +4558,7 @@ export default function App() {
   const [activeDate, setActiveDate] = useState(AVAILABLE_DATES[AVAILABLE_DATES.length - 1])
   const [activeId, setActiveId] = useState('news')
   const [xp, setXp] = useState(() => loadXP())
+  const [quizXP, setQuizXP] = useState(() => loadQuizXP())
   const [showDates, setShowDates] = useState(false)
   const [showMenu, setShowMenu] = useState(false)
   const [showShareModal, setShowShareModal] = useState(false)
@@ -4648,6 +4660,16 @@ export default function App() {
     setXp(newXP)
     saveXP(newXP)
     debouncedPush(readState, newXP)
+  }
+
+  // Award quiz XP only once per (date:domain); credits improvement, blocks farming.
+  const handleQuizXP = (earned) => {
+    const key = activeDate + ':' + activeId
+    const prev = quizXP[key] || 0
+    if (earned <= prev) return
+    const nextMap = { ...quizXP, [key]: earned }
+    setQuizXP(nextMap); saveQuizXP(nextMap)
+    updateXP(xp + (earned - prev))
   }
 
   // Reset domainProgress when switching dates so progress recomputes from readState
@@ -4914,7 +4936,7 @@ export default function App() {
 
         {/* Domain content */}
         {brief && Renderer && data && (
-          <Renderer data={data} color={active.color} onXP={(earned) => updateXP(xp + earned)} readSet={readSet} onRead={handleRead} onProgress={handleProgress} />
+          <Renderer data={data} color={active.color} onXP={handleQuizXP} readSet={readSet} onRead={handleRead} onProgress={handleProgress} />
         )}
         {brief && (!Renderer || !data) && (
           <div style={{ textAlign: 'center', padding: '40px', color: C.muted, fontSize: 14 }}>Content not available for this section.</div>
