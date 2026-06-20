@@ -4719,7 +4719,7 @@ export default function App() {
                 📅 {mobile ? fmtDateShort(activeDate) : fmtDate(activeDate)} ▾
               </button>
               {showDates && (() => {
-                const allDates = AVAILABLE_DATES.slice().reverse()
+                const allDates = AVAILABLE_DATES.slice()  // oldest-first (morning -> evening)
                 // Group by month for clarity
                 const byMonth = {}
                 allDates.forEach(d => {
