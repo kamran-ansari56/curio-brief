@@ -3803,6 +3803,683 @@ const d260618 = {
   }
 }
 
+const d260619 = {
+  news: {
+    segments: [
+      {
+        name: "🌐 What's happening with countries?",
+        color: "#a0d4f5",
+        stories: [
+          {
+            headline: "US and Iran sign a 14-point framework peace deal  -  Strait of Hormuz reopens",
+            eli5: "After months of conflict, the US and Iran signed a memorandum of understanding (a written 'we agree on the basics' document, not yet a full treaty) built on 14 points to stop the fighting and work toward lasting peace. As part of it, the US lifted its naval blockade and Iran agreed to reopen the Strait of Hormuz  -  the narrow sea gate through which a huge share of the world's oil sails. Iranian tankers started moving through again on June 19. Vice President Vance had led four-way talks (US, Iran, Pakistan, Qatar) at the Burgenstock resort in Switzerland to get here. In Washington the deal drew mixed reviews  -  some called it a breakthrough, others warned the hard parts are still unsigned.",
+            whyItMatters: "The Strait of Hormuz is the single most important oil chokepoint on Earth  -  roughly a fifth of the world's oil passes through it. When it is threatened, oil spikes and every country that imports fuel (like India) pays more for everything. Reopening it is the reason crude tumbled to a three-month low this week. A framework, though, is a promise to keep talking, not peace itself  -  the deal can still unravel.",
+            mnemonic: "June 19 = US-Iran 14-point framework deal. Hormuz reopens, blockade lifted, oil falls. A framework is a handshake, not a treaty."
+          },
+          {
+            headline: "Israel and Hezbollah agree a ceasefire  -  but a heavy bombardment killed dozens first",
+            eli5: "A US official confirmed on June 19 that Israel and Hezbollah had agreed to a ceasefire, set to take effect on Friday June 20 at 4pm local time. The grim catch: in the hours before the deal landed, a heavy bombardment of Lebanon killed dozens. So the day held both things at once  -  a step toward stopping the war, and fresh loss of life right up to the deadline.",
+            whyItMatters: "Ceasefires almost never switch a war off cleanly  -  fighting often intensifies right before a deadline as each side grabs last-minute leverage. A timed ceasefire ('effective 4pm Friday') is fragile: it holds only if both sides believe the other will honour it. For the region, a calmer Israel-Lebanon border is also part of why oil markets relaxed.",
+            mnemonic: "June 19 = Israel-Hezbollah ceasefire agreed, effective June 20 4pm  -  but dozens killed in a final bombardment first. Deadlines bring last-minute violence."
+          },
+          {
+            headline: "Ukraine launches a massive drone assault on a Moscow oil refinery",
+            eli5: "Ukraine hit a major Moscow oil refinery with one of its largest drone attacks of the war  -  the second strike on it in a week  -  sending a huge fireball and smoke plume over the Russian capital. Kyiv called it retaliation for a Russian strike that damaged the Kyiv Pechersk Lavra, an 11th-century monastery, killing 11 people. Speaking from Brussels, President Zelenskyy said, 'If Ukraine burns, your Moscow will burn,' and called striking such historic sites a crime against humanity.",
+            whyItMatters: "Even as Middle East conflicts cooled, the Russia-Ukraine war escalated  -  proof that 'the world' is never one mood. Attacks on refineries target the money behind a war machine: refining capacity funds the budget. And when one side strikes a symbolic, centuries-old site, the other often answers in kind, raising the stakes for everyone.",
+            mnemonic: "June 19 = Ukraine drones a Moscow refinery (2nd hit in a week), revenge for the Kyiv monastery strike that killed 11. 'If Ukraine burns, your Moscow will burn.'"
+          }
+        ]
+      },
+      {
+        name: "💸 What's happening with money?",
+        color: "#a8edcb",
+        stories: [
+          {
+            headline: "Oil tumbles to a three-month low  -  US gas prices start to dip",
+            eli5: "The signed US-Iran framework deal and the reopening of the Strait of Hormuz pulled the fear premium out of oil. Crude fell to its lowest in three months, with Brent sliding toward $74. Analysts expect prices to keep easing but warned we are unlikely to return to pre-war levels soon. In the US, petrol prices at the pump began ticking down in response.",
+            whyItMatters: "Oil is the world's master input price  -  it sits inside transport, plastics, fertiliser, food and electricity. Cheaper oil is like a quiet tax cut for every oil-importing economy. For India, which buys about 85% of its crude from abroad, a sustained drop eases inflation, helps the rupee, and gives the central bank room to breathe. It is the single most India-positive number on the board this week.",
+            mnemonic: "June 19 = Oil at a 3-month low (Brent ~$74) after the Iran deal. Cheap oil = a quiet tax cut for importers like India."
+          },
+          {
+            headline: "Trump's $400 million Boeing 747 'gift jet' from Qatar lands at Joint Base Andrews",
+            eli5: "A luxury Boeing 747, originally valued at around $400 million and gifted by Qatar, arrived ahead of schedule on June 19 to join the US presidential fleet. It is one of the biggest foreign gifts a US government has ever received  -  and that is exactly why it is controversial. Critics ask whether a head of state should accept a gift of that size from a foreign government; supporters frame it as a practical upgrade.",
+            whyItMatters: "Big 'free' gifts are rarely free in influence terms  -  this is a lesson that scales from nations to your own life. When someone gives you something far beyond a normal favour, it can quietly create a sense of obligation (the reciprocity rule). The ethical question isn't whether the gift is nice; it's what unspoken expectation rides along with it.",
+            mnemonic: "June 19 = $400M Qatari 747 gift jet lands for the US president. Huge gifts carry invisible strings  -  reciprocity at nation scale."
+          }
+        ]
+      },
+      {
+        name: "💻 What's happening with technology?",
+        color: "#c9b8f5",
+        stories: [
+          {
+            headline: "A US order forces Anthropic to disable its most advanced AI models worldwide",
+            eli5: "Anthropic (the maker of Claude) switched off worldwide access to its most advanced models, Fable 5 and Mythos 5, after a US government export-control directive told it to block foreign nationals from using them. The government's worry: that users might bypass the safety guardrails meant to stop the models from being used to find software vulnerabilities (digital weak spots that hackers exploit). Anthropic pushed back, arguing the alleged jailbreak works only in narrow circumstances and doesn't justify pulling models already used by huge numbers of people.",
+            whyItMatters: "This is a turning point: until now, US controls targeted AI hardware (chips). This time the restriction is on access to the models themselves  -  a much broader lever. Canada's Prime Minister Mark Carney immediately warned, ahead of G7 talks, that the world is too dependent on a small number of AI providers, and that 'AI sovereignty' is now a national-security issue. For anyone building on AI, the lesson is concentration risk: don't bet your entire workflow on one model that a single government order could switch off.",
+            mnemonic: "June 19 = US export order forces Anthropic to disable Fable 5 & Mythos 5 worldwide. Controls jump from chips to models. Carney: don't depend on one AI provider."
+          }
+        ]
+      },
+      {
+        name: "🌿 What's happening with our planet?",
+        color: "#f5c6a0",
+        stories: [
+          {
+            headline: "CDC unlocks $107 million to fight the Ebola outbreak in Congo and Uganda",
+            eli5: "The US Centers for Disease Control said it would release $107 million in emergency funding to fight an Ebola outbreak in the Democratic Republic of Congo and Uganda. The World Health Organization had declared it a global public-health emergency the month before. So far the outbreak has caused over 200 deaths across more than 896 confirmed cases.",
+            whyItMatters: "Outbreaks are a race between a virus's spread and the world's response speed  -  and money released early saves lives that money released late cannot. Ebola spreads through contact, so containment (tracing contacts, isolating cases, safe care) works if it is funded fast. A 'global health emergency' label is the WHO pulling the alarm so that funding like this gets unlocked.",
+            mnemonic: "June 19 = CDC releases $107M for the DRC/Uganda Ebola outbreak (200+ deaths, 896+ cases). Speed of money beats speed of the virus."
+          }
+        ]
+      }
+    ],
+    quiz: [
+      {
+        q: "Why did reopening the Strait of Hormuz push global oil prices DOWN?",
+        options: [
+          "Because closing a strait makes oil cheaper",
+          "Because the strait is a major oil chokepoint  -  reopening it removes the fear of supply being blocked, so the risk premium in the price deflates",
+          "Because Iran started giving oil away for free",
+          "Because oil is unrelated to the strait"
+        ],
+        answer: 1,
+        funFact: "Roughly a fifth of the world's oil passes through the Strait of Hormuz. Markets price in fear: a credible threat to a chokepoint adds a 'risk premium' to every barrel, and removing the threat lets that premium melt away  -  which is why crude hit a three-month low this week."
+      },
+      {
+        q: "What made the June 19 US order against Anthropic a turning point in AI policy?",
+        options: [
+          "It was the first time a company released a new model",
+          "It restricted access to the AI models themselves, not just the chips behind them  -  a much broader form of control",
+          "It banned all AI worldwide",
+          "It forced Anthropic to lower its prices"
+        ],
+        answer: 1,
+        funFact: "Until now, US AI controls focused on hardware  -  the advanced chips that train models. Restricting access to the deployed models themselves is a far broader lever, and it triggered immediate warnings (including from Canada's PM) about the risk of the world depending on a handful of AI providers."
+      },
+      {
+        q: "A ceasefire was set to take effect 'June 20 at 4pm.' Why are timed ceasefires often most dangerous in their final hours?",
+        options: [
+          "Because clocks are unreliable",
+          "Because each side often intensifies attacks right before the deadline to grab last-minute leverage  -  which is why a heavy bombardment killed dozens just before this one began",
+          "Because ceasefires always start early",
+          "Because fighting is illegal after lunch"
+        ],
+        answer: 1,
+        funFact: "The hours before a ceasefire deadline are frequently the bloodiest of a conflict. With the clock running out, commanders push for final territorial or tactical gains  -  which is exactly what happened in Lebanon on June 19, when dozens were killed in a bombardment just before the agreed 4pm-Friday truce."
+      }
+    ]
+  },
+  markets: {
+    globalPulse: {
+      eli5: "The world's money river on June 19 finally got its peace dividend. The signed US-Iran framework deal and the reopened Strait of Hormuz pulled the fear out of oil, sending crude to a three-month low. That is broadly good news  -  cheaper energy everywhere  -  but the rally had a hangover: the US Federal Reserve's hawkish hold from earlier in the week kept the dollar firm and bond yields up, which weighed on technology stocks globally. So the picture was a tug-of-war: a powerful peace-and-cheap-oil tailwind pulling up, and a higher-for-longer Fed pulling tech down. Add an agreed Israel-Hezbollah ceasefire, and the geopolitical temperature genuinely cooled  -  even as the Russia-Ukraine war heated up.",
+      keyThings: [
+        "Brent Crude: ~$74  -  a three-month low after the US-Iran deal reopened the Strait of Hormuz",
+        "US Dollar: firm  -  the Fed's 'higher for longer' tone keeps the dollar and bond yields elevated, pressuring global tech",
+        "Gold: steady  -  less war-fear demand, but a firm dollar caps the downside",
+        "Sentiment: cool-down  -  Middle East de-escalation (Iran deal + Israel-Hezbollah ceasefire) offset by an escalating Ukraine war",
+        "US petrol prices: ticking down  -  the first consumer benefit of cheaper crude"
+      ]
+    },
+    indianMarket: {
+      eli5: "Dalal Street had a red Friday. The Sensex fell 607 points (about 0.78%) to close at 76,802.90, and the Nifty slipped but held near the 24,000 mark. The drag was almost entirely IT: TCS, Infosys, HCLTech and Wipro were sold on weak global tech cues and a firm dollar (the same hawkish-Fed hangover hurting tech worldwide). Cushioning the fall were defensives and selective large-caps  -  Bharti Airtel, ICICI Bank, Larsen & Toubro and ITC held up. The deeper story is more positive than the red screen suggests: with oil at a three-month low, India  -  which imports about 85% of its crude  -  just got a structural tailwind. Friday was a tech wobble inside a quietly improving macro backdrop.",
+      breakouts: [
+        {
+          name: "Garden Reach Shipbuilders (NSE: GRSE)",
+          halal: true,
+          buyPrice: "Rs.2,820",
+          sellPrice: "Rs.3,000",
+          stopLoss: "Rs.2,720",
+          whyExciting: "GRSE is a state-owned defence shipbuilder  -  warships and patrol vessels for the Indian Navy  -  which is a cleanly permissible business, and its balance sheet is near debt-free with a large cash pile (passing the halal debt screen comfortably). The fundamentals are strong: FY26 revenue grew about 38% to roughly Rs.7,002 crore and profit jumped about 42% to around Rs.748 crore. On June 19, as global tech-fear money fled IT, capital rotated into domestic defensive themes  -  and a debt-free defence order-book stock is a classic 'sleep-at-night' holding when the world turns risk-off. It closed near Rs.2,798; a push and hold above Rs.2,820 keeps the momentum setup alive toward the Rs.3,000 zone (around ICICI's target).",
+          risk: "Defence PSUs live and die by the government order book and budget cycle  -  a single contract delay can stall the story. The stock has also run hard (52-week range roughly Rs.1,963 to Rs.3,538), so it is volatile; after a vertical move, profit-booking can trigger sharp 8-10% pullbacks. Respect the Rs.2,720 stop  -  a close below it means the momentum has broken, not paused."
+        },
+        {
+          name: "Mazagon Dock Shipbuilders (NSE: MAZDOCK)",
+          halal: true,
+          buyPrice: "Rs.2,540",
+          sellPrice: "Rs.2,830",
+          stopLoss: "Rs.2,400",
+          whyExciting: "Mazagon Dock builds the Navy's warships and submarines  -  a permissible defence business  -  and is effectively debt-free, with the President of India holding about 85%. Unlike GRSE's momentum setup, this is a pullback-and-base idea: the stock has CORRECTED roughly 25% from its 52-week high near Rs.3,369 to about Rs.2,519, and is now basing in the lower third of its range. On June 19 it was nearly flat (down only ~0.6%) while IT stocks bled  -  quiet relative strength. The analyst average target sits near Rs.2,831 (about 12% upside). A reclaim and hold above the Rs.2,535-2,545 zone would confirm the base is turning, aiming back toward Rs.2,830.",
+          risk: "This is buying a stock that has been falling for a year (down ~21% over 12 months)  -  bases can keep basing, and you can be early. Valuation is still rich (P/E around 40) for a PSU, and defence order flow is lumpy and budget-dependent. The wide Rs.2,400 stop reflects that this is an accumulation idea near support, not a tight momentum trade  -  size it smaller accordingly."
+        },
+        {
+          name: "ITC (NSE: ITC)  -  on the radar, but NOT halal",
+          halal: false,
+          buyPrice: "N/A  -  fails the halal screen",
+          sellPrice: "N/A",
+          stopLoss: "N/A",
+          whyExciting: "This entry is a teaching case, not a buy. ITC was actually GREEN on June 19, a defensive large-cap that money rotated into as IT sold off  -  exactly the kind of 'safe', dividend-paying blue-chip that tempts you on a red day. But it FAILS the halal business-activity screen: a large share of ITC's revenue, and the majority of its profit, still comes from cigarettes (tobacco). No matter how clean the chart, how fat the dividend, or how defensive the stock, a tobacco-anchored income stream is impermissible  -  full stop. Keeping a disciplined halal watchlist means letting some winners walk by.",
+          risk: "The risk here is to your principles, not your capital. The temptation is to rationalise a 'mostly fine' business or to point at the diversified FMCG and hotels arms. Halal screening is binary on core activity: tobacco, alcohol, conventional interest-based finance, gambling, pork and adult content are out regardless of price action. The skill is noticing the rationalisation and saying no anyway."
+        }
+      ],
+      ipoSpot: {
+        name: "SpaceX's record-breaking IPO  -  the global event to learn from",
+        verdict: "Learn",
+        eli5: "The IPO story dominating global markets this month is SpaceX. On June 12 it raised a record-shattering $75 billion, was valued at about $1.77 trillion, and made Elon Musk the world's first trillionaire on paper. It is the textbook example of a marquee listing  -  enormous hype, enormous numbers. The lesson for an Indian investor is the discipline it demands: a famous name is not the same as a good entry price. When India's own marquee listings arrive (the NSE's eventual IPO being the most anticipated), apply the same rule  -  study the financials and the valuation, never buy on the headline alone. Hype IPOs reward patience, not FOMO."
+      },
+      lessonOfDay: {
+        title: "The Peace Dividend  -  Why a Middle East Deal Is Quietly Bullish for India",
+        story: "On June 19 the screen was red (Sensex down 607), but underneath it sat one of the most India-positive macro shifts of the year: oil at a three-month low. Here is the chain to understand. India imports roughly 85% of the crude it burns, so oil is one of its biggest import bills. Every sustained $10 fall in oil does four good things at once: (1) it shrinks the import bill, improving the trade balance; (2) it cools inflation, because fuel sits inside transport, food and electricity; (3) it supports the rupee, because fewer dollars flow out to pay for crude; and (4) it gives the Reserve Bank of India room to keep rates supportive. A single Friday selloff in IT stocks is noise; a structural drop in the price of the nation's biggest import is signal. The skill is learning to look past the day's red candle to the macro tailwind building underneath it.",
+        mnemonic: "Peace deal -> Hormuz reopens -> oil falls -> India (85% oil importer) wins: smaller import bill, lower inflation, firmer rupee, easier RBI. Look past the red candle to the macro."
+      }
+    },
+    quiz: [
+      {
+        q: "Why is a sustained fall in oil prices considered a structural tailwind for India specifically?",
+        options: [
+          "Because India is the world's largest oil exporter",
+          "Because India imports about 85% of its crude  -  cheaper oil shrinks its import bill, cools inflation, supports the rupee and gives the RBI room to ease",
+          "Because Indian companies don't use oil",
+          "Because oil prices don't affect inflation"
+        ],
+        answer: 1,
+        funFact: "Oil is India's single biggest import. Analysts often estimate that every $10 drop in the price of crude can improve India's current-account balance by tens of billions of dollars a year  -  which is why a 'peace dividend' that lowers oil can matter more to India's economy than a single red day on the Sensex."
+      },
+      {
+        q: "ITC was a GAINER on June 19 but is excluded from a halal watchlist. Why?",
+        options: [
+          "Because it is too small a company",
+          "Because a large share of its revenue and the majority of its profit come from cigarettes (tobacco)  -  an impermissible core business, regardless of price action",
+          "Because it pays no dividend",
+          "Because gaining stocks are never halal"
+        ],
+        answer: 1,
+        funFact: "Halal screening is binary on core business activity: tobacco, alcohol, conventional interest-based banking, gambling, pork and adult content are excluded no matter how attractive the chart or dividend. A diversified arm (ITC also sells FMCG and runs hotels) does not rescue a company whose profit engine is tobacco."
+      },
+      {
+        q: "Why are debt-free defence PSUs like GRSE and Mazagon Dock often favoured by halal investors when global markets turn risk-off?",
+        options: [
+          "Because they are guaranteed to never fall",
+          "Because shipbuilding is a permissible business AND a near-zero-debt balance sheet passes the halal financial screen  -  plus government order books make them defensive when global tech wobbles",
+          "Because they pay interest income",
+          "Because they are foreign companies"
+        ],
+        answer: 1,
+        funFact: "Two screens must BOTH pass for a halal stock: the business activity (what the company does) and the financials (chiefly that interest-bearing debt is a small fraction of the company). Debt-free defence shipbuilders pass both cleanly  -  and because their revenue comes from government order books rather than the global cycle, they often hold up when risk-sensitive sectors like IT sell off."
+      }
+    ]
+  },
+  psychology: {
+    mindTrick: {
+      name: "The Spotlight Effect  -  Nobody Is Watching You as Closely as You Think",
+      eli5: "The Spotlight Effect is our tendency to massively overestimate how much other people notice and remember our appearance and mistakes. You feel like a spotlight is following you  -  the stain on your shirt, the stumble over a word, the slightly-off question you asked in the meeting. In reality, everyone else is starring in their own movie, worrying about their own spotlight. In the classic study, students made to wear an embarrassing T-shirt guessed about twice as many people noticed it as actually did.",
+      realLife: "You replay a small awkward comment from yesterday's call for hours; the other people forgot it within minutes because they were thinking about themselves. Knowing this is freeing: the cost of trying something and slightly fumbling is far lower than your brain estimates, because the audience is barely watching. It is the antidote to the fear that keeps you quiet in meetings.",
+      mnemonic: "Spotlight Effect = You think everyone noticed your blunder. They didn't  -  they're worried about their own. Act braver; the audience is distracted."
+    },
+    bodyLanguage: {
+      signal: "The Duchenne Smile  -  the Eyes Reveal a Real One",
+      eli5: "A fake smile uses only the mouth (the zygomatic muscle). A genuine, felt smile  -  named after the scientist Duchenne  -  also activates the muscles around the eyes (orbicularis oculi), creating crinkles and slightly raised cheeks. You can fake the mouth, but the eye-crinkle is very hard to fake on demand. That is why a real smile reaches the eyes and a polite one does not.",
+      howToUse: "To read others: check the eyes, not the mouth. Crinkles and lifted cheeks mean the warmth is real; a mouth-only smile is politeness or performance. To project warmth yourself: think of something you genuinely find pleasant for a second before you smile  -  the felt emotion recruits the eye muscles automatically, and people read you as sincere rather than salesy.",
+      mnemonic: "Duchenne smile = real smile reaches the EYES (crinkles). Mouth-only = polite mask. Read the eyes; to give warmth, feel it for a second first."
+    },
+    superpower: {
+      name: "The Door-in-the-Face Technique  -  Ask Big First, Then Real",
+      story: "This is reciprocity's clever cousin. You make a large request you expect to be refused, then  -  after the 'no'  -  retreat to the smaller request you actually wanted. The retreat feels like a concession, and the unwritten rule of reciprocity nudges the other person to concede in return by saying yes to the smaller ask. In Cialdini's famous study, volunteers asked first to mentor a delinquent for two years (almost everyone refused), then asked to chaperone a single zoo trip, agreed at roughly three times the rate of people asked only the small question.",
+      shield: "Your defence is to evaluate each request on its own merits, not relative to the one before it. When a giant ask is suddenly followed by a 'smaller' one, pause and ask: 'Would I say yes to this second request if it had been the FIRST thing I heard?' If the answer is no, the contrast is doing the persuading, not the request itself.",
+      mnemonic: "Door-in-the-Face = Big ask (refused) -> small real ask feels like a fair trade -> 'yes.' Shield: judge the second request as if it were the first."
+    },
+    quiz: [
+      {
+        q: "The Spotlight Effect describes our tendency to...",
+        options: [
+          "Notice everything about other people",
+          "Overestimate how much others notice our appearance, behaviour and mistakes  -  because we are the centre of our own attention but only a bit-player in theirs",
+          "Forget our own mistakes instantly",
+          "Perform better when watched"
+        ],
+        answer: 1,
+        funFact: "In the original 'embarrassing T-shirt' experiment, students estimated that about twice as many observers noticed their shirt as actually did. The practical upside: the social cost of trying and slightly failing is roughly half what your brain fears, because most people are absorbed in their own spotlight."
+      },
+      {
+        q: "Why does the Door-in-the-Face technique work?",
+        options: [
+          "Because the first request is always reasonable",
+          "Because retreating from a big request to a smaller one feels like a concession, and reciprocity pressures the other person to concede back with a 'yes'",
+          "Because people love being asked twice",
+          "Because the small request is hidden"
+        ],
+        answer: 1,
+        funFact: "It is reciprocity applied to concessions: when you 'give' by backing down to a smaller ask, the other person feels socially obliged to 'give' back by agreeing. The defence is simple but powerful  -  judge the second request as if it were the first thing you'd heard."
+      },
+      {
+        q: "What distinguishes a genuine (Duchenne) smile from a polite one?",
+        options: [
+          "A genuine smile is wider",
+          "A genuine smile also engages the muscles around the eyes (crinkles, lifted cheeks), which are very hard to fake on command",
+          "A polite smile shows more teeth",
+          "There is no real difference"
+        ],
+        answer: 1,
+        funFact: "The muscle around the eye (orbicularis oculi) is largely outside voluntary control for most people, which is why a felt smile 'reaches the eyes' and a forced one does not. To project genuine warmth, summon a pleasant thought for a second before smiling  -  the real emotion recruits the eye muscles for you."
+      }
+    ]
+  },
+  leadership: {
+    leaderMove: {
+      name: "Disagree and Commit  -  How to Move Fast Without Fake Consensus",
+      story: "Popularised at Amazon by Jeff Bezos, 'disagree and commit' breaks the deadlock between two bad options: caving to keep the peace, or fighting endlessly for your view. The move is to voice your disagreement fully and honestly  -  then, once the team decides, commit to the decision with full energy as if it were your own, even though you argued against it. Bezos once wrote to a team that he disagreed with a project but said 'disagree and commit' and approved it, so they could move at full speed instead of grinding through more debate. It is the opposite of the passive-aggressive 'I told you so' saboteur.",
+      doThis: "Next time a decision goes against your recommendation, say it out loud: 'I disagree, and here's why  -  but I'm fully committed to making this work.' Then actually back it. This earns enormous trust: leaders learn you will be honest in the debate AND loyal in execution, which makes them want your dissent in the room.",
+      mnemonic: "Disagree and Commit = Argue hard in the debate, then back the decision 100% even if you lost. Honest in dissent, loyal in execution. Speed without fake consensus."
+    },
+    visionarySecret: {
+      concept: "The Regret Minimisation Framework",
+      eli5: "Jeff Bezos decided whether to leave a secure Wall Street job to start Amazon by projecting himself forward to age 80 and asking which choice he would regret less. He realised he would not regret trying and failing  -  but he would deeply regret never having tried. This reframes a scary decision: instead of optimising for short-term comfort or this year's bonus, you optimise to minimise the regret your 80-year-old self will feel looking back.",
+      exercise: "Take a decision you are stuck on. Picture yourself at 80, calmly reviewing your life. Ask: 'Which choice will I regret NOT making?' Regret about inaction (the road not taken) tends to be far heavier and longer-lasting than regret about a brave action that didn't work out. Let your future self break the tie.",
+      mnemonic: "Regret Minimisation = Fast-forward to age 80. Which choice will you regret NOT trying? Inaction-regret outweighs failure-regret. Let your 80-year-old self decide."
+    },
+    eliteHabit: {
+      habit: "Buffett's 5/25 Rule  -  Focus by Avoidance",
+      whoAndHow: "The story (often attributed to Warren Buffett) goes: he told his pilot to list his top 25 career goals, then circle the top 5. The pilot assumed he'd work on the 5 primarily and the other 20 occasionally. Buffett corrected him: the other 20 are now your 'avoid at all costs' list. They are the dangerous ones  -  attractive enough to steal time from your true top 5, but not important enough to matter. The elite habit is treating your second-tier goals as active distractions, not someday-projects.",
+      whyItWorks: "Focus is not won by adding the important; it's won by ruthlessly subtracting the merely attractive. Your top 5 fail not because of obviously bad choices, but because 'pretty good' opportunities quietly consume the hours they needed. Naming the 20 as a do-NOT-touch list converts vague ambition into a hard boundary.",
+      mnemonic: "5/25 Rule = List 25 goals, circle top 5. The other 20 become your AVOID list, not your later list. Good goals are the enemy of your best ones."
+    },
+    sigmaWisdom: {
+      lesson: "The Dichotomy of Control  -  Spend Energy Only Where You Have Power",
+      story: "The Stoic philosopher Epictetus  -  born a slave, later a revered teacher  -  taught that the single most important skill in life is dividing the world into two piles: things in your control (your judgements, effort, response, words) and things not in your control (other people's opinions, outcomes, the past, the market, the weather). Nearly all suffering, he argued, comes from desperately trying to control the second pile. June 19's traders learned a market version: you cannot control whether oil falls or the Fed turns hawkish  -  only your preparation, position size, and reaction.",
+      action: "When something stresses you today, sort it: 'Is this in my control or not?' If not (someone's opinion of you, a delayed reply, a market move), consciously redirect that energy to the part you DO control  -  your next action, your standard, your response. The relief is immediate, because you stop pouring effort into a locked door.",
+      mnemonic: "Dichotomy of Control = Sort everything into 'in my control' (effort, response, standards) vs 'not' (outcomes, opinions, markets). Pour energy only into pile one."
+    },
+    quiz: [
+      {
+        q: "'Disagree and commit' asks a leader (or team member) to...",
+        options: [
+          "Stay silent to avoid conflict",
+          "Voice their disagreement fully, then once the decision is made, back it with full energy as if it were their own",
+          "Keep fighting the decision after it's made",
+          "Only commit to decisions they agree with"
+        ],
+        answer: 1,
+        funFact: "The genius of the move is that it separates the debate phase from the execution phase. You get the benefit of honest dissent (better decisions) without the cost of either fake consensus or post-decision sabotage  -  which is why leaders come to value the dissent of people who reliably commit afterward."
+      },
+      {
+        q: "In Buffett's 5/25 rule, what do you do with goals 6 through 25?",
+        options: [
+          "Work on them whenever you have spare time",
+          "Treat them as an 'avoid at all costs' list, because they are attractive enough to steal time from your true top 5",
+          "Delete them and never think about them",
+          "Give them to someone else"
+        ],
+        answer: 1,
+        funFact: "The counter-intuitive insight is that your biggest threat is not bad opportunities  -  it's good ones. A genuinely appealing goal that isn't in your top 5 is the most dangerous kind of distraction, because it feels productive while quietly starving your real priorities of time."
+      },
+      {
+        q: "Epictetus's 'dichotomy of control' says the root of most suffering is...",
+        options: [
+          "Not working hard enough",
+          "Spending energy trying to control things that are outside our control  -  other people's opinions, outcomes, the past  -  instead of our own judgement and response",
+          "Having too few goals",
+          "Avoiding all risk"
+        ],
+        answer: 1,
+        funFact: "Epictetus was born into slavery and had almost nothing in his external control, yet became one of history's most influential teachers of freedom  -  precisely because he located freedom in the one place no one could touch: his own judgements and responses."
+      }
+    ]
+  },
+  wealth: {
+    wealthSecret: {
+      name: "The Coffee Can Portfolio  -  Buy Quality, Then Do Nothing",
+      story: "In the American Old West, people would put their most precious possessions in a coffee can and bury it  -  no fees, no fiddling, no temptation to trade. The investor Robert Kirby turned this into a strategy, and in India the analyst Saurabh Mukherjea popularised a modern version: pick a small set of genuinely high-quality companies (consistent revenue growth, low debt, durable competitive advantage), buy them, and then leave them completely untouched for 10 years or more. The hardest part is not the picking  -  it's the not-touching. Your activity is usually your enemy.",
+      action: "Build a tiny 'coffee can' of 8-12 companies you'd be comfortable owning if the market shut for a decade  -  durable, cash-generating, low-debt businesses (this discipline naturally overlaps with halal screening, which already rewards low debt). Then deliberately ignore the daily noise. The strategy works because it forces you to let compounding run and removes the constant small mistakes  -  panic-selling, over-trading  -  that quietly destroy returns.",
+      mnemonic: "Coffee Can = Buy a few high-quality, low-debt companies, then bury them for 10+ years. Your trading activity is the enemy. Compounding needs your absence, not your attention."
+    },
+    moneyMachine: {
+      type: "REITs  -  Own Buildings Without Buying Buildings",
+      eli5: "A REIT (Real Estate Investment Trust) is a company that owns income-producing real estate  -  office parks, malls, warehouses  -  and is listed on the stock exchange like a share. You buy a unit for a few hundred rupees and become a part-owner of a giant property portfolio, earning a slice of the rent (paid out as regular distributions). It turns property, normally a crore-sized, illiquid commitment, into something you can buy and sell in seconds.",
+      indiaAngle: "India now has several listed REITs  -  Embassy Office Parks (the first), Mindspace, Brookfield, and the retail-focused Nexus Select  -  letting an ordinary investor own slices of premium commercial property in Mumbai, Bengaluru or Gurugram. A halal note: most conventional REITs use interest-based debt and may hold tenants in non-permissible businesses, so they generally do NOT pass a strict Islamic screen without a dedicated Sharia-compliant structure. REITs are a brilliant mechanism to understand  -  but screen the specific trust before assuming it qualifies.",
+      mnemonic: "REIT = a listed company that owns rent-paying buildings; buy a unit, collect a rent-slice. India: Embassy, Mindspace, Nexus. Halal caveat: most use interest debt  -  screen first."
+    },
+    mindsetFlip: {
+      oldThinking: "I need to wait for the perfect moment to invest, and trade in and out to dodge every dip.",
+      newThinking: "Time IN the market beats timing the market. Get in, stay in, and let the years do the heavy lifting.",
+      why: "Decades of data show that a tiny handful of the market's best days produce a huge share of its total returns  -  and those best days cluster right next to the scary worst days. Investors who jump out to 'avoid the crash' almost always miss the violent rebound that follows, permanently locking in the gap. Missing just the 10 best days over a couple of decades can cut your total return roughly in half. The amateur asks 'when?'; the professional asks 'how long?'",
+      mnemonic: "Time IN > timing. The best days hide next to the worst; sell to dodge a crash and you miss the rebound. Don't ask 'when' -  ask 'how long.'"
+    },
+    magicNumber: {
+      number: "114  -  the Rule that Tells You When Money TRIPLES",
+      eli5: "You may know the Rule of 72 (72 divided by your return = years to DOUBLE). Its lesser-known sibling is the Rule of 114: 114 divided by your annual return tells you roughly how many years to TRIPLE your money. At a 12% return (a long-run ballpark for Indian equities), 114 / 12 is about 9.5 years to triple. At 8%, it's about 14 years. It's a fast mental check on the real power of a return rate over time.",
+      mnemonic: "Rule of 114 = years to TRIPLE your money (114 / return%). Companion to 72 (double). At 12%, money triples in ~9.5 years. Rate + time = quiet magic."
+    },
+    quiz: [
+      {
+        q: "The 'Coffee Can Portfolio' strategy works mainly because it...",
+        options: [
+          "Lets you trade frequently to beat the market",
+          "Forces you to buy a few high-quality companies and then NOT touch them for years  -  removing the constant small mistakes (panic-selling, over-trading) that destroy returns",
+          "Guarantees no company will ever fall",
+          "Avoids the stock market entirely"
+        ],
+        answer: 1,
+        funFact: "The name comes from the Old West habit of burying valuables in a coffee can  -  no fees, no fiddling. The strategy's power is behavioural: the biggest threat to long-term compounding is usually the investor's own activity, and 'do nothing' is shockingly hard to follow."
+      },
+      {
+        q: "Why does 'time in the market beat timing the market'?",
+        options: [
+          "Because markets only ever go up",
+          "Because a small number of the market's best days drive most of its returns, and those best days cluster next to the worst  -  so investors who sell to dodge crashes usually miss the rebound",
+          "Because timing is illegal",
+          "Because long-term investors pay no tax"
+        ],
+        answer: 1,
+        funFact: "Studies repeatedly find that missing just the 10 best trading days over a couple of decades can roughly halve an investor's total return. Because those best days so often occur within days of the worst ones, the act of fleeing a crash is what causes you to miss the recovery."
+      },
+      {
+        q: "Using the Rule of 114, roughly how long does money take to TRIPLE at a 12% annual return?",
+        options: [
+          "About 3 years",
+          "About 9.5 years (114 divided by 12)",
+          "About 30 years",
+          "It never triples"
+        ],
+        answer: 1,
+        funFact: "The Rule of 114 is the triple-it cousin of the Rule of 72 (which estimates doubling time). There's even a Rule of 144 for quadrupling. They all flow from the same compound-interest maths, giving you fast mental estimates of how a return rate plays out over time."
+      }
+    ]
+  },
+  communication: {
+    speakingSkill: {
+      name: "The 'Yes, And' Principle  -  Build, Don't Block",
+      story: "Borrowed from improv comedy, 'Yes, And' is a rule that transforms conversations and brainstorms. Instead of meeting an idea with 'No' or 'Yes, but...' (which both shut it down), you accept what was offered ('Yes') and add to it ('And'). In improv, blocking a partner's idea kills the scene; accepting and building keeps it alive and surprising. The same is true in a meeting: 'Yes, but' makes people defensive and quiet; 'Yes, and' makes them generative and loud.",
+      drill: "For one day, ban the phrase 'Yes, but' and replace it with 'Yes, and.' Watch what happens: 'Yes, but we don't have budget' becomes 'Yes, and to fund it we could trim the X line.' You're not forced to agree with everything  -  you're forced to build on it before you redirect it. People feel heard, ideas improve, and you become the person others want to think out loud with.",
+      mnemonic: "'Yes, And' (improv) = accept the idea, then add to it. 'Yes, but' blocks and defends; 'Yes, and' builds and opens. Ban 'but' for a day and watch rooms light up."
+    },
+    negotiationMove: {
+      tactic: "Labeling  -  Name the Emotion to Defuse It",
+      eli5: "Taught by former FBI hostage negotiator Chris Voss, 'labeling' means gently naming the other side's emotion or position out loud: 'It seems like you're worried about the timeline,' or 'It sounds like price is the real sticking point.' Naming a feeling does two things: it makes the other person feel understood (lowering their guard), and saying a negative emotion out loud actually reduces its intensity  -  the brain calms when a feeling is acknowledged.",
+      script: "Use the soft openers, never 'I': say 'It seems like...', 'It sounds like...', 'It looks like...' (these invite correction and feel non-accusatory), then go quiet and let them respond. 'It seems like you've been burned by a vendor before' often unlocks the real objection behind a stalled deal  -  the thing they weren't saying out loud.",
+      mnemonic: "Labeling (Chris Voss) = name their emotion: 'It seems like...', 'It sounds like...' Naming it makes them feel heard AND shrinks the feeling. Then stay silent."
+    },
+    officeWin: {
+      rule: "Send the Weekly Wins Email  -  Make Your Work Visible",
+      story: "Most talented people assume good work speaks for itself. It doesn't  -  busy managers cannot see most of what you do. The fix is a short Friday email to your manager: three to five bullets of what you shipped, moved forward, or unblocked this week, in plain results language. It is not bragging; it's giving your boss the raw material they need to advocate for you in rooms you're not in (promotion and budget discussions). Over a year, you've handed them a documented case for your value.",
+      mistake: "The mistake is staying silently heads-down and assuming visibility is automatic, then feeling bitter when a louder colleague gets the credit or the promotion. The other mistake is the opposite  -  a wall of text listing every tiny task. Keep it to a few outcome-focused bullets ('Closed the Q2 reconciliation two days early; fixed the sync bug affecting 40 users'), not activity logs.",
+      mnemonic: "Weekly Wins Email = Friday, 3-5 outcome bullets to your manager. Good work doesn't speak for itself  -  you give the boss ammo to champion you. Results, not activity logs."
+    },
+    confidenceHack: {
+      technique: "Slow Down  -  Speech Rate Is the Confidence Tell",
+      science: "When we're nervous, we speed up  -  rushing to get the ordeal over with, filling silence with words. Listeners read fast, breathless speech as anxiety and low status. The reverse is also true: deliberately slowing your pace, and allowing small pauses, is one of the strongest non-verbal signals of confidence and authority. A slower speaker appears to be thinking, in control, and unbothered by the pressure to fill every gap. Pace is something you can consciously control even when your nerves are loud.",
+      doItNow: "Before your next important sentence, take one slow breath and speak about 15-20% slower than feels natural, landing fully on the final word of key sentences instead of trailing off. Add a one-second pause after your main point. It will feel almost comically slow from the inside, and sound calm and commanding from the outside.",
+      mnemonic: "Slow down = confidence. Nerves speed us up; control slows us down. Speak ~15% slower, pause after key points, land the last word. Calm pace reads as authority."
+    },
+    quiz: [
+      {
+        q: "Why does 'Yes, and' outperform 'Yes, but' in a brainstorm?",
+        options: [
+          "Because it forces everyone to agree on everything",
+          "Because it accepts the idea and builds on it (keeping people generative), whereas 'Yes, but' negates and makes people defensive and quiet",
+          "Because 'but' is grammatically incorrect",
+          "Because it ends the conversation faster"
+        ],
+        answer: 1,
+        funFact: "The principle comes from improv comedy, where 'blocking' a scene partner's offer kills the scene. 'Yes, and' doesn't mean you must agree with everything  -  it means you build on what's offered before redirecting, so people feel heard and ideas accumulate instead of collapsing."
+      },
+      {
+        q: "In Chris Voss's negotiation method, a 'label' such as 'It sounds like price is the real concern' works because...",
+        options: [
+          "It tells the other side what to think",
+          "Naming the other person's emotion makes them feel understood AND reduces the intensity of that emotion  -  the brain calms when a feeling is acknowledged",
+          "It hides your own position",
+          "It forces an immediate decision"
+        ],
+        answer: 1,
+        funFact: "Labels deliberately start with 'It seems like...' or 'It sounds like...' rather than 'I think...' The soft opener feels non-accusatory and invites the other person to correct or elaborate  -  often revealing the true objection hiding behind the stated one."
+      },
+      {
+        q: "What is the simplest non-verbal way to sound more confident under pressure?",
+        options: [
+          "Speak faster to seem energetic",
+          "Deliberately slow your speech rate and add small pauses  -  fast, breathless speech reads as anxiety, while a slower pace reads as control and authority",
+          "Raise your volume as loud as possible",
+          "Avoid eye contact"
+        ],
+        answer: 1,
+        funFact: "Nerves trigger us to rush; slowing down is a counter-signal the brain reads as 'this person is in control and unbothered.' A slight pause after your main point is especially powerful  -  it signals you're comfortable with silence, which only confident people are."
+      }
+    ]
+  },
+  mind: {
+    brainHack: {
+      name: "Temptation Bundling  -  Pair a Want With a Should",
+      eli5: "Coined by behavioural scientist Katy Milkman, temptation bundling means only letting yourself enjoy a guilty pleasure (a 'want') at the same time as doing a beneficial-but-boring task (a 'should'). You only listen to your addictive podcast while at the gym; you only watch your trashy show while folding laundry or on the treadmill. The instant pleasure of the 'want' pulls you toward the 'should', solving the core problem that good habits pay off later while temptations pay off now.",
+      protocol: "Pick one 'want' you indulge often (a specific show, podcast, playlist, or snack) and one 'should' you avoid (exercise, admin, studying). Make a rule: the want is ONLY allowed during the should. Milkman's research found people who could only enjoy gripping audiobooks at the gym exercised significantly more. You're borrowing the temptation's now-pleasure to power the habit's later-payoff.",
+      mnemonic: "Temptation Bundling = the fun 'want' is ONLY allowed during the boring 'should' (podcast only at the gym). Borrow the temptation's now-pleasure to fuel the habit."
+    },
+    disciplineCode: {
+      principle: "Never Miss Twice",
+      story: "From James Clear's Atomic Habits: missing once is an accident; missing twice is the start of a new (bad) habit. Everyone breaks a streak  -  you skip the workout, the journal, the study session. The pros and the amateurs both miss. The difference is what happens next. The amateur lets one miss become two, two become a week, and the habit quietly dies. The disciplined person has one ironclad rule: you are allowed to miss once, but you must NEVER miss twice in a row. Missing once is human; missing twice is a decision.",
+      todayAction: "Identify a habit you've been letting slip. Adopt the single rule: 'I can miss once, never twice.' If you skipped yesterday, today is non-negotiable  -  even a tiny version counts (one push-up, one sentence, five minutes). The goal isn't perfection; it's never letting the chain of failure form a second link.",
+      mnemonic: "Never Miss Twice = One miss is an accident; two is a new bad habit. Always show up the day after a slip, even at minimum size. Protect the chain at link two."
+    },
+    impulseKiller: {
+      urge: "The craving you 'have' to act on right now  -  the snack, the scroll, the angry reply",
+      eli5: "Urge surfing, from psychologist Alan Marlatt, reframes a craving as a wave rather than a command. An urge is not a permanent state that grows until you obey  -  it rises, peaks, and falls, usually within 20-30 minutes, whether or not you act on it. Instead of fighting it (which often makes it louder) or instantly obeying it, you 'surf' it: observe it with curiosity, notice where you feel it in your body, and ride it as it crests and naturally subsides.",
+      interrupt: "When a craving hits, set a timer for 10 minutes and just watch the urge like weather: 'Interesting  -  tightness in my chest, restlessness in my hands.' Don't fight it, don't obey it, just observe. Most urges noticeably weaken before the timer ends, and you've proven to yourself that you can have an urge without acting on it  -  which is the foundation of all self-control.",
+      mnemonic: "Urge Surfing = a craving is a WAVE, not a command  -  it peaks and falls in ~20-30 min. Don't fight it or feed it; observe it and ride it out. You can have an urge without obeying it."
+    },
+    bodyUpgrade: {
+      practice: "Zone 2 Cardio  -  The Conversational-Pace Engine Builder",
+      eli5: "Zone 2 is steady aerobic exercise at a pace where you can still hold a conversation but couldn't sing  -  roughly 60-70% of your max heart rate. It feels almost too easy, which is why people skip it for harder workouts. But Zone 2 is where your body builds mitochondria (the tiny power plants in your cells) and gets better at burning fat for fuel. It's the unglamorous base that underpins endurance, metabolic health, and longevity  -  the stuff elite athletes and longevity doctors quietly prioritise.",
+      minimumDose: "Aim for two to three sessions a week of 30-45 minutes at a pace where you could just barely hold a conversation  -  a brisk walk on an incline, easy cycling, or a light jog. The test: if you're gasping, you're going too hard (that's a different zone); if you could sing, too easy. Boring is the point; consistency at this easy pace compounds into a dramatically stronger aerobic engine.",
+      mnemonic: "Zone 2 = exercise you can talk-but-not-sing through (~60-70% max HR). Builds mitochondria and fat-burning. 2-3 x 30-45 min/week. Boring base = real fitness."
+    },
+    quiz: [
+      {
+        q: "Temptation bundling helps you build a good habit by...",
+        options: [
+          "Punishing yourself when you skip it",
+          "Allowing a tempting 'want' (a show, podcast) ONLY while doing a beneficial 'should' (exercise, chores)  -  so the instant pleasure pulls you toward the habit",
+          "Removing all pleasure from your life",
+          "Doing the habit only when you feel motivated"
+        ],
+        answer: 1,
+        funFact: "The hack solves a deep timing mismatch: good habits pay off in the distant future while temptations pay off instantly. By chaining the two, you borrow the temptation's immediate reward to power the habit  -  in one study, people who could only hear gripping audiobooks at the gym worked out far more often."
+      },
+      {
+        q: "The 'Never Miss Twice' rule is powerful because...",
+        options: [
+          "It demands perfection with no mistakes allowed",
+          "It accepts that everyone slips once, but refuses to let one miss become two  -  stopping a single lapse from snowballing into the death of the habit",
+          "It lets you skip as often as you like",
+          "It only applies to exercise"
+        ],
+        answer: 1,
+        funFact: "The distinction is subtle but decisive: one miss is an accident, two in a row is the seed of a new habit. Disciplined people aren't those who never slip  -  they're the ones who guarantee they show up the very next day, even with a minimum-sized version of the habit."
+      },
+      {
+        q: "'Urge surfing' is based on the insight that a craving...",
+        options: [
+          "Grows forever until you give in",
+          "Is like a wave  -  it rises, peaks and falls on its own (usually within 20-30 minutes), so you can observe and ride it out instead of obeying it",
+          "Can only be stopped by force of will",
+          "Means something is medically wrong"
+        ],
+        answer: 1,
+        funFact: "Developed by psychologist Alan Marlatt for addiction relapse prevention, urge surfing works partly because fighting a craving often amplifies it, while calm observation lets it follow its natural rise-and-fall curve. Each time you ride one out, you weaken the automatic link between urge and action."
+      }
+    ]
+  },
+  knowledge: {
+    mathMagic: {
+      concept: "Benford's Law  -  Why '1' Is the Most Common First Digit",
+      eli5: "In huge collections of natural numbers  -  river lengths, populations, stock prices, expense reports  -  the leading digit is not evenly spread. You'd guess each digit 1-9 shows up about 11% of the time. Instead, numbers starting with 1 appear about 30% of the time, 2 about 18%, and so on, trailing down to 9 at under 5%. This counter-intuitive pattern is Benford's Law, and it emerges because many real-world quantities grow multiplicatively (by percentages), so they spend more 'time' passing through the lower leading digits on the way up.",
+      realWorldUse: "Forensic accountants and auditors use Benford's Law to sniff out fraud. Genuine financial data (real invoices, real tax figures) tends to obey the law; when someone fabricates numbers, they unconsciously spread the leading digits too evenly, and the data fails the Benford test  -  a red flag for investigation. It has been used in tax-fraud detection, election-result checks, and accounting audits. For a data analyst, it's a beautifully simple first screen for 'are these numbers real?'",
+      mnemonic: "Benford's Law = in natural data, leading digit '1' appears ~30% of the time, not 11%. Fakers spread digits too evenly  -  so it catches fraud. A real-numbers smell test."
+    },
+    scienceWow: {
+      field: "Physics / Materials Science",
+      concept: "Superconductivity  -  Electricity With Zero Resistance",
+      eli5: "In normal wires, electricity meets resistance  -  electrons bump into the atomic lattice, losing energy as heat (that's why your charger gets warm). In a superconductor, cooled below a critical temperature, resistance drops to exactly zero. Electrons pair up and glide through the material in perfect coordination, losing no energy at all. A current started in a superconducting loop would, in principle, circulate forever. Superconductors also expel magnetic fields, which is why a magnet can levitate above one  -  the famous floating-magnet demo.",
+      mindBlow: "Superconductivity already powers the giant magnets inside MRI scanners and particle accelerators like the Large Hadron Collider. The dream is room-temperature superconductors  -  if we could make materials superconduct without extreme cooling, we'd have lossless power grids, ultra-efficient motors, and magnetically levitating trains as standard. It's one of physics' great unsolved prizes: we use superconductors daily, yet a fully practical, warm one remains just out of reach.",
+      mnemonic: "Superconductivity = ZERO electrical resistance below a critical cold temperature; current can flow forever, and magnets levitate. Powers MRIs today; room-temp version is the holy grail."
+    },
+    historyStory: {
+      event: "Bretton Woods 1944  -  The Meeting That Built the Modern Money System",
+      story: "In July 1944, with World War II still raging, 730 delegates from 44 nations gathered at a hotel in Bretton Woods, New Hampshire, to design how money would work after the war. They feared a repeat of the 1930s, when competitive currency devaluations and trade wars had deepened the Great Depression. The deal they struck pegged world currencies to the US dollar, and the dollar to gold at $35 an ounce  -  making the dollar the anchor of global finance. They also created two institutions still central today: the International Monetary Fund (IMF) and the World Bank. The gold peg ended in 1971 when the US 'closed the gold window,' but the dollar's role as the world's reserve currency  -  born at Bretton Woods  -  endures.",
+      lesson: "The reason a hawkish US Federal Reserve can shake markets in Mumbai, and why oil is priced in dollars, traces back to this single 1944 conference. Money systems are not laws of nature  -  they are human agreements, designed in rooms, that can be redesigned. Understanding where the dollar's dominance came from is understanding the gravity that still bends every market on Earth.",
+      mnemonic: "Bretton Woods 1944 = 44 nations pegged currencies to the US dollar (dollar to gold at $35/oz), and created the IMF and World Bank. Gold peg died 1971; dollar dominance lives on."
+    },
+    earthSecret: {
+      place: "Socotra Island, Yemen  -  the Most Alien Place on Earth",
+      secret: "Socotra is an island in the Arabian Sea, off the Horn of Africa, so isolated for millions of years that about a third of its plant species exist nowhere else on the planet. Its signature is the dragon's blood tree  -  shaped like an upturned umbrella, it bleeds a deep red sap once prized as medicine and dye. With its bottle trees, desert roses that look like elephant legs, and bizarre skyline, Socotra looks less like Earth and more like a film set for another world. UNESCO declared it a World Heritage Site for its extraordinary biodiversity.",
+      edge: "Socotra is a living laboratory of evolution by isolation  -  the same principle that made the Galapagos famous. Cut off from the mainland, its species evolved down their own strange paths with no competition or predators to copy. It's a reminder that isolation is one of nature's most powerful design tools: separate a population long enough, and it becomes something the rest of the world has never seen.",
+      mnemonic: "Socotra (Yemen) = 'most alien place on Earth'; ~1/3 of its plants exist nowhere else, including the red-sapped dragon's blood tree. Isolation = evolution's design engine."
+    },
+    quiz: [
+      {
+        q: "Benford's Law says that in large sets of natural numbers, the leading digit '1' appears...",
+        options: [
+          "About 11% of the time, like every other digit",
+          "About 30% of the time  -  far more often than 9, which appears under 5%",
+          "Exactly as often as the digit 9",
+          "Never"
+        ],
+        answer: 1,
+        funFact: "Because the pattern is so reliable in genuine data, auditors use it to catch fraud: fabricated numbers tend to spread leading digits too evenly and fail the Benford test. It has flagged suspicious tax returns, accounting books, and even questionable election results."
+      },
+      {
+        q: "What makes a superconductor extraordinary?",
+        options: [
+          "It conducts electricity faster than light",
+          "Below a critical low temperature it has ZERO electrical resistance  -  current flows with no energy loss, and it expels magnetic fields (letting magnets levitate)",
+          "It generates its own electricity from nothing",
+          "It only works at very high temperatures"
+        ],
+        answer: 1,
+        funFact: "Superconducting magnets already run inside every MRI machine and the Large Hadron Collider. The unclaimed prize is a room-temperature superconductor: achieve that, and lossless power grids and everyday maglev transport become possible  -  which is why each claimed breakthrough makes global headlines."
+      },
+      {
+        q: "Why does the 1944 Bretton Woods conference still matter today?",
+        options: [
+          "It ended World War II",
+          "It made the US dollar the anchor of the global financial system and created the IMF and World Bank  -  which is why a US Fed decision still moves markets worldwide",
+          "It invented paper money",
+          "It set the price of oil permanently"
+        ],
+        answer: 1,
+        funFact: "Bretton Woods pegged currencies to the dollar and the dollar to gold at $35 an ounce. The gold peg ended in 1971, but the dollar's role as the world's reserve currency survived  -  which is why oil is priced in dollars and a hawkish Fed can rattle the Mumbai market."
+      }
+    ]
+  },
+  ai: {
+    toolSpotlight: {
+      name: "Claude Code (Anthropic)",
+      category: "Agentic coding assistant (works in your terminal / editor)",
+      eli5: "Claude Code is an AI agent that lives in your command line or code editor and can actually DO multi-step work on your files  -  read a whole project, write and edit code across several files, run commands, fix the errors it finds, and repeat  -  instead of just suggesting a snippet in a chat box. You describe the goal in plain English ('add a date filter and fix the failing test'), and it works through the steps, showing you what it changed. It's the difference between an assistant that talks about code and one that gets its hands on the keyboard.",
+      secretMove: "Point it at an existing project and ask it to explain the codebase before you change anything: 'Walk me through how this app is structured and where the data lives.' It builds you a map in minutes that would take an hour of reading. Then make changes in small, reviewable steps  -  ask for one feature or fix at a time, read the diff, and only then move on. Treating it as a careful pair-programmer, not a magic button, is what separates great results from messy ones.",
+      mnemonic: "Claude Code = an AI agent in your terminal that reads, edits and runs across your whole project  -  not just chat snippets. Best move: ask it to map the codebase first, then change in small reviewable steps."
+    },
+    workflowWin: {
+      title: "From Messy CSV to Clean Chart in Five Minutes",
+      problem: "You've been handed a raw, messy CSV  -  inconsistent column names, blank rows, dates in three formats  -  and you need a quick, clean chart for a meeting in ten minutes. Doing it by hand means fiddling with formulas and fighting formatting.",
+      steps: "(1) Upload the CSV to an AI assistant that can run code (Claude or ChatGPT with data analysis). (2) Prompt: 'Clean this data  -  standardise the column names, drop empty rows, parse all dates to one format  -  then show me the cleaning steps you took.' (3) Review the steps it lists (never skip this  -  you're checking its judgement). (4) Prompt: 'Now chart [metric] over time, and flag any outliers.' (5) Ask it to export the cleaned file so you keep a reusable asset. The human stays in the loop on judgement; the AI does the grunt work.",
+      timeSaved: "About 30-40 minutes of manual cleaning and charting collapsed into roughly 5 minutes  -  with a documented, repeatable cleaning recipe you can reuse next month.",
+      mnemonic: "Messy CSV -> clean chart: upload, ask it to clean AND list the steps, REVIEW the steps, then chart + flag outliers, then export. AI does grunt work; you keep the judgement."
+    },
+    promptOfDay: {
+      purpose: "Pressure-test a decision before you commit (a personal 'red team')",
+      prompt: "'I'm about to [decision]. Act as a sharp, skeptical advisor who wants me to succeed. Give me the three strongest arguments AGAINST this choice, the most likely way it goes wrong, and one question I haven't thought to ask. Be direct, not diplomatic.'",
+      where: "Any capable chat assistant (Claude, ChatGPT, Gemini). Especially useful before money decisions, big purchases, or sending an important email.",
+      mnemonic: "Decision red-team prompt = 'Give me the 3 strongest arguments AGAINST this, the likeliest failure, and a question I missed. Be direct.' Turns the AI into a useful skeptic."
+    },
+    futureWatch: {
+      trend: "AI Sovereignty  -  the Risk of Depending on One Provider",
+      eli5: "June 19's headline  -  a US export order forcing Anthropic to disable its top models worldwide  -  exposed a new fault line. Until now, governments controlled AI mostly through hardware (chips). Now they can restrict access to the models themselves. Canada's PM warned, ahead of G7 talks, that the world is dangerously dependent on a handful of AI providers, and that 'AI sovereignty' (a country's or company's ability to keep using AI even if one supplier is cut off) is becoming a real strategic concern. A single regulatory order, outage, or price change at one provider can now ripple through millions of workflows.",
+      yourMove: "Don't wire your entire workflow so tightly to one AI model that you'd be stranded if it vanished tomorrow. Keep your important prompts and processes portable (written down, not locked inside one tool's memory), know a backup model for your core tasks, and treat AI like any other critical supplier  -  useful, but not something to be single-sourced on. Concentration is convenient until the day it isn't.",
+      mnemonic: "AI Sovereignty = don't single-source your brain. June 19 proved one government order can switch off a top model worldwide. Keep prompts portable, know a backup, avoid lock-in."
+    },
+    quiz: [
+      {
+        q: "On June 19, 2026, what did a US export-control order force Anthropic to do?",
+        options: [
+          "Release a new free model",
+          "Disable worldwide access to its most advanced models (Fable 5 and Mythos 5), to block foreign nationals over software-vulnerability concerns",
+          "Lower all its prices",
+          "Merge with OpenAI"
+        ],
+        answer: 1,
+        funFact: "The move was significant because it extended US AI controls beyond hardware (chips) to the deployed models themselves. It prompted immediate warnings  -  including from Canada's Prime Minister ahead of G7 talks  -  about the danger of the world depending on a small number of AI providers."
+      },
+      {
+        q: "What does 'AI sovereignty' refer to as a strategic concern?",
+        options: [
+          "AI becoming legally a person",
+          "The ability of a country or organisation to keep using AI even if a single supplier is cut off  -  reducing dangerous dependence on one provider",
+          "AI running governments",
+          "Making AI free for everyone"
+        ],
+        answer: 1,
+        funFact: "The practical takeaway scales down to individuals: if your whole workflow depends on one model, a regulatory order, outage, or price change can strand you. Keeping prompts portable and knowing a backup model for core tasks is the personal version of AI sovereignty."
+      },
+      {
+        q: "What's the safest way to use an agentic coding tool like Claude Code on an existing project?",
+        options: [
+          "Let it rewrite the entire codebase in one go without looking",
+          "Ask it to map and explain the codebase first, then make changes in small, reviewable steps  -  reading each diff before moving on",
+          "Never read what it changes",
+          "Only use it for brand-new projects"
+        ],
+        answer: 1,
+        funFact: "Agentic tools are powerful precisely because they can touch many files and run commands  -  which is also the risk. Treating the AI as a careful pair-programmer (small steps, review every diff) rather than a magic button is what reliably separates clean results from messy, hard-to-debug ones."
+      }
+    ]
+  },
+  travel: {
+    destination: {
+      country: "Uzbekistan",
+      region: "Central Asia (the heart of the old Silk Road)",
+      eli5: "Uzbekistan is where the Silk Road comes alive. For centuries, caravans carrying silk, spices and ideas between China and Europe passed through its fabled cities  -  Samarkand, Bukhara and Khiva  -  and the turquoise-domed mosques, madrasas and tiled palaces they left behind are some of the most stunning architecture on Earth. Long hard to visit, Uzbekistan has opened up dramatically, simplifying visas and adding flights, and is now one of the most rewarding (and still affordable) destinations in Asia. Samarkand's Registan square at sunset is a genuine bucket-list sight.",
+      bestTime: "Spring (April-May) and autumn (September-October) are ideal  -  warm days, cool evenings, and the fierce Central Asian summer heat avoided. Summer (July-August) is very hot; winter is cold but atmospheric and crowd-free.",
+      hiddenGem: "Beyond the big three cities, head to the Nuratau Mountains for village homestays  -  staying with a local family, eating home-cooked plov (the national rice dish) and hiking quiet valleys. It's the antidote to monument fatigue and the warmest window into everyday Uzbek life.",
+      mnemonic: "Uzbekistan = Silk Road heart: Samarkand, Bukhara, Khiva  -  turquoise domes and tiled madrasas, now easy to visit and affordable. Go spring or autumn; homestay in the Nuratau Mountains."
+    },
+    visaTip: {
+      focus: "Uzbekistan's visa has gone from notoriously hard to genuinely easy",
+      eli5: "Uzbekistan spent years being a visa headache; it has since transformed. Many nationalities now enjoy visa-free entry for 30 days, and many others can get a simple e-visa applied for entirely online in a few minutes, with approval in a couple of days  -  no embassy visit. Always check your specific passport's current rule before booking, because the list keeps expanding.",
+      goldenTip: "If you need the e-visa, apply through the official government e-visa portal directly  -  not a third-party 'visa service' site that charges a markup for the same form. Have a clear scan of your passport photo page ready, double-check that the dates and spelling match your passport exactly (mismatches cause rejections), and apply at least a week before you fly to leave a buffer.",
+      mnemonic: "Uzbekistan visa = now easy: many get 30-day visa-free, others a quick online e-visa. Apply on the OFFICIAL portal (not markup middlemen), match passport details exactly, allow a week."
+    },
+    culturalCode: {
+      culture: "Uzbek / Central Asian etiquette",
+      doThis: "Treat bread (non) as sacred  -  it's the heart of the Uzbek table. Tear it by hand, never cut it with a knife, and always place it round-side UP. When offered tea, accept it; the host pouring you only a little at a time is a sign of respect (a full cup can hint they want you to leave). Remove your shoes when entering a home, and accept hospitality warmly  -  Uzbeks are famously generous hosts and will feed you generously.",
+      neverDoThis: "Never place bread upside down or on the ground, and don't leave it unfinished and discarded  -  it's considered deeply disrespectful. Avoid pointing the sole of your foot at someone when sitting, don't refuse food or tea outright (a gentle 'just a little' is fine), and be modest with dress when visiting mosques and madrasas  -  cover shoulders and knees, and women may want a scarf for the head.",
+      mnemonic: "Uzbekistan = bread (non) is sacred: tear by hand, round-side up, never upside down or binned. Accept tea (small pours = respect), remove shoes indoors, dress modestly at mosques."
+    },
+    quiz: [
+      {
+        q: "Why are Uzbekistan's cities of Samarkand, Bukhara and Khiva so historically significant?",
+        options: [
+          "They were major Silk Road trading hubs where caravans carrying silk, spices and ideas between China and Europe passed for centuries",
+          "They were built in the last 20 years",
+          "They were European colonial capitals",
+          "They have no historical importance"
+        ],
+        answer: 0,
+        funFact: "Samarkand's Registan  -  a plaza framed by three towering, tile-covered madrasas  -  is considered one of the most magnificent public squares in the world. The turquoise domes that define Uzbek architecture were a deliberate symbol of the sky and water, precious in a dry land."
+      },
+      {
+        q: "In Uzbek culture, how should you treat bread (non) at the table?",
+        options: [
+          "Cut it neatly with a knife and stack it",
+          "Tear it by hand, keep it round-side up, and never place it upside down or discard it  -  bread is treated as sacred",
+          "Only eat it at the end of the meal",
+          "Avoid touching it"
+        ],
+        answer: 1,
+        funFact: "Uzbek bread is so revered that traditionally a departing traveller would take a bite of a special loaf, which was then kept until they returned safely. Placing bread upside down is one of the quickest ways to unintentionally offend a host across Central Asia."
+      },
+      {
+        q: "What's the smartest way to get an Uzbekistan e-visa if you need one?",
+        options: [
+          "Use any third-party visa website you find first",
+          "Apply directly on the official government e-visa portal, match your passport details exactly, and apply about a week ahead",
+          "Wait until you land and sort it at the airport",
+          "Skip it  -  no one checks"
+        ],
+        answer: 1,
+        funFact: "Uzbekistan transformed from a visa headache into one of the easier Silk Road destinations: many nationalities now get 30 days visa-free, and others a fast online e-visa. The main avoidable mistakes are paying markup middlemen and passport-detail typos, which are a common cause of rejection."
+      }
+    ]
+  }
+}
+
 const ALL_BRIEFS = {
   '2026-06-01': d260601,
   '2026-06-02': d260602,
@@ -3822,6 +4499,7 @@ const ALL_BRIEFS = {
   '2026-06-16': d260616,
   '2026-06-17': d260617,
   '2026-06-18': d260618,
+  '2026-06-19': d260619,
 }
 
 // == DATA END ==
