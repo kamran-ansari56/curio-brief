@@ -5157,6 +5157,692 @@ const d260620 = {
   }
 }
 
+const d260621 = {
+  news: {
+    segments: [
+      {
+        name: "🌐 What's happening with countries?",
+        color: "#a0d4f5",
+        stories: [
+          {
+            headline: "US and Iran strike a roadmap at a Swiss mountain resort  -  a 60-day path to a final deal and a hotline to keep the Strait of Hormuz open",
+            eli5: "The fragile US-Iran framework took a big step forward on Sunday June 21 at the Burgenstock resort above Lake Lucerne. In quadrilateral talks mediated by Qatar and Pakistan, the US side  -  Vice-President JD Vance, with envoys Steve Witkoff and Jared Kushner  -  and Iran's side, led by Foreign Minister Abbas Araghchi and parliament speaker Mohammad Bagher Ghalibaf, agreed on a roadmap toward a FINAL deal within 60 days. The headline wins: a direct communication line (a hotline) to keep the Strait of Hormuz open with toll-free safe passage for commercial ships, Iran agreeing to invite UN nuclear inspectors back, and a 'de-confliction cell' to wind down fighting in Lebanon. It nearly fell apart  -  a burst of threats on social media on Sunday almost sent the Iranian delegation home  -  but talks resumed and ran into the early hours.",
+            whyItMatters: "This is what real diplomacy looks like up close  -  not a single signing moment but a messy, almost-collapsed marathon that produces a ROADMAP, not a finished peace. The most valuable piece is the Hormuz hotline: roughly a fifth of the world's oil sails through that strait, so a working channel to guarantee safe passage quietly removes a huge slice of the 'fear premium' from oil. For an oil-importer like India, a calmer Hormuz means cheaper energy and steadier prices  -  which is why markets care about a phone line as much as a treaty.",
+            mnemonic: "June 21 = Burgenstock roadmap: US (Vance, Witkoff, Kushner) + Iran (Araghchi, Ghalibaf), Qatar/Pakistan mediating  -  60-day path to a final deal, a Hormuz safe-passage hotline, inspectors back. Diplomacy is a messy marathon, not one signing."
+          },
+          {
+            headline: "Colombia lurches right  -  Trump-backed outsider 'El Tigre' wins the closest runoff in the country's history",
+            eli5: "On Sunday June 21, Colombia held a presidential runoff and got a photo-finish. Abelardo de la Espriella  -  a 47-year-old lawyer and businessman nicknamed 'El Tigre' (The Tiger), a far-right outsider endorsed by Donald Trump  -  narrowly beat leftist Senator Ivan Cepeda, an ally of outgoing president Gustavo Petro. The preliminary count put de la Espriella on 49.66% to Cepeda's 48.70%  -  a gap of roughly 250,000 votes, under one percentage point, the tightest runoff Colombia has ever seen. Turnout was about 64%. Cepeda's camp alleged irregularities and demanded a review, but a recount reaffirmed the result. De la Espriella takes office on August 7, 2026.",
+            whyItMatters: "Colombia is a major Latin American economy, and this is a sharp swing of the pendulum  -  from Petro's left to a Trump-aligned right  -  that will reshape its ties with Washington, its drug policy and its economic direction. The razor-thin margin carries its own lesson: in a near-tie, the loser's willingness to concede and the system's ability to PROVE the count are what keep a democracy stable. The peaceful acceptance of a sub-1% result is as important as the result itself.",
+            mnemonic: "June 21 = Colombia's closest-ever runoff: Trump-backed outsider de la Espriella ('El Tigre') 49.66% beats leftist Cepeda 48.70% by under 1 point. A big rightward swing; takes office Aug 7. A trusted count is what makes a near-tie safe."
+          },
+          {
+            headline: "The deal's weak spot  -  a Lebanon 'de-confliction cell' is set up, but Israel isn't at the table",
+            eli5: "Tucked inside the Burgenstock roadmap was a practical mechanism: a 'de-confliction cell'  -  a shared coordination unit (the parties plus Lebanon, helped by the Qatari and Pakistani mediators) meant to wind down military operations in southern Lebanon and stop accidental clashes. June 21 was reported as the first day without an attack since the fighting flared in early March. But analysts quickly flagged the catch: neither Israel nor, directly, Lebanon's own factions were parties to the deal struck in Switzerland. The very next day, Israel's leadership signalled its forces would stay in southern Lebanon  -  meaning the people who actually have to STOP shooting weren't the ones who signed.",
+            whyItMatters: "This is the hardest truth in any agreement: a deal is only as strong as the people bound by it. You can write a beautiful framework, but if a key actor on the ground isn't at the table, implementation is where it breaks. A 'de-confliction cell' is a smart tool  -  a direct line to prevent misunderstandings from spiralling  -  but tools need willing hands. Watch whether the parties who DIDN'T sign choose to honour it anyway; that gap between paper and ground is where most peace deals live or die.",
+            mnemonic: "June 21 = Burgenstock sets up a Lebanon 'de-confliction cell' (first attack-free day since early March), but Israel isn't a party  -  and signals its troops stay. A deal is only as strong as whoever is actually bound by it."
+          }
+        ]
+      },
+      {
+        name: "💸 What's happening with money?",
+        color: "#a8edcb",
+        stories: [
+          {
+            headline: "OpenAI files confidentially to go public  -  the most anticipated tech IPO in years",
+            eli5: "The weekend's biggest market story is OpenAI  -  the maker of ChatGPT  -  filing CONFIDENTIALLY for an initial public offering (IPO), the step that turns a private company into one whose shares anyone can buy. 'Confidential' means it submits its paperwork to regulators privately first, polishing the numbers before the public ever sees them  -  a common move for marquee names that want to control the reveal. It would be the most anticipated technology listing in years, landing right as the whole AI sector reprices and rivals jockey for position. No price or date is public yet; this is the starting gun, not the finish line.",
+            whyItMatters: "A famous name and a hype-soaked listing are NOT the same as a good investment  -  and that's the lesson to bank now, before the noise arrives. When a glamorous IPO finally opens, retail investors often pile in on the brand and get a bad entry price. The discipline is to wait for the actual financials (revenue, profit, the valuation being asked) and judge the PRICE, not the story. The same rule applies to India's own blockbuster listings: study the numbers, ignore the FOMO.",
+            mnemonic: "OpenAI files confidentially for an IPO  -  most anticipated tech listing in years (private filing = control the reveal). Lesson: judge the PRICE and financials, never buy a hot IPO on the brand and the hype."
+          },
+          {
+            headline: "Oil slips back below $80 as the Hormuz hotline calms the war-fear",
+            eli5: "After weeks of being yanked around by Middle East headlines, crude eased on Sunday  -  Brent dipping around 1.5% to below $80 a barrel  -  after the Burgenstock roadmap produced a hotline to keep the Strait of Hormuz open and ships moving. US Vice-President Vance claimed a record 16 million barrels transited the strait on June 21 alone, a signal the chokepoint was flowing freely. With the threat of a closure receding, the 'fear premium' that had been padding the oil price started to deflate. The barrels actually pumped barely changed; what changed was the level of dread.",
+            whyItMatters: "This is the flip side of last week's lesson: just as a THREAT to close Hormuz pumps fear INTO the oil price, a credible mechanism to keep it OPEN lets that fear leak back out. A working hotline can be worth billions in avoided price spikes  -  diplomacy as a market input. For India, one of the world's largest oil importers, every few dollars off the crude price eases inflation, the trade deficit and the rupee. Cheaper oil from a calmer Hormuz is a quiet but real tailwind for the whole economy.",
+            mnemonic: "June 21 = Brent slips below $80 (about -1.5%) as the Hormuz hotline calms war-fear; Vance claims a record 16M barrels transited the strait. Open Hormuz = fear premium deflates. For oil-importer India, that's a quiet tailwind."
+          }
+        ]
+      },
+      {
+        name: "💻 What's happening with technology?",
+        color: "#c9b8f5",
+        stories: [
+          {
+            headline: "AI joins the export-control club  -  top-tier models are now treated like strategic technology",
+            eli5: "A quietly historic shift is underway: the most powerful AI MODELS are starting to be regulated like advanced weapons or cutting-edge chips  -  as strategic technology subject to government export controls. A US Commerce Department directive on June 12 restricted worldwide access to certain frontier 'Mythos-class' models built by Anthropic; the company says it disputes the action and is contesting it (it is separately challenging an earlier government 'supply-chain risk' designation in federal court). Crucially, only the most capable models are affected  -  the less-powerful systems most people and businesses use day to day remain available. The detail to grasp isn't the corporate dispute; it's the PRECEDENT: a government deciding that some AI is now too strategically sensitive to flow freely across borders.",
+            whyItMatters: "For years AI raced ahead as a borderless, open technology. This marks the moment it crosses into the world of GEOPOLITICS  -  where compute, chips and now the frontier models themselves become bargaining chips between nations, controlled like any strategic asset. The lesson for anyone building a career or business on AI: the tools you rely on may increasingly be shaped by export rules, national-security reviews and where you (and your data) sit on the map. Access is no longer purely a technical or commercial question  -  it is becoming a political one.",
+            mnemonic: "June 2026 = frontier AI models join the export-control club  -  a US directive restricts access to certain top-tier 'Mythos-class' models (Anthropic is contesting it); everyday models unaffected. The precedent: cutting-edge AI is now strategic, controlled tech. AI has entered geopolitics."
+          }
+        ]
+      },
+      {
+        name: "🌿 What's happening with our planet?",
+        color: "#f5c6a0",
+        stories: [
+          {
+            headline: "A deadly heatwave grips Europe as London Climate Action Week opens",
+            eli5: "As the new week began, an intense, deadly heatwave was baking large parts of Europe  -  the kind of early-summer extreme that is arriving more often and more fiercely as the planet warms. The timing was pointed: London Climate Action Week opened on June 21, one of the year's biggest gatherings of climate policymakers, scientists and businesses. A recurring theme this year is a surprising new driver of emissions: AI data centres, whose soaring electricity and water use a major UN report flagged as a fast-growing environmental cost. So the backdrop to the talks was literal  -  scientists discussing a hotter planet while a record-stretching heatwave proved the point outside the window.",
+            whyItMatters: "Heatwaves are the most direct, deadly face of climate change  -  they kill more people than floods or storms, often quietly, especially the elderly and those without cooling. The deeper twist this year is the feedback loop: the AI boom that's reshaping the economy is itself a growing energy guzzler, adding to the very emissions that drive the heat. Understanding climate now means following the ELECTRICITY  -  where it comes from, how much AI demands, and whether the grid can decarbonise fast enough. The planet's thermostat and the tech boom are now part of the same story.",
+            mnemonic: "June 21 = deadly heatwave grips Europe as London Climate Action Week opens; a UN report flags AI data centres as a fast-growing emissions source. Heatwaves are climate's deadliest face  -  and the AI boom is now part of the energy-and-emissions story."
+          }
+        ]
+      }
+    ],
+    quiz: [
+      {
+        q: "What was the single most market-relevant outcome of the June 21 Burgenstock talks between the US and Iran?",
+        options: [
+          "A complete and final peace treaty was signed",
+          "A roadmap toward a final deal within 60 days, including a hotline to keep the Strait of Hormuz open with toll-free safe passage for commercial ships",
+          "Iran agreed to join NATO",
+          "The talks collapsed with no agreement at all"
+        ],
+        answer: 1,
+        funFact: "Roughly a fifth of the world's oil passes through the Strait of Hormuz, so a working channel to guarantee safe passage quietly drains the 'fear premium' from crude  -  which is why oil slipped below $80 after the statement. A phone line can move markets as much as a treaty."
+      },
+      {
+        q: "Why was Colombia's June 21 presidential runoff historic?",
+        options: [
+          "It had the highest turnout ever recorded",
+          "It was the closest runoff in the country's history  -  Trump-backed outsider de la Espriella beat leftist Cepeda by under one percentage point, marking a sharp swing to the right",
+          "No candidate received any votes",
+          "It was cancelled due to fraud"
+        ],
+        answer: 1,
+        funFact: "The preliminary count was about 49.66% to 48.70%  -  a gap of roughly 250,000 votes. In a near-tie like this, the loser's willingness to concede and the system's ability to prove the count are what keep a democracy stable; the peaceful acceptance of the result matters as much as the result itself."
+      },
+      {
+        q: "What surprising new driver of emissions was a recurring theme as a deadly heatwave gripped Europe and London Climate Action Week opened?",
+        options: [
+          "Home gardening",
+          "AI data centres  -  whose soaring electricity and water use a major UN report flagged as a fast-growing environmental cost",
+          "Electric cars charging at night",
+          "Rooftop solar panels"
+        ],
+        answer: 1,
+        funFact: "Heatwaves are the deadliest face of climate change, killing more people than floods or storms. The twist is a feedback loop: the AI boom reshaping the economy is itself a fast-growing energy guzzler, adding to the very emissions that intensify the heat  -  which is why following the electricity matters."
+      }
+    ]
+  },
+  markets: {
+    globalPulse: {
+      eli5: "The world's money mood brightened into the new week. The Burgenstock roadmap between the US and Iran produced a hotline to keep the Strait of Hormuz open, and crude eased back below $80  -  draining some of the war-fear that had been padding oil and rattling markets. Set against that calmer energy backdrop are two big tech stories: OpenAI's confidential IPO filing (the most anticipated listing in years) reprices the whole AI sector, while last week's 'AI is eating IT-services' shock  -  sparked by Accenture's 18% crash  -  still hangs over technology stocks. The dollar stays firm on the Fed's 'higher for longer' tone. With markets shut for the weekend, this is a week-AHEAD setup: Monday's open will weigh cheaper, calmer oil against lingering AI-disruption anxiety  -  and capital is still rotating toward debt-free defence names while it digests the IT shock.",
+      keyThings: [
+        "Brent Crude: eased below $80  -  the Burgenstock Hormuz hotline calmed war-fear and let the fear premium deflate",
+        "AI sector: repricing  -  OpenAI's confidential IPO filing (the most anticipated tech listing in years) sets the tone for the whole space",
+        "Indian IT: still under a cloud  -  last week's Accenture-driven 'AI eats services' shock keeps pressure on TCS, Infosys and the Nifty IT index",
+        "US Dollar: firm  -  the Fed's 'higher for longer' stance keeps the dollar and yields elevated, a headwind for richly-valued tech",
+        "Weekend status: markets closed  -  these are week-ahead setups; Monday prices in calmer oil versus lingering AI-disruption fear"
+      ]
+    },
+    indianMarket: {
+      eli5: "Friday June 19 left a fresh scar on Indian IT, and the weekend gives the market time to digest it. The Sensex had fallen 607 points (about 0.78%) to 76,802.90, dragged almost entirely by technology: TCS near a six-year low at Rs.2,067.70, Infosys at a five-year low near Rs.1,034.85, and the Nifty IT index at a fresh 52-week low after Accenture's 18% Wall Street crash lit an 'AI is coming for services' fear. The cushion, again, was defence: debt-free, government-order-book PSUs that hold firm when the IT-heavy index bleeds. Into the new week, with the Hormuz hotline calming oil but the AI-services worry unresolved, the rotation is intact  -  capital keeps favouring tangible, order-backed defence names over richly-valued exporters. These are week-ahead setups carried forward from Friday's close.",
+      breakouts: [
+        {
+          name: "Bharat Electronics (NSE: BEL)",
+          halal: true,
+          buyPrice: "Rs.408",
+          sellPrice: "Rs.452",
+          stopLoss: "Rs.388",
+          whyExciting: "BEL is the flagship halal-compatible defence name and the anchor of this basket. It is a Navratna defence-electronics PSU  -  radars, missile electronics and communication systems for the armed forces  -  a cleanly permissible business, and it is effectively DEBT-FREE with a large cash pile, so it passes the halal financial screen comfortably. Decisively for an Islamic investor, BEL is a constituent of the Nifty Shariah 25 index, strong third-party confirmation that it clears screening on both business and financials. The fundamentals are robust: a return on equity around 25% and an order book near Rs.73,450 crore for multi-year visibility. It closed Friday near Rs.410 as money rotated into domestic defence on renewed Middle East tension. A hold above Rs.408 into the new week keeps the setup pointed toward the Rs.452 zone.",
+          risk: "Defence PSUs live or die by the government order book and budget cycle  -  one contract delay can stall the story. The stock sits in the upper half of its 52-week range (roughly Rs.361 to Rs.473), so sharp 6-10% profit-booking pullbacks are normal after a run. The weekend's calmer Hormuz cuts both ways: de-escalation is good for the world but removes a near-term defence tailwind. Respect the Rs.388 stop  -  a close below it means momentum has broken, not paused."
+        },
+        {
+          name: "Mazagon Dock Shipbuilders (NSE: MAZDOCK)",
+          halal: true,
+          buyPrice: "Rs.2,500",
+          sellPrice: "Rs.2,780",
+          stopLoss: "Rs.2,350",
+          whyExciting: "Mazagon Dock is India's premier warship and submarine builder  -  it constructs destroyers and conventional submarines for the Indian Navy  -  a permissible heavy-engineering and defence business, and it is effectively debt-free with a strong net-cash balance sheet, clearing the halal financial screen. It brings fresh shipbuilding exposure to the basket alongside BEL's electronics, spreading the defence bet across sub-sectors rather than concentrating it. It closed Friday near Rs.2,493, holding firm while IT names bled  -  textbook relative strength on a risk-off day  -  and sits on a large multi-year order pipeline as India indigenises its naval fleet. A push and hold above Rs.2,500 into the new week keeps the momentum setup alive toward Rs.2,780.",
+          risk: "Defence shipbuilders are lumpy  -  revenue lands in big, uneven chunks tied to long-gestation warship contracts, so any single quarter can look weak. The stock is volatile with a wide 52-week range and can swing 10%+ on order news. Like all defence PSUs it depends heavily on government orders and budget timing. Keep the position sized sensibly and honour the Rs.2,350 stop  -  below it, the setup is broken, not merely resting."
+        },
+        {
+          name: "Garden Reach Shipbuilders (NSE: GRSE)",
+          halal: true,
+          buyPrice: "Rs.2,790",
+          sellPrice: "Rs.3,100",
+          stopLoss: "Rs.2,620",
+          whyExciting: "Garden Reach Shipbuilders (GRSE) is a Kolkata-based defence PSU that builds warships and patrol vessels for the Indian Navy and Coast Guard  -  a permissible defence-engineering business with a near-debt-free balance sheet, passing the halal financial screen. It completes a two-name shipbuilding wing of the basket beside Mazagon Dock, so the bet is spread across electronics (BEL) and two distinct naval yards rather than concentrated in one name. It closed Friday near Rs.2,783, steady while IT sold off, and benefits from a healthy order book as naval orders flow to domestic yards. A reclaim and hold above Rs.2,790 opens the path toward Rs.3,100 in the week ahead.",
+          risk: "GRSE shares the defence-PSU pattern: chunky, contract-driven revenue, heavy dependence on government orders and budget cycles, and high volatility  -  it can move 10%+ on a single order announcement or the lack of one. After a strong run it can see sharp profit-booking. Treat it as the higher-beta leg of the basket, size it smaller than BEL, and respect the Rs.2,620 stop  -  a close below it signals the trend has turned."
+        },
+        {
+          name: "ICICI Bank (NSE: ICICIBANK)  -  the teaching contrast (NOT halal)",
+          halal: false,
+          buyPrice: "N/A  -  excluded on faith grounds",
+          sellPrice: "N/A",
+          stopLoss: "N/A",
+          whyExciting: "This name is here to TEACH the screen, not to trade. ICICI Bank was one of the defensive cushions on Friday  -  a high-quality private-sector bank that held firm while IT crashed  -  so on pure price action it looked like a textbook safe rotation. But for a halal investor it fails at the very first gate: it is a conventional, interest-based bank, and earning and lending on interest (riba) is impermissible in Islamic finance. No matter how strong the chart or the fundamentals, a conventional bank cannot pass the business-activity screen. Including it alongside the three defence picks shows the discipline in action: the halal filter is applied BEFORE the trading view, never after.",
+          risk: "The 'risk' here is purely educational: the temptation to bend the rule when a non-compliant stock looks attractive. ICICI Bank may well rise from here  -  that is exactly the test. A disciplined halal investor passes by even an obviously good trade if it fails the screen, because consistency is the entire point of having a rule. The cost of skipping one permissible-but-boring defence name is tiny; the cost of abandoning your screen the first time it's inconvenient is the rule itself."
+        }
+      ],
+      ipoSpot: {
+        name: "OpenAI files confidentially for an IPO  -  the global event to learn from",
+        verdict: "Learn",
+        eli5: "The listing dominating global markets this weekend is OpenAI's confidential filing to go public  -  the most anticipated technology IPO in years, arriving as the whole AI sector reprices. A confidential filing means the company submits its paperwork privately first, polishing the numbers before the public sees them  -  a common move for marquee names that want to control the reveal. For an Indian investor, the lesson is discipline over FOMO: a famous name and a hyped listing are NOT the same as a good entry price. When India's own blockbuster IPOs arrive, apply the same rule  -  study the financials and the valuation being asked, and never buy on the headline alone. And note for a halal investor: a pure-software AI company can be screen-friendly on business activity, but you would still check its debt and interest-income ratios before calling it compliant."
+      },
+      lessonOfDay: {
+        title: "Relative Strength  -  Why the Stocks That Refuse to Fall Often Lead the Next Rally",
+        story: "Friday handed you a live lesson in one of the most useful ideas in trading: RELATIVE STRENGTH. When the whole market or a heavy sector sells off, watch which stocks REFUSE to fall  -  or even rise. On June 19, as Indian IT collapsed (TCS near a six-year low, the Nifty IT index at a 52-week low), defence PSUs like BEL, Mazagon Dock and GRSE held firm or gained. That stubbornness is information. A stock that holds up during heavy selling is telling you that buyers are quietly defending it  -  there is real demand soaking up every share the sellers offer. Often, when the selling pressure finally lifts, these relative-strength leaders are the first to break out, because they had eager buyers waiting the whole time. The skill is to stop staring only at what is CRASHING (the dramatic headlines) and start noticing what is quietly HOLDING (the boring strength). In a risk-off market, the stocks that don't go down are doing something hard  -  and that effort tends to pay off when the mood turns. Relative strength won't tell you WHEN the turn comes, but it often tells you WHO will lead it.",
+        mnemonic: "Relative strength = in a selloff, watch what REFUSES to fall (defence PSUs held while IT crashed June 19). Stubbornness signals quiet buyers defending the stock  -  and those names often LEAD the next rally. Notice what holds, not just what crashes."
+      }
+    },
+    quiz: [
+      {
+        q: "What is 'relative strength,' the lesson from June 19's market action?",
+        options: [
+          "Buying only the stocks that are falling the fastest",
+          "Noticing which stocks REFUSE to fall (or even rise) during a selloff  -  their stubbornness signals quiet buyers defending them, and they often lead the next rally",
+          "Lifting heavier weights at the gym",
+          "Always buying the strongest-looking sector index"
+        ],
+        answer: 1,
+        funFact: "On June 19, defence PSUs like BEL, Mazagon Dock and GRSE held firm while Indian IT crashed to multi-year lows. A stock that holds up under heavy selling is telling you real demand is soaking up the shares  -  which is why relative-strength leaders are often the first to break out when the selling pressure finally lifts."
+      },
+      {
+        q: "Why is ICICI Bank excluded from the halal picks even though it held firm on Friday?",
+        options: [
+          "Because its share price was too high",
+          "Because it is a conventional, interest-based bank  -  earning and lending on interest (riba) fails the Islamic business-activity screen, no matter how good the chart looks",
+          "Because banks are always bad investments",
+          "Because it is not listed on the NSE"
+        ],
+        answer: 1,
+        funFact: "This is the discipline in action: the halal filter is applied BEFORE the trading view, never after. ICICI Bank may well rise  -  that's exactly the test. A consistent investor passes by even an obviously good trade if it fails the screen, because the whole value of a rule is that you keep it when it's inconvenient."
+      },
+      {
+        q: "Why did crude oil ease back below $80 after the June 21 Burgenstock talks?",
+        options: [
+          "Because the world suddenly stopped using oil",
+          "Because the roadmap produced a hotline to keep the Strait of Hormuz open and ships moving  -  so the 'fear premium' that had padded the oil price began to deflate",
+          "Because India banned oil imports",
+          "Because oil producers doubled output overnight"
+        ],
+        answer: 1,
+        funFact: "US Vice-President Vance claimed a record 16 million barrels transited the Strait of Hormuz on June 21 alone  -  a signal the chokepoint was flowing freely. The barrels pumped barely changed; what changed was the level of dread. For oil-importer India, every few dollars off crude eases inflation, the trade deficit and the rupee."
+      }
+    ]
+  },
+  psychology: {
+    mindTrick: {
+      name: "The Anchoring Effect  -  The First Number Quietly Sets the Whole Frame",
+      eli5: "The Anchoring Effect is the mind's habit of latching onto the FIRST number it hears and judging everything after it relative to that anchor  -  even when the anchor is random or irrelevant. In a famous study, people spun a wheel rigged to land on 10 or 65, then estimated what percentage of African countries are in the UN. Those who saw 65 guessed far higher than those who saw 10  -  a meaningless spin had dragged their answer. It is why a shirt marked 'Rs.4,000, now Rs.1,800' feels like a steal: the 4,000 is the anchor, planted to make 1,800 look generous, whether or not the shirt is worth even that.",
+      realLife: "Anchors appear wherever money changes hands: the 'original price' on a sale tag, the first salary figure named in a negotiation, the most expensive wine on a menu (there to make the second-most-expensive feel reasonable). Your defence is to set your OWN anchor before you hear theirs  -  decide what a thing is worth to you in advance  -  and to treat the first number quoted as a tactic, not a fact. When you must counter, counter boldly: a strong counter-anchor pulls the final figure back toward your range.",
+      mnemonic: "Anchoring = the first number sets the frame; everything after is judged against it (a Rs.4,000 'was' price makes Rs.1,800 feel cheap). Shield: set your OWN number first, and counter-anchor boldly."
+    },
+    bodyLanguage: {
+      signal: "The Feet  -  The Most Honest Part of the Body",
+      eli5: "We carefully manage our faces  -  smiling on cue, nodding politely  -  but almost nobody thinks to control their FEET, which makes them one of the most honest signals on the body. Former FBI agent Joe Navarro calls them the most truthful part of us. The tell: feet (and the torso) tend to point toward where a person genuinely WANTS to go, or toward whoever they are truly engaged with. If someone's face is turned to you but their feet have angled toward the door, the conversation is over in their mind even while their words stay polite. Feet that suddenly bounce or wiggle often signal excitement  -  or eagerness to leave.",
+      howToUse: "In a group, notice where people's feet point  -  toward the person they're really interested in, not just whoever happens to be speaking. If you join a conversation and the others' feet stay planted toward each other rather than opening to include you, you haven't truly been let in yet. When you want someone to feel welcomed, consciously angle your own feet and torso toward them  -  it reads as genuine inclusion. And if your listener's feet rotate toward the exit, wrap up: you've lost them, and pushing on only costs goodwill.",
+      mnemonic: "Feet don't lie  -  they point where a person WANTS to go. Face turned to you but feet toward the door = they're done. Angle your own feet toward someone to signal real inclusion."
+    },
+    superpower: {
+      name: "The Foot-in-the-Door  -  A Tiny Yes Opens the Door to a Big One",
+      story: "The Foot-in-the-Door technique is the lowball's gentler cousin: get someone to agree to a small, easy request first, and they become far more likely to agree to a much bigger one later  -  because they now see themselves as the kind of person who says yes to you. In a classic study, homeowners asked to put a small 'Be a Safe Driver' sticker in their window were, weeks later, dramatically more willing to allow a large, ugly 'Drive Carefully' billboard on their lawn than neighbours asked cold. The small commitment quietly rewired their self-image  -   'I'm someone who supports this'  -  and the big yes followed.",
+      shield: "Recognise the pattern when a trivial 'just sign this' or 'can you do me one tiny favour' is the opener  -  then ask whether each new request deserves a fresh yes on its own merits, independent of the small one you already gave. A small past agreement is not a contract for future ones. You can also wield it ethically: to build a habit or win a collaborator, start with the smallest version of the ask, not the biggest  -  and let one easy yes lead naturally to the next.",
+      mnemonic: "Foot-in-the-Door = a small yes makes a big yes likelier, because you now see yourself as someone who agrees. Shield: judge each new request on its own merits  -  a tiny past yes isn't a contract."
+    },
+    quiz: [
+      {
+        q: "What is the Anchoring Effect?",
+        options: [
+          "A way to make decisions slowly and carefully",
+          "The mind's habit of latching onto the FIRST number it hears and judging everything after relative to that anchor  -  even when the anchor is random or irrelevant",
+          "A technique for remembering long numbers",
+          "A method of saving money in a fixed deposit"
+        ],
+        answer: 1,
+        funFact: "In a famous study, people who spun a wheel rigged to land on 65 gave far higher answers than those who saw 10  -  a meaningless number dragged their estimate. The defence is to set your OWN anchor first, treat the opening figure as a tactic rather than a fact, and counter-anchor boldly."
+      },
+      {
+        q: "Why are the feet considered one of the most honest parts of the body?",
+        options: [
+          "Because they are the largest",
+          "Because we carefully manage our faces but almost nobody controls their feet  -  which tend to point toward where a person genuinely wants to go",
+          "Because they never move",
+          "Because they show how tired someone is"
+        ],
+        answer: 1,
+        funFact: "Former FBI agent Joe Navarro calls the feet the most truthful part of us. If someone's face is turned to you but their feet have angled toward the door, the conversation is over in their mind  -  a cue to wrap up rather than push on and lose goodwill."
+      },
+      {
+        q: "How does the 'Foot-in-the-Door' technique work?",
+        options: [
+          "By demanding the biggest request first",
+          "By getting a small, easy yes first  -  which makes a much bigger yes likelier later, because the person now sees themselves as someone who agrees with you",
+          "By offering money upfront",
+          "By repeating the same request loudly"
+        ],
+        answer: 1,
+        funFact: "In a classic study, homeowners who first agreed to display a tiny safe-driving sticker were far more willing weeks later to allow a large, ugly billboard on their lawn. The small commitment rewired their self-image. Defence: judge each new request on its own merits, not on a small past yes."
+      }
+    ]
+  },
+  leadership: {
+    leaderMove: {
+      name: "Extreme Ownership  -  When It Goes Wrong, the Leader Owns It",
+      story: "From former US Navy SEAL officer Jocko Willink (co-author of the book of the same name), Extreme Ownership is a deceptively simple rule: the leader owns EVERYTHING in their world  -  every failure, every mistake on the team, with no exceptions and no blame passed down. Willink's hard lesson came after a friendly-fire incident he commanded; rather than blame his men or the chaos, he stood up and said it was his fault, his responsibility. The paradox is that taking total ownership doesn't make a leader look weak  -  it makes the team trust them completely, because everyone knows the boss won't throw them under the bus. When a leader owns the failure, the team feels safe enough to own their part too.",
+      doThis: "Next time something on your team goes wrong, resist the instant urge to explain who else dropped the ball. Ask first: 'What could I have done  -  clearer instructions, better checks, earlier support  -  that would have prevented this?' Almost always there is something. Say it out loud and fix the system, not the scapegoat. Ownership flows DOWN from you and is contagious: a team that watches the leader take responsibility learns to stop making excuses and start solving.",
+      mnemonic: "Extreme Ownership (Jocko Willink) = the leader owns every failure, no blame passed down. It builds trust, not weakness  -  and ownership is contagious. Ask 'what could I have done?' before blaming anyone."
+    },
+    visionarySecret: {
+      concept: "First-Principles Thinking",
+      eli5: "First-principles thinking means breaking a problem down to its most basic, can't-argue-with-it truths and reasoning UP from there  -  instead of copying what everyone else does ('reasoning by analogy'). The idea is ancient (Aristotle), but Elon Musk made it famous with rockets: rather than accept that rockets are simply expensive, he asked what a rocket is actually MADE of  -  aluminium, titanium, carbon fibre  -  and found the raw materials cost a tiny fraction of the finished price. That gap is why he built SpaceX to make them himself. The method: stop asking 'what does everyone charge, how is this normally done?' and start asking 'what are the underlying facts, and what's truly possible from here?'",
+      exercise: "Take one belief you hold about your work or money  -  'a good website costs lakhs,' 'you need X before you can start,' 'this is just how our process works'  -  and interrogate it. Ask 'why?' until you hit a fact you cannot break down further. Then rebuild from those facts. Often you will discover that an 'impossible' cost or constraint was just an inherited assumption nobody had questioned. First principles is how you find the option everyone else walked past.",
+      mnemonic: "First-principles thinking = break a problem to its basic, undeniable facts and reason UP, instead of copying others ('by analogy'). Musk: a rocket's raw materials cost a fraction of the price. Ask 'why?' until you hit bedrock."
+    },
+    eliteHabit: {
+      habit: "Eat That Frog  -  Do the Hardest Task First",
+      whoAndHow: "From productivity author Brian Tracy (borrowing a line often attributed to Mark Twain): if the first thing you do each morning is eat a live frog, you can move through the day knowing the worst is already behind you. Your 'frog' is your biggest, most important, most-likely-to-be-procrastinated task  -  the one that actually moves your goals. The rule: do it FIRST, before email, before easy busywork, before the day's noise can hijack your best energy. Tracy's twist: if you have two frogs, eat the ugliest one first; and don't sit staring at the frog  -  start.",
+      whyItWorks: "Willpower and focus are highest in the morning and drain as the day wears on, so spending your peak hours on trivial tasks is a quiet tragedy. Knocking out the hardest, highest-value thing first does two powerful things: it guarantees the day's most important work gets done even if everything else derails, and it hands you a surge of momentum and relief  -  the rest of the day feels downhill. Most people do the opposite, clearing easy tasks to feel productive while the real frog sits there growing scarier all day.",
+      mnemonic: "Eat That Frog (Brian Tracy) = do your hardest, most important task FIRST, before email and busywork steal your peak energy. Ugliest frog first. The worst behind you = momentum all day."
+    },
+    sigmaWisdom: {
+      lesson: "The Obstacle Is the Way  -  What Blocks the Path Becomes the Path",
+      story: "The Roman emperor and Stoic philosopher Marcus Aurelius wrote, in his private journal Meditations, a line that became a whole philosophy: 'The impediment to action advances action. What stands in the way becomes the way.' His point: the obstacle in front of you  -  the setback, the rejection, the problem you didn't want  -  is not a detour FROM your path; handled rightly, it IS the path. As emperor he faced plague, war and betrayal, yet treated each crisis as raw material to practise patience, courage and clear judgement on. The event is neutral; your response is where the growth (or the ruin) happens. A blocked road forces you to find  -  or build  -  a better one.",
+      action: "Take the obstacle frustrating you most right now and flip the question. Instead of 'why is this happening to me?', ask 'what does this make POSSIBLE, or what is it forcing me to learn?' A lost client teaches you to diversify; a harsh critique hands you the exact fix; a closed door redirects you to one you'd never have tried. You don't have to enjoy the obstacle  -  you just have to mine it. The Stoic discipline is to separate the event (outside your control) from your response (entirely yours), and pour your energy only into the second.",
+      mnemonic: "Marcus Aurelius: 'What stands in the way becomes the way.' The obstacle isn't a detour from the path  -  handled right, it IS the path. The event is neutral; your response is where growth happens."
+    },
+    quiz: [
+      {
+        q: "What does 'Extreme Ownership' (Jocko Willink) mean for a leader?",
+        options: [
+          "Blaming the team when things go wrong",
+          "The leader owns every failure with no exceptions and no blame passed down  -  which builds trust and makes the team feel safe to own their part too",
+          "Taking credit for every success",
+          "Avoiding all responsibility"
+        ],
+        answer: 1,
+        funFact: "The paradox is that taking total ownership doesn't make a leader look weak  -  it makes the team trust them completely, because no one fears being thrown under the bus. Ownership flows down from the leader and is contagious: a team that sees it learns to stop making excuses."
+      },
+      {
+        q: "What is first-principles thinking?",
+        options: [
+          "Copying what successful people already do",
+          "Breaking a problem down to its most basic, undeniable facts and reasoning UP from there  -  instead of reasoning 'by analogy' from what everyone else does",
+          "Always trusting your first instinct",
+          "Doing the first task on your list"
+        ],
+        answer: 1,
+        funFact: "Elon Musk used it on rockets: instead of accepting that they're simply expensive, he asked what a rocket is made of and found the raw materials cost a fraction of the finished price  -  the gap that led him to build SpaceX. The method: ask 'why?' until you hit a fact you can't break down further."
+      },
+      {
+        q: "What does 'Eat That Frog' advise you to do each day?",
+        options: [
+          "Eat a big breakfast",
+          "Do your hardest, most important task FIRST  -  before email and easy busywork can hijack your peak morning energy",
+          "Save the hardest task for last",
+          "Only do the easy tasks"
+        ],
+        answer: 1,
+        funFact: "Willpower and focus are highest in the morning and drain through the day, so spending peak hours on trivial tasks is a quiet tragedy. Doing the frog first guarantees the most important work gets done and gives a surge of momentum  -  the rest of the day feels downhill."
+      }
+    ]
+  },
+  wealth: {
+    wealthSecret: {
+      name: "Pay Yourself First  -  Save Off the Top, Not Off the Leftovers",
+      story: "'Pay Yourself First' is the oldest wealth rule there is, made famous by the classic book The Richest Man in Babylon. The idea: the moment your income arrives, set aside a fixed slice  -  say 10-20%  -  for your own savings and investments BEFORE you pay any bill or buy anything. Most people do it backwards: they spend on everything else first and try to save whatever is left  -  and there is almost never anything left, because expenses magically expand to swallow the whole income. The Babylonian lesson is brutal and simple: 'A part of all you earn is yours to keep.' Treat your future self as the first creditor you pay, not the last.",
+      action: "Automate it so willpower never enters the picture. Set a standing instruction so that, the day after your salary lands, a fixed amount sweeps automatically into a separate investment or SIP account you don't touch. Start with whatever you can  -  even 5% beats waiting for the 'right' time  -  and raise it a notch each time your income grows. The magic is that you quietly adjust your spending to the smaller remaining amount and barely feel it, while your wealth builds in the background on autopilot.",
+      mnemonic: "Pay Yourself First (The Richest Man in Babylon) = save a fixed slice the MOMENT income arrives, before any bill; spend the rest. 'A part of all you earn is yours to keep.' Automate it so willpower isn't needed."
+    },
+    moneyMachine: {
+      type: "Gold  -  the Permissible Inflation Hedge, Now Available Digitally",
+      eli5: "Gold has been a store of value for thousands of years and is fully permissible in Islam (it's a real, tangible asset, not interest-bearing)  -  which makes it a natural halal way to protect savings from inflation and a weakening currency. You no longer need heavy physical jewellery with its making charges and storage worries. Today you can own gold in cleaner forms: Gold ETFs (exchange-traded funds that trade like a stock and track the gold price) and 'digital gold' bought in tiny amounts through apps. Each unit is backed by real gold held in a vault, so you get the metal's price exposure without a locker.",
+      indiaAngle: "For an Indian investor, Gold ETFs from major fund houses are the most efficient route  -  low cost, easy to buy and sell in a demat account, no purity or storage headaches. A practical Islamic note: scholars generally accept gold ETFs when each unit is backed by allocated physical gold, so favour funds that hold real, allocated metal rather than mere paper exposure. Treat gold as a STABILISER, not a get-rich engine  -  a sensible slice (often cited around 5-15% of a portfolio) that holds its value when stocks and the rupee wobble, rather than the bulk of your wealth.",
+      mnemonic: "Gold = a permissible, tangible inflation hedge (no interest). Own it cleanly via Gold ETFs or digital gold, not just jewellery. Keep it a STABILISER (~5-15%), backed by real allocated gold  -  not your main growth engine."
+    },
+    mindsetFlip: {
+      oldThinking: "I'll start investing properly once I'm earning more  -  right now I don't have enough spare money for it to matter.",
+      newThinking: "I start NOW with whatever small amount I can, because in investing TIME in the market matters far more than the amount  -  and the years I delay are the most powerful ones, the only ones I can never get back.",
+      why: "Waiting for 'enough money' is one of the most expensive financial mistakes there is, because compounding rewards TIME above all else. A small SIP started at 25 routinely beats a much larger one started at 35, simply because the early money has a decade longer to snowball. The amount you begin with is almost irrelevant; the START DATE is everything. The point of starting small isn't the few thousand rupees  -  it's switching on the compounding clock and building the habit, so that when your income does grow, the engine is already running.",
+      mnemonic: "Old: 'I'll invest when I earn more.' New: start NOW with whatever you have  -  time in the market beats amount, and the years you delay are the most powerful and the only ones you can't get back. Start small; start the clock."
+    },
+    magicNumber: {
+      number: "The Rule of 72  -  How Fast Your Money Doubles",
+      eli5: "The Rule of 72 is a back-of-the-envelope trick for how many YEARS it takes an investment to double: divide 72 by the annual return rate. At 12% a year (a long-run ballpark for Indian equities), 72 / 12 = 6  -  your money doubles roughly every 6 years. At 8% it's 9 years; at 6%, 12 years. Flip it around and it is just as useful: it exposes the quiet violence of inflation. At 6% inflation, 72 / 6 = 12  -  prices double and idle cash loses HALF its buying power every 12 years. The same rule that grows your investments silently shrinks money left sitting still.",
+      mnemonic: "Rule of 72 = years to double your money = 72 / return rate. At 12% -> doubles every ~6 years. Dark side: at 6% inflation, cash loses HALF its value every 12 years. Idle money doesn't stand still  -  it shrinks."
+    },
+    quiz: [
+      {
+        q: "What does 'Pay Yourself First' mean?",
+        options: [
+          "Buy yourself treats before paying any bills",
+          "Set aside a fixed slice for your own savings and investments the MOMENT income arrives  -  before any bill or purchase  -  and spend only what's left",
+          "Pay off all debts before saving anything",
+          "Only save whatever money is left at month-end"
+        ],
+        answer: 1,
+        funFact: "Most people do it backwards  -  spending first and saving the leftovers, of which there's almost never any, because expenses expand to swallow the whole income. The fix from The Richest Man in Babylon is to automate the saving off the top, so willpower never enters the picture."
+      },
+      {
+        q: "Why is gold considered a suitable halal investment for protecting savings?",
+        options: [
+          "Because it pays high interest",
+          "Because it's a real, tangible asset (not interest-bearing) and a long-proven inflation hedge  -  now ownable cleanly via Gold ETFs or digital gold",
+          "Because its price never falls",
+          "Because it doubles in value every year"
+        ],
+        answer: 1,
+        funFact: "Scholars generally accept Gold ETFs when each unit is backed by allocated physical gold. Treat gold as a STABILISER  -  often cited around 5-15% of a portfolio  -  that holds value when stocks and the rupee wobble, rather than as a main growth engine or a get-rich bet."
+      },
+      {
+        q: "Using the Rule of 72, how long does money take to double at a 12% annual return?",
+        options: [
+          "About 1 year",
+          "About 6 years  -  because 72 divided by 12 equals 6",
+          "About 72 years",
+          "About 24 years"
+        ],
+        answer: 1,
+        funFact: "The same rule reveals inflation's quiet damage: at 6% inflation, 72 / 6 = 12, so prices double and idle cash loses HALF its buying power every 12 years. The rule that grows invested money also measures how fast money left sitting still shrinks."
+      }
+    ]
+  },
+  communication: {
+    speakingSkill: {
+      name: "The Rule of Three  -  Ideas Land Harder in Threes",
+      story: "The Rule of Three is one of the oldest tricks in rhetoric: ideas grouped in THREES are more satisfying, memorable and persuasive than any other number. Three is the smallest number that makes a pattern, so the brain grabs it easily and holds it. History is built on it: 'Life, liberty and the pursuit of happiness'; 'Friends, Romans, countrymen'; 'blood, sweat and tears'; 'stop, look and listen.' Steve Jobs structured product launches in threes. Two examples feel thin; four or more blur together  -  but three lands with a sense of completeness, like a setup, a build and a punchline.",
+      drill: "When you need a point to stick  -  a pitch, an update, a toast  -  deliberately shape it into three. Three reasons to choose your proposal. Three takeaways from the report. Your one message stated three ways. Even a single sentence improves in threes: 'It's faster, cheaper and simpler.' Before an important message, ask: 'What are my three?' Then say only those, in that rhythm, and let the pattern carry them.",
+      mnemonic: "Rule of Three = ideas in threes are more memorable and persuasive ('life, liberty and the pursuit of happiness'). Three feels complete; two feels thin, four blurs. Shape your point into three  -  then stop."
+    },
+    negotiationMove: {
+      tactic: "Know Your BATNA  -  Your Walk-Away Power",
+      eli5: "BATNA, from the classic negotiation book Getting to Yes (Fisher and Ury), stands for Best Alternative To a Negotiated Agreement  -  in plain words, your best Plan B if this deal falls through. It is the single biggest source of power in any negotiation, because the side that can comfortably walk away holds the leverage. Before you negotiate anything  -  a salary, a price, a contract  -  work out your BATNA: 'If we don't agree, what's my next-best option, and how good is it really?' If your Plan B is strong (another job offer, another supplier), you negotiate from calm strength. If you have no Plan B, you negotiate from fear  -  and the other side can feel it.",
+      script: "Do two things before the conversation. First, strengthen your own BATNA  -  line up a real alternative (a second quote, another option) so walking away is genuinely possible, not a bluff. Second, quietly estimate THEIR BATNA: how badly do they need this deal versus their alternatives? The whole negotiation lives in the gap between the two. You never have to threaten to walk; simply KNOWING you can changes your tone, your patience and your willingness to say 'that doesn't work for me'  -  and that quiet confidence does the persuading.",
+      mnemonic: "BATNA (Getting to Yes) = your Best Alternative To a Negotiated Agreement  -  your Plan B. The side that can walk away holds the power. Build a real alternative first; you negotiate from strength, not fear."
+    },
+    officeWin: {
+      rule: "Disagree and Commit  -  Argue Hard, Then Row Together",
+      story: "'Disagree and commit' is a decision-making principle popularised at Amazon (Jeff Bezos wrote about it in a shareholder letter) and used across Silicon Valley. It says: debate an idea vigorously and honestly  -  voice your real disagreement  -  but ONCE the decision is made, commit to it fully and pull in the same direction, even if it wasn't the choice you wanted. The enemy it kills is the slow poison of half-hearted execution: people who lost the argument quietly dragging their feet, sabotaging by passivity, then saying 'I told you so' when it struggles. Bezos's point was speed: you can disagree, say so clearly, and still move fast together rather than grinding every decision to a halt chasing total consensus.",
+      mistake: "The common failure is treating commitment as agreement  -  refusing to commit until you've 'won.' But you can fully disagree and fully commit at the same time; they are not in conflict. The opposite trap is committing so fast you never voice a real concern that should have changed the plan. The discipline has two halves: speak your disagreement honestly and on the record BEFORE the decision, then, once it's made, get behind it with genuine effort  -  not sulking compliance.",
+      mnemonic: "Disagree and Commit (Amazon/Bezos) = argue your case honestly, but once the call is made, get fully behind it  -  no foot-dragging, no 'I told you so.' Voice disagreement BEFORE; commit completely AFTER."
+    },
+    confidenceHack: {
+      technique: "The Strategic Pause  -  Silence Is a Power Move",
+      science: "The nervous speaker's instinct is to fill every gap  -  rushing, padding sentences with 'um,' 'like,' 'you know.' But deliberate SILENCE does the opposite of what fear predicts: a confident pause makes you sound more authoritative, gives your words weight, and signals you are in control of the room rather than the room controlling you. Pausing before an important point builds anticipation; pausing AFTER it lets the point land instead of being trampled by the next sentence. Only the speaker feels the pause as long and awkward  -  to listeners it reads as composure and command. Silence also buys you a moment to think, replacing filler words with calm.",
+      doItNow: "Practise the two-second pause. Before you answer a tough question, pause  -  it makes you look thoughtful, not stumped, and stops you blurting. Land an important sentence, then stop and let it breathe before moving on. Replace 'um' with a closed-mouth silence: when you feel filler coming, just pause instead. It feels excruciating at first and is invisible to everyone else. The person comfortable with silence in a conversation is almost always read as the more confident one.",
+      mnemonic: "Strategic Pause = silence reads as command, not awkwardness (only YOU feel it as long). Pause before a point to build it, after to let it land. Replace 'um' with a calm pause. Comfort with silence = confidence."
+    },
+    quiz: [
+      {
+        q: "Why is the 'Rule of Three' so effective in speaking and writing?",
+        options: [
+          "Because three is a lucky number",
+          "Because ideas grouped in threes are more memorable and persuasive  -  three is the smallest number that makes a pattern, so the brain grabs and holds it",
+          "Because long lists are always better",
+          "Because it takes the least time to say"
+        ],
+        answer: 1,
+        funFact: "History runs on it: 'life, liberty and the pursuit of happiness,' 'blood, sweat and tears,' 'stop, look and listen.' Two examples feel thin and four or more blur together, but three lands with a sense of completeness  -  so shape your key point into three, then stop."
+      },
+      {
+        q: "What is your 'BATNA' in a negotiation, and why does it matter?",
+        options: [
+          "The opening price you demand",
+          "Your Best Alternative To a Negotiated Agreement  -  your Plan B  -  which is your biggest source of power, because the side that can comfortably walk away holds the leverage",
+          "The other side's weakest point",
+          "A legal contract clause"
+        ],
+        answer: 1,
+        funFact: "From Getting to Yes (Fisher and Ury). You never need to threaten to walk; simply KNOWING you have a strong alternative changes your tone, patience and willingness to say 'that doesn't work for me'  -  and that quiet confidence does the persuading. Build a real Plan B before you negotiate."
+      },
+      {
+        q: "What does 'Disagree and Commit' ask you to do?",
+        options: [
+          "Never voice any disagreement",
+          "Debate an idea honestly, but once the decision is made, commit to it fully and pull in the same direction  -  even if it wasn't your preferred choice",
+          "Refuse to commit until you win the argument",
+          "Agree with everything to keep the peace"
+        ],
+        answer: 1,
+        funFact: "Popularised at Amazon by Jeff Bezos, it kills the slow poison of half-hearted execution  -  people who lost the argument quietly dragging their feet. You can fully disagree and fully commit at once: voice the concern honestly BEFORE the call, then get genuinely behind it after."
+      }
+    ]
+  },
+  mind: {
+    brainHack: {
+      name: "Spaced Repetition  -  Beat Forgetting by Reviewing at the Right Moment",
+      eli5: "Spaced repetition is the most efficient way humans know to move facts into long-term memory. The science behind it is the 'forgetting curve,' mapped by Hermann Ebbinghaus in the 1880s: after you learn something, your memory of it decays fast  -  but each time you review JUST as you're about to forget, the memory resets stronger and decays more slowly next time. So instead of cramming (which fades within days), you review at expanding intervals  -  a day later, then three days, then a week, then a month. Each well-timed review does more with less effort, because you catch the memory at the exact moment review pays off most.",
+      protocol: "Use a spaced-repetition app (Anki is the classic, free one) for anything you need to truly retain  -  a language, exam material, names, key facts from your field. It automatically schedules each card to reappear right before you'd forget it: get one right and the gap stretches; get it wrong and it returns soon. Two rules make it work: review a LITTLE every day rather than a lot occasionally, and test yourself by RECALLING the answer (active retrieval), not just re-reading. Five minutes daily beats a three-hour cram every time.",
+      mnemonic: "Spaced Repetition = review JUST before you forget, at expanding gaps (1 day, 3 days, 1 week...), beating the forgetting curve. Use Anki; recall actively, don't re-read. A little daily beats cramming."
+    },
+    disciplineCode: {
+      principle: "The Two-Minute Rule  -  Make the Start Ridiculously Small",
+      story: "There are two versions, both powerful. From David Allen's Getting Things Done: if a task takes less than two minutes, do it NOW rather than filing it for later  -  the doing is faster than the deferring. From James Clear's Atomic Habits: to build any new habit, shrink its starting version to something that takes two minutes  -  'read before bed' becomes 'read one page'; 'go to the gym' becomes 'put on my gym shoes.' The genius is that it defeats the real enemy, which is never the task itself but the resistance to STARTING. Once you've begun  -  shoes on, one page read  -  momentum usually carries you far past two minutes.",
+      todayAction: "Pick a habit you keep failing to start and define its two-minute on-ramp: not 'write the report,' just 'open the document and write one sentence.' Then promise yourself ONLY the two minutes  -  you're allowed to stop after. You rarely will, because starting is the whole battle and motion creates motivation, not the other way round. Separately, for tiny chores (reply, file, tidy), adopt 'if it takes under two minutes, do it the moment it appears' and watch your mental clutter shrink.",
+      mnemonic: "Two-Minute Rule = (1) if a task takes under 2 min, do it NOW; (2) to build a habit, shrink its start to 2 minutes ('read one page'). Beats resistance to STARTING; momentum carries you. Motion makes motivation."
+    },
+    impulseKiller: {
+      urge: "The reflex to grab your phone the instant there's a gap  -  in a queue, a lull, the moment you wake",
+      eli5: "Compulsive phone-checking is a designed addiction. Apps deliver 'variable rewards'  -  sometimes a like, sometimes nothing  -  the exact slot-machine pattern that hooks the brain hardest, training you to reach for the phone at every tiny moment of boredom or discomfort. The cost is steeper than lost time: it shatters your attention into fragments, kills the boredom that creativity actually needs, and keeps your nervous system in a low buzz of anticipation. You end up unable to stand in a queue, ride a lift or sit through a quiet minute without reaching  -  having outsourced your tolerance for stillness to a device.",
+      interrupt: "Add FRICTION and create no-phone zones. Keep the phone out of reach and out of sight  -  in another room while you work, charging outside the bedroom at night so it's neither the last nor first thing you touch. Switch the screen to greyscale to drain its colourful pull, and bury the worst apps in a folder off the home screen so opening them takes deliberate effort. The deeper practice is to deliberately do NOTHING in small gaps  -  stand in the queue and just wait. Reclaiming boredom is where focus, ideas and calm quietly return.",
+      mnemonic: "Phone-checking = slot-machine 'variable rewards' training you to reach at every dull moment; it shatters attention and kills useful boredom. Interrupt: phone in another room, out of the bedroom, greyscale. Let small gaps stay empty."
+    },
+    bodyUpgrade: {
+      practice: "Morning Sunlight  -  Anchor Your Body Clock in the First Hour",
+      eli5: "Getting bright light into your eyes early in the day is one of the most powerful, free health levers there is. When morning sunlight reaches your eyes, it sends a strong signal to your brain's master clock that 'the day has begun,' setting a timer that helps you feel alert now and naturally sleepy about 16 hours later. It also triggers an early, healthy cortisol pulse (good energy and focus) and starts the countdown to night-time melatonin. Skip it  -  stay in dim indoor light all morning  -  and your body clock drifts, leaving you groggy by day and wired at night.",
+      minimumDose: "Aim to get outside for roughly 5-10 minutes within the first hour or so of waking, ideally before screens and coffee. On an overcast day make it a little longer  -  outdoor light, even cloudy, is many times brighter than indoor lighting and far more effective than light through a window. Don't stare at the sun; just be outside facing the sky with your eyes open (no sunglasses for those few minutes). Pair it with something you already do  -  a short walk, your tea on the balcony  -  and it becomes the single highest-leverage thing you can do for steady energy and better sleep.",
+      mnemonic: "Morning sunlight (5-10 min, first hour, no sunglasses) = sets your body clock: alert now, sleepy ~16 hrs later. Outdoor light (even cloudy) beats indoor by far. Highest-leverage free habit for energy and sleep."
+    },
+    quiz: [
+      {
+        q: "Why does spaced repetition beat cramming for long-term memory?",
+        options: [
+          "Because it involves studying for many hours at once",
+          "Because reviewing JUST before you'd forget  -  at expanding intervals  -  resets the memory stronger each time, beating the natural 'forgetting curve'",
+          "Because it avoids testing yourself",
+          "Because you only need to read something once"
+        ],
+        answer: 1,
+        funFact: "The forgetting curve was mapped by Hermann Ebbinghaus in the 1880s. Apps like Anki schedule each fact to reappear right before you'd forget it. The two rules: review a little daily rather than a lot occasionally, and actively RECALL the answer rather than re-reading it."
+      },
+      {
+        q: "What is the habit-building version of the 'Two-Minute Rule'?",
+        options: [
+          "Spend exactly two minutes on every task forever",
+          "Shrink a new habit's starting version to something that takes about two minutes ('read one page,' 'put on gym shoes')  -  because the real enemy is resistance to STARTING",
+          "Never start anything that takes longer than two minutes",
+          "Do everything as fast as possible"
+        ],
+        answer: 1,
+        funFact: "From James Clear's Atomic Habits. Once you've begun  -  shoes on, one page read  -  momentum usually carries you far past two minutes, because motion creates motivation, not the other way round. (The GTD version: if a task takes under two minutes, just do it now.)"
+      },
+      {
+        q: "Why is getting morning sunlight in the first hour after waking so valuable?",
+        options: [
+          "It gives you a suntan",
+          "It signals your brain's master clock that the day has begun  -  setting you up to feel alert now and naturally sleepy about 16 hours later, improving both energy and sleep",
+          "It replaces the need for breakfast",
+          "It only matters on sunny days"
+        ],
+        answer: 1,
+        funFact: "Outdoor light, even on an overcast day, is many times brighter than indoor lighting and far more effective than light through a window. Aim for 5-10 minutes outside (no sunglasses for those few minutes, and don't stare at the sun)  -  one of the highest-leverage free health habits there is."
+      }
+    ]
+  },
+  knowledge: {
+    mathMagic: {
+      concept: "Benford's Law  -  Why the Number 1 Shows Up Far Too Often",
+      eli5: "Here's a strange truth about real-world numbers: in huge collections of natural data  -  river lengths, populations, stock prices, electricity bills  -  the FIRST digit is a 1 about 30% of the time, far more often than the 11% you'd expect if 1-9 were equally likely. The digit 2 leads about 17% of the time, and it keeps dropping, so a 9 leads under 5% of the time. This counterintuitive pattern, Benford's Law, appears whenever data spans many orders of magnitude (small to huge). The rough intuition: to grow from 100 to 200 a quantity must double, but from 900 to 1,000 it need only rise about 11%  -  so values spend much more 'time' with a leading 1.",
+      realWorldUse: "Benford's Law is a famous fraud-detection tool. Genuine accounting figures, tax returns and election tallies tend to obey it; when someone FABRICATES numbers, they unconsciously spread the first digits too evenly, and the telltale 'too few 1s, too many 5s and 6s' gives them away. Forensic accountants and auditors run Benford tests to flag books worth a closer look, and it has been used to question suspicious financial statements and even election results. It's a beautiful lesson: even invented numbers leave fingerprints, because faking the deep statistical texture of real data is far harder than it looks.",
+      mnemonic: "Benford's Law = in real-world data spanning many sizes, the first digit is '1' about 30% of the time (not 11%), dropping to under 5% for '9.' Faked numbers spread digits too evenly  -  which is why auditors use it to catch fraud."
+    },
+    scienceWow: {
+      field: "Biology / Genetic Engineering",
+      concept: "CRISPR  -  Molecular Scissors That Edit the Code of Life",
+      eli5: "CRISPR is a tool that lets scientists EDIT DNA  -  the instruction manual inside every living cell  -  with a precision and ease that was science fiction a generation ago. It was borrowed from bacteria, which use it as an immune system to snip up invading viruses. Researchers repurposed it: a guide molecule finds an exact target sequence in the genome, and a protein (Cas9) cuts the DNA there like molecular scissors, letting scientists disable a faulty gene or paste in a corrected one. Working out how to wield it won Jennifer Doudna and Emmanuelle Charpentier the 2020 Nobel Prize in Chemistry  -  and it turned gene editing from a painstaking art into something almost programmable.",
+      mindBlow: "This isn't a someday promise  -  it's already curing people. A CRISPR therapy for sickle-cell disease and beta-thalassemia (devastating inherited blood disorders) has been approved, effectively fixing the genetic fault in patients' own cells. CRISPR is also racing toward better cancer treatments, hardier crops and pest control. With that power comes a heavy ethical weight: edits to embryos could be passed to future generations, raising profound questions about where to draw the line. For the first time, our species can deliberately rewrite the genetic code  -  including, potentially, our own  -  which makes wisdom matter as much as the science.",
+      mnemonic: "CRISPR = molecular scissors (a guide + the Cas9 protein) that edit DNA precisely; borrowed from bacteria's virus-fighting system (2020 Nobel, Doudna and Charpentier). Already curing sickle-cell. Huge power  -  and huge ethical weight."
+    },
+    historyStory: {
+      event: "The Fall of the Berlin Wall, 1989  -  How a Botched Press Conference Opened the Gates",
+      story: "For 28 years the Berlin Wall split the city in two, the concrete face of the Cold War, with East Germans shot for trying to cross to the West. It came down on the night of 9 November 1989  -  and almost by ACCIDENT. The East German government had drafted new, eased travel rules, meant to take effect later with paperwork and order. But an official, Gunter Schabowski, announced them at a live press conference without having read the details properly. Asked when the rules took effect, he shuffled his papers and stumbled: 'immediately, without delay.' East Germans watching on TV heard 'the border is open NOW' and surged to the checkpoints in their thousands. Overwhelmed, outnumbered guards  -  with no orders to shoot and no one to call  -  simply raised the barriers. The Wall fell not by decree but by a crowd acting on a misspoken word.",
+      lesson: "Two lessons live in that night. First, how fragile even the mightiest-looking systems are once people stop believing in them and act together  -  the Wall was unbreakable until the crowd decided it wasn't. Second, the staggering power of information and small human error: a single official's muddled sentence, broadcast live, outran an entire state's plans. History often turns less on grand strategy than on a moment of momentum nobody fully controlled. When enough people move at once, the gatekeepers discover they were only ever holding the gate by consent.",
+      mnemonic: "Berlin Wall fell 9 Nov 1989  -  partly by accident: official Schabowski misread eased travel rules at a live press conference, said 'immediately,' and crowds surged the gates. Mighty systems are fragile once people stop believing and move together."
+    },
+    earthSecret: {
+      place: "Socotra Island, Yemen  -  the Most Alien-Looking Place on Earth",
+      secret: "Floating in the Arabian Sea off the Horn of Africa, Socotra looks like another planet. Cut off from the mainland for millions of years, it evolved its own bizarre flora and fauna: roughly a THIRD of its plant species exist nowhere else on Earth. Its emblem is the dragon's blood tree  -  an umbrella-shaped tree whose dense, upturned crown looks like a giant green mushroom and whose sap runs blood-red (once prized as a dye and medicine). Add bulbous 'bottle trees,' desert roses growing straight out of bare rock, and white-sand dunes meeting a turquoise sea, and you get a landscape so strange it's a UNESCO World Heritage Site often called the 'Galapagos of the Indian Ocean.'",
+      edge: "Socotra is a living lesson in what ISOLATION creates. The same remoteness that made it hard to reach and easy to overlook is exactly what preserved its one-of-a-kind life  -  evolution, left alone on an island, invents things found nowhere else. It's a reminder that uniqueness usually comes from separation, not from sitting in the busy middle: the species that diverge most are the ones cut off from the crowd. (A practical note: Socotra lies within Yemen, a country in conflict, so it's largely off-limits to ordinary travel for now  -  a wonder best appreciated from afar.)",
+      mnemonic: "Socotra (Yemen) = 'alien island' in the Arabian Sea; isolated for millions of years, so a THIRD of its plants exist nowhere else  -  like the red-sapped dragon's blood tree. 'Galapagos of the Indian Ocean.' Isolation breeds uniqueness."
+    },
+    quiz: [
+      {
+        q: "What does Benford's Law say about real-world numbers?",
+        options: [
+          "Every digit from 1 to 9 appears equally as the first digit",
+          "In large natural datasets the first digit is a '1' about 30% of the time and a '9' under 5%  -  far from equal  -  which is why faked numbers (spread too evenly) get caught",
+          "All numbers start with 9",
+          "Numbers are completely random"
+        ],
+        answer: 1,
+        funFact: "Benford's Law appears whenever data spans many orders of magnitude. Forensic accountants and auditors use it for fraud detection: people who fabricate figures unconsciously spread the first digits too evenly, leaving 'too few 1s' as a fingerprint. Even invented numbers betray themselves."
+      },
+      {
+        q: "What is CRISPR?",
+        options: [
+          "A new kind of computer chip",
+          "A tool  -  borrowed from bacteria  -  that lets scientists edit DNA precisely, using a guide molecule and a protein (Cas9) that cuts the genome like molecular scissors",
+          "A type of telescope",
+          "A vaccine for the common cold"
+        ],
+        answer: 1,
+        funFact: "Its discoverers, Jennifer Doudna and Emmanuelle Charpentier, won the 2020 Nobel Prize in Chemistry. It's not a someday promise  -  an approved CRISPR therapy already effectively cures sickle-cell disease  -  but editing embryos raises profound ethics, since such changes could pass to future generations."
+      },
+      {
+        q: "How did the Berlin Wall come to open on the night of 9 November 1989?",
+        options: [
+          "A formal treaty was signed at midnight",
+          "An official muddled the announcement of eased travel rules at a live press conference, said they took effect 'immediately,' and crowds surged the checkpoints  -  so overwhelmed guards simply raised the barriers",
+          "The army demolished it on schedule",
+          "A foreign power tore it down"
+        ],
+        answer: 1,
+        funFact: "The new rules were meant to take effect later, in an orderly way, but Gunter Schabowski hadn't read the details. His stumbled 'immediately, without delay,' broadcast live, outran the entire state's plans  -  proof that mighty systems are fragile once people stop believing and move together."
+      }
+    ]
+  },
+  ai: {
+    toolSpotlight: {
+      name: "NotebookLM",
+      category: "AI research and study assistant (grounded in YOUR documents)",
+      eli5: "NotebookLM, from Google, is an AI notebook you feed your OWN sources  -  PDFs, reports, notes, web links, even slide decks  -  and then question. Its key strength is that it answers ONLY from the material you gave it and cites the exact passage, so it's far less prone to making things up than a general chatbot. Upload a dense 80-page report and it will summarise it, build a study guide, answer specific questions, and point you to the source line. Its standout trick is 'Audio Overview': it turns your documents into a surprisingly natural podcast-style conversation between two AI hosts discussing your material  -  great for absorbing a topic on a commute.",
+      secretMove: "Load several related documents into ONE notebook and ask it to find connections, contradictions or themes ACROSS them  -  'where do these three reports disagree?' is something no single document can answer and a normal chatbot would simply invent. Because it cites sources, you can trust and verify every claim. For studying or research, generate the Audio Overview to hear your own notes explained conversationally, then use the chat to drill into anything that wasn't clear. It turns a pile of PDFs into something you can interrogate.",
+      mnemonic: "NotebookLM (Google) = AI grounded in YOUR documents; answers only from your sources and cites the exact line (less hallucination). Killer feature: 'Audio Overview' turns notes into a podcast. Best move: ask it to compare ACROSS several docs."
+    },
+    workflowWin: {
+      title: "Turn a Dense Report Into a 20-Minute Study Session",
+      problem: "You're handed a 60-page report, a long contract, or thick research you must actually UNDERSTAND, not just skim  -  but you don't have two hours, and reading it linearly means you've forgotten the start by the end. The cost is decisions made on a vague gist instead of real comprehension.",
+      steps: "(1) Drop the document into an AI tool that reads files (NotebookLM, or a chat assistant with file upload). (2) Ask for the map first: 'Give me a one-paragraph summary, then the 5 most important points and any numbers that matter.' (3) Go active: 'Quiz me on this document  -  ask me 5 questions one at a time and tell me if I'm right.' Answering, not re-reading, is what makes it stick. (4) Hunt the weak spots: 'What are the biggest risks, assumptions or unanswered questions in here?' (5) For anything fuzzy, ask it to 'explain this section like I'm new to the topic, with an analogy.' You finish in about 20 minutes genuinely understanding it  -  and able to defend it.",
+      timeSaved: "A two-hour slog reduced to about 20 focused minutes  -  and crucially you come out with real comprehension and recall (because you were quizzed and forced to engage) rather than a hazy skim you'll have forgotten by the meeting.",
+      mnemonic: "Study a dense doc fast = upload it -> ask for summary + key points and numbers -> have it QUIZ you (active recall) -> ask for risks and assumptions -> explain fuzzy bits with an analogy. 20 min, real understanding."
+    },
+    promptOfDay: {
+      purpose: "Stress-test a plan or decision BEFORE you commit  -  by imagining it has already failed",
+      prompt: "'I'm about to [describe your plan or decision]. Run a PRE-MORTEM: imagine it's a year from now and this has FAILED badly. Give me the 8 most likely reasons it went wrong  -  blind spots, weak assumptions, risks I'm probably underrating. Then, for the top 3, suggest one concrete thing I could do NOW to prevent or reduce each. Be blunt; don't reassure me.'",
+      where: "Any capable chat assistant (Claude, ChatGPT, Gemini). Ideal before a big launch, investment, job move, or any decision where optimism might be hiding the risks. The 'imagine it already failed' framing (from psychologist Gary Klein) frees the AI  -  and you  -  to name problems that cheerleading hides.",
+      mnemonic: "Pre-mortem prompt = 'Imagine this plan already FAILED a year from now  -  list the 8 likeliest reasons, then fixes for the top 3.' Imagining failure surfaces blind spots that optimism hides. Decide with eyes open."
+    },
+    futureWatch: {
+      trend: "AI Agents  -  When AI Stops Answering and Starts DOING",
+      eli5: "The big shift underway is from AI that TALKS to AI that ACTS. A normal chatbot answers your question and stops; an AI 'agent' is given a GOAL and then takes a sequence of actions on its own to achieve it  -  browsing the web, filling forms, running tools, writing and checking its own work across many steps. Tell an agent 'research three suppliers, compare their prices, and draft an email to the cheapest,' and it tries to carry out the whole chain rather than just describing how. It's the difference between an assistant who gives you directions and one who actually drives you there.",
+      yourMove: "Agents are powerful but still error-prone over long chains, so the rule is 'agent proposes, human approves'  -  especially for anything that spends money, sends messages, or can't be undone. Start using them for low-stakes, repetitive multi-step chores (gathering and comparing information, drafting, organising) where a mistake is cheap and you review the output. The skill rising in value is writing a clear GOAL and clear guardrails ('do X, but never do Y, and check with me before Z'). Whoever learns to direct agents well  -  delegating tasks, not just asking questions  -  gets an outsized productivity edge as they mature.",
+      mnemonic: "AI Agents = AI that doesn't just answer but DOES  -  given a goal, it takes multi-step actions (browse, use tools, draft). Still error-prone: 'agent proposes, human approves,' especially for money or irreversible steps. Learn to direct them."
+    },
+    quiz: [
+      {
+        q: "What makes Google's NotebookLM different from a normal chatbot?",
+        options: [
+          "It can only write poems",
+          "It answers ONLY from the documents you upload and cites the exact source line  -  making it far less prone to making things up",
+          "It works without any internet",
+          "It refuses to summarise anything"
+        ],
+        answer: 1,
+        funFact: "Its standout feature, 'Audio Overview,' turns your own documents into a natural podcast-style conversation between two AI hosts. The best power move is loading several related documents into one notebook and asking it to find contradictions or themes ACROSS them  -  something a single document can't answer."
+      },
+      {
+        q: "In the 'study a dense document fast' workflow, what makes the learning actually STICK?",
+        options: [
+          "Re-reading the document three times",
+          "Having the AI QUIZ you  -  answering questions (active recall) rather than re-reading is what cements understanding",
+          "Skimming only the first page",
+          "Printing it out"
+        ],
+        answer: 1,
+        funFact: "Active recall  -  forcing yourself to retrieve an answer  -  beats passive re-reading for memory every time. Combined with asking the AI for the key points, the hidden risks and an analogy for fuzzy sections, a two-hour report collapses into about 20 minutes of real comprehension."
+      },
+      {
+        q: "What is an AI 'agent,' the big trend to watch?",
+        options: [
+          "A human who sells AI software",
+          "AI that doesn't just answer but is given a GOAL and takes a sequence of actions on its own  -  browsing, using tools, drafting  -  to achieve it",
+          "A chatbot that only tells jokes",
+          "A type of computer chip"
+        ],
+        answer: 1,
+        funFact: "Agents are powerful but still error-prone over long chains, so the rule is 'agent proposes, human approves'  -  especially for anything that spends money or can't be undone. The rising skill is writing a clear goal and clear guardrails: learning to DELEGATE to AI, not just ask it questions."
+      }
+    ]
+  },
+  travel: {
+    destination: {
+      country: "Uzbekistan",
+      region: "Central Asia  -  the beating heart of the ancient Silk Road",
+      eli5: "Uzbekistan is the showpiece of the Silk Road  -  the old trade route between China and Europe  -  and one of travel's best-value rising stars, packed with turquoise-domed cities that feel like stepping into a storybook. Its three jewels: SAMARKAND, whose Registan square (three vast tiled madrasas facing each other) is one of the most jaw-dropping sights in all of Asia; BUKHARA, a living medieval city of mosques, minarets and caravanserais where little has changed in centuries; and KHIVA, a perfectly preserved walled desert town. Add warm, deeply hospitable people, hearty food (the rice dish 'plov' is a national obsession) and prices that stretch a budget far, and you have a wonder that's still wonderfully uncrowded.",
+      bestTime: "Spring (April-May) and autumn (September-October) are ideal  -  warm, comfortable days for wandering the old cities and clear skies for those blue domes. Summer is fiercely hot (Central Asian desert heat regularly tops 40C), and winter is cold but atmospheric and very quiet. Aim for the shoulder seasons to walk the Registan and Bukhara's lanes in comfort.",
+      hiddenGem: "Beyond the headline cities, base a night in Bukhara and simply WANDER its old town after dark  -  the floodlit Kalyan Minaret and the quiet courtyards, largely free of crowds, are pure magic. For something deeper, take the fast, modern Afrosiyob train between Tashkent, Samarkand and Bukhara (smooth, cheap and scenic) rather than flying  -  it makes hopping the Silk Road cities effortless, and the countryside in between is part of the story.",
+      mnemonic: "Uzbekistan = the Silk Road's showpiece: Samarkand (the dazzling Registan), Bukhara (living medieval city), Khiva (walled desert town); warm people, plov, great value. Go spring or autumn; ride the Afrosiyob train between cities."
+    },
+    visaTip: {
+      focus: "Uzbekistan's open-door visa rules  -  visa-free or a simple e-visa for most",
+      eli5: "Uzbekistan has transformed from one of the hardest places to visit into one of the easiest. Many nationalities now enter VISA-FREE for short stays, and most others can get a straightforward e-visa entirely online in a few days  -  no embassy queues, no agent. The e-visa is cheap, the application is short, and approval lands in your email as a PDF. It's part of a deliberate push to open the country to tourism, and it has made the Silk Road suddenly accessible to travellers who'd long assumed Central Asia was a bureaucratic ordeal.",
+      goldenTip: "Always check your OWN passport's current rule on the official Uzbekistan e-visa website (e-visa.gov.uz) before booking, since visa-free lists and durations change  -  and apply only through that official government site, never a look-alike that adds a mark-up. Apply at least a week ahead, print a copy AND keep the PDF on your phone, and you'll breeze through arrival. Note registration too: hotels register your stay automatically, so keep your hotel slips in case you're ever asked.",
+      mnemonic: "Uzbekistan visa = now easy: visa-free for many, simple online e-visa for most (apply at e-visa.gov.uz, the OFFICIAL site only). Apply a week ahead, keep the PDF; hotels handle stay-registration  -  save the slips."
+    },
+    culturalCode: {
+      culture: "Uzbek / Central Asian Silk Road hospitality and etiquette",
+      doThis: "Embrace the famous hospitality  -  Uzbeks are extraordinarily warm, and being invited into a home for tea or a meal is a real honour. Accept tea when offered (it's the heart of social life), and note the custom: a host pours only a LITTLE in your cup at a time  -  not stinginess but care, a sign they want you to stay and keep being served. Treat BREAD ('non,' the round flat loaves) with respect: it's near-sacred  -  never place it upside down or on the ground, and tear it by hand rather than cutting it. Greet elders first and warmly, dress modestly at mosques (cover shoulders and knees; a scarf for women), and learn 'rahmat' (thank you)  -  it delights people.",
+      neverDoThis: "Don't refuse hospitality bluntly or rush a shared meal  -  lingering IS the courtesy. Never disrespect bread (no placing it upside down or wasting it), point your feet at people while sitting, or step over food or another person. Avoid public displays of affection, dress immodestly at religious sites, and always ask before photographing people, especially women and elders. As across much of the region, keep sensitive politics light with new acquaintances, and remove your shoes when entering a home or mosque  -  watch what your hosts do and follow their lead.",
+      mnemonic: "Uzbekistan = accept the tea (poured a little at a time = stay longer); treat BREAD as near-sacred (never upside-down or on the ground); greet elders first; dress modestly; learn 'rahmat.' Remove shoes indoors; ask before photos."
+    },
+    quiz: [
+      {
+        q: "What are Uzbekistan's three must-see Silk Road cities?",
+        options: [
+          "Three modern beach resorts",
+          "Samarkand (the dazzling Registan square), Bukhara (a living medieval city), and Khiva (a perfectly preserved walled desert town)",
+          "Three ski resorts",
+          "Three industrial ports"
+        ],
+        answer: 1,
+        funFact: "Samarkand's Registan  -  three vast tiled madrasas facing each other  -  is one of the most jaw-dropping sights in Asia. The smoothest way to hop between the cities is the fast, cheap Afrosiyob train, and the best value comes in spring or autumn, avoiding the 40C-plus desert summer."
+      },
+      {
+        q: "How hard is it to visit Uzbekistan today?",
+        options: [
+          "Almost impossible  -  it's closed to tourists",
+          "Easy  -  many nationalities enter visa-free, and most others get a simple e-visa entirely online via the official site in a few days",
+          "You need a six-month embassy process",
+          "Only group tours are allowed"
+        ],
+        answer: 1,
+        funFact: "Uzbekistan deliberately opened up to tourism, transforming from one of the hardest places to visit into one of the easiest. Always apply through the official e-visa.gov.uz site (never a look-alike that adds a mark-up), apply about a week ahead, and keep the PDF on your phone."
+      },
+      {
+        q: "Which etiquette rule is especially important across Uzbekistan and Central Asia?",
+        options: [
+          "Always cut bread with a knife and stack it however you like",
+          "Treat bread ('non') as near-sacred  -  never place it upside down or on the ground  -  and accept tea, which a host pours a little at a time as a sign to stay",
+          "Refuse all food and tea to be polite",
+          "Photograph elders without asking"
+        ],
+        answer: 1,
+        funFact: "The little-pour tea custom isn't stinginess  -  it's care, a signal the host wants you to stay and keep being served. Pair bread-respect and tea-acceptance with modest dress at mosques, removing shoes indoors, and a warm 'rahmat' (thank you), and you'll be embraced everywhere."
+      }
+    ]
+  }
+}
+
 const ALL_BRIEFS = {
   '2026-06-01': d260601,
   '2026-06-02': d260602,
@@ -5178,6 +5864,7 @@ const ALL_BRIEFS = {
   '2026-06-18': d260618,
   '2026-06-19': d260619,
   '2026-06-20': d260620,
+  '2026-06-21': d260621,
 }
 
 // == DATA END ==
