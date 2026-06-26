@@ -4480,6 +4480,683 @@ const d260619 = {
   }
 }
 
+const d260620 = {
+  news: {
+    segments: [
+      {
+        name: "🌐 What's happening with countries?",
+        color: "#a0d4f5",
+        stories: [
+          {
+            headline: "The Israel-Hezbollah ceasefire cracks  -  strikes hit a south Lebanon village a day after it took effect",
+            eli5: "The ceasefire that was meant to start Friday at 4pm wobbled almost immediately. On Saturday June 20, Israeli strikes hit the southern Lebanese village of Qennarit and nearby areas, killing dozens, with each side accusing the other of breaking the truce first. Israel said it was targeting Hezbollah fighters it claimed had not pulled back; Lebanon called the strikes a violation of a deal less than a day old. So the war did not cleanly stop  -  it sputtered, the way most ceasefires do in their first fragile hours.",
+            whyItMatters: "A ceasefire is not an off-switch; it is a promise that only holds if BOTH sides believe the other will keep it. The most dangerous window is the first 48 hours, when every strike feels like proof the other side is cheating. Watching how a brand-new truce survives (or doesn't) its first day is a live lesson in how fragile agreements really are  -  in geopolitics and in life.",
+            mnemonic: "June 20 = Israel-Hezbollah ceasefire cracks within a day; strikes on Qennarit kill dozens. The first 48 hours are a truce's most fragile window."
+          },
+          {
+            headline: "Iran threatens to RE-CLOSE the Strait of Hormuz  -  Trump warns he will 'hit Iran very hard again'",
+            eli5: "Just a day after reopening the world's most important oil chokepoint, Iran threatened on Saturday to close the Strait of Hormuz AGAIN, accusing the US and Israel of violating the new framework deal  -  chiefly by not withdrawing Israeli troops from southern Lebanon. President Trump fired back on Truth Social, warning he would 'hit Iran very hard again, only harder' if it followed through. The threat alone was enough to put a fresh jolt of fear back into oil markets.",
+            whyItMatters: "This is how 'peace' often looks up close  -  not a clean ending but a tense back-and-forth where each side tests the deal's limits. The Strait of Hormuz carries roughly a fifth of the world's oil, so even the THREAT of closing it re-prices crude worldwide within hours. For an oil-importer like India, the lesson is that a framework deal is a wobbly bridge, not solid ground  -  watch the threats, not just the headlines.",
+            mnemonic: "June 20 = Iran threatens to re-close Hormuz (claims US/Israel broke the deal); Trump: 'hit Iran very hard again.' A framework can be unsigned by a single threat."
+          },
+          {
+            headline: "US-Iran follow-up talks move to a Swiss mountain resort  -  Witkoff and Kushner fly in for Sunday",
+            eli5: "To keep the fragile deal alive, the next round of US-Iran talks was relocated to the Burgenstock resort high above Lake Lucerne in Switzerland, set for Sunday June 21. US envoy Steve Witkoff and Jared Kushner travelled to lead the American side, while Senator Lindsey Graham pushed publicly to fold Saudi Arabia and the Abraham Accords (normalising Arab-Israel ties) into the wider bargain. The choice of a remote mountain venue was deliberate  -  isolation keeps negotiators focused and away from the daily noise.",
+            whyItMatters: "When a deal is at risk of collapsing, smart parties change the SETTING to change the dynamic  -  a quiet, neutral, hard-to-reach venue lowers the temperature and removes distractions. The push to widen the deal (adding Saudi Arabia) shows another negotiation truth: enlarging the pie can rescue a stalled bargain by giving everyone something new to gain. Diplomacy, like any negotiation, is partly stagecraft.",
+            mnemonic: "June 20 = US-Iran talks moved to Burgenstock, Switzerland for Sunday; Witkoff + Kushner lead, Graham pushes Saudi/Abraham Accords. Change the venue to change the deal."
+          }
+        ]
+      },
+      {
+        name: "💸 What's happening with money?",
+        color: "#a8edcb",
+        stories: [
+          {
+            headline: "Oil whipsaws  -  Friday's three-month low meets Saturday's re-closure threat",
+            eli5: "Crude had its head spun this week. On Friday it fell to a three-month low (Brent near $74) as the US-Iran deal reopened the Strait of Hormuz and the war-fear drained out. Then on Saturday, Iran's threat to close the strait AGAIN put an instant bid back under oil  -  the fear premium that had melted away started to creep back in. Traders call this whipsaw: a price yanked hard in both directions by headlines, not by any change in actual barrels pumped.",
+            whyItMatters: "Oil is the world's master input price  -  it sits inside transport, food, plastics and electricity  -  so when it whipsaws, the cost of almost everything trembles with it. The deeper lesson is about RISK PREMIUM: a large slice of the oil price on any given day is not supply and demand, it is collective fear or relief. Learn to separate the real fundamentals from the mood, and you understand markets better than most.",
+            mnemonic: "June 20 = oil whipsaws: Friday 3-month low, Saturday re-closure threat puts the fear premium back. A chunk of the oil price is pure mood, not barrels."
+          },
+          {
+            headline: "Accenture's 18% crash signals a bigger fear: is AI about to eat the consulting industry?",
+            eli5: "On June 18, US-listed Accenture  -  one of the world's biggest IT-services and consulting firms  -  plunged about 18% after cutting its full-year revenue growth guidance to just 3-4%. The market read it as more than one bad quarter: a warning that AI may be starting to automate the very work consultancies sell (writing code, building reports, processing data). That fear rippled straight into India's giant IT-services sector, which does similar work for global clients.",
+            whyItMatters: "This is the first big market tremor of a question that will define the next decade: what happens to services businesses when AI can do a chunk of the service? TCS Chairman N. Chandrasekaran even mused that AI agents could one day match a company's headcount. For anyone whose job involves producing reports, code or analysis, the takeaway isn't panic  -  it's to become the person who DIRECTS the AI, not the one whose task it quietly replaces.",
+            mnemonic: "June 18-20 = Accenture -18% on weak guidance sparks 'AI eats consulting' fear, dragging Indian IT. The safe seat: direct the AI, don't do the task it automates."
+          }
+        ]
+      },
+      {
+        name: "💻 What's happening with technology?",
+        color: "#c9b8f5",
+        stories: [
+          {
+            headline: "Google DeepMind suffers a brutal talent exodus  -  its biggest AI brains leave for rivals",
+            eli5: "This weekend's defining tech story was a wave of star departures from Google DeepMind, Google's elite AI lab. Noam Shazeer  -  a Gemini co-lead and a co-author of the famous 'Attention Is All You Need' paper that invented the Transformer (the architecture behind modern AI)  -  announced he is leaving for OpenAI, barely a year after Google paid roughly $2.7 billion to bring him back. John Jumper, the DeepMind scientist who led AlphaFold and shared the 2024 Nobel Prize in Chemistry, announced he is leaving for Anthropic. Others, including AI pioneer David Silver, are starting their own ventures. Alphabet's shares fell sharply on the news.",
+            whyItMatters: "In AI, the scarcest resource isn't chips or data  -  it's a tiny number of irreplaceable researchers, and they are being fought over like star athletes. When the people who literally invented your core technology walk out the door, markets worry the lab has lost its edge. The broader lesson scales to any organisation: talent is the real moat, and culture (not just pay) is what keeps the best people from leaving.",
+            mnemonic: "June 18-20 = DeepMind brain drain: Shazeer (Transformer co-author) to OpenAI, Jumper (AlphaFold Nobel) to Anthropic. In AI, a handful of people ARE the moat."
+          }
+        ]
+      },
+      {
+        name: "🌿 What's happening with our planet?",
+        color: "#f5c6a0",
+        stories: [
+          {
+            headline: "The Northern Hemisphere hits its longest day  -  the June solstice arrives this weekend",
+            eli5: "On Sunday June 21, the Northern Hemisphere reaches the summer solstice  -  the moment Earth's north pole tilts most directly toward the Sun, giving the longest stretch of daylight all year. It happens because Earth spins on a tilted axis (about 23.5 degrees), so as we orbit the Sun, each hemisphere leans toward it for half the year and away for the other half. The solstice is the peak of that lean: from here, days in the north slowly shorten again. South of the equator, it's the exact opposite  -  their shortest day and the start of winter.",
+            whyItMatters: "The solstice is the engine of the seasons, and humans have tracked it for millennia  -  Stonehenge famously aligns with the solstice sunrise. Understanding WHY it happens (axial tilt, not distance from the Sun  -  we're actually farthest from the Sun in early July) is a quiet cure for a common misconception. It's also a natural calendar marker: the year's turning point, when the light begins its slow retreat.",
+            mnemonic: "June 21 = Northern summer solstice, the longest day, caused by Earth's 23.5-degree tilt (NOT distance from the Sun). South of the equator: shortest day."
+          }
+        ]
+      }
+    ],
+    quiz: [
+      {
+        q: "Why does even the THREAT of closing the Strait of Hormuz move global oil prices?",
+        options: [
+          "Because Iran controls all the world's oil",
+          "Because roughly a fifth of the world's oil passes through the strait  -  so a credible threat to block it adds a 'fear premium' to every barrel, before a single shipment actually stops",
+          "Because threats lower oil prices",
+          "Because the strait is unrelated to oil"
+        ],
+        answer: 1,
+        funFact: "A large slice of the daily oil price is not supply and demand  -  it is collective fear or relief. That is why crude can hit a three-month low on Friday (deal signed) and bounce on Saturday (re-closure threatened) without the number of barrels pumped changing at all."
+      },
+      {
+        q: "Why did markets treat Accenture's 18% plunge as bigger than one bad quarter?",
+        options: [
+          "Because Accenture was going bankrupt",
+          "Because it raised the fear that AI is starting to automate the very work consultancies and IT-services firms sell  -  threatening the whole services business model",
+          "Because Accenture stopped paying dividends",
+          "Because consulting is illegal now"
+        ],
+        answer: 1,
+        funFact: "The same fear dragged down India's giant IT-services sector, which does similar work for global clients. TCS's own chairman mused that AI agents could one day match a company's headcount  -  which is why the safe career move is to become the person who directs the AI, not the one whose task it replaces."
+      },
+      {
+        q: "What is the real cause of the June solstice (the longest day in the Northern Hemisphere)?",
+        options: [
+          "Earth being closest to the Sun",
+          "Earth's tilted axis (about 23.5 degrees)  -  at the solstice the north pole leans most directly toward the Sun, maximising daylight in the Northern Hemisphere",
+          "The Sun growing hotter",
+          "The Moon blocking sunlight"
+        ],
+        answer: 1,
+        funFact: "Counter-intuitively, Earth is actually FARTHEST from the Sun in early July, just after the northern summer solstice. Seasons are driven by axial tilt, not distance  -  which is why the Northern and Southern Hemispheres have opposite seasons at the same moment."
+      }
+    ]
+  },
+  markets: {
+    globalPulse: {
+      eli5: "The world's money river spent the week being yanked in two directions. Friday delivered a peace-and-cheap-oil tailwind (US-Iran deal, Strait of Hormuz reopened, crude at a three-month low), then Saturday's threat to re-close the strait put the fear premium back. Layered on top was a tech tremor: Accenture's 18% plunge on weak guidance sparked an 'AI eats consulting' fear that hammered services stocks, while a star-researcher exodus from Google DeepMind knocked Alphabet. So the global mood is genuinely mixed  -  cheaper energy and cooling (if shaky) Middle East tension on one side, AI-disruption anxiety and a firm dollar on the other. With markets shut for the weekend, this is a week-AHEAD setup: Monday's open will price in whatever the Hormuz threat and the IT-services fear do over the next 48 hours.",
+      keyThings: [
+        "Brent Crude: ~$74 then bouncing  -  Friday's three-month low met Saturday's Hormuz re-closure threat, putting the fear premium back",
+        "US tech: under pressure  -  Accenture -18% on weak guidance plus a DeepMind talent exodus hitting Alphabet weigh on the sector",
+        "US Dollar: firm  -  the Fed's 'higher for longer' tone keeps the dollar and yields elevated, a headwind for tech",
+        "Gold: steady-to-firm  -  renewed Middle East jitters support safe-haven demand into the weekend",
+        "Weekend status: markets closed  -  these are week-ahead setups; Monday prices in the Hormuz threat and the AI-services fear"
+      ]
+    },
+    indianMarket: {
+      eli5: "Friday June 19 was a bloodbath for Indian IT. The Sensex fell 607 points (about 0.78%) to 76,802.90, dragged almost entirely by technology: TCS crashed 6.16% to Rs.2,067.70 (near a six-year low), Infosys plunged 8.19% to Rs.1,034.85 (a five-year low), and the Nifty IT index hit a fresh 52-week low  -  down roughly 13% in three weeks. The trigger was global: Accenture's 18% Wall Street crash and its guidance cut lit an 'AI is coming for services' fear. Cushioning the fall were defensives  -  defence PSUs, Bharti Airtel, ICICI Bank, L&T and ITC held firmer. With the weekend's Middle East jitters and a fragile ceasefire, the week-ahead theme is clear: capital is rotating toward debt-free, government-order-book defence names while it digests the IT shock.",
+      breakouts: [
+        {
+          name: "Bharat Electronics (NSE: BEL)",
+          halal: true,
+          buyPrice: "Rs.405",
+          sellPrice: "Rs.450",
+          stopLoss: "Rs.385",
+          whyExciting: "BEL is a Navratna defence-electronics PSU  -  radars, missile-electronics, communication systems for the armed forces  -  which is a cleanly permissible business, and it is effectively DEBT-FREE with a large cash pile (passing the halal financial screen comfortably). Crucially for a halal investor, BEL is a constituent of the Nifty Shariah 25 index, a strong third-party signal that it clears Islamic screening on both business and financials. The fundamentals are robust: a return on equity around 25% and an order book near Rs.73,450 crore giving multi-year revenue visibility. It closed Friday near Rs.410 as money rotated into domestic defence on the weekend's renewed Middle East tension. Analyst average target sits near Rs.490 (Motilal Oswal at Rs.510). A hold above Rs.405 into the new week keeps the setup pointed toward the Rs.450 zone.",
+          risk: "Defence PSUs live and die by the government order book and budget cycle  -  a single contract delay can stall the story. The stock sits in the upper half of its 52-week range (roughly Rs.361 to Rs.473), so it can see sharp 6-10% profit-booking pullbacks after a run. The weekend Hormuz threat could cut both ways: it supports defence sentiment, but a sudden de-escalation would remove that tailwind. Respect the Rs.385 stop  -  a close below it means the momentum has broken, not paused."
+        },
+        {
+          name: "Hindustan Aeronautics (NSE: HAL)",
+          halal: true,
+          buyPrice: "Rs.4,420",
+          sellPrice: "Rs.4,850",
+          stopLoss: "Rs.4,150",
+          whyExciting: "HAL is India's Maharatna aerospace champion  -  it builds and maintains fighter jets, helicopters and aero-engines for the armed forces  -  a permissible defence business, and it is effectively debt-free with a substantial cash reserve (clearing the halal debt screen). It is one of the prime beneficiaries of India's defence-indigenisation push, with a vast order pipeline including the Tejas fighter programme. It closed Friday near Rs.4,400, holding firm while IT names bled  -  classic relative strength on a risk-off day. The renewed Middle East tension over the weekend keeps a bid under domestic defence into the new week. A push and hold above Rs.4,420 keeps the momentum setup alive toward the Rs.4,850 zone.",
+          risk: "HAL is heavily dependent on a single customer  -  the Indian government  -  so order timing and budget allocations drive the stock, and execution delays on big programmes can disappoint. After a strong multi-year run the valuation is rich, leaving little room for misses. It is also a high-priced stock, so position-size carefully. The Rs.4,150 stop is wide to respect that volatility  -  a close below it signals the trend has turned, not merely paused."
+        },
+        {
+          name: "Cochin Shipyard (NSE: COCHINSHIP)",
+          halal: true,
+          buyPrice: "Rs.1,490",
+          sellPrice: "Rs.1,650",
+          stopLoss: "Rs.1,400",
+          whyExciting: "Cochin Shipyard is a government-owned shipbuilder and ship-repair yard  -  it built India's first indigenous aircraft carrier, INS Vikrant  -  a permissible heavy-engineering and defence business with a near-debt-free balance sheet (passing the halal financial screen). It rounds out a three-name defence basket alongside BEL and HAL, spreading the bet across electronics, aerospace and shipbuilding rather than concentrating in one sub-sector. It closed Friday near Rs.1,487, steady while IT sold off, and benefits from both naval order flow and a growing commercial ship-repair business. A reclaim and hold above Rs.1,490 into the new week opens the path toward Rs.1,650.",
+          risk: "Defence and shipbuilding PSUs are lumpy  -  revenue arrives in big, uneven chunks tied to long-gestation contracts, so any quarter can look weak. The stock is volatile with a wide 52-week range and can swing 10%+ on order news or the lack of it. Like its peers it depends heavily on government orders and budget cycles. Keep the position smaller and honour the Rs.1,400 stop  -  below it, the setup is broken."
+        }
+      ],
+      ipoSpot: {
+        name: "OpenAI files confidentially for an IPO  -  the global event to learn from",
+        verdict: "Learn",
+        eli5: "The IPO story dominating global markets this weekend is OpenAI's confidential filing to go public  -  the most anticipated technology listing in years, arriving as rival Anthropic preps an 'AI for Science' event and the whole sector reprices. A confidential filing means the company submits its paperwork privately first, fine-tuning the details before the public sees the numbers  -  a common move for marquee names that want to control the reveal. For an Indian investor, the lesson is discipline, not FOMO: a famous name and a hype-soaked listing are NOT the same as a good entry price. When India's own blockbuster IPOs arrive (the NSE's eventual listing is the most awaited), apply the same rule  -  study the financials and the valuation, and never buy on the headline alone."
+      },
+      lessonOfDay: {
+        title: "The Fear Premium  -  How One Threat Re-Prices the Whole Oil Market",
+        story: "This week handed you a perfect classroom in how markets actually price risk. On Friday, oil fell to a three-month low because the US-Iran deal reopened the Strait of Hormuz and removed a threat. On Saturday, Iran THREATENED to close it again  -  and oil firmed, even though not a single extra barrel was blocked. What moved? Not supply, not demand  -  the FEAR PREMIUM. On any given day, the oil price is two things stacked together: the real cost of barrels (fundamentals) and a layer of collective fear or relief about future supply (sentiment). When a chokepoint carrying a fifth of the world's oil is threatened, traders add a premium 'just in case'; when the threat lifts, that premium melts away. The skill this teaches every investor: learn to separate the fundamental from the mood. Most of the violent day-to-day moves in commodities  -  and in stocks  -  are the fear premium expanding and contracting, not the underlying business changing. Price the barrels; ignore the panic.",
+        mnemonic: "Fear premium = price minus fundamentals = pure mood. Hormuz threatened -> oil up; threat lifted -> oil down, with zero change in barrels. Separate the fundamental from the fear."
+      }
+    },
+    quiz: [
+      {
+        q: "Bharat Electronics (BEL) is a favourite of halal investors partly because it belongs to which index?",
+        options: [
+          "The Nifty Bank index",
+          "The Nifty Shariah 25 index  -  a strong third-party signal that it clears Islamic screening on both business activity and financials",
+          "The Nifty FMCG index",
+          "No index at all"
+        ],
+        answer: 1,
+        funFact: "Two screens must BOTH pass for a halal stock: the business activity (defence electronics is permissible) and the financials (BEL is effectively debt-free). Membership of a recognised Shariah index like the Nifty Shariah 25 is useful third-party confirmation  -  but a disciplined investor still verifies the latest financials themselves."
+      },
+      {
+        q: "Why did Indian IT stocks like TCS and Infosys crash to multi-year lows on June 19?",
+        options: [
+          "Because oil prices rose",
+          "Because Accenture's 18% Wall Street plunge and guidance cut sparked a global fear that AI is starting to automate IT-services and consulting work",
+          "Because the rupee strengthened",
+          "Because defence stocks fell"
+        ],
+        answer: 1,
+        funFact: "TCS fell about 6% to near a six-year low and Infosys plunged about 8% to a five-year low. The fear is structural, not seasonal: if AI can do a chunk of the coding, reporting and data work that services firms sell, the whole business model has to adapt  -  which is why capital rotated toward defence PSUs instead."
+      },
+      {
+        q: "What is the 'fear premium' in the price of oil?",
+        options: [
+          "A tax governments add to crude",
+          "The slice of the price that reflects collective fear or relief about future supply  -  it can swing the price sharply even when the actual barrels pumped don't change",
+          "The cost of shipping oil",
+          "The profit oil companies make"
+        ],
+        answer: 1,
+        funFact: "It is why crude hit a three-month low on Friday (deal signed, threat removed) and firmed on Saturday (re-closure threatened) with no change in real supply. Most violent short-term moves in commodities  -  and in stocks  -  are the fear premium expanding and contracting, not the underlying business changing."
+      }
+    ]
+  },
+  psychology: {
+    mindTrick: {
+      name: "The Decoy Effect  -  How a Third Option Tricks Your Choice",
+      eli5: "The Decoy Effect (also called asymmetric dominance) is when adding a deliberately bad third option pushes you toward the pricier of the original two. The famous example is The Economist's old subscription menu: web-only for $59, OR print-only for $125, OR print-AND-web ALSO for $125. Almost nobody wants print-only at the same price as the combo  -  it exists purely as a DECOY to make the $125 combo look like a steal. When researchers removed it, far more people picked the cheap $59 option. The decoy isn't there to be chosen; it's there to make something else look brilliant by comparison.",
+      realLife: "You see it everywhere: the 'medium' popcorn priced absurdly close to the large (so you 'upgrade'), the middle phone tier engineered to make the top tier feel worth it, the three-tier pricing page where the middle plan is the decoy. Your defence is to ignore the options relative to each other and ask the absolute question: 'What do I actually NEED, and what is the standalone value to me?' Decide on your own need, not on the clever contrast they built for you.",
+      mnemonic: "Decoy Effect = a deliberately bad third option makes a pricier choice look like a steal (Economist's $125 print-only decoy). Shield: judge each option on absolute need, not contrast."
+    },
+    bodyLanguage: {
+      signal: "Blink Rate  -  The Eyes Speed Up Under Stress",
+      eli5: "At rest, most people blink around 15-20 times a minute. Under stress, cognitive load, or discomfort, that rate often climbs sharply  -  rapid fluttering blinks are a classic, hard-to-fake tell that someone's internal pressure just spiked. The reverse happens too: deep concentration or a deliberate attempt to control oneself can SLOW blinking to an unnatural, staring stillness. Either swing away from the steady baseline  -  too fast or eerily slow  -  signals that something inside has changed.",
+      howToUse: "First establish a person's BASELINE blink rate during easy small talk. Then watch for a sudden jump  -  if their blinking speeds up the moment you mention a price, a deadline or a specific name, you've likely touched a nerve worth exploring gently. Use it to read, not to accuse: a spike means 'this topic carries weight,' not 'they're lying.' On your own side, slowing your blink and holding a calm gaze is one way to project composure under pressure.",
+      mnemonic: "Blink rate = stress tell. Baseline ~15-20/min; a sudden spike of rapid blinks signals pressure or discomfort. Read the CHANGE from baseline, not one blink."
+    },
+    superpower: {
+      name: "The Lowball Technique  -  Commitment First, Cost Later",
+      story: "The lowball is commitment-and-consistency weaponised. Someone gets you to AGREE to something at an attractive price or low cost  -  then, once you've said yes and mentally committed, the real (higher) cost is revealed. The classic is the car salesman who offers a great deal, gets your handshake, then 'checks with the manager' and comes back with a worse number  -  yet most buyers stay, because they've already committed in their mind. In Cialdini's research, people who agreed to an early-morning study and only THEN learned the start time (7am) showed up far more than those told 7am upfront. The early 'yes' grows its own legs.",
+      shield: "Your defence is to treat the new terms as a brand-new decision. When the cost changes AFTER you've agreed, mentally tear up the original yes and ask: 'Knowing THIS price now, would I commit fresh today?' If the answer is no, walk  -  your earlier agreement was made on information that turned out to be false, so it carries no obligation. Naming it out loud helps: 'The terms have changed, so I'm re-deciding from scratch.'",
+      mnemonic: "Lowball = get the 'yes' cheap, then raise the cost; commitment keeps you stuck. Shield: re-decide at the NEW terms as if for the first time. A yes built on false info is void."
+    },
+    quiz: [
+      {
+        q: "In the Decoy Effect, what is the purpose of the deliberately bad third option?",
+        options: [
+          "To be the most popular choice",
+          "To make a pricier option look like great value by comparison  -  it's never meant to be chosen, only to shift you toward something else",
+          "To confuse the seller",
+          "To be the cheapest option"
+        ],
+        answer: 1,
+        funFact: "In The Economist's famous menu, a print-only option priced the SAME as the print-and-web combo existed purely as a decoy. When researchers removed it, far more people chose the cheap web-only plan  -  proving the decoy's only job was to make the expensive combo look like a steal."
+      },
+      {
+        q: "What does a sudden spike in someone's blink rate most reliably signal?",
+        options: [
+          "That they are definitely lying",
+          "That their internal stress or cognitive load just rose  -  it flags that a topic carries weight, not that any specific lie was told",
+          "That they are bored",
+          "That they have an eye infection"
+        ],
+        answer: 1,
+        funFact: "The key is reading the CHANGE from a person's baseline (normally about 15-20 blinks a minute), established during relaxed small talk. A spike when you mention a price or deadline says 'this matters to them'  -  a cue to explore gently, not an accusation."
+      },
+      {
+        q: "How do you defend against the lowball technique (agreeing cheap, then the cost rises)?",
+        options: [
+          "Always stick to your first decision no matter what",
+          "Treat the new terms as a brand-new decision  -  ask 'Knowing THIS price now, would I commit fresh today?'  -  because a yes built on false information carries no obligation",
+          "Never negotiate at all",
+          "Pay the higher price to be polite"
+        ],
+        answer: 1,
+        funFact: "The lowball exploits our drive to stay consistent with a commitment we've already made. The cure is to consciously void the original 'yes' once the facts change  -  saying out loud 'the terms changed, so I'm re-deciding from scratch' breaks the consistency spell."
+      }
+    ]
+  },
+  leadership: {
+    leaderMove: {
+      name: "Radical Candor  -  Care Personally AND Challenge Directly",
+      story: "Coined by Kim Scott (a former Google and Apple leader), Radical Candor is the sweet spot on two axes: how much you CARE PERSONALLY about someone, and how willing you are to CHALLENGE them DIRECTLY. Get both high, and feedback lands as genuine help. Drop one and you fail in a named way: caring but not challenging is 'Ruinous Empathy' (you stay silent to be nice and let them fail); challenging without caring is 'Obnoxious Aggression' (brutal, demoralising); neither is 'Manipulative Insincerity' (fake praise, backstabbing). Scott's own turning point came when a boss told her, warmly, that saying 'um' constantly was making her sound unsure  -  candour delivered with obvious care.",
+      doThis: "Before giving hard feedback, prove you care, then say the difficult thing plainly  -  don't wrap it in so much padding the message disappears. The most common failure isn't being too harsh; it's 'Ruinous Empathy'  -  staying quiet to avoid discomfort while someone keeps making a fixable mistake. Ask yourself: 'Am I withholding this feedback to protect THEM, or to protect ME from an awkward moment?' If it's the latter, speak.",
+      mnemonic: "Radical Candor = Care Personally + Challenge Directly. Miss caring = Obnoxious Aggression; miss challenging = Ruinous Empathy (the most common trap). Silence to stay comfy isn't kindness."
+    },
+    visionarySecret: {
+      concept: "The Barbell Strategy",
+      eli5: "From Nassim Taleb, the Barbell Strategy means putting your weight on the two EXTREME ends and avoiding the fragile middle. Picture a barbell: heavy on one end (extreme safety), heavy on the other (extreme risk), nothing in between. In money, that might be keeping most of your capital in very safe assets and a small slice in high-upside bets  -  so a crash can't ruin you, but a moonshot can still pay off big. The idea generalises: combine a stable, boring base with a few bold, asymmetric experiments, and avoid the 'medium-risk' middle that quietly carries hidden fragility.",
+      exercise: "Look at one area of your life  -  career, money, learning  -  and ask: 'Am I stuck in a fragile middle?' A 'safe-ish' job you don't love, a 'medium-risk' portfolio, a 'kind-of' side project. Then barbell it: lock down a genuinely safe base (emergency fund, reliable income) AND carve out a small, capped slice for a bold bet (a startup idea, a high-conviction skill, a venture) where the downside is limited but the upside is huge. Protect against ruin; stay exposed to luck.",
+      mnemonic: "Barbell Strategy (Taleb) = load the extremes (very safe + small bold bets), avoid the fragile middle. Cap the downside so a crash can't ruin you; stay open to a giant upside."
+    },
+    eliteHabit: {
+      habit: "The Shutdown Ritual  -  End the Workday on Purpose",
+      whoAndHow: "From computer scientist and author Cal Newport, the Shutdown Ritual is a deliberate end-of-workday routine that closes every open loop so your brain can truly stop working. The steps: review your task list and calendar, capture any loose to-dos somewhere trusted, make a rough plan for tomorrow, then say a small completion phrase  -  Newport literally says 'Schedule shutdown, complete.' That verbal full-stop signals to your mind that work is genuinely DONE for the day, so it stops nagging you at dinner.",
+      whyItWorks: "Unfinished tasks don't politely wait  -  they keep pinging your attention (the Zeigarnik effect), bleeding work-stress into your evening and ruining your recovery. The ritual works because it externalises every open loop (it's all captured and planned, so your brain can let go) and uses a clear ritual boundary to flip the off-switch. Real rest is what powers the next day's focus  -  and you can't rest if half your mind is still in the office.",
+      mnemonic: "Shutdown Ritual (Cal Newport) = end work on purpose: review tasks, capture loose ends, plan tomorrow, say 'shutdown complete.' Closing open loops lets your brain actually rest."
+    },
+    sigmaWisdom: {
+      lesson: "On the Shortness of Life  -  You Aren't Given a Short Life, You Make It Short",
+      story: "In his essay 'On the Shortness of Life,' the Roman Stoic Seneca dismantles the complaint that life is too short. The problem, he argues, is not the length of life but how wastefully we spend it: 'It is not that we have a short time to live, but that we waste a lot of it.' We guard our money and property fiercely, yet hand our TIME  -  the one truly non-renewable resource  -  to anyone who asks: pointless meetings, doomscrolling, other people's dramas, busywork that feels urgent but matters to no one. Live carelessly, Seneca says, and even a long life feels short; live deliberately, and a life of ordinary length is vast.",
+      action: "Audit one day this week like an accountant of TIME, not money. Track where the hours actually go, then ask of each block: 'Did I CHOOSE this, or did it just happen to me?' The goal isn't to optimise every minute into productivity  -  rest and play are deliberate choices too  -  it's to stop leaking hours to things you'd never consciously pick. Treat your time as the scarce, unrecoverable asset it is.",
+      mnemonic: "Seneca, On the Shortness of Life = life isn't short, we WASTE it. We guard money but give away time, the one thing we can't get back. Spend hours on purpose, not by default."
+    },
+    quiz: [
+      {
+        q: "In Kim Scott's Radical Candor, what is 'Ruinous Empathy'  -  the most common failure mode?",
+        options: [
+          "Being deliberately cruel to motivate people",
+          "Caring about someone but NOT challenging them directly  -  staying silent to avoid discomfort while they keep making a fixable mistake",
+          "Giving fake praise to manipulate",
+          "Challenging people without caring about them"
+        ],
+        answer: 1,
+        funFact: "Radical Candor sits at high Care Personally AND high Challenge Directly. Most managers don't fail by being too harsh  -  they fail by being too 'nice,' withholding hard feedback to protect themselves from an awkward moment, while the person keeps stumbling over something they could easily fix."
+      },
+      {
+        q: "Taleb's 'Barbell Strategy' recommends...",
+        options: [
+          "Putting everything into medium-risk options",
+          "Loading the two extremes  -  a very safe base plus a small slice of bold, high-upside bets  -  while avoiding the fragile middle",
+          "Avoiding all risk entirely",
+          "Betting everything on one big gamble"
+        ],
+        answer: 1,
+        funFact: "The barbell protects you from ruin (the safe end means a crash can't wipe you out) while keeping you exposed to luck (the bold end means a moonshot can still pay off). The danger Taleb warns against is the 'medium-risk' middle, which often hides more fragility than it appears to."
+      },
+      {
+        q: "Why does Cal Newport's 'Shutdown Ritual' improve focus the NEXT day?",
+        options: [
+          "Because it adds more hours of work",
+          "Because closing every open loop (capturing tasks, planning tomorrow, a completion phrase) lets your brain truly rest in the evening  -  and real recovery powers the next day's focus",
+          "Because it deletes your task list",
+          "Because it means never planning ahead"
+        ],
+        answer: 1,
+        funFact: "Unfinished tasks keep pinging your attention (the Zeigarnik effect), leaking work-stress into your evening. By externalising every loose end and using a ritual boundary  -  Newport says 'schedule shutdown, complete'  -  you give your mind permission to stop, which is what makes genuine rest (and tomorrow's focus) possible."
+      }
+    ]
+  },
+  wealth: {
+    wealthSecret: {
+      name: "The Hedonic Treadmill  -  Why a Raise Stops Feeling Like a Raise",
+      story: "The Hedonic Treadmill is the human tendency to return to a stable baseline of happiness no matter what good (or bad) thing happens. Get a raise, a bigger house, a nicer car  -  the joy spikes, then fades, and within months it feels normal. The financial trap this creates is 'lifestyle creep': as income rises, spending quietly rises to match, so a person earning Rs.5 lakh a month can feel just as stretched as when they earned Rs.1 lakh. The treadmill keeps moving; you keep running; you never actually get ahead, because every raise is immediately consumed by a richer baseline.",
+      action: "Break the treadmill by 'banking your raises.' Each time your income goes up, automatically divert a big chunk of the INCREASE straight into savings or investments BEFORE you ever see it in your spending account  -  so your lifestyle rises slower than your income. The gap between the two is your growing wealth. The discipline is to let your earnings climb while deliberately keeping your baseline lifestyle a step behind, so each raise builds freedom instead of just a fancier version of the same stress.",
+      mnemonic: "Hedonic Treadmill = joy from new stuff fades to baseline, and lifestyle creep eats every raise. Break it: BANK your raises  -  invest the increase before you feel it, keep lifestyle a step behind income."
+    },
+    moneyMachine: {
+      type: "Shariah-Compliant Mutual Funds  -  Halal Investing on Autopilot",
+      eli5: "A Shariah-compliant mutual fund is a professionally managed basket of stocks that have already been screened to remove anything impermissible  -  no conventional interest-based banks, no alcohol, tobacco, gambling, pork or adult content  -  and to keep companies whose debt and interest income stay below set Islamic thresholds. Instead of you screening hundreds of stocks by hand, the fund (and its Shariah board) does it for you, then a SIP lets you invest a fixed amount automatically every month. It's halal investing made as easy as a regular mutual fund.",
+      indiaAngle: "India has a handful of options: the Tata Ethical Fund (one of the oldest Shariah-compliant funds), and index products tracking the Nifty500 Shariah or Nifty50 Shariah indices, which mechanically hold only screened, compliant names. A practical note: actively managed ethical funds carry higher expense ratios, and you should still glance at the fund's holdings and screening methodology  -  'Shariah-compliant' standards can vary slightly between providers. For a busy investor who wants halal exposure without picking individual stocks, a Shariah fund SIP is the closest thing to autopilot.",
+      mnemonic: "Shariah-compliant mutual funds = pre-screened halal stock baskets (Tata Ethical, Nifty500 Shariah). A SIP makes it autopilot. Still check holdings + expense ratio  -  standards vary."
+    },
+    mindsetFlip: {
+      oldThinking: "A budget is a restriction  -  a financial diet that stops me spending and sucks the joy out of money.",
+      newThinking: "A budget is PERMISSION  -  it's me telling my money where to go on purpose, which actually frees me to spend the allocated money guilt-free.",
+      why: "Most people quit budgeting because they frame it as a cage. Flip it: a budget is a plan you make in advance, so that when the money is allocated to something (including fun), you get to spend it WITHOUT guilt, because you already decided it was fine. The discipline isn't about spending less on everything  -  it's about spending DELIBERATELY: choosing where your money goes before the month happens, instead of wondering where it went after. A good budget doesn't say 'no'; it says 'yes, on purpose.'",
+      mnemonic: "Budget = not restriction but PERMISSION. Tell your money where to go in advance, then spend the allocated amount guilt-free. A budget says 'yes, on purpose,' not 'no.'"
+    },
+    magicNumber: {
+      number: "15 x 15 x 15  -  the SIP Rule That Builds a Crore",
+      eli5: "The 15-15-15 rule is a simple mental model for the power of a long SIP: invest Rs.15,000 per month, for 15 years, at an assumed 15% annual return, and you end up with roughly Rs.1 crore. The magic isn't the monthly amount  -  it's the compounding over 15 years. Of that crore, only about Rs.27 lakh is the money you actually put in; the remaining ~Rs.73 lakh is growth on growth. Stretch it to 15-15-30 (same SIP, 30 years) and the maths gets startling  -  you cross several crores, because compounding rewards TIME even more than amount.",
+      mnemonic: "15-15-15 = Rs.15,000/month, 15 years, 15% return -> about Rs.1 crore (only ~27 lakh invested; ~73 lakh is growth). Time, not size, does the heavy lifting  -  start early."
+    },
+    quiz: [
+      {
+        q: "What is 'lifestyle creep,' the financial trap of the Hedonic Treadmill?",
+        options: [
+          "Spending less as you earn more",
+          "As income rises, spending quietly rises to match  -  so each raise is consumed by a richer baseline and you never actually get ahead",
+          "Investing all your salary",
+          "Refusing to ever spend money"
+        ],
+        answer: 1,
+        funFact: "The fix is to 'bank your raises': automatically divert a big chunk of every pay increase into savings or investments BEFORE it reaches your spending account. Keeping your lifestyle a deliberate step behind your income turns each raise into freedom instead of a fancier version of the same stress."
+      },
+      {
+        q: "In the 15-15-15 SIP rule (Rs.15,000/month, 15 years, 15% return ≈ Rs.1 crore), where does most of the crore come from?",
+        options: [
+          "From the money you invested  -  about Rs.73 lakh of it",
+          "From compounding growth  -  only about Rs.27 lakh is your invested money; the remaining ~Rs.73 lakh is growth on growth",
+          "From a bank bonus",
+          "From dividends only"
+        ],
+        answer: 1,
+        funFact: "This is why starting EARLY beats investing MORE later: compounding rewards time even more than amount. Run the same Rs.15,000 SIP for 30 years instead of 15 and you don't get double  -  you cross several crores, because the growth-on-growth has far longer to snowball."
+      },
+      {
+        q: "What is the mindset flip that makes budgeting sustainable?",
+        options: [
+          "Seeing a budget as a strict diet that bans spending",
+          "Seeing a budget as PERMISSION  -  deciding in advance where money goes, so you can spend the allocated amount guilt-free",
+          "Never writing anything down",
+          "Spending first and tracking later"
+        ],
+        answer: 1,
+        funFact: "Most people abandon budgeting because they frame it as a cage. Reframed as a plan made in advance, a budget actually grants freedom: once you've allocated money to something (including fun), you get to spend it without guilt, because you already decided it was fine. A good budget says 'yes, on purpose.'"
+      }
+    ]
+  },
+  communication: {
+    speakingSkill: {
+      name: "Bridging  -  Steer Any Question Back to Your Message",
+      story: "Bridging is the core skill of media training: a technique for acknowledging a question, then smoothly 'bridging' to the point you actually want to make. Politicians and CEOs use it constantly  -  you ask about the problem, they answer briefly, then say 'but what's really important here is...' and pivot to their key message. The bridge phrases are simple: 'What matters most is...', 'The bigger picture is...', 'Let me put that in context...', 'And that's exactly why...' Done crudely it sounds evasive; done well, it keeps a conversation on track and ensures your central message actually gets heard rather than getting lost in tangents.",
+      drill: "Pick your ONE key message for an important conversation or interview. Then practise three bridge phrases that carry any question back to it: 'That's a fair point, and what's really important here is [your message].' The skill is to ACKNOWLEDGE first (so you don't seem to dodge), then bridge. Use it honestly  -  to stay on-message and avoid rambling, not to refuse legitimate questions  -  and you'll leave conversations having actually said the thing you came to say.",
+      mnemonic: "Bridging = acknowledge the question, then steer to your point: 'What's really important here is...' Keeps you on-message. Acknowledge first so it lands as focus, not dodging."
+    },
+    negotiationMove: {
+      tactic: "The Accusation Audit  -  Say Their Objections Before They Do",
+      eli5: "From FBI negotiator Chris Voss, an Accusation Audit means listing the negative things the other side might be thinking about you  -  out loud, first  -  before they can use them against you. Before a tough ask you might say: 'You're probably going to think I'm being unreasonable, and that this is coming at a bad time, and that I've asked for a lot already...' By voicing their objections yourself, you defuse them: the other person can't accuse you of something you've already owned, and they often rush to reassure you it's 'not that bad,' softening their stance before the real conversation even starts.",
+      script: "Open the hard conversation by pre-empting their worst reaction: 'I'm guessing this is going to sound like a big ask, and you might feel I'm pushing too hard...' then pause. Naming the elephant takes its power away  -  the objection loses its sting once it's been said aloud and acknowledged. It also signals empathy and self-awareness, which builds the trust that makes a 'yes' more likely.",
+      mnemonic: "Accusation Audit (Voss) = say their objections FIRST: 'You'll probably think I'm being unreasonable...' Naming the negative defuses it  -  they can't accuse you of what you've already owned."
+    },
+    officeWin: {
+      rule: "Praise in Public, Correct in Private",
+      story: "It's one of the oldest leadership rules, and it endures because it respects a basic truth about dignity: public praise multiplies a person's pride and motivation, while public criticism multiplies their shame and breeds resentment. Calling out someone's mistake in front of the team doesn't just sting  -  it makes everyone ELSE defensive too, because they're now thinking 'that could be me next.' Move the correction to a private one-to-one, and the same feedback lands as help instead of humiliation. Meanwhile, praising genuine wins in front of others costs you nothing and builds enormous loyalty.",
+      mistake: "The common mistake is doing it backwards under pressure  -  snapping a correction in a group meeting (because you're frustrated and it's convenient), then giving praise privately or not at all. The other trap is hollow public praise that feels performative; keep it specific and earned ('the way you caught that reconciliation error saved us a day'). Correct quietly, credit loudly, and people will trust you with the truth.",
+      mnemonic: "Praise in public, correct in private. Public praise multiplies pride; public criticism multiplies shame and makes everyone defensive. Credit loudly, correct quietly."
+    },
+    confidenceHack: {
+      technique: "Gesture Within the Box  -  Use Purposeful Hand Movements",
+      science: "Hands are a confidence amplifier most people misuse. Research on communication shows that purposeful gestures  -  open palms, hands moving deliberately within an imaginary 'box' from your waist to your shoulders and shoulder-width across  -  make you read as more confident, competent and trustworthy. Hidden hands (in pockets, behind your back) trigger subtle distrust; frantic, fluttery hands or gestures above the shoulders read as anxious. Open, controlled gestures inside 'the box' do two things at once: they make YOU feel more grounded, and they make your message easier for others to follow and believe.",
+      doItNow: "In your next conversation or presentation, keep your hands visible and gesture deliberately within the box (waist to shoulders), palms often open and upward  -  the universal sign of honesty and openness. Avoid pointing (aggressive), hiding hands (distrust), or jittery movement (anxiety). Match the gesture to the word: hold up fingers when you list, open both palms when you invite agreement. Controlled hands signal a controlled mind.",
+      mnemonic: "Gesture within the box (waist to shoulders), palms open  -  reads as confident and honest. Hidden hands = distrust; fluttery hands = anxiety. Controlled hands signal a controlled mind."
+    },
+    quiz: [
+      {
+        q: "What is 'bridging' in communication?",
+        options: [
+          "Refusing to answer any questions",
+          "Acknowledging a question briefly, then smoothly steering back to your key message ('what's really important here is...')",
+          "Talking as long as possible",
+          "Changing the subject without acknowledging the question"
+        ],
+        answer: 1,
+        funFact: "The order matters: acknowledge FIRST so it lands as focus rather than evasion, THEN bridge. Used honestly, it ensures your central message actually gets heard instead of getting lost in tangents  -  which is exactly why media-trained CEOs and politicians rely on it."
+      },
+      {
+        q: "Why does Chris Voss's 'Accusation Audit' (saying the other side's objections out loud first) work?",
+        options: [
+          "Because it hides your real intentions",
+          "Because naming their likely objections yourself defuses them  -  they can't accuse you of what you've already owned, and they often rush to reassure you it's 'not that bad'",
+          "Because it starts an argument",
+          "Because it flatters the other person"
+        ],
+        answer: 1,
+        funFact: "Voicing the elephant in the room ('you'll probably think I'm being unreasonable...') takes away its power. It also signals empathy and self-awareness, which builds the trust that makes a 'yes' more likely  -  the opposite of what most people fear would happen."
+      },
+      {
+        q: "Why is 'praise in public, correct in private' such durable advice?",
+        options: [
+          "Because praise should always be hidden",
+          "Because public praise multiplies pride and motivation, while public criticism multiplies shame and makes the whole team defensive  -  so corrections land better one-to-one",
+          "Because criticism should never be given",
+          "Because private praise is more effective than public"
+        ],
+        answer: 1,
+        funFact: "Public criticism doesn't just sting the target  -  it makes everyone watching think 'that could be me next,' breeding defensiveness across the team. Moving the same feedback to a private conversation lets it land as help instead of humiliation, while public credit costs nothing and builds loyalty."
+      }
+    ]
+  },
+  mind: {
+    brainHack: {
+      name: "The Pomodoro Technique  -  Beat Procrastination With a Timer",
+      eli5: "Created by Francesco Cirillo (named after a tomato-shaped kitchen timer  -  'pomodoro' is Italian for tomato), the technique breaks work into focused 25-minute sprints, each followed by a 5-minute break. After four sprints, you take a longer 15-30 minute break. The magic is psychological: a blank, intimidating task ('write the report') becomes 'just do ONE 25-minute round,' which is small enough that your brain stops resisting. The ticking timer also creates gentle urgency, and the rule that you do NOTHING but the task during those 25 minutes (no phone, no email) protects the focus.",
+      protocol: "Pick one task. Set a timer for 25 minutes and work on ONLY that  -  if a distraction pops into your head, jot it on a notepad and return immediately. When the timer rings, stop and take a real 5-minute break (stand, stretch, look away from the screen). Repeat. The two unbreakable rules: during a pomodoro you don't multitask, and during a break you actually rest. Starting is the whole battle; 'just one pomodoro' is a door small enough to walk through.",
+      mnemonic: "Pomodoro = 25 min focus + 5 min break, repeat; long break after 4. 'Just one round' shrinks a scary task until your brain stops resisting. No multitasking inside the 25."
+    },
+    disciplineCode: {
+      principle: "Don't Break the Chain",
+      story: "The method is often attributed to comedian Jerry Seinfeld, who reportedly advised a young comic to write jokes every single day and mark a big red X on a wall calendar for each day done. After a few days you have a chain of X's  -  and the only job becomes: 'Don't break the chain.' The genius is that it shifts your motivation from the hard, abstract goal ('become a great writer') to a simple, visible, daily one ('keep the streak alive'). The growing chain becomes a thing you don't want to ruin, so showing up gets easier the longer the chain grows. Consistency, not intensity, is what compounds.",
+      todayAction: "Pick ONE daily habit you want to build  -  writing, exercise, a language, practising a skill. Get a visible calendar (paper on the wall beats an app, because you can't hide from it) and mark an X every day you do it, even a tiny version. Your single rule is to never break the chain. Pair it with 'never miss twice' as a safety net: if life forces one gap, make the next day non-negotiable so a single miss never becomes the end of the streak.",
+      mnemonic: "Don't Break the Chain (Seinfeld) = mark an X every day you do the habit; the growing streak is the motivation. Goal shrinks from 'be great' to 'keep the chain alive.' Consistency compounds."
+    },
+    impulseKiller: {
+      urge: "The pull to keep scrolling bad news and negative feeds  -  doomscrolling",
+      eli5: "Doomscrolling is the compulsive consumption of negative news and social feeds, long past the point of being informed. Your brain is wired with a negativity bias  -  threats once meant survival, so bad news grabs attention harder than good  -  and the endless feed exploits it, dangling 'just one more' alarming headline. The result is a loop that leaves you more anxious, drained and pessimistic, having learned nothing new but absorbed a fog of dread. The feed is engineered to never end; only YOU can end it.",
+      interrupt: "Two interrupts work. First, a hard time-and-place boundary: no news feeds in bed (morning or night)  -  the two times doomscrolling does the most damage to your mood and sleep. Second, the 'one action' rule: after reading something alarming, you must either DO something about it (donate, message someone, change a setting) or consciously close the app. If there's no action to take, the scrolling is pure anxiety with no upside  -  name that, and put the phone down. Set a timer if you must browse: 10 minutes, then out.",
+      mnemonic: "Doomscrolling = endless negative-news loop feeding your negativity bias; you end anxious, having learned nothing. Interrupt: no feeds in bed; after bad news, ACT on it or close the app."
+    },
+    bodyUpgrade: {
+      practice: "The 10-Minute Post-Meal Walk  -  Blunt the Blood-Sugar Spike",
+      eli5: "A short, gentle walk right after eating  -  even just 10-15 minutes  -  is one of the highest-return, lowest-effort health habits there is. When you eat, especially carbs, your blood sugar rises; walking puts your muscles to work, and they pull glucose out of the bloodstream for fuel, blunting the spike. Smaller post-meal blood-sugar spikes mean steadier energy (no afternoon crash), less fat storage, and over time better metabolic health. You don't need a workout  -  a slow stroll after lunch or dinner does most of the work.",
+      minimumDose: "Aim for a 10-minute easy walk within about 30 minutes of finishing a meal  -  the post-dinner walk is especially powerful, since evening glucose tends to linger most. No need for pace or distance goals; the gentle movement is the point. If a walk isn't possible, even standing and doing light chores beats sitting straight down. Stack it onto an existing habit (walk after lunch, every day) and it becomes automatic  -  a tiny ritual with an outsized metabolic payoff.",
+      mnemonic: "10-min post-meal walk = muscles pull glucose from the blood, blunting the sugar spike -> steadier energy, better metabolic health. Post-dinner walk is the most powerful. Stroll, don't sprint."
+    },
+    quiz: [
+      {
+        q: "Why does the Pomodoro Technique (25 minutes of focus, then a break) beat procrastination?",
+        options: [
+          "Because it makes you work for hours without stopping",
+          "Because it shrinks an intimidating task into 'just one 25-minute round'  -  small enough that your brain stops resisting  -  while the timer creates gentle urgency",
+          "Because it lets you multitask freely",
+          "Because breaks are not allowed"
+        ],
+        answer: 1,
+        funFact: "It's named after a tomato-shaped kitchen timer ('pomodoro' is Italian for tomato). The two rules make it work: during the 25 minutes you do ONLY the task (no phone), and during the break you actually rest. Starting is the whole battle, and 'just one pomodoro' is a door small enough to walk through."
+      },
+      {
+        q: "What is the core idea of the 'Don't Break the Chain' method?",
+        options: [
+          "Do a huge amount on day one",
+          "Mark an X for every day you do the habit, building a visible streak you won't want to ruin  -  shifting motivation from a vague big goal to 'keep the chain alive'",
+          "Only do the habit when motivated",
+          "Skip days whenever convenient"
+        ],
+        answer: 1,
+        funFact: "Often attributed to Jerry Seinfeld's advice to write jokes daily and X each day on a wall calendar, the method works because consistency compounds more than intensity. A paper calendar beats an app  -  you can't hide from a chain on your wall  -  and pairing it with 'never miss twice' keeps one gap from ending the streak."
+      },
+      {
+        q: "How does a 10-minute walk right after a meal help your body?",
+        options: [
+          "It builds large muscles quickly",
+          "Walking makes your muscles pull glucose from the bloodstream, blunting the post-meal blood-sugar spike  -  giving steadier energy and better metabolic health",
+          "It replaces the need to eat",
+          "It only helps if you run hard"
+        ],
+        answer: 1,
+        funFact: "The post-DINNER walk is especially powerful, because evening glucose tends to linger most. You don't need pace or distance  -  a gentle stroll within about 30 minutes of eating does most of the work, making it one of the highest-return, lowest-effort health habits available."
+      }
+    ]
+  },
+  knowledge: {
+    mathMagic: {
+      concept: "The Birthday Paradox  -  Why 23 People Share a Birthday",
+      eli5: "Here's a stunner: in a room of just 23 people, there's a better-than-even (over 50%) chance that two of them share a birthday. It feels impossible  -  there are 365 days, so surely you'd need hundreds of people? The trick is that you're not comparing yourself to everyone; you're comparing EVERY PAIR of people to each other. With 23 people, there are 253 possible pairs (23 times 22, divided by 2), and each pair is a fresh chance at a match. All those overlapping chances add up shockingly fast. By 70 people, a shared birthday is 99.9% likely.",
+      realWorldUse: "The birthday paradox is the reason 'collisions' matter in computer science and cryptography  -  it's why hash functions (digital fingerprints for data) can accidentally produce the same output for different inputs far more often than intuition suggests, which security engineers must design around (the 'birthday attack'). More broadly, it's a powerful lesson in counting: when you're looking for ANY match among MANY items, the number of possible pairs  -  not the number of items  -  is what drives the odds. Human intuition badly underestimates how fast pairs multiply.",
+      mnemonic: "Birthday Paradox = just 23 people -> 50%+ chance two share a birthday, because you count PAIRS (253 of them), not people. Intuition underrates how fast pairs multiply."
+    },
+    scienceWow: {
+      field: "Physics / Quantum Mechanics",
+      concept: "Quantum Entanglement  -  Einstein's 'Spooky Action at a Distance'",
+      eli5: "When two particles become entangled, they share a single linked state  -  measure one and you instantly know the matching property of the other, no matter how far apart they are. Measure one entangled particle as 'spin up' and its partner is instantly 'spin down,' even if it's on the other side of the galaxy. Einstein hated this, calling it 'spooky action at a distance,' because it seemed to break his rule that nothing travels faster than light. Decades of experiments  -  including work that won the 2022 Nobel Prize in Physics  -  proved entanglement is real. (The twist: you can't use it to send a usable message faster than light, so the cosmic speed limit survives.)",
+      mindBlow: "Entanglement isn't just philosophy  -  it's the engine of the quantum-computing race. Quantum computers use entangled quantum bits (qubits) to explore vast numbers of possibilities at once, promising to crack problems  -  new medicines, materials, code-breaking  -  that would take today's supercomputers millennia. It also powers 'quantum encryption,' where any attempt to eavesdrop disturbs the entangled particles and is instantly detected. The universe, at its smallest scale, plays by rules that feel like magic  -  and we're learning to build machines from them.",
+      mnemonic: "Quantum entanglement = two linked particles; measure one, instantly know the other, anywhere ('spooky action,' said Einstein). Real (2022 Nobel). Powers quantum computers + unbreakable encryption."
+    },
+    historyStory: {
+      event: "The Suez Crisis 1956  -  The Week an Empire Realised It Was Over",
+      story: "In 1956, Egypt's leader Gamal Abdel Nasser nationalised the Suez Canal  -  the vital shipping shortcut between Europe and Asia, until then controlled by Britain and France. Furious at losing the artery of their trade and prestige, Britain and France secretly schemed with Israel to invade and seize it back. Militarily, the invasion went fine. Politically, it was a catastrophe: the United States, under President Eisenhower, was NOT consulted and was livid  -  it threatened to wreck the British pound financially, and forced a humiliating withdrawal. The mighty British Empire discovered, in a single week, that it could no longer act on the world stage without American permission.",
+      lesson: "Suez is the textbook marker of a power transition  -  the precise moment global leadership visibly passed from Britain to the United States. The lesson scales beyond geopolitics: real power isn't just military or technical strength, it's financial leverage and the backing of allies. Britain had the guns but not the money or the partners, and that gap ended an empire's independence overnight. Watch who controls the money and the alliances  -  that's where power actually lives.",
+      mnemonic: "Suez Crisis 1956 = Nasser nationalises the canal; UK/France/Israel invade; the US (uninvited, furious) forces a humiliating retreat using FINANCIAL pressure. The moment power passed from Britain to America."
+    },
+    earthSecret: {
+      place: "The Atacama Desert, Chile  -  the Driest Place on Earth",
+      secret: "The Atacama in northern Chile is the driest non-polar desert on the planet  -  some weather stations there have NEVER recorded rain, and parts may have been hyper-arid for millions of years. It's so dry and so otherworldly that NASA uses it to test Mars rovers and study how life might survive on the Red Planet, because its soil chemistry mirrors Martian conditions. Yet it's not lifeless: hardy microbes live inside rocks, drawing moisture from rare coastal fog. And because the air is so dry and the skies so clear, the Atacama hosts some of the world's most powerful telescopes, including the giant arrays that have photographed the deepest reaches of the universe.",
+      edge: "The Atacama is a lesson in extremes creating opportunity. The same brutal dryness that makes it nearly lifeless makes it PERFECT for two things: practising for Mars, and seeing the stars. The clearest skies on Earth sit above the driest ground on Earth  -  which is why astronomers built their great observatories there. When a place is extreme in one dimension, it often becomes uniquely valuable in another. Constraints, even harsh ones, create their own kind of edge.",
+      mnemonic: "Atacama Desert (Chile) = driest place on Earth; some spots have NEVER seen rain. NASA tests Mars rovers there; its bone-dry clear skies host the world's great telescopes. Extreme dryness = a Mars lab + stargazing capital."
+    },
+    quiz: [
+      {
+        q: "Why does it take only 23 people for a better-than-even chance two share a birthday?",
+        options: [
+          "Because there are only 23 days in a birthday year",
+          "Because you compare every PAIR of people (253 pairs among 23 people), not each person to everyone  -  and all those overlapping chances add up fast",
+          "Because most people are born in the same month",
+          "Because 23 is half of 46"
+        ],
+        answer: 1,
+        funFact: "By 70 people, a shared birthday is 99.9% likely. The same maths  -  how fast the number of possible pairs grows  -  underlies 'collisions' in computer science, where two different inputs accidentally produce the same digital fingerprint far more often than intuition expects."
+      },
+      {
+        q: "What did Einstein call 'spooky action at a distance'?",
+        options: [
+          "Gravity bending light",
+          "Quantum entanglement  -  where measuring one of two linked particles instantly tells you the matching property of the other, no matter how far apart they are",
+          "The expansion of the universe",
+          "Radioactive decay"
+        ],
+        answer: 1,
+        funFact: "Experiments confirming entanglement won the 2022 Nobel Prize in Physics. The clever twist that saves Einstein's cosmic speed limit: although the link is instant, you can't use entanglement to send a usable message faster than light. It does, however, power the quantum-computing race and tamper-proof quantum encryption."
+      },
+      {
+        q: "Why is the 1956 Suez Crisis seen as the moment global power passed from Britain to the US?",
+        options: [
+          "Because Britain won the war decisively",
+          "Because the US, uninvited and furious, used FINANCIAL pressure (threatening the British pound) to force a humiliating withdrawal  -  proving Britain could no longer act without American backing",
+          "Because Egypt joined the British Empire",
+          "Because the canal was destroyed"
+        ],
+        answer: 1,
+        funFact: "Britain and France had the military strength to seize the canal back from Nasser, but not the financial independence or allied support to keep it. The crisis is the textbook lesson that real power lies in money and alliances as much as in guns  -  watch who controls the money."
+      }
+    ]
+  },
+  ai: {
+    toolSpotlight: {
+      name: "Runway",
+      category: "AI text-to-video and video editing (generative video)",
+      eli5: "Runway is one of the leading tools for generating and editing VIDEO with AI. You type a description ('a drone shot over a misty mountain at dawn') or upload a clip, and its models produce or transform moving footage  -  no camera, actors or editing suite required. Beyond pure text-to-video, it offers AI-powered editing tricks: removing objects from a clip, changing a video's style, extending a shot, or turning a still image into motion. It helped pioneer the wave of generative video that's now reshaping how ads, social clips and even film pre-visualisation get made.",
+      secretMove: "Don't try to generate a long, complex scene in one prompt  -  it'll look messy. Instead, generate SHORT clips (a few seconds each) with very specific prompts  -  one clear subject, one camera move, one lighting style  -  then stitch the good ones together in an editor. Describe it like a cinematographer: specify the shot type ('wide shot'), the motion ('slow pan left'), and the mood ('golden hour, soft light'). Specificity and short clips beat ambition every time.",
+      mnemonic: "Runway = AI text-to-video + smart video editing (remove objects, restyle, animate stills). Secret: generate SHORT, specific clips (one subject, one camera move) and stitch them  -  don't over-ask in one prompt."
+    },
+    workflowWin: {
+      title: "Build an AI Email Triage System",
+      problem: "Your inbox is a chaotic pile of newsletters, real requests, FYIs and urgent asks, and you waste the first hour of every day just figuring out what actually needs YOU. The cost isn't only time  -  it's the decision-fatigue of sorting before you've even started real work.",
+      steps: "(1) Write a clear set of rules in plain English: what's urgent (named clients, your manager, anything with a deadline), what's FYI (cc's, updates), what's noise (newsletters, promos). (2) Ask an AI assistant to triage a batch of emails against those rules: 'Sort these into Urgent / Needs a reply / FYI / Ignore, and one-line why for each.' (3) For the 'Needs a reply' pile, prompt: 'Draft a brief reply to each in my voice  -  professional, warm, concise.' (4) YOU review and send  -  never auto-send. (5) Refine the rules over a week until the sorting matches your judgement. The AI proposes; you decide.",
+      timeSaved: "Roughly 45-60 minutes of daily inbox-sorting and reply-drafting collapsed into about 10 minutes of reviewing  -  with the mental load of 'what do I deal with first?' lifted off your morning.",
+      mnemonic: "AI email triage = write rules (urgent/reply/FYI/ignore) -> AI sorts + drafts replies in your voice -> YOU review and send (never auto-send) -> refine weekly. AI proposes, you decide."
+    },
+    promptOfDay: {
+      purpose: "Understand a debate fairly by steelmanning BOTH sides (the cure for one-sided thinking)",
+      prompt: "'I want to understand the debate about [topic] without bias. Give me the STRONGEST, most honest version of the case FOR it, then the strongest, most honest version of the case AGAINST it  -  steelman each side as its smartest advocate would. Then list the 2-3 cruxes the disagreement really turns on. Don't tell me what to think; help me see it clearly.'",
+      where: "Any capable chat assistant (Claude, ChatGPT, Gemini). Ideal before forming a strong opinion, writing a balanced piece, or making a contested decision.",
+      mnemonic: "Steelman-both-sides prompt = 'Give the strongest honest case FOR, then AGAINST, then the real cruxes.' Cures one-sided thinking; you see the debate clearly before deciding."
+    },
+    futureWatch: {
+      trend: "The AI Energy Crunch  -  Datacenters Are Straining the Power Grid",
+      eli5: "Every AI query you run lives in a datacenter  -  a giant warehouse of computer chips that guzzles electricity and water for cooling. As AI use explodes, these datacenters are demanding so much power that they're straining electricity grids, delaying coal-plant retirements, and even reviving interest in nuclear energy (several tech giants have signed deals for nuclear power). The AI boom has quietly become an ENERGY story: the bottleneck on how fast AI can grow may turn out to be not chips or talent, but raw electricity and the grid's ability to deliver it.",
+      yourMove: "Watch energy as the hidden constraint on the whole AI story  -  it shapes which companies can scale, where datacenters get built (near cheap power and water), and which energy sectors (nuclear, grid infrastructure, renewables) get a tailwind from AI demand. For an investor or builder, 'AI needs power' is one of the clearest second-order bets of the decade: the picks-and-shovels of the AI boom increasingly include the companies that GENERATE and DELIVER the electricity, not just the ones writing the models.",
+      mnemonic: "AI Energy Crunch = AI datacenters guzzle power + water, straining grids and reviving nuclear deals. The real bottleneck on AI growth may be ELECTRICITY, not chips. Watch energy as the hidden AI bet."
+    },
+    quiz: [
+      {
+        q: "What's the smartest way to get good results from an AI video tool like Runway?",
+        options: [
+          "Generate one long, complex scene in a single prompt",
+          "Generate SHORT, very specific clips (one subject, one camera move, one lighting style) and stitch the good ones together  -  describing shots like a cinematographer",
+          "Avoid describing the camera or lighting",
+          "Only use it for still images"
+        ],
+        answer: 1,
+        funFact: "Asking for a long, complex scene in one go tends to produce messy results. Specificity wins: name the shot type ('wide shot'), the motion ('slow pan left') and the mood ('golden hour'). Short, precise clips stitched together beat one over-ambitious prompt every time."
+      },
+      {
+        q: "In an AI email-triage workflow, what's the one rule you should never break?",
+        options: [
+          "Let the AI auto-send all replies",
+          "Always review before sending  -  the AI sorts and drafts, but YOU make the final decision on what actually goes out",
+          "Never write any rules",
+          "Delete every newsletter automatically"
+        ],
+        answer: 1,
+        funFact: "The principle is 'AI proposes, you decide.' Letting AI draft replies in your voice can collapse an hour of inbox work into ten minutes of reviewing  -  but auto-sending hands away the judgement that protects your relationships and reputation. Keep the human in the loop on anything that leaves your name on it."
+      },
+      {
+        q: "Why is the 'AI Energy Crunch' becoming a major trend to watch?",
+        options: [
+          "Because AI uses no electricity at all",
+          "Because AI datacenters guzzle huge amounts of power and water  -  so the real bottleneck on AI's growth may turn out to be electricity and the grid, not chips or talent",
+          "Because datacenters are being shut down",
+          "Because AI runs on solar panels only"
+        ],
+        answer: 1,
+        funFact: "The surge in AI demand is straining electricity grids, delaying coal-plant retirements, and driving tech giants to sign nuclear-power deals. It makes energy generation and grid infrastructure a 'picks-and-shovels' angle on the AI boom  -  one of the clearest second-order bets of the decade."
+      }
+    ]
+  },
+  travel: {
+    destination: {
+      country: "Jordan",
+      region: "The Middle East (Levant)  -  ancient wonders and desert landscapes",
+      eli5: "Jordan packs an astonishing amount of wonder into a small, safe, welcoming country. Its crown jewel is Petra  -  the 'Rose City' carved directly into pink sandstone cliffs by the Nabataeans over 2,000 years ago, its famous Treasury facade revealed at the end of a narrow canyon walk. Add Wadi Rum, a Mars-like red desert of towering rock formations where you can sleep in Bedouin camps under staggering stars, and the Dead Sea, the lowest point on Earth's surface, where the water is so salty you float effortlessly. Three world-class experiences  -  ancient city, epic desert, surreal sea  -  within a few hours' drive of each other.",
+      bestTime: "Spring (March-May) and autumn (September-November) are ideal  -  warm, comfortable days for exploring Petra and the desert, without the punishing summer heat. Summer is very hot (especially in Wadi Rum and at the Dead Sea); winter is cooler and can be surprisingly cold at night in the desert, though still visitable.",
+      hiddenGem: "Spend a night actually IN Wadi Rum at a Bedouin desert camp rather than day-tripping  -  the silence, the sunset over the red dunes, and a sky thick with stars (far from any city light) is the experience people remember most. Many camps now offer comfortable 'bubble' tents with clear roofs so you can watch the stars from your bed. It turns Wadi Rum from a stop into the highlight.",
+      mnemonic: "Jordan = Petra (rose-red city carved in cliffs), Wadi Rum (Mars-like red desert, Bedouin camps under the stars), Dead Sea (float on the lowest point on Earth). Go spring or autumn; sleep a night in Wadi Rum."
+    },
+    visaTip: {
+      focus: "The Jordan Pass  -  one purchase that bundles your visa AND Petra",
+      eli5: "Jordan's single smartest traveller hack is the Jordan Pass. Buy it ONLINE BEFORE you arrive, and it does two things at once: it WAIVES the tourist visa fee (if you stay a minimum number of nights), and it covers entry to Petra plus around 40 other attractions, including Wadi Rum and Jerash. Because Petra entry and the visa are both expensive on their own, the pass typically pays for itself instantly  -  it's one of the best-value tourist passes anywhere. The one catch: you must buy it BEFORE you land to get the visa waiver.",
+      goldenTip: "Buy the Jordan Pass on the official government website before you fly, and choose the version with the number of Petra days you actually want (1, 2 or 3 days inside Petra  -  two days is ideal to see it properly without rushing). Have the QR code saved offline on your phone. Then your visa is pre-sorted and you skip ticket queues at Petra. Double-check the minimum-night requirement for the visa waiver so you don't accidentally void it.",
+      mnemonic: "Jordan Pass = buy online BEFORE arrival -> waives the visa fee + covers Petra and ~40 sites (Wadi Rum, Jerash). Pays for itself instantly. Must buy before you land; pick 2 Petra days."
+    },
+    culturalCode: {
+      culture: "Jordanian / Arab hospitality and etiquette",
+      doThis: "Embrace the legendary hospitality  -  Jordanians are famously generous, and being invited for tea or coffee is a genuine warmth, not a sales pitch. Accept at least one cup; refusing outright can feel cold. Greet with 'As-salamu alaykum' (peace be upon you) and you'll get warm smiles. Use your RIGHT hand for eating, giving and receiving (the left is considered unclean). Dress modestly, especially at religious sites and outside tourist resorts  -  covered shoulders and knees for everyone, and a scarf handy for women visiting mosques. A little Arabic ('shukran' = thank you) goes a long way.",
+      neverDoThis: "Don't refuse hospitality bluntly, eat or pass items with your left hand, or photograph local people (especially women) without asking. Avoid public displays of affection, dress immodestly at religious or rural sites, or discuss sensitive regional politics with people you've just met. During Ramadan, don't eat, drink or smoke in public during daylight hours out of respect. And when bargaining in markets, keep it good-natured  -  a smile and patience work far better than aggression.",
+      mnemonic: "Jordan = accept the tea/coffee (hospitality is real warmth); eat and give with the RIGHT hand; dress modestly at religious sites; learn 'shukran.' Don't use the left hand, photograph people without asking, or show PDA."
+    },
+    quiz: [
+      {
+        q: "What are Jordan's three signature experiences, all within a few hours' drive?",
+        options: [
+          "Beaches, ski resorts and rainforests",
+          "Petra (the rose-red city carved in cliffs), Wadi Rum (a Mars-like red desert with Bedouin camps), and the Dead Sea (floating at the lowest point on Earth)",
+          "Skyscrapers, theme parks and casinos",
+          "Glaciers, fjords and volcanoes"
+        ],
+        answer: 1,
+        funFact: "Petra was carved into pink sandstone by the Nabataeans over 2,000 years ago, and its Treasury facade is revealed dramatically at the end of a narrow canyon walk. The best single upgrade to a Jordan trip is sleeping a night in a Wadi Rum desert camp under a sky thick with stars."
+      },
+      {
+        q: "Why is the Jordan Pass considered one of the best-value travel hacks anywhere?",
+        options: [
+          "It gives free flights to Jordan",
+          "Bought online before arrival, it waives the tourist visa fee AND covers entry to Petra plus around 40 other sites  -  typically paying for itself instantly",
+          "It is a loyalty card for hotels",
+          "It only covers airport transfers"
+        ],
+        answer: 1,
+        funFact: "The crucial catch is that you must buy the Jordan Pass BEFORE you land to get the visa-fee waiver (and meet a minimum-night requirement). Because both Petra entry and the visa are expensive on their own, bundling them usually makes the pass pay for itself the moment you use it."
+      },
+      {
+        q: "Which etiquette rule matters most across Jordan and the wider Arab world?",
+        options: [
+          "Always use your left hand for eating and giving",
+          "Use your RIGHT hand for eating, giving and receiving  -  the left is considered unclean  -  and accept offered tea or coffee as genuine hospitality",
+          "Refuse all food and drink to be polite",
+          "Photograph anyone you like without asking"
+        ],
+        answer: 1,
+        funFact: "Hospitality in Jordan is heartfelt, not transactional  -  being offered tea or coffee is real warmth, and accepting at least one cup is the gracious response. Pair right-hand etiquette with modest dress at religious sites and a little Arabic ('shukran' = thank you), and you'll be warmly received."
+      }
+    ]
+  }
+}
+
 const ALL_BRIEFS = {
   '2026-06-01': d260601,
   '2026-06-02': d260602,
@@ -4500,6 +5177,7 @@ const ALL_BRIEFS = {
   '2026-06-17': d260617,
   '2026-06-18': d260618,
   '2026-06-19': d260619,
+  '2026-06-20': d260620,
 }
 
 // == DATA END ==
