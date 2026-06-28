@@ -7770,6 +7770,485 @@ const d260625 = {
   }
 }
 
+const d260626 = {
+  news: {
+    segments: [
+      {
+        name: "🌐 What's happening with countries?",
+        color: "#a0d4f5",
+        stories: [
+          {
+            headline: "CENTCOM strikes Iran for the first time in two weeks after drone hits Ever Lovely — Iran retaliates on US Gulf bases",
+            eli5: "On Friday June 26, US Central Command (CENTCOM) reported that six US aircraft had struck four targets inside Iran overnight — Iranian missile and drone storage sites and coastal radar installations near Sirik — in response to Iran's one-way attack drone that hit the Singapore-flagged container ship Ever Lovely on June 25 while it was transiting the Strait of Hormuz near the Omani coast. No casualties were reported on the Ever Lovely, but the attack violated the ceasefire framework. CENTCOM called the strikes a 'calibrated course correction' to reinforce freedom of navigation without derailing the broader diplomatic process. Iran's IRGC retaliated by targeting US military facilities in Bahrain (Fifth Fleet headquarters) and Kuwait (Ali Al-Salem base). Iran's Foreign Ministry declared the US strikes a 'blatant violation' of the June 17 Memorandum of Understanding. The tit-for-tat continued: on June 27, CENTCOM struck again after Iran hit another tanker. The ceasefire framework remained technically alive — but barely.",
+            whyItMatters: "The June 25-26 exchange is a near-textbook case of escalation dynamics in a fragile ceasefire. Each party's action is locally justified as a 'response' — Iran attacks a ship, US strikes Iranian sites, Iran retaliates on US bases — but the chain keeps producing new grounds for the next retaliation. This is the logic of tit-for-tat without an off-ramp: unless one party breaks the cycle, each action produces a new 'response' that produces another new 'response.' For Indian markets: the fragile ceasefire means oil price risk re-entered the picture after a week of $72/bbl calm. Brent crude would bounce from $72 back toward $80 as the strikes resumed, creating fresh volatility for India's fiscal and inflation outlook.",
+            mnemonic: "June 26 = CENTCOM strikes Iran (6 aircraft, 4 targets at Sirik) after drone hits Ever Lovely (Singapore-flagged ship, June 25). Iran retaliates on Fifth Fleet (Bahrain) and Ali Al-Salem (Kuwait). CENTCOM calls it 'calibrated course correction.' MoU technically survives. Escalation logic: each response generates the next."
+          },
+          {
+            headline: "Israel-Lebanon-US sign trilateral framework agreement — Hezbollah immediately rejects it",
+            eli5: "On June 26 in Washington DC, Israel, Lebanon and the United States signed a trilateral framework agreement setting out a path for Israeli withdrawal from southern Lebanon and a process for the disarmament of Hezbollah. The agreement provided for Lebanese Army deployment to two positions currently held by the IDF, and established a working process for verified disarmament negotiations. Within hours, Hezbollah leader Naim Qassem rejected the agreement as 'null and void' — accusing the Lebanese government of surrendering sovereignty. Israeli PM Netanyahu simultaneously declared that Israeli forces would remain in southern Lebanon until Hezbollah actually disarmed, regardless of the framework's timeline. France and Italy separately agreed to form a multinational coalition to support Lebanon when UNIFIL's mandate expires on December 31, 2026.",
+            whyItMatters: "Agreements signed by three parties — Israel, Lebanon, the US — that one of the four main actors (Hezbollah) immediately rejects illustrate the core difficulty of peace processes in complex conflict zones. Hezbollah is the primary military force in southern Lebanon, holds significant political legitimacy among Lebanon's Shia population, and is backed by Iran. A framework that Hezbollah rejects and that Israel interprets as not requiring any timeline for actual withdrawal is, in practice, a framework whose implementation depends entirely on political leverage that none of the signatories currently possesses. The lesson for any student of negotiation: agreements are only as effective as their enforcement mechanisms and the degree to which the most powerful actors on the ground choose to comply."
+          },
+          {
+            headline: "Ashura 2026 — Muharram observed across India, NSE/BSE closed for the national holiday",
+            eli5: "Friday June 26 is Ashura, the 10th day of Muharram — the most significant day of the Islamic lunar calendar. India observed Muharram on June 26 (one day after Saudi Arabia and the UAE, due to the moon-sighting difference in the Indian subcontinent). The Government of India listed June 26 as a gazetted public holiday. NSE, BSE, all central government offices, banks and post offices were closed. Muharram holds different significance for Sunni and Shia Muslims: for Sunni Muslims, Ashura commemorates the day God saved the Prophet Musa (Moses) and the Israelites from Pharaoh — observed through fasting and prayer. For Shia Muslims, Ashura marks the martyrdom of Imam Hussain ibn Ali — the Prophet Muhammad's grandson — at the Battle of Karbala in 680 CE, observed through mourning processions, the wearing of black, and solemn remembrance. India is home to one of the largest Shia Muslim populations outside Iran and Iraq.",
+            whyItMatters: "Muharram's significance extends beyond the religious calendar. The Battle of Karbala — which Ashura commemorates — has been one of the defining events in Islamic history for 1,346 years, shaping the Sunni-Shia theological and political divide that influences geopolitics across the Middle East, South Asia and Central Asia to this day. For the non-Muslim Indian investor, understanding the Islamic calendar's major events is practically useful: Eid-ul-Fitr, Eid-ul-Adha, and Muharram are the three most significant market-closure dates for NSE/BSE outside of the Hindu and national holiday calendar. Knowing when these closures occur — and that they shift year-to-year with the lunar calendar — is a basic market literacy data point."
+          }
+        ]
+      },
+      {
+        name: "💸 What's happening with money?",
+        color: "#a8edcb",
+        stories: [
+          {
+            headline: "Markets closed today — a weekend ahead and a week of striking volatility in the books",
+            eli5: "NSE and BSE are closed today, Friday June 26, for Muharram / Ashura. The last closing prices for this trading week were Thursday June 25's Sensex 77,100 and Nifty 24,056. The week produced one of the most striking volatility sequences in recent memory: Monday +400 pts (geopolitical relief), Tuesday -893 pts (weak PMI data), Wednesday +791 pts (Senate war powers vote, de-escalation), Thursday +109 pts (crude at $72/bbl, auto rally). Net for the week: Sensex +0.4%, Nifty barely changed. Maximum drama, minimum net movement — a reminder that weekly volatility does not always translate into directional change. The Iran ceasefire remains fragile: CENTCOM strikes overnight re-introduced oil price risk. The week ahead (starting Monday June 29) will re-open into a potential oil price bounce as markets digest the June 25-26 Hormuz escalation.",
+            whyItMatters: "A market holiday is a natural pause to reflect on the week's macro narrative. The week of June 22-26 demonstrated compactly: (1) geopolitical events drive short-term sentiment but not necessarily fundamentals; (2) domestic data (PMI) matters more than global events for sustained direction; (3) crude oil is India's most important macro variable — every $10/bbl swing generates enormous ripple effects through inflation, fiscal deficit, rupee and RBI policy. The long Muharram weekend (Friday June 26 through Sunday June 28) gives investors time to reset before markets reopen Monday June 29, carrying the Iran-Hormuz risk renewed by CENTCOM's overnight strikes."
+          }
+        ]
+      }
+    ]
+  },
+  markets: {
+    globalPulse: {
+      eli5: "Markets are closed today for Muharram / Ashura. The last trading data: Sensex 77,100, Nifty 24,056 (Thursday June 25 close). The week-ahead risk has shifted: CENTCOM struck Iranian coastal sites overnight (June 26) after Iran's drone attack on the Ever Lovely, and Iran retaliated by targeting US Gulf bases. Brent crude, which had fallen to $72/bbl on Thursday, will likely open the coming week higher as the ceasefire fragility reprices the oil risk premium. For Indian investors resuming on Monday June 29: watch Brent closely — the range between $72 (full ceasefire) and $90+ (renewed conflict) defines the band for Indian fiscal, inflation and equity sentiment. This session's halal watchlist carries Thursday's close and introduces auto stocks from a different angle — the passenger vehicle and EV transition story — with HDFC Bank as the conventional banking teaching contrast (continued from d260625).",
+      keyThings: [
+        "NSE/BSE closed today — Muharram national holiday (Ashura, 10th Muharram 1448 AH)",
+        "Last close: Sensex 77,100 / Nifty 24,056 (Thursday June 25)",
+        "Week-ahead risk: CENTCOM struck Iran overnight (June 26) → Iran retaliates on Gulf bases → Brent crude risk premium returning",
+        "Brent crude: fell to ~$72/bbl Thursday, likely to bounce Monday on Hormuz escalation news",
+        "Iran-Lebanon: trilateral framework signed June 26 in Washington; Hezbollah rejected it immediately",
+        "Week summary: Sensex +0.4% net despite ±893pt swings — maximum volatility, minimum net direction"
+      ]
+    },
+    indianMarket: {
+      eli5: "No trades today. The halal watchlist pivots to consumer names that benefit structurally from India's rising middle class and are positioned for the EV transition, without any of the impermissibility complications of financial intermediaries or sin industries. Tata Motors (through Tata Motors Passenger Vehicles and its majority ownership of Tata Motors' EV business) is India's leading EV company. Maruti Suzuki (covered June 25) holds over 40% market share in passenger vehicles. This session introduces the halal contrast for conventional banking — carrying forward the HDFC Bank screen from the prior session — while rotating the teaching to a new category.",
+      breakouts: [
+        {
+          name: "Tata Motors — Passenger Vehicles / EV Play (NSE: TATAMOTORS)",
+          halal: true,
+          buyPrice: "Rs.750",
+          sellPrice: "Rs.850",
+          stopLoss: "Rs.700",
+          whyExciting: "Tata Motors is India's largest EV manufacturer through its Nexon EV, Punch EV, Tiago EV and upcoming Harrier EV/Safari EV lineup. Its Jaguar Land Rover (JLR) UK subsidiary is a global luxury automotive brand undergoing its own electric transition (Range Rover Electric, Defender Electric). Automotive manufacturing — vehicles, components, powertrains — is entirely permissible under Islamic screening. Tata Motors has been India's EV pioneer: it held over 60% of India's EV market through FY25 and only recently saw market share pressure from M&M's new BE 6 and XEV 9e. The JLR recovery has been strong: JLR posted record profits in FY25-26, driven by strong demand for Range Rover and Defender models in the US and UK. Lower crude oil globally: one tailwind. India's EV penetration still under 5% of passenger vehicle sales: the structural runway is decade-long. Entry above Rs.750 targets the Rs.850 zone.",
+          risk: "Tata Motors is a conglomerate with multiple divisions — commercial vehicles, passenger cars, JLR — each with different cycle exposure. JLR supply chain issues and semiconductor dependencies have historically caused earnings misses. The EV market share pressure from M&M is real and intensifying. The company's balance sheet carries more debt than a simple halal filter would prefer — investors should check the debt-to-equity ratio for stricter screening. Honour the Rs.700 stop."
+        },
+        {
+          name: "Titan Company (NSE: TITAN)",
+          halal: true,
+          buyPrice: "Rs.3,500",
+          sellPrice: "Rs.3,900",
+          stopLoss: "Rs.3,280",
+          whyExciting: "Titan Company — a Tata Group subsidiary — is India's largest branded jewellery (Tanishq), watches (Titan, Fastrack), and eyewear (Titan Eyeplus) company. It is one of India's most trusted consumer brands, with a business model built on branded, aspirational goods that benefit from India's rising income levels and shift from unorganised to organised retail. Selling jewellery, watches and eyewear is permissible under Islamic screening. Titan's Tanishq business has consistently outgrown the overall jewellery market by converting unorganised purchases to branded, hallmarked gold jewellery — a structural trend that will continue for years. The stock benefits from gold price movements (higher gold prices inflate jewellery revenue), from consumer sentiment improvements, and from India's growing middle class. Entry above Rs.3,500 targets Rs.3,900.",
+          risk: "Titan is premium-priced relative to its growth, trading at elevated PE multiples that price in many years of future growth. A gold price correction could hurt the jewellery segment's revenue and margins simultaneously. Consumer discretionary spending is sensitive to economic slowdowns. The watches and eyewear segments face international competition. The entry-level (Fastrack) segment is under pressure from value brands. Respect the Rs.3,280 stop."
+        },
+        {
+          name: "Nestle India (NSE: NESTLEIND)",
+          halal: true,
+          buyPrice: "Rs.2,430",
+          sellPrice: "Rs.2,700",
+          stopLoss: "Rs.2,280",
+          whyExciting: "Nestle India — the Indian subsidiary of Nestle SA Switzerland — manufactures and sells foods and beverages across India: Maggi noodles (India's #1 instant noodle brand), KitKat, Munch, Milkmaid, Milo, Nescafé, and multiple dairy and nutrition products. Food manufacturing is permissible (excepting any alcohol or pork-based products, of which Nestle India has none in its India portfolio). Nestle India has one of the most consistent earnings track records in the Indian consumer staples sector — a near-all-weather business that sells essential-adjacent food items regardless of macro conditions. The FMCG sector was a relative outperformer on June 25 as markets consolidated. Nestle India specifically gained 1.97% on June 25 and is positioned as a defensive allocation alongside the more volatile auto plays. Entry above Rs.2,430 targets Rs.2,700.",
+          risk: "Nestle India is expensive by almost every valuation metric — its consistency is priced in. Raw material cost inflation (wheat, dairy, palm oil) directly hits margins. The Maggi brand was severely damaged by the 2015 safety crisis and recovered, but regulatory risk for food companies is real. Currency exposure through royalties to Nestle SA Switzerland. Respect the Rs.2,280 stop."
+        },
+        {
+          name: "Yes Bank (NSE: YESBANK) — the teaching contrast (NOT halal under standard screening)",
+          halal: false,
+          buyPrice: "N/A — flagged for banking screen",
+          sellPrice: "N/A",
+          stopLoss: "N/A",
+          whyExciting: "Yes Bank is this week's teaching contrast for the conventional banking screen — different from HDFC Bank (June 25) to show that the screen applies across the quality spectrum of banks, not just to premium names. Yes Bank nearly collapsed in March 2020 when the RBI placed it under a moratorium and orchestrated an SBI-led rescue. It has since rebuilt under new management. The Islamic finance screening point: Yes Bank's core business remains interest-based lending (riba), identical to HDFC Bank's. The fact that Yes Bank is recovering from a near-insolvency (while HDFC Bank is India's strongest private bank) does not change the screen outcome in either direction. Both fail the riba screen. The halal filter is not a credit quality filter — it is a business model filter. A strong bank and a weak bank both fail if their revenue model is interest-based.",
+          risk: "The teaching risk: a student might think 'Yes Bank is so distressed it might be worth speculating on.' The halal screen eliminates this question at the first gate — regardless of how the credit recovery story unfolds, the business model is the screen criterion. Separately, Yes Bank's fundraising discussions and uncertain profitability trajectory make it a genuine risk even outside the halal context."
+        }
+      ],
+      ipoSpot: {
+        name: "CSM Technologies IPO — subscription window remains open through June 29 (markets reopen Monday)",
+        verdict: "Monitor",
+        eli5: "CSM Technologies' IPO subscription window runs through Sunday June 29 (reopening after the Muharram holiday break). The price band is Rs.107-113 per share with a minimum lot of 132 shares. This is a gazetted-holiday weekend for NSE/BSE — Monday June 29 is the first trading day after the Muharram break. Before participating in any IPO, a halal-conscious investor should review: (1) business activity screen (IT services for e-governance — generally permissible), (2) financial ratios screen (debt-to-equity, interest income percentage — check the prospectus), and (3) the allotment lottery element — IPO allotment via lottery is a feature of Indian market design, not a gambling element, and is generally not considered impermissible by most Islamic finance scholars."
+      },
+      lessonOfDay: {
+        title: "The Islamic Calendar — How the Lunar Year Shapes Indian Market Closures",
+        story: "India's NSE and BSE maintain a holiday calendar that includes both solar (Gregorian) and lunar (Islamic and Hindu) calendar events. The Islamic lunar calendar (Hijri calendar) has 12 months of 29 or 30 days each, making the Islamic year approximately 11 days shorter than the solar year. This means Islamic holidays drift backward through the solar calendar by about 11 days each year — Muharram in 2026 falls in June; by 2030 it will fall in spring. The three most significant market-closing Islamic observances in India are: Muharram (Ashura, 10th Muharram), Id-ul-Fitr (end of Ramadan), and Id-ul-Adha (Eid of sacrifice during Dhul Hijjah). Understanding when these fall in the coming year requires knowing the Islamic calendar — apps like IslamicFinder or almanacs published by the Majlis Tahqiqat are reliable sources. This is not merely trivia: institutional investors manage liquidity around these closures, and retail investors should plan their trades accordingly rather than being caught by surprise on a holiday.",
+        mnemonic: "Islamic (Hijri) calendar: lunar, 12 months, ~354 days/year — 11 days shorter than solar year. Holidays drift backward each year. India NSE/BSE closes for: Muharram (Ashura), Id-ul-Fitr, Id-ul-Adha. 2026: Muharram = June 26. 2027 = ~June 15. 2028 = ~June 4. Plan trades; don't be caught by surprise."
+      }
+    },
+    quiz: [
+      {
+        q: "Why does Muharram (Ashura) fall on different dates each year in the Gregorian calendar?",
+        options: [
+          "Because the Indian government moves the holiday each year for convenience",
+          "Because the Islamic Hijri calendar is lunar — approximately 354 days/year, 11 days shorter than the 365-day solar year — so Islamic holidays drift backward through the Gregorian calendar by about 11 days annually",
+          "Because Ashura depends on global moon sighting and is different in every country every year",
+          "Because the Islamic calendar adds a leap month every three years"
+        ],
+        answer: 1,
+        funFact: "The Gregorian calendar adds a leap day (Feb 29) every 4 years to synchronise with the solar year. The Islamic Hijri calendar has no such correction — it is a pure lunar calendar. Over a 33-year cycle, the same Hijri date moves through an entire Gregorian year. This means Ramadan, Eid, and Muharram experience every season over a 33-year period — including falling in summer (long fasting days) and winter (short fasting days)."
+      },
+      {
+        q: "What is the business model distinction that causes Yes Bank to fail the halal screen even though it is recovering from a crisis?",
+        options: [
+          "Yes Bank fails because it is associated with financial fraud",
+          "Yes Bank's core revenue model — earning interest income on loans (net interest margin) — is riba under Islamic finance principles, which is impermissible regardless of the bank's financial health, credit quality, or management story",
+          "Yes Bank fails because it is too small for halal portfolios",
+          "Yes Bank is only temporarily excluded due to its recent crisis"
+        ],
+        answer: 1,
+        funFact: "The halal screen on banking is categorical: the business model of earning a predetermined fixed return on loaned capital (riba) is the definition of what Islamic finance prohibits. This applies equally to the most prestigious bank (HDFC Bank, JPMorgan Chase) and the most distressed bank (Yes Bank in 2020). The quality of management, the credit story, or the regulatory outcome does not change the business model screen."
+      },
+      {
+        q: "What does CENTCOM's 'calibrated course correction' framing for the June 26 strikes mean strategically?",
+        options: [
+          "That the US was admitting it had made a mistake in the ceasefire",
+          "That the strikes were deliberately scoped to be large enough to deter further Iranian attacks on shipping while small enough not to fully restart the broader conflict — a precise escalation designed to reinforce one principle (freedom of navigation) without triggering the ceasefire's complete collapse",
+          "That CENTCOM was operating independently of the White House",
+          "That the strikes were symbolic and not intended to cause damage"
+        ],
+        answer: 1,
+        funFact: "The language 'calibrated response' is standard in military operations designed to communicate something specific to the adversary: 'we will respond proportionally to each provocation, so you can control the level of conflict by controlling your own actions.' The risk is that the adversary may not receive or accept this logic — as Iran's immediate retaliation on US Gulf bases demonstrated. Calibrated responses can either de-escalate (the intended outcome) or lock both parties into an escalation ladder."
+      }
+    ]
+  },
+  psychology: {
+    mindTrick: {
+      name: "The Spotlight Effect — We Overestimate How Much Others Notice Us",
+      eli5: "The spotlight effect, studied extensively by Thomas Gilovich and Kenneth Savitsky at Cornell University, is the tendency to overestimate the extent to which other people notice and remember our appearance, behaviour, mistakes and achievements. In one classic experiment, participants were asked to wear an embarrassing t-shirt (with Barry Manilow's face on it) into a room of other students and estimate how many people noticed. They estimated around 50% — the actual proportion who noticed was less than 25%. We feel like we are in a spotlight: every stumble, awkward pause, unfortunate outfit choice, or social blunder feels magnified. But other people are too busy thinking about themselves — and their own spotlights — to notice. This asymmetry is universal and persistent: even when people know about the spotlight effect intellectually, they still feel it emotionally in the moment.",
+      realLife: "The spotlight effect shapes social anxiety, career decisions, and communication confidence. A presenter who stumbles over a word during a meeting feels the entire room has noticed and judged them — but most listeners have already moved on. A negotiator who makes an awkward pause assumes the other party interprets it as weakness — but the other party may not have registered it at all. The practical application: when you make a mistake in a professional or social context, your subjective sense of how bad it was is systematically inflated. Others are almost certainly less aware of it than you are. This is not permission for sloppiness — it is permission to recover without catastrophising.",
+      mnemonic: "Spotlight effect (Gilovich & Savitsky, Cornell): we overestimate how much others notice us. Barry Manilow t-shirt experiment: estimated 50% noticed, actual ~25%. Others are too busy with their own spotlight to notice yours. Practical use: professional mistakes feel worse than others perceive them. Recover without catastrophising."
+    },
+    quiz: [
+      {
+        q: "What is the spotlight effect in social psychology?",
+        options: [
+          "The tendency to focus on the most visually prominent person in a room",
+          "The systematic overestimation of how much other people notice and remember our actions, appearance, mistakes, and achievements — driven by the fact that we are the centre of our own experience but not of others'",
+          "The tendency for leaders to attract more social attention than subordinates",
+          "The anxiety caused by public speaking or performing"
+        ],
+        answer: 1,
+        funFact: "Gilovich and Savitsky's research also found a related phenomenon: the 'illusion of transparency' — the tendency to think our internal states (nervousness, confusion, disagreement) are more visible to others than they actually are. A nervous presenter who feels their anxiety is obvious is typically overestimating how detectable it is. Both effects stem from the same root: anchoring on our own vivid inner experience and failing to adequately adjust for others' limited external view."
+      },
+      {
+        q: "Why does the spotlight effect persist even in people who know about it intellectually?",
+        options: [
+          "Because people forget the research findings under social pressure",
+          "Because it is driven by an emotional and automatic process — the felt sense of being observed is immediate and visceral, while the rational correction ('actually, they are not noticing') requires deliberate effortful thinking that is hard to access in the moment",
+          "Because the spotlight effect is only relevant for extroverts",
+          "Because knowing about the effect makes it stronger"
+        ],
+        answer: 1,
+        funFact: "This gap between intellectual knowledge and emotional experience is studied in what researchers call the 'hot-cold empathy gap' — when we are in an emotionally hot state (embarrassed, anxious, excited), we systematically underestimate how differently our cognitive processes work compared to a cool state. Knowing about the spotlight effect in a cool state does not fully prepare us for its emotional force when it activates in a hot state."
+      },
+      {
+        q: "How does the spotlight effect explain why public mistakes feel catastrophic but are often forgotten quickly?",
+        options: [
+          "Because people develop amnesia about social events",
+          "Because we experience our own mistake from the inside — with full emotional salience and narrative — while observers experience it from the outside, where it is one brief moment among many, quickly replaced by their own thoughts and concerns",
+          "Because social norms prevent people from discussing others' mistakes",
+          "Because mirrors make people more self-conscious than they otherwise would be"
+        ],
+        answer: 1,
+        funFact: "The research on 'transience' in memory by Daniel Schacter shows that episodic memories (specific events) fade rapidly for most people. A social mistake that feels permanent and defining for the person who made it is typically a faint memory for observers within a week and often completely gone within a month. The person carrying the mistake in vivid detail for years is experiencing a spotlight effect long after the social spotlight has moved on."
+      }
+    ]
+  },
+  leadership: {
+    leaderMove: {
+      name: "Extreme Ownership — Jocko Willink's Principle That Leaders Own Everything in Their Domain",
+      story: "Jocko Willink, a retired US Navy SEAL officer and author of Extreme Ownership (with Leif Babin, 2015), articulates a leadership principle he calls 'extreme ownership': a leader is responsible for everything in their team's environment — every success, every failure, every outcome. There are no excuses, no blame, no 'my team let me down.' If the team fails, the leader failed. This is not a platitude — Willink describes applying it in combat. His SEAL task unit made a friendly-fire mistake in Ramadi, Iraq. Rather than blame the soldier who fired, the chaos of the situation, or inadequate training, Willink told senior leadership: 'I am responsible. It's my fault. Here's what I'm going to do to make sure it doesn't happen again.' Taking that ownership — in front of his superiors and his own team — was counterintuitive in a culture of blame-shifting, but it produced a profound change in the team's accountability culture. The principle scales directly to business: when a team misses a deadline, the leader who blames the team has failed to lead. The leader who asks 'what did I fail to provide — clarity, resources, priorities, training?' and fixes it, builds a team that holds itself accountable.",
+      realLife: "Extreme ownership in practice is not about accepting punishment — it is about removing the 'blame escape valve' that prevents teams from solving problems. When a leader says 'the market conditions caused us to miss revenue,' the team hears 'it is not our fault, we cannot change it.' When a leader says 'I failed to position us correctly for these market conditions — here is my plan to adapt,' the team hears 'we have agency, there is a plan, we can do something.' The shift from external to internal locus of control is the practical consequence of extreme ownership.",
+      mnemonic: "Extreme Ownership (Jocko Willink, 2015): leader owns all outcomes — no excuses, no blame. Ramadi friendly-fire: Willink told superiors 'It's my fault' and presented a fix. Effect: removes blame-escape-valve, builds team accountability. Practical: when team fails, ask 'what did I fail to provide?' not 'who failed to deliver?'"
+    },
+    quiz: [
+      {
+        q: "What does 'extreme ownership' mean in Jocko Willink's framework?",
+        options: [
+          "That team members should own their individual tasks without involving the leader",
+          "That the leader accepts responsibility for all outcomes in their domain — every success and every failure — refusing to blame external factors, team members, or circumstances, and instead asking what they personally could have done differently",
+          "That leaders should own more equity in their companies",
+          "That extreme attention to detail prevents all operational failures"
+        ],
+        answer: 1,
+        funFact: "Willink and Babin's Extreme Ownership has become one of the most widely read leadership books in the military and corporate worlds. A follow-up book, The Dichotomy of Leadership (2018), addresses the paradoxes extreme ownership creates: a leader who takes full responsibility but also empowers the team; a leader who is decisive but checks their ego; a leader who is bold but cautious. The practical insight: extreme ownership is not a single behaviour but a mental model that generates a particular type of leadership behaviour across many situations."
+      },
+      {
+        q: "How does extreme ownership differ from accepting blame?",
+        options: [
+          "They are identical — extreme ownership means accepting blame without excuse",
+          "Extreme ownership is forward-looking: 'here is what I failed to do and here is my plan to fix it' — it is about restoring control and generating a solution, not about self-punishment or performance. Blame is backward-looking; extreme ownership is about changing the future",
+          "Extreme ownership only applies in military contexts",
+          "Accepting blame means the leader is punished; extreme ownership means punishment is avoided"
+        ],
+        answer: 1,
+        funFact: "Willink describes the practical impact of his ownership moment in Ramadi: rather than losing credibility with his team and superiors, he gained it. His superiors knew the situation was complex; what they respected was that he did not deflect. His team saw a leader who did not sacrifice them to protect himself. This counter-intuitive outcome — that taking full responsibility often increases rather than decreases respect — is a consistent finding in organisational psychology on accountability."
+      },
+      {
+        q: "What practical question does extreme ownership replace 'who failed to deliver?' with?",
+        options: [
+          "'Who should be fired?'",
+          "'What did I fail to provide?' — clarity, resources, training, prioritisation, communication — shifting from external attribution (someone else's fault) to internal attribution (what could I have done differently?) that generates actionable solutions",
+          "'What external factors caused the failure?'",
+          "'How do we avoid responsibility?'"
+        ],
+        answer: 1,
+        funFact: "Attribution theory in psychology distinguishes between internal attribution (I caused this outcome) and external attribution (external factors caused this outcome). Research by Carol Dweck and colleagues shows that leaders with internal locus of control consistently outperform those with external locus of control over long periods — not because they are always right, but because they consistently take action to change outcomes rather than waiting for circumstances to change."
+      }
+    ]
+  },
+  wealth: {
+    moneyLesson: {
+      name: "The Coffee Can Portfolio — Own Great Companies and Do Nothing for 10 Years",
+      story: "The Coffee Can Portfolio concept was coined by Robert Kirby, a portfolio manager at Capital Guardian Trust, in a 1984 paper. The name refers to the pre-banking era American West, where people would store their most important assets — cash, jewellery, deeds — in a tin coffee can buried under the mattress and leave it untouched for years. Kirby observed a pattern: when a husband managed the family portfolio, the wife's account (which she ignored for years) consistently outperformed his. Why? Because he was constantly tinkering — selling losers, buying new ideas, rebalancing — while her account simply held whatever was bought a decade ago and compounded. The lesson: for most companies, the damage done by poor timing, transaction costs, and emotional selling dramatically exceeds the value added by any active management. The practical implementation: identify 10-15 companies with durable competitive advantages, strong balance sheets and capable management; invest a fixed amount; put them in a metaphorical coffee can; review in 10 years. Indian examples often cited: HDFC Bank (even with the halal note — the concept illustrates compounding, not specific halal picks), Asian Paints, Pidilite, Nestle India, TCS. In the Indian equity context, Saurabh Mukherjea of Marcellus Investment Managers popularised the coffee can approach for Indian investors with documented outperformance.",
+      mnemonic: "Coffee Can Portfolio (Robert Kirby, 1984): buy great companies, do nothing for 10 years. Name from gold-rush-era settlers burying savings in coffee cans. Observation: passive accounts outperform constantly managed ones via avoiding costs + emotional selling. Indian advocates: Saurabh Mukherjea / Marcellus. Key picks: durable moats, strong balance sheets, patient management."
+    },
+    quiz: [
+      {
+        q: "What observation led Robert Kirby to develop the Coffee Can Portfolio concept?",
+        options: [
+          "That coffee can companies always outperform the market",
+          "That when a husband managed the family portfolio actively, the wife's separately inherited account — which sat untouched for years — consistently outperformed his, because his constant tinkering (selling losers, buying new ideas) destroyed more value through bad timing and costs than he created",
+          "That diversification across 100 stocks produces higher returns than 10 stocks",
+          "That physical asset storage outperforms financial assets over a 10-year period"
+        ],
+        answer: 1,
+        funFact: "Kirby's 1984 paper is titled 'The Coffee Can Portfolio.' He described the husband's portfolio as showing 'considerable evidence of intelligent decision-making' on individual stocks, but the aggregate result was poor compared to the untouched account. This prefigured the entire body of research on active vs passive investing that John Bogle would later use to build Vanguard's index fund empire: the average active manager underperforms the index after fees, not because they pick bad stocks, but because of the costs and timing errors from doing too much."
+      },
+      {
+        q: "Why does doing nothing to a portfolio often produce better returns than active management?",
+        options: [
+          "Because markets always go up, so holding anything for long enough produces gains",
+          "Because active management incurs transaction costs, forces realisation of short-term losses (often at the wrong time), misses the largest return days (which are clustered and unpredictable), and introduces emotional selling at market bottoms — all of which compound negatively over 10 years",
+          "Because inflation makes stocks more valuable automatically",
+          "Because regulators provide benefits to long-term holders"
+        ],
+        answer: 1,
+        funFact: "JP Morgan's 'Guide to the Markets' research shows consistently that missing just the 10 best days in the market over a 20-year period dramatically reduces total returns — often by 50% or more. Since the best days are clustered around market volatility and often follow the worst days, investors who sell during downturns (to avoid losses) frequently miss the recovery's largest gains. The Coffee Can investor, by doing nothing, automatically captures all days — good and bad."
+      },
+      {
+        q: "What makes Nestle India a natural Coffee Can candidate for Indian investors?",
+        options: [
+          "Because it pays the highest dividends in India",
+          "Because it has a decades-long track record of consistent earnings growth driven by durable consumer brands (Maggi, Nescafé, KitKat) with strong pricing power and loyal customers — the type of business that continues compounding quietly without requiring dramatic reinvention or constant monitoring",
+          "Because it is owned by the government which provides stability",
+          "Because its stock price never falls"
+        ],
+        answer: 1,
+        funFact: "Nestle India was listed on Indian exchanges in 1959. An investor who bought Rs.10,000 of Nestle India in 1990 and did absolutely nothing would have seen that investment grow to approximately Rs.25-30 lakh by 2026 (including dividends reinvested), roughly a 2,500-3,000% return. The Maggi crisis of 2015 — when the product was temporarily banned — temporarily cut the stock price by 35%, providing a textbook coffee can test: those who held through the crisis recovered and continued compounding."
+      }
+    ]
+  },
+  communication: {
+    commSkill: {
+      name: "The Rule of Three — Why Humans Remember Best in Sets of Three",
+      story: "The Rule of Three is one of the most ancient and reliably effective principles of rhetoric, writing and communication. Julius Caesar: 'Veni, vidi, vici' (I came, I saw, I conquered). Abraham Lincoln: 'Government of the people, by the people, for the people.' Steve Jobs launching the iPhone: 'An iPod, a phone, and an internet communicator.' The pattern is not coincidental. Human working memory handles approximately three to four items comfortably before cognitive load increases. Three-part structures feel complete — two feels incomplete, four feels excessive. Three also allows the pattern of setup (one), development (two), and resolution (three) that mirrors how we naturally construct and remember narratives. Applied communication: whenever you need to make a case, deliver a briefing, or summarise a complex topic, structure your main points in threes. Not four. Not two. Three. The discipline of forcing yourself into three forces you to prioritise — you cannot hide an unfocused argument inside a list of seven.",
+      realLife: "In investor presentations, the strongest pitch structure: (1) the problem we solve, (2) why we are uniquely positioned to solve it, (3) why now is the moment. In performance reviews: (1) what you did well, (2) where you can improve, (3) what we will do together to get you there. In executive briefings: (1) the situation, (2) the recommendation, (3) the ask. Every time you catch yourself listing more than three items, ask: which three matter most? If all five matter, group them into three categories. The Rule of Three is not a stylistic preference — it is a cognitive architecture choice that makes the listener's brain work less hard to retain what you have said.",
+      mnemonic: "Rule of Three: humans retain sets of three best (Caesar's Veni, vidi, vici; Jobs' iPod + phone + internet; Lincoln's 'of/by/for'). Working memory handles ~3-4 items well. Three = setup + development + resolution. More than three? Group into three categories. Less than three? Feels incomplete. Discipline: naming three forces prioritisation."
+    },
+    quiz: [
+      {
+        q: "Why does the Rule of Three work as a communication and rhetoric device?",
+        options: [
+          "Because ancient Greeks invented it and it became a convention",
+          "Because human working memory handles approximately three to four items comfortably before cognitive load increases — three-part structures align with how the brain naturally groups and retains information, and create a sense of completeness that two items lack and four items exceed",
+          "Because three is a sacred number across many cultures",
+          "Because three is the minimum number required to construct a narrative"
+        ],
+        answer: 1,
+        funFact: "George Miller's 1956 paper 'The Magical Number Seven, Plus or Minus Two' established that short-term (working) memory can hold approximately 7 items (±2). Later research by Nelson Cowan (2001) revised this to approximately 4 chunks for most people in most contexts. Three fits comfortably within both estimates and is small enough that all three items are retrieved simultaneously rather than sequentially — which is why three-part messages feel memorable rather than taxing."
+      },
+      {
+        q: "How can a communicator use the Rule of Three to simplify a complex topic with five or six important points?",
+        options: [
+          "They should always present all five or six points for completeness",
+          "Group the five or six points into three overarching categories — which forces prioritisation and reveals the underlying structure — then present the three categories with supporting details, rather than presenting all points at equal weight in a long flat list",
+          "Present only the three most important points and drop the others entirely",
+          "Convert the five or six points into bullet points so the audience can track them"
+        ],
+        answer: 1,
+        funFact: "The pyramid principle (developed by Barbara Minto at McKinsey in the 1970s) formalises this: every communication should have a single governing thought at the top, supported by exactly three (or very few) supporting arguments, each of which is supported by its own evidence. The structure is fractal — three points, each with three sub-points — but at every level, the brain encounters manageable sets of three rather than unstructured lists."
+      },
+      {
+        q: "What discipline does forcing yourself to use three points impose on the communicator?",
+        options: [
+          "It forces the use of more data and evidence",
+          "It forces prioritisation — you cannot include everything when limited to three, which requires deciding which three things matter most and reveals whether you actually have a coherent argument or are hiding behind the volume of information",
+          "It shortens the presentation, saving time",
+          "It makes the argument more balanced"
+        ],
+        answer: 1,
+        funFact: "Harvard Business School teaching cases often evaluate student analysis by whether it can be reduced to a clear three-part argument structure: what is the problem, what is the solution, why is this solution better than alternatives. A student who presents twelve considerations without a clear framework is often demonstrating analysis without synthesis — the Rule of Three discipline reveals whether synthesis has actually happened."
+      }
+    ]
+  },
+  mind: {
+    technique: {
+      name: "Spaced Repetition — The Science of Reviewing Information at Increasing Intervals to Retain It Permanently",
+      howTo: "Spaced repetition is the most evidence-based method for converting short-term memory into long-term retention. The core insight — discovered independently by Hermann Ebbinghaus in 1885 and later formalised by Sebastian Leitner and digitally implemented in apps like Anki — is that the brain retains information best when it is reviewed at progressively increasing intervals rather than all at once. The forgetting curve is predictable: without review, you forget approximately 50% of new information within 24 hours and 75% within a week. But each time you successfully recall something just before you would have forgotten it, the memory's decay rate slows. The practical method: review new information after 1 day, then 3 days, then 7 days, then 14 days, then 30 days. If you recall it correctly, the interval increases. If you forget it, it resets to 1 day. Anki (free, open-source) automates this scheduling. Each day's review session covers only the cards due that day — typically 15-30 minutes. This is how medical students learn 30,000 drug interactions, how language learners master 10,000 vocabulary items, and how the mnemonics at the end of each Curio Brief section compound into lasting knowledge over months.",
+      mnemonic: "Spaced repetition: review at 1 day → 3 days → 7 → 14 → 30 days. Correct recall = interval increases. Forget = reset to 1 day. Ebbinghaus forgetting curve (1885): 50% forgotten in 24 hrs without review. Anki automates the scheduling (free). Best for: vocabulary, facts, medical knowledge, anything requiring long-term retention. The tool that converts Curio Brief mnemonics into permanent memory."
+    },
+    quiz: [
+      {
+        q: "What is the Ebbinghaus forgetting curve and why does it matter for learning?",
+        options: [
+          "A graph showing that motivation to study decreases over time",
+          "Hermann Ebbinghaus's 1885 discovery that without review, memory decays at a predictable exponential rate — approximately 50% of new information is forgotten within 24 hours and 75% within a week — which means passive reading or listening without active review is largely ineffective for long-term retention",
+          "A psychological model showing how memory improves with age",
+          "A curve showing that information is best retained when studied continuously for many hours"
+        ],
+        answer: 1,
+        funFact: "Ebbinghaus studied his own memory using nonsense syllables — meaningless letter combinations — to isolate pure memory mechanics from meaning. His forgetting curve held even for meaningful information. The good news his research also identified: each successful review significantly flattens the decay rate. A memory that has been successfully recalled five times decays 80% more slowly than a memory recalled once."
+      },
+      {
+        q: "Why is spaced repetition more efficient than massed practice ('cramming')?",
+        options: [
+          "Because spaced repetition spreads the studying workload more evenly",
+          "Because reviewing just before you would forget a memory is the exact point of maximum learning efficiency — it strengthens the memory trace at its weakest and reinforces recall pathways, while cramming reviews memories that are still fresh (requiring little retrieval effort) and produces no long-term trace strengthening",
+          "Because cramming causes anxiety that impairs retention",
+          "Because spaced repetition uses shorter study sessions which are easier to sustain"
+        ],
+        answer: 1,
+        funFact: "The 'testing effect' (also called 'retrieval practice' or the 'desirable difficulty' principle) documented by researchers Henry Roediger and Jeffrey Karpicke shows that the act of retrieval — trying to recall something from memory rather than re-reading it — is itself the mechanism of memory consolidation. Spaced repetition systematically creates retrieval events at the optimal spacing to maximise this effect."
+      },
+      {
+        q: "What is Anki and why is it considered the gold standard spaced repetition tool?",
+        options: [
+          "A Japanese study method requiring handwriting repetition",
+          "A free, open-source flashcard application that implements spaced repetition scheduling automatically — calculating exactly when each card should next be reviewed based on your recall performance — eliminating the need to manually track intervals across hundreds or thousands of cards",
+          "A subscription-based memory improvement programme",
+          "A language learning app similar to Duolingo"
+        ],
+        answer: 1,
+        funFact: "Anki was created by Damien Elmes and first released in 2006. It remains free and open-source. Its algorithm (SuperMemo 2, or SM-2) was developed by Piotr Woźniak in the 1980s. Medical students at top schools routinely maintain 10,000-30,000 Anki cards reviewed daily. The trade-off: the cards must be well-written (each testing a single, specific fact) — poorly structured cards reduce the system's effectiveness significantly."
+      }
+    ]
+  },
+  knowledge: {
+    todayILearned: {
+      name: "The Battle of Karbala — The Event That Divided Islam and Shaped 1,346 Years of History",
+      quickBite: "Ashura commemorates the Battle of Karbala, which took place on the 10th of Muharram, 61 AH (October 10, 680 CE). After the Prophet Muhammad's death in 632 CE, a succession dispute divided the early Muslim community: who would lead the Ummah (Muslim community)? Imam Hussain ibn Ali — the Prophet's grandson, son of Ali ibn Abi Talib and Fatimah — refused to pledge allegiance to Yazid ibn Muawiyah, the Umayyad caliph, whom he considered unjust and unfit to lead. Hussain marched from Medina toward Kufa (in modern Iraq) with approximately 72 companions and family members after receiving letters of support from Kufa's residents. The Umayyad governor Ubayd Allah ibn Ziyad mobilised an army of thousands. At the plain of Karbala, Hussain's small group was surrounded. On Ashura, they were killed. Hussain himself was beheaded. The theological and political divide this created — between those who held that only the Prophet's family (Ahl al-Bayt) could lead the Ummah (Shia Islam) and those who accepted the Umayyad succession (who would become Sunni Islam) — has shaped 1,346 years of Islamic history, geopolitics across the Middle East, South Asia, Central Asia and Africa, and to this day structures the Iran-Saudi Arabia regional rivalry that forms a key backdrop to the 2026 Iran war.",
+      mnemonic: "Battle of Karbala: 10 Muharram 61 AH = October 10, 680 CE. Imam Hussain (Prophet's grandson) vs Yazid (Umayyad caliph). 72 companions vs thousands of soldiers. Hussain refused to pledge to unjust ruler — killed. Created Sunni-Shia divide still shaping geopolitics in 2026. Karbala → Iran (Shia) vs Saudi Arabia (Sunni) → Iran war context."
+    },
+    quiz: [
+      {
+        q: "Why was the Battle of Karbala theologically significant enough to divide Islam into Sunni and Shia traditions?",
+        options: [
+          "Because it was the first battle ever fought between Muslims",
+          "Because it crystallised the question of legitimate Islamic leadership — Hussain's refusal to accept Yazid's authority represented the principle that political legitimacy must be grounded in justice and the Prophet's lineage, while the Umayyad position held that effective political authority was the criterion for obedience",
+          "Because it introduced new Islamic legal principles",
+          "Because it was the battle where the Quran's text was finalised"
+        ],
+        answer: 1,
+        funFact: "The Sunni-Shia split predates Karbala — it began with the question of succession after the Prophet's death in 632 CE. Karbala crystallised and emotionally deepened it. Shia Islam (from 'Shiat Ali' — partisans of Ali) holds that Ali ibn Abi Talib should have been the first caliph; the first three caliphs (Abu Bakr, Umar, Uthman) are considered usurpers of the rightful leadership. Sunni Islam accepts all four rightly guided caliphs. This theological difference was sealed in blood at Karbala."
+      },
+      {
+        q: "How does the Karbala event still shape the 2026 geopolitical landscape?",
+        options: [
+          "It does not — ancient events have no modern relevance",
+          "The Sunni-Shia divide created by Karbala underlies the Iran (majority Shia) vs Saudi Arabia (majority Sunni, Wahhabi leadership) regional rivalry that has proxy dimensions in Yemen, Lebanon, Iraq and Syria — the same axis that structures the 2026 Iran war's regional alliances and opposition",
+          "Karbala is only relevant to religious observance, not geopolitics",
+          "The event shaped only Iraqi politics, not the broader region"
+        ],
+        answer: 1,
+        funFact: "Iran's Islamic Republic (founded 1979) explicitly frames itself as the political inheritor of Hussain's principle — resistance to unjust rule, willingness to sacrifice. This framing — called 'Karbala consciousness' by Iranian ideologues — is woven into the Islamic Republic's founding documents, military culture (the IRGC's symbolism draws extensively from Karbala), and its support for Shia movements across Lebanon (Hezbollah), Yemen (Houthis), Iraq (Popular Mobilization Forces) and Bahrain."
+      },
+      {
+        q: "Why is Ashura observed differently by Sunni and Shia Muslims?",
+        options: [
+          "Because Sunnis and Shia have different Islamic calendars",
+          "Because the day carries two distinct historical commemorations: for Shia Muslims, it is primarily the anniversary of Hussain's martyrdom at Karbala — observed through mourning, processions and remembrance. For Sunni Muslims, Ashura primarily commemorates God saving Prophet Musa and the Israelites from Pharaoh — observed through fasting, following a hadith that the Prophet Muhammad observed this fast",
+          "Because different regions received Islam at different times",
+          "Because the holiday was established at different times in Sunni and Shia communities"
+        ],
+        answer: 1,
+        funFact: "The Prophet Muhammad's observation of Ashura fasting predates the Karbala event by 50 years — he observed it as a Jewish fast day that also commemorated the Exodus narrative. After the Battle of Karbala, Shia Muslims layered the grief of Hussain's martyrdom onto the day, creating the mourning observances distinctive to Shia Ashura practice. Both traditions are authentically Islamic; they reflect different historical and theological emphases rather than contradictions."
+      }
+    ]
+  },
+  ai: {
+    aiTool: {
+      name: "Midjourney — The AI Image Generator Redefining What Visual Creativity Means",
+      whatItDoes: "Midjourney is an AI image generation system — you type a text prompt describing an image, and the model generates four photorealistic or artistic images within seconds. It operates through Discord (or as of 2024+, its own web interface) and has produced some of the most widely discussed AI-generated images in public discourse — including the viral fake Trump arrest images of 2023 and the award-winning 'Space Opera' photograph controversy of 2022. Midjourney's outputs are known for high aesthetic quality, particularly in painterly and photographic styles. Use cases: concept art, book covers, marketing mockups, creative inspiration, visual brainstorming, and producing imagery where professional photography or illustration is too slow or expensive. Technically: Midjourney uses a diffusion model — starting with random noise and progressively refining it toward the target image guided by a text embedding. The model is proprietary and does not release its training methodology or dataset composition publicly. Subscription tiers range from basic ($10/month) to pro ($60/month) for unlimited non-relax generations. Important: all images generated by Midjourney are subject to its Terms of Service — commercial use is permitted on Pro plans, but ownership and copyright of AI-generated images is legally contested territory in multiple jurisdictions.",
+      mnemonic: "Midjourney: text prompt → AI generates 4 images in seconds. Diffusion model (noise → refined image). Known for: high aesthetic quality, painterly + photographic styles. Operates via Discord or web (2024+). Subscriptions: $10-60/month. Commercial use: Pro plan. Copyright of AI images: legally contested globally. Not open-source."
+    },
+    quiz: [
+      {
+        q: "What is a diffusion model in AI image generation?",
+        options: [
+          "A model that diffuses images across multiple social media platforms simultaneously",
+          "A generative AI approach that starts with random noise and progressively removes noise in a direction guided by a text embedding — essentially learning to 'denoise' images trained on a massive dataset until the process generates a coherent image matching the text prompt",
+          "A technique for blending two images together smoothly",
+          "A compression algorithm for reducing image file size"
+        ],
+        answer: 1,
+        funFact: "Diffusion models were formally introduced in the context of image generation in 2020-2021 (DDPM paper by Ho et al., and DALL-E 2 / Stable Diffusion following). They work by training on a dataset of images with progressively added noise — the model learns to predict and remove that noise. At inference time, starting from pure noise, the model removes noise in steps guided by a text embedding, converging on an image. Midjourney, DALL-E 3, Stable Diffusion, and Adobe Firefly all use variants of this architecture."
+      },
+      {
+        q: "Why is the copyright status of AI-generated images legally contested?",
+        options: [
+          "Because the images are too new for any copyright law to apply",
+          "Because copyright law in most jurisdictions protects works created by human authors — AI-generated images without substantial human creative contribution may not meet this threshold, making ownership unclear: is it the model's creator, the prompt writer, or no one?",
+          "Because AI companies have filed patents on all generated images",
+          "Because digital images cannot be copyrighted in any jurisdiction"
+        ],
+        answer: 1,
+        funFact: "The US Copyright Office has ruled (as of 2023-2024) that purely AI-generated images without substantial human creative contribution cannot be copyrighted. However, images where a human made significant creative choices — specific prompt engineering, selection from multiple outputs, post-processing — may qualify. Several court cases are ongoing globally. The EU's AI Act also addresses this. The legal landscape is evolving rapidly and varies by jurisdiction — commercial users of AI-generated images should consult legal counsel."
+      },
+      {
+        q: "For which professional use cases is Midjourney most clearly cost-effective compared to traditional visual production?",
+        options: [
+          "Replacing all photography in all commercial contexts",
+          "Concept visualisation, rapid iteration of visual ideas, marketing mockups, and book/album cover exploration — contexts where speed and volume of visual options matter more than photographic authenticity, and where the AI can produce dozens of explorations in the time a professional photographer would quote a shoot",
+          "Legal documentation requiring authentic photographic evidence",
+          "Medical imaging and diagnostic imagery"
+        ],
+        answer: 1,
+        funFact: "A 2024 study by Harvard Business School found that teams using AI image generation tools (including Midjourney) produced 3-4x more visual concept iterations per unit time and reported higher satisfaction with the creative exploration process. However, the same study found that the AI tools required more skill to use effectively than expected — prompting is itself a creative skill that takes time to develop, often called 'prompt engineering.'"
+      }
+    ]
+  },
+  travel: {
+    destination: {
+      name: "Uzbekistan — The Silk Road's Greatest Cities, Newly Open and Visa-Free for Indians",
+      quickFacts: "Uzbekistan sits in the heart of Central Asia and contains some of the world's most extraordinarily preserved Silk Road architecture. Samarkand, Bukhara and Khiva — three UNESCO World Heritage cities — were for centuries among the most important trade and cultural hubs on earth, at the intersection of Chinese, Persian, Indian, and Arab civilisations. For Indian passport holders: Uzbekistan introduced visa-free entry for Indians in 2019 and it remains in effect — 30 days, extendable. The currency is the Uzbekistani Som (UZS); approximately 13,000 UZS to 1 USD in 2026. Uzbekistan has a majority Sunni Muslim population (87-90%), which means halal food is easily found everywhere — the default food culture is permissible. The cuisine is Central Asian: plov (pilaf — fragrant saffron rice with lamb, carrots and raisins, the national dish), shashlik (skewered grilled meat), samsa (baked pastry filled with meat), and lagman (hand-pulled noodle soup). The architecture is jaw-dropping: the Registan in Samarkand — three great madrasahs surrounding a central square, tiled in turquoise and gold — is one of the most beautiful built environments on earth. Tashkent is the modern capital, with a mixed Soviet and Central Asian character. Best time to visit: April-May and September-October (mild). June is warm to hot (35-40°C in Samarkand), workable with careful planning.",
+      whyNow: "Uzbekistan opened dramatically to tourism after President Shavkat Mirziyoyev's reforms from 2016 onward — simplified visas, restored historic sites, new hotels. It remains significantly less crowded than it will be in 10 years as infrastructure catches up with its extraordinary heritage. Flight connections from India: Air Arabia, FlyDubai and Uzbekistan Airways connect major Indian cities via Dubai/Sharjah to Tashkent, Samarkand, and Bukhara. A 7-day Uzbekistan trip covering Samarkand, Bukhara and Khiva is achievable for $600-900 per person all-in at mid-range standards.",
+      mnemonic: "Uzbekistan: Silk Road heart — Samarkand (Registan), Bukhara, Khiva. All UNESCO. Visa-free for Indians (30 days). UZS ~13,000/USD. 87-90% Sunni Muslim → halal food default. Plov, shashlik, samsa, lagman. Best: Apr-May, Sep-Oct. June: 35-40°C. Connections via Dubai/Sharjah. 7 days all-in: $600-900."
+    },
+    quiz: [
+      {
+        q: "What is the Registan in Samarkand and why is it considered one of the world's great architectural ensembles?",
+        options: [
+          "A Persian palace complex built by the Achaemenid Empire",
+          "A central square framed by three great madrasahs (Islamic schools) — Ulugh Beg (1420), Sher-Dor (1636), and Tilya-Kori (1660) — covered in intricate turquoise, gold and terracotta tile work representing the apex of Timurid Islamic architecture, described by Lord Curzon as 'the noblest public square in the world'",
+          "A Silk Road caravanserai where traders stored goods",
+          "The palace of Timur (Tamerlane), Samarkand's most famous ruler"
+        ],
+        answer: 1,
+        funFact: "Timur (Tamerlane, 1336-1405) made Samarkand the capital of his vast empire stretching from Anatolia to India, and it became one of the wealthiest and most cosmopolitan cities on earth. He brought craftsmen from conquered cities — Persian, Armenian, Indian, Chinese — to build Samarkand's monuments. His grandson Ulugh Beg was a mathematician and astronomer who built an observatory in Samarkand (1420s) and calculated the length of the sidereal year to within 58 seconds of modern measurements — using pre-telescopic instruments."
+      },
+      {
+        q: "Why is Uzbekistan considered a particularly accessible destination for halal-conscious Indian Muslim travellers?",
+        options: [
+          "Because it has the cheapest halal restaurants in Asia",
+          "Because 87-90% of the population is Sunni Muslim, making halal food the cultural default — most restaurants serve permissible food without the need for special inquiry or research, and the local plov, shashlik and samsa are all naturally halal-compliant",
+          "Because the Uzbek government requires all restaurants to be certified halal",
+          "Because the Indian Embassy in Tashkent maintains a list of halal restaurants"
+        ],
+        answer: 1,
+        funFact: "Plov — Uzbekistan's national dish, a rich pilaf of rice, lamb, carrots and raisins cooked in a kazan (large cast iron cauldron) — is also culturally significant: in Uzbek tradition, plov is prepared by men for special occasions. A skilled plovchi (plov cook) is a respected title. UNESCO inscribed the social and cultural practice of plov preparation in Uzbekistan on its Intangible Cultural Heritage list in 2016."
+      },
+      {
+        q: "What was the Silk Road and why were Samarkand and Bukhara so central to it?",
+        options: [
+          "A single trade route connecting Rome and China by land",
+          "A network of overland and maritime trade routes connecting China, Central Asia, the Middle East, India and Europe from roughly 2nd century BCE to the 15th century CE — Samarkand and Bukhara sat at the crossroads of the major arteries and functioned as entrepôt cities where goods, ideas, religions and technologies were exchanged between civilisations",
+          "A road built specifically for transporting silk from China to Persia",
+          "A cultural programme established by UNESCO to preserve Silk Road heritage"
+        ],
+        answer: 1,
+        funFact: "The term 'Silk Road' was coined by German geographer Ferdinand von Richthofen in 1877 — the actual traders of the era did not call it by this name. The routes carried far more than silk: paper (from China), cotton (from India), glass (from Rome), spices, horses, Buddhism, Islam, Christianity, and the Black Death all travelled these routes. Samarkand was the point where merchants from China, India, Persia, Arabia and the Byzantine Empire would meet to trade — a genuine crossroads of civilisations."
+      }
+    ]
+  }
+}
+
 const ALL_BRIEFS = {
   '2026-06-01': d260601,
   '2026-06-02': d260602,
@@ -7796,6 +8275,7 @@ const ALL_BRIEFS = {
   '2026-06-23': d260623,
   '2026-06-24': d260624,
   '2026-06-25': d260625,
+  '2026-06-26': d260626,
 }
 
 // == DATA END ==
