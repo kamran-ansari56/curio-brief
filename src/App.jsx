@@ -6324,6 +6324,493 @@ const d260622 = {
   }
 }
 
+const d260623 = {
+  news: {
+    segments: [
+      {
+        name: "🌐 What's happening with countries?",
+        color: "#a0d4f5",
+        stories: [
+          {
+            headline: "IMO announces evacuation of 500 ships and 11,000 seafarers stranded in the Persian Gulf",
+            eli5: "On Tuesday June 23, the International Maritime Organization — the UN's shipping regulator — announced an evacuation plan for approximately 500 to 600 ships carrying around 11,000 seafarers who had been stranded in the Persian Gulf since the Iran-US conflict disrupted Hormuz passage months earlier. The plan would coordinate with both Iran and Oman to safely guide vessels through the strait now that a ceasefire framework was in place. One vessel — Bangladesh's MV Banglar Joyjatra, a bulk carrier that had been stranded for 4.5 months — became a symbol of the crisis when it successfully cleared the strait at 3:00am BST on June 23, one of the first to do so. The sheer scale of the backlog — 500+ ships, seafarers from dozens of countries who had been unable to leave — had been largely invisible to global media during the conflict's peak. The IMO called the successful coordination 'an important step in normalising maritime commerce.'",
+            whyItMatters: "The Hormuz crisis had a human face that markets often missed: tens of thousands of sailors stranded on ships in dangerous waters, unable to be relieved or return home, while their vessels' cargo sat inaccessible. This is what a chokepoint disruption actually looks like at the human level, not just the price-per-barrel level. The evacuation plan is a reminder that shipping is not just a supply-chain abstraction — it depends on real people under real contracts in real vessels. For anyone thinking about global trade, this is the hidden fragility: one geopolitical flashpoint can freeze supply chains and trap thousands of workers for months, with the consequences only becoming visible to markets as a price signal, not a human story.",
+            mnemonic: "June 23 = IMO announces evacuation of 500-600 ships, 11,000 seafarers stranded in Persian Gulf since Hormuz crisis. MV Banglar Joyjatra (Bangladesh) — stranded 4.5 months — clears the strait at 3am. Shipping is people, not just prices."
+          },
+          {
+            headline: "Brexit at 10: A decade on, the UK reflects on the most consequential vote in modern British history",
+            eli5: "June 23, 2026 is the tenth anniversary of the Brexit referendum — the June 23, 2016 vote in which 51.9% of British voters chose to leave the European Union. PBS NewsHour, the BBC and dozens of British media organisations marked the anniversary on June 23, 2026 with assessments of the decade. The UK formally left the EU on January 31, 2020, and trade relationships were set by the Trade and Cooperation Agreement in December 2020. Ten years on, economists broadly find: UK goods trade with the EU is meaningfully lower than it would have been, services trade is more complicated, immigration patterns have shifted (EU migration down sharply, non-EU migration up sharply), and UK GDP growth has underperformed comparable economies since 2016. Political debate about the long-term costs and benefits continues to be fiercely contested, with supporters pointing to regulatory freedom and opponents pointing to trade friction costs.",
+            whyItMatters: "Brexit is one of the most studied democratic decisions in modern history — a referendum that a narrow majority chose, whose consequences are still unfolding a decade later. The lesson for any long-term investor or policy thinker is the distinction between REVERSIBILITY and IRREVERSIBILITY in big decisions. Brexit was partly chosen on emotional and short-term grounds; the long-term structural changes — trade patterns, investment flows, immigration — take years or decades to become visible. Any major irreversible decision deserves extra scrutiny precisely because the feedback loop is long and slow. By the time the data proves a ten-year-old decision wrong, you cannot undo it easily. This applies to trade policy, education policy, and personal decisions about careers or commitments equally.",
+            mnemonic: "June 23, 2026 = 10 years since Brexit referendum (June 23, 2016; 51.9% Leave). UK GDP underperformed peers; EU goods trade lower; EU migration down, non-EU up. Lesson: big irreversible decisions have slow feedback loops — the consequences arrive decades after the vote."
+          },
+          {
+            headline: "Ronaldo scores at six different World Cups — Portugal thrash Uzbekistan 5-0",
+            eli5: "On Tuesday June 23 in Houston, Cristiano Ronaldo became the first man in history to score a goal at six different FIFA World Cups. His right-footed strike in the sixth minute off a pass from Nuno Mendes opened the scoring; a second goal from a Bruno Fernandes through ball made it a brace. Nuno Mendes added a direct free kick (Portugal 2-0), an Uzbekistan own goal made it 4-0, and Rafael Leão rounded it out at 5-0. Ronaldo is 41 years old. He also became the second-oldest player ever to score in a men's World Cup. His journey: 2002, 2006, 2010, 2014, 2018, 2022, and now 2026. In a separate match, England were held to a frustrating 0-0 draw by Ghana in Foxborough — generating 19 shots but failing to score. England's 79% possession in a 0-0 is the highest for any team that failed to score in the last 60 years at a World Cup. Croatia beat Panama 1-0; Colombia defeated DR Congo 1-0.",
+            whyItMatters: "Ronaldo at 41 scoring at a sixth World Cup is a data point that cuts through the conventional wisdom about athletic careers. The standard narrative says elite football performance peaks in the mid-to-late twenties and declines sharply after thirty. Ronaldo is a studied counterexample — sustained by extreme discipline in training, diet, recovery, and sleep, documented extensively in his career. This is not merely a sports story; it is a case study in what peak performance maintenance looks like at the highest level across an unusually long career. The contrast with England's frustration — 19 shots, 79% possession, zero goals — is also instructive: domination of a match by process metrics (shots, possession) does not automatically produce outcomes. Outcome efficiency matters as much as volume.",
+            mnemonic: "June 23 = Ronaldo scores at 6 different World Cups — first man ever. Age 41. Portugal 5-0 Uzbekistan. England 0-0 Ghana — 19 shots, 79% possession, zero goals (highest possession in a 0-0 in 60 years). Volume of attempts ≠ outcomes."
+          }
+        ]
+      },
+      {
+        name: "💸 What's happening with money?",
+        color: "#a8edcb",
+        stories: [
+          {
+            headline: "Sensex crashes 893 points as IT and metals lead a broad selloff — weak PMI data the trigger",
+            eli5: "After Monday's gap-up relief rally, Tuesday June 23 gave it all back and more. The Sensex dropped 893.39 points (1.16%) to close at 76,200.68 and the Nifty 50 fell 278.80 points (1.16%) to 23,824.10. Market breadth was decisively negative: 2,678 stocks declining against only 1,420 advancing. The proximate trigger was India's flash PMI data showing private sector activity at a three-month low — services activity at its slowest in 17 months, manufacturing growth at a three-month low. Metal stocks were the biggest laggards as global commodity markets weakened. IT stocks remained under pressure despite Monday's bounce, weighed down by concerns that the US Fed could hike rates later in 2026 to address stronger economic data — which would weigh on global technology spending. Banking and consumer durables also fell. Pharma was a rare pocket of strength, buoyed by news that the US FDA had reached out to Indian pharmaceutical companies about supply of a critical cancer-treatment drug.",
+            whyItMatters: "Tuesday's crash after Monday's rally is a classic illustration of the difference between sentiment-driven bounces and fundamental turning points. Monday's gap-up was entirely driven by geopolitical relief (cheaper oil, Hormuz deal) — it changed the macro backdrop but not the underlying earnings concerns for IT and metals. Tuesday's PMI data reintroduced the structural concern: Indian services growth at a 17-month low is a domestic signal that consumer and business spending momentum is softening. The lesson is to distinguish between a change in NEWS FLOW (which drives short-term sentiment swings) and a change in FUNDAMENTALS (which drive sustained re-ratings). Cheaper oil helps India's macro, but it does not fix a slowdown in services demand.",
+            mnemonic: "June 23 = Sensex -893 to 76,200; Nifty -278 to 23,824. India PMI: services 17-month low, manufacturing 3-month low. IT + metals led losses. Pharma resilient. Sentiment bounce ≠ fundamental turn — news-flow relief reverses once macro data reasserts."
+          },
+          {
+            headline: "Infosys AGM: AI revenue hits $1 billion run rate — Nilekani sees $300-400 billion opportunity by 2030",
+            eli5: "On June 23, Infosys held its 45th Annual General Meeting. Chairman Nandan Nilekani made the headline announcement: Infosys has crossed the $1 billion mark in annualised AI services revenue — a milestone in its pivot toward being an 'AI-first' enterprise. CEO Salil Parekh had previously reported FY26 full-year revenue of $20.158 billion (up 3.1% in constant currency), with large deal wins of $14.9 billion. At the AGM, Nilekani framed the AI opportunity: Infosys sees a $300-400 billion market in AI-first enterprise services by 2030, and believes AI is a force multiplier for adaptive firms rather than a threat to the services model. The company has deployed AI-led programmes across 90% of its top 200 clients. Infosys shares would be in focus on Wednesday June 24 as markets digested the news.",
+            whyItMatters: "The $1 billion AI revenue milestone is significant because it validates that enterprise AI spending is moving from pilots to scaled deployment — which is the transition Indian IT has been waiting for and which Accenture's guidance warned might be slower in some geographies. Infosys's $14.9 billion deal wins in FY26 show that the pipeline is there; the $1 billion AI run-rate shows it is converting. But the broader lesson from Nilekani's framing is about competitive positioning under technological disruption: the firms that win in AI disruption are not necessarily the ones that resist it or fear it, but those that move fastest to reposition. The $300-400 billion market estimate is one analyst's view, but the direction — AI reshaping enterprise services — is well-established consensus."
+          }
+        ]
+      }
+    ]
+  },
+  markets: {
+    globalPulse: {
+      eli5: "Tuesday June 23 reversed Monday's optimism sharply. India's flash PMI data came in weak — services at a 17-month low, manufacturing at a 3-month low — delivering a domestic signal that the geopolitical relief rally had no earnings foundation beneath it. Sensex fell 893 points to 76,200 and Nifty dropped 278 to 23,824. Globally, metal prices continued softening as commodity markets weakened. IT remained under pressure despite Monday's bounce. The US Fed rate-hike risk returned to the foreground as stronger US economic data fuelled expectations the Fed might hike later in 2026 — which would hurt dollar-denominated tech spending globally. The Indian market closed June 26 for Muharram (a public holiday), making the week a four-session week for NSE/BSE traders. The halal setup this week rotates to industrial and aerospace defence names distinct from last week's basket.",
+      keyThings: [
+        "Sensex: 76,200 (-893 pts, -1.16%) — broad selloff after PMI data showed domestic growth losing momentum",
+        "Nifty 50: 23,824 (-278 pts, -1.16%) — market breadth: 2,678 declining vs 1,420 advancing",
+        "India PMI: services 17-month low, manufacturing 3-month low — domestic demand softening signal",
+        "IT & Metals: biggest laggards — global tech selloff + commodity weakness combined",
+        "Pharma: rare strength — US FDA contact with Indian pharma on cancer drug supply created sector interest",
+        "Market holiday: NSE/BSE closed June 26 for Muharram — four-session trading week"
+      ]
+    },
+    indianMarket: {
+      eli5: "The June 23 crash gave back Monday's gap-up entirely and then some. The framing for this week's halal watchlist shifts: after three consecutive weeks anchored in naval shipbuilding and pure-play defence electronics (BEL, Mazagon Dock, GRSE in d260621; HAL, BDL, Cochin Shipyard in d260622), this week introduces Bharat Forge — the world's second-largest forgings manufacturer and a diversified defence-industrial name. Bharat Forge (NSE: BHARATFORG) provides forged components for both automotive and defence applications; its defence segment is growing rapidly, it has won contracts with the Ministry of Defence for naval gas turbine generators, and it is debt-light relative to its market cap. The halal contrast this week is a gambling-linked company — demonstrating another category of impermissible business activity beyond tobacco and banking.",
+      breakouts: [
+        {
+          name: "Bharat Forge Limited (NSE: BHARATFORG)",
+          halal: true,
+          buyPrice: "Rs.2,080",
+          sellPrice: "Rs.2,320",
+          stopLoss: "Rs.1,960",
+          whyExciting: "Bharat Forge is the world's second-largest forgings manufacturer, headquartered in Pune under the Kalyani Group. It produces high-performance, safety-critical forged components for automotive, aerospace, defence, oil and gas, railways, marine and construction industries. Its defence segment — which includes artillery barrels, gun mounts, components for armoured vehicles, and gas turbine generators for Indian Navy ships — is its fastest-growing division. In June 2026, Bharat Forge won a Rs.425 crore Ministry of Defence contract for 1.25 MW gas turbine generators for Kolkata-class Navy destroyers, confirming its push into marine propulsion under the 'Buy Indian' policy. The business is fundamentally halal-compliant: industrial manufacturing of non-prohibited goods with no interest-based financial operations as a core business. The stock hit its all-time high of Rs.2,167.50 around June 24; the setup targets entry above Rs.2,080 with a Rs.2,320 zone as the reward target, using Rs.1,960 as the stop on a closing basis. The 52-week range spans Rs.1,100 to Rs.2,167, showing a near-doubling of the stock in the past year — carried by strong defence order momentum.",
+          risk: "Bharat Forge's PE ratio at current levels is elevated (90-125x depending on methodology), reflecting high growth expectations already in the price. Its automotive segment — still its largest by revenue — is exposed to global auto-cycle weakness, and any slowdown in vehicle production globally would dent earnings. The defence pipeline is contract-dependent and lumpy. Net profit in Q4 FY26 fell 17.5% year-on-year, signalling some near-term earnings pressure. The stock reached its all-time high this week — buying near all-time highs carries elevated risk. Honour the Rs.1,960 stop."
+        },
+        {
+          name: "Solar Industries India (NSE: SOLARINDS)",
+          halal: true,
+          buyPrice: "Rs.12,400",
+          sellPrice: "Rs.13,800",
+          stopLoss: "Rs.11,700",
+          whyExciting: "Solar Industries India is India's largest manufacturer of industrial explosives and the country's most significant private-sector supplier of defence ammunition — artillery shells, rocket propellants, and warheads for the Indian Army. Industrial explosives (used in mining, construction and infrastructure) are the core business and are permissible under Islamic screening criteria; the company does not produce nuclear weapons or weapons of mass destruction. Its balance sheet is essentially debt-free relative to its cash generation, and it has a multi-year order backlog from both defence and commercial segments. The stock has been a consistent compounder on the back of India's push to indigenise ammunition production. A holding above Rs.12,400 targets the Rs.13,800 zone.",
+          risk: "Solar Industries is a high-multiple stock that prices in a long runway of defence indigenisation. Any slowdown in government defence procurement, policy change, or export restriction can hit the stock disproportionately. Explosives manufacturing is also subject to regulatory and safety-related disruptions. The stock is thinly traded relative to large-cap names, making position sizing discipline critical."
+        },
+        {
+          name: "Astra Microwave Products (NSE: ASTRAMICRO)",
+          halal: true,
+          buyPrice: "Rs.880",
+          sellPrice: "Rs.980",
+          stopLoss: "Rs.830",
+          whyExciting: "Astra Microwave Products is a Hyderabad-based defence electronics company specialising in microwave and Radio Frequency (RF) systems — the radar, electronic warfare and communication modules that go into fighter aircraft, missiles and naval vessels. It is a pure-play defence electronics name with a near-debt-free balance sheet, a multi-year order book driven by India's indigenisation push, and institutional backing from Tata Group. It provides complementary exposure to the broader defence theme alongside Bharat Forge's forging and Solar Industries' ammunition. A hold above Rs.880 targets Rs.980.",
+          risk: "Astra Microwave is a small-cap and relatively illiquid — price moves can be large and fast on thin volumes. Its order book is concentrated in Indian government defence programmes; budget cycle delays translate directly to revenue delays. Position sizing should be smaller than the large-cap anchors in the basket."
+        },
+        {
+          name: "Delta Corp Limited (NSE: DELTACORP) — the teaching contrast (NOT halal)",
+          halal: false,
+          buyPrice: "N/A — excluded on faith grounds",
+          sellPrice: "N/A",
+          stopLoss: "N/A",
+          whyExciting: "Delta Corp is India's only listed casino and online gaming company — it operates casinos in Goa and Sikkim and has an online gaming vertical. It is here to teach the screen, not to trade. Gambling in all its forms — land-based casinos, online gaming for money, sports betting — is explicitly impermissible under Islamic screening criteria. Delta Corp is precisely the category the halal filter is designed to exclude: regardless of how the stock performs, how strong the balance sheet is, or how favourable the regulatory environment for casinos in India looks, it fails the business activity screen at the first gate. The lesson this week: the impermissible category rotates — last week was tobacco (ITC), this week is gambling. Each represents a distinct category of impermissible activity that the screen catches, reminding the investor that the filter is not a single concept but a multi-category framework.",
+          risk: "The educational risk here is rationalisation: 'it's just entertainment.' Gambling is categorised separately from entertainment precisely because it involves financial risk-taking as the mechanism, not as an incidental cost. The halal screen applies the categorical exclusion regardless of how the business describes its product."
+        }
+      ],
+      ipoSpot: {
+        name: "No major Indian IPO listing June 23 — market conditions unfavourable for new issuance",
+        verdict: "Learn",
+        eli5: "With the Sensex down 893 points on the day and India PMI signalling a domestic slowdown, June 23 is not an environment conducive to new IPO listings. This is an important market literacy lesson: IPO issuance is highly cyclical — companies and their bankers time listings to market peaks, not market corrections. The fact that no major listing happened on a down day is not coincidence; it reflects how the IPO pipeline works. When markets are weak, bankers defer listings because the valuation that a company could command in a calm market would not be achievable in a volatile one. Watch for the IPO pipeline to reopen when market breadth recovers."
+      },
+      lessonOfDay: {
+        title: "PMI — The Monthly Pulse Check That Markets Watch Before Earnings",
+        story: "The Purchasing Managers' Index (PMI) is one of the most market-moving data releases in the economic calendar, yet it is often overlooked by retail investors who wait for quarterly earnings instead. Here is what it measures: survey respondents from companies across manufacturing and services answer monthly questions about new orders, output, employment, supplier delivery times, and inventories. They answer with 'Better,' 'Same,' or 'Worse' compared to the previous month. The results are indexed: a reading above 50 means the sector is expanding; below 50 means contracting. June 23's India flash PMI — services at a three-month low and at 17-month lows in some components — moved the market because it is a LEADING INDICATOR. It arrives before quarterly earnings, before GDP data, and before most corporate guidance. It tells you NOW what businesses on the ground are experiencing. When services PMI drops to 17-month lows while the market has just rallied on geopolitical relief, it signals that the rally may have outrun the underlying economic reality. That mismatch — sentiment ahead of fundamentals — is exactly the condition that produces sharp corrections like Tuesday's 893-point fall.",
+        mnemonic: "PMI = Purchasing Managers' Index. Monthly survey: new orders, output, employment. Above 50 = expansion. Below 50 = contraction. Leading indicator: arrives BEFORE earnings and GDP. June 23 flash PMI: India services at 17-month low → market corrects 893 pts. PMI catches what quarterly results confirm months later."
+      }
+    },
+    quiz: [
+      {
+        q: "What is the PMI (Purchasing Managers' Index) measuring?",
+        options: [
+          "The average price of goods purchased by the government",
+          "A monthly survey of business conditions (new orders, output, employment) scored so that above 50 = expansion, below 50 = contraction — a leading indicator that arrives before quarterly earnings",
+          "The performance of purchasing departments at large companies",
+          "Monthly inflation in the manufacturing sector"
+        ],
+        answer: 1,
+        funFact: "PMI surveys are published by IHS Markit (now S&P Global) for most major economies. India's Manufacturing PMI and Services PMI are released monthly. Because they survey what businesses are CURRENTLY experiencing rather than what was reported last quarter, they give markets an early signal — often moving equity indices significantly on release day."
+      },
+      {
+        q: "Why is Delta Corp excluded from the halal picks even though it is a legal, publicly listed company?",
+        options: [
+          "Because it is too small to be worth investing in",
+          "Because its core business is gambling — casino operations and online gaming for money — which is categorically impermissible under Islamic screening regardless of the stock's performance or financial metrics",
+          "Because it is not listed on the NSE",
+          "Because the government is likely to ban casinos"
+        ],
+        answer: 1,
+        funFact: "Delta Corp operates casinos in Goa and Sikkim, which are the two Indian states where land-based casinos are legally permitted. The business is entirely legal under Indian law. But halal screening is not about legality — it is about permissibility under Islamic finance principles, which categorically excludes gambling regardless of jurisdiction or corporate structure."
+      },
+      {
+        q: "Why did Tuesday's market crash almost fully reverse Monday's rally?",
+        options: [
+          "Because Monday's rally was a technical error",
+          "Because Monday's gain was driven by geopolitical sentiment (Hormuz deal, cheaper oil) while Tuesday's PMI data reasserted domestic fundamentals — services at a 17-month low signalled that the macro backdrop had not actually improved",
+          "Because foreign investors sold all their positions overnight",
+          "Because the RBI raised interest rates unexpectedly"
+        ],
+        answer: 1,
+        funFact: "This pattern — a sentiment-driven rally followed by a fundamental-data-driven correction — is one of the most common market sequences. The technical term is a 'dead cat bounce' when the correction follows a larger prior decline, or simply a 'sentiment rally failure' when macro data invalidates it. The Indian market in June 2026 demonstrated it cleanly: geopolitical relief → +400 pts; weak domestic PMI → -893 pts."
+      }
+    ]
+  },
+  psychology: {
+    mindTrick: {
+      name: "Loss Aversion — Why Losses Feel Twice as Painful as Equivalent Gains Feel Good",
+      eli5: "Loss aversion is one of the most replicated findings in behavioural psychology. In the foundational experiments by Daniel Kahneman and Amos Tversky, people required approximately double the gain to accept a bet as the loss they were risking — offered a 50-50 coin flip where you win Rs.200 on heads but lose Rs.100 on tails, most people refuse, even though the expected value is positive. The pain of losing Rs.100 was felt as more intense than the pleasure of gaining Rs.200. This is not rational by standard economic theory — it means people are systematically averse to losses in a way that causes them to take worse decisions. Loss aversion explains why traders hold losing positions too long (to avoid 'realising' the loss), why investors panic-sell at bottoms (the pain of watching losses grow becomes unbearable), and why marketers frame offers as 'don't miss out' rather than 'here is an opportunity.'",
+      realLife: "Loss aversion is everywhere in financial markets. A stock falls from Rs.500 to Rs.350. A rational investor asks: 'Is this stock worth holding at Rs.350?' The loss-averse investor asks: 'How do I get back to Rs.500?' These are completely different questions, and only the first one is relevant. The second one is the sunk cost fallacy powered by loss aversion — the combination that causes investors to hold losers indefinitely. Loss aversion also explains why index funds consistently outperform active stock-pickers: individual investors, driven by loss aversion, sell winners too early and hold losers too long, producing systematically worse outcomes than a simple buy-and-hold strategy. The antidote is the same fresh-start question: 'If I had no position, would I buy this today at this price?'",
+      mnemonic: "Loss aversion: losing Rs.100 feels ~2x as painful as gaining Rs.100 feels good. Kahneman-Tversky. Causes: holding losers too long, selling winners too early, panic-selling at bottoms. Antidote: ask the fresh-start question at CURRENT price, not purchase price."
+    },
+    quiz: [
+      {
+        q: "What did Kahneman and Tversky's experiments demonstrate about loss aversion?",
+        options: [
+          "That people are indifferent between gains and losses of equal size",
+          "That the psychological pain of losing a given amount is approximately twice as powerful as the pleasure of gaining the same amount — causing people to refuse positive expected-value bets that involve any loss",
+          "That people are risk-seeking in all financial decisions",
+          "That losses only feel painful when they exceed 50% of investment"
+        ],
+        answer: 1,
+        funFact: "Kahneman and Tversky won the Nobel Prize in Economics in 2002 for Prospect Theory, which formally models loss aversion. The key formula: the value function is steeper in the loss domain than the gain domain. In practical terms, a Rs.1,000 loss hurts roughly twice as much as a Rs.1,000 gain feels good, for the average person."
+      },
+      {
+        q: "How does loss aversion explain why many retail investors underperform index funds?",
+        options: [
+          "Because retail investors buy more expensive stocks",
+          "Loss aversion causes investors to sell winners too quickly (to lock in gains before they disappear) and hold losers too long (to avoid realising the painful loss) — the opposite of what optimal portfolio management would prescribe",
+          "Because retail investors have smaller portfolios",
+          "Because index funds charge lower fees"
+        ],
+        answer: 1,
+        funFact: "Research by Brad Barber and Terrance Odean showed that the stocks retail investors sell (their winners) subsequently outperform the stocks they hold (their losers) by about 3.4 percentage points over the following year. They called this the 'disposition effect' — directly caused by loss aversion applied to portfolio decisions."
+      },
+      {
+        q: "What is the most effective cognitive antidote to loss aversion in investment decisions?",
+        options: [
+          "Setting a maximum loss limit and never exceeding it",
+          "Asking the fresh-start question: 'If I had no position in this, would I buy it TODAY at the current price?' — forcing evaluation of current value rather than past cost",
+          "Checking portfolio performance only once a year",
+          "Always holding for exactly 12 months before selling"
+        ],
+        answer: 1,
+        funFact: "The fresh-start question is powerful because it removes the psychological anchor of the purchase price. If you would not buy a stock today at Rs.350, you should ask yourself very seriously why you are holding it at Rs.350. The answer 'because I bought it at Rs.500' is loss aversion talking — not analysis."
+      }
+    ]
+  },
+  leadership: {
+    leaderMove: {
+      name: "Psychological Safety — Amy Edmondson's Insight Into Why Smart Teams Fail",
+      story: "Harvard Business School professor Amy Edmondson coined the term 'psychological safety' in 1999 after a counterintuitive finding: in a study of medical teams at hospitals, the highest-performing teams were reporting more errors than the lower-performing ones. Her initial hypothesis — that better teams would make fewer mistakes — was backwards. What she discovered was that higher-performing teams felt safe enough to REPORT and DISCUSS errors openly, while weaker teams concealed errors to avoid blame. The errors were not the signal; the reporting rate was. Psychological safety is the shared belief within a team that it is safe to speak up — to raise concerns, admit mistakes, ask 'stupid' questions, or disagree with a manager — without fear of humiliation, punishment or exclusion. Google's Project Aristotle (a 2-year study of 180 teams at Google published in 2016) confirmed it: psychological safety was the single most important factor in team performance, above talent, above experience, above clarity of roles. When team members feel unsafe, they stay silent on the very information the team most needs to hear.",
+      realLife: "Psychological safety failures have killed people. The Columbia Space Shuttle disaster in 2003 was partly caused by engineers who had concerns about foam strike damage but did not feel safe escalating them. The Boeing 737 Max crashes involved engineers who raised safety concerns internally but were pressured to stay quiet. Conversely, the culture at Pixar — where 'braintrust' sessions give any team member the right to critique any project without consequence — is credited with consistently producing high-quality creative work. For any manager, the practical implication is concrete: if your team never disagrees with you, that is a warning signal, not a sign you are always right.",
+      mnemonic: "Psychological safety = shared belief you can speak up (mistakes, questions, disagreement) without punishment. Amy Edmondson 1999. Google Project Aristotle: #1 predictor of team performance. Warning sign: a team that never disagrees with the manager. Silence is the most dangerous team output."
+    },
+    quiz: [
+      {
+        q: "What counterintuitive finding led Amy Edmondson to identify psychological safety?",
+        options: [
+          "That the happiest teams were the least productive",
+          "That higher-performing medical teams reported more errors — not because they made more mistakes, but because they felt safe enough to discuss errors openly, which was the actual driver of better performance",
+          "That teams with younger members made fewer errors",
+          "That larger teams were safer than smaller teams"
+        ],
+        answer: 1,
+        funFact: "Edmondson's 1999 paper 'Psychological Safety and Learning Behavior in Work Teams' has been cited over 10,000 times and influenced management practices at Google, Pixar, healthcare systems, and military organisations globally. The core insight — that error reporting rates measure safety culture, not error rates — reshaped how organisations think about learning from failure."
+      },
+      {
+        q: "What did Google's Project Aristotle find was the single most important factor in team performance?",
+        options: [
+          "Team members' individual IQ scores",
+          "Psychological safety — the belief that team members can speak up, admit errors, and disagree without fear of humiliation or punishment — ranked above talent, experience, and clarity of roles",
+          "The frequency of team social events",
+          "The seniority of the team leader"
+        ],
+        answer: 1,
+        funFact: "Google studied 180 teams over two years (Project Aristotle, 2016). They tested dozens of variables — team size, individual performance ratings, experience levels, communication patterns. Psychological safety was the overwhelming differentiator. Remarkably, it correlated with teams being more willing to take risks AND with teams meeting performance targets."
+      },
+      {
+        q: "If a manager's team never disagrees with them in meetings, what should they conclude?",
+        options: [
+          "That the team is highly aligned and well-managed",
+          "That the team likely lacks psychological safety — people are withholding disagreement and concerns to avoid risk, which means the manager is losing access to the most critical information the team possesses",
+          "That the manager's decisions are always correct",
+          "That the team is too small to generate meaningful discussion"
+        ],
+        answer: 1,
+        funFact: "James Reason's research on accident causation shows that in complex systems, catastrophic failures are almost always preceded by warning signals that were suppressed — not because the signals did not exist, but because the culture made it unsafe to surface them. In aviation, medicine, nuclear power and finance, the phrase 'I felt I could not raise this' appears in post-mortem reports for many major disasters."
+      }
+    ]
+  },
+  wealth: {
+    moneyLesson: {
+      name: "The Emergency Fund — The Financial Tool You Build to Never Have to Use",
+      story: "Personal finance practitioners converge on one foundational rule before any investment discussion begins: build an emergency fund of three to six months of essential living expenses, held in a liquid, low-risk account. In the Indian context: a savings account or liquid mutual fund (like HDFC Liquid Fund or Nippon India Liquid Fund). The rationale is structural. Without an emergency buffer, any unexpected event — job loss, medical emergency, car breakdown, family crisis — forces you to sell investments at the worst possible time (often when markets are also down), borrow at high interest rates, or both. The emergency fund is not an investment in the return-maximising sense; it is risk management. It is the financial equivalent of an airbag — you build it not to use it, but to ensure that a collision does not total the vehicle. Specifically in the Indian context: with no unemployment insurance comparable to Western systems and healthcare costs that can escalate suddenly, the case for a 6-month emergency fund is stronger for Indian earners than standard Western personal finance advice suggests.",
+      mnemonic: "Emergency fund = 3-6 months of essential living expenses in liquid, low-risk account (savings or liquid MF). Purpose: prevent selling investments at worst times or borrowing at high rates during crises. Build it FIRST before any investment. In India: lean toward 6 months given no unemployment insurance."
+    },
+    quiz: [
+      {
+        q: "Why is an emergency fund classified as risk management rather than as an investment?",
+        options: [
+          "Because savings accounts pay higher returns than markets",
+          "Because its purpose is to absorb unexpected financial shocks without forcing you to sell investments at wrong times or borrow at high rates — it buys optionality and prevents forced decisions",
+          "Because it is protected by government deposit insurance",
+          "Because it is always in cash"
+        ],
+        answer: 1,
+        funFact: "During the March 2020 COVID crash, Indian equities fell roughly 38% from February highs. Investors who had emergency funds did not need to sell — they could hold through the recovery and recoup. Investors without emergency buffers who lost income had to sell at the bottom to meet expenses, locking in permanent losses. The emergency fund is the difference between voluntary and forced selling."
+      },
+      {
+        q: "Why might an Indian salaried employee need a larger emergency fund (closer to 6 months) than a US equivalent?",
+        options: [
+          "Because Indian expenses are higher",
+          "Because India lacks a comprehensive unemployment insurance system — job loss means immediate income cessation without a government safety net, making a larger personal buffer structurally necessary",
+          "Because Indian savings rates are lower",
+          "Because Indian banks offer worse interest rates"
+        ],
+        answer: 1,
+        funFact: "The US, UK and most European countries have unemployment benefit systems that replace 40-70% of wages for several months after job loss. India has the Employees' State Insurance scheme (ESIC) for lower-wage formal workers but nothing equivalent for most salaried professionals. For a Rs.1 lakh/month earner in India, job loss means Rs.0 the following month — making the personal emergency fund the entire safety net."
+      },
+      {
+        q: "Where should an Indian emergency fund ideally be held?",
+        options: [
+          "In equity mutual funds for maximum returns",
+          "In a savings account or liquid mutual fund — accessible within 24-48 hours, no exit loads, very low volatility — prioritising liquidity and capital preservation over returns",
+          "In fixed deposits locked for 5 years to earn maximum interest",
+          "In gold stored at home"
+        ],
+        answer: 1,
+        funFact: "Liquid mutual funds in India (like HDFC Liquid Fund, Nippon India Liquid Fund) typically return 6-7% annually, outperform savings accounts, and redeem in one business day. They hold short-duration money market instruments — essentially no credit or duration risk. They are widely used by Indian financial planners as the optimal emergency fund vehicle for investors who want slightly better returns than a savings account without sacrificing accessibility."
+      }
+    ]
+  },
+  communication: {
+    commSkill: {
+      name: "The PREP Framework — Structure Any Response in 60 Seconds",
+      story: "PREP stands for Point, Reason, Example, Point. It is a four-step structure for spoken and written communication that was popularised in public speaking training and has been adopted in everything from job interview coaching to diplomatic briefings. The structure: start with your POINT (the conclusion or recommendation in one sentence), give the REASON (why this is true or the underlying logic), give an EXAMPLE (a concrete, specific instance that makes the reason real), then restate your POINT (anchor the conclusion back after the evidence). The power of PREP is that it forces you to know your conclusion BEFORE you speak, rather than arriving at it mid-way through a rambling answer. It is also deeply audience-friendly: busy decision-makers get the conclusion first, technical detail in the middle, and a clear closing. In contrast, the most common communication failure in professional settings is the 'reverse PREP': starting with background and context, building through evidence, and finally arriving at a conclusion that the audience stopped listening to ten minutes earlier.",
+      realLife: "PREP in action: Question — 'Should we expand into the Gulf market?' PREP answer: 'Yes, we should expand into the Gulf in Q3 (Point). Our product addresses a gap that three local competitors are failing to fill, and we have existing relationships with two distributors there (Reason). Specifically, our pilot with Al Futtaim Group generated 40% margins at zero marketing spend (Example). That is why the Gulf is our most capital-efficient expansion path right now (Point restate).' Contrast with the common alternative: 20 minutes of context, 15 minutes of risks, 10 minutes of market analysis, and then a tentative 'so I think maybe we should consider it…'",
+      mnemonic: "PREP = Point → Reason → Example → Point restate. Conclusion FIRST. Works in meetings, interviews, pitches. Common failure: reverse PREP (background first, conclusion last — audience gone before the point). One sentence per step is enough for most settings."
+    },
+    quiz: [
+      {
+        q: "What is the defining structural feature of PREP communication?",
+        options: [
+          "Starting with extensive background and context",
+          "Leading with the conclusion (Point) before the evidence — so the audience knows what you are arguing before you present why, making the reasoning easier to follow",
+          "Using exactly four paragraphs in every answer",
+          "Always ending with a question to the audience"
+        ],
+        answer: 1,
+        funFact: "PREP reverses the natural way most people think through a problem (from evidence to conclusion). It requires knowing your conclusion before you speak, which disciplines the thinking process. Leaders who communicate well typically do their PREP structuring before the meeting, not during it — the clarity you hear in their answers is preparation, not improvisation."
+      },
+      {
+        q: "When is PREP particularly powerful in a professional setting?",
+        options: [
+          "When writing long research reports",
+          "When answering questions from senior leaders or in high-stakes meetings where time is limited — the conclusion-first structure respects their time and ensures your main point is heard even if the conversation gets cut short",
+          "When presenting to very junior audiences",
+          "When the answer is uncertain and the speaker is still thinking"
+        ],
+        answer: 1,
+        funFact: "Amazon's leadership famously uses written memos (six pages maximum) rather than PowerPoint presentations for meetings, requiring authors to present conclusions upfront. Jeff Bezos cited the failure of 'conclusion-last' presentations as a key reason he banned slides from senior leadership meetings. PREP is the spoken equivalent of this conclusion-first discipline."
+      },
+      {
+        q: "What is the 'reverse PREP' failure pattern?",
+        options: [
+          "Ending with the most important example",
+          "Starting with background and context, building through analysis, and arriving at the conclusion last — by which point a busy audience has often stopped listening, and the key point is buried",
+          "Using too many examples",
+          "Stating the point more than once"
+        ],
+        answer: 1,
+        funFact: "A common pattern in large organisations: junior analysts present 40-slide decks with the recommendation on slide 38. Senior leaders flip to slide 38 first and then ask questions — which means slides 1-37 were largely wasted effort. The lesson: lead with the conclusion, use the rest to support it, not to build to it."
+      }
+    ]
+  },
+  mind: {
+    technique: {
+      name: "The 5-4-3-2-1 Grounding Technique — Interrupt Anxiety in Under 2 Minutes",
+      howTo: "The 5-4-3-2-1 grounding technique is a sensory-awareness exercise used in cognitive behavioural therapy and trauma-informed care to interrupt acute anxiety, panic or dissociation by anchoring attention to the present physical environment. It works as follows: find five things you can SEE (name them specifically — the blue pen, the corner of the monitor, the shadow on the ceiling); find four things you can physically FEEL right now (the chair under your thighs, the weight of your feet on the floor, the texture of your sleeve); find three things you can HEAR (traffic outside, the hum of the air conditioning, your own breathing); find two things you can SMELL (coffee nearby, fresh air, the fabric of your shirt); find one thing you can TASTE (the aftertaste of the last thing you drank). The total time: under two minutes. The mechanism: anxious thought lives in anticipation of future threat (or replaying past threat). Physical sensation exists only in the present. The technique hijacks attention from the anxious narrative and forces it into present-moment sensory experience — temporarily interrupting the threat-anticipation loop.",
+      mnemonic: "5-4-3-2-1: 5 things you SEE, 4 you FEEL, 3 you HEAR, 2 you SMELL, 1 you TASTE. Under 2 minutes. Mechanism: sensory awareness is present-tense only — it interrupts future-anticipation anxiety loops. Used in CBT and trauma care. Works anywhere without equipment."
+    },
+    quiz: [
+      {
+        q: "What is the neurological mechanism behind the 5-4-3-2-1 technique?",
+        options: [
+          "It releases endorphins by deep breathing",
+          "Anxiety lives in anticipation of future threat; sensory awareness is inherently present-moment. Directing attention to concrete physical sensations interrupts the brain's threat-anticipation loop by competing for the same attentional resources",
+          "It distracts the brain with counting",
+          "It activates the motor cortex through physical movement"
+        ],
+        answer: 1,
+        funFact: "The prefrontal cortex — responsible for planning and anticipation — is hyperactive during anxiety. Engaging the sensory cortices through deliberate attention to sight, sound, touch, smell and taste essentially 'crowds out' the prefrontal threat-anticipation narrative. This is why physical sensation is the antidote to cognitive anxiety: different brain regions compete for attentional bandwidth."
+      },
+      {
+        q: "In which clinical contexts is the 5-4-3-2-1 grounding technique most commonly used?",
+        options: [
+          "In sleep medicine for insomnia",
+          "In cognitive behavioural therapy and trauma-informed care — particularly for acute anxiety episodes, panic attacks, and dissociation in trauma survivors — where a rapid, portable intervention is needed",
+          "In sports psychology for performance anxiety only",
+          "In physical rehabilitation for pain management"
+        ],
+        answer: 1,
+        funFact: "Grounding techniques are a standard part of EMDR (Eye Movement Desensitisation and Reprocessing) therapy for PTSD and trauma. The 5-4-3-2-1 technique is particularly valued because it requires no equipment, no special setting, no therapist present, and produces measurable reductions in subjective anxiety ratings within 60-90 seconds in clinical studies."
+      },
+      {
+        q: "Why is specificity important in the 5-4-3-2-1 technique ('the blue pen' rather than just 'a pen')?",
+        options: [
+          "Because specific language is grammatically more correct",
+          "Because specificity requires more focused, present-moment attention — naming 'the blue pen with the chewed cap' demands genuine sensory engagement rather than a mechanical list, which deepens the grounding effect",
+          "Because therapists need to check if clients are paying attention",
+          "Because the brain processes nouns better than adjectives"
+        ],
+        answer: 1,
+        funFact: "Generic labels ('a chair,' 'a sound') can be processed abstractly without genuine present-moment sensory engagement. Specific descriptors ('the rough fabric of the armrest,' 'the intermittent clicking of the air vent') require actual sensory attention to formulate. That requirement is the therapeutic mechanism — you cannot name a specific sensory detail accurately without genuinely attending to the present moment."
+      }
+    ]
+  },
+  knowledge: {
+    todayILearned: {
+      name: "The Strait of Malacca — The World's Most Important (and Most Congested) Shipping Lane",
+      quickBite: "The Strait of Hormuz dominated headlines in 2026, but the Strait of Malacca — a narrow waterway between the Malay Peninsula and the Indonesian island of Sumatra — is the world's most important shipping chokepoint by volume. Approximately 100,000 vessels transit the strait annually, carrying roughly 25-30% of global trade, including about one-third of the world's liquid natural gas (LNG) and a quarter of its crude oil. At its narrowest point, the strait is only 2.8 kilometres wide — the equivalent of roughly 9 ships across. Malaysia, Singapore and Indonesia share sovereignty over the strait, and all three have invested heavily in navigational safety infrastructure. Singapore, positioned at the eastern end, has grown from a colonial trading post to one of the world's busiest ports precisely because of its location commanding this chokepoint. The significance for India: 50% of India's trade passes through the Malacca Strait, and India's Andaman and Nicobar Islands sit at its western entrance — a strategic position that the Indian Navy has steadily built out over the past decade.",
+      mnemonic: "Strait of Malacca = 2.8 km wide at narrowest, 100,000 ships/year, 25-30% of global trade. One-third of global LNG, one-quarter of crude oil. Malaysia-Singapore-Indonesia sovereignty. Singapore's entire wealth story begins here. India's Andaman & Nicobar sits at the western entrance — strategic."
+    },
+    quiz: [
+      {
+        q: "Why is the Strait of Malacca strategically more important by volume than the Strait of Hormuz?",
+        options: [
+          "Because it carries more military vessels",
+          "Because it transits approximately 100,000 vessels annually carrying 25-30% of global trade — including one-third of global LNG and one-quarter of crude oil — making it the world's highest-volume maritime chokepoint",
+          "Because it is controlled by a single country",
+          "Because it is deeper and can accommodate larger vessels"
+        ],
+        answer: 1,
+        funFact: "The Strait of Malacca is so congested that IMO rules require ships to use Traffic Separation Schemes (designated lanes) to manage the volume. The strait is also shallow — the maximum draft (depth of a ship's hull below waterline) is approximately 25 metres, which is why the largest supertankers (VLCCs) cannot transit it fully loaded and must use the deeper Lombok or Sunda Straits around Indonesia instead."
+      },
+      {
+        q: "Why is Singapore's geographic location a primary explanation for its economic success?",
+        options: [
+          "Because it has abundant natural resources",
+          "Because it sits at the eastern end of the Malacca Strait — the bottleneck through which a quarter to a third of global trade passes — making it the natural hub for refuelling, repair, finance and logistics for traffic between Asia, the Middle East and Europe",
+          "Because it is the largest country in Southeast Asia",
+          "Because it has the world's most educated workforce"
+        ],
+        answer: 1,
+        funFact: "Singapore has almost no natural resources, limited agricultural land, and a population of just 6 million. Yet it is the world's fourth-largest financial centre and one of the world's busiest ports. Lee Kuan Yew, Singapore's founding prime minister, explicitly cited geography as the foundational asset — the city-state's policy choices were designed to maximise a single geographic advantage that could not be replicated."
+      },
+      {
+        q: "What is India's strategic interest in the Andaman and Nicobar Islands relative to the Strait of Malacca?",
+        options: [
+          "They provide India with access to Pacific fishing grounds",
+          "They sit at the western entrance of the Malacca Strait — giving India a strategic position to monitor and, if needed, interdict traffic through the world's most important shipping lane, which carries 50% of India's own trade",
+          "They house India's space launch facilities",
+          "They are the location of India's nuclear submarine base"
+        ],
+        answer: 1,
+        funFact: "India has been steadily building out military infrastructure on the Andaman and Nicobar Islands for over two decades — a tri-service command (army, navy, air force) established in 2001 was the first joint command in Indian military history. China's 'string of pearls' strategy — building ports and facilities along India's maritime periphery — was one motivator. The islands are India's only geographic lever on the most important east-west shipping lane in the world."
+      }
+    ]
+  },
+  ai: {
+    aiTool: {
+      name: "Claude Code — Anthropic's Agentic Coding Tool That Works in the Terminal",
+      whatItDoes: "Claude Code is a command-line coding assistant from Anthropic — it runs in your terminal and can read, write, execute, and debug code across an entire codebase rather than just responding to prompts in a chat window. Unlike using Claude in a browser, Claude Code has direct access to your file system, can run commands, install packages, make API calls, read error messages, iterate, and complete multi-step coding tasks autonomously. A developer can describe a feature in plain English — 'add a user authentication flow with JWT tokens to this Flask app' — and Claude Code will read the existing codebase, write the required files, install dependencies, and run tests to verify the result. It operates with safety guardrails: it asks for permission before making changes that could be destructive, and it shows a summary of what it plans to do before executing. Claude Code is positioned as a tool for developers who want to accelerate coding tasks without leaving the terminal environment — the IDE integration (VS Code, JetBrains) extends the same capability into editors.",
+      mnemonic: "Claude Code = Anthropic's CLI coding agent. Runs in terminal. Reads/writes/executes code across full codebase. Multi-step agentic: describe feature in English → it reads existing code, writes files, installs deps, runs tests. VS Code and JetBrains integrations available. Key difference from chat: direct file system + execution access."
+    },
+    quiz: [
+      {
+        q: "What makes Claude Code structurally different from using Claude in a browser chat?",
+        options: [
+          "Claude Code produces better quality text responses",
+          "Claude Code has direct access to the file system, can execute commands, install packages and run tests — enabling multi-step agentic coding tasks across an entire codebase rather than single-turn conversational responses",
+          "Claude Code works without an internet connection",
+          "Claude Code can only write Python"
+        ],
+        answer: 1,
+        funFact: "The shift from 'chatbot that suggests code' to 'agent that writes, executes, and iterates code' is one of the most significant capability jumps in developer tooling. GitHub Copilot autocompletes lines; Claude Code can implement an entire feature, run the tests, see the errors, fix the errors, and confirm everything passes — more like a junior developer than a code suggestion engine."
+      },
+      {
+        q: "What safety mechanism does Claude Code employ before making significant changes?",
+        options: [
+          "It requires a secondary user to approve every file write",
+          "It shows a summary of planned actions and asks for permission before executing destructive or irreversible changes — maintaining human oversight over the agentic loop",
+          "It only operates on a copy of the codebase, never the original",
+          "It backs up all files before making any changes"
+        ],
+        answer: 1,
+        funFact: "This 'human in the loop' approval mechanism is a deliberate design choice that reflects Anthropic's focus on AI safety. As coding agents become more capable of making broader and less reversible changes, the permission architecture becomes more important. Claude Code's design tries to balance autonomy (enabling long agentic tasks) with oversight (ensuring humans can intercept before irreversible actions)."
+      },
+      {
+        q: "What type of developer workflow is Claude Code most clearly designed to accelerate?",
+        options: [
+          "Visual design and UI mockup work",
+          "Complex multi-step coding tasks — implementing features, debugging errors, refactoring codebases, writing tests — where the developer describes what they want in plain English and Claude Code executes the full implementation pipeline autonomously",
+          "Data entry and spreadsheet management",
+          "Managing Git commit history"
+        ],
+        answer: 1,
+        funFact: "Benchmarks published by Anthropic show Claude Code performing in the top tier on SWE-bench, a standardised test of software engineering tasks that requires reading an entire codebase, understanding a bug description, and writing a correct patch. This is qualitatively different from code autocomplete — it requires multi-step reasoning about code structure, dependencies, and correct fix strategies."
+      }
+    ]
+  },
+  travel: {
+    destination: {
+      name: "Tbilisi, Georgia — The Caucasus Capital That Pairs Ancient History With Unmissable Food",
+      quickFacts: "Yesterday's brief introduced Georgia as a visa-free destination for Indian passport holders. Today's focus narrows to Tbilisi itself — the capital city of roughly 1.2 million people, arguably the most underrated city in the world for the price-to-experience ratio. Old Tbilisi (Kala neighbourhood) is a UNESCO-protected zone of cobblestone streets, carved wooden balconies overhanging narrow alleys, Orthodox churches, Persian-era mosques, a synagogue, and a 5th-century fortress (Narikala) accessible by cable car from the river. The Abanotubani district in Old Tbilisi is built directly over natural sulphurous hot springs — the baths have been functioning since the 5th century and are extraordinarily cheap by any standard (a private room for two with a massage for under $30 in 2026). The Georgian food scene is one of the most distinctive in the world: khinkali (giant soup dumplings, eaten by holding the knot and biting the side), khachapuri (cheese-filled bread, which comes in regional variants — the Adjarian boat-shaped khachapuri topped with egg and butter is extraordinary), and supra tables of shared mezze-style dishes with walnut sauces. The restaurant and wine bar scene in Fabrika (a converted Soviet factory turned cultural hub) and the streets around Rustaveli Avenue is world-class by European standards at a fraction of European prices.",
+      whyNow: "June and July are Tbilisi's peak season: hot (30-35°C), long days, outdoor restaurants full until midnight, wine festivals, and cultural events. The downside of peak season is prices are at their highest for the year and accommodation should be booked well in advance. For an Indian traveller, Tbilisi is a roughly 5-hour flight via Istanbul, Dubai or Baku. Turkish Airlines, FlyDubai and AZAL (Azerbaijan Airlines) all operate convenient connections. A week in Tbilisi including comfortable accommodation, all meals and day trips to Mtskheta and Kazbegi is achievable for $800-1,200 per person in mid-range style.",
+      mnemonic: "Tbilisi: Old town (Kala) = cobblestones, carved wooden balconies, 5th-century fortress. Abanotubani = sulphur baths since 5th century, private room under $30. Food: khinkali (soup dumplings), khachapuri (cheese bread). Fabrika = converted Soviet factory, world-class dining. Peak season June-July. 5-hour flight via Istanbul or Dubai. $800-1,200 for a week all-in."
+    },
+    quiz: [
+      {
+        q: "What is khinkali and what is the correct way to eat it?",
+        options: [
+          "A Georgian flat bread, eaten torn with both hands",
+          "A large Georgian soup dumpling — eaten by holding the twisted knot at the top, biting a small hole in the side, drinking the hot broth first, then eating the rest while leaving the knot (considered too doughy to eat) on the plate",
+          "A wine-braised lamb dish served on a communal platter",
+          "A Georgian dessert made with honey and walnuts"
+        ],
+        answer: 1,
+        funFact: "Khinkali originate from the mountainous Svaneti and Mtiuleti regions of Georgia, where they were a practical high-calorie meal for shepherds and farmers. The knot at the top (called the 'kudi' or hat) is traditionally left on the plate — diners count the knots to see how many they ate. Eating the knot is considered a sign of inexperience. Traditional fillings are spiced meat; mushroom and cheese variants are widely available."
+      },
+      {
+        q: "What distinguishes Adjarian khachapuri from other regional variants?",
+        options: [
+          "It is smaller and served as a finger food",
+          "It is boat-shaped (resembling a canoe), with the cheese filling topped by a raw egg and a knob of butter added tableside — the egg and butter are stirred into the molten cheese before eating",
+          "It contains no cheese, using only bean paste",
+          "It is a sweet dessert version served with honey"
+        ],
+        answer: 1,
+        funFact: "Adjarian khachapuri (named after the Adjara region on Georgia's Black Sea coast) became so iconic that Georgia's national statistics agency actually tracks its price as an informal economic indicator — the 'khachapuri index' measures food inflation by tracking the cost of khachapuri ingredients over time. It was developed by a professor at Ilia State University in Tbilisi and is quoted by Bloomberg alongside the Big Mac Index."
+      },
+      {
+        q: "What is the Fabrika district in Tbilisi?",
+        options: [
+          "An ancient Persian bazaar in Old Tbilisi",
+          "A former Soviet sewing factory converted into a creative hub with restaurants, wine bars, boutique shops, co-working spaces and live music venues — one of Tbilisi's most popular destinations for food and nightlife",
+          "A neighbourhood known for traditional khinkali production",
+          "A government district housing Georgia's parliament"
+        ],
+        answer: 1,
+        funFact: "Fabrika was a Soviet sewing factory that employed hundreds of workers until it closed after Georgian independence. Renovated in 2017, it now hosts approximately 30 restaurants and bars, a hostel, boutique retail shops, a barbershop, and various creative businesses across its courtyard and repurposed factory buildings. It has become a model for adaptive reuse of Soviet industrial infrastructure across the South Caucasus."
+      }
+    ]
+  }
+}
+
 const ALL_BRIEFS = {
   '2026-06-01': d260601,
   '2026-06-02': d260602,
@@ -6347,6 +6834,7 @@ const ALL_BRIEFS = {
   '2026-06-20': d260620,
   '2026-06-21': d260621,
   '2026-06-22': d260622,
+  '2026-06-23': d260623,
 }
 
 // == DATA END ==
