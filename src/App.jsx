@@ -6811,6 +6811,486 @@ const d260623 = {
   }
 }
 
+const d260624 = {
+  news: {
+    segments: [
+      {
+        name: "🌐 What's happening with countries?",
+        color: "#a0d4f5",
+        stories: [
+          {
+            headline: "Venezuela struck by twin earthquakes — Mw 7.2 and 7.5 within 39 seconds, at least 1,430 killed",
+            eli5: "At approximately 6:04pm local time on Wednesday June 24, a magnitude 7.2 earthquake struck near Yumare in northwestern Venezuela, followed just 39 seconds later by a magnitude 7.5 mainshock in almost exactly the same location. The doublet — two large earthquakes in rapid succession — is extraordinarily rare. The mainshock is the strongest earthquake to hit Venezuela since 1900. Shaking was felt as far as 1,700 km away. Buildings collapsed across Caracas and the coastal state of La Guaira, the port city that serves the capital. At least 1,430 people were killed, over 3,238 injured, and approximately 68,900 reported missing as of the latest counts — the full toll is expected to rise significantly as rescue teams reach damaged areas. USGS probabilistic modelling put the death toll at a 44% chance of reaching 10,000-100,000. The Venezuelan government's response was complicated by its severely weakened public infrastructure after years of economic collapse. The US deployed Fairfax County and Los Angeles County urban search-and-rescue teams and committed $150 million in aid — a notable gesture given that the US captured Venezuelan President Nicolás Maduro in a raid in January 2026.",
+            whyItMatters: "Venezuela's earthquake is a collision of natural disaster and governance failure that will define the humanitarian story of mid-2026. The seismic risk was known — northern Venezuela sits on the San Sebastián fault system at the boundary of the Caribbean and South American tectonic plates. What was not managed was the resilience: years of economic collapse, informal housing built on sediment layers, a healthcare system stripped to its foundations, and media restrictions that initially prevented the outside world from understanding the scale. The lesson for disaster preparedness is grim but clear: the death toll from a natural event is largely set by governance and infrastructure quality in the years before the earthquake, not by the earthquake itself. A Mw 7.5 near Tokyo would kill far fewer people than the same quake near Caracas. The human toll of 'natural' disasters is mostly a governance statistic.",
+            mnemonic: "June 24 = Venezuela doublet: Mw 7.2 + 7.5 within 39 seconds near Yumare. Strongest since 1900. 1,430+ killed, 3,238+ injured, 68,900+ missing. 58,870 buildings damaged. Governance failure amplifies natural disaster — death tolls reflect infrastructure quality, not just seismic intensity."
+          },
+          {
+            headline: "US Senate passes war powers resolution on Iran 50-48 — first time both chambers have ever done so",
+            eli5: "On Tuesday evening June 23 (reported June 24), the US Senate voted 50-48 to pass a war powers resolution directing President Trump to halt US military operations against Iran or seek explicit congressional authorisation before continuing. Four Republicans broke ranks: Bill Cassidy (Louisiana), Susan Collins (Maine), Rand Paul (Kentucky) and Lisa Murkowski (Alaska). The House had already passed a similar measure June 3 by 215-208. This marked the first time both chambers of Congress had successfully passed a concurrent war powers resolution since the War Powers Act was enacted in 1973 — the law passed after Vietnam specifically to limit a president's ability to wage war unilaterally. The resolution is not legally binding and does not require the President's signature, but the political signal is significant: the Republican-controlled Congress, elected alongside Trump, was rebuking his Iran war. Trump called the vote 'poorly timed and meaningless' and raged at 'Four Republican Losers.' By Wednesday evening, Trump had pressured Cassidy back — Cassidy changed his vote, and the Senate blocked a follow-up resolution 47-50.",
+            whyItMatters: "The Senate's historic vote — and its rapid reversal — is a compressed lesson in how legislative power works and how quickly political pressure can override it. The War Powers Act of 1973 was designed to prevent what Congress saw as presidential overreach in Vietnam. Fifty-three years later, it was invoked for the first time in both chambers simultaneously — and then partially unwound within 24 hours as Trump applied direct pressure. This is constitutionalism in action: the act exists, the vote happened, and the reversal also happened. The deeper story is political: only 24% of Americans supported the Iran war as worth the cost in a Reuters/Ipsos poll released on the same day. A war with 76% public opposition is generating congressional defections even from the president's own party — a structural pressure that will intensify as November midterms approach.",
+            mnemonic: "June 23-24 = Senate 50-48 war powers resolution on Iran — first time BOTH chambers have ever done this (since War Powers Act 1973). Not legally binding. 4 Republican defectors: Cassidy, Collins, Paul, Murkowski. Trump rages, pressures Cassidy. Cassidy reverses within 24 hours. Iran war approval: only 24% (Reuters/Ipsos). Congressional defections accelerate when a war is 76% unpopular."
+          },
+          {
+            headline: "Germany records its highest-ever temperature — 41.5°C — as Europe bakes in record June heat",
+            eli5: "On Wednesday June 25, Germany recorded a new all-time temperature high of 41.5°C in Saxony-Anhalt, beating its previous national record. On the same day, the Czech Republic hit 40.6°C (its hottest day ever) and Denmark reached 37.0°C (a national June record). A Swiss nuclear power plant — the Beznau facility — was forced to suspend operations because the Aare river it uses for cooling reached 25°C, a temperature at which safety protocols require shutdown. Roads buckled, an Autobahn near Berlin was closed due to concrete expanding and cracking, and wildfire risk elevated across multiple countries. The timing was pointed: the European heatwave arrived at almost the same moment as the Venezuela earthquake — two faces of a disrupted planet in the same week.",
+            whyItMatters: "Heatwave records in Europe are now being broken on a near-annual basis. Germany's 41.5°C is not merely a weather event — it is a data point in a decades-long trend of rising extreme temperatures driven by accumulated greenhouse gas emissions. The nuclear shutdown detail is particularly instructive: climate change is disrupting even the infrastructure meant to help decarbonise electricity — river temperatures rising to the point where cooling water intake becomes unsafe is a feedback loop few people had modelled prominently before it started happening in France and now Switzerland. The lesson is that climate risk does not arrive uniformly or predictably. It arrives through indirect, surprising pathways — not just hotter summers but cooled-water-shortage-induced energy disruptions in the middle of a heatwave, exactly when power demand is highest."
+          }
+        ]
+      },
+      {
+        name: "💸 What's happening with money?",
+        color: "#a8edcb",
+        stories: [
+          {
+            headline: "Sensex +791 points to 76,991 — Congress war powers vote boosts hopes for Iran deal, IT and banks lead",
+            eli5: "Wednesday June 24 reversed Tuesday's 893-point crash. The Sensex gained 790.54 points (1.04%) to close at 76,991.22 and the Nifty 50 settled at 24,021.65 — recovering the psychological 24,000 level. The catalyst was the US Senate's war powers resolution, which markets read as a signal that the Iran conflict was moving toward political resolution, which in turn supported expectations of lower oil prices sustainably. IT stocks led with Nifty IT climbing 1.30% as a global tech rebound and currency tailwinds combined. Nifty Bank surged 1.52% as private sector banks attracted buying. Nifty Private Bank jumped 1.70%. A CSM Technologies IPO opened for subscription — a small Rs.145 crore issue. Notably, Nifty Defence fell 0.91% on the day — as geopolitical de-escalation typically reduces near-term defence sentiment, even though India's structural indigenisation story is multi-year.",
+            whyItMatters: "The Nifty Defence falling while the broader market rallied is a textbook example of sector rotation tied to geopolitical narrative. When the Iran conflict was at its hottest, defence stocks were outperforming as money rotated into 'safe' domestic order-book names. As the peace framework solidifies, the same money partially rotates back toward IT and banks — which benefit more from lower oil, a firmer rupee, and reduced fear premium on global growth. Importantly, the structural multi-year case for Indian defence indigenisation is completely separate from this short-term rotation. Recognising the difference between TACTICAL rotation and STRUCTURAL investment thesis is one of the most important analytical skills in equity markets."
+          }
+        ]
+      }
+    ]
+  },
+  markets: {
+    globalPulse: {
+      eli5: "Wednesday June 24 brought two major news events that pulled in different directions for markets. The US Senate war powers resolution boosted peace-deal expectations — supporting lower oil and a market rally globally and in India. But the Venezuela doublet earthquake introduced fresh humanitarian concern and a reminder that 2026 is a year of simultaneous crises. For India: Sensex recovered 791 points after Tuesday's 893-point crash, Nifty reclaimed 24,000. IT and banking led. Defence PSUs dipped as de-escalation rotated money away from near-term geopolitical beneficiaries. A fresh look at the halal watchlist: this week introduces pharma names, which were the one consistent bright spot in the week's turbulent trading — and which cleared a specific positive catalyst on June 23 when the US FDA reached out to Indian companies about cancer drug supply. Pharma passes halal screening cleanly: manufacturing of medicines is explicitly permissible.",
+      keyThings: [
+        "Sensex: 76,991 (+791 pts, +1.04%) — recovery after Tuesday's crash; 24,000 on Nifty reclaimed",
+        "Nifty IT: +1.30% — global tech rebound + rupee tailwinds; still below pre-Accenture levels",
+        "Nifty Bank: +1.52%; Nifty Private Bank: +1.70% — banks benefiting from de-escalation narrative",
+        "Nifty Defence: -0.91% — tactical rotation away from geopolitical plays as peace deal expectations rise",
+        "Venezuela earthquake: Mw 7.5 doublet killed 1,430+; not a direct market event for India but commodity impact worth watching",
+        "India-US trade deal: growing optimism around bilateral deal adding medium-term tailwind to market"
+      ]
+    },
+    indianMarket: {
+      eli5: "The June 24 recovery erased most of Tuesday's crash, but the week's volatility pattern — +400 Monday, -893 Tuesday, +791 Wednesday — is a vivid demonstration of how sentiment-driven swings operate in the short run. The halal watchlist this session rotates into Indian pharma, following the FDA catalyst and the sector's consistent relative strength through the week's turbulence. Sun Pharmaceutical Industries is India's largest pharma company by market cap; it passes halal screening cleanly (manufacturing medicines is permissible, balance sheet is strong). The halal contrast this week: alcohol — a clear impermissible category distinct from tobacco (d260622) and gambling (d260623).",
+      breakouts: [
+        {
+          name: "Sun Pharmaceutical Industries (NSE: SUNPHARMA)",
+          halal: true,
+          buyPrice: "Rs.1,820",
+          sellPrice: "Rs.2,020",
+          stopLoss: "Rs.1,720",
+          whyExciting: "Sun Pharma is India's largest pharmaceutical company by market capitalisation and the fourth-largest specialty generic pharmaceutical company globally. Its product portfolio spans branded generics, specialty medicines, and over-the-counter products across 100+ countries. Manufacturing and selling medicines is explicitly permissible under Islamic screening criteria, and Sun Pharma's balance sheet is conservative — manageable debt, strong free cash flow, and no interest-based financial intermediation as a core business. The company's specialty segment — branded dermatology, psychiatry, ophthalmology, and oncology products — generates high margins and is growing faster than its generics base. The US FDA catalyst (June 23 outreach to Indian pharma on cancer drug supply) creates a near-term demand signal for companies with US oncology exposure. Sun Pharma's 52-week range is approximately Rs.1,630 to Rs.2,100. A hold above Rs.1,820 targets the Rs.2,020 zone.",
+          risk: "Sun Pharma carries ongoing US FDA regulatory risk — it has multiple plants under scrutiny and US generic pricing continues to be deflationary. The specialty pipeline involves long development cycles and binary approval outcomes. Currency risk is meaningful: Sun Pharma earns a large share of revenue in USD, EUR and other currencies; a sharp rupee appreciation would reduce reported INR revenue. Honour the Rs.1,720 stop."
+        },
+        {
+          name: "Cipla Limited (NSE: CIPLA)",
+          halal: true,
+          buyPrice: "Rs.1,490",
+          sellPrice: "Rs.1,660",
+          stopLoss: "Rs.1,410",
+          whyExciting: "Cipla is one of India's most respected pharmaceutical companies — founded in 1935, publicly listed, and known for making critical medicines affordable globally. It was one of the first companies to produce affordable antiretrovirals for HIV patients in Africa in 2001, a decision that defined its ethical reputation. The business is entirely medicine manufacturing and distribution — permissible, with a clean balance sheet. Cipla was a top Nifty 50 gainer on June 23 during the broader selloff, demonstrating relative strength that continued into June 24's rally. It has meaningful US branded generic exposure and is a beneficiary of the FDA-India pharma dynamic. The 52-week range spans approximately Rs.1,330 to Rs.1,680. A hold above Rs.1,490 targets Rs.1,660.",
+          risk: "Cipla faces the same US generic pricing headwinds as all Indian pharma exporters. Its branded business in India — respiratory and consumer health — generates strong margins but faces competition. Any FDA warning letter on a manufacturing plant could cause a sharp selloff. Position sizing discipline is important."
+        },
+        {
+          name: "Dr. Reddy's Laboratories (NSE: DRREDDY)",
+          halal: true,
+          buyPrice: "Rs.1,290",
+          sellPrice: "Rs.1,440",
+          stopLoss: "Rs.1,210",
+          whyExciting: "Dr. Reddy's is India's second-largest pharmaceutical company by revenue, with a strong US generics business and a growing specialty pipeline. Founded by K. Anji Reddy in 1984, it was one of the first Indian pharma companies to receive US FDA approval for a product. It manufactures active pharmaceutical ingredients (APIs), finished dosage formulations, and biosimilars — all permissible manufacturing activities. Dr. Reddy's was among the advance gainers on June 24 as the pharma sector gained momentum from the FDA catalyst. The 52-week range is approximately Rs.1,150 to Rs.1,500. The setup targets Rs.1,290 entry with Rs.1,440 as the reward zone.",
+          risk: "Dr. Reddy's has faced FDA import alerts on specific plants historically — regulatory incidents remain the primary binary risk for Indian pharma exporters. US generics revenue is highly competitive and margin-compressive. Currency exposure (USD/EUR revenues, INR costs) makes FX movements a material earnings variable. Respect the Rs.1,210 stop."
+        },
+        {
+          name: "United Breweries Limited (NSE: UBL) — the teaching contrast (NOT halal)",
+          halal: false,
+          buyPrice: "N/A — excluded on faith grounds",
+          sellPrice: "N/A",
+          stopLoss: "N/A",
+          whyExciting: "United Breweries — the maker of Kingfisher beer, India's largest alcoholic beverage company — is this week's teaching contrast. Manufacturing, distributing and selling alcohol is categorically impermissible under Islamic screening criteria. UBL controls approximately 52% of India's beer market and its financials are strong; it would easily pass every metric screen a conventional investor would apply. But it fails the business activity screen at the first gate. The halal framework is now three weeks into its contrast rotation: tobacco (ITC, d260622), gambling (Delta Corp, d260623), and now alcohol (UBL, d260624). These three categories — alcohol, tobacco and gambling — are the most commonly screened categories in Islamic finance globally, and excluding them is the foundational layer of any halal equity portfolio. Every subsequent screen (debt ratios, interest income) is applied only AFTER these business activity filters are cleared.",
+          risk: "The educational point: UBL is a genuinely high-quality business with strong market share, consistent free cash flow and a strategic Heineken stakeholder (which holds ~61% of UBL). None of that changes the screen outcome. The discipline of a halal filter is tested most precisely when a non-compliant company is also a good business. The answer is always the same: the filter applies first."
+        }
+      ],
+      ipoSpot: {
+        name: "CSM Technologies IPO — Rs.145 crore IT solutions issue opens June 24",
+        verdict: "Caution",
+        eli5: "CSM Technologies Limited — a Bhubaneswar-based IT solutions provider focused on e-governance and government digitisation projects — opened its IPO for public subscription on June 24, seeking to raise approximately Rs.145.78 crore. The company had already raised Rs.20 crore from anchor investors. Small-cap government IT services IPOs require careful analysis: they are typically heavily dependent on government contract renewals, making revenue predictability lower than private-sector IT companies. The IPO opens in a week of volatile markets — June 24's rally follows a 893-point crash the day before. For a halal investor: an IT services company providing government digital services has no intrinsic impermissibility in its business activity. The screen on financials (debt ratios, interest income) would need to be applied once the prospectus is reviewed."
+      },
+      lessonOfDay: {
+        title: "Sector Rotation — Why Money Moves Between Sectors and How to Track It",
+        story: "The most reliable pattern in equity markets is that different sectors outperform at different points in the economic and geopolitical cycle. This week in Indian markets demonstrated sector rotation in real time: Monday — geopolitical relief drives defence and IT up. Tuesday — weak PMI data hits IT and metals hardest. Wednesday — peace-deal expectations rotate money from defence into IT and banks. Thursday (June 25) — auto and consumer names lead as Mahindra, Maruti, IndiGo soar. Sector rotation is not random — it follows logic. Defence outperforms when geopolitical tension is high and government defence budgets are growing. IT outperforms when global growth is strong, interest rates are falling, and the rupee is stable. Banks outperform when domestic credit growth is robust and NPAs are falling. Pharma outperforms as a defensive play when markets are uncertain and as a growth play when regulatory catalysts appear. The skill is to understand WHICH part of the cycle each sector thrives in, so that when you hear a macro narrative — 'peace deal likely,' 'rates rising,' 'PMI weak' — you can immediately translate it into which sectors are likely to benefit and which are under pressure.",
+        mnemonic: "Sector rotation: different sectors outperform at different macro phases. June 22-25 live example: defence up on tension, IT + banks up on de-escalation, pharma stable as defensive, metals down on commodity weakness. Know WHICH macro phase each sector thrives in — translate news into sector implications instantly."
+      }
+    },
+    quiz: [
+      {
+        q: "Why did Nifty Defence fall on June 24 while the broader market rallied?",
+        options: [
+          "Because defence companies reported bad earnings",
+          "Tactical sector rotation: as peace-deal expectations for Iran rose, near-term geopolitical risk (which had supported defence stocks) receded — money rotated into IT and banks which benefit more from lower oil and reduced global risk premium",
+          "Because the Indian government cut the defence budget",
+          "Because defence stocks always fall when banks rise"
+        ],
+        answer: 1,
+        funFact: "This is the distinction between tactical rotation (short-term narrative-driven) and structural story (long-term fundamental-driven). Indian defence PSUs are supported by a 10-year indigenisation mandate, growing order books, and policy tailwinds that persist regardless of any individual geopolitical event. A one-day dip on de-escalation news does not change the 5-year thesis."
+      },
+      {
+        q: "Why does United Breweries (Kingfisher) fail the halal screen despite being a high-quality business?",
+        options: [
+          "Because it is too large a company for halal portfolios",
+          "Because manufacturing and selling alcohol is categorically impermissible under Islamic screening criteria — the business activity screen applies before any financial metric screen, and fails UBL regardless of how strong its market share or financials are",
+          "Because Heineken owns it and Heineken is foreign",
+          "Because beer is taxed heavily in India"
+        ],
+        answer: 1,
+        funFact: "United Breweries controls approximately 52% of India's beer market. Heineken holds approximately 61% of UBL. The company has consistent free cash flow and a dominant brand. By every conventional investment metric it would score highly. The halal filter does not evaluate investment quality — it evaluates business activity. Passing the activity screen is the prerequisite for all other analysis."
+      },
+      {
+        q: "What does sector rotation in equity markets mean?",
+        options: [
+          "A company moving from one stock exchange to another",
+          "The systematic movement of investment capital from one sector to another as the economic, geopolitical or interest rate environment shifts — different sectors outperform at different points in the cycle",
+          "Rebalancing a portfolio every quarter by selling some of every holding",
+          "When two companies in different sectors merge"
+        ],
+        answer: 1,
+        funFact: "The classic sector rotation model (developed by Sam Stovall at Standard & Poor's) maps sectors to economic cycle phases: early recovery favours cyclicals and financials; mid-cycle favours technology and industrials; late cycle favours energy and materials; recession favours healthcare and consumer staples. In practice, geopolitical cycles layer on top of economic cycles — making real-time rotation more complex but the underlying logic identical."
+      }
+    ]
+  },
+  psychology: {
+    mindTrick: {
+      name: "The Availability Heuristic — We Judge Probability by How Easily Examples Come to Mind",
+      eli5: "The availability heuristic is the mental shortcut by which we estimate the probability of an event based on how easily we can recall examples of it. After a major earthquake like Venezuela's, people dramatically overestimate the risk of being killed by an earthquake in the near future — not because the statistical probability changed, but because earthquake deaths are now the most vivid, available mental image. After a plane crash makes the news, flight bookings drop even though flying statistically becomes no more dangerous. After a shark attack is covered for a week, beach visits decline even in locations where sharks have never been sighted. The availability heuristic is not random error — it is a predictable, systematic bias: whatever is most recent, most emotionally salient, or most vividly imagined gets overweighted in probability estimates, while slow, invisible, unnarrated risks get underweighted.",
+      realLife: "The availability heuristic shapes investment behaviour profoundly. After a market crash, investors overestimate the probability of another crash — and miss the recovery. After a technology boom, investors overestimate technology returns — and pile in near the top. After a terrorist attack, politicians divert resources to anti-terrorism measures even if far more lives could be saved per dollar spent on other risk categories. Risk communication researchers at Paul Slovic's Decision Research group found that emotional salience — how much a risk triggers fear or disgust — is the dominant driver of perceived risk magnitude, not statistical probability. The antidote: when evaluating a risk, ask 'what would the base rate say?' and deliberately seek out the boring statistical truth rather than the vivid recent example.",
+      mnemonic: "Availability heuristic = judge probability by how easily examples come to mind. Post-earthquake: overestimate earthquake risk. Post-crash: overestimate crash probability. Post-boom: overestimate boom returns. Antidote: ask 'what does the base rate say?' Force statistical thinking over vivid-example thinking."
+    },
+    quiz: [
+      {
+        q: "What is the availability heuristic?",
+        options: [
+          "The tendency to choose the first option available in a list",
+          "Judging the probability of an event by how easily examples of it come to mind — causing vivid, recent, or emotionally salient events to be systematically overestimated in likelihood",
+          "The habit of always having information available before making decisions",
+          "The tendency to use data that is easily accessed rather than data that is accurate"
+        ],
+        answer: 1,
+        funFact: "Amos Tversky and Daniel Kahneman named and studied the availability heuristic in a 1973 paper. Their classic demonstration: ask people whether more words in English begin with the letter K or have K as the third letter. Most say K comes first more often — because words beginning with K are easier to recall. In reality, K is the third letter far more frequently. Ease of recall systematically distorts frequency estimates."
+      },
+      {
+        q: "How does the availability heuristic affect investor behaviour after a market crash?",
+        options: [
+          "Investors become more rational and analytical",
+          "Investors overestimate the probability of further crashes — because crash memories are vivid and easily recalled — leading them to stay in cash or sell at the worst time, missing the recovery that often follows",
+          "Investors immediately buy more shares because prices are lower",
+          "Investors begin tracking macroeconomic data more carefully"
+        ],
+        answer: 1,
+        funFact: "Research by Brad Barber and Terrance Odean found that retail investors' trading activity peaks in the months after market crashes — driven by heightened anxiety and availability of crash scenarios — and that this peak trading period is associated with the worst timing: selling during recovery phases. The 'availability' of the crash narrative keeps investors out of the market precisely when forward returns are highest."
+      },
+      {
+        q: "What is the best antidote to availability heuristic errors in risk assessment?",
+        options: [
+          "Relying on intuition which is not biased",
+          "Deliberately seeking out the base rate — the statistical frequency of the event in question over a long historical period — rather than anchoring on the most recent vivid example",
+          "Taking more time before making decisions",
+          "Consulting a financial advisor"
+        ],
+        answer: 1,
+        funFact: "Philip Tetlock's research on 'superforecasters' — people who make reliably accurate probabilistic predictions — found that the single best differentiator was their deliberate use of base rates as a starting point, which they then adjusted for specific new information. They explicitly de-anchored from vivid recent events and forced themselves to ask 'what has historically happened in situations like this?' before making any estimate."
+      }
+    ]
+  },
+  leadership: {
+    leaderMove: {
+      name: "The Second-Order Thinking — Seeing Consequences That Others Miss",
+      story: "Howard Marks, the legendary investor and founder of Oaktree Capital, describes second-order thinking as the key differentiator between average and exceptional decision-making. First-order thinking asks: 'What will happen?' Second-order thinking asks: 'What will happen next — and then what?' In investing, the classic example: a company announces bad earnings. First-order thinker: 'Bad news, sell.' Second-order thinker: 'The bad news is already priced in, the stock has been falling for weeks, and when bad news stops being as bad as feared, the stock can rise — buy.' In leadership, the pattern is identical. A manager solves a team conflict by separating two people. Second-order thinking: how does that separation affect project hand-offs? How does it signal to the rest of the team about how conflicts are handled? Does it model avoidance rather than resolution? The first move solves a first-order problem and creates multiple second-order ones. Great leaders run their decisions through at least two levels of consequence before acting. Shane Parrish of the Farnam Street blog popularised this framework, building on Marks's articulation of it in The Most Important Thing.",
+      realLife: "The Senate war powers resolution of June 23-24 is a live case study in missing second-order consequences. The first-order calculation: pass the resolution to express congressional displeasure with the Iran war. The second-order consequences that many senators did not model: Trump uses it as evidence that Congress is 'giving comfort to the enemy' and walks back to Iran negotiators; Republican senators who voted for it face immediate White House retribution; Cassidy reverses his vote within hours under direct presidential pressure. The second-order read was not that the resolution would be effective — it was that it would create leverage for Trump to use against the very senators who voted for it. Several of those senators apparently did not run that chain of consequences before their first vote.",
+      mnemonic: "Second-order thinking = ask 'and then what?' at least twice after any decision. Howard Marks / Oaktree Capital. In markets: bad news often means the stock is already pricing the bad. In leadership: the solution to conflict can model the wrong behaviour. Always run the chain of consequences two steps forward."
+    },
+    quiz: [
+      {
+        q: "What is the difference between first-order and second-order thinking?",
+        options: [
+          "First-order thinking is fast; second-order thinking is slow",
+          "First-order thinking asks 'what will happen?'; second-order thinking asks 'what will happen next — and then what?' — following the chain of consequences at least two levels forward rather than stopping at the immediate outcome",
+          "Second-order thinking only applies to investing, not to other decisions",
+          "First-order thinking relies on data; second-order thinking relies on intuition"
+        ],
+        answer: 1,
+        funFact: "Howard Marks articulated the investing version of second-order thinking in his 2011 book The Most Important Thing. He argues that 'second-level thinking is deep, complex, and convoluted.' First-level thinking is widespread and produces consensus outcomes. Second-level thinking, because it is rarer, is the only way to consistently outperform consensus — whether in markets or leadership."
+      },
+      {
+        q: "How does second-order thinking apply to the Senate war powers resolution of June 23-24?",
+        options: [
+          "It does not apply because political decisions are not subject to consequence analysis",
+          "A second-order thinker would have asked: 'If we pass this, how will Trump use it — against Iran, against us, against the negotiations?' and would have predicted the rapid reversal — Trump used the vote as leverage to pressure Republican senators back within hours",
+          "Second-order thinking would have advised more senators to vote for the resolution",
+          "Second-order thinking only applies in economic contexts"
+        ],
+        answer: 1,
+        funFact: "Sen. Bill Cassidy's 24-hour reversal is one of the clearest recent examples of second-order consequences playing out. He voted yes Tuesday, was publicly berated by Trump at a lunch meeting Wednesday ('Trump called me a lunatic' — Cassidy's own words), received a private briefing from VP Vance and Special Envoy Witkoff Wednesday afternoon, and voted to block the next resolution Wednesday evening. The first-order action was principled; the second-order consequences were predictable and severe."
+      },
+      {
+        q: "In investment terms, why does a bad earnings announcement sometimes cause a stock to rise rather than fall?",
+        options: [
+          "Because markets are irrational and unpredictable",
+          "Second-order thinking: if bad news was widely expected, the stock price already reflects it — and if the actual news is 'less bad than feared,' the marginal surprise is positive. The stock rises not because news is good, but because the news is better than what was already priced in",
+          "Because traders are confused by the announcement",
+          "Because retail investors buy on bad news to average down"
+        ],
+        answer: 1,
+        funFact: "This phenomenon — stocks rising on 'bad' news — is called 'sell the rumour, buy the fact' or more technically 'priced in.' When a stock has fallen 30% in anticipation of bad earnings, the earnings being 'only 25% bad' relative to expectations can trigger buying. The key insight: markets price EXPECTATIONS, not outcomes. Second-order thinking means always asking what the market expects, not just what actually happened."
+      }
+    ]
+  },
+  wealth: {
+    moneyLesson: {
+      name: "Insurance — The Tool That Converts Catastrophic Risk Into Affordable Certainty",
+      story: "Insurance is one of the most powerful risk management tools available to individuals and businesses, yet it is widely misunderstood and often undervalued until the moment it is needed. The economic logic is precise: most people cannot afford to absorb a catastrophic financial shock — a house fire, a severe illness, a car accident that causes serious injury. But the statistical probability of any of these events in a given year for any individual is low. Insurance aggregates millions of people who face the same small probability of catastrophe, pools their premiums, and uses that pool to pay the few who actually suffer the loss. The result: each individual converts an uncertain, potentially ruinous future outcome into a certain, affordable cost (the annual premium). From an Indian financial planning perspective, the most critically underinsured categories are: term life insurance (pure death benefit for dependants — Rs.1 crore+ cover costs as little as Rs.8,000-12,000 per year for a 30-year-old), health insurance (family floater plans covering Rs.10-20 lakh hospitalisation), and for business owners, key man insurance and business interruption cover. The Venezuela earthquake is a live reminder of what uninsured catastrophe looks like — 68,900 missing, overwhelmed hospitals, and a government with no fiscal capacity to respond.",
+      mnemonic: "Insurance = pooling small premiums across millions to cover the few who face catastrophe. Converts uncertain ruinous risk into affordable certain cost. Three Indian priorities: term life (Rs.1 cr+ cover from ~Rs.10,000/yr), health floater (Rs.10-20 lakh), and for businesses: key man + interruption. Venezuela shows uninsured catastrophic risk in real time."
+    },
+    quiz: [
+      {
+        q: "What is the core economic function of insurance?",
+        options: [
+          "To make insurance companies wealthy by collecting premiums",
+          "To pool small, affordable premiums from many people to cover the catastrophic losses of the few who suffer them — converting individually unmanageable risk into a shared, predictable cost",
+          "To force people to save money for future expenses",
+          "To pay government taxes in lieu of individuals"
+        ],
+        answer: 1,
+        funFact: "The insurance principle dates to Babylonian traders in 2000 BCE, who used a form of credit that forgave the debt if a shipment was lost at sea. Modern insurance theory was formalised by Swiss mathematician Daniel Bernoulli in 1738, who showed mathematically why a risk-averse individual would prefer a certain small loss (the premium) to an uncertain large loss (the catastrophe) even if the expected value was identical."
+      },
+      {
+        q: "Why is term life insurance one of the most important financial products for Indian earners with dependants?",
+        options: [
+          "Because it provides the highest investment returns",
+          "Because it provides a large death benefit (Rs.1 crore+) for a very low premium (~Rs.8,000-12,000/year for a healthy 30-year-old), ensuring dependants are financially protected even if the primary earner dies young — a pure risk cover with no investment component",
+          "Because the government mandates it",
+          "Because it grows in value over time like an equity fund"
+        ],
+        answer: 1,
+        funFact: "Term insurance in India is one of the cheapest in the world relative to the cover provided. A non-smoker male aged 30 can get Rs.1 crore of cover for roughly Rs.8,000-12,000 per year from insurers like LIC, HDFC Life, or ICICI Prudential. This is because mortality rates in India for this age group are low. The tragedy is that awareness of term insurance's value is low — most Indian insurance sold is investment-linked (endowment, ULIPs), which offer poor value for both the insurance and investment components."
+      },
+      {
+        q: "What is a family floater health insurance plan and why is it the recommended structure for most Indian families?",
+        options: [
+          "A plan that covers the whole family for the combined sum insured — far more efficient than individual policies because the probability of the entire family needing hospitalisation simultaneously is very low, so a Rs.15 lakh family floater usually provides better coverage per rupee than four Rs.5 lakh individual plans",
+          "A plan that floats (changes) its premium every year",
+          "A government scheme only available to families below the poverty line",
+          "A plan that only covers accidents, not illness"
+        ],
+        answer: 1,
+        funFact: "The efficiency of a family floater comes from the statistical independence of health events across family members. If each of four family members has a 5% chance of needing hospitalisation in a year, the probability of all four needing it simultaneously is approximately 0.0625% — extremely low. A Rs.15 lakh floater can absorb any single large event while keeping premiums modest. Individual policies for each member would cost significantly more for the same total cover."
+      }
+    ]
+  },
+  communication: {
+    commSkill: {
+      name: "The Iceberg Model of Communication — 90% of Meaning Is Below the Surface",
+      story: "Edward Hall, the American anthropologist who coined the terms 'high-context' and 'low-context' cultures in 1959, described communication as an iceberg: the explicit, surface-level words are the 10% above water; the implicit meaning — tone, context, relationship history, cultural assumption, unstated expectation — is the 90% below. Low-context cultures (Northern Europe, North America, Germany, Scandinavia) rely primarily on the explicit words. Meaning is stated directly. Ambiguity is considered a failure of communication. High-context cultures (Japan, Korea, China, Arab countries, India, much of Latin America and Africa) rely heavily on implicit signals. Meaning is often conveyed through what is not said, through status and relationship context, through tone and timing. In a high-context interaction, a Japanese colleague saying 'that could be difficult' means 'no.' A direct 'no' would be considered unnecessarily confrontational. Cross-cultural communication failures — even within India, between urban and rural professionals, or between generational cohorts — often trace to misaligned assumptions about how much meaning is in the words versus in the unsaid context.",
+      realLife: "The iceberg model is particularly important for Indian professionals working with global clients or managing cross-cultural teams. In a German or American business context, an email that says 'I will consider this' may mean the decision is pending. In an Indian context, it may be a polite refusal. In a Japanese context, it almost certainly is a refusal. The skilled communicator adjusts their explicit/implicit ratio based on the cultural context they are in — being more direct in low-context environments, and listening more carefully for implicit signals in high-context ones. The failure mode in global business: treating all communication as if it were low-context and missing the 90% that is actually running the relationship.",
+      mnemonic: "Iceberg model (Edward Hall 1959): 10% = explicit words. 90% = implicit tone, context, relationship, cultural frame. Low-context (Germany, USA): meaning is in the words. High-context (Japan, India, Arab): meaning is in what's not said. 'That could be difficult' (Japan) = no. Cross-cultural failure: treating all communication as low-context."
+    },
+    quiz: [
+      {
+        q: "What is Edward Hall's iceberg model of communication?",
+        options: [
+          "A model showing that communication takes a long time to develop",
+          "The observation that explicit words carry approximately 10% of communication meaning, while 90% is carried implicitly through tone, context, relationship history, timing, cultural assumptions, and unstated expectations",
+          "A framework for structuring business presentations in layers",
+          "A theory that large organisations communicate slowly like icebergs"
+        ],
+        answer: 1,
+        funFact: "Edward Hall coined the terms 'high-context' and 'low-context' culture in his 1976 book Beyond Culture. He also coined 'proxemics' — the study of how people use physical space in communication — and 'monochronic vs polychronic' time — how cultures think about sequential vs parallel time management. All three concepts are taught in cross-cultural management programmes globally."
+      },
+      {
+        q: "In a high-context culture like Japan, what does a colleague saying 'that could be difficult' typically mean?",
+        options: [
+          "The task is genuinely difficult but worth attempting",
+          "Almost certainly 'no' — in high-context cultures, a direct refusal is considered confrontational, so indirect language signals rejection while preserving the relationship and the other person's dignity",
+          "They need more information before deciding",
+          "They are requesting additional resources to make it possible"
+        ],
+        answer: 1,
+        funFact: "Japanese business communication scholars identify a concept called 'kuuki wo yomu' — reading the air. It refers to the ability to understand what is communicated through silence, tone, and context without it being stated. The same concept exists in Korean as 'nunchi.' In both cultures, the ability to read unspoken meaning is considered a core social and professional skill that develops over years of cultural immersion."
+      },
+      {
+        q: "Why do cross-cultural business communications fail even when both parties speak perfect English?",
+        options: [
+          "Because of accents and pronunciation differences",
+          "Because the two parties have different assumptions about the explicit/implicit ratio — a high-context speaker may give a polite indirect response that a low-context listener interprets as agreement, when it was actually a refusal",
+          "Because body language varies between cultures",
+          "Because business terminology differs across countries"
+        ],
+        answer: 1,
+        funFact: "Richard Lewis's Cross-Cultural Communication model (1996) maps business cultures onto a triangle: Linear-active (task-focused, direct, German/Swiss/Scandinavian), Multi-active (people-focused, emotional, Italian/Spanish/Latin American), and Reactive (listener-focused, indirect, Japanese/Korean/Finnish). Understanding where a counterpart sits on this triangle predicts miscommunication patterns better than knowing their language alone."
+      }
+    ]
+  },
+  mind: {
+    technique: {
+      name: "Progressive Muscle Relaxation — Release Physical Tension to Quiet the Mind",
+      howTo: "Progressive Muscle Relaxation (PMR) was developed by physician Edmund Jacobson in the 1920s. The technique: systematically tense and then release each muscle group in the body, working from feet to scalp (or scalp to feet). The sequence: feet (curl toes, hold 5 seconds, release), calves (flex, hold, release), thighs (squeeze, hold, release), abdomen (tighten, hold, release), hands (make fists, hold, release), forearms, upper arms, shoulders (hunch toward ears, hold, release), neck (gently press back, hold, release), face (scrunch all facial muscles, hold, release). The hold phase is typically 5-7 seconds; the release should be slow and deliberate. Total time: 10-20 minutes for the full sequence. The mechanism: deliberately creating muscle tension and then releasing it produces a relaxation response that is measurably deeper than simply trying to relax without the tension phase. The contrast between tension and release teaches the body to recognise and reach a relaxed baseline. PMR has over 90 years of clinical evidence and is a first-line recommendation in cognitive behavioural therapy protocols for anxiety, insomnia and chronic pain.",
+      mnemonic: "PMR: tense each muscle group 5-7 seconds, then release slowly. Feet → calves → thighs → abdomen → hands → arms → shoulders → neck → face. Tension then release = deeper relaxation than relaxation alone. Edmund Jacobson, 1920s. 90+ years of evidence. Works for anxiety, insomnia, chronic pain."
+    },
+    quiz: [
+      {
+        q: "What is the key mechanism that makes Progressive Muscle Relaxation work?",
+        options: [
+          "The deep breathing involved in counting to five",
+          "Deliberately creating tension in a muscle group and then releasing it produces a relaxation response measurably deeper than simply trying to relax — the contrast between tension and release teaches the nervous system to recognise and reach its true relaxed baseline",
+          "The distraction of concentrating on muscles prevents anxious thoughts",
+          "The physical exercise of tensing muscles burns stress hormones"
+        ],
+        answer: 1,
+        funFact: "Edmund Jacobson's original insight was that anxiety and muscle tension are inseparable — he noticed that anxious patients consistently showed elevated baseline muscle tension that they could not feel because they had no reference point for what 'relaxed' felt like. By deliberately creating and then releasing tension, PMR calibrates the nervous system to recognise genuine relaxation. Jacobson spent over 30 years studying the technique before publishing his definitive work in 1938."
+      },
+      {
+        q: "In which clinical conditions is Progressive Muscle Relaxation most well-evidenced?",
+        options: [
+          "Exclusively for post-traumatic stress disorder",
+          "Anxiety disorders, insomnia (sleep initiation problems), chronic pain management, and hypertension — PMR is a first-line or adjunctive treatment in CBT protocols for all of these conditions with over 90 years of clinical research behind it",
+          "Only for physical rehabilitation after injury",
+          "Depression as a standalone treatment"
+        ],
+        answer: 1,
+        funFact: "A 2019 meta-analysis in PLOS ONE reviewing 37 randomised controlled trials found that PMR significantly reduced anxiety symptoms across diverse populations. It is particularly well-evidenced for generalised anxiety disorder and pre-procedural medical anxiety (before surgery or medical procedures). The technique is taught in most clinical psychology training programmes as a foundational behavioural intervention."
+      },
+      {
+        q: "What is the recommended order for progressive muscle relaxation?",
+        options: [
+          "Random muscle groups to keep the mind engaged",
+          "Systematic sequential order — typically feet to scalp (or scalp to feet), working through connected muscle groups: feet → calves → thighs → abdomen → hands → arms → shoulders → neck → face — so the relaxation spreads progressively through the entire body",
+          "Only large muscle groups: legs, back, chest",
+          "Only the face and shoulders, where tension is most visible"
+        ],
+        answer: 1,
+        funFact: "The sequential order in PMR is deliberate: moving from peripheral muscles (feet, hands) toward the core and then the face follows the nervous system's own architecture. By the time the sequence reaches the face — where anxiety tension is most concentrated (jaw clenching, furrowed brow, tight forehead) — the body has already experienced multiple cycles of tension-release and is primed for a deep facial release."
+      }
+    ]
+  },
+  knowledge: {
+    todayILearned: {
+      name: "Tectonic Plates — The Slow-Moving Architecture Behind Every Earthquake",
+      quickBite: "The Venezuela earthquakes of June 24 were caused by the San Sebastián fault system — part of the boundary between the Caribbean Plate and the South American Plate. Understanding why earthquakes happen requires understanding plate tectonics: the Earth's outer shell (lithosphere) is broken into approximately 15-20 major and minor plates that float on the semi-molten rock of the asthenosphere and move at speeds of 2-10 centimetres per year. At plate boundaries, three things can happen: plates pull apart (divergent boundary — creating new seafloor, as in the Mid-Atlantic Ridge), plates collide (convergent boundary — creating mountain ranges and ocean trenches, as in the Himalayas where India collides with Eurasia), or plates slide horizontally past each other (transform boundary — creating earthquake-prone strike-slip faults like California's San Andreas Fault and Venezuela's San Sebastián Fault). The energy that builds up over decades or centuries of plates grinding against each other is released suddenly when friction is overcome — producing an earthquake. The Mw scale (moment magnitude) is logarithmic: a Mw 7.5 earthquake releases approximately 32 times more energy than a Mw 6.5 earthquake.",
+      mnemonic: "Plate tectonics: ~15-20 lithospheric plates move 2-10 cm/year. Three boundary types: divergent (pull apart = new seafloor), convergent (collide = mountains/trenches), transform (slide past = strike-slip faults = earthquakes). Venezuela: Caribbean + South American plates, transform boundary, San Sebastián fault. Mw scale: logarithmic, each integer = 32x more energy."
+    },
+    quiz: [
+      {
+        q: "What type of tectonic boundary caused the June 24 Venezuela earthquakes?",
+        options: [
+          "A divergent boundary where plates pull apart",
+          "A transform (strike-slip) boundary where the Caribbean Plate and South American Plate slide horizontally past each other — generating the right-lateral shearing motion characteristic of the San Sebastián fault system",
+          "A convergent subduction boundary where one plate slides under another",
+          "A hot spot unrelated to plate boundaries"
+        ],
+        answer: 1,
+        funFact: "Strike-slip faults — where two tectonic plates slide horizontally past each other — can produce very destructive shallow earthquakes. The 1906 San Francisco earthquake (Mw 7.9) was caused by California's San Andreas Fault, another right-lateral strike-slip system similar to Venezuela's San Sebastián. Shallow focus earthquakes (depth under 70 km) cause more surface damage than deeper ones because the energy travels a shorter distance to reach populated areas."
+      },
+      {
+        q: "Why is the Mw (moment magnitude) scale logarithmic?",
+        options: [
+          "To make small earthquakes seem more significant",
+          "Because earthquake energy spans an enormous range — from imperceptible tremors to events that can be felt globally — a logarithmic scale compresses this vast range into manageable numbers. Each whole number increase represents approximately 32 times more energy released",
+          "Because it was invented by mathematicians who preferred logarithms",
+          "Because earthquake measurements can only be made to the nearest whole number"
+        ],
+        answer: 1,
+        funFact: "The difference in energy between a Mw 7.5 (Venezuela) and a Mw 9.0 earthquake (like the 2011 Tōhoku earthquake that caused the Fukushima nuclear disaster) is: 9.0 - 7.5 = 1.5 steps on the log scale = 32^1.5 = approximately 180 times more energy. The Tōhoku earthquake released as much energy as all other seismic events in 2011 combined, many times over."
+      },
+      {
+        q: "Why do convergent plate boundaries create mountain ranges?",
+        options: [
+          "Because the heat from the boundary melts rock into mountains",
+          "When two continental plates collide, neither can subduct (sink) because continental crust is too buoyant — so the collision zone crumples upward, building mountains. The Himalayas are the result of the Indian Plate colliding with the Eurasian Plate at approximately 5 cm per year over 50 million years",
+          "Because volcanic activity at convergent boundaries deposits minerals that form mountains",
+          "Because the plates vibrate and the vibrations form ridges"
+        ],
+        answer: 1,
+        funFact: "Mount Everest grows approximately 4 mm per year as the Indian Plate continues to push into Eurasia. It also erodes at roughly the same rate through glaciation and weathering. The Himalayas began forming approximately 50 million years ago — geologically recent — and will continue for millions more years. The same collision is responsible for the seismicity across the Indian subcontinent, Nepal, Pakistan and Bangladesh."
+      }
+    ]
+  },
+  ai: {
+    aiTool: {
+      name: "Google NotebookLM — The AI Research Assistant That Only Knows What You Teach It",
+      whatItDoes: "Google NotebookLM is a research and note-taking tool that is fundamentally different from general-purpose LLMs: it is grounded exclusively in the documents, PDFs, audio files, and web links that you upload to it. It does not draw on external training data or the internet — its knowledge is limited to your sources. This means it cannot hallucinate facts from outside your materials; every claim it makes can be traced back to a specific source passage. Use cases: analysing a set of research papers, understanding a long legal document, synthesising notes from multiple meetings, studying a textbook, or creating a podcast-style audio summary of uploaded content. NotebookLM became particularly popular for the 'podcast generation' feature — upload any document and it generates a surprisingly natural-sounding two-person audio discussion of the content. It is free to use with a Google account. For students, analysts, and knowledge workers who need to work deeply with a specific set of source materials, it fills a gap that general LLMs cannot: grounded, citable, source-constrained analysis.",
+      mnemonic: "NotebookLM (Google): AI grounded ONLY in your uploaded documents. Cannot hallucinate external facts. Every claim traceable to source. Use for: research paper synthesis, legal document analysis, meeting notes, study. Podcast generation feature: upload anything → natural audio discussion. Free with Google account."
+    },
+    quiz: [
+      {
+        q: "What is the fundamental difference between NotebookLM and a general-purpose LLM like ChatGPT?",
+        options: [
+          "NotebookLM is faster at generating text",
+          "NotebookLM is grounded exclusively in the documents you upload — it has no external knowledge base and cannot draw on its training data, meaning every answer can be traced to a specific passage in your sources and hallucination of external facts is prevented",
+          "NotebookLM can access the internet in real time",
+          "NotebookLM only works with Google Docs"
+        ],
+        answer: 1,
+        funFact: "The design choice to ground NotebookLM only in uploaded sources is a deliberate AI safety and accuracy decision by Google. In domains like legal, medical, scientific or financial research, a hallucinated fact that sounds confident is more dangerous than acknowledging ignorance. Source-grounded AI assistants trade breadth (cannot answer anything) for accuracy (every answer is verifiable against your documents)."
+      },
+      {
+        q: "What is the 'podcast generation' feature in NotebookLM and why did it become widely discussed?",
+        options: [
+          "A tool to publish audio content to podcast platforms",
+          "A feature that converts uploaded documents into a natural-sounding two-person audio conversation discussing the content — which became notable because the audio quality and conversational naturalness was unexpectedly realistic for an AI-generated summary",
+          "A way to import podcast transcripts for analysis",
+          "A recording tool for capturing meeting discussions"
+        ],
+        answer: 1,
+        funFact: "The NotebookLM podcast feature (called 'Audio Overview') went viral in late 2024 when users uploaded academic papers, books, and news articles and shared the surprisingly coherent, engaging audio discussions the system generated. Some educators began using it to create accessible summaries of dense academic content for students. The feature generates approximately 10-20 minute discussions from any document."
+      },
+      {
+        q: "For which professional use case is NotebookLM most clearly superior to a general-purpose LLM?",
+        options: [
+          "Writing creative fiction",
+          "Deep analysis of a specific set of documents — legal due diligence, academic literature review, analysing a company's annual reports, studying for a professional exam using a fixed set of materials — where the ground truth must come exclusively from known sources and every claim must be verifiable",
+          "Real-time research on current news events",
+          "Generating code for software development"
+        ],
+        answer: 1,
+        funFact: "Law firms and consulting firms have been exploring NotebookLM for document review tasks where hallucination is catastrophic — a contract analysis that invents a clause that is not in the contract creates real legal liability. Source-grounded AI provides a foundational trust floor that general LLMs cannot offer in high-stakes professional document work."
+      }
+    ]
+  },
+  travel: {
+    destination: {
+      name: "Armenia — The Ancient Christian Kingdom Next Door to Georgia With Its Own Stunning Character",
+      quickFacts: "Building on the Georgia series from June 22-23, Armenia is the natural companion destination — the two countries share a border and can be combined in a single trip. Armenia is one of the world's oldest continuously inhabited regions; Yerevan, the capital, was founded in 782 BC — older than Rome. Armenia was the first country in history to adopt Christianity as its state religion, in 301 AD. The Apostolic Church that grew from that adoption is the Armenian Apostolic Church, one of the oldest Christian churches in the world. For Indian passport holders: Armenia offers visa-on-arrival (free of charge) for up to 180 days — one of the most accessible destinations in the South Caucasus. The currency is the Armenian Dram (AMD); approximately 400 AMD to 1 USD in 2026. Key sites: Yerevan's rose-tinged stone architecture, the Cascade monumental stairway, the Geghard monastery (carved directly into a mountain, UNESCO World Heritage), Noravank monastery in a dramatic red-rock canyon, and Mount Ararat — which is visible from Yerevan on clear days but is actually located in Turkey since 1921, a source of deep national grief. The food: khorovats (Armenian barbecue, slow-cooked over vine branches), dolma (grape leaves stuffed with spiced rice and meat), lavash (paper-thin flatbread, UNESCO listed), and Armenian cognac (brandy) that Winston Churchill reportedly preferred over Scotch.",
+      whyNow: "June-July is peak season in Armenia — warm, clear visibility, long days. Yerevan has transformed dramatically in the decade since the Velvet Revolution of 2018: new restaurants, wine bars, and a vibrant arts scene have made it one of the most pleasant cities in the region. The combination of Georgia + Armenia (Tbilisi → Yerevan by marshrutka or cheap flight, 4-5 hours) is one of the most rewarding two-week itineraries in the world for value, history and food. For Muslim travellers: halal food availability in Yerevan has improved significantly, particularly near the central market and in hotels catering to Gulf visitors. Alternatively, Armenian food is highly vegetable-forward with many naturally meat-free options.",
+      mnemonic: "Armenia: world's first Christian state (301 AD). Yerevan founded 782 BC. Visa-on-arrival (free) for Indian passports, up to 180 days. Currency: AMD (~400/USD). Geghard monastery (UNESCO, carved into mountain). Mount Ararat visible from Yerevan but is in Turkey. Food: khorovats, dolma, lavash (UNESCO). Combine with Georgia (Tbilisi → Yerevan 4-5 hrs)."
+    },
+    quiz: [
+      {
+        q: "What historical distinction makes Armenia unique in the history of religion?",
+        options: [
+          "It was the first country to build a mosque",
+          "In 301 AD, Armenia became the first country in history to officially adopt Christianity as its state religion — predating Constantine's Edict of Milan (313 AD) which legalised Christianity across the Roman Empire",
+          "It was the birthplace of Islam",
+          "It preserved the oldest copies of the Bible"
+        ],
+        answer: 1,
+        funFact: "Armenia's adoption of Christianity preceded Constantine's famous edict by 12 years. King Tiridates III converted after the missionary Gregory the Illuminator was released from prison (where he had been held for 15 years). The event is commemorated at Etchmiadzin Cathedral, founded in 301 AD and considered the mother church of the Armenian Apostolic Church — one of the oldest functioning religious structures in the world."
+      },
+      {
+        q: "What is the historical and emotional significance of Mount Ararat for Armenia?",
+        options: [
+          "It is the site of a famous Armenian military victory",
+          "Ararat is Armenia's national symbol — depicted on the coat of arms, central to Armenian identity and the Genesis story of Noah's Ark — but the mountain is physically located in Turkey (since 1921), making it permanently visible from Yerevan yet permanently unreachable within its own homeland, a source of profound national grief",
+          "It is the location of Armenia's most important monastery",
+          "It marks the border between Armenia and Georgia"
+        ],
+        answer: 1,
+        funFact: "The Treaty of Kars (1921) between Turkey and Soviet Armenia assigned Mount Ararat to Turkey. Soviet foreign minister Georgy Chicherin reportedly protested to a Turkish diplomat: 'Turkey has taken Ararat, which is Armenia's national symbol.' The Turkish diplomat replied: 'Turkey also has no objection that Switzerland has chosen a bear as its national symbol, even though there are no bears in Switzerland.' Ararat appears on every Armenian coat of arms."
+      },
+      {
+        q: "What is lavash and why does it hold UNESCO cultural heritage status?",
+        options: [
+          "A traditional Armenian dance performed at weddings",
+          "A paper-thin unleavened flatbread, baked in a tonir (clay oven) using a technique passed down for thousands of years — UNESCO listed it in 2014 as an Intangible Cultural Heritage of Humanity because the bread-making tradition is deeply embedded in Armenian cultural identity, family ritual, and community practice",
+          "A type of Armenian wine made from native grape varieties",
+          "A woven textile technique practiced by Armenian craftspeople"
+        ],
+        answer: 1,
+        funFact: "Lavash is made by slapping an extremely thin sheet of dough against the inner wall of a cylindrical clay oven (tonir) where it bakes in seconds. The oven is typically dug into the ground and heated from below. The skill to stretch the dough to near-translucency before baking requires years of practice. UNESCO's 2014 inscription noted that lavash production is a communal activity — traditionally done by women working together — with significant social bonding value beyond its culinary function."
+      }
+    ]
+  }
+}
+
 const ALL_BRIEFS = {
   '2026-06-01': d260601,
   '2026-06-02': d260602,
@@ -6835,6 +7315,7 @@ const ALL_BRIEFS = {
   '2026-06-21': d260621,
   '2026-06-22': d260622,
   '2026-06-23': d260623,
+  '2026-06-24': d260624,
 }
 
 // == DATA END ==
