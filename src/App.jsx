@@ -5843,6 +5843,487 @@ const d260621 = {
   }
 }
 
+const d260622 = {
+  news: {
+    segments: [
+      {
+        name: "🌐 What's happening with countries?",
+        color: "#a0d4f5",
+        stories: [
+          {
+            headline: "Keir Starmer resigns as UK Prime Minister — Britain gets its seventh PM in 10 years",
+            eli5: "On the morning of Monday June 22, Keir Starmer stood outside 10 Downing Street and announced he was resigning as both Prime Minister and leader of the Labour Party. He had been in power less than two years after winning a landslide election in 2024. The pressure had been building for months: Labour lost nearly 1,500 council seats in May's local elections, the hard-right Reform UK party surged, and after Andy Burnham — the hugely popular former Mayor of Greater Manchester — won a by-election in Makerfield on June 18 and returned to Parliament, the signal was clear. Starmer said he had 'heard the answer of my parliamentary party' and was accepting it 'with good grace.' He will stay in post as a caretaker until a new Labour leader is elected, with nominations opening July 9. Burnham has confirmed he will run; former Health Secretary Wes Streeting, once his expected rival, has already endorsed him. If Burnham is the only candidate to gain enough nominations, the contest ends without a vote.",
+            whyItMatters: "This is a masterclass in how democratic systems handle unpopular leaders — not through a dramatic vote of no-confidence, but through the quiet accumulation of political reality. A by-election was engineered to bring Burnham into Parliament specifically so he could challenge Starmer. That is democracy operating at a high level of sophistication: the mechanism to change leadership was built into the system, it was used, and it worked without a constitutional crisis. The deeper lesson is about the gap between an election mandate and ongoing legitimacy. Starmer won 2024 in a landslide, but mandates decay if delivery disappoints. Britain is now on its seventh PM in ten years — a number that tells you something about the structural pressures on modern democratic governments, where public patience is short and social media accelerates discontent.",
+            mnemonic: "June 22 = Starmer resigns — less than 2 years after 2024 landslide. Burnham wins Makerfield by-election June 18, returns to Parliament, signals the end. Nominations open July 9. Britain's 7th PM in 10 years. Mandates decay if delivery disappoints."
+          },
+          {
+            headline: "US lifts Iran oil sanctions for 60 days — Brent crude drops 3.5% to below $78",
+            eli5: "On Monday June 22, the US Treasury Department issued what it called 'General License X' — a sweeping 60-day waiver allowing Iran to produce, sell and export crude oil, petrochemical and petroleum products in US dollars, for the first time in more than four decades. The move was a condition written into the memorandum of understanding signed by the US and Iran on June 17. Treasury Secretary Scott Bessent confirmed Iran had committed to free passage through the Strait of Hormuz and to allowing UN nuclear inspectors back into the country. The market response was immediate: Brent crude fell over 3.5% to around $77.70 per barrel — its lowest since early March — as the prospect of Iranian barrels re-entering global supply hit the oil price. US crude (WTI) fell approximately 5.8% to settle around $76.05. The waiver expires August 21.",
+            whyItMatters: "One government document — a General License — moved global oil prices by more than 3.5% in a single day. This is supply-and-demand thinking made concrete: the oil market does not just price today's barrels, it prices EXPECTED future supply. The moment Iranian oil became legally tradeable again, the market repriced forward expectations instantly. For India, as one of the world's largest oil importers, cheaper Brent is a direct tailwind: it eases the import bill, reduces inflation pressure on the rupee, and gives the RBI more room to hold or cut rates. The 60-day window is also a live lesson in how diplomacy and commodity markets are deeply entangled — geopolitics is now a variable in every energy trade.",
+            mnemonic: "June 22 = US issues 'General License X' — 60-day Iran oil sanctions waiver, first dollar-denominated Iranian oil trade in 40+ years. Brent falls 3.5%+ to ~$77.70. Waiver expires Aug 21. One document moved global energy prices: expected supply reprices futures instantly."
+          },
+          {
+            headline: "World Cup Day 12 — Messi breaks the all-time World Cup scoring record with 18 goals",
+            eli5: "Monday June 22 produced one of the most memorable moments in football history at AT&T Stadium in Arlington, Texas. Lionel Messi, 38, scored twice in Argentina's 2-0 win over Austria to take his career World Cup goal tally to 18 — surpassing Germany's Miroslav Klose, who had held the record at 16 goals. Messi's five goals in the 2026 tournament have been the defining story of the competition's first two weeks. Meanwhile, France beat Iraq 3-0 in Philadelphia, with Kylian Mbappé scoring a brace; a 2-hour 10-minute halftime delay due to storms over the Delaware Valley failed to slow Mbappé's impact. Norway beat Senegal 3-2 in the day's other headline match, with Erling Haaland on the scoresheet. The day underscored that the three biggest names in football — Messi, Mbappé and Haaland — are all at this tournament and all performing.",
+            whyItMatters: "Records in sport are more than numbers — they are compressed histories of excellence. Messi overtaking Klose is the capstone of a career argument that many consider already settled. But what makes this educationally rich is the age dimension: Messi is 38, playing at a World Cup where the average elite footballer has retired, and doing so at a level that is breaking records. It is a live case study in preparation, longevity and maintaining peak performance well past the conventional ceiling. For anyone thinking about their own fields — the lesson is that the ceiling is often a story we accept prematurely. The 2026 World Cup, with 48 teams for the first time, is also generating vastly more match data — a structural shift in how the tournament works and how upsets can cascade.",
+            mnemonic: "June 22 = Messi scores twice vs Austria (2-0) to reach 18 World Cup goals — beats Klose's record of 16. Age 38. Mbappé brace in France 3-0 Iraq. Haaland scores in Norway 3-2 Senegal. Three of football's biggest names all delivering on the same day."
+          }
+        ]
+      },
+      {
+        name: "💸 What's happening with money?",
+        color: "#a8edcb",
+        stories: [
+          {
+            headline: "Indian markets gap up Monday — Sensex +400 points as Iran deal and cheaper oil lift sentiment",
+            eli5: "After Friday June 20's painful IT-driven selloff — the Sensex fell 607 points to 76,802.90, dragged by TCS, Infosys and the broader Nifty IT index on the back of Accenture's warning — Monday opened with a sharp reversal. By 9:19 AM, the Sensex had climbed 403 points to 77,206 and the Nifty 50 had risen 112 points to 24,125. The catalyst was clear: the weekend's Burgenstock talks produced the US-Iran Hormuz hotline and a 60-day roadmap, and Monday's General License X sanctions waiver sent Brent crude down over 3.5%. For India — which imports roughly 80% of its oil — cheaper crude directly reduces the import bill, eases inflation and gives the RBI breathing room. IT stocks led the early recovery, with the Nifty IT index up 1.18% as the sector attempted to bounce from multi-year lows. The rupee opened at approximately 84.34 per US dollar.",
+            whyItMatters: "This gap-up reversal teaches a core market skill: distinguishing a structural break from a news-driven selloff. Friday's IT crash was triggered by Accenture's guidance — a specific company warning about a specific geography — not by any deterioration in Indian IT fundamentals. The stocks that fell furthest on bad external news often bounce fastest when the news cycle turns. Monday's reversal did not mean the IT problem was solved; it meant the immediate fear had passed. The durable lesson is about TIME HORIZON: a single Accenture warning cannot permanently reprice Indian IT's decade-long structural growth story, but it can — and did — create a painful entry window for patient investors who understood the distinction.",
+            mnemonic: "June 22 = Sensex gaps up +400 pts to 77,206; Nifty +112 to 24,125. Drivers: US-Iran Hormuz deal + General License X sends Brent below $78. Nifty IT bounces 1.18% from multi-year lows. A news-driven selloff is different from a structural break — the bounce proves the distinction."
+          }
+        ]
+      }
+    ]
+  },
+  markets: {
+    globalPulse: {
+      eli5: "Monday June 22 was a geopolitical-to-market transmission day in near-real time. The US Treasury's General License X — a 60-day sweeping waiver of Iran oil sanctions — hit markets at the open and sent Brent crude down more than 3.5% to roughly $77.70, WTI down nearly 6% to $76.05. This is what 'sanctions relief as supply signal' looks like live: the market does not wait for actual Iranian barrels to arrive — it reprices the moment the legal gate opens. US equities had finished Friday firmly positive, led by technology on the Nasdaq. The week opens with cheaper oil, a fragile but functioning US-Iran roadmap, and the IT sector in India attempting a bounce from multi-year lows. Capital is still rotating: energy names soften on cheaper crude, but oil-importing economies like India receive a macro tailwind. The Rupee opened around 84.34 per USD, stable despite the weekend's geopolitical movement.",
+      keyThings: [
+        "Brent Crude: ~$77.70, down 3.5%+ — General License X sanctions waiver unlocks Iranian supply expectations, deflating the war premium sharply",
+        "WTI Crude: ~$76.05, down nearly 6% — steeper fall reflects US domestic market repricing of Iranian supply returning",
+        "Indian Nifty IT: bouncing +1.18% — attempting recovery from multi-year lows after Friday's Accenture-driven crash; structural story intact",
+        "Sensex: +400 pts gap-up to 77,206 — Iran deal + cheaper crude lifts India macro sentiment; rupee stable at ~84.34",
+        "US equities: firmly positive into Monday — Nasdaq-led tech rally from Friday carries momentum into the week"
+      ]
+    },
+    indianMarket: {
+      eli5: "The context for June 22's setups is Friday June 20's brutal close: Sensex down 607 points to 76,802.90, Nifty 50 down 154.90 to 24,013.10, led lower by Indian IT across the board after Accenture's warning of a $400 million Middle East hit triggered an 'AI is replacing services' fear cascade. Monday opened with a gap-up reversal as cheap oil (Brent -3.5%) and the Hormuz agreement changed the macro picture overnight. Defence PSUs — which held firm on Friday as IT collapsed — maintain their relative-strength position. The week's setup is a tale of two rotations: IT attempting to bounce from oversold multi-year lows, while defence names consolidate their recent outperformance. HAL (Hindustan Aeronautics Limited) enters this week's watchlist fresh — a Maharatna defence-aerospace PSU building Tejas fighters and the ALH Dhruv helicopter, not previously featured in this brief series.",
+      breakouts: [
+        {
+          name: "HAL — Hindustan Aeronautics Limited (NSE: HAL)",
+          halal: true,
+          buyPrice: "Rs.4,320",
+          sellPrice: "Rs.4,780",
+          stopLoss: "Rs.4,100",
+          whyExciting: "HAL is India's premier defence aerospace company — a government-owned Maharatna PSU headquartered in Bengaluru that designs, manufactures, repairs and upgrades aircraft, helicopters and aero-engines for the Indian Air Force, Army Aviation and Navy. Its headline products include the Tejas Mk1A light combat aircraft, the Advanced Light Helicopter (ALH) Dhruv, and the HTFE-25 engine. The business is purely defence-aerospace engineering and manufacturing — permissible under Islamic screening criteria, with no interest-based financial operations and a strong public-sector balance sheet. HAL's order book stands at approximately Rs.1,89,300 crore, more than double what it was two years ago, and the FY26 Q4 net profit came in at Rs.4,196 crore — a 5.52% rise year-on-year. It achieved Maharatna status in October 2024, reflecting its financial scale and strategic importance. The stock closed around Rs.4,368 on June 25; the setup targets a reclaim of the Rs.4,320 level as a week-ahead entry with the Rs.4,780 zone as the reward target, respecting the 52-week range of Rs.3,479 to Rs.5,065.",
+          risk: "HAL's revenue is heavily backend-loaded — it books the bulk of its earnings in Q4, making quarterly numbers lumpy and hard to read mid-year. Tejas Mk1A deliveries have faced scrutiny for timeline slippage, with the Defence Ministry considering financial penalties; any formal penalty announcement could weigh on the stock. The 52-week high is Rs.5,065 and the stock has underperformed over the past year (-9% in 12 months), so momentum is not strongly with it. The Rs.4,100 stop is meaningful — a close below it signals the range support has broken."
+        },
+        {
+          name: "Bharat Dynamics Limited (NSE: BDL)",
+          halal: true,
+          buyPrice: "Rs.1,340",
+          sellPrice: "Rs.1,520",
+          stopLoss: "Rs.1,260",
+          whyExciting: "Bharat Dynamics Limited is India's sole manufacturer of guided missiles and allied defence equipment — it makes the Akash surface-to-air missile, the Konkurs anti-tank missile and the Varunastra heavyweight torpedo for the Indian armed forces. The business is pure defence manufacturing with a near-debt-free balance sheet, clearing both the business activity and financial screens for halal compliance. BDL is a Mini Ratna Category 1 PSU with a large order book driven by indigenisation demand as India reduces imports. It brings a different sub-sector to the basket (missiles and munitions) versus HAL's aerospace and Mazagon Dock's shipbuilding — genuine diversification within the defence theme. The stock closed around Rs.1,374 on June 25; the setup looks for a hold above Rs.1,340 with the Rs.1,520 zone as the target.",
+          risk: "BDL's order execution is tied to government procurement cycles and technology readiness levels — both can slip without warning. Revenue recognition is lumpy. The stock has a wide 52-week range and can swing significantly on contract news or absence of it. Respect the Rs.1,260 stop — below it the setup is broken."
+        },
+        {
+          name: "Cochin Shipyard Limited (NSE: COCHINSHIP)",
+          halal: true,
+          buyPrice: "Rs.1,420",
+          sellPrice: "Rs.1,620",
+          stopLoss: "Rs.1,340",
+          whyExciting: "Cochin Shipyard is India's largest public sector shipyard — it builds and repairs ships for both defence (including India's first domestically built aircraft carrier, INS Vikrant) and civilian clients. It is effectively debt-free, pass both the business activity screen (shipbuilding and MRO are permissible) and the financial screen, and adds the civilian commercial shipbuilding angle to the defence basket alongside BDL's missiles and HAL's aerospace. India's push for a 200-ship Navy by 2047 underpins a multi-year order pipeline for domestic yards. The stock closed around Rs.1,460 on June 25; the setup looks for a hold above Rs.1,420 with Rs.1,620 as the target.",
+          risk: "Shipyard revenue is project-based and highly uneven — a single large contract can make a year, its delay can break a quarter. The 52-week range is wide and the stock is volatile. Keep position sizing conservative and honour the Rs.1,340 stop."
+        },
+        {
+          name: "ITC Limited (NSE: ITC) — the teaching contrast (NOT halal)",
+          halal: false,
+          buyPrice: "N/A — excluded on faith grounds",
+          sellPrice: "N/A",
+          stopLoss: "N/A",
+          whyExciting: "ITC is here to teach the screen, not to trade. It is one of India's most diversified consumer conglomerates — hotels, FMCG, agribusiness, paperboards — and on pure fundamentals it has a strong balance sheet and consistent dividend history. But ITC's foundational business is tobacco: it remains one of India's largest cigarette manufacturers. Tobacco is explicitly impermissible under Islamic screening criteria, regardless of how profitable the company is or how strong the chart looks. No diversification into hotels or biscuits changes the primary-business screen. The lesson: always apply the business activity filter first. If the anchor business fails the screen, the stock fails — regardless of what the other divisions do.",
+          risk: "The 'risk' here is the temptation to rationalise: 'but tobacco is only part of the business.' Islamic screening does not weight by revenue percentage — a company that manufactures cigarettes fails the business activity screen in full. That is the discipline."
+        }
+      ],
+      ipoSpot: {
+        name: "No major Indian IPO listing on June 22 — a week to study the OpenAI filing",
+        verdict: "Learn",
+        eli5: "There is no blockbuster Indian IPO listing on June 22. Use this space to consolidate the lesson from the weekend: OpenAI's confidential IPO filing — still the most discussed market event globally — is a live reminder that a famous name and a hot valuation are different things. A confidential filing means no public numbers yet. For a halal investor specifically: a pure-software AI company can be business-activity compliant, but you would still need to check its debt-to-equity ratio and the proportion of revenue from interest-bearing instruments before calling it screen-compliant. The discipline is to wait for the S-1, read the financials, and judge the price — not the brand."
+      },
+      lessonOfDay: {
+        title: "The Sanctions Premium — How a Government Document Reprices a Commodity",
+        story: "Monday June 22 handed you one of the cleanest live demonstrations of how geopolitical events translate directly into commodity prices. The US Treasury's General License X — a 60-day waiver allowing Iran to sell oil in US dollars — sent Brent crude down more than 3.5% in a single session, and WTI down nearly 6%. No Iranian oil actually arrived anywhere differently that day. What changed was EXPECTATION: the legal barrier to Iranian supply entering the market was removed, and the market instantly repriced forward supply curves. This is called a 'sanctions premium' — the extra price above what pure supply and demand would justify, which is charged by buyers because of the uncertainty of supply. When the sanction threat eases, the premium deflates — quickly, mechanically, and often brutally for anyone who held positions built on the fear. The key insight: commodity markets price EXPECTED FUTURE supply at least as much as present supply. A document that changes expected supply curves moves prices before a single barrel changes hands. For an Indian investor, understanding sanctions premia means understanding why oil spiked when Iran conflict escalated and why it dropped the moment a deal framework appeared — the barrels in the ground did not change, only the legal and political environment around them did.",
+        mnemonic: "Sanctions premium = extra oil price padding from supply-uncertainty fear. General License X removes the legal barrier → expected Iranian supply rises → premium deflates → Brent -3.5%, WTI -6% on June 22, before a single new barrel ships. Markets price EXPECTED futures, not just present supply."
+      }
+    },
+    quiz: [
+      {
+        q: "What is a 'sanctions premium' in commodity pricing?",
+        options: [
+          "A bonus paid to oil companies that comply with sanctions",
+          "The extra price above pure supply-and-demand levels, charged because buyers fear supply disruption — when sanctions ease, the premium deflates even before supply physically changes",
+          "A tax collected by the US government on Iranian oil",
+          "The price difference between Brent and WTI crude"
+        ],
+        answer: 1,
+        funFact: "On June 22, Brent dropped 3.5% and WTI dropped nearly 6% the moment the US Treasury issued General License X — before a single Iranian barrel physically moved. The market priced the change in expected future supply, not actual present supply. This is why following geopolitics is inseparable from following commodity markets."
+      },
+      {
+        q: "Why is ITC excluded from the halal picks despite being a diversified conglomerate with hotels, FMCG and agribusiness?",
+        options: [
+          "Because ITC is not listed on the NSE",
+          "Because its foundational business is tobacco — manufacturing cigarettes fails the Islamic business-activity screen regardless of what other divisions do",
+          "Because its share price is too high",
+          "Because it pays too much dividend"
+        ],
+        answer: 1,
+        funFact: "Islamic screening does not weight impermissible business by revenue percentage. A company that manufactures cigarettes fails the business activity screen in full — ITC's hotels and biscuit brands do not offset its cigarette operations. The discipline is to apply the filter before looking at the chart."
+      },
+      {
+        q: "What record did Lionel Messi break on June 22 at the 2026 World Cup?",
+        options: [
+          "Most assists in World Cup history",
+          "Most career World Cup goals — reaching 18, surpassing Germany's Miroslav Klose who held the record at 16",
+          "Most World Cup tournaments played",
+          "Most goals in a single World Cup match"
+        ],
+        answer: 1,
+        funFact: "Messi scored his 17th and 18th World Cup goals in Argentina's 2-0 win over Austria at AT&T Stadium in Arlington, Texas on June 22. He was 38 years old. Kylian Mbappé, who has 14 World Cup goals, is tracking toward the record in future tournaments — and Haaland also scored on the same day. Three of football's biggest names all performed on the same Monday."
+      }
+    ]
+  },
+  psychology: {
+    mindTrick: {
+      name: "The Sunk Cost Fallacy — Why Past Investment Poisons Future Decisions",
+      eli5: "The Sunk Cost Fallacy is the human tendency to continue investing in something — money, time, effort, emotion — because of what you have ALREADY put in, rather than because of what it will realistically deliver going forward. A sunk cost is exactly what its name says: already spent, gone, unrecoverable. You bought a non-refundable concert ticket for Rs.5,000 and on the day you feel terrible — but you go anyway, even though sitting at home would be better, because 'the money is already spent.' A company keeps funding a failing project because it has already spent Rs.50 crore on it, even though independent analysis says it will never work. A trader holds a losing position because selling means 'admitting' the loss that has already occurred. The past investment — the sunk cost — has zero bearing on what the optimal FORWARD decision is. But the brain treats it as if it does.",
+      realLife: "The sunk cost fallacy appears everywhere money and emotion intersect. An investor holds a stock that keeps falling 'because I'm already down 40% — might as well wait for it to recover.' But whether the stock goes up or down from here has nothing to do with what you paid. A student stays in a course they hate because they have already completed two years. A company continues advertising a product with declining sales because the campaign budget is already allocated. The discipline is to ask one question before any forward decision: 'If I had not already invested anything in this, would I choose to invest more now?' If the answer is no, the sunk cost is distorting your thinking.",
+      mnemonic: "Sunk cost fallacy = letting past-spent, unrecoverable investment distort forward decisions. The Rs.5,000 ticket is gone whether you go or not. Ask: 'If I were starting fresh today, would I choose this?' If no, the past investment is clouding the forward decision."
+    },
+    quiz: [
+      {
+        q: "What is the sunk cost fallacy?",
+        options: [
+          "The tendency to sell winning investments too early",
+          "Letting past, unrecoverable investments influence forward decisions — when only future costs and benefits should matter",
+          "The belief that sunken ships always carry treasure",
+          "The idea that markets always recover from losses"
+        ],
+        answer: 1,
+        funFact: "The sunk cost fallacy is why casinos are designed with no clocks and no windows — once you have spent money, the feeling of needing to 'recover' it keeps you playing. The correct decision framework ignores what you have already spent and asks only: given the options from this moment forward, what delivers the best expected outcome?"
+      },
+      {
+        q: "A trader bought shares at Rs.500. They are now at Rs.320. The trader says 'I'll wait till Rs.500 to sell — I can't take the loss.' What fallacy is this?",
+        options: [
+          "The recency bias",
+          "The sunk cost fallacy — the Rs.500 purchase price is gone and irrelevant; the forward decision should be based on where the stock is likely to go from Rs.320, not on recovering a past cost",
+          "The anchoring effect",
+          "The gambler's fallacy"
+        ],
+        answer: 1,
+        funFact: "The purchase price of a stock is a sunk cost — it is not a fact about the future, it is a fact about the past. A stock at Rs.320 has no 'memory' of Rs.500. Whether you sell, hold or buy more should be decided entirely on the stock's forward prospects, not on where you happen to have bought it."
+      },
+      {
+        q: "Which question best cuts through the sunk cost fallacy?",
+        options: [
+          "How much have I already invested in this?",
+          "If I were starting fresh today with no prior investment, would I choose to put money into this?",
+          "What did other people pay for this?",
+          "How long ago did I make the original decision?"
+        ],
+        answer: 1,
+        funFact: "This 'fresh start' question strips away the emotional weight of past spending. It forces you to evaluate only the forward prospects — exactly what rational decision theory prescribes. The answer 'no' does not mean the original decision was wrong; it means the situation has changed and the correct response to changed situations is to update your decision."
+      }
+    ]
+  },
+  leadership: {
+    leaderMove: {
+      name: "The Power of Default Rules — Design Decisions So the Right Choice Requires No Willpower",
+      story: "One of the most powerful ideas in behavioural science applied to leadership is the concept of default rules — the recognition that most people accept the status quo. If organ donation requires active sign-up, donation rates stay low. If it requires active opt-out, they soar. The choice architecture — which option is the default — determines outcomes far more than any campaign or incentive. Great leaders and system designers use this insight deliberately. A CEO who wants employees to save more for retirement does not lecture them about financial discipline — they make the higher contribution the default rate and let inertia do the work. A product team that wants users to adopt a privacy-friendly setting makes it the pre-selected option rather than an opt-in. The power is not in forcing people — it is in recognising that most people will take the path of least resistance, and deliberately making that path the right one. Richard Thaler and Cass Sunstein codified this in their book Nudge: the insight is that the architect of choices bears responsibility for what the default is, because the default will be what most people select.",
+      realLife: "Default rules appear in every system humans design. Most people do not change their phone settings — so phone manufacturers choose the defaults that shape billions of users. Most new hires do not renegotiate their first performance review structure — so whatever the company builds in as the default is what they get. In your own life, the default rules that govern your time (what you do when you have an unstructured hour), your money (where your salary lands and whether it moves automatically to savings), and your diet (what food is in the house) determine your outcomes more than any moment of deliberate willpower. Redesigning your defaults — automating savings on payday, removing junk food from the kitchen, blocking distracting apps during work hours — is higher leverage than relying on willpower.",
+      mnemonic: "Default rules = the option people get if they do nothing. Inertia makes defaults powerful — most people stay. Design defaults so the RIGHT behaviour requires no willpower. Organ donation opt-out countries dramatically outperform opt-in. Apply this to your own systems: what are your defaults?"
+    },
+    quiz: [
+      {
+        q: "What is a 'default rule' in the context of behavioural leadership?",
+        options: [
+          "A rule that applies when all other rules fail",
+          "The option people receive if they take no action — powerful because most people accept defaults due to inertia",
+          "A rule about how to handle defaults on loans",
+          "A company's standard operating procedure"
+        ],
+        answer: 1,
+        funFact: "Countries that make organ donation opt-out (you are a donor unless you actively choose not to be) have dramatically higher donation rates than opt-in countries, even with similar populations and healthcare systems. The difference is entirely in which choice requires action. The content of the choice is the same; the architecture changes everything."
+      },
+      {
+        q: "How did companies dramatically increase employee retirement savings without changing salaries or mandating contributions?",
+        options: [
+          "By lecturing employees about financial discipline",
+          "By making a higher contribution rate the default — so employees who took no action automatically contributed more, and only those who actively opted down contributed less",
+          "By offering cash bonuses for saving",
+          "By publishing employees' savings rates publicly"
+        ],
+        answer: 1,
+        funFact: "Richard Thaler won the Nobel Prize in Economics in 2017 partly for his work on how default settings in retirement plans shape saving behaviour. The same salary, the same fund options, the same tax treatment — but changing the default contribution rate from 3% to 6% produced dramatically higher savings with no coercion whatsoever."
+      },
+      {
+        q: "What is the highest-leverage personal application of default rule thinking?",
+        options: [
+          "Memorising the rules you want to follow",
+          "Redesigning your environment so the right behaviour is the default — automate savings on payday, remove bad food from the house, block distractions by default — so the correct choice requires no willpower",
+          "Writing your goals down each morning",
+          "Telling friends about your plans to stay accountable"
+        ],
+        answer: 1,
+        funFact: "Willpower is a depleting resource — it is weakest exactly when you need it most (stress, fatigue, late at night). Defaults do not deplete. A person who has no biscuits in the house does not need willpower to avoid eating biscuits. A person who auto-transfers 20% of their salary to savings on the day it arrives does not need willpower to save. Design the environment; let the design do the work."
+      }
+    ]
+  },
+  wealth: {
+    moneyLesson: {
+      name: "Dollar-Cost Averaging — The Counterintuitive Weapon Against Market Timing",
+      story: "Dollar-cost averaging (DCA) is the practice of investing a fixed amount of money at fixed intervals — say, Rs.10,000 every month on the first of the month into an index fund — regardless of whether the market is up or down. It sounds simple to the point of being boring. But the power is counterintuitive: when prices fall, your fixed amount buys MORE units. When prices rise, it buys fewer. Over time, this mechanical process means you automatically buy more of the asset when it is cheap and less when it is expensive — without requiring any judgment about when the bottom is. The enemy of good investing is the human impulse to wait for the 'right time' to invest — which psychologically means waiting until prices have recovered and the news is good, which is exactly when assets are expensive. DCA bypasses this impulse entirely by removing the timing decision. Navi Nifty 50 Index Fund, UTI Nifty 50 Index Fund and Zerodha Nifty 50 ETF are examples of instruments through which Indian investors can implement a monthly DCA strategy on the Nifty 50 with very low costs.",
+      mnemonic: "Dollar-cost averaging = fixed amount, fixed interval, regardless of price. When price falls → you buy more units. When price rises → you buy fewer. Over time: automatically more units bought cheap. Eliminates the timing impulse. Monthly SIP into a Nifty index fund is the Indian implementation."
+    },
+    quiz: [
+      {
+        q: "What is the key mathematical advantage of dollar-cost averaging?",
+        options: [
+          "You always buy at the lowest price of the year",
+          "Investing a fixed amount means you automatically buy more units when prices are low and fewer when prices are high — over time averaging a lower cost per unit than the average price",
+          "You earn guaranteed returns",
+          "It protects you from market crashes"
+        ],
+        answer: 1,
+        funFact: "If you invest Rs.10,000 when a fund is at Rs.100 (100 units) and Rs.10,000 when it is at Rs.50 (200 units), you own 300 units for Rs.20,000 — an average cost of Rs.66.67 per unit. The average PRICE over those two periods was Rs.75. DCA's average cost is lower than the average price — a mathematical fact, not a prediction."
+      },
+      {
+        q: "What psychological impulse does dollar-cost averaging bypass?",
+        options: [
+          "The desire to diversify across sectors",
+          "The impulse to wait for the 'right time' to invest — which psychologically means waiting until prices have recovered and news is positive, exactly when assets are expensive",
+          "The fear of losing a stock certificate",
+          "The temptation to invest in gold"
+        ],
+        answer: 1,
+        funFact: "Studies consistently show that investors who try to time markets underperform simple automatic investing strategies. The average retail investor's returns are significantly below the returns of the funds they invest in — because they buy after rises (expensive) and sell after falls (cheap). DCA mechanically forces the opposite behaviour."
+      },
+      {
+        q: "What does DCA do when markets fall sharply?",
+        options: [
+          "It automatically stops investing to protect you",
+          "It continues investing the same fixed amount — which buys more units at the lower price, meaning the investor benefits from the recovery more than someone who stopped",
+          "It doubles the investment amount",
+          "It switches to a defensive asset automatically"
+        ],
+        answer: 1,
+        funFact: "The March 2020 COVID crash was a brutal test for investors who panicked and stopped their SIPs. Those who maintained their monthly investments through the crash bought units at near-decade lows and captured the full recovery. Those who paused and 're-entered' after prices recovered missed exactly the units that drove the biggest gains."
+      }
+    ]
+  },
+  communication: {
+    commSkill: {
+      name: "The Ladder of Inference — Why Smart People Reach Wrong Conclusions from the Same Facts",
+      story: "The Ladder of Inference, developed by organisational theorist Chris Argyris and popularised by Peter Senge in The Fifth Discipline, describes the mental process by which humans jump from raw observable data to firm beliefs and actions — often without realising how many rungs of assumption they climbed in between. The ladder works like this: at the bottom is observable data (what actually happened). But immediately we select which data we pay attention to (we cannot process all of it). Then we add meaning to what we noticed. Then we make assumptions based on that meaning. Then we draw conclusions. Then we adopt beliefs. Then we act on those beliefs. The problem: each rung is invisible to others, and often to ourselves. Two people in the same meeting observe the same event, select different details, add different meaning, reach opposite conclusions — and both are baffled that the other could possibly see it differently. The antidote is to 'climb back down the ladder': state your observation, name the meaning you gave it, own the assumption, and test the conclusion before acting on it.",
+      realLife: "The Ladder of Inference destroys teams silently. A manager observes that an employee left early on Friday. They notice it. They add meaning: 'she is disengaged.' They assume: 'she doesn't care about the project.' They conclude: 'she is not management material.' They believe: 'I should not give her the promotion.' They act: they block her career. All from one early departure — which was actually the employee's annual medical checkup. The observable data was a fact. Everything above it was fabrication. Strong communicators learn to surface their ladder: 'I noticed X. I interpreted it as Y. My assumption is Z. Does that match what happened?'",
+      mnemonic: "Ladder of Inference: Data → Select → Meaning → Assumption → Conclusion → Belief → Action. Each rung is invisible. Two people climb from the same data to opposite beliefs. Antidote: climb back down. Say: 'I noticed X, I interpreted it as Y, my assumption is Z — does that match your view?'"
+    },
+    quiz: [
+      {
+        q: "What is the core danger of the Ladder of Inference?",
+        options: [
+          "That people make decisions too slowly",
+          "That we jump from observable facts to firm beliefs through multiple invisible layers of selection, meaning-making and assumption — without realising how much we added above the raw data",
+          "That meetings always end without conclusions",
+          "That people share too much data"
+        ],
+        answer: 1,
+        funFact: "Chris Argyris discovered the Ladder of Inference while studying why intelligent, well-intentioned professionals in organisations consistently made decisions that led to poor outcomes. The answer was not stupidity — it was that they were reasoning from assumptions they had never made explicit, and therefore could never test."
+      },
+      {
+        q: "How do you 'climb back down the ladder' in a difficult conversation?",
+        options: [
+          "By raising your voice to assert your position",
+          "By naming your observation, stating the meaning you gave it, owning the assumption, and asking if it matches the other person's view — making the invisible rungs explicit",
+          "By presenting more data",
+          "By ending the conversation and returning later"
+        ],
+        answer: 1,
+        funFact: "Peter Senge taught Ladder of Inference skills to teams at companies including Ford and AT&T. The single highest-impact phrase was: 'I noticed X, I interpreted it as Y, my assumption is Z — is that what you intended?' This structure prevents most interpersonal conflicts by surfacing inference before it hardens into belief."
+      },
+      {
+        q: "Two colleagues observe the same meeting where their boss was quiet throughout. One concludes the boss is angry; the other concludes she was exhausted. What does the Ladder of Inference explain about this?",
+        options: [
+          "That one of them is wrong and lying",
+          "That they selected different details from the same data, added different meaning, and climbed to different conclusions — both invisible to the other, and neither necessarily correct",
+          "That the boss should speak more in meetings",
+          "That they need better meeting notes"
+        ],
+        answer: 1,
+        funFact: "The observable fact — a quiet boss — is neutral. The meaning 'quiet = angry' versus 'quiet = tired' is not in the data; it is added by the observer, shaped by their history, relationship with the boss, and past experiences. Neither observer is lying. Both are doing what human brains do: filling the gap between data and meaning instantly and invisibly."
+      }
+    ]
+  },
+  mind: {
+    technique: {
+      name: "The Body Scan — Reset Your Nervous System in 10 Minutes Without Moving",
+      howTo: "The body scan is a foundational mindfulness practice drawn from Jon Kabat-Zinn's Mindfulness-Based Stress Reduction (MBSR) programme, which has been studied in clinical trials for over four decades. It requires no equipment, no app, and no prior experience. Lie down or sit comfortably. Close your eyes. Bring your attention to the soles of your feet — not to move them, just to notice any sensation: temperature, pressure, tingling, or nothing at all. Hold attention there for 20 to 30 seconds. Then slowly move attention upward: ankles, calves, knees, thighs, hips. Continue up through the abdomen, lower back, chest, upper back, shoulders, upper arms, forearms, hands, fingers. Then the neck, throat, jaw, face, scalp. At each region, pause and notice — without judgment, without trying to change anything. The entire scan from feet to scalp takes roughly 10 minutes. The mechanism: deliberately directing attention to physical sensation activates the parasympathetic nervous system and interrupts the default mode network's tendency to replay worries or plan anxious futures. It returns the brain to the present — literally, the body you are inhabiting right now.",
+      mnemonic: "Body scan: lie still, move attention from feet to scalp, pause 20-30 seconds at each region, notice sensation without judgment. 10 minutes. Activates parasympathetic (calm) nervous system. Jon Kabat-Zinn MBSR — 40+ years of clinical evidence. No app needed."
+    },
+    quiz: [
+      {
+        q: "What is the core mechanism of the body scan technique?",
+        options: [
+          "It relaxes muscles through progressive tensing and releasing",
+          "It directs deliberate attention to physical sensation region by region, activating the parasympathetic nervous system and interrupting anxious thought patterns",
+          "It uses breathing to count away stress",
+          "It visualises peaceful locations"
+        ],
+        answer: 1,
+        funFact: "Jon Kabat-Zinn introduced MBSR (Mindfulness-Based Stress Reduction) at the University of Massachusetts Medical School in 1979. The body scan was a central practice. Randomised controlled trials have since shown MBSR reduces symptoms of anxiety, depression and chronic pain — without medication."
+      },
+      {
+        q: "What should you do when you notice your mind has wandered during a body scan?",
+        options: [
+          "Start the scan from the beginning",
+          "Simply notice that attention has wandered and gently return it to the body region you were scanning — without self-criticism",
+          "Open your eyes and try again tomorrow",
+          "Speed up to catch up on the sections you missed"
+        ],
+        answer: 1,
+        funFact: "The moment of noticing that attention has wandered IS the practice — not a failure of the practice. Neurologically, that noticing moment is when the prefrontal cortex (executive function) reasserts control over the default mode network. Every time you notice and return, you are literally training the circuits that govern attention."
+      },
+      {
+        q: "What part of the nervous system does the body scan activate?",
+        options: [
+          "The sympathetic nervous system — the stress response",
+          "The parasympathetic nervous system — the rest-and-digest response that counters stress and slows heart rate",
+          "The somatic motor system",
+          "The limbic system's fear circuits"
+        ],
+        answer: 1,
+        funFact: "The sympathetic nervous system is your fight-or-flight system — it accelerates heart rate, tightens muscles, floods you with cortisol. The parasympathetic is its counterpart: it slows the heart, relaxes the gut, reduces cortisol. The body scan shifts the balance toward parasympathetic dominance — which is why after 10 minutes, people consistently report feeling calmer and more grounded."
+      }
+    ]
+  },
+  knowledge: {
+    todayILearned: {
+      name: "Midjourney — The AI Image Generator That Made Photorealistic Art From Text",
+      quickBite: "Midjourney is a generative AI image creation tool — you type a text description (called a prompt) and it produces high-quality, often photorealistic or artistic images in seconds. Founded by David Holz and based in San Francisco, Midjourney operates entirely through Discord (a chat platform) as its interface — you type /imagine followed by your description in a Midjourney Discord server, and the model generates four image options. What made Midjourney famous was quality: from its early versions in 2022, it consistently produced the most visually striking outputs of any public text-to-image model, particularly for artistic and cinematic styles. Version 6, released in late 2023, achieved a level of photorealism and prompt adherence that made it genuinely difficult to distinguish AI-generated images from photographs in many contexts. Unlike OpenAI's DALL-E or Stability AI's Stable Diffusion, Midjourney is a closed proprietary system — you cannot run it locally. It operates on a subscription basis (from approximately $10/month) and generates images on Midjourney's own servers. The underlying architecture is a diffusion model — it starts with noise and gradually refines it into an image matching the prompt, guided by a model trained on billions of image-text pairs.",
+      mnemonic: "Midjourney = text-to-image AI, operates via Discord, founded by David Holz. Famous for quality — particularly artistic and photorealistic styles. Closed proprietary system, subscription-based (~$10/month). Architecture: diffusion model. Version 6 (late 2023) achieved benchmark-level photorealism."
+    },
+    quiz: [
+      {
+        q: "What makes Midjourney structurally different from Stable Diffusion?",
+        options: [
+          "Midjourney produces text, not images",
+          "Midjourney is a closed, proprietary system running on its own servers — you cannot download or run it locally, unlike Stable Diffusion which is open-source and can run on a personal computer",
+          "Midjourney requires a physical camera",
+          "Midjourney only works on Apple devices"
+        ],
+        answer: 1,
+        funFact: "Stable Diffusion, developed by Stability AI, was released as open-source in 2022 — meaning anyone can download the model weights and run it on their own hardware. Midjourney is closed: Midjourney's company controls the model and runs all inference on its own infrastructure. Both use diffusion model architecture, but their access models are fundamentally different."
+      },
+      {
+        q: "What interface does Midjourney use to accept user prompts?",
+        options: [
+          "A dedicated website at midjourney.com with a text box",
+          "Discord — users join Midjourney's Discord server and type /imagine followed by their description in a chat channel",
+          "A smartphone app available on iOS and Android",
+          "A Photoshop plugin"
+        ],
+        answer: 1,
+        funFact: "Midjourney's decision to use Discord as its interface was initially unusual — Discord is a gaming and community chat platform. But it gave Midjourney immediate scale (Discord had hundreds of millions of users), built-in community features (users could see each other's generations), and avoided the cost of building its own interface. It became one of Discord's largest servers within months of launch."
+      },
+      {
+        q: "What is a diffusion model — the architecture behind Midjourney, DALL-E and Stable Diffusion?",
+        options: [
+          "A model that spreads information across multiple servers for speed",
+          "A generative model that starts with random noise and gradually refines it into a coherent image by reversing a learned noise-adding process, guided by the text prompt",
+          "A model that blends two existing photos together",
+          "A model that searches the internet for matching images"
+        ],
+        answer: 1,
+        funFact: "Diffusion models learn by studying how images degrade when you progressively add random noise to them, then train to reverse that process. At generation time, they start with pure noise and iteratively 'denoise' it into an image that matches the prompt. The result is that the model can generate images of things that have never been photographed — because it has learned the statistical structure of visual concepts, not a library of images."
+      }
+    ]
+  },
+  ai: {
+    aiTool: {
+      name: "Perplexity AI Pro — The Search Engine That Cites Its Sources",
+      whatItDoes: "Perplexity AI is a conversational search engine — part AI assistant, part search engine — that answers questions in natural language while citing the specific web sources it used. Unlike a traditional search engine that returns a list of links, Perplexity reads those sources and synthesises an answer, with inline citations so you can verify exactly which source each claim comes from. The free tier allows unlimited search; the Pro tier (approximately $20/month) adds access to frontier models (GPT-4o, Claude, Gemini), file upload and analysis, image generation, and higher query limits. What distinguishes Perplexity from ChatGPT or Claude for research tasks is the sourcing architecture: every factual claim is tied to a URL. This makes it significantly harder to hallucinate unchecked facts, and it trains the habit of source verification. For daily news, market research, and fact-checking, Perplexity's combination of real-time web access and cited outputs is a strong workflow upgrade over general-purpose LLMs operating from training-cutoff knowledge alone.",
+      mnemonic: "Perplexity AI = conversational search with citations. Answers in natural language + inline source URLs. Free tier: unlimited search. Pro (~$20/month): frontier models, file upload, image gen. Key advantage over ChatGPT/Claude: every claim has a cited source URL — reduces hallucination risk."
+    },
+    quiz: [
+      {
+        q: "What is the key structural advantage of Perplexity AI over a general-purpose LLM like ChatGPT for research?",
+        options: [
+          "Perplexity uses more computing power",
+          "Every factual claim in Perplexity's answers is tied to a cited source URL — making it far harder to pass off fabricated information as fact, and allowing the user to verify each claim",
+          "Perplexity has a better interface",
+          "Perplexity is faster at generating text"
+        ],
+        answer: 1,
+        funFact: "LLMs like ChatGPT can state false facts with complete confidence — a phenomenon called hallucination. Perplexity's citation architecture provides a check: if a citation does not actually support the claim, you can catch it immediately. It does not eliminate hallucination entirely, but it creates an accountability layer that raw LLM outputs lack."
+      },
+      {
+        q: "What does Perplexity Pro add over the free tier?",
+        options: [
+          "The ability to search the internet (the free tier cannot)",
+          "Access to frontier models (GPT-4o, Claude, Gemini), file upload and analysis, image generation, and higher query limits",
+          "The ability to save search history",
+          "Support for multiple languages"
+        ],
+        answer: 1,
+        funFact: "Perplexity's model routing in Pro is one of its underrated features: you can switch between GPT-4o, Claude Sonnet, Gemini Pro and others within the same interface, with real-time web access attached to each. This lets you compare how different frontier models handle the same research question — useful for fact-checking important decisions."
+      },
+      {
+        q: "For which type of task does Perplexity AI most clearly outperform a general-purpose LLM?",
+        options: [
+          "Writing long creative fiction",
+          "Real-time research and fact-checking on current events — where LLMs without web access are limited by training cutoffs and Perplexity can search, synthesise and cite live sources",
+          "Generating Python code",
+          "Translating between languages"
+        ],
+        answer: 1,
+        funFact: "General-purpose LLMs like Claude and GPT have knowledge cutoffs — they cannot access information published after their training ended. Perplexity is inherently real-time: it searches the live web for every query. For questions about current events, recent market data, or rapidly evolving news stories, this makes Perplexity structurally superior to offline LLMs."
+      }
+    ]
+  },
+  travel: {
+    destination: {
+      name: "Georgia (the Country) — The Caucasus Nation That Offers Visa-Free Entry to Indian Passport Holders",
+      quickFacts: "Georgia — the nation at the crossroads of Eastern Europe and Western Asia, not the US state — has quietly become one of the most accessible and rewarding destinations for Indian passport holders. India is among the countries whose citizens can visit Georgia VISA-FREE for up to 365 days (one year), with no prior application required. You simply arrive at Tbilisi International Airport or cross by land and present your Indian passport. The capital Tbilisi is a city of striking contrasts: a 5th-century old town (Narikala fortress, the Metekhi Church, the sulfurous bath district of Abanotubani) alongside a modern glass-and-steel skyline, world-class restaurants, and a tech and startup scene that has attracted remote workers from across Europe. Georgia is the world's one of the oldest wine-producing regions — the Kakheti region has been making wine in traditional clay vessels called qvevri for over 8,000 years. The currency is the Georgian Lari (GEL); as of mid-2026 approximately 3.6 GEL to 1 USD. Flights from major Indian cities typically connect through Istanbul, Dubai or Baku.",
+      whyNow: "Georgia has been building tourism infrastructure at pace while remaining significantly cheaper than Western European alternatives. A full day of eating, transport and activities in Tbilisi typically costs $30-50. The Caucasus mountain range offers hiking to rival the Alps, with the Svaneti region and Kazbegi (Stepantsminda) producing some of the most dramatic mountain landscapes in the world. June and July are peak season — warm, clear days and cultural festivals. For Muslim travellers, halal food availability has improved significantly in Tbilisi, and many restaurants now clearly mark halal options. Batumi, Georgia's Black Sea resort city, has a significant Muslim-majority Adjara region and is a popular destination with Gulf visitors.",
+      mnemonic: "Georgia (country, not US state) = visa-free for Indian passports, up to 365 days. Tbilisi: 5th-century old town + modern skyline. One of world's oldest wine regions (Kakheti, qvevri clay vessels, 8,000+ years). Currency: Georgian Lari (~3.6 GEL/USD). Connect via Istanbul, Dubai or Baku. Kazbegi mountains = Caucasus hiking."
+    },
+    quiz: [
+      {
+        q: "What is Georgia's unique wine-making tradition?",
+        options: [
+          "Ageing wine in French oak barrels imported from Bordeaux",
+          "Fermenting wine in qvevri — traditional clay vessels buried underground — a practice over 8,000 years old and recognised by UNESCO as Intangible Cultural Heritage",
+          "Making wine exclusively from white grapes",
+          "Blending grapes from both European and Asian varieties"
+        ],
+        answer: 1,
+        funFact: "Georgia's qvevri wine-making method was inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity in 2013. The clay vessels can hold thousands of litres and are sealed with beeswax after the grape harvest. The wine ferments and ages in contact with the grape skins — producing distinctive amber-coloured wines (sometimes called 'orange wine') that have become fashionable in restaurants globally."
+      },
+      {
+        q: "What makes Georgia especially accessible to Indian travellers?",
+        options: [
+          "It has a large Indian diaspora community",
+          "Indian passport holders can enter Georgia visa-free for up to 365 days — one of the most generous visa-free arrangements for Indian citizens anywhere in the world",
+          "Direct flights from Mumbai to Tbilisi operate daily",
+          "Georgia accepts Indian Rupees as currency"
+        ],
+        answer: 1,
+        funFact: "Most countries offer Indian passport holders 14-30 days visa-free at best, and many require advance visa applications. Georgia's 365-day visa-free allowance is unusually generous and has made it a popular base for Indian remote workers and digital nomads in addition to tourists."
+      },
+      {
+        q: "What mountain destination near Tbilisi is considered one of the most scenic in the Caucasus?",
+        options: [
+          "Batumi — Georgia's Black Sea city",
+          "Stepantsminda (Kazbegi) — a mountain town roughly 150 km from Tbilisi at the foot of Mount Kazbek, offering some of the most dramatic Caucasus mountain scenery including the iconic Gergeti Trinity Church",
+          "Mtskheta — Georgia's ancient former capital",
+          "Kutaisi — Georgia's second largest city"
+        ],
+        answer: 1,
+        funFact: "The Gergeti Trinity Church sits at 2,170 metres above sea level on a hilltop above the Terek River in Stepantsminda, with Mount Kazbek (5,047 metres) rising directly behind it. The hike from the town takes approximately two to three hours and is considered one of the iconic experiences in the South Caucasus. In June and July, the route is accessible and clear of snow at lower elevations."
+      }
+    ]
+  }
+}
+
 const ALL_BRIEFS = {
   '2026-06-01': d260601,
   '2026-06-02': d260602,
@@ -5865,6 +6346,7 @@ const ALL_BRIEFS = {
   '2026-06-19': d260619,
   '2026-06-20': d260620,
   '2026-06-21': d260621,
+  '2026-06-22': d260622,
 }
 
 // == DATA END ==
