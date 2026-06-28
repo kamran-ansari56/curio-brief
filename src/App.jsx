@@ -8249,6 +8249,485 @@ const d260626 = {
   }
 }
 
+const d260627 = {
+  news: {
+    segments: [
+      {
+        name: "🌐 What's happening with countries?",
+        color: "#a0d4f5",
+        stories: [
+          {
+            headline: "CENTCOM strikes Iran a second night as Iran hits US Gulf bases — then Trump pulls back from third strike",
+            eli5: "The June 26-27 Hormuz exchange accelerated rapidly: after CENTCOM struck Iran on June 26 (six aircraft, four targets near Sirik in response to the Ever Lovely drone attack), Iran's IRGC retaliated overnight by firing on US military bases — Ali Al-Salem in Kuwait and the Fifth Fleet's Bahrain headquarters at Sheikh Isa Air Base. CENTCOM struck Iran a second time on June 27 after Iran hit the Panamanian-flagged tanker M/T Kiku at 4:30am ET, targeting Iranian military surveillance infrastructure, communication systems, air defense sites, drone storage facilities, and minelayer capabilities. Explosions were reported in southern coastal Sirik. Then, late on June 27, Trump — who had threatened 'very hard strikes tonight' — cancelled the planned third round of strikes, saying 'talks are in progress with Iran.' UAE officials confirmed they had met face-to-face with Iranian officials for the first time since the war began February 28. The ceasefire — repeatedly violated — was holding, shakily, by its political thread.",
+            whyItMatters: "The two-night exchange followed by Trump's last-minute cancellation captures the core instability of the ceasefire period: neither party wants to fully restart the war, but neither party will accept the other's terms without escalatory pressure. Each strike 'responds' to the previous provocation while simultaneously creating the next one. Trump's cancellation — after threatening strikes — shows the political cost of escalation: the threat serves its purpose (signalling resolve) without the material cost (another round of Iranian retaliation). This is coercive diplomacy in real time. For Indian investors: Brent crude was volatile in this window — the second strike caused oil to spike toward $80, then the cancellation and UAE-Iran meeting brought it back toward $74.",
+            mnemonic: "June 27: CENTCOM night 2 (surveillance + minelayer targets, Sirik) after Iran hits M/T Kiku. Iran retaliates: Ali Al-Salem (Kuwait) + Fifth Fleet (Bahrain). Trump threatens night 3, then cancels — 'talks in progress.' UAE-Iran meet face-to-face (first since Feb 28). Ceasefire technically alive. Oil bounced $80 → $74 on the news cycle."
+          },
+          {
+            headline: "Venezuela death toll rises to 920+ confirmed, 51,000 missing — rescue operations hampered by media blackout",
+            eli5: "Three days after the June 24 doublet earthquakes, Venezuela's confirmed death toll had risen to at least 920 people killed (with earlier figures from Wikipedia citing 1,430 — reporting was fragmented due to Venezuela's restricted media landscape). Over 3,360 were injured and more than 51,000 reported missing as of June 26-27. More than 400 aftershocks had been recorded. Rescue operations continued with US USAR teams (Fairfax County, Los Angeles County), Mexican forces, and regional aid. Venezuela's government controlled access to information — internet and social media restrictions slowed the emergence of accurate casualty figures — while citizens used social media to locate missing relatives. Brent crude oil connection: Venezuela is an oil exporter but its production is so suppressed by years of mismanagement that the earthquake had negligible market impact.",
+            whyItMatters: "The ongoing Venezuela rescue operation on June 27 illustrates the continuing humanitarian tragedy. The information-restriction dimension matters for understanding how authoritarian governments manage catastrophe narratives — and why independent media access during disasters is a genuine life-or-death issue, not merely a press freedom abstraction."
+          },
+          {
+            headline: "World Cup: Group stage final matchday — Egypt wins first-ever WC match, Cape Verde qualifies from Group H",
+            eli5: "The final matchday of the World Cup group stage was playing through June 27-28. Egypt defeated New Zealand 3-1 to win their first-ever World Cup match. Cape Verde — the smallest nation ever to qualify for the knockout stage — secured their place from Group H. Portugal's Cristiano Ronaldo attempted a bicycle kick against Colombia in Miami (June 27). The 48-team first-ever expanded World Cup was producing historic results from smaller nations — a structural shift from the previous 32-team format that had excluded many of these countries from the tournament entirely.",
+            whyItMatters: "Cape Verde qualifying for the World Cup knockout stage is the single most striking structural outcome of the expanded 48-team format. The island nation of roughly 600,000 people has never previously qualified for a World Cup. Their success will be studied by FIFA and football administrators as evidence that the expanded format is achieving its stated goal of football democratisation — or, by critics, as evidence that the group stage is being diluted."
+          }
+        ]
+      },
+      {
+        name: "💸 What's happening with money?",
+        color: "#a8edcb",
+        stories: [
+          {
+            headline: "Weekend markets: oil volatile $72-80, Brent recovery to ~$74-75 as Trump pulls back from third Iran strike",
+            eli5: "Indian markets were closed Saturday June 27 (weekend). Oil was the dominant variable: Brent crude oscillated between $72 (post-ceasefire optimism on Thursday) and near $80 (after CENTCOM's second Iran strike Saturday morning) before settling near $74-75 as Trump cancelled the threatened third strike and UAE-Iran talks resumed. The net direction for the week-ahead trade opening Monday June 29: oil uncertainty is the dominant risk variable. The India-US bilateral trade deal remained in slow-progress discussions — a positive medium-term tailwind but not an immediate catalyst. Indian investors returning Monday face: (1) Iran-Hormuz volatility restart, (2) CSM Technologies IPO closing June 29, (3) June quarter earnings season beginning.",
+            whyItMatters: "Oil volatility directly transmits into Indian macroeconomics as described in previous sessions: every $10 shift in Brent changes India's annual import bill by ~$13-14 billion. The $72-80 range seen this week represents meaningful fiscal uncertainty for the Government of India's H2 budgeting. Monday's market open will take its directional cue primarily from wherever Brent is trading in the Asian pre-market."
+          }
+        ]
+      }
+    ]
+  },
+  markets: {
+    globalPulse: {
+      eli5: "Indian markets are closed Saturday. The relevant data for Monday's open: Sensex closed Thursday at 77,100 / Nifty at 24,056. The Muharram holiday (Friday) extended the break to a three-day weekend. During this weekend, the Iran-Hormuz exchange continued — CENTCOM struck twice (June 26, June 27), Iran retaliated on US Gulf bases, then Trump pulled back from a third strike after UAE-Iran direct talks resumed. Brent crude swung from $72 to near $80 and settled around $74-75. Monday June 29 will open into this uncertainty. The halal watchlist this session reviews financial sector screens in depth — looking at the one sub-category of finance that does pass halal screening: Islamic financial institutions and takaful (Islamic insurance).",
+      keyThings: [
+        "Weekend — NSE/BSE closed Saturday and Sunday",
+        "Last trade: Sensex 77,100 / Nifty 24,056 (Thursday June 25)",
+        "Brent crude: swung $72-80 during June 26-27 CENTCOM-Iran exchange; settled ~$74-75 after Trump pulled back",
+        "Monday June 29 open: watch Brent pre-market as primary sentiment signal",
+        "Iran: Trump cancelled third strike; UAE met Iran face-to-face (first time since war began Feb 28)",
+        "CSM Technologies IPO: subscription closes June 29 — first live event of the new trading week"
+      ]
+    },
+    indianMarket: {
+      eli5: "Weekend session. Carrying forward Thursday's closing prices. The halal watchlist this session explores the one area of the financial sector that does pass Islamic screening: institutions that operate explicitly on Islamic finance principles. In India, this is a nascent and growing space — no full Islamic bank yet exists (the RBI has not authorised one), but several NBFCs and housing finance companies operate with partial Islamic finance principles. The teaching contrast this session rotates from banking to a different category.",
+      breakouts: [
+        {
+          name: "NMDC Limited (NSE: NMDC)",
+          halal: true,
+          buyPrice: "Rs.230",
+          sellPrice: "Rs.265",
+          stopLoss: "Rs.210",
+          whyExciting: "NMDC (National Mineral Development Corporation) is India's largest iron ore producer — a government-controlled company that mines and sells iron ore, the primary raw material for steel manufacturing. Mining of natural resources (excluding interest-based financing) is permissible under Islamic screening. NMDC has no significant financial services component — it is a pure-play mining company. Iron ore is the feedstock for India's growing steel industry, which itself is driven by infrastructure spending, construction, and manufacturing expansion. At a time when Indian government capital expenditure remains strong (the 2026-27 Union Budget maintained a Rs.11 lakh crore capex target), domestic demand for iron ore is structurally supported. NMDC's unique position: it is one of the few mining companies globally that is a net price setter within its domestic market, given its scale and the limited competition in Indian iron ore. Entry above Rs.230 targets Rs.265.",
+          risk: "NMDC is a PSU (government-owned) company, which means management decisions are influenced by government priorities, not just commercial logic. Iron ore prices are internationally linked — a global steel demand slowdown (particularly in China) would pressure prices. Environmental clearances for new mining expansion are increasingly contested. The stock tends to underperform during risk-off environments when commodity demand narratives weaken. Honour the Rs.210 stop."
+        },
+        {
+          name: "Coal India Limited (NSE: COALINDIA)",
+          halal: true,
+          buyPrice: "Rs.475",
+          sellPrice: "Rs.540",
+          stopLoss: "Rs.440",
+          whyExciting: "Coal India is the world's largest coal mining company and produces approximately 80% of India's domestic coal. Mining is permissible under Islamic screening — Coal India's business is extraction and sale of a natural resource, with no interest-based financial intermediation in the core business. Coal India is a high-dividend payer with consistent cash flows — the Indian government's ownership (about 63%) means it has historically paid large dividends to fund government revenues. An important nuance on coal for the halal-aware investor: the product itself (coal for power generation) is not impermissible, even though ESG investors may apply climate-related screens. Islamic finance does not currently maintain a blanket exclusion on fossil fuels — that is an ESG (not halal) screen. Entry above Rs.475 targets Rs.540.",
+          risk: "Coal India faces a structural long-term risk from India's energy transition — renewable energy has been growing faster than coal in India's generation mix since 2023, and Coal India's volumes may plateau or decline over a 10-15 year horizon. In the near term, the company benefits from India's still-growing electricity demand, which continues to need coal for baseload power. A monsoon-disrupted coal dispatch or industrial slowdown would pressure near-term earnings. Respect the Rs.440 stop."
+        },
+        {
+          name: "Bharat Electronics Limited (NSE: BEL)",
+          halal: true,
+          buyPrice: "Rs.355",
+          sellPrice: "Rs.415",
+          stopLoss: "Rs.325",
+          whyExciting: "Bharat Electronics Limited is India's largest defence electronics PSU — it manufactures radar systems, electronic warfare systems, sonars, communication systems and avionics for the Indian armed forces. Defence electronics for a national military is generally considered permissible under Islamic screening — manufacturing equipment for legitimate national defence is not categorised as prohibited business. BEL has a multi-year order book driven by India's defence modernisation programme (Aatmanirbhar Bharat — self-reliance). Its order book exceeded Rs.70,000 crore by FY26, providing revenue visibility for 3-4 years. BEL fell 1.7% on June 25 as geopolitical de-escalation rotated money away from defence — this represents a potential re-entry window. Entry above Rs.355 targets Rs.415.",
+          risk: "BEL is execution-sensitive — its revenue recognises only upon delivery of complex systems, so order book does not translate linearly to revenue. Government budget delays, import dependency for some components, and competition from private defence manufacturers (Adani Defence, L&T Defence) create medium-term risks. The de-escalation narrative that caused the June 25 dip is a recurring short-term risk whenever Hormuz news improves. Honour the Rs.325 stop."
+        },
+        {
+          name: "ITC Limited (NSE: ITC) — the teaching contrast (NOT halal — tobacco)",
+          halal: false,
+          buyPrice: "N/A — excluded on faith grounds",
+          sellPrice: "N/A",
+          stopLoss: "N/A",
+          whyExciting: "ITC is one of India's most diversified conglomerates: cigarettes and tobacco products (the original and still dominant business), FMCG (Aashirvaad atta, Bingo chips, Sunfeast biscuits), hotels, paperboards, and agribusiness. The tobacco business accounts for approximately 40-45% of ITC's revenue and an even larger share of profit. Tobacco manufacturing and distribution is the teaching contrast this week: it is categorically impermissible under Islamic screening. Tobacco causes direct, documented harm to human health — this is broadly considered incompatible with the Islamic principle of avoiding harm (mafsada). The FMCG and hotels segments of ITC are individually permissible, but Islamic screening applies at the company level — a company that derives substantial revenue from impermissible activities fails the screen even if it has permissible subsidiaries.",
+          risk: "The teaching point: ITC's non-tobacco businesses have improved dramatically over the past decade — the FMCG division is now one of India's largest, and the hotels business is growing. Some Islamic finance scholars apply a threshold test (e.g. less than 5% revenue from impermissible activities may be acceptable under certain conditions). Under this threshold analysis, ITC — with 40-45% tobacco revenue — fails comprehensively. A conglomerate structure does not dilute the impermissibility of its dominant business."
+        }
+      ],
+      ipoSpot: {
+        name: "CSM Technologies IPO closes June 29 — first post-holiday trading event",
+        verdict: "Monitor",
+        eli5: "CSM Technologies' IPO subscription closes Monday June 29 — the first trading day after the Muharram long weekend. The price band is Rs.107-113 per share, minimum lot 132 shares. The company raised Rs.20 crore from anchor investors. Investors who wish to subscribe have until the close of trading on Monday. Allotment and listing dates follow. As noted previously: the business activity (government IT services / e-governance) is generally permissible under halal screening; the financial ratios would need to be verified from the prospectus before a stricter screen is applied."
+      },
+      lessonOfDay: {
+        title: "Understanding PSUs — India's Public Sector Undertakings and Why They Behave Differently",
+        story: "Public Sector Undertakings (PSUs) are companies where the Government of India holds a majority ownership stake. They span every sector: NMDC and Coal India in mining, BEL and HAL in defence, SBI and Bank of Baroda in banking, NTPC and PowerGrid in energy. PSUs behave fundamentally differently from private-sector companies in three key ways. First, management appointments are influenced by the government — the CEO of NMDC is appointed by the Ministry of Steel, not by a shareholder vote. This means management decisions may reflect policy priorities rather than pure profit maximisation. Second, PSUs are required to pay dividends, often large ones, to fund government revenue — which makes them attractive for income-seeking investors but can constrain capital allocation for growth. Third, PSUs often trade at a discount to private-sector peers on valuation metrics because of governance concerns — but this discount narrows when the government's policy priorities align with business fundamentals (as with defence PSUs when government defence capex rises). The 'PSU discount' is not permanent — it is a dynamic relationship between policy direction and valuation.",
+        mnemonic: "PSU = government majority-owned companies. Three key differences: (1) government appoints management → policy priorities over profit; (2) mandatory dividend payments → income but constrained reinvestment; (3) trades at discount to private peers on governance concerns → discount narrows when government policy = business tailwind. BEL, NMDC, Coal India, HAL, SBI all PSUs."
+      }
+    },
+    quiz: [
+      {
+        q: "Why does Coal India pass the halal screen even though coal is a fossil fuel?",
+        options: [
+          "Because coal is a natural resource and all natural resources are halal",
+          "Because Islamic finance screening applies to the business model and activity — coal mining and sale is permissible as extraction of a natural resource; the halal screen does not include environmental or ESG criteria, which are separate frameworks applied by socially responsible investors",
+          "Because Coal India is government-owned, which makes it halal",
+          "Because coal is only used in India, not exported to hostile nations"
+        ],
+        answer: 1,
+        funFact: "Islamic finance's halal screening and ESG investing overlap in some areas (both exclude alcohol, weapons of mass destruction) but diverge in others. ESG screens often exclude fossil fuels on climate grounds; halal screens do not. Conversely, halal screens exclude pork processing and gambling, which most ESG frameworks do not flag. A genuinely halal-ESG aligned portfolio would apply both filter sets — but they are distinct frameworks with different underlying rationales."
+      },
+      {
+        q: "Why does ITC fail the halal screen despite having large FMCG and hotel businesses?",
+        options: [
+          "Because hotels serve alcohol to guests",
+          "Because Islamic screening applies at the company level — if a company derives substantial revenue (40-45% in ITC's case) from an impermissible activity (tobacco), the company fails regardless of how permissible its other divisions are",
+          "Because ITC is listed on a stock exchange, which is considered gambling",
+          "Because ITC's FMCG products contain non-halal ingredients"
+        ],
+        answer: 1,
+        funFact: "The AAOIFI (Accounting and Auditing Organization for Islamic Financial Institutions) standard on stock purification allows investment in companies where impermissible income is less than 5% of total revenue — with the requirement that the investor 'purify' that proportion by donating it to charity. ITC's tobacco revenue at 40-45% of total is far above any applicable threshold under any mainstream Islamic finance standard."
+      },
+      {
+        q: "What is the 'PSU discount' in Indian equity markets and when does it narrow?",
+        options: [
+          "A government subsidy given to PSU shareholders",
+          "The valuation discount at which PSU stocks trade relative to private-sector peers, reflecting governance concerns (government-appointed management, policy-driven decisions over profit); the discount narrows when government policy priorities and business fundamentals align — for example, BEL and HAL benefiting from the Aatmanirbhar Bharat defence spending programme",
+          "The discount PSU employees receive on their company's shares",
+          "A tax concession available only to investors in PSU stocks"
+        ],
+        answer: 1,
+        funFact: "Indian PSU stocks as a category massively outperformed private-sector stocks from 2022-2025 as the government's infrastructure capex programme aligned directly with PSU business models (defence, infrastructure, energy). The Nifty PSE Index (public sector enterprises) more than doubled between 2022-2025. This PSU outperformance reversed the prior decade's PSU underperformance — demonstrating that the 'PSU discount' is conditional, not permanent."
+      }
+    ]
+  },
+  psychology: {
+    mindTrick: {
+      name: "Loss Aversion — Why Losses Feel Twice as Painful as Equivalent Gains",
+      eli5: "Loss aversion is one of the most robustly documented findings in behavioural economics, originating in the work of Daniel Kahneman and Amos Tversky. Their finding: losing Rs.1,000 produces approximately twice the psychological pain as gaining Rs.1,000 produces pleasure. This asymmetry is not logical — the financial outcome of -Rs.1,000 and +Rs.1,000 are equal in magnitude. But emotionally, they are not equal. The brain's threat-detection system responds to losses more intensely than its reward system responds to gains. This is why investors hold losing positions long past rational justification — selling a loss makes the loss real, while holding keeps it notional. It is why people are more motivated by preventing a fee than by receiving an equivalent discount. And it is why 'don't lose what you have' is a more powerful motivational frame than 'gain what you don't have.'",
+      realLife: "Loss aversion in the week's markets: investors who sold during Tuesday's 893-point Sensex crash experienced loss aversion — the pain of seeing the portfolio value drop caused them to crystallise the loss, missing Wednesday and Thursday's recovery. The optimal rational response (hold through the volatility) was psychologically difficult precisely because loss aversion made the falling numbers feel more painful than the rational calculation of 'this is temporary volatility in a fundamentally unchanged market' suggested. Countermeasure: define your investment horizon and acceptable volatility range BEFORE the market moves, so the decision framework is set when you are calm rather than during the emotional intensity of the loss event.",
+      mnemonic: "Loss aversion (Kahneman & Tversky): losing Rs.1,000 hurts ~2x more than gaining Rs.1,000 feels good. Result: hold losers too long (selling makes it real), sell winners too early (lock in gain before it disappears). Market application: crash → sell at the bottom → miss recovery. Countermeasure: define decision rules BEFORE volatility hits."
+    },
+    quiz: [
+      {
+        q: "What is loss aversion in behavioural economics?",
+        options: [
+          "The tendency to avoid all investments that could result in a loss",
+          "The finding that losses produce approximately twice the psychological impact as equivalent gains — the asymmetric emotional response to losing and gaining that causes people to take suboptimal actions to avoid realising losses",
+          "A strategy of minimising portfolio risk at all times",
+          "The tendency to focus only on past losses when making new decisions"
+        ],
+        answer: 1,
+        funFact: "Kahneman and Tversky's 1979 paper 'Prospect Theory: An Analysis of Decision under Risk' formally documented loss aversion as part of a broader framework for how people actually make decisions under uncertainty (as opposed to the rational expected utility maximisation assumed in classical economics). The paper became one of the most cited in all of economics and was a key component of Kahneman's 2002 Nobel Prize in Economic Sciences."
+      },
+      {
+        q: "How does loss aversion cause investors to hold losing positions longer than they should?",
+        options: [
+          "Because investors always expect their investments to recover",
+          "Because selling a losing position converts a paper loss into a realised loss — making it permanent and unavoidable — while holding keeps the loss notional and uncertain; loss aversion makes the pain of realisation disproportionately greater than the pain of the unrealised paper loss",
+          "Because transaction costs make selling unprofitable",
+          "Because tax rules incentivise holding losing positions"
+        ],
+        answer: 1,
+        funFact: "The 'disposition effect' — documented by Hersh Shefrin and Meir Statman in 1985 — is the direct market manifestation of loss aversion: investors tend to sell winners too early (locking in the pleasurable gain) and hold losers too long (avoiding the painful realisation). Studies of actual brokerage data consistently find this pattern. The disposition effect causes investors to systematically pay more capital gains tax on winners while holding tax losses that could be harvested."
+      },
+      {
+        q: "What is the practical countermeasure to loss aversion in investment decision-making?",
+        options: [
+          "Never look at portfolio performance to avoid feeling pain",
+          "Set investment horizons, acceptable volatility ranges, and decision rules before the market moves — when cognition is unimpaired by the emotional intensity of seeing losses — so decisions during volatile periods are executed against a pre-committed framework rather than made in the heat of the loss event",
+          "Diversify into assets that never fall in value",
+          "Accept all losses immediately by selling whenever a position goes negative"
+        ],
+        answer: 1,
+        funFact: "This technique — making decisions during 'cold' states to govern behaviour during 'hot' states — is called 'commitment devices' in behavioural economics, studied extensively by Richard Thaler. A stop-loss order is a commitment device: set when calm, executed automatically when the trigger is hit, bypassing the emotional loss-aversion impulse to hold. Similarly, a pre-written Investment Policy Statement (IPS) governing rebalancing rules is a commitment device for institutional investors."
+      }
+    ]
+  },
+  leadership: {
+    leaderMove: {
+      name: "Default Rules — How Leaders Shape Outcomes by Choosing What Happens When No One Decides",
+      story: "Richard Thaler and Cass Sunstein, in their 2008 book Nudge, introduced the concept of 'choice architecture' — the idea that the way choices are structured dramatically affects which option people choose, even when they are fully free to choose otherwise. The most powerful element of choice architecture is the default: what happens if the person does nothing. Organ donation rates in countries where the default is opt-in (you are not a donor unless you register) are dramatically lower than in countries where the default is opt-out (you are a donor unless you explicitly register your refusal). The behaviour is the same — people can choose either option — but the default determines the outcome for the large majority who never make an active decision. In organisations, the same principle applies: meeting agendas default to what gets included (if you do not fight for time, your topic is not there), email defaults to reply-all (changing the default reply button could reduce meeting overload), and salary structures default to opt-in savings (changing the default to automatic enrolment dramatically increases retirement savings). A leader who understands default rules uses them deliberately to shape team and organisational behaviour without coercion.",
+      realLife: "Default rules in hiring: if the default resume format accepts all submitted candidates for first-round interviews, the hiring outcome is determined by who applies. If the default is structured competency screening before first-round interviews, the outcome is determined by who passes the screen. The leader who chooses the default shapes the outcome — without ever evaluating any individual candidate. In meetings: if the default agenda ends with 'any other business,' conversations drift. If the default agenda has no 'any other business' and all agenda items are time-boxed, meetings run differently. Neither intervention requires anyone to do anything unusual — the choice is the default itself.",
+      mnemonic: "Default rules (Thaler & Sunstein, Nudge 2008): what happens when no one decides determines the outcome for the majority. Organ donation opt-out countries = dramatically higher rates. Automatic pension enrolment (opt-out) vs voluntary enrolment (opt-in). In leadership: meeting agenda defaults, hiring process defaults, email reply defaults — whoever sets the default shapes the outcome."
+    },
+    quiz: [
+      {
+        q: "What does 'choice architecture' mean in the context of leadership and behavioural economics?",
+        options: [
+          "The physical layout of office spaces designed to influence employee choices",
+          "The deliberate design of the context in which choices are made — including defaults, framing, option ordering, and option salience — which systematically influences which options people choose even when they are free to choose any option",
+          "A method for presenting quarterly reports to senior leadership",
+          "The hierarchy of decision-making authority within an organisation"
+        ],
+        answer: 1,
+        funFact: "Richard Thaler won the 2017 Nobel Prize in Economic Sciences for his contributions to behavioural economics, including choice architecture and nudge theory. His most cited real-world application: the redesign of corporate retirement savings programmes in the US to use automatic enrolment (opt-out default instead of opt-in default). Programmes with opt-out defaults see participation rates of 85-95% vs 40-65% for opt-in programmes — the same employees, the same plan, different default."
+      },
+      {
+        q: "Why do opt-out organ donation countries have dramatically higher donor rates than opt-in countries?",
+        options: [
+          "Because opt-out countries have better medical systems",
+          "Because the majority of people never actively register their preferences either way — so the default determines their outcome; in opt-out countries, inaction makes you a donor; in opt-in countries, inaction leaves you unregistered. The default, not the preference, drives the population-level outcome",
+          "Because opt-out countries have stronger cultural values around donation",
+          "Because opt-out countries use government incentives to encourage registration"
+        ],
+        answer: 1,
+        funFact: "Eric Johnson and Daniel Goldstein's 2003 study showed that European countries with opt-out organ donation consent had donor rates near 90-99%, while comparable opt-in countries had rates of 4-27%. The countries are culturally similar; the default is not. Austria (opt-out, 99% consent) vs Germany (opt-in, 12% consent) is the most cited contrast. The UK moved to opt-out (Max and Keira's Law) in 2020 with substantial increases in registered donors following."
+      },
+      {
+        q: "How can a leader use default rules to increase team productivity without mandating any specific behaviour?",
+        options: [
+          "By punishing team members who deviate from desired behaviours",
+          "By setting defaults that make the desired behaviour the path of least resistance — for example: time-boxing all meeting agenda items by default, making summaries with action items the default meeting output, using asynchronous communication as the default for non-urgent topics — so the team gravitates toward productive patterns without requiring constant enforcement",
+          "By making the undesired behaviour impossible",
+          "By explaining the benefits of productive behaviour at team meetings"
+        ],
+        answer: 1,
+        funFact: "Amazon's famous 'six-pager' meeting format is a default rule: all meetings of a certain type begin with silent reading of a pre-circulated written memo, rather than a presentation. This default eliminates the social pressure to appear engaged while processing a slide deck, forces the meeting organiser to think clearly enough to write coherently before presenting, and shifts the group from passive listening to active analytical engagement. The outcome is different — not because attendees are different, but because the default process is different."
+      }
+    ]
+  },
+  wealth: {
+    moneyLesson: {
+      name: "Emergency Fund — The Financial Cushion That Prevents Every Other Plan from Unravelling",
+      story: "The emergency fund is the most fundamental concept in personal financial planning and the most commonly neglected. The principle: before investing in equities, mutual funds, gold or any other asset class, hold three to six months of household expenses in a liquid, low-risk instrument — typically a high-yield savings account or liquid mutual fund. The reason this comes first: every other financial plan depends on not needing to liquidate investments at a forced time. If your household needs Rs.60,000 per month, your emergency fund should be Rs.1.8-3.6 lakh in cash equivalents before a rupee goes into equity SIPs. The Venezuela earthquake is a stark illustration of what financial fragility looks like at the macroeconomic level — a country with no fiscal buffer, crumbling infrastructure, and a government unable to respond adequately to a catastrophe. At the household level, the equivalent is any sudden job loss, medical emergency, or major unexpected expense that forces the sale of equity investments at the worst time. In India: liquid mutual funds currently yield approximately 6.5-7% annualised on redemption within 24 hours — this is the preferred vehicle for an emergency fund over a bank savings account yielding 3-4%.",
+      mnemonic: "Emergency fund: 3-6 months of household expenses in liquid, low-risk instrument BEFORE any equity investment. India vehicle: liquid mutual fund (~6.5-7% yield, 24-hr redemption). Why first: prevents forced liquidation of investments at worst time (market crash = job loss → must sell equities to fund expenses). Build it; replenish after use; never touch except for genuine emergencies."
+    },
+    quiz: [
+      {
+        q: "Why should an emergency fund be built before starting equity investments?",
+        options: [
+          "Because the returns on an emergency fund are higher than equities",
+          "Because without a liquid cash buffer, a financial shock (job loss, medical emergency) forces the sale of equity investments at the worst time — often during market downturns when selling is most costly — undermining the long-term investment plan",
+          "Because the government requires an emergency fund before approving investment accounts",
+          "Because liquid funds are safer than equity in all market conditions"
+        ],
+        answer: 1,
+        funFact: "Research by the Financial Industry Regulatory Authority (FINRA) Foundation in the US found that households with emergency funds of three or more months of expenses were significantly more likely to stay invested through market downturns. The causality is clear: if you have cash to cover emergencies, you do not need to sell investments during a crisis. The emergency fund protects not just daily living but the entire long-term wealth-building plan."
+      },
+      {
+        q: "Why are liquid mutual funds preferred over bank savings accounts for emergency funds in India?",
+        options: [
+          "Because liquid funds have zero risk of loss",
+          "Because liquid funds invest in short-term high-quality debt instruments and currently yield approximately 6.5-7% annualised — roughly double the 3-4% offered by most bank savings accounts — while still offering redemption within 24 hours, making them almost as accessible as a savings account with meaningfully better returns",
+          "Because liquid funds are guaranteed by the Government of India",
+          "Because savings accounts are taxed at a higher rate than liquid fund returns"
+        ],
+        answer: 1,
+        funFact: "Liquid mutual funds in India invest in money market instruments: treasury bills, commercial paper, certificates of deposit, and similar short-duration, high-quality debt. The risk is very low (though not zero — liquid funds carry credit risk on their underlying holdings). SEBI rules require liquid fund holdings to have a maximum maturity of 91 days, limiting duration risk. Returns are taxed as debt fund capital gains — short-term (under 3 years) gains are added to income and taxed at the investor's applicable slab rate."
+      },
+      {
+        q: "How does the Venezuela earthquake illustrate the principle of the emergency fund at a national level?",
+        options: [
+          "Because Venezuela had too much money in liquid assets",
+          "Because Venezuela's years of economic mismanagement left the government with no fiscal buffer — when the catastrophe struck, there was no reserve to fund adequate emergency response, medical care, or infrastructure repair, demonstrating that inadequate liquidity reserves create catastrophic fragility when unexpected events occur, whether at the household or national level",
+          "Because natural disasters are the main reason individuals need emergency funds",
+          "Because Venezuela's emergency fund was invested in equities that crashed"
+        ],
+        answer: 1,
+        funFact: "Venezuela's GDP shrank by approximately 75% between 2013 and 2021 — one of the worst economic collapses in any country not at war during the modern era. This collapse was caused by a combination of oil price dependence, government mismanagement, and hyperinflation. By 2026, the fiscal reserve capacity was essentially zero, leaving the government dependent entirely on international aid for catastrophe response. The analogy to household finance is precise: years of spending without building reserves created total fragility when the shock arrived."
+      }
+    ]
+  },
+  communication: {
+    commSkill: {
+      name: "The PREP Framework — How to Structure Any Spoken Answer in Four Beats",
+      story: "PREP is one of the most practical structured communication frameworks for spoken responses: Point, Reason, Example, Point again. When asked a question in a meeting, interview, or presentation context, PREP provides a simple four-beat architecture that keeps the answer focused, substantiated, and memorable. Point: state your conclusion or recommendation in one sentence first. Reason: explain the core logic in one or two sentences. Example: give a specific, concrete instance that demonstrates the reason. Point (again): restate the conclusion in slightly different words to close the loop. The framework works because it front-loads the conclusion — in high-stakes communication, burying the point at the end (after a lengthy build-up) loses audiences who are pressed for time or attention. PREP also prevents the common failure mode of vague answers that trail into nothing: by ending with a restatement of the point, the answer has a clear close.",
+      realLife: "PREP in an earnings call context: Analyst asks 'Why did your margins compress?' PREP answer: 'Our margins compressed primarily due to raw material cost inflation [Point]. Commodity input costs — specifically aluminium and resin — rose 18% in the quarter due to supply disruptions [Reason]. For example, our premium packaging segment saw a 220bps margin compression on this single input, even as volume grew 12% [Example]. This raw material inflation is the primary driver of the margin compression we have seen this quarter [Point restated].' Without PREP, many executives begin with the example (the specific data) and only arrive at the point midway through — by which time some listeners have disengaged.",
+      mnemonic: "PREP framework: Point (conclusion first) → Reason (why, 1-2 sentences) → Example (specific concrete case) → Point (restate conclusion to close). Works in: earnings calls, job interviews, business meetings, investor conversations. Front-loads conclusion — for busy audiences. Prevents trailing vague answers — ending with Point restates creates clean close."
+    },
+    quiz: [
+      {
+        q: "What does PREP stand for and why does it front-load the conclusion?",
+        options: [
+          "Prepare, Research, Execute, Present",
+          "Point, Reason, Example, Point — it front-loads the conclusion because busy decision-makers and interviewers often cannot give sustained attention to a long build-up, so stating the conclusion first ensures the most important information is received even if the audience partially disengages during the Reason and Example phases",
+          "Problem, Research, Evidence, Propose",
+          "Point, Response, Explore, Pause"
+        ],
+        answer: 1,
+        funFact: "The front-loading principle in communication is sometimes called 'the Minto Pyramid Principle' after Barbara Minto (the McKinsey consultant who formalised it). Minto's insight: in professional communication, the instinct to build toward a conclusion (as in a mystery novel) is exactly wrong. The reader or listener's time is valuable; give them the answer first, then the supporting logic. This is also why press releases start with the most important fact, and why executive summaries are at the beginning, not the end, of business documents."
+      },
+      {
+        q: "In a job interview, how would you use PREP to answer 'Tell me about a time you dealt with a difficult team situation'?",
+        options: [
+          "Begin with a long narrative about the situation before reaching any conclusion",
+          "Begin with the Point (what the outcome was and what you learned or demonstrated), then the Reason (what made it difficult and your approach), then the Example (the specific situation details), then restate the Point with what you would take forward — ensuring the interviewer receives your conclusion even if the example runs long",
+          "Ask the interviewer to clarify what they mean by 'difficult'",
+          "Give only the example without interpretation"
+        ],
+        answer: 1,
+        funFact: "The STAR method (Situation, Task, Action, Result) is the most common interview answer framework and also works well — but it is backward-loaded: the result comes last. PREP is forward-loaded: the point (equivalent to STAR's Result) comes first. Both are valid; PREP is stronger when the interviewer is time-constrained or when the example is complex (listeners who know the destination are better able to follow a complex narrative en route)."
+      },
+      {
+        q: "Why does restating the Point at the end of a PREP answer improve the communication?",
+        options: [
+          "Because repetition always improves memorability",
+          "Because ending with a restatement of the conclusion gives the answer a clear, deliberate close — preventing the common failure mode where spoken answers trail into silence or an implicit question to the listener ('...does that make sense?') — and reinforces the message with a different phrasing that may resonate differently than the opening",
+          "Because the Point becomes more accurate after the Reason and Example have been stated",
+          "Because interviewers are trained to score only the final sentence of each answer"
+        ],
+        answer: 1,
+        funFact: "The rhetorical principle behind PREP's closing restatement dates to classical rhetoric: 'Tell them what you're going to say, say it, tell them what you said.' This tripartite structure (preview, content, summary) appears in Aristotle's Rhetoric and has been a standard of effective public speaking for over 2,000 years. The PREP framework is a compressed, two-sentence version of the same principle applied to single question-and-answer exchanges rather than speeches."
+      }
+    ]
+  },
+  mind: {
+    technique: {
+      name: "The 5-4-3-2-1 Grounding Technique — Anchoring the Mind in the Present Through the Five Senses",
+      howTo: "The 5-4-3-2-1 grounding technique is a sensory anchoring exercise that uses the five senses to bring attention sharply into the present moment, interrupting anxiety or overthinking by directing cognitive resources toward immediate sensory experience rather than future worry or past regret. The method: Name 5 things you can see right now (look carefully — include small details). Name 4 things you can physically feel (texture of the chair, temperature of the air, weight of your hands on your legs). Name 3 things you can hear right now (ambient sounds, not internal thoughts). Name 2 things you can smell (even subtle or faint smells). Name 1 thing you can taste right now (the air, a recent drink, nothing — just notice). The technique works because sensory attention is mutually exclusive with anxious abstract thought — the brain cannot simultaneously process vivid present-sense data and generate future-worry narratives at full intensity. It is particularly effective for acute anxiety episodes, panic responses, and moments of emotional overwhelm. No equipment, no privacy, no preparation needed — usable anywhere.",
+      mnemonic: "5-4-3-2-1 grounding: 5 things you see → 4 you feel → 3 you hear → 2 you smell → 1 you taste. Works because sensory attention crowds out anxiety cognition — brain cannot fully run present-sense processing and future-worry simultaneously. No equipment, instant, anywhere. Best for: acute anxiety, overwhelm, panic episodes."
+    },
+    quiz: [
+      {
+        q: "Why does the 5-4-3-2-1 technique interrupt anxiety and overthinking?",
+        options: [
+          "Because counting is relaxing",
+          "Because directing attention to vivid present-moment sensory experience is cognitively incompatible with generating anxious future-oriented thoughts — the brain's attentional resources are limited and sensory grounding competes successfully against abstract worry for those resources",
+          "Because the technique involves deep breathing which lowers heart rate",
+          "Because it distracts from anxiety by creating a game to play"
+        ],
+        answer: 1,
+        funFact: "The therapeutic mechanism is related to what psychologists call 'attentional retraining' — deliberately shifting the focus of attention as an active cognitive intervention. Mindfulness-Based Cognitive Therapy (MBCT), developed by Zindel Segal, Mark Williams and John Teasdale, uses similar attentional anchoring mechanisms. The 5-4-3-2-1 technique is a fast, structured, secular version of the mindfulness attentional shift that can be applied without any meditation background."
+      },
+      {
+        q: "What makes grounding techniques particularly effective for panic or acute anxiety episodes, compared to cognitive reframing?",
+        options: [
+          "Grounding techniques are faster to learn",
+          "During panic or acute anxiety, the prefrontal cortex (which handles rational cognitive reframing) is partially offline due to the amygdala's threat response; sensory grounding works through sensory pathways that remain accessible even in high-arousal states, bypassing the cognitive shutdown",
+          "Grounding techniques avoid thinking about the anxiety",
+          "Cognitive reframing requires professional guidance while grounding does not"
+        ],
+        answer: 1,
+        funFact: "The stress response (fight-flight-freeze) involves the amygdala triggering cortisol and adrenaline release that measurably reduces executive function in the prefrontal cortex. This is why telling someone to 'just think rationally' during a panic episode is ineffective — their rational thinking capacity is biologically impaired in that moment. Sensory grounding does not require the same cognitive resources as reframing, making it more accessible precisely when it is most needed."
+      },
+      {
+        q: "In which everyday professional situations is the 5-4-3-2-1 technique most immediately applicable?",
+        options: [
+          "Only in clinical anxiety disorders requiring professional treatment",
+          "Before high-stakes presentations (ground before entering the room), during difficult conversations when emotions are rising (briefly notice immediate sensory details to interrupt the emotional escalation), and after receiving critical feedback when the impulse is to react defensively — any moment where present-moment anchoring interrupts an unproductive cognitive or emotional spiral",
+          "Only when experiencing severe panic attacks",
+          "In meditation retreats, not in professional contexts"
+        ],
+        answer: 1,
+        funFact: "Olympic and high-performance sports psychologists routinely teach grounding techniques to athletes for pre-competition anxiety management. The technique appears in professional contexts including military preparation for high-stress missions, surgical team preparation for complex procedures, and — increasingly — investor psychology training for managing decision-making under market volatility."
+      }
+    ]
+  },
+  knowledge: {
+    todayILearned: {
+      name: "The Strait of Hormuz — The World's Most Important Oil Chokepoint",
+      quickBite: "The Strait of Hormuz is a narrow waterway between the Arabian Peninsula and Iran connecting the Persian Gulf to the Gulf of Oman and onward to the Arabian Sea and global oceans. At its narrowest, the strait is approximately 33 kilometres wide (21 miles), with two 3-kilometre-wide shipping lanes and a 3-kilometre-wide buffer zone between them. Before the 2026 Iran war, approximately 20% of the world's oil and 20% of its liquefied natural gas (LNG) passed through this strait every day — roughly 17-19 million barrels of oil daily. The economic significance is extraordinary: every oil-importing nation in the world pays a price premium or faces supply disruption when Hormuz is threatened. India imports approximately 65% of its Gulf oil through Hormuz. Japan and South Korea import nearly all of their oil through it. The threat of closure is sufficient to move global oil prices by $10-20 per barrel. Iran controls the northern shore; Oman controls the southern coast. The United States has maintained a naval presence in the region since 1979 specifically to keep the strait open. The 2026 war was, in significant part, a geopolitical contest over who controls this 33-kilometre channel.",
+      mnemonic: "Strait of Hormuz: 33km wide at narrowest, two 3km shipping lanes. ~20% of world oil + 20% LNG daily (17-19 million barrels). Iran (north shore) + Oman (south). India: 65% Gulf oil through Hormuz. Japan/South Korea: nearly all their oil. $10-20/bbl price move on closure threat. US naval presence since 1979 to keep it open."
+    },
+    quiz: [
+      {
+        q: "Why is the Strait of Hormuz described as the world's most important oil chokepoint?",
+        options: [
+          "Because it is the only sea route connecting the Middle East to the world",
+          "Because approximately 20% of the world's traded oil and 20% of global LNG passes through its two 3km shipping lanes daily — any disruption affecting this single 33km-wide passage immediately affects global energy supplies, with no alternative deepwater route of equivalent capacity available",
+          "Because Iran has the largest oil reserves in the world",
+          "Because the US military base in Bahrain is located there"
+        ],
+        answer: 1,
+        funFact: "There are six major maritime oil chokepoints globally: Hormuz, Malacca (Southeast Asia — ~16 million barrels/day), Suez Canal, Bab el-Mandeb (Red Sea), Turkish Straits (Bosphorus), and the Danish Straits. Of these, Hormuz carries the highest daily volume of crude oil. Its closure creates the most severe and least-substitutable supply disruption — there is no pipeline network with sufficient capacity to reroute the Persian Gulf's oil output at scale."
+      },
+      {
+        q: "Why does India's economy feel the Hormuz crisis particularly acutely?",
+        options: [
+          "Because India produces almost no oil domestically",
+          "Because approximately 65% of India's Gulf oil imports transit the Strait of Hormuz, and India imports over 85% of its crude oil needs — meaning a Hormuz disruption rapidly transmits into India's import bill, current account deficit, rupee weakness, fuel prices, and inflation in ways that directly affect monetary policy and economic growth",
+          "Because India has a mutual defence treaty with the Gulf states",
+          "Because Indian shipping companies own many tankers that transit the strait"
+        ],
+        answer: 1,
+        funFact: "India is the world's third-largest oil importer (after China and the US). The country's heavy dependence on imported oil is a structural economic vulnerability — every oil price spike reduces India's growth rate and pressures the RBI. India has been working to diversify its oil sources (Russian oil imports surged after 2022 sanctions), but geographic reality means the Gulf will remain the dominant source of Indian oil imports for decades."
+      },
+      {
+        q: "What physical geography makes the Strait of Hormuz so strategically significant despite its small size?",
+        options: [
+          "Its depth allows only large supertankers to transit, creating a bottleneck",
+          "The combination of extreme narrowness (33km, two 3km shipping lanes) with no viable alternative sea route — the Persian Gulf is effectively a closed body of water with Hormuz as its only maritime exit — means that controlling Hormuz means controlling access to oil from Kuwait, Iraq, Qatar, UAE, Iran, Saudi Arabia and Bahrain simultaneously",
+          "Its location in international waters makes it ungovernable",
+          "The strong prevailing winds in the strait make it difficult to navigate without advanced equipment"
+        ],
+        answer: 1,
+        funFact: "The Persian Gulf has no other maritime outlet to the open ocean. All seven Persian Gulf oil exporters (Saudi Arabia, UAE, Kuwait, Iraq, Iran, Qatar, Bahrain) must route their oil through Hormuz unless they use overland pipelines — which exist but have dramatically insufficient capacity relative to the volumes involved. Saudi Arabia's East-West Pipeline (Petroline) can carry approximately 5 million barrels/day to the Red Sea, but even that is less than 30% of Hormuz's normal traffic."
+      }
+    ]
+  },
+  ai: {
+    aiTool: {
+      name: "Claude Code — The AI Agent That Lives in Your Terminal and Codes Autonomously",
+      whatItDoes: "Claude Code is Anthropic's agentic coding tool — a command-line interface (CLI) application that gives Claude direct access to your codebase, terminal, and file system. Unlike using Claude in a chat interface (where you copy-paste code back and forth), Claude Code can read files, write files, run commands, execute tests, make git commits, and iterate on results — all autonomously within a working session. The workflow: install Claude Code (npm install -g @anthropic-ai/claude-code), navigate to a project directory, and run claude. From there, Claude reads your code, understands the context, and can tackle complex multi-file refactors, debugging sessions, feature implementations, and infrastructure tasks with minimal user intervention. It is particularly powerful for: large codebase understanding (it can read hundreds of files to understand context), multi-step debugging (run code, see error, fix, re-run, iterate), and tasks that would require multiple separate Claude chat prompts to accomplish. Claude Code is available via API with the claude-opus-4-6 and claude-sonnet-4-6 models. It is specifically designed for developers comfortable with terminal-based workflows.",
+      mnemonic: "Claude Code: CLI agent, lives in terminal, reads + writes files + runs commands autonomously. Install: npm install -g @anthropic-ai/claude-code. Use: navigate to project → run claude. Powerful for: large codebase tasks, multi-step debugging, complex refactors. Available with claude-opus-4-6 / claude-sonnet-4-6 models. For developers comfortable with terminal."
+    },
+    quiz: [
+      {
+        q: "What is the fundamental difference between using Claude in a chat interface versus using Claude Code?",
+        options: [
+          "Claude Code is faster at generating text",
+          "Claude Code has autonomous access to the local file system, terminal and codebase — it can read files, write files, run commands and iterate on results without the user copying and pasting between the AI and their development environment; Claude in a chat interface operates only on text provided in the conversation",
+          "Claude Code only works with Python, not other languages",
+          "Claude Code requires a separate Anthropic account"
+        ],
+        answer: 1,
+        funFact: "The agentic nature of Claude Code means it can execute multi-step tasks: for example, 'Add a new user authentication feature' might involve: reading the existing codebase to understand the architecture, creating new files, modifying existing ones, running tests, identifying failures, debugging, re-running tests, committing the working changes. Each of these steps is autonomous — the user prompts once and Claude Code works through the full sequence."
+      },
+      {
+        q: "For which type of coding task is Claude Code most clearly superior to a chat-based Claude interaction?",
+        options: [
+          "Writing a single function to a specification",
+          "Tasks requiring understanding of a large, multi-file codebase context — where reading hundreds of files, understanding their relationships, and making coordinated changes across multiple files would require dozens of separate chat interactions but can be accomplished in one Claude Code session",
+          "Generating documentation for a small project",
+          "Explaining a programming concept to a beginner"
+        ],
+        answer: 1,
+        funFact: "Claude Code was designed specifically after Anthropic's research into what makes AI assistance most valuable to professional developers. The finding: the most time-consuming and cognitively demanding coding tasks are not writing individual functions, but understanding context across large codebases and making coordinated changes. Claude Code's ability to read the entire project before making changes is its core architectural advantage."
+      },
+      {
+        q: "What category of user is Claude Code primarily designed for?",
+        options: [
+          "Beginner programmers learning to code",
+          "Experienced developers comfortable with terminal-based, command-line workflows who need an autonomous agent to handle complex multi-step coding tasks within their existing development environment",
+          "Data scientists working exclusively in Jupyter notebooks",
+          "Non-technical users who want to build software without coding"
+        ],
+        answer: 1,
+        funFact: "Anthropic positions Claude Code as a professional developer tool, not a beginner coding assistant. The setup requires npm package installation, terminal comfort, and an understanding of what an 'agent' with file system access can and should be asked to do. For non-developers wanting to build software, Anthropic's other tools and the Claude.ai chat interface are more appropriate. Claude Code is for developers who want to amplify their own coding capabilities, not replace the need for coding knowledge."
+      }
+    ]
+  },
+  travel: {
+    destination: {
+      name: "Georgia (Country) — The Caucasus Crossroads of Ancient Wine, Medieval Monasteries and Soviet Charm",
+      quickFacts: "Returning to Georgia — the anchor of the Caucasus travel trilogy — for a deeper weekend deep dive. Georgia (the country, not the US state) sits at the junction of Europe and Asia on the eastern Black Sea coast. The capital Tbilisi has become one of the most discussed travel destinations of the 2020s: a city of cobblestone Old Town lanes, Persian-influenced bathhouses (sulfurous natural hot springs), Soviet-era architecture, a thriving natural wine scene, and a creative culture that has survived Soviet occupation, civil war, and Russian pressure. For Indian passport holders: Georgia offers visa-on-arrival (free, 365 days) — one of the most generous visa policies for Indians anywhere in the world. The currency is the Georgian Lari (GEL); approximately 1 GEL to Rs.32 in 2026. Georgia is one of the oldest winemaking cultures in the world — 8,000 years of continuous winemaking, with amber wines (skin-contact white wines fermented in clay qvevri pots) that have no parallel elsewhere. The food: khinkali (soup dumplings — eat by holding the top knot and biting through to drink the broth first), khachapuri (cheese-bread in multiple regional styles, the most spectacular being Adjarian — a boat-shaped bread filled with egg and butter), churchkhela (walnut-stuffed grape-must candy), and jonjoli (a pickled wild plant unique to Georgia).",
+      whyNow: "Late June in Georgia is beautiful — warm Tbilisi (28-32°C), high Caucasus mountain weather perfect for hiking (Svaneti, Kazbegi). Direct flights from major Indian cities to Tbilisi via Dubai, Istanbul or Doha take 6-8 hours. Georgia is significantly more affordable than Western Europe: a comfortable mid-range hotel in Tbilisi costs $40-80/night, dinner for two at a good restaurant Rs.1,500-2,500. Halal food: Georgia's Muslim population in some regions (especially Adjara) means halal options are available, particularly in Tbilisi's Avlabari district. Many Georgian dishes are naturally halal-compatible (khinkali with beef or mushroom filling; bean dishes like lobiani).",
+      mnemonic: "Georgia (country): Tbilisi — cobblestone Old Town, sulfur baths, natural wine. Visa-on-arrival Indians (365 days free). GEL ~Rs.32. 8,000 years winemaking (amber wines, qvevri clay). Food: khinkali (soup dumplings), khachapuri (cheese bread), churchkhela, jonjoli. June: 28-32°C, Kazbegi/Svaneti hiking perfect. $40-80/night hotels. Halal: Avlabari district."
+    },
+    quiz: [
+      {
+        q: "What makes Georgian amber wine unique in the world of winemaking?",
+        options: [
+          "It is made from amber-coloured grapes found only in Georgia",
+          "Georgian amber wine is made using the qvevri method — fermenting white grape juice with the grape skins for weeks to months in buried clay amphoras, producing a deeply coloured, tannic white wine with complex texture that has no parallel in European or New World winemaking traditions, derived from 8,000 years of continuous winemaking culture",
+          "It contains amber resin as a traditional preservative",
+          "It is produced only in autumn during amber harvest season"
+        ],
+        answer: 1,
+        funFact: "In 2013, UNESCO inscribed the ancient Georgian traditional qvevri winemaking method on the Representative List of the Intangible Cultural Heritage of Humanity. Georgia claims to be the birthplace of wine — archaeological evidence of grape cultivation and wine production at Gadachrili Gora dates to approximately 6000 BCE. The amber (skin-contact) style of wine has inspired a global 'orange wine' movement in natural wine circles, but the original tradition is distinctly Georgian."
+      },
+      {
+        q: "How do you eat khinkali correctly?",
+        options: [
+          "With a fork and knife, cutting through the top first",
+          "Hold the top knot (which is not eaten), turn the dumpling sideways, bite through the dough at the bottom to drink the hot broth inside first before eating the meat, then consume the body — never cut with a knife or use a fork, which releases the broth; eat the dough body, leave the top knot on the plate",
+          "Dip in a sauce first, then eat whole in one bite",
+          "Split in half and share with a dining companion"
+        ],
+        answer: 1,
+        funFact: "The number of folds on a khinkali is a marker of the maker's skill — a well-made khinkali has at least 19 folds, ideally 28. The top knot is a handle for eating and a counting mechanism (Georgians count how many khinkali they ate by their pile of top knots). Ordering and eating khinkali in a Georgian tavern is a communal, tactile experience — there is an etiquette to it, and locals watch to see if foreign visitors know how to eat them correctly."
+      },
+      {
+        q: "What makes Georgia's visa policy exceptional for Indian passport holders?",
+        options: [
+          "Georgia offers a free, 365-day visa-on-arrival for Indian citizens — one of the most generous visa policies anywhere in the world for Indian passport holders, making it accessible for long-term digital nomads and leisure travellers without any advance visa application",
+          "Georgia offers a work visa within 24 hours of arrival",
+          "Georgia is part of the Schengen Area which accepts Indian visas",
+          "India has a bilateral treaty with Georgia that allows unlimited stays"
+        ],
+        answer: 1,
+        funFact: "Georgia introduced its visa liberalisation programme as part of a deliberate tourism and FDI strategy. The country's policy of welcoming citizens from countries — including India — that historically found European visa applications difficult made it a popular destination for Indian travellers from approximately 2018 onward. By 2024-25, India had become one of the top source countries for tourism to Georgia."
+      }
+    ]
+  }
+}
+
 const ALL_BRIEFS = {
   '2026-06-01': d260601,
   '2026-06-02': d260602,
@@ -8276,6 +8755,7 @@ const ALL_BRIEFS = {
   '2026-06-24': d260624,
   '2026-06-25': d260625,
   '2026-06-26': d260626,
+  '2026-06-27': d260627,
 }
 
 // == DATA END ==
