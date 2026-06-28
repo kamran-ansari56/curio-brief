@@ -6868,8 +6868,8 @@ const d260624 = {
         {
           name: "Sun Pharmaceutical Industries (NSE: SUNPHARMA)",
           halal: true,
-          buyPrice: "Rs.1,820",
-          sellPrice: "Rs.2,020",
+          buyPrice: "Rs.1,870",
+          sellPrice: "Rs.2,095",
           stopLoss: "Rs.1,720",
           whyExciting: "Sun Pharma is India's largest pharmaceutical company by market capitalisation and the fourth-largest specialty generic pharmaceutical company globally. Its product portfolio spans branded generics, specialty medicines, and over-the-counter products across 100+ countries. Manufacturing and selling medicines is explicitly permissible under Islamic screening criteria, and Sun Pharma's balance sheet is conservative — manageable debt, strong free cash flow, and no interest-based financial intermediation as a core business. The company's specialty segment — branded dermatology, psychiatry, ophthalmology, and oncology products — generates high margins and is growing faster than its generics base. The US FDA catalyst (June 23 outreach to Indian pharma on cancer drug supply) creates a near-term demand signal for companies with US oncology exposure. Sun Pharma's 52-week range is approximately Rs.1,630 to Rs.2,100. A hold above Rs.1,820 targets the Rs.2,020 zone.",
           risk: "Sun Pharma carries ongoing US FDA regulatory risk — it has multiple plants under scrutiny and US generic pricing continues to be deflationary. The specialty pipeline involves long development cycles and binary approval outcomes. Currency risk is meaningful: Sun Pharma earns a large share of revenue in USD, EUR and other currencies; a sharp rupee appreciation would reduce reported INR revenue. Honour the Rs.1,720 stop."
@@ -6877,18 +6877,18 @@ const d260624 = {
         {
           name: "Cipla Limited (NSE: CIPLA)",
           halal: true,
-          buyPrice: "Rs.1,490",
-          sellPrice: "Rs.1,660",
-          stopLoss: "Rs.1,410",
+          buyPrice: "Rs.1,450",
+          sellPrice: "Rs.1,625",
+          stopLoss: "Rs.1,335",
           whyExciting: "Cipla is one of India's most respected pharmaceutical companies — founded in 1935, publicly listed, and known for making critical medicines affordable globally. It was one of the first companies to produce affordable antiretrovirals for HIV patients in Africa in 2001, a decision that defined its ethical reputation. The business is entirely medicine manufacturing and distribution — permissible, with a clean balance sheet. Cipla was a top Nifty 50 gainer on June 23 during the broader selloff, demonstrating relative strength that continued into June 24's rally. It has meaningful US branded generic exposure and is a beneficiary of the FDA-India pharma dynamic. The 52-week range spans approximately Rs.1,330 to Rs.1,680. A hold above Rs.1,490 targets Rs.1,660.",
           risk: "Cipla faces the same US generic pricing headwinds as all Indian pharma exporters. Its branded business in India — respiratory and consumer health — generates strong margins but faces competition. Any FDA warning letter on a manufacturing plant could cause a sharp selloff. Position sizing discipline is important."
         },
         {
           name: "Dr. Reddy's Laboratories (NSE: DRREDDY)",
           halal: true,
-          buyPrice: "Rs.1,290",
-          sellPrice: "Rs.1,440",
-          stopLoss: "Rs.1,210",
+          buyPrice: "Rs.1,310",
+          sellPrice: "Rs.1,465",
+          stopLoss: "Rs.1,205",
           whyExciting: "Dr. Reddy's is India's second-largest pharmaceutical company by revenue, with a strong US generics business and a growing specialty pipeline. Founded by K. Anji Reddy in 1984, it was one of the first Indian pharma companies to receive US FDA approval for a product. It manufactures active pharmaceutical ingredients (APIs), finished dosage formulations, and biosimilars — all permissible manufacturing activities. Dr. Reddy's was among the advance gainers on June 24 as the pharma sector gained momentum from the FDA catalyst. The 52-week range is approximately Rs.1,150 to Rs.1,500. The setup targets Rs.1,290 entry with Rs.1,440 as the reward zone.",
           risk: "Dr. Reddy's has faced FDA import alerts on specific plants historically — regulatory incidents remain the primary binary risk for Indian pharma exporters. US generics revenue is highly competitive and margin-compressive. Currency exposure (USD/EUR revenues, INR costs) makes FX movements a material earnings variable. Respect the Rs.1,210 stop."
         },
@@ -7347,27 +7347,27 @@ const d260625 = {
         {
           name: "Mahindra & Mahindra (NSE: M&M)",
           halal: true,
-          buyPrice: "Rs.3,060",
-          sellPrice: "Rs.3,400",
-          stopLoss: "Rs.2,880",
+          buyPrice: "Rs.3,180",
+          sellPrice: "Rs.3,560",
+          stopLoss: "Rs.2,925",
           whyExciting: "Mahindra & Mahindra is India's largest SUV maker and is undergoing a structural transformation toward electric vehicles. Its XEV 9e and BE 6 electric vehicles launched in FY26 have generated strong order books. The company also has a large farm equipment division (tractors), a defence vehicles subsidiary, and a financial services arm. For halal screening: the core automotive manufacturing and farming equipment business is entirely permissible. The financial services subsidiary (Mahindra Finance) is a separate listed entity and does not contaminate the parent's screen if the core business is evaluated. M&M gained 3.85-4% on June 25 as crude oil fell to $72/bbl — a direct beneficiary of lower fuel costs improving vehicle demand outlook. The 52-week range is approximately Rs.2,200 to Rs.3,400. Entry above Rs.3,060 targets the Rs.3,400 zone.",
           risk: "M&M's valuation has expanded significantly on EV narrative — it is priced for perfect execution. Any slip in EV delivery timelines, quality issues, or competitive pressure from Tata Motors could reprice the stock. Its farm equipment segment is cyclical and tied to monsoon quality. The financial services arm adds indirect exposure to rural NPA cycles. Honour the Rs.2,880 stop."
         },
         {
           name: "Maruti Suzuki India (NSE: MARUTI)",
           halal: true,
-          buyPrice: "Rs.13,250",
-          sellPrice: "Rs.14,800",
-          stopLoss: "Rs.12,400",
+          buyPrice: "Rs.13,750",
+          sellPrice: "Rs.15,400",
+          stopLoss: "Rs.12,650",
           whyExciting: "Maruti Suzuki is India's largest passenger vehicle company by volume — approximately 40-42% market share in FY26. It is the Indian subsidiary of Japan's Suzuki Motor Corporation. Manufacturing and selling passenger vehicles is a clean, permissible business. Maruti benefits from cheaper petrol (lower operating costs for customers → stronger resale economics → better new-car demand) and from the broader India consumption story. The stock gained 3.79-3.81% on June 25 on crude tailwinds. Maruti is in the process of launching its first significant EV lineup after years of watching rivals move first — a risk that is now transitioning to an opportunity as the product pipeline materialises. The 52-week range is approximately Rs.11,500 to Rs.14,900. Entry above Rs.13,250 targets Rs.14,800.",
           risk: "Maruti has been criticised for entering EVs later than Tata and M&M, which has cost it some aspirational buyer sentiment. Its mass-market positioning means margin pressure is structural. Currency risk: Suzuki Japan receives royalties, creating a yen-denominated payment obligation. Any rupee depreciation against the yen hurts Maruti margins. Respect the Rs.12,400 stop."
         },
         {
           name: "InterGlobe Aviation / IndiGo (NSE: INDIGO)",
           halal: true,
-          buyPrice: "Rs.5,200",
-          sellPrice: "Rs.5,800",
-          stopLoss: "Rs.4,900",
+          buyPrice: "Rs.5,450",
+          sellPrice: "Rs.6,105",
+          stopLoss: "Rs.5,015",
           whyExciting: "IndiGo is India's largest airline by market share (~60%), and aviation is one of the most direct beneficiaries of falling crude oil prices — jet fuel (Aviation Turbine Fuel, ATF) is the single largest cost item for airlines, typically 30-40% of operating costs. IndiGo gained nearly 5% on June 25, hitting Rs.5,462 intraday, as Brent crude fell toward $72/bbl. Airline operations — transporting passengers — are permissible under Islamic screening. IndiGo's balance sheet has been pressured by high fuel costs and aircraft delivery delays; lower fuel prices materially improve its near-term profitability outlook without any operational change required. India's aviation market is structurally growing: middle-class air travel penetration remains well below comparable Asian economies.",
           risk: "Airlines are operationally leveraged businesses — small changes in fuel costs or passenger yields produce large changes in profitability. IndiGo's fleet expansion has outpaced aircraft deliveries due to global supply chain issues, creating lease commitments for aircraft not yet in service. Any reversal in the oil price decline — which remains possible if the Hormuz ceasefire breaks down — would reverse the near-term tailwind sharply. The stop at Rs.4,900 is critical."
         },
@@ -7826,27 +7826,27 @@ const d260626 = {
         {
           name: "Tata Motors — Passenger Vehicles / EV Play (NSE: TATAMOTORS)",
           halal: true,
-          buyPrice: "Rs.750",
-          sellPrice: "Rs.850",
-          stopLoss: "Rs.700",
+          buyPrice: "Rs.430",
+          sellPrice: "Rs.480",
+          stopLoss: "Rs.395",
           whyExciting: "Tata Motors is India's largest EV manufacturer through its Nexon EV, Punch EV, Tiago EV and upcoming Harrier EV/Safari EV lineup. Its Jaguar Land Rover (JLR) UK subsidiary is a global luxury automotive brand undergoing its own electric transition (Range Rover Electric, Defender Electric). Automotive manufacturing — vehicles, components, powertrains — is entirely permissible under Islamic screening. Tata Motors has been India's EV pioneer: it held over 60% of India's EV market through FY25 and only recently saw market share pressure from M&M's new BE 6 and XEV 9e. The JLR recovery has been strong: JLR posted record profits in FY25-26, driven by strong demand for Range Rover and Defender models in the US and UK. Lower crude oil globally: one tailwind. India's EV penetration still under 5% of passenger vehicle sales: the structural runway is decade-long. Entry above Rs.750 targets the Rs.850 zone.",
           risk: "Tata Motors is a conglomerate with multiple divisions — commercial vehicles, passenger cars, JLR — each with different cycle exposure. JLR supply chain issues and semiconductor dependencies have historically caused earnings misses. The EV market share pressure from M&M is real and intensifying. The company's balance sheet carries more debt than a simple halal filter would prefer — investors should check the debt-to-equity ratio for stricter screening. Honour the Rs.700 stop."
         },
         {
           name: "Titan Company (NSE: TITAN)",
           halal: true,
-          buyPrice: "Rs.3,500",
-          sellPrice: "Rs.3,900",
-          stopLoss: "Rs.3,280",
+          buyPrice: "Rs.4,290",
+          sellPrice: "Rs.4,805",
+          stopLoss: "Rs.3,945",
           whyExciting: "Titan Company — a Tata Group subsidiary — is India's largest branded jewellery (Tanishq), watches (Titan, Fastrack), and eyewear (Titan Eyeplus) company. It is one of India's most trusted consumer brands, with a business model built on branded, aspirational goods that benefit from India's rising income levels and shift from unorganised to organised retail. Selling jewellery, watches and eyewear is permissible under Islamic screening. Titan's Tanishq business has consistently outgrown the overall jewellery market by converting unorganised purchases to branded, hallmarked gold jewellery — a structural trend that will continue for years. The stock benefits from gold price movements (higher gold prices inflate jewellery revenue), from consumer sentiment improvements, and from India's growing middle class. Entry above Rs.3,500 targets Rs.3,900.",
           risk: "Titan is premium-priced relative to its growth, trading at elevated PE multiples that price in many years of future growth. A gold price correction could hurt the jewellery segment's revenue and margins simultaneously. Consumer discretionary spending is sensitive to economic slowdowns. The watches and eyewear segments face international competition. The entry-level (Fastrack) segment is under pressure from value brands. Respect the Rs.3,280 stop."
         },
         {
           name: "Nestle India (NSE: NESTLEIND)",
           halal: true,
-          buyPrice: "Rs.2,430",
-          sellPrice: "Rs.2,700",
-          stopLoss: "Rs.2,280",
+          buyPrice: "Rs.1,395",
+          sellPrice: "Rs.1,560",
+          stopLoss: "Rs.1,285",
           whyExciting: "Nestle India — the Indian subsidiary of Nestle SA Switzerland — manufactures and sells foods and beverages across India: Maggi noodles (India's #1 instant noodle brand), KitKat, Munch, Milkmaid, Milo, Nescafé, and multiple dairy and nutrition products. Food manufacturing is permissible (excepting any alcohol or pork-based products, of which Nestle India has none in its India portfolio). Nestle India has one of the most consistent earnings track records in the Indian consumer staples sector — a near-all-weather business that sells essential-adjacent food items regardless of macro conditions. The FMCG sector was a relative outperformer on June 25 as markets consolidated. Nestle India specifically gained 1.97% on June 25 and is positioned as a defensive allocation alongside the more volatile auto plays. Entry above Rs.2,430 targets Rs.2,700.",
           risk: "Nestle India is expensive by almost every valuation metric — its consistency is priced in. Raw material cost inflation (wheat, dairy, palm oil) directly hits margins. The Maggi brand was severely damaged by the 2015 safety crisis and recovered, but regulatory risk for food companies is real. Currency exposure through royalties to Nestle SA Switzerland. Respect the Rs.2,280 stop."
         },
@@ -8305,27 +8305,27 @@ const d260627 = {
         {
           name: "NMDC Limited (NSE: NMDC)",
           halal: true,
-          buyPrice: "Rs.230",
-          sellPrice: "Rs.265",
-          stopLoss: "Rs.210",
+          buyPrice: "Rs.85",
+          sellPrice: "Rs.95",
+          stopLoss: "Rs.80",
           whyExciting: "NMDC (National Mineral Development Corporation) is India's largest iron ore producer — a government-controlled company that mines and sells iron ore, the primary raw material for steel manufacturing. Mining of natural resources (excluding interest-based financing) is permissible under Islamic screening. NMDC has no significant financial services component — it is a pure-play mining company. Iron ore is the feedstock for India's growing steel industry, which itself is driven by infrastructure spending, construction, and manufacturing expansion. At a time when Indian government capital expenditure remains strong (the 2026-27 Union Budget maintained a Rs.11 lakh crore capex target), domestic demand for iron ore is structurally supported. NMDC's unique position: it is one of the few mining companies globally that is a net price setter within its domestic market, given its scale and the limited competition in Indian iron ore. Entry above Rs.230 targets Rs.265.",
           risk: "NMDC is a PSU (government-owned) company, which means management decisions are influenced by government priorities, not just commercial logic. Iron ore prices are internationally linked — a global steel demand slowdown (particularly in China) would pressure prices. Environmental clearances for new mining expansion are increasingly contested. The stock tends to underperform during risk-off environments when commodity demand narratives weaken. Honour the Rs.210 stop."
         },
         {
           name: "Coal India Limited (NSE: COALINDIA)",
           halal: true,
-          buyPrice: "Rs.475",
-          sellPrice: "Rs.540",
-          stopLoss: "Rs.440",
+          buyPrice: "Rs.435",
+          sellPrice: "Rs.485",
+          stopLoss: "Rs.400",
           whyExciting: "Coal India is the world's largest coal mining company and produces approximately 80% of India's domestic coal. Mining is permissible under Islamic screening — Coal India's business is extraction and sale of a natural resource, with no interest-based financial intermediation in the core business. Coal India is a high-dividend payer with consistent cash flows — the Indian government's ownership (about 63%) means it has historically paid large dividends to fund government revenues. An important nuance on coal for the halal-aware investor: the product itself (coal for power generation) is not impermissible, even though ESG investors may apply climate-related screens. Islamic finance does not currently maintain a blanket exclusion on fossil fuels — that is an ESG (not halal) screen. Entry above Rs.475 targets Rs.540.",
           risk: "Coal India faces a structural long-term risk from India's energy transition — renewable energy has been growing faster than coal in India's generation mix since 2023, and Coal India's volumes may plateau or decline over a 10-15 year horizon. In the near term, the company benefits from India's still-growing electricity demand, which continues to need coal for baseload power. A monsoon-disrupted coal dispatch or industrial slowdown would pressure near-term earnings. Respect the Rs.440 stop."
         },
         {
           name: "Bharat Electronics Limited (NSE: BEL)",
           halal: true,
-          buyPrice: "Rs.355",
-          sellPrice: "Rs.415",
-          stopLoss: "Rs.325",
+          buyPrice: "Rs.405",
+          sellPrice: "Rs.455",
+          stopLoss: "Rs.375",
           whyExciting: "Bharat Electronics Limited is India's largest defence electronics PSU — it manufactures radar systems, electronic warfare systems, sonars, communication systems and avionics for the Indian armed forces. Defence electronics for a national military is generally considered permissible under Islamic screening — manufacturing equipment for legitimate national defence is not categorised as prohibited business. BEL has a multi-year order book driven by India's defence modernisation programme (Aatmanirbhar Bharat — self-reliance). Its order book exceeded Rs.70,000 crore by FY26, providing revenue visibility for 3-4 years. BEL fell 1.7% on June 25 as geopolitical de-escalation rotated money away from defence — this represents a potential re-entry window. Entry above Rs.355 targets Rs.415.",
           risk: "BEL is execution-sensitive — its revenue recognises only upon delivery of complex systems, so order book does not translate linearly to revenue. Government budget delays, import dependency for some components, and competition from private defence manufacturers (Adani Defence, L&T Defence) create medium-term risks. The de-escalation narrative that caused the June 25 dip is a recurring short-term risk whenever Hormuz news improves. Honour the Rs.325 stop."
         },
@@ -8784,27 +8784,27 @@ const d260628 = {
         {
           name: "Hindustan Aeronautics Limited (NSE: HAL)",
           halal: true,
-          buyPrice: "Rs.4,250",
-          sellPrice: "Rs.4,800",
-          stopLoss: "Rs.3,950",
+          buyPrice: "Rs.4,370",
+          sellPrice: "Rs.4,895",
+          stopLoss: "Rs.4,020",
           whyExciting: "HAL is India's largest aerospace and defence manufacturer — it produces the Tejas light combat aircraft, ALH Dhruv helicopter, various jet trainers, and is the primary production partner for Rafale aircraft assembly in India. Like BEL, HAL's business — manufacturing aircraft and helicopters for the Indian Air Force and Navy — is generally considered permissible under Islamic screening as legitimate national defence equipment for a sovereign state. HAL's order book exceeds Rs.1 lakh crore and it is the primary beneficiary of India's Aatmanirbhar Bharat indigenisation push in aerospace. The stock pulled back on June 25 as de-escalation rotated money out of defence names — but the structural multi-year indigenisation story is unchanged. Entry above Rs.4,250 targets Rs.4,800.",
           risk: "HAL is a PSU with all the governance complexities that implies. Its order execution has historically been slow — converting the Rs.1 lakh crore order book to revenue recognition takes 7-10 years. Technology transfer agreements with France (Rafale) and Russia have faced delays. Any defence budget cut or strategic pivot would disproportionately affect HAL. The de-escalation rotation risk is real in the short term. Honour the Rs.3,950 stop."
         },
         {
           name: "Asian Paints (NSE: ASIANPAINT)",
           halal: true,
-          buyPrice: "Rs.2,780",
-          sellPrice: "Rs.3,100",
-          stopLoss: "Rs.2,600",
+          buyPrice: "Rs.2,645",
+          sellPrice: "Rs.2,960",
+          stopLoss: "Rs.2,435",
           whyExciting: "Asian Paints is India's largest decorative paints company — about 55% market share domestically — and one of the most consistent compounders in the Indian equity market over 20+ years. Manufacturing and selling decorative paints is permissible under Islamic screening with no activity-level concerns. Asian Paints benefits from India's housing construction and renovation cycle; as crude oil falls (most paints are petrochemical-derived), Asian Paints' raw material costs fall, improving margins. The company has a distribution network of over 70,000 dealers and a strong brand — durable competitive advantages that qualify it as a Coffee Can Portfolio candidate. Entry above Rs.2,780 targets Rs.3,100.",
           risk: "Asian Paints faces intensifying competition from Birla Opus (which entered the decorative paints market aggressively in FY24-25 with massive dealer incentives and market share ambitions). Any sustained loss of market share would reprice the premium valuation. The housing cycle is tied to interest rates — if mortgage rates rise, construction activity slows and paint volumes fall with it. Respect the Rs.2,600 stop."
         },
         {
           name: "Pidilite Industries (NSE: PIDILITIND)",
           halal: true,
-          buyPrice: "Rs.3,050",
-          sellPrice: "Rs.3,400",
-          stopLoss: "Rs.2,850",
+          buyPrice: "Rs.1,575",
+          sellPrice: "Rs.1,765",
+          stopLoss: "Rs.1,450",
           whyExciting: "Pidilite Industries is one of India's most respected consumer and industrial adhesives companies — Fevicol, Dr. Fixit, M-Seal and Fevikwik are all Pidilite brands with near-monopoly recognition in their categories. Adhesives and sealants manufacturing is permissible under Islamic screening. Pidilite is a classic Coffee Can stock: consistent earnings growth, high return on equity (30%+), strong pricing power, and a brand so embedded in Indian culture that 'Fevicol' is used generically to mean any adhesive (like Xerox for photocopying). Lower crude oil reduces Pidilite's vinyl acetate monomer (VAM) costs, supporting margin expansion. Entry above Rs.3,050 targets Rs.3,400.",
           risk: "Pidilite is highly valued and priced for growth — a slowdown in construction activity or a raw material cost spike would compress both volumes and margins simultaneously. The company's growth has been so consistent that any quarterly miss produces a disproportionate stock reaction. Its international expansion (UAE, Bangladesh, Southeast Asia) is ongoing but has not yet contributed meaningfully to profitability. Honour the Rs.2,850 stop."
         },
