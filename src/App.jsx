@@ -7291,6 +7291,485 @@ const d260624 = {
   }
 }
 
+const d260625 = {
+  news: {
+    segments: [
+      {
+        name: "🌐 What's happening with countries?",
+        color: "#a0d4f5",
+        stories: [
+          {
+            headline: "Alan Greenspan, 'the Maestro' of the Federal Reserve, dies aged 100",
+            eli5: "Alan Greenspan — the economist who chaired the US Federal Reserve for 18.5 years under four presidents, from Ronald Reagan (1987) through George W. Bush (2006) — died at his Washington home on Monday June 22 from complications of Parkinson's disease. He was 100. His wife, NBC News chief foreign affairs correspondent Andrea Mitchell, announced his death. Greenspan presided over one of the longest economic expansions in US history: the 1990s boom characterised by low unemployment and low inflation that he allowed to run without raising rates — defying the conventional view that tight labour markets inevitably produce inflation. He was praised for crisis management: stabilising markets after the 1987 Black Monday crash, navigating the 1997-98 Asian and Russian financial contagion, and managing the economic fallout of the September 11 attacks. His shadow side: after leaving office, critics pointed to his low interest rates in the early 2000s and his ideological resistance to regulating financial derivatives as conditions that enabled the 2007-08 housing bust and global financial crisis. In 2008 congressional testimony, he famously acknowledged 'I made a mistake' in trusting markets to self-regulate.",
+            whyItMatters: "Greenspan's legacy is one of the clearest case studies in how monetary policy mistakes — or at minimum, misjudgements — can have consequences that only become visible years or decades later. He kept rates low through the early 2000s partly because inflation was subdued; the asset bubble that resulted did not show up in inflation indices but in housing prices. His deference to market self-regulation was ideologically coherent but empirically wrong, as he himself acknowledged. The lesson is not to condemn Greenspan but to notice the pattern: in complex systems, long feedback loops mean that a policy decision's full consequences arrive after the decision-maker has moved on. The 2008 crisis was the feedback loop for 2003-2006 decisions. Today's central bank decisions carry the same long-lag dynamic.",
+            mnemonic: "Alan Greenspan: Fed Chair 1987-2006, 18.5 years under Reagan/HW Bush/Clinton/W Bush. Known for: 1990s boom (low unemployment, low inflation simultaneously), Black Monday crisis management (1987). Shadow: low rates 2003-06 enabled housing bubble → 2008 crisis. Admitted the mistake. Died June 22, 2026, age 100. Wife: Andrea Mitchell (NBC News)."
+          },
+          {
+            headline: "IMO pauses Hormuz seafarer evacuation after Iran objects and a ship is attacked near Oman",
+            eli5: "On Thursday June 25, the International Maritime Organization paused its seafarer evacuation plan — announced just two days earlier — after two developments undermined it. First, Iran objected to the plan, signalling that the ceasefire framework remained fragile. Second, the Singapore-flagged container ship Ever Lovely was struck by an unknown projectile off the coast of Oman in the Musandam Governorate, with US officials attributing the attack to Iran. No casualties were reported. Separately, Omani Foreign Minister Badr bin Hamad Al Busaidi confirmed that no transit fees would be imposed on ships using the Strait of Hormuz — addressing one commercial uncertainty. By June 26, CENTCOM would respond with strikes on Iranian missile and drone storage sites in retaliation for the Ever Lovely attack. The ceasefire framework was fraying — but not yet broken.",
+            whyItMatters: "The Hormuz situation is a real-time illustration of how ceasefires work in practice: not as clean on-off switches but as contested, fragile processes where violations, misattributions, and political pressures constantly threaten collapse. The IMO pause — announced, then immediately frozen — shows how dependent humanitarian logistics are on political stability. For Indian investors and traders: Brent crude had fallen 8% in the week, reaching near pre-war levels of ~$72/bbl on Thursday. But each news event that threatens the ceasefire is a volatility risk for Indian markets, which are heavily exposed to oil import costs. The rupee, inflation, fiscal deficit, and hence RBI rate decisions all run through the Hormuz oil price channel."
+          },
+          {
+            headline: "World Cup: Spain's Lamine Yamal scores in his hometown, Cape Verde makes history",
+            eli5: "The World Cup group stage continued Thursday June 25. Spain's teenage winger Lamine Yamal — born in Barcelona, playing his first World Cup at 18 — scored in his hometown stadium for the first time in this tournament as France beat Norway in Boston. Cape Verde made history by qualifying for the FIFA World Cup knockout stage — the smallest nation ever to do so — after finishing second in Group H. The US beat Ghana in a separate match. Group stage drama was running across all 12 host cities as the round-of-32 bracket began to take shape, setting up a high-stakes final group stage matchday on Saturday June 27.",
+            whyItMatters: "Cape Verde — an island nation of 600,000 people off the West African coast — qualifying for the knockout stage of the World Cup is a reminder of what structural change in global football looks like. The expanded 48-team format (this being the first 48-team World Cup, expanded from 32 teams) has widened the tournament window for smaller nations. Whether this is good for the tournament's quality or not is a legitimate debate — but it is unambiguously good for the democratisation of elite sport participation."
+          }
+        ]
+      },
+      {
+        name: "💸 What's happening with money?",
+        color: "#a8edcb",
+        stories: [
+          {
+            headline: "Sensex +109 to 77,100; Nifty +34 to 24,056 — autos and FMCG lead as Brent crude hits pre-war $72",
+            eli5: "Thursday June 25 was the week's final trading session before the Muharram holiday (June 26, NSE closed). The Sensex added a modest 109.25 points (+0.14%) to close at 77,100.47 and the Nifty 50 gained 34.35 points (+0.14%) to 24,056. The session's character: auto stocks surged (Nifty Auto +2.25%) as Brent crude slipped to near $72/bbl — the lowest since before the Iran conflict began — with IndiGo +5%, Mahindra & Mahindra +3.85-4%, Maruti Suzuki +3.79-3.81%. Aviation and auto names are direct beneficiaries of cheaper fuel and petrol. IT and metals declined as global commodity weakness and profit-booking weighed. The India VIX (fear gauge) fell 2.50%, reflecting reduced near-term uncertainty as the week ended on three consecutive positive sessions. For the week overall, the Sensex rose 0.4% — modest given the 893-point midweek crash.",
+            whyItMatters: "Brent at $72/bbl is a structural positive for India: the country imports over 85% of its oil needs, so each $10/bbl decline in crude reduces India's annual import bill by approximately $13-14 billion. That eases the current account deficit, reduces pressure on the rupee, and gives the RBI room to hold or reduce rates rather than raise them. The auto sector's Thursday outperformance is mechanistically linked: cheaper petrol means consumers spend less on fuel, which supports discretionary purchases like vehicles. The chain — lower oil → cheaper petrol → better consumer spending capacity → higher auto demand → auto stocks outperform — is one of the most legible macro-to-sector linkages in Indian equity markets."
+          }
+        ]
+      }
+    ]
+  },
+  markets: {
+    globalPulse: {
+      eli5: "Thursday June 25 was the week's last trading session before the Muharram holiday. India markets closed with a third consecutive positive day — modest gains anchored by auto and FMCG as Brent crude fell to near $72/bbl, the lowest since before the Iran war. The Iran-Hormuz situation remained fragile: the IMO paused the seafarer evacuation plan after the Ever Lovely ship attack, and CENTCOM would retaliate overnight. But the net market read was: oil is heading lower, the ceasefire framework — however fragile — is holding directionally, and Indian consumer-focused sectors benefit from cheaper energy. The week's halal watchlist introduced pharma (Sun Pharma, Cipla, Dr. Reddy's) and the alcohol teaching contrast (UBL). This session's lesson returns to fundamentals: how to read crude oil's impact on Indian equity sectors — a skill that is permanently relevant given India's oil import dependency.",
+      keyThings: [
+        "Sensex: 77,100 (+109, +0.14%) — third consecutive positive session; markets close June 26 for Muharram",
+        "Nifty 50: 24,056 (+34, +0.14%) — fourth week in a row the index held above 24,000 at week-end",
+        "Nifty Auto: +2.25% — IndiGo, M&M, Maruti, TVS led; Brent at ~$72/bbl fuelling auto optimism",
+        "Nifty FMCG: +0.7%; Nifty Realty: +0.3% — defensive and domestic-consumption plays gaining",
+        "Nifty IT: -0.43%; Nifty Metal: -0.79% — global tech and commodity weakness persisted",
+        "India VIX: -2.50% — fear declining; week-for-week Sensex +0.4% despite the midweek 893-pt crash"
+      ]
+    },
+    indianMarket: {
+      eli5: "The week's theme is oil: Brent at $72/bbl on Thursday is approximately where it was before the Iran conflict started in February — meaning the risk premium that had built into oil prices through the Hormuz crisis has largely unwound. For India, this is not merely a petrol-pump story. It flows through the entire economy: RBI inflation models, fiscal deficit projections, rupee dynamics, and sector-level equity performance. The halal watchlist this session introduces auto stocks as beneficiaries of the crude crash — Mahindra & Mahindra (EVs + SUVs), Maruti Suzuki (mass market passenger vehicles). Both are clean manufacturing businesses passing halal screening. The halal contrast this session is a conventional banking name — demonstrating the financial sector screening layer that applies after business activity screens.",
+      breakouts: [
+        {
+          name: "Mahindra & Mahindra (NSE: M&M)",
+          halal: true,
+          buyPrice: "Rs.3,060",
+          sellPrice: "Rs.3,400",
+          stopLoss: "Rs.2,880",
+          whyExciting: "Mahindra & Mahindra is India's largest SUV maker and is undergoing a structural transformation toward electric vehicles. Its XEV 9e and BE 6 electric vehicles launched in FY26 have generated strong order books. The company also has a large farm equipment division (tractors), a defence vehicles subsidiary, and a financial services arm. For halal screening: the core automotive manufacturing and farming equipment business is entirely permissible. The financial services subsidiary (Mahindra Finance) is a separate listed entity and does not contaminate the parent's screen if the core business is evaluated. M&M gained 3.85-4% on June 25 as crude oil fell to $72/bbl — a direct beneficiary of lower fuel costs improving vehicle demand outlook. The 52-week range is approximately Rs.2,200 to Rs.3,400. Entry above Rs.3,060 targets the Rs.3,400 zone.",
+          risk: "M&M's valuation has expanded significantly on EV narrative — it is priced for perfect execution. Any slip in EV delivery timelines, quality issues, or competitive pressure from Tata Motors could reprice the stock. Its farm equipment segment is cyclical and tied to monsoon quality. The financial services arm adds indirect exposure to rural NPA cycles. Honour the Rs.2,880 stop."
+        },
+        {
+          name: "Maruti Suzuki India (NSE: MARUTI)",
+          halal: true,
+          buyPrice: "Rs.13,250",
+          sellPrice: "Rs.14,800",
+          stopLoss: "Rs.12,400",
+          whyExciting: "Maruti Suzuki is India's largest passenger vehicle company by volume — approximately 40-42% market share in FY26. It is the Indian subsidiary of Japan's Suzuki Motor Corporation. Manufacturing and selling passenger vehicles is a clean, permissible business. Maruti benefits from cheaper petrol (lower operating costs for customers → stronger resale economics → better new-car demand) and from the broader India consumption story. The stock gained 3.79-3.81% on June 25 on crude tailwinds. Maruti is in the process of launching its first significant EV lineup after years of watching rivals move first — a risk that is now transitioning to an opportunity as the product pipeline materialises. The 52-week range is approximately Rs.11,500 to Rs.14,900. Entry above Rs.13,250 targets Rs.14,800.",
+          risk: "Maruti has been criticised for entering EVs later than Tata and M&M, which has cost it some aspirational buyer sentiment. Its mass-market positioning means margin pressure is structural. Currency risk: Suzuki Japan receives royalties, creating a yen-denominated payment obligation. Any rupee depreciation against the yen hurts Maruti margins. Respect the Rs.12,400 stop."
+        },
+        {
+          name: "InterGlobe Aviation / IndiGo (NSE: INDIGO)",
+          halal: true,
+          buyPrice: "Rs.5,200",
+          sellPrice: "Rs.5,800",
+          stopLoss: "Rs.4,900",
+          whyExciting: "IndiGo is India's largest airline by market share (~60%), and aviation is one of the most direct beneficiaries of falling crude oil prices — jet fuel (Aviation Turbine Fuel, ATF) is the single largest cost item for airlines, typically 30-40% of operating costs. IndiGo gained nearly 5% on June 25, hitting Rs.5,462 intraday, as Brent crude fell toward $72/bbl. Airline operations — transporting passengers — are permissible under Islamic screening. IndiGo's balance sheet has been pressured by high fuel costs and aircraft delivery delays; lower fuel prices materially improve its near-term profitability outlook without any operational change required. India's aviation market is structurally growing: middle-class air travel penetration remains well below comparable Asian economies.",
+          risk: "Airlines are operationally leveraged businesses — small changes in fuel costs or passenger yields produce large changes in profitability. IndiGo's fleet expansion has outpaced aircraft deliveries due to global supply chain issues, creating lease commitments for aircraft not yet in service. Any reversal in the oil price decline — which remains possible if the Hormuz ceasefire breaks down — would reverse the near-term tailwind sharply. The stop at Rs.4,900 is critical."
+        },
+        {
+          name: "HDFC Bank (NSE: HDFCBANK) — the teaching contrast (NOT halal under strict screening)",
+          halal: false,
+          buyPrice: "N/A — flagged for screening discussion",
+          sellPrice: "N/A",
+          stopLoss: "N/A",
+          whyExciting: "HDFC Bank is India's largest private sector bank by assets and consistently ranked among the most professionally managed financial institutions in Asia. This is the teaching contrast for the week, but with important nuance: conventional banking — which earns revenue primarily through interest on loans (riba) — is the most commonly screened-out financial sector category in Islamic finance. HDFC Bank earns the vast majority of its revenue through net interest income (the spread between what it charges borrowers and what it pays depositors). This interest-based revenue model is the definition of riba under mainstream Islamic finance jurisprudence. The bank itself is not doing anything illegal or socially harmful — it is a well-run institution — but the business model is incompatible with the prohibition on interest. Islamic banking alternatives exist (murabaha, ijarah, musharaka structures), but HDFC Bank is not structured as an Islamic bank.",
+          risk: "The educational risk this week is the most common misconception in Islamic finance screening: 'but the bank is so well run, surely it qualifies.' Quality of management and permissibility of business model are entirely separate criteria. HDFC Bank's operational excellence is irrelevant to the riba screen. A student of Islamic finance must understand that the screen applies to the business model, not to the management."
+        }
+      ],
+      ipoSpot: {
+        name: "No new IPO listing June 25 — market closes tomorrow for Muharram",
+        verdict: "Learn",
+        eli5: "June 25 is the last trading day before the Muharram public holiday (June 26). CSM Technologies IPO remains open for subscription through June 29, reopening after the holiday. A useful IPO literacy note for this session: the IPO subscription window (the days during which investors can bid) is distinct from the IPO listing date (when shares actually start trading). CSM Technologies' bidding closes June 29; its listing would be a subsequent date after allotment. Tracking the bidding subscription rate — how many times oversubscribed the issue is — is a useful real-time signal of investor sentiment for a given IPO."
+      },
+      lessonOfDay: {
+        title: "How Crude Oil Moves Through the Indian Economy — The Full Transmission Chain",
+        story: "India imports over 85% of its crude oil needs — approximately 5.5 million barrels per day in FY26. The price of that oil is denominated in USD. When Brent crude falls from $97 (peak Iran-war level) to $72 (June 25), the impact cascades through the entire Indian economic system in a predictable chain. Step one: India's oil import bill falls — at $72 vs $97, the annual saving is approximately $45-50 billion across the full import volume. Step two: the current account deficit (the gap between what India earns from exports versus what it spends on imports) narrows, reducing pressure on the rupee and allowing the RBI more room to hold or cut rates. Step three: domestic fuel prices — petrol, diesel, cooking gas — can be held steady or reduced, lowering household costs and headline CPI inflation. Step four: sectors with high fuel costs (aviation, logistics, paints, tyres) see margin expansion without any revenue change. Step five: lower inflation and improved RBI flexibility may support lower interest rates, which benefit real estate, consumer durables, and banking. Understanding this chain — oil → current account → rupee → inflation → rates → sectors — allows a macro-literate investor to anticipate sector rotation before it plays out.",
+        mnemonic: "India oil chain: 85%+ import dependency → $1 crude rise = ~$1.7bn/yr more import cost → CAD widens → rupee pressure → RBI constrained. Reverse: crude falls → smaller CAD → rupee firm → lower inflation → RBI room to cut → rates down → real estate, consumer durables, banking benefit. Auto + aviation benefit directly through fuel cost. Know this chain; it explains most Indian macro-driven sector rotation."
+      }
+    },
+    quiz: [
+      {
+        q: "Why did Indian auto stocks outperform IT and metals on June 25?",
+        options: [
+          "Auto companies reported strong quarterly earnings that day",
+          "Brent crude falling to ~$72/bbl (pre-war levels) reduced the fuel cost outlook for vehicles and improved demand expectations — a direct sector tailwind — while IT and metals faced global headwinds unrelated to oil",
+          "The government announced a major EV subsidy programme",
+          "Auto stocks always outperform after three consecutive positive Sensex sessions"
+        ],
+        answer: 1,
+        funFact: "The price of petrol in India is directly linked to international crude prices through a formula that applies taxes and margins. When crude falls, petrol pump prices typically fall with a 2-4 week lag (as inventories cycle through). Lower petrol prices reduce the total cost of vehicle ownership, which supports both new vehicle sales and the used car market — benefiting the entire auto ecosystem."
+      },
+      {
+        q: "Why does HDFC Bank fail the halal screen despite being India's most respected private bank?",
+        options: [
+          "Because it is too large for a halal portfolio",
+          "Because its primary revenue model is interest income (net interest margin) — riba under Islamic finance jurisprudence — making the core business structure impermissible regardless of the bank's management quality or social utility",
+          "Because it lends to alcohol companies",
+          "Because its founder was not a Muslim"
+        ],
+        answer: 1,
+        funFact: "Islamic banking globally manages approximately $3.9 trillion in assets (2024) through structures that avoid interest: murabaha (cost-plus-profit sale), ijarah (leasing), musharaka (profit-loss sharing), and sukuk (Islamic bonds). In India, full Islamic banking is not yet permitted under RBI regulation, though the RBI has periodically explored interest-free windows at conventional banks. Several NBFCs in India operate on partial Islamic finance principles."
+      },
+      {
+        q: "What is the transmission mechanism from crude oil to India's RBI interest rate decisions?",
+        options: [
+          "There is no connection — the RBI sets rates based on GDP growth only",
+          "Lower crude → smaller import bill → narrower current account deficit → less rupee pressure → lower fuel-driven inflation → RBI has room to hold or cut rates rather than raise them to defend the rupee or fight inflation",
+          "Higher crude → RBI raises rates to attract foreign capital",
+          "Crude oil affects manufacturing costs, which the RBI offsets by adjusting the repo rate directly"
+        ],
+        answer: 1,
+        funFact: "India's CPI (Consumer Price Index) has a meaningful fuel component — LPG, kerosene, petrol — and an indirect effect through transport costs on food and manufactured goods. The RBI's inflation target is 4% (±2%). When crude spikes, domestic fuel prices rise, CPI jumps, and the RBI faces pressure to tighten. When crude falls, the reverse applies. This is why the Hormuz crisis mattered for Indian monetary policy beyond just corporate earnings."
+      }
+    ]
+  },
+  psychology: {
+    mindTrick: {
+      name: "Anchoring Effect — The First Number You Hear Becomes the Reference Point for Everything After",
+      eli5: "Anchoring is one of the most powerful and pervasive cognitive biases in human decision-making. When we encounter a number, price, estimate, or reference point early in a decision process, it acts as an anchor — we adjust away from it, but not far enough. In Tversky and Kahneman's classic experiment, participants who spun a wheel that landed on 65 gave higher estimates for the percentage of African countries in the UN than participants whose wheel landed on 10 — even though the wheel spin was completely random and had no connection to the correct answer. The anchor contaminated the estimate. In market terms: if you bought a stock at Rs.800 and it falls to Rs.500, your brain anchors to Rs.800 as the 'real' value. You wait to 'get back to Rs.800' rather than evaluating the stock at its current Rs.500 price as if you had no history with it. This is the anchor talking, not analysis.",
+      realLife: "Anchoring shapes every negotiation, salary discussion, price quote, and investment decision. In salary negotiations: the first number mentioned — whether by the employer or the candidate — becomes the anchor around which all discussion orbits. In real estate: a seller asking Rs.1.2 crore anchors the buyer to that number even if the property is worth Rs.95 lakh. In markets: after the Sensex hit 77,000, a fall to 74,000 feels like a catastrophe even if 74,000 is a perfectly reasonable valuation — it is being benchmarked against the anchor of 77,000, not against intrinsic value. The antidote: whenever you are making a financial or negotiation decision, explicitly ask yourself 'what is this actually worth?' and generate that estimate independently before any external number is introduced. Separate the anchor from the valuation.",
+      mnemonic: "Anchoring: first number seen biases all subsequent estimates — we adjust from it but not enough. Tversky-Kahneman 1974. Market version: bought at Rs.800, now Rs.500 → brain says 'wait for Rs.800' not 'is Rs.500 fair value?'. Salary/real estate: first number mentioned dominates the negotiation. Antidote: estimate value BEFORE seeing any external number."
+    },
+    quiz: [
+      {
+        q: "What does 'anchoring' mean in behavioural psychology?",
+        options: [
+          "The tendency to become emotionally attached to an investment",
+          "A cognitive bias where the first number or piece of information encountered acts as a reference point (anchor) that excessively influences all subsequent judgements, estimates, or decisions related to that topic",
+          "The tendency to hold investments for too long",
+          "A technique for stabilising portfolio risk"
+        ],
+        answer: 1,
+        funFact: "Tversky and Kahneman's 1974 paper 'Judgment under Uncertainty: Heuristics and Biases' introduced anchoring alongside the availability heuristic and representativeness heuristic. The wheel-spin experiment is one of the most cited in behavioural economics: random anchors with no informational content still significantly shifted numeric estimates. This demonstrates that anchoring is not about relevant context — it is an automatic cognitive process that bypasses rational evaluation."
+      },
+      {
+        q: "How does anchoring affect salary negotiations?",
+        options: [
+          "It has no effect because salary negotiation is based on market rates",
+          "Whoever states the first number — employer or candidate — sets the anchor around which the negotiation revolves; research shows final outcomes cluster much closer to the initial anchor than to either party's true reservation price",
+          "Anchoring only affects buyers, not sellers, in negotiations",
+          "Anchoring makes negotiations faster because both parties have the same reference"
+        ],
+        answer: 1,
+        funFact: "Research by Adam Galinsky and Thomas Mussweiler found that making a specific, ambitious first offer in negotiations (rather than waiting for the other party to go first) significantly improved outcomes for the initiating party. The key is that the first number — even an aggressive one — sets the anchor. Counter-intuitively, making the first offer is often advantageous, not risky, precisely because of anchoring."
+      },
+      {
+        q: "An investor bought a stock at Rs.600. It falls to Rs.380. They refuse to sell until it 'gets back to Rs.600.' What cognitive error is this?",
+        options: [
+          "Overconfidence in their stock-picking ability",
+          "Anchoring to the purchase price of Rs.600 combined with loss aversion — instead of evaluating whether Rs.380 is a fair price TODAY, they benchmark against the irrelevant anchor of what they paid, allowing that anchor to override fresh analysis of current value",
+          "Confirmation bias in reading analyst reports",
+          "The endowment effect alone"
+        ],
+        answer: 1,
+        funFact: "The investment antidote to purchase-price anchoring is the 'fresh start question': 'If I had no position in this stock and Rs.380 in cash, would I buy it today?' If the answer is no — you would not buy it at Rs.380 — the anchor is preventing you from selling. The purchase price of Rs.600 is sunk; it is irrelevant to whether the stock is a good investment at Rs.380. The anchor makes it feel relevant, but it is not."
+      }
+    ]
+  },
+  leadership: {
+    leaderMove: {
+      name: "Disagree and Commit — Amazon's Framework for Irreversible Decisions in High-Stakes Teams",
+      story: "Jeff Bezos introduced 'disagree and commit' as a formal principle in Amazon's leadership culture, codifying what he described as a better alternative to both false consensus (pretending to agree when you do not) and paralysis (refusing to move forward until everyone agrees). The framework: in a team meeting, a decision must be made. Some members disagree with the proposed direction. 'Disagree and commit' requires the dissenting members to explicitly state their disagreement — so it is on record, visible, and respected — and then fully commit to executing the decided direction as if it were their own choice. The opposite is 'agree and sabotage' (saying yes but undermining the decision through passive non-execution) or 'disagree and veto' (blocking the decision permanently). The discipline requires two things from the leader: genuine openness to hearing the disagreement fully before the decision is made, and a clear mechanism for registering the disagreement post-decision so dissenters do not feel their concerns were ignored.",
+      realLife: "Bezos described the principle in his 2016 shareholder letter with a specific example: a senior executive wanted to create an original TV series that Bezos was skeptical about. After hearing the pitch, Bezos wrote an email saying 'I disagree and don't think this is going in the right direction. I am very sure you will get back to me in a year reporting that this wasn't successful. I disagree and I commit and I hope you prove me wrong.' The show was made. The principle works because it separates the decision from the relationship: I can strongly disagree with your choice and still give 100% to executing it, because my disagreement is about the idea, not about you or the team. The alternative — fake consensus — is far more damaging because it generates hidden resistance.",
+      mnemonic: "Disagree and commit (Bezos/Amazon): state disagreement explicitly → then execute fully as if it were your own decision. Three alternatives: false consensus (agree but don't mean it), disagree-and-sabotage (yes then undermine), disagree-and-veto (block forever). D&C separates the decision from the relationship. Requires: genuine listening before the decision, on-record acknowledgement of disagreement after."
+    },
+    quiz: [
+      {
+        q: "What problem does 'disagree and commit' solve in team decision-making?",
+        options: [
+          "It ensures every team member gets an equal vote",
+          "It avoids both false consensus (pretending to agree without meaning it) and paralytic veto (blocking decisions through permanent disagreement) — allowing teams to move forward decisively while preserving honest dissent on record",
+          "It guarantees that decisions are always made by the most senior person",
+          "It speeds up meetings by ending discussion earlier"
+        ],
+        answer: 1,
+        funFact: "Amazon's leadership principles — first published publicly in 2015 and updated regularly — are used in hiring, performance reviews, and decision frameworks. 'Have Backbone; Disagree and Commit' is Principle 13 of the original 14. The principle reflects Bezos's view that good culture is not one with no disagreement — it is one where disagreement is expressed directly and does not undermine execution once a decision is made."
+      },
+      {
+        q: "What is 'agree and sabotage' and why is it more damaging than transparent disagreement?",
+        options: [
+          "It refers to customers who agree with a price and then complain after purchase",
+          "When a team member outwardly accepts a decision but inwardly — and often unconsciously — fails to execute it with full commitment, withholds information that would help it succeed, or subtly undercuts it. This is more damaging than transparent disagreement because it is invisible and cannot be addressed",
+          "It is a negotiation tactic where you agree to terms and then renegotiate later",
+          "When a project sponsor agrees to fund a project and then cuts the budget mid-execution"
+        ],
+        answer: 1,
+        funFact: "Patrick Lencioni's 'The Five Dysfunctions of a Team' identifies 'artificial harmony' — the pressure to appear united that suppresses genuine disagreement — as a root dysfunction that leads to lack of commitment, which leads to avoidance of accountability, which leads to inattention to results. 'Disagree and commit' directly addresses artificial harmony by creating an explicit social permission to disagree before committing."
+      },
+      {
+        q: "After a team 'disagrees and commits,' what is the leader's responsibility?",
+        options: [
+          "To never revisit the decision, regardless of outcomes",
+          "To track the decision's outcomes and genuinely update their view if the evidence proves the dissenters right — 'disagree and commit' is not a one-way door; it requires the leader to remain intellectually honest about whether the committed decision was correct",
+          "To ensure the dissenters are not given credit if the decision succeeds",
+          "To immediately implement the decision without any further discussion"
+        ],
+        answer: 1,
+        funFact: "Bezos's email in the shareholder letter example ended with 'I hope you prove me wrong.' This is the critical closing signal: by explicitly hoping to be wrong, Bezos demonstrated that his disagreement was about the decision's merits, not his ego. When team members see that their leader can be proven wrong and genuinely celebrate being wrong, it creates the psychological safety that enables the next round of honest disagreement."
+      }
+    ]
+  },
+  wealth: {
+    moneyLesson: {
+      name: "Dollar-Cost Averaging — The Power of Investing the Same Amount at Regular Intervals",
+      story: "Dollar-Cost Averaging (DCA) — called Systematic Investment Plan (SIP) in India — is the practice of investing a fixed amount at regular intervals (monthly, weekly) regardless of market conditions. When the market is high, your fixed amount buys fewer units. When the market is low, your fixed amount buys more units. Over time, your average cost per unit is lower than the market's average price over the same period — because you automatically bought more when things were cheap. The mathematical reason: for any set of prices, the harmonic mean (which DCA produces as the average cost) is always less than or equal to the arithmetic mean (the average price). This is not a theory — it is arithmetic. The practical reason: DCA removes the impossible challenge of perfectly timing the market. Instead of trying to buy at the bottom and sell at the top, you invest consistently and let time and compounding do the work. Indian SIP data supports this: as of 2026, monthly SIP inflows into Indian equity mutual funds exceed Rs.25,000 crore per month — the largest sustained retail equity investment mechanism in Indian financial history.",
+      mnemonic: "DCA / SIP: fixed amount invested at fixed intervals. Low market → buy more units. High market → buy fewer units. Average cost (harmonic mean) < average price (arithmetic mean) — mathematically guaranteed. Key benefit: removes timing pressure. Indian SIP flows: Rs.25,000+ crore/month in 2026. Start, be consistent, do not stop during crashes (when DCA works best)."
+    },
+    quiz: [
+      {
+        q: "Why does Dollar-Cost Averaging (SIP) produce a lower average cost than the market's average price?",
+        options: [
+          "Because you always buy when the market is low",
+          "Because a fixed amount buys more units when the price is low and fewer units when the price is high — mathematically, the harmonic mean of the prices (your average cost) is always less than or equal to the arithmetic mean (the market's average price)",
+          "Because mutual funds offer SIP investors discounted NAVs",
+          "Because you avoid paying capital gains tax on intermediate purchases"
+        ],
+        answer: 1,
+        funFact: "A worked example: If you invest Rs.10,000 when NAV is Rs.100 (buy 100 units) and Rs.10,000 when NAV is Rs.50 (buy 200 units), your average cost is Rs.20,000 / 300 units = Rs.66.67. The arithmetic average of Rs.100 and Rs.50 is Rs.75. Your SIP average cost is Rs.66.67 vs the market average of Rs.75 — you automatically bought more when it was cheap, pulling your average cost below the market average. This works for any set of price variations."
+      },
+      {
+        q: "When is DCA / SIP most valuable and least valuable?",
+        options: [
+          "It is equally valuable in all market conditions",
+          "Most valuable in volatile or declining markets — because the low prices allow you to accumulate units cheaply, setting up large gains when markets recover. Least valuable in a steadily rising market — because each subsequent purchase is at a higher price than the last",
+          "Most valuable in rising markets because you are always buying at the best time",
+          "Least valuable in large-cap funds and most valuable in small-cap funds"
+        ],
+        answer: 1,
+        funFact: "The Indian market crash of March 2020 (Sensex fell ~38% in a month) was a perfect DCA moment: investors who continued their SIPs through the crash bought units at historically cheap prices. By December 2020, many of those investors had doubled their money on the units purchased during the crash. Investors who stopped their SIPs out of fear — the common mistake — missed this compounding window entirely."
+      },
+      {
+        q: "Why should an investor NEVER stop their SIP during a market crash?",
+        options: [
+          "Because stopping a SIP incurs a financial penalty",
+          "Because a market crash is precisely when DCA works most powerfully — fixed amounts buy the most units at the lowest prices, creating the largest potential gains when markets recover. Stopping during a crash locks in losses conceptually and misses the cheapest buying opportunity",
+          "Because the SEBI requires SIPs to run for a minimum period",
+          "Because stopping confuses the mutual fund's allocation model"
+        ],
+        answer: 1,
+        funFact: "AMFI (Association of Mutual Funds in India) data showed that SIP discontinuation rates spiked during the March 2020 crash and again during the 2022 correction. In both cases, investors who paused missed the highest-return accumulation periods. AMFI's 'Mutual Funds Sahi Hai' campaign was partially designed to address this investor behaviour: 'Bas SIP mat rokiye' (Just don't stop your SIP) became one of its most effective messaging lines."
+      }
+    ]
+  },
+  communication: {
+    commSkill: {
+      name: "Bridging — The Professional Skill of Redirecting Any Interview or Press Question to Your Key Message",
+      story: "Bridging is a communication technique used by politicians, executives, and trained spokespeople to redirect a difficult, off-topic, or adversarial question toward the message they want to deliver. It uses a specific three-part structure: ACKNOWLEDGE the question (briefly, without avoiding it), BRIDGE with a linking phrase, and DELIVER your key message. The bridge phrases are the tools: 'What I think is most important here is…', 'The real issue is…', 'Let me put that in context…', 'Before I answer that, I should mention…', 'What I'd like to add is…'. Bridging is not about avoiding questions — it is about controlling narrative while appearing responsive. Used ethically: to refocus a technical question toward an important implication. Used cynically: to dodge accountability. The skill is identical; the ethics depend on intent and context.",
+      realLife: "Bridging in corporate communications: an analyst asks in an earnings call 'Why did your margins fall 200 bps?' Unskilled answer: 'Because raw material costs were higher.' Bridged answer: 'Raw material inflation did impact us this quarter, and what I want to make sure you understand is the structural actions we are taking — specifically, our new procurement contracts and our pricing power in the premium segment, which is why our Q2 exit trajectory looks very different from Q1.' The bridge moves from a backward-looking specific (the problem) to a forward-looking message (the opportunity). In media interviews, bridging prevents reporters from using your answer to construct a negative headline. The acknowledge-bridge-deliver structure gives reporters a complete, quotable response while keeping the message in your control.",
+      mnemonic: "Bridging: Acknowledge → Bridge phrase → Key message. Bridge phrases: 'What I think is most important…', 'The real issue is…', 'Let me put that in context…'. Used in earnings calls, press interviews, investor days, difficult meetings. Ethical use: refocusing toward important context. Cynical use: dodging accountability. The structure is the same; the intent is the judgment call."
+    },
+    quiz: [
+      {
+        q: "What is the three-part structure of the bridging communication technique?",
+        options: [
+          "Introduction, Analysis, Conclusion",
+          "Acknowledge the question briefly → Bridge using a linking phrase ('What I think is most important here is...') → Deliver your key message — steering from the question to the message you need to convey",
+          "Deny, Deflect, Disappear",
+          "Open, Develop, Close"
+        ],
+        answer: 1,
+        funFact: "Media training for corporate executives almost universally includes bridging as a core technique. The most common bridge phrases used by trained spokespeople: 'And what that means for our customers is...', 'Let me put that in broader context...', 'The more important question is...', and 'What I'd like you to know is...'. Journalists are trained to recognise bridging and often push back ('But that's not what I asked') — which is why the acknowledge step is essential: you cannot bridge without first showing you heard the question."
+      },
+      {
+        q: "What is the difference between ethical and unethical use of bridging?",
+        options: [
+          "Ethical use is only in politics; business use is always unethical",
+          "Ethical bridging acknowledges the question and adds genuinely relevant context — refocusing toward what the audience needs to know. Unethical bridging uses the technique to avoid legitimate accountability — pivoting away from a real problem without addressing it",
+          "There is no ethical issue with bridging — it is a neutral communication tool",
+          "Ethical bridging only works in written communications, not verbal"
+        ],
+        answer: 1,
+        funFact: "During Enron's collapse, executives used sophisticated bridging and messaging control in analyst calls to deflect questions about their balance sheet opacity. The ethical line was crossed because the bridging was used to conceal material information from investors who had a legal right to it. Bridging that crosses into investor relations deception in public companies is a potential securities law violation — it is not merely an ethical failure."
+      },
+      {
+        q: "In an earnings call context, how does bridging improve a CFO's answer to 'Why did margins fall?'",
+        options: [
+          "By stating that margins actually improved when measured differently",
+          "By acknowledging the margin decline, bridging to structural context ('And what I want you to understand about our forward trajectory is...'), and delivering the message about actions taken and leading indicators — moving from backward-looking problem to forward-looking narrative",
+          "By refusing to answer and directing the analyst to the annual report",
+          "By providing a detailed technical explanation of every cost line item"
+        ],
+        answer: 1,
+        funFact: "Goldman Sachs's corporate communications training (used across multiple Fortune 500 clients) identifies the 'so what?' bridge as the most powerful in earnings contexts: after acknowledging a negative metric, the bridge 'So what does this mean for our strategy?' immediately redirects to forward-looking narrative. Investors and analysts are future-oriented — they care more about what happens next than about what already happened."
+      }
+    ]
+  },
+  mind: {
+    technique: {
+      name: "The Pomodoro Technique — Structured Focus and Scheduled Breaks for Sustained Deep Work",
+      howTo: "The Pomodoro Technique was developed by Francesco Cirillo in the late 1980s. It is a time management and focus framework built on one insight: the human brain sustains high-quality focused attention for approximately 25 minutes before needing a break. The method: choose a single task, set a timer for 25 minutes (one 'Pomodoro,' named for the tomato-shaped kitchen timer Cirillo used), work with complete focus on that task until the timer rings, then take a 5-minute break. After four Pomodoros, take a longer break of 15-30 minutes. The rules during a Pomodoro: no checking messages, no switching tasks, no interruptions. If an interruption arrives, note it down and return to it after the Pomodoro ends. The 5-minute break is non-negotiable: the brief mental reset prevents the cognitive fatigue that makes long unbroken work sessions progressively less productive. Modern adaptation: use a phone timer, Forest app, or any Pomodoro timer app. The 25-minute unit is not dogmatic — 50 minutes for experienced practitioners, 20 minutes for tasks requiring deep creative focus — but the principle is fixed: focused intervals alternating with deliberate rest.",
+      mnemonic: "Pomodoro: 25 min focus (single task, no interruptions) → 5 min break → repeat 4x → 15-30 min long break. Francesco Cirillo, 1980s. Brain sustains high-quality attention ~25 min. Key rule: no multitasking during a Pomodoro. Interruption arrives? Write it down, return after timer. Variations: 50 min for deep work, 20 min for creative. Fixed principle: focus then rest, not continuous."
+    },
+    quiz: [
+      {
+        q: "What is the core insight behind the Pomodoro Technique?",
+        options: [
+          "That work should always be done in exactly 25-minute increments",
+          "That the human brain sustains high-quality focused attention for roughly 25 minutes before cognitive fatigue sets in — by alternating focused intervals with deliberate breaks, total productive output over a day exceeds what continuous working produces",
+          "That tomato timers are the most effective timing devices",
+          "That work should be prioritised by difficulty, easiest tasks first"
+        ],
+        answer: 1,
+        funFact: "Research on cognitive performance by K. Anders Ericsson (the deliberate practice researcher) found that elite performers — chess grandmasters, violinists, athletes — rarely sustain deep deliberate practice for more than 4 hours per day, typically in 90-minute blocks. The Pomodoro Technique's 25-minute intervals reflect the same principle at a smaller scale: peak cognitive performance is episodic, not continuous."
+      },
+      {
+        q: "What should you do when an interruption arrives during a Pomodoro?",
+        options: [
+          "Immediately deal with the interruption to maintain good relationships",
+          "Write the interruption down (to handle after the Pomodoro ends) and return immediately to the current task — protecting the focused interval's integrity while ensuring nothing is forgotten",
+          "End the Pomodoro early and reset the timer after dealing with the interruption",
+          "Ignore all interruptions until the end of the day"
+        ],
+        answer: 1,
+        funFact: "The 'internal interruption' — your own brain suddenly thinking of an unrelated task — is handled the same way: write it on a notepad and return to focus. Cirillo called this the 'inventory sheet' method. The act of writing it down signals to your brain that the thought will be addressed, reducing the cognitive pull to pursue it immediately. This is essentially an implementation of GTD (Getting Things Done) — externalise thoughts to a trusted system to free working memory."
+      },
+      {
+        q: "Why is the 5-minute break after each Pomodoro non-negotiable?",
+        options: [
+          "Because SEBI regulations require breaks every 25 minutes for traders",
+          "Because the brief mental reset — stepping away from the task, not checking related emails — prevents the cumulative cognitive fatigue that makes extended unbroken work sessions progressively less productive; the break makes the next Pomodoro as fresh as the first",
+          "Because 25 minutes is too short to complete any real work",
+          "Because it allows you to review what you just completed"
+        ],
+        answer: 1,
+        funFact: "The concept of 'attentional blink' in neuroscience — the period after a sustained attention event where the brain's ability to process new information is temporarily reduced — supports the biological basis of Pomodoro breaks. Miyuki Kambe's research on sustained attention found that performance on attention-demanding tasks declined significantly after 20-30 minutes without a break, and that a 5-minute physical break (standing, moving) almost fully restored performance for the next interval."
+      }
+    ]
+  },
+  knowledge: {
+    todayILearned: {
+      name: "The Federal Reserve — How America's Central Bank Controls the World's Financial System",
+      quickBite: "Alan Greenspan's death brings the Federal Reserve back into focus. The Fed is unique among central banks: it is not a government agency and not a private bank, but a hybrid — a federally mandated institution with private member banks, governed by a board of governors appointed by the US president and confirmed by the Senate. The Fed was created in 1913 after a series of bank panics (the Panic of 1907 being the proximate cause) revealed that the US had no lender of last resort — no institution that could inject liquidity into the banking system during a crisis. Its three mandates: maximum employment, stable prices (targeting 2% inflation since 2012), and moderate long-term interest rates. Its primary tool: the federal funds rate — the overnight rate at which banks lend reserves to each other. When the Fed raises this rate, borrowing becomes more expensive across the entire economy. When it cuts, credit loosens. Because the US dollar is the world's reserve currency (used in approximately 88% of all international transactions), the Fed's decisions ripple through every economy on earth — including India's. When the Fed raises rates, capital flows out of emerging markets into higher-yielding US assets, weakening currencies like the rupee and forcing the RBI to respond.",
+      mnemonic: "Federal Reserve: created 1913 (Panic of 1907 catalyst), hybrid public-private, governed by presidential appointees. Three mandates: max employment, stable prices (2% inflation target), moderate long-term rates. Tool: federal funds rate (overnight interbank rate). Because USD = world's reserve currency, Fed decisions affect every economy — including India's via capital flows, rupee, RBI choices."
+    },
+    quiz: [
+      {
+        q: "Why was the Federal Reserve created in 1913?",
+        options: [
+          "To finance US government debt during World War I",
+          "To solve the repeated bank panics of the late 19th and early 20th centuries — particularly the Panic of 1907 — by creating a lender of last resort that could inject liquidity into the banking system during crises and prevent bank runs from cascading into economic collapse",
+          "To regulate stock markets after excessive speculation",
+          "To manage the US gold standard"
+        ],
+        answer: 1,
+        funFact: "The Panic of 1907 was contained primarily through the personal intervention of J.P. Morgan, who orchestrated bank bailouts using his own money and his network's resources. Congress recognised that depending on a private banker's goodwill to prevent economic collapse was unsustainable. The National Monetary Commission (1908-1912) studied central banking models globally and produced the plan that became the Federal Reserve Act of 1913, signed by President Woodrow Wilson."
+      },
+      {
+        q: "Why do Indian markets and the rupee respond to US Federal Reserve interest rate decisions?",
+        options: [
+          "Because India's economy is directly managed by the US Treasury",
+          "Because the USD is the world's reserve currency used in ~88% of international transactions — when the Fed raises rates, US dollar assets become more attractive, pulling capital out of emerging markets like India, weakening the rupee and forcing the RBI to respond to maintain stability",
+          "Because India and the US have a bilateral currency agreement",
+          "Because Indian IT companies earn revenue in US dollars"
+        ],
+        answer: 1,
+        funFact: "The concept of dollar dominance is quantified by the SWIFT payment system data: approximately 47% of global payment messages (by value) are settled in USD. International commodity markets (oil, gold, agricultural goods) are priced in dollars. Emerging market debt is heavily dollar-denominated. This means Fed rate decisions create a global financial gravitational field: tighter US monetary policy is effectively a tightening of global financial conditions, regardless of what any other central bank does."
+      },
+      {
+        q: "What is Greenspan's most significant intellectual legacy for economic policy?",
+        options: [
+          "Proving that inflation cannot coexist with low unemployment",
+          "Demonstrating (and later acknowledging the limits of) the idea that market self-regulation is sufficient — his late-career admission that 'I made a mistake' in trusting financial institutions to regulate themselves contributed to a fundamental rethinking of how much regulatory oversight markets require",
+          "Inventing quantitative easing as a monetary tool",
+          "Creating the 2% inflation target that central banks now use globally"
+        ],
+        answer: 1,
+        funFact: "Greenspan's 2008 congressional testimony admission was remarkable: 'I found a flaw. I don't know how significant or permanent it is. But I've been very distressed by that fact.' The 'flaw' was in his ideology of self-regulation. The 2% inflation target was actually formalized by the RBNZ (Reserve Bank of New Zealand) in 1990 and later adopted by the Fed under Greenspan's successor Ben Bernanke, who formally announced it in 2012."
+      }
+    ]
+  },
+  ai: {
+    aiTool: {
+      name: "Perplexity AI Pro — The Search Engine That Cites Its Sources and Reasons in Real Time",
+      whatItDoes: "Perplexity AI is a conversational search engine that combines web search with AI synthesis — it searches the live web, reads multiple sources, and provides a direct answer with inline citations linking back to those sources. Unlike a standard Google search (which returns links to read separately) or a standard LLM (which answers from training data that may be outdated), Perplexity finds current information and shows you exactly where each claim came from. The Pro version adds: access to more powerful AI models (including Claude 3.7 Sonnet and GPT-4o), deeper search (more sources per query), file upload and analysis, and extended context for complex research. Use cases: real-time research where currency matters (market data, news, current events), fact-checking a claim with primary sources, research synthesis where you need to see where each piece of information came from, and rapid briefing documents that need citable sourcing. The 'Follow-up' feature lets you ask sequential clarifying questions about the same topic without losing context — making it more like a research session than a search query.",
+      mnemonic: "Perplexity AI: conversational search + AI synthesis + live web citations. Shows exactly which sources each claim comes from. Pro: Claude/GPT-4o models, deeper search, file upload. Best for: current events research, fact-checking with sources visible, rapid cited briefings. Key difference from LLM: real-time web data with attribution. Key difference from Google: synthesised answer, not just links."
+    },
+    quiz: [
+      {
+        q: "What makes Perplexity AI different from both Google Search and a standard LLM like ChatGPT?",
+        options: [
+          "It is faster than both",
+          "It combines live web search (current data, not training cutoff) with AI synthesis (direct answers, not just links) AND shows inline citations for each claim — giving you the freshness of a search engine and the comprehension of an LLM with the accountability of citations",
+          "It only works for scientific queries",
+          "It generates images as well as text"
+        ],
+        answer: 1,
+        funFact: "Perplexity was founded in 2022 by Aravind Srinivas (former OpenAI researcher), Denis Yarats (formerly Meta AI), Johnny Ho, and Andy Konwinski. It grew from 0 to over 100 million monthly queries by late 2024, positioning itself as an 'answer engine' rather than a search engine. The key value proposition is collapsing the gap between 'find a source' and 'read and understand the source' — Perplexity does both simultaneously."
+      },
+      {
+        q: "In which research context is Perplexity most clearly superior to a standard LLM?",
+        options: [
+          "Generating creative fiction",
+          "Any research question where currency matters — current stock prices, today's news, the latest research papers, recent policy changes — because Perplexity searches the live web in real time rather than drawing on training data that has a cutoff date",
+          "Writing code for software applications",
+          "Summarising a book the user uploads"
+        ],
+        answer: 1,
+        funFact: "Perplexity introduced 'Finance Mode' in 2024 — a search mode optimised for financial queries that surfaces stock data, earnings, analyst reports, and market news with financial-specific citations. For a user asking 'what are Infosys's latest quarterly results?' Finance Mode pulls the most recent SEC filing or BSE disclosure and synthesises it — something a training-data-limited LLM cannot do for events after its cutoff."
+      },
+      {
+        q: "Why is the citation feature in Perplexity particularly important for professional or academic use?",
+        options: [
+          "Because citations make the answers look more authoritative",
+          "Because citations allow users to verify claims independently, trace information back to primary sources, assess source credibility, and use the information in professional or academic contexts where unattributed AI-generated content would be problematic",
+          "Because Perplexity requires citations to function",
+          "Because citations prevent the AI from making mistakes"
+        ],
+        answer: 1,
+        funFact: "In legal, medical, and financial professional contexts, citing the source of information is not optional — it is a professional and sometimes legal requirement. An AI that confidently states a fact without showing where it came from creates liability risk if that fact is wrong. Perplexity's citation model partially addresses this by always linking to sources, though it does not eliminate the need to verify that the source itself is accurate and authoritative."
+      }
+    ]
+  },
+  travel: {
+    destination: {
+      name: "Azerbaijan — Where the Caucasus Meets the Caspian and Oil Built a Modern Skyline",
+      quickFacts: "Completing the South Caucasus trilogy (Georgia June 22, Armenia June 23, Azerbaijan June 25): Azerbaijan sits on the western shore of the Caspian Sea at the junction of Eastern Europe, Western Asia and Central Asia. The capital, Baku, is the largest city in the Caucasus — a city of striking contrasts between its medieval walled old city (İçərişəhər, UNESCO World Heritage) and its dramatic modern skyline anchored by the flame-shaped Flame Towers. Oil has defined Azerbaijan since the 19th century: Baku was home to the world's first oil boom in the 1870s, with Nobel (of Nobel Prize fame) and Rothschild families among early investors. Today, oil and gas account for approximately 90% of Azerbaijan's export revenue, funding the rapid modernisation of Baku visible in its Formula 1 street circuit (the Azerbaijan Grand Prix), its new hotels and cultural institutions. For Indian passport holders: Azerbaijan offers e-visa on arrival — very straightforward. The currency is the Azerbaijani Manat (AZN); approximately 1 AZN to Rs.50 in 2026. The food is a Turkic-Persian fusion: plov (saffron rice pilaf with lamb and dried fruits), dolma (stuffed vegetables and grape leaves), and döner kebabs that are distinctly Azerbaijani. The flame-themed Baku architecture and the ancient fire temple Ateshgah (active for centuries as a Hindu and Zoroastrian pilgrimage site) make it particularly interesting for Indian visitors seeking historical connections.",
+      whyNow: "June is excellent weather in Baku: warm (25-32°C), low humidity, long evenings. The Azerbaijan Grand Prix typically runs in April, so June misses the racing crowds but retains the energy of a city that has invested heavily in international tourism. A standard Caucasus triangle trip (Tbilisi → Yerevan → Baku, all interconnected by cheap flights or train) can be completed in 10-14 days and represents some of the most varied history, food, architecture and landscape per dollar spent anywhere in the world.",
+      mnemonic: "Azerbaijan: Caspian Sea, oil capital of 19th century (Nobel + Rothschild). Baku: Old City (İçərişəhər, UNESCO) + Flame Towers. Ateshgah fire temple (Hindu + Zoroastrian pilgrims). E-visa for Indians. AZN ~Rs.50. Formula 1 street circuit. June: 25-32°C, low humidity. Part of Caucasus triangle: Georgia-Armenia-Azerbaijan."
+    },
+    quiz: [
+      {
+        q: "Why was Baku significant in global oil history before most people associate modern oil with the Middle East?",
+        options: [
+          "Because Azerbaijan discovered offshore oil drilling first",
+          "Because Baku hosted the world's first commercial oil boom in the 1870s — predating the US Texas and Pennsylvania fields in scale — with the Nobel brothers (Ludwig and Robert, cousins of Alfred Nobel) and the Rothschild family among the primary investors who built the world's first oil pipeline and export infrastructure here",
+          "Because Azerbaijan was the birthplace of petroleum chemistry",
+          "Because the world's first offshore oil platform was built in the Caspian Sea"
+        ],
+        answer: 1,
+        funFact: "The world's first oil well is disputed (Pennsylvania 1859 vs Baku 1846 or earlier), but Baku's oil boom of the 1870s-1880s was unambiguously the first globally significant commercial oil industry. At its peak in 1901, Baku produced approximately 50% of the world's oil supply. The Nobel brothers' company Branobel became the world's largest oil producer before Rockefeller's Standard Oil. Alfred Nobel's dynamite patents funded his peace prize; his brother Ludwig's Baku oil fortune was also significant."
+      },
+      {
+        q: "What makes the Ateshgah fire temple particularly significant for Indian visitors?",
+        options: [
+          "It was built by Indian traders as a mosque",
+          "It served as a Hindu and Zoroastrian pilgrimage site for centuries — fuelled by natural gas seeps from the same oil-rich geology that made Baku famous — and the Hindu shrine within the temple complex was established by Indian merchants from the subcontinent who traded in Baku along the Silk Road",
+          "It is the oldest structure in the Caucasus",
+          "It was designed by an Indian architect in the 19th century"
+        ],
+        answer: 1,
+        funFact: "The Ateshgah compound contains inscriptions in Punjabi, Devanagari and Persian. Indian merchants — primarily from Sindh and Gujarat — established the Hindu dharamsala (rest house) section of the temple complex as early as the 17th century. The 'eternal flames' from the natural gas seeps were considered sacred by both Hindu and Zoroastrian (Parsi/Persian) pilgrims, creating a unique cross-religious site that reflects the Silk Road's role in diffusing culture and religion across Eurasia."
+      },
+      {
+        q: "What currency does Azerbaijan use and approximately what is its value relative to the Indian Rupee?",
+        options: [
+          "US Dollar, at Rs.83 per dollar",
+          "The Azerbaijani Manat (AZN), which trades at approximately Rs.48-52 in 2026 — roughly half a hundred rupees per Manat — making it a relatively affordable destination for Indian travellers compared to European currencies",
+          "Euro, at Rs.90 per euro",
+          "Russian Ruble, at approximately Rs.1 per Ruble"
+        ],
+        answer: 1,
+        funFact: "Azerbaijan's currency was redenominated in 2006 (1 new Manat = 5,000 old Manat) following currency reform. The AZN is pegged to the US Dollar at approximately 1 AZN = 1.70 USD — a managed peg that the central bank defends. This dollar peg means the AZN is stable against USD but can move with the rupee-dollar exchange rate. At Rs.50 per AZN, a nice mid-range restaurant meal in Baku (2.5-4 AZN) costs Rs.125-200 — affordable by Indian standards."
+      }
+    ]
+  }
+}
+
 const ALL_BRIEFS = {
   '2026-06-01': d260601,
   '2026-06-02': d260602,
@@ -7316,6 +7795,7 @@ const ALL_BRIEFS = {
   '2026-06-22': d260622,
   '2026-06-23': d260623,
   '2026-06-24': d260624,
+  '2026-06-25': d260625,
 }
 
 // == DATA END ==
