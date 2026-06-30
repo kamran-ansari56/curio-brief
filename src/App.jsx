@@ -9890,7 +9890,12 @@ function Quiz({ questions, color, onXP }) {
   const q = questions[idx]
   const choose = (i) => { if (selected !== null) return; setSelected(i); if (i === q.answer) setScore(s => s + 1) }
   const next = () => {
-    if (idx + 1 >= questions.length) { setDone(true); onXP && onXP((score + (selected === q.answer ? 1 : 0)) * 10) }
+    // `score` is already current here, including the just-answered question -
+    // choose() and this next() click are two separate interactions separated
+    // by a committed render, so setScore from choose() has already landed.
+    // The previous code added `+1` again for a correct final answer, which
+    // double-counted it (a 3-question perfect quiz paid 40 XP, not 30).
+    if (idx + 1 >= questions.length) { setDone(true); onXP && onXP(score * 10) }
     else { setIdx(i => i + 1); setSelected(null) }
   }
   if (done) {
@@ -10265,15 +10270,19 @@ function useIsMobile() {
 
 // -- XP Bar -----------------------------------------------------------------
 function XPBar({ xp, mobile }) {
-  const level = Math.floor(xp / 100) + 1
-  const pct = xp % 100
+  // Guard: a corrupted/tampered or otherwise non-finite xp value must never
+  // reach Math.floor/% un-clamped - that produces "LVL NaN" and an invalid
+  // CSS width (e.g. width: NaN%), silently breaking this whole component.
+  const safeXp = Number.isFinite(xp) && xp >= 0 ? xp : 0
+  const level = Math.floor(safeXp / 100) + 1
+  const pct = safeXp % 100
   return (
     <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
       <div style={{ fontSize: mobile ? 11 : 12, fontWeight: 800, color: C.lavender, whiteSpace: 'nowrap' }}>LVL {level}</div>
       <div style={{ width: mobile ? 50 : 80, height: 5, background: C.dim, borderRadius: 3, overflow: 'hidden' }}>
         <div style={{ width: `${pct}%`, height: '100%', background: `linear-gradient(90deg,${C.lavender},${C.mint})`, borderRadius: 3, transition: 'width 0.5s' }} />
       </div>
-      <div style={{ fontSize: 11, color: C.muted, whiteSpace: 'nowrap' }}>{xp} XP</div>
+      <div style={{ fontSize: 11, color: C.muted, whiteSpace: 'nowrap' }}>{safeXp} XP</div>
     </div>
   )
 }
@@ -10282,9 +10291,32 @@ function XPBar({ xp, mobile }) {
 // Supabase: auto-sync progress across all devices in real time.
 // Replace the placeholder values with your actual Supabase project credentials.
 
+// SECURITY NOTE - the anon key below is meant to be public per Supabase's
+// model (it's a "publishable" key, the same way a website's URL is public);
+// the actual access control has to come from Row Level Security policies on
+// the `progress` table, not from keeping this key secret.
+//
+// The previous SYNC_USER_ID was the literal string 'kamy_main' - trivially
+// guessable, which combined with the public anon key meant anyone could
+// construct the exact REST call to read or overwrite this app's progress
+// data with zero authentication. Rotated to a random, non-enumerable ID
+// below to remove the "guessable identity" half of that problem.
+//
+// REMAINING ACTION REQUIRED (cannot be done from this client code - needs
+// Supabase dashboard / SQL access): enable Row Level Security on the
+// `progress` table and add a policy that scopes all reads/writes to rows
+// where user_id matches this exact value, e.g.:
+//   ALTER TABLE progress ENABLE ROW LEVEL SECURITY;
+//   CREATE POLICY "single user only" ON progress
+//     FOR ALL USING (user_id = 'u_b4b5d597f887a1dd3e37414da4667730')
+//     WITH CHECK (user_id = 'u_b4b5d597f887a1dd3e37414da4667730');
+// Without this policy, the random ID below is obscurity, not security - it
+// raises the bar from "trivial" to "would need to brute-force a 128-bit
+// token," which is a real improvement but not equivalent to true access
+// control enforced server-side.
 const SUPABASE_URL = 'https://ffgcgahrzaenkwvndsho.supabase.co'
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZmZ2NnYWhyemFlbmt3dm5kc2hvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE3MDcyODEsImV4cCI6MjA5NzI4MzI4MX0.ixSPpbzka3TM66hniCWFv53FqaNVU4aOSlY_6A1oPHQ'
-const SYNC_USER_ID = 'kamy_main' // single-user app  -  fixed ID
+const SYNC_USER_ID = 'u_b4b5d597f887a1dd3e37414da4667730' // rotated from guessable 'kamy_main' - see note above
 
 // -- Persistent Progress Store (localStorage + Supabase) ---------------------
 // localStorage: instant reads/writes, zero latency on current device.
@@ -10331,7 +10363,12 @@ function saveLocal(readState) {
 }
 
 function loadXP() {
-  try { return parseInt(localStorage.getItem(XP_KEY) || '0') } catch { return 0 }
+  try {
+    const n = parseInt(localStorage.getItem(XP_KEY) || '0', 10)
+    // parseInt('garbage') is NaN, not caught by the `|| '0'` fallback above
+    // (that only covers a missing key, not an invalid one) - guard explicitly.
+    return Number.isFinite(n) && n >= 0 ? n : 0
+  } catch { return 0 }
 }
 
 function saveXP(xp) {
@@ -10348,8 +10385,25 @@ function saveQuizXP(map) {
 }
 
 // Supabase helpers  -  push and pull from cloud
+// Wraps fetch with an AbortController-based timeout. Without this, a
+// hung/slow connection leaves the await unresolved forever, which previously
+// could strand syncStatus on 'syncing' indefinitely with no escape path.
+async function fetchWithTimeout(url, options = {}, timeoutMs = 10000) {
+  const controller = new AbortController()
+  const timer = setTimeout(() => controller.abort(), timeoutMs)
+  try {
+    return await fetch(url, { ...options, signal: controller.signal })
+  } finally {
+    clearTimeout(timer)
+  }
+}
+
+// Returns true on a confirmed successful write, false otherwise. Previously
+// this function caught its own errors and returned nothing either way, so
+// callers had no way to tell a failed push from a successful one - the UI
+// would show "synced" even when the write never landed.
 async function supabasePush(readState, xp) {
-  if (!SUPABASE_URL || SUPABASE_URL.includes('placeholder')) return
+  if (!SUPABASE_URL || SUPABASE_URL.includes('placeholder')) return false
   try {
     const body = JSON.stringify({
       user_id: SYNC_USER_ID,
@@ -10357,7 +10411,7 @@ async function supabasePush(readState, xp) {
       xp,
       updated_at: new Date().toISOString()
     })
-    const res = await fetch(`${SUPABASE_URL}/rest/v1/progress`, {
+    const res = await fetchWithTimeout(`${SUPABASE_URL}/rest/v1/progress`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -10367,14 +10421,27 @@ async function supabasePush(readState, xp) {
       },
       body
     })
-    if (!res.ok) console.warn('[curio sync] push rejected:', res.status, await res.text().catch(() => ''))
-  } catch (e) { console.warn('[curio sync] push failed:', e) }
+    if (!res.ok) {
+      console.warn('[curio sync] push rejected:', res.status, await res.text().catch(() => ''))
+      return false
+    }
+    return true
+  } catch (e) {
+    console.warn('[curio sync] push failed:', e)
+    return false
+  }
 }
 
+
+// Returns { ok: true, data } on a successful pull (data is null if there is
+// simply no row yet - e.g. first-ever sync on a new device, NOT an error),
+// or { ok: false } on a genuine network/HTTP failure. Collapsing both into a
+// single `null` previously made every first-time sync look identical to a
+// real failure, surfacing a false "Sync unavailable" message to the user.
 async function supabasePull() {
-  if (!SUPABASE_URL || SUPABASE_URL.includes('placeholder')) return null
+  if (!SUPABASE_URL || SUPABASE_URL.includes('placeholder')) return { ok: false }
   try {
-    const res = await fetch(
+    const res = await fetchWithTimeout(
       `${SUPABASE_URL}/rest/v1/progress?user_id=eq.${SYNC_USER_ID}&select=read_state,xp`,
       {
         headers: {
@@ -10383,11 +10450,13 @@ async function supabasePull() {
         }
       }
     )
-    if (!res.ok) { console.warn('[curio sync] pull rejected:', res.status); return null }
+    if (!res.ok) { console.warn('[curio sync] pull rejected:', res.status); return { ok: false } }
     const data = await res.json()
-    if (data?.[0]) return data[0]
-  } catch (e) { console.warn('[curio sync] pull failed:', e) }
-  return null
+    return { ok: true, data: data?.[0] || null }
+  } catch (e) {
+    console.warn('[curio sync] pull failed:', e)
+    return { ok: false }
+  }
 }
 
 // GitHub deploy is handled externally (Vercel auto-deploys on GitHub push).
@@ -10524,7 +10593,13 @@ export default function App() {
       return
     }
     setSyncStatus('syncing')
-    supabasePull().then(remote => {
+    supabasePull().then(({ ok, data: remote }) => {
+      if (!ok) {
+        // Genuine network/HTTP failure - this is the only case that should
+        // ever show "Sync unavailable" to the user.
+        setSyncStatus('error')
+        return
+      }
       if (remote?.read_state) {
         const remoteState = deserializeReadState(remote.read_state)
         setReadState(prev => {
@@ -10548,11 +10623,12 @@ export default function App() {
         // Only update XP if remote is higher
         const localXP = loadXP()
         if ((remote.xp || 0) > localXP) { setXp(remote.xp); saveXP(remote.xp) }
-        setSyncStatus('synced')
-        setLastSynced(new Date().toLocaleTimeString())
-      } else {
-        setSyncStatus('error')
       }
+      // No remote row yet (first-ever sync on this account) is a perfectly
+      // normal, successful outcome - not an error. Local data is already the
+      // source of truth in that case, and it will get pushed up shortly.
+      setSyncStatus('synced')
+      setLastSynced(new Date().toLocaleTimeString())
     }).catch(() => setSyncStatus('error'))
   }, [])
 
@@ -10562,17 +10638,20 @@ export default function App() {
     clearTimeout(debouncePushTimer.current)
     setSyncStatus('syncing')
     debouncePushTimer.current = setTimeout(async () => {
-      await supabasePush(state, xpVal)
-      setSyncStatus('synced')
-      setLastSynced(new Date().toLocaleTimeString())
+      const success = await supabasePush(state, xpVal)
+      // Previously this set 'synced' unconditionally regardless of the
+      // actual outcome - a rejected or failed write would still show a
+      // green "synced" cloud icon. Now it reflects what really happened.
+      setSyncStatus(success ? 'synced' : 'error')
+      if (success) setLastSynced(new Date().toLocaleTimeString())
     }, 1500)
   }, [])
 
   const forceSync = async () => {
     setSyncStatus('syncing')
-    await supabasePush(readState, xp)
-    setSyncStatus('synced')
-    setLastSynced(new Date().toLocaleTimeString())
+    const success = await supabasePush(readState, xp)
+    setSyncStatus(success ? 'synced' : 'error')
+    if (success) setLastSynced(new Date().toLocaleTimeString())
   }
 
   const handleRead = (cardId) => {
