@@ -13,7 +13,7 @@ const THEMES = {
     bg: '#f7f7fb', surface: '#ffffff', card: '#ffffff', border: '#e2e2ec',
     mint: '#1f9d6b', lavender: '#7c5cd6', peach: '#c97a35', sky: '#2b7fb8',
     rose: '#c4426a', lemon: '#a98a00', amber: '#b5790a', text: '#16161f', muted: '#5c5c75', dim: '#e8e8f2',
-    successBg: '#e2f5e8', dangerBg: '#fbe4e8', warnBg: '#faf2d8',
+    successBg: '#f0fbf4', dangerBg: '#fbe4e8', warnBg: '#fdf8e8',
     codeBg: '#f0f0f6', codeText: '#1f9d6b', onAccent: '#ffffff',
   },
   sepia: {
