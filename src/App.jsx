@@ -6,16 +6,22 @@ const THEMES = {
     bg: '#0d0d14', surface: '#13131e', card: '#1a1a2e', border: '#252538',
     mint: '#a8edcb', lavender: '#c9b8f5', peach: '#f5c6a0', sky: '#a0d4f5',
     rose: '#f5a0b5', lemon: '#f5eda0', amber: '#f5c842', text: '#eeeef5', muted: '#7878a0', dim: '#2a2a40',
+    successBg: '#0d2a0d', dangerBg: '#2a0d0d', warnBg: '#2a2a0d',
+    codeBg: '#080812', codeText: '#a8e6c0', onAccent: '#0d0d14',
   },
   light: {
     bg: '#f7f7fb', surface: '#ffffff', card: '#ffffff', border: '#e2e2ec',
     mint: '#1f9d6b', lavender: '#7c5cd6', peach: '#c97a35', sky: '#2b7fb8',
     rose: '#c4426a', lemon: '#a98a00', amber: '#b5790a', text: '#16161f', muted: '#5c5c75', dim: '#e8e8f2',
+    successBg: '#e2f5e8', dangerBg: '#fbe4e8', warnBg: '#faf2d8',
+    codeBg: '#f0f0f6', codeText: '#1f9d6b', onAccent: '#ffffff',
   },
   sepia: {
     bg: '#f4ecd8', surface: '#faf3e3', card: '#fffaf0', border: '#e0d3b0',
     mint: '#3f7d5c', lavender: '#7a5c9e', peach: '#b5651d', sky: '#3d6e8c',
     rose: '#a8415f', lemon: '#8a6d00', amber: '#9c6b0e', text: '#2b2317', muted: '#6e6147', dim: '#ebe0c4',
+    successBg: '#e3ecd9', dangerBg: '#f3dcd9', warnBg: '#f0e4c4',
+    codeBg: '#ece1c8', codeText: '#3f7d5c', onAccent: '#fffaf0',
   },
 }
 
@@ -28,10 +34,12 @@ function saveTheme(t) {
 }
 
 // C is a mutable module-level binding -  every component closes over it by
-// reference, so reassigning its contents (not the binding itself) before each
-// render is enough to repaint the whole app in the active theme without
-// threading a theme prop through 20+ components and 100+ call sites.
-const C = { ...THEMES.dark }
+// reference, so reassigning its contents (not the binding itself) repaints
+// the whole app in the active theme without threading a theme prop through
+// 20+ components and 100+ call sites. Seeded from the persisted theme at
+// module load so the very first render already has the right palette, then
+// kept in sync via a useLayoutEffect in App() on every theme change.
+const C = { ...THEMES[loadTheme()] }
 function applyTheme(name) {
   Object.assign(C, THEMES[name] || THEMES.dark)
 }
@@ -9859,7 +9867,7 @@ function Card({ emoji, title, color, children, mnemonic, cardId, readSet, onRead
             border: `2px solid ${isRead ? color : C.dim}`,
             cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center',
             fontSize: 12, transition: 'all 0.2s', padding: 0,
-            color: isRead ? '#0d0d14' : C.dim,
+            color: isRead ? C.onAccent : C.dim,
           }}>
             {isRead ? '✓' : ''}
           </button>
@@ -9902,17 +9910,17 @@ function Quiz({ questions, color, onXP }) {
       <div style={{ display: 'flex', flexDirection: 'column', gap: 8, marginBottom: 14 }}>
         {q.options.map((opt, i) => {
           let bg = C.surface, border = C.border, tc = C.text
-          if (selected !== null) { if (i === q.answer) { bg = '#0d2a0d'; border = C.mint; tc = C.mint } else if (i === selected) { bg = '#2a0d0d'; border = C.rose; tc = C.rose } }
+          if (selected !== null) { if (i === q.answer) { bg = C.successBg; border = C.mint; tc = C.mint } else if (i === selected) { bg = C.dangerBg; border = C.rose; tc = C.rose } }
           return <button key={i} onClick={() => choose(i)} style={{ background: bg, border: `1px solid ${border}`, borderRadius: 10, padding: '10px 14px', color: tc, fontSize: 14, textAlign: 'left', cursor: selected !== null ? 'default' : 'pointer', fontFamily: 'inherit', transition: 'all 0.2s' }}><span style={{ opacity: 0.4, marginRight: 8 }}>{['A','B','C','D'][i]}.</span>{opt}</button>
         })}
       </div>
       {selected !== null && (
         <>
-          <div style={{ padding: '12px 14px', borderRadius: 10, marginBottom: 12, background: selected === q.answer ? '#0d2a0d' : '#2a0d0d', border: `1px solid ${selected === q.answer ? C.mint : C.rose}44` }}>
+          <div style={{ padding: '12px 14px', borderRadius: 10, marginBottom: 12, background: selected === q.answer ? C.successBg : C.dangerBg, border: `1px solid ${selected === q.answer ? C.mint : C.rose}44` }}>
             <div style={{ fontWeight: 700, color: selected === q.answer ? C.mint : C.rose, marginBottom: 4, fontSize: 13 }}>{selected === q.answer ? '✅ Correct!' : '❌ Not quite!'}</div>
             <div style={{ fontSize: 13, color: C.muted, lineHeight: 1.6 }}>💡 {q.funFact}</div>
           </div>
-          <button onClick={next} style={{ width: '100%', padding: '11px', background: color, color: '#0d0d14', border: 'none', borderRadius: 10, fontWeight: 800, fontSize: 14, cursor: 'pointer', fontFamily: 'inherit' }}>
+          <button onClick={next} style={{ width: '100%', padding: '11px', background: color, color: C.onAccent, border: 'none', borderRadius: 10, fontWeight: 800, fontSize: 14, cursor: 'pointer', fontFamily: 'inherit' }}>
             {idx + 1 >= questions.length ? 'See Score 🏁' : 'Next ->'}
           </button>
         </>
@@ -9986,17 +9994,17 @@ function MarketsView({ data, color, onXP, readSet, onRead, onProgress }) {
         {/* Halal badge */}
         <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 10 }}>
           {b.halal === true && (
-            <span style={{ background: '#0d2a0d', color: C.mint, fontSize: 11, fontWeight: 800, padding: '3px 10px', borderRadius: 20, border: `1px solid ${C.mint}44` }}>
+            <span style={{ background: C.successBg, color: C.mint, fontSize: 11, fontWeight: 800, padding: '3px 10px', borderRadius: 20, border: `1px solid ${C.mint}44` }}>
               ✅ Halal
             </span>
           )}
           {b.halal === false && (
-            <span style={{ background: '#2a0d0d', color: C.rose, fontSize: 11, fontWeight: 800, padding: '3px 10px', borderRadius: 20, border: `1px solid ${C.rose}44` }}>
+            <span style={{ background: C.dangerBg, color: C.rose, fontSize: 11, fontWeight: 800, padding: '3px 10px', borderRadius: 20, border: `1px solid ${C.rose}44` }}>
               ⚠️ Not Halal
             </span>
           )}
           {b.halal === 'conditional' && (
-            <span style={{ background: '#2a2a0d', color: C.lemon, fontSize: 11, fontWeight: 800, padding: '3px 10px', borderRadius: 20, border: `1px solid ${C.lemon}44` }}>
+            <span style={{ background: C.warnBg, color: C.lemon, fontSize: 11, fontWeight: 800, padding: '3px 10px', borderRadius: 20, border: `1px solid ${C.lemon}44` }}>
               🔍 Check Scholar
             </span>
           )}
@@ -10028,7 +10036,7 @@ function MarketsView({ data, color, onXP, readSet, onRead, onProgress }) {
       </Card>
     )}
     <Card emoji="🎟️" title={`IPO: ${im?.ipoSpot?.name}`} color={color} cardId="ipo" readSet={readSet} onRead={onRead}>
-      <div style={{ marginBottom: 10 }}><span style={{ padding: '4px 16px', borderRadius: 20, fontWeight: 800, fontSize: 13, background: im?.ipoSpot?.verdict === 'Apply' ? '#0d2a0d' : im?.ipoSpot?.verdict === 'Avoid' ? '#2a0d0d' : '#2a2a0d', color: im?.ipoSpot?.verdict === 'Apply' ? C.mint : im?.ipoSpot?.verdict === 'Avoid' ? C.rose : C.lemon }}>{im?.ipoSpot?.verdict}</span></div>
+      <div style={{ marginBottom: 10 }}><span style={{ padding: '4px 16px', borderRadius: 20, fontWeight: 800, fontSize: 13, background: im?.ipoSpot?.verdict === 'Apply' ? C.successBg : im?.ipoSpot?.verdict === 'Avoid' ? C.dangerBg : C.warnBg, color: im?.ipoSpot?.verdict === 'Apply' ? C.mint : im?.ipoSpot?.verdict === 'Avoid' ? C.rose : C.lemon }}>{im?.ipoSpot?.verdict}</span></div>
       <ELI5 text={im?.ipoSpot?.eli5} color={color} />
     </Card>
     <Card emoji="📖" title={im?.lessonOfDay?.title} color={color} mnemonic={im?.lessonOfDay?.mnemonic} cardId="lesson" readSet={readSet} onRead={onRead}><ELI5 text={im?.lessonOfDay?.story} color={color} /></Card>
@@ -10093,11 +10101,11 @@ function WealthView({ data, color, onXP, readSet, onRead, onProgress }) {
       <ActionRow label="India Angle" text={data.moneyMachine.indiaAngle} color={color} />
     </Card>
     <Card emoji="🔄" title="Mindset Flip" color={color} mnemonic={data.mindsetFlip?.mnemonic} cardId="mindsetFlip" readSet={readSet} onRead={onRead}>
-      <div style={{ background: '#2a0d0d', borderRadius: 10, padding: '10px 14px', marginBottom: 8 }}>
+      <div style={{ background: C.dangerBg, borderRadius: 10, padding: '10px 14px', marginBottom: 8 }}>
         <div style={{ fontSize: 10, color: C.rose, fontWeight: 800, letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 4 }}>Most people think</div>
         <div style={{ fontSize: 13, color: C.muted }}>{data.mindsetFlip?.oldThinking}</div>
       </div>
-      <div style={{ background: '#0d2a0d', borderRadius: 10, padding: '10px 14px', marginBottom: 8 }}>
+      <div style={{ background: C.successBg, borderRadius: 10, padding: '10px 14px', marginBottom: 8 }}>
         <div style={{ fontSize: 10, color: C.mint, fontWeight: 800, letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 4 }}>1% thinks</div>
         <div style={{ fontSize: 14, color: C.text, fontWeight: 600 }}>{data.mindsetFlip?.newThinking}</div>
       </div>
@@ -10159,7 +10167,7 @@ function AIView({ data, color, onXP, readSet, onRead, onProgress }) {
     </Card>
     <Card emoji="📋" title={`Prompt: ${data.promptOfDay.purpose}`} color={color} mnemonic={data.promptOfDay.mnemonic} cardId="promptOfDay" readSet={readSet} onRead={onRead}>
       <Tag label={`Use on: ${data.promptOfDay.where}`} color={color} />
-      <div style={{ marginTop: 10, padding: '14px', background: '#080812', borderRadius: 10, fontFamily: 'monospace', fontSize: 13, color: '#a8e6c0', lineHeight: 1.9, whiteSpace: 'pre-wrap' }}>{data.promptOfDay.prompt}</div>
+      <div style={{ marginTop: 10, padding: '14px', background: C.codeBg, borderRadius: 10, fontFamily: 'monospace', fontSize: 13, color: C.codeText, lineHeight: 1.9, whiteSpace: 'pre-wrap' }}>{data.promptOfDay.prompt}</div>
     </Card>
     <Card emoji="🔮" title={data.futureWatch.trend} color={color} mnemonic={data.futureWatch.mnemonic} cardId="futureWatch" readSet={readSet} onRead={onRead}>
       <ELI5 text={data.futureWatch.eli5} color={color} />
@@ -10477,9 +10485,16 @@ export default function App() {
   const [theme, setTheme] = useState(() => loadTheme())
   const mobile = useIsMobile()
 
-  // Apply the active palette into the mutable C object before this render's
-  // JSX is built, so every component reading C.xxx picks up the new theme.
-  applyTheme(theme)
+  // Apply the active palette into the mutable C object as a layout effect -
+  // after commit, before paint - rather than during render. Mutating shared
+  // module state during render is impure and breaks under StrictMode's
+  // double-invoke and any concurrent/interrupted render; useLayoutEffect runs
+  // exactly once per committed render and finishes before the browser paints,
+  // so there's never a flash of the wrong palette and no chance of one
+  // in-flight render's colors leaking into another's.
+  React.useLayoutEffect(() => {
+    applyTheme(theme)
+  }, [theme])
 
   const cycleTheme = () => {
     const order = ['dark', 'light', 'sepia']
