@@ -1,10 +1,39 @@
 import React, { useState, useEffect } from 'react'
 // v20260618
 
-const C = {
-  bg: '#0d0d14', surface: '#13131e', card: '#1a1a2e', border: '#252538',
-  mint: '#a8edcb', lavender: '#c9b8f5', peach: '#f5c6a0', sky: '#a0d4f5',
-  rose: '#f5a0b5', lemon: '#f5eda0', amber: '#f5c842', text: '#eeeef5', muted: '#7878a0', dim: '#2a2a40',
+const THEMES = {
+  dark: {
+    bg: '#0d0d14', surface: '#13131e', card: '#1a1a2e', border: '#252538',
+    mint: '#a8edcb', lavender: '#c9b8f5', peach: '#f5c6a0', sky: '#a0d4f5',
+    rose: '#f5a0b5', lemon: '#f5eda0', amber: '#f5c842', text: '#eeeef5', muted: '#7878a0', dim: '#2a2a40',
+  },
+  light: {
+    bg: '#f7f7fb', surface: '#ffffff', card: '#ffffff', border: '#e2e2ec',
+    mint: '#1f9d6b', lavender: '#7c5cd6', peach: '#c97a35', sky: '#2b7fb8',
+    rose: '#c4426a', lemon: '#a98a00', amber: '#b5790a', text: '#16161f', muted: '#5c5c75', dim: '#e8e8f2',
+  },
+  sepia: {
+    bg: '#f4ecd8', surface: '#faf3e3', card: '#fffaf0', border: '#e0d3b0',
+    mint: '#3f7d5c', lavender: '#7a5c9e', peach: '#b5651d', sky: '#3d6e8c',
+    rose: '#a8415f', lemon: '#8a6d00', amber: '#9c6b0e', text: '#2b2317', muted: '#6e6147', dim: '#ebe0c4',
+  },
+}
+
+const THEME_KEY = 'curio_theme_v1'
+function loadTheme() {
+  try { return localStorage.getItem(THEME_KEY) || 'dark' } catch { return 'dark' }
+}
+function saveTheme(t) {
+  try { localStorage.setItem(THEME_KEY, t) } catch {}
+}
+
+// C is a mutable module-level binding -  every component closes over it by
+// reference, so reassigning its contents (not the binding itself) before each
+// render is enough to repaint the whole app in the active theme without
+// threading a theme prop through 20+ components and 100+ call sites.
+const C = { ...THEMES.dark }
+function applyTheme(name) {
+  Object.assign(C, THEMES[name] || THEMES.dark)
 }
 
 const DOMAINS = [
@@ -10445,7 +10474,19 @@ export default function App() {
   const [showDates, setShowDates] = useState(false)
   const [showMenu, setShowMenu] = useState(false)
   const [showShareModal, setShowShareModal] = useState(false)
+  const [theme, setTheme] = useState(() => loadTheme())
   const mobile = useIsMobile()
+
+  // Apply the active palette into the mutable C object before this render's
+  // JSX is built, so every component reading C.xxx picks up the new theme.
+  applyTheme(theme)
+
+  const cycleTheme = () => {
+    const order = ['dark', 'light', 'sepia']
+    const next = order[(order.indexOf(theme) + 1) % order.length]
+    setTheme(next)
+    saveTheme(next)
+  }
 
   // Sync state
   const [syncStatus, setSyncStatus] = useState('idle') // idle | syncing | synced | error
@@ -10569,7 +10610,7 @@ export default function App() {
   const closeAll = () => { setShowDates(false); setShowMenu(false); setShowShareModal(false) }
 
   return (
-    <div style={{ background: C.bg, minHeight: '100vh', fontFamily: "'Inter',-apple-system,sans-serif", color: C.text }}>
+    <div style={{ background: C.bg, minHeight: '100vh', fontFamily: "'Inter',-apple-system,sans-serif", color: C.text, transition: 'background 0.25s ease, color 0.25s ease' }}>
 
       {/* -- HEADER -- */}
       <div style={{
@@ -10585,6 +10626,13 @@ export default function App() {
               🌌 CURIO BRIEF
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+              <button
+                onClick={cycleTheme}
+                title={`Theme: ${theme} (tap to cycle)`}
+                style={{ background: 'transparent', border: `1px solid ${C.border}`, borderRadius: 8, padding: '4px 9px', color: C.muted, fontSize: 14, cursor: 'pointer', fontFamily: 'inherit', display: 'flex', alignItems: 'center' }}
+              >
+                {theme === 'dark' ? '🌙' : theme === 'light' ? '☀️' : '📜'}
+              </button>
               <button
                 onClick={() => setShowShareModal(s => !s)}
                 title={syncStatus === 'synced' ? 'Synced' : syncStatus === 'syncing' ? 'Syncing...' : 'Sync progress'}
@@ -10837,7 +10885,7 @@ export default function App() {
       <style>{`
         * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
         html { font-size: 16px; }
-        body { overscroll-behavior: none; }
+        body { overscroll-behavior: none; background: ${C.bg}; transition: background 0.25s ease; }
         ::-webkit-scrollbar { width: 3px; height: 3px; }
         ::-webkit-scrollbar-track { background: ${C.bg}; }
         ::-webkit-scrollbar-thumb { background: ${C.dim}; border-radius: 2px; }
