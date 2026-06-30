@@ -9207,6 +9207,474 @@ const d260628 = {
   }
 }
 
+const d260629 = {
+  news: {
+    segments: [
+      {
+        name: "🌐 What's happening with countries?",
+        color: "#a0d4f5",
+        stories: [
+          {
+            headline: "Iran strikes US bases in Bahrain and Kuwait — ceasefire framework fraying as Tehran retaliates for coastal site attacks",
+            eli5: "On Sunday June 28, Iran's Revolutionary Guard launched ballistic missiles and drones at the US Ali Al Salem Air Base in Kuwait and the US Fifth Fleet headquarters in Bahrain. This was retaliation for US strikes a day earlier on five Iranian coastal sites, which were themselves a response to an Iranian attack on the Panamanian-flagged tanker Kiku — a vessel carrying Qatar-bound crude oil that was hit near the Strait of Hormuz. President Trump accused Iran of repeatedly violating the ceasefire memorandum in place since the war began February 28, 2026, warning of a point where the US would be forced to 'complete the job.' By June 29, Iranian state television reaffirmed that passage through the Strait of Hormuz still required Iranian coordination, while reports indicated Tehran was simultaneously insisting on Hormuz control even as talks with the US were rumoured to be ongoing.",
+            whyItMatters: "This is a meaningfully different signal than the de-escalation many market participants had priced in over the weekend. A strike on a Fifth Fleet headquarters — the US Navy's primary forward base for the entire Middle East — is a high-escalation target, not a symbolic gesture. For India specifically: the Strait of Hormuz carries roughly a fifth of global oil flow, and any Iranian assertion of control over it (even rhetorical) raises insurance costs and risk premiums on tankers serving India's largest crude suppliers. This is the direct mechanism behind Monday's Indian market selloff — not the war itself, which has been ongoing since February, but the renewed uncertainty about whether the ceasefire framework holds.",
+            mnemonic: "Jun 28: Iran hits Fifth Fleet HQ Bahrain + Ali Al Salem Kuwait. Retaliation chain: tanker Kiku hit → US strikes 5 Iranian coastal sites → Iran strikes Gulf bases. Jun 29: Iran reasserts Hormuz control. Trump: ceasefire 'violated.' Fifth Fleet HQ = high-escalation target, not symbolic."
+          },
+          {
+            headline: "PM Modi concludes Seychelles state visit — 'Ocean of Opportunity' roadmap launched, meets world's oldest tortoise",
+            eli5: "Prime Minister Modi completed a three-day official state visit to Seychelles, co-launching a bilateral roadmap called 'Ocean of Opportunity' aimed at deepening cooperation across maritime security, the blue economy, digital connectivity, and climate resilience in the Indian Ocean Region. The visit included roughly Rs.1,250 crore in financial assistance from India to Seychelles, alongside UPI payment system integration and space technology partnerships. Modi visited the Seychelles National Botanical Gardens and interacted with Jonathan, a Seychelles giant tortoise holding the Guinness World Record as the world's oldest living land animal at an estimated 194 years old.",
+            whyItMatters: "Seychelles sits at a strategic chokepoint in the western Indian Ocean, and India's MAHASAGAR doctrine (Mutual and Holistic Advancement for Security and Growth Across Regions) treats small island states like Seychelles as critical partners for maritime domain awareness — partly as a counterweight to growing Chinese naval interest in the region. The UPI integration component is notable: India has been steadily exporting its digital payments infrastructure to partner nations as both a development tool and a soft-power asset.",
+            mnemonic: "Modi 3-day Seychelles visit. 'Ocean of Opportunity' roadmap = maritime security + blue economy + digital + climate. ~Rs.1,250cr assistance + UPI integration + space pacts. MAHASAGAR doctrine. Jonathan the tortoise: ~194 years, Guinness World Record oldest land animal."
+          },
+          {
+            headline: "Albania's 'Flamingo Revolution' — mass protests continue against $1.6B Kushner-linked coastal resort",
+            eli5: "Thousands of protesters in Albania have sustained a movement dubbed the 'Flamingo Revolution,' opposing a $1.6 billion luxury coastal tourism development linked to Jared Kushner, son-in-law of US President Trump. The protests began in May 2026 after the project received approval in an ecologically sensitive coastal zone — habitat for flamingos and other wetland species, which gave the movement its name. The demonstrations represent one of the larger sustained environmental civil-society mobilisations in the Balkans in recent years.",
+            whyItMatters: "Beyond the immediate environmental dispute, this story is a useful case study in how foreign direct investment tied to politically connected figures can become a flashpoint for sovereignty and environmental-justice concerns in smaller economies. Albania has been courting foreign tourism investment as part of its EU accession strategy, and the backlash illustrates the tension between rapid capital inflow and local environmental governance capacity.",
+            mnemonic: "Albania 'Flamingo Revolution.' Started May 2026. $1.6B coastal resort, Jared Kushner-linked. Ecologically sensitive wetland/flamingo habitat. Mass civil-society protests, ongoing."
+          }
+        ]
+      }
+    ]
+  },
+  markets: {
+    globalPulse: {
+      eli5: "Monday June 29 opened with the geopolitical picture worse, not better, than Friday's close. Over the weekend Iran struck US bases in Bahrain and Kuwait directly, reversing the cautious optimism that had built around a fragile ceasefire. Indian markets responded with a moderate but broad-based selloff. The halal watchlist this session pivots away from last week's defence and consumer-staples sequence to spotlight the pharma and industrial-materials names that were actual outperformers in Monday's session — a useful real-time lesson in how defensive sector rotation works during geopolitical stress.",
+      keyThings: [
+        "Monday June 29: Sensex 76,728.37 (-372.10 / -0.48%); Nifty 23,946.25 (-109.75 / -0.46%)",
+        "Driver: Iran strikes US Fifth Fleet HQ (Bahrain) and Ali Al Salem Air Base (Kuwait) on June 28",
+        "Sectoral: Nifty Pharma, Metal, Healthcare OUTPERFORMED; Auto, Chemical, Oil & Gas underperformed",
+        "Top Nifty losers: M&M, Adani Enterprises, Tata Motors Passenger Vehicles",
+        "FII net buy Rs.734.65cr; DII net buy Rs.5,039.86cr — DII support cushioned the decline",
+        "Markets cautious ahead of US nonfarm payrolls; Q1 FY27 earnings season begins mid-July"
+      ]
+    },
+    indianMarket: {
+      eli5: "Today's session offers a live case study in defensive sector rotation: even as the broader index fell on renewed Iran-US tension, pharma, metal, and healthcare stocks rose — investors moved capital toward sectors with earnings visibility independent of the geopolitical headline risk hitting autos, chemicals, and energy. The halal watchlist this session features two pharmaceutical names that benefited directly from this rotation, plus an industrial materials name whose business structure provides insulation from pure commodity-price volatility. The teaching contrast rotates to a fresh category this week: conventional, interest-based insurance — distinct from the alcohol, banking, tobacco, and arms-export contrasts used in the prior five sessions.",
+      breakouts: [
+        {
+          name: "Divi's Laboratories (NSE: DIVISLAB)",
+          halal: true,
+          buyPrice: "Rs.6,690",
+          sellPrice: "Rs.7,495",
+          stopLoss: "Rs.6,155",
+          whyExciting: "Divi's Laboratories is one of the world's largest active pharmaceutical ingredient (API) manufacturers, with two large facilities in Hyderabad and Visakhapatnam serving over 100 countries. The stock benefited from Monday's defensive sector rotation into pharma and healthcare, as investors reduced exposure to geopolitically sensitive cyclicals. Divi's custom synthesis business — supporting major global innovator pharma companies from early clinical-trial-scale manufacturing through late life-cycle management — gives it a structurally different revenue profile than commodity generic makers, with FY26 capex of roughly Rs.2,500 crore signalling continued capacity expansion. The Kakinada facility, reconfirmed at approximately Rs.1,500 crore investment, is a key forward growth driver. Entry above Rs.6,690 targets Rs.7,495.",
+          risk: "Divi's trades at a premium valuation reflecting its custom-synthesis quality, which leaves limited room for execution missteps. The business is concentrated in a relatively small number of large innovator-pharma client relationships — losing even one major client contract could meaningfully affect near-term revenue. Currency movements matter heavily given the export-driven revenue base. Honour the Rs.6,155 stop."
+        },
+        {
+          name: "Zydus Lifesciences (NSE: ZYDUSLIFE)",
+          halal: true,
+          buyPrice: "Rs.1,100",
+          sellPrice: "Rs.1,235",
+          stopLoss: "Rs.1,010",
+          whyExciting: "Zydus Lifesciences (formerly Cadila Healthcare) is a diversified Indian pharmaceutical company with a strong presence in generics, branded formulations, and an expanding biosimilars and specialty pipeline. The company's Q4 FY26 results showed a 10.7% sequential and 16.8% year-on-year revenue increase, alongside meaningful net profit growth. Zydus has been particularly active in the weight-management drug space, having signed a licensing and co-marketing deal with Lupin for semaglutide injections ahead of the molecule's patent expiry — positioning it early in what is expected to be a large addressable market in India given the country's high diabetes prevalence. Entry above Rs.1,100 targets Rs.1,235.",
+          risk: "Zydus's biosimilars and specialty pipeline carries longer regulatory timelines and higher development risk than its core generics business — delays in approvals can disappoint growth expectations priced into the stock. The semaglutide opportunity, while promising, depends on successful execution of a complex manufacturing and distribution partnership with Lupin, and on the pace of patent expiry litigation outcomes. Respect the Rs.1,010 stop."
+        },
+        {
+          name: "Hindalco Industries (NSE: HINDALCO)",
+          halal: true,
+          buyPrice: "Rs.965",
+          sellPrice: "Rs.1,080",
+          stopLoss: "Rs.890",
+          whyExciting: "Hindalco, the Aditya Birla Group's aluminium and copper flagship, has shown relative resilience during the broader metals sector correction of June 2026 — falling less than peers like NALCO and Vedanta during the aluminium price downturn. The key reason is Novelis, Hindalco's US-headquartered subsidiary, which produces flat-rolled aluminium products for beverage cans, automotive, and sustainable packaging applications globally. Novelis operates on contracted processing spreads rather than spot LME aluminium prices, providing structural insulation when commodity prices decline. With over 50% of Hindalco's consolidated revenue coming through this diversified, less commodity-sensitive channel, the stock offers exposure to industrial materials demand without the full volatility of pure-play aluminium producers. Entry above Rs.965 targets Rs.1,080.",
+          risk: "Hindalco remains partially exposed to spot aluminium and copper prices through its upstream Indian operations, and a sustained global commodity downturn would still pressure consolidated earnings even with Novelis's insulation. The stock has corrected alongside the sector despite its relative resilience, reflecting that 'less volatile' is not the same as 'immune.' Brokerage commentary has flagged stretched valuations across aluminium names broadly. Honour the Rs.890 stop."
+        }
+      ],
+      nonHalalContrast: {
+        name: "SBI Life Insurance (NSE: SBILIFE) — the teaching contrast (NOT halal — conventional insurance)",
+        buyPrice: "N/A — excluded on faith grounds",
+        sellPrice: "N/A",
+        stopLoss: "N/A",
+        whyExciting: "This session's teaching contrast introduces a category not yet covered in the watchlist's rotation: conventional life insurance. SBI Life Insurance, a joint venture between State Bank of India and BNP Paribas Cardif, is one of India's largest private life insurers — and a useful teaching example because conventional insurance fails Islamic screening for reasons distinct from alcohol, tobacco, or interest-based banking. Conventional insurance combines two elements considered impermissible under most Shariah frameworks: gharar (excessive contractual uncertainty, since insurer and insured are effectively wagering on an unknown future event) and riba (the insurer invests collected premiums, including in interest-bearing instruments, to fund the float that subsidises payouts). This differs from takaful, the Islamic insurance alternative structured as mutual risk-sharing among participants rather than a risk-transfer contract with an investment-driven insurer. SBI Life's FY26 results show robust 19.58% growth in new business premium to Rs.42,550 crore — a reminder that screening a company out on category grounds says nothing about its commercial quality or growth trajectory; the two questions are independent.",
+        risk: "The halal nuance here: conventional insurance is structurally different from a simple 'sin stock' exclusion — it requires understanding two distinct jurisprudential concepts (gharar and riba) rather than a single activity-based prohibition. Investors should understand that takaful structures exist as a permissible alternative serving the same underlying need (risk protection) through a fundamentally different contractual mechanism. Seek a qualified Islamic finance scholar's guidance when evaluating any insurance-adjacent investment."
+      },
+      ipoSpot: {
+        name: "Watch this space",
+        verdict: "No major IPO developments specific to today's brief",
+        eli5: "No primary market listings require halal screening attention in today's session. Monitor the coming week as Q1 FY27 earnings season approaches and new IPO filings typically increase ahead of the festive and year-end investment cycles."
+      },
+      lessonOfDay: {
+        title: "Defensive Sector Rotation — Reading What the Market Is Actually Telling You",
+        story: "Today's session is a clean live example of a concept every investor should be able to recognise in real time: defensive sector rotation during geopolitical stress. When the Nifty fell 0.46% on renewed Iran-US tension, the decline was not uniform — pharma, healthcare, and metal sectors actually closed higher, while auto, chemicals, and oil & gas absorbed the bulk of the selling. This pattern repeats across nearly every geopolitical shock: capital does not simply flee equities wholesale, it reallocates toward sectors whose earnings are least sensitive to the specific risk in question. Pharma and healthcare demand is largely inelastic — people do not defer medical treatment because of Middle East tensions — so these sectors offer earnings visibility that becomes relatively more attractive when other sectors face uncertainty. Auto and oil & gas, by contrast, are directly exposed to fuel costs and consumer discretionary spending, both of which are vulnerable to a prolonged conflict. Learning to read this pattern in real time — rather than only noticing the headline index number — gives investors a sharper picture of what the market is actually pricing in, and which sectors may offer relative shelter during future episodes of similar stress.",
+        mnemonic: "Defensive rotation: headline index ≠ uniform decline. Pharma/healthcare/metal UP on Jun 29 (inelastic demand, earnings visibility) while auto/chemicals/oil&gas DOWN (fuel-cost and discretionary-spending exposure). Read sector dispersion, not just the index number, to see what the market is actually pricing in."
+      }
+    },
+    quiz: [
+      {
+        q: "Why did pharma, healthcare, and metal sectors outperform on June 29 even as the broader Nifty index declined?",
+        options: [
+          "Because the government announced a special subsidy for these sectors that day",
+          "Because their earnings are relatively less sensitive to the specific geopolitical risk (Iran-US tension and oil-supply uncertainty) driving the day's selloff — defensive sector rotation moves capital toward sectors with more inelastic, headline-independent demand during periods of uncertainty",
+          "Because these were the only sectors open for trading that day",
+          "Because foreign investors are legally required to buy pharma stocks during conflicts"
+        ],
+        answer: 1,
+        funFact: "Defensive sector rotation is one of the most consistently observed patterns across decades of market history — during the 1990 Gulf War, the 2003 Iraq invasion, and numerous Middle East flare-ups since, healthcare and consumer staples sectors have repeatedly shown relative outperformance during the acute phase of the crisis, even when the broader market sold off sharply."
+      },
+      {
+        q: "What is the key structural difference between conventional insurance and takaful (Islamic insurance) according to today's lesson?",
+        options: [
+          "There is no meaningful difference; they are the same product with different marketing",
+          "Conventional insurance is a risk-transfer contract where an investment-driven insurer profits from interest-bearing investments of premiums (riba) and involves contractual uncertainty (gharar); takaful is structured instead as mutual risk-sharing among participants without these elements",
+          "Takaful is only available to non-Muslims",
+          "Conventional insurance has no contractual uncertainty at all"
+        ],
+        answer: 1,
+        funFact: "The global takaful industry has grown into a multi-billion-dollar sector, with Malaysia, Saudi Arabia, and the UAE serving as its largest hubs — takaful providers typically separate a participants' risk-sharing fund from the operator's own shareholder fund, structurally avoiding the conventional insurer's direct profit motive from underwriting risk."
+      },
+      {
+        q: "According to the lesson, what does it mean that Hindalco's resilience during the metals correction reflects 'insulation' rather than 'immunity'?",
+        options: [
+          "Hindalco is completely unaffected by any change in commodity prices",
+          "Hindalco's Novelis subsidiary provides structural protection through contracted processing spreads rather than spot pricing, reducing but not eliminating its exposure — the stock still corrected alongside the broader sector even while falling less than pure-play peers",
+          "Hindalco only sells products domestically and has no export exposure",
+          "Insulation and immunity mean exactly the same thing in this context"
+        ],
+        answer: 1,
+        funFact: "Novelis, acquired by Hindalco in 2007 for approximately $6 billion, was at the time one of the largest overseas acquisitions by an Indian company — the deal was initially viewed skeptically by some analysts due to the high price paid, but Novelis's contracted-spread business model has since become a core part of Hindalco's investment case precisely for the commodity-price insulation it provides."
+      }
+    ]
+  },
+  psychology: {
+    mindTrick: {
+      name: "Confirmation Bias — Why Your Brain Defends Beliefs It Hasn't Actually Tested",
+      eli5: "Confirmation bias is the tendency to search for, interpret, favour, and recall information in ways that confirm beliefs you already hold, while giving disproportionately less scrutiny to information that contradicts them. It does not require dishonesty or deliberate selectivity — it operates largely below conscious awareness. When you already believe something, your brain treats confirming evidence as more credible and contradicting evidence as more suspect, even when both pieces of evidence are of equal actual quality. The bias was first systematically studied by psychologist Peter Wason in 1960 using a simple number-sequence task: once participants formed a hypothesis about the rule governing a sequence, most tested only examples that would confirm their hypothesis rather than examples designed to falsify it — even though falsification tests were more informative and readily available.",
+      realLife: "An investor who believes a particular stock will rise reads bullish analyst notes carefully and shares them, but skims bearish notes quickly, mentally categorising the bearish analyst as 'out of touch' or 'missing the bigger picture' — without applying the same scrutiny to the bullish analyst's assumptions. The same pattern shows up in political reasoning, hiring decisions (where an interviewer who likes a candidate in the first five minutes unconsciously interprets ambiguous later answers favourably), and even medical self-diagnosis, where people searching symptoms online disproportionately click results that confirm a fear or hope they already had.",
+      mnemonic: "Confirmation bias: actively seeking/favouring/recalling info that confirms existing beliefs, under-scrutinising contradicting info. Wason 1960: number-sequence task, most people test only confirming examples, not falsifying ones. Countermeasure: ask 'what would change my mind?' then actively go look for that specific thing."
+    },
+    quiz: [
+      {
+        q: "What distinguishes confirmation bias from simple lack of information?",
+        options: [
+          "Confirmation bias only occurs when someone is deliberately lying",
+          "Confirmation bias is an active, often unconscious process of seeking, interpreting, and recalling information in ways that favour existing beliefs — it persists even when contradicting information is available and accessible",
+          "Confirmation bias only affects people with low intelligence",
+          "Confirmation bias is the same thing as being uninformed"
+        ],
+        answer: 1,
+        funFact: "Research on 'motivated reasoning' (a close cousin of confirmation bias) shows that people who are more numerically literate are sometimes worse at evaluating politically or emotionally charged data objectively — because they have more sophisticated tools available to rationalise a pre-existing conclusion, not because they lack the capacity to reason correctly."
+      },
+      {
+        q: "What is the most effective practical countermeasure to confirmation bias described in the lesson?",
+        options: [
+          "Avoiding forming any opinions at all",
+          "Asking 'what would change my mind?' and then actively searching for that specific disconfirming evidence, rather than passively remaining open to it",
+          "Only reading sources you already agree with to save time",
+          "Trusting your gut instinct over any external evidence"
+        ],
+        answer: 1,
+        funFact: "Charlie Munger, the late investor and Warren Buffett's longtime partner, was known for a related discipline: he refused to hold a strong opinion on a topic until he could argue the opposing position better than its strongest advocates could argue it themselves — a deliberate structural defence against confirmation bias."
+      },
+      {
+        q: "In Peter Wason's 1960 number-sequence experiment, what behaviour revealed confirmation bias at work?",
+        options: [
+          "Participants refused to participate in the experiment",
+          "Once participants formed a hypothesis about the rule, most tested only examples that would confirm their hypothesis rather than examples designed to falsify it — even though falsification tests were more informative and equally available",
+          "Participants always guessed the correct rule on the first try",
+          "Participants were not allowed to propose any hypothesis"
+        ],
+        answer: 1,
+        funFact: "Wason's task became one of the most replicated experiments in cognitive psychology — variations of it have been run across dozens of cultures and contexts, consistently finding that the confirmation-seeking pattern is remarkably stable across age, education level, and even professional training in formal logic, suggesting it is a deeply rooted cognitive default rather than simply an educational gap."
+      }
+    ]
+  },
+  leadership: {
+    leaderMove: {
+      name: "Radical Candor — Kim Scott's Framework for Feedback That Actually Helps",
+      story: "Radical Candor is a management framework developed by Kim Scott, built on the idea that effective feedback requires two dimensions held simultaneously: 'Care Personally' and 'Challenge Directly.' Feedback that has care but no directness becomes what Scott calls 'Ruinous Empathy' — withholding hard truths to avoid discomfort, which ultimately harms the person by letting problems compound. Feedback that has directness but no care becomes 'Obnoxious Aggression' — blunt criticism delivered without regard for the relationship, which damages trust even when the content is accurate. The goal of Radical Candor is to deliver direct, specific feedback while making clear the feedback comes from genuine investment in the other person's success. Scott developed the framework partly from her own experience at Google, where a senior leader once told her after a presentation that she had said 'um' too much — blunt, low-stakes feedback that, because it was delivered with evident care, she found far more useful than years of vague, hedged praise from other managers.",
+      realLife: "A manager notices a direct report consistently missing deadlines. The Ruinous Empathy response avoids the topic to keep things pleasant. The Obnoxious Aggression response says 'you're unreliable' in a team meeting. The Radical Candor response is a private conversation: 'I've noticed three missed deadlines this month, and I want to understand what's happening because I think you're capable of more than this pattern suggests — can we figure out what's getting in the way?' This response is specific (names the actual pattern), private (preserves dignity), and explicitly frames the feedback within a statement of belief in the person's capability.",
+      mnemonic: "Radical Candor: Care Personally + Challenge Directly, held together. Care-no-directness = Ruinous Empathy (avoids hard truths, problems compound). Directness-no-care = Obnoxious Aggression (accurate but damages trust). Good feedback: specific + private + frames belief in capability."
+    },
+    quiz: [
+      {
+        q: "What does Kim Scott call feedback that is delivered with care but without directness?",
+        options: [
+          "Radical Candor",
+          "Ruinous Empathy — avoiding hard truths to preserve short-term comfort, which ultimately harms the recipient by letting problems compound unaddressed",
+          "Obnoxious Aggression",
+          "Manipulative Insincerity"
+        ],
+        answer: 1,
+        funFact: "Kim Scott developed the Radical Candor framework partly from her own experience at Google, where she recalled a senior leader telling her after a presentation that she'd said 'um' too much — a piece of blunt, low-stakes feedback that, because it was delivered with evident care, she found far more useful than years of vague, hedged praise from other managers."
+      },
+      {
+        q: "According to the framework, what makes feedback fall into the 'Obnoxious Aggression' quadrant?",
+        options: [
+          "The feedback is too specific and detailed",
+          "Directness is present but care for the relationship and the recipient's wellbeing is absent — the feedback may be accurate but damages trust",
+          "The feedback is given in private rather than public",
+          "The manager gives no feedback at all"
+        ],
+        answer: 1,
+        funFact: "Radical Candor's two-axis model (Care Personally / Challenge Directly) is deliberately visual — Scott presents it as a quadrant diagram precisely because most managers can immediately self-locate their default tendency on it, making the framework unusually fast to internalise compared to more abstract leadership theories."
+      },
+      {
+        q: "In the lesson's example, what makes the manager's third response an instance of genuine Radical Candor rather than Obnoxious Aggression?",
+        options: [
+          "It was delivered in a team meeting for maximum visibility",
+          "It is specific (names the actual pattern), private (preserves dignity), and explicitly frames the feedback within a statement of belief in the person's capability — combining directness with care",
+          "It avoids naming the specific problem",
+          "It focuses only on consequences, not on understanding the cause"
+        ],
+        answer: 1,
+        funFact: "Scott's framework explicitly warns against treating Radical Candor as permission to be harsh as long as you 'meant well' — she argues that care must be demonstrably and habitually visible to the recipient over time, not simply felt internally by the person giving feedback, or the directness will land as aggression regardless of intent."
+      }
+    ]
+  },
+  wealth: {
+    moneyLesson: {
+      name: "Index Fund Investing — Capturing the Market Return Without Trying to Beat It",
+      story: "An index fund is a pooled investment vehicle (mutual fund or ETF) designed to track the performance of a specific market index — such as the Nifty 50 or Sensex in India, or the S&P 500 globally — rather than attempting to outperform it through active stock selection. Because index funds simply hold the securities in the index in proportion to their index weighting, they require minimal ongoing management, which translates into dramatically lower expense ratios than actively managed funds. The core investment thesis is that, after fees, the majority of actively managed funds fail to beat their benchmark index over long time horizons — so capturing the index return at minimal cost is, for most investors, a more reliable path to wealth accumulation than attempting to identify market-beating fund managers in advance. Jack Bogle, founder of Vanguard, launched the first index mutual fund available to individual investors in 1976. It was initially mocked by Wall Street as 'Bogle's Folly' and struggled to raise even $11 million in its first year — index funds now represent trillions of dollars in global assets under management.",
+      realLife: "An investor putting Rs.10,000 per month into an actively managed equity fund with a 2% annual expense ratio versus an index fund with a 0.2% expense ratio will, assuming identical gross returns, end up with a meaningfully larger corpus over a 20-year horizon purely from the fee differential compounding — even before accounting for the fact that many active funds underperform their benchmark before fees are even subtracted. Standard & Poor's publishes a semiannual SPIVA report that has consistently found, across most categories and time horizons, that the majority of actively managed funds underperform their benchmark index over periods of 10-15 years or longer.",
+      mnemonic: "Index fund: tracks a benchmark index (Nifty 50, Sensex, S&P 500) rather than active stock-picking. Low expense ratio (minimal management) vs. active funds. SPIVA reports: most active funds underperform benchmark over 10-15yr horizons. Still requires choosing: which index, tracking error, expense ratio."
+    },
+    quiz: [
+      {
+        q: "What is the core reason index funds typically have much lower expense ratios than actively managed funds?",
+        options: [
+          "Index funds are subsidised by the government",
+          "Index funds simply hold securities in proportion to their weight in a benchmark index, requiring minimal ongoing research and trading activity compared to active stock selection",
+          "Index funds only invest in cheap, low-quality stocks",
+          "Index fund managers work for free"
+        ],
+        answer: 1,
+        funFact: "Jack Bogle, founder of Vanguard, launched the first index mutual fund available to individual investors in 1976. It was initially mocked by Wall Street as 'Bogle's Folly' and struggled to raise even $11 million in its first year — index funds now represent trillions of dollars in global assets under management."
+      },
+      {
+        q: "What does the lesson mean by the historical lack of 'persistence' in active fund outperformance?",
+        options: [
+          "Active funds never beat their benchmark in any single year",
+          "A fund manager who outperforms the benchmark in one period shows historically weak predictive power for whether they will outperform again in future periods, undermining the strategy of chasing recent winners",
+          "Active funds are illegal in most countries",
+          "Index funds always lose money in bear markets"
+        ],
+        answer: 1,
+        funFact: "Standard & Poor's publishes a semiannual report called SPIVA (S&P Indices Versus Active) that has consistently found, across most categories and time horizons, that the majority of actively managed funds underperform their benchmark index over periods of 10-15 years or longer."
+      },
+      {
+        q: "According to the lesson, what investment decisions does an investor still need to make even when choosing index investing?",
+        options: [
+          "None — index investing requires no decisions at all",
+          "Which index to track (broad market vs. sector-specific), the fund's tracking error, and its expense ratio still require deliberate evaluation",
+          "Only the colour scheme of the brokerage app",
+          "Whether to invest in gold instead"
+        ],
+        answer: 1,
+        funFact: "Tracking error — the degree to which an index fund's actual returns deviate from its benchmark index's returns — can vary meaningfully even among funds claiming to track the identical index, due to differences in how dividends are reinvested, cash drag, and the timing of rebalancing trades."
+      }
+    ]
+  },
+  communication: {
+    commSkill: {
+      name: "Active Listening (SOLER) — Gerard Egan's Framework for Signalling Genuine Attention",
+      story: "Active listening is a structured communication discipline focused on fully concentrating on, understanding, and responding to a speaker rather than passively hearing words while mentally preparing your own reply. The SOLER framework, developed by counselling psychologist Gerard Egan, gives a concrete physical and behavioural checklist for active listening: Sit Squarely facing the person, maintain an Open posture (uncrossed arms), Lean slightly toward the speaker, maintain appropriate Eye contact, and Relax rather than appearing tense. While originally designed for therapeutic counselling settings, the framework translates directly into workplace and personal conversations as a way to signal genuine attention and reduce the tendency to listen only long enough to formulate a rebuttal. Egan designed SOLER as an easily memorable acronym so that trainee counsellors could internalise physical listening behaviours quickly without consciously thinking through each component during live sessions.",
+      realLife: "In a disagreement with a colleague, instead of mentally drafting your counterargument while they are still speaking, active listening means pausing to paraphrase what you heard before responding: 'So if I'm understanding correctly, your concern is that the timeline doesn't account for the vendor's lead time — is that right?' This single step often surfaces misunderstandings before they escalate, since people frequently discover their own position was based on an incomplete picture of what the other person actually meant. Negotiation researchers have found that this 'looping' technique measurably increases the other party's willingness to make concessions later in the conversation, likely because it satisfies a basic psychological need to be understood before problem-solving can feel safe.",
+      mnemonic: "SOLER: Sit Squarely, Open posture, Lean in, Eye contact, Relax. Gerard Egan, counselling psychology. Paraphrase-before-respond habit: restate other person's position before offering your own — forces genuine listening, often de-escalates conflict by making people feel heard."
+    },
+    quiz: [
+      {
+        q: "What does the 'L' in the SOLER framework stand for, and what is its function?",
+        options: [
+          "Listen — meaning to remain completely silent throughout the conversation",
+          "Lean — leaning slightly toward the speaker, which is one of several physical behaviours (alongside posture, eye contact, and relaxation) that signal genuine attention",
+          "Laugh — finding something to laugh about during serious conversations",
+          "Leave — knowing when to exit a difficult conversation"
+        ],
+        answer: 1,
+        funFact: "Gerard Egan, who developed the SOLER framework, was a counselling psychologist whose broader work focused on what he called the 'skilled helper' model — the SOLER acronym itself was designed as an easily memorable mnemonic specifically so that trainee counsellors could internalise physical listening behaviours quickly without needing to consciously think through each component during live sessions."
+      },
+      {
+        q: "Why does the lesson recommend paraphrasing the other person's position before responding in a disagreement?",
+        options: [
+          "To waste time and avoid having to respond at all",
+          "Because accurate paraphrasing requires genuine attention (you cannot paraphrase something you weren't listening to), and it frequently surfaces misunderstandings or makes the other person feel heard before any resolution occurs",
+          "Because it is required by law in formal negotiations",
+          "Because paraphrasing always makes you agree with the other person"
+        ],
+        answer: 1,
+        funFact: "Negotiation researchers have found that the simple act of accurately summarising an opposing party's position back to them — sometimes called 'looping' in negotiation training — measurably increases the other party's willingness to make concessions later in the conversation, likely because it satisfies a basic psychological need to be understood before problem-solving can feel safe."
+      },
+      {
+        q: "What is the key distinction the lesson draws between active listening and passive hearing?",
+        options: [
+          "Active listening requires complete silence; passive hearing allows talking",
+          "Active listening involves full concentration on understanding the speaker, as opposed to passively hearing words while mentally preparing your own reply or rebuttal",
+          "There is no real difference between the two",
+          "Active listening only applies to therapy sessions, not everyday conversation"
+        ],
+        answer: 1,
+        funFact: "Studies on listening retention have found that immediately after a 10-minute presentation, average listeners typically recall only about half the content — and that figure drops further within 48 hours, underscoring how much of what passes for 'listening' in everyday conversation is actually partial attention competing with internal rehearsal of one's own response."
+      }
+    ]
+  },
+  mind: {
+    technique: {
+      name: "Box Breathing — The Four-Phase Pattern Used by Navy SEALs to Manage Stress",
+      howTo: "Box breathing is a structured breathing technique that follows a four-phase pattern of equal duration: inhale for a count of four, hold for a count of four, exhale for a count of four, hold (with empty lungs) for a count of four — then repeat. The technique is sometimes called 'square breathing' because the four equal phases can be visualised as tracing the four sides of a box. It is used by military units (notably popularised by former Navy SEAL Mark Divine for managing combat stress), first responders, and increasingly in general stress-management contexts because it activates the parasympathetic nervous system, counteracting the fight-or-flight stress response and lowering heart rate and cortisol within minutes. The underlying four-phase breathing pattern has roots in much older yogic pranayama practices that predate its modern military application by centuries. The key practical detail is counting consistently — using the same internal count speed for all four phases is what creates the physiological effect; rushing the exhale or extending the hold disproportionately reduces the technique's effectiveness.",
+      mnemonic: "Box breathing: inhale 4 — hold 4 — exhale 4 — hold (empty) 4 — repeat. Four equal phases = a 'box.' Activates parasympathetic nervous system, lowers heart rate/cortisol within minutes. Mark Divine (ex-Navy SEAL) popularised it; roots in yogic pranayama. Key: consistent count speed across all four phases."
+    },
+    quiz: [
+      {
+        q: "What are the four phases of box breathing, and how long is each held?",
+        options: [
+          "Inhale, exhale, inhale, exhale — each for 10 seconds",
+          "Inhale, hold, exhale, hold (empty) — each for an equal count, typically four seconds",
+          "Only inhaling deeply and exhaling quickly",
+          "Holding your breath for as long as possible, then breathing normally"
+        ],
+        answer: 1,
+        funFact: "Box breathing is sometimes credited to former Navy SEAL Mark Divine, who popularised the technique for managing combat stress and high-pressure decision-making, though the underlying four-phase breathing pattern has roots in much older yogic pranayama practices that predate its modern military application by centuries."
+      },
+      {
+        q: "What physiological system does box breathing primarily activate, and what effect does this have?",
+        options: [
+          "The sympathetic nervous system, increasing alertness and heart rate",
+          "The parasympathetic nervous system, which counteracts the fight-or-flight stress response and lowers heart rate and cortisol within minutes",
+          "The digestive system, improving food absorption",
+          "It has no measurable physiological effect"
+        ],
+        answer: 1,
+        funFact: "Slow, controlled breathing at roughly 4-6 breaths per minute (close to the pace of box breathing) has been shown in heart rate variability research to maximise what's called 'respiratory sinus arrhythmia' — a healthy fluctuation in heart rate that synchronises with breathing and is associated with stronger parasympathetic nervous system engagement."
+      },
+      {
+        q: "According to the lesson, what is the key practical detail for box breathing to be effective?",
+        options: [
+          "Breathing as fast as possible through all four phases",
+          "Maintaining a consistent count speed across all four phases — rushing the exhale or disproportionately extending any one phase reduces the technique's effectiveness",
+          "Only practicing it once per week for maximum benefit",
+          "Holding your breath until you feel dizzy"
+        ],
+        answer: 1,
+        funFact: "Box breathing's structure as four equal phases (rather than, for example, a longer exhale relative to inhale, as in some other breathing techniques) is specifically designed to be easy to count and sustain under stress — the equal-count simplicity is considered a feature, since complex breathing ratios are harder to execute correctly when someone is already in a heightened stress state."
+      }
+    ]
+  },
+  knowledge: {
+    todayILearned: {
+      name: "The Silk Road — Trade Network That Carried Goods, Ideas, and Disease Across Continents",
+      quickBite: "The Silk Road was not a single road but a sprawling network of overland and maritime trade routes connecting East Asia, Central Asia, South Asia, the Middle East, and Europe, active from roughly the 2nd century BCE through the 14th century CE. The name (coined retrospectively by 19th-century German geographer Ferdinand von Richthofen) reflects the prized Chinese silk that moved westward along the network, but the routes carried far more than textiles: spices, precious metals, gemstones, paper-making technology, gunpowder, and — critically — ideas, religions, and diseases travelled along the same corridors. Buddhism spread from India into Central and East Asia substantially via Silk Road trade routes, and the network is also widely credited as a transmission corridor for the Black Death from Central Asia into Europe in the 14th century, which is estimated to have killed between 30-60% of Europe's population. Because the term 'Silk Road' was coined centuries after the network's peak, the traders who actually moved goods along these routes had no single unified concept of it as one continuous system — it functioned more as an evolving patchwork of regional trade relationships than a centrally coordinated highway.",
+      mnemonic: "Silk Road: overland/maritime trade network, 2nd century BCE-14th century CE, connecting East Asia to Europe. Name coined retrospectively by von Richthofen (19th c.). Carried silk, spices, paper-making tech, gunpowder — AND ideas (Buddhism spread via these routes) AND disease (Black Death transmission corridor, killed 30-60% of Europe)."
+    },
+    quiz: [
+      {
+        q: "Who coined the term 'Silk Road,' and when?",
+        options: [
+          "Marco Polo, during his 13th-century travels along the route",
+          "Ferdinand von Richthofen, a 19th-century German geographer, who coined the term retrospectively long after the network's peak active period",
+          "Genghis Khan, when he unified the Mongol Empire",
+          "The Chinese Tang Dynasty government, as an official trade designation"
+        ],
+        answer: 1,
+        funFact: "Because the term 'Silk Road' was coined in the 19th century rather than used by the historical traders themselves, the people actually moving goods along these routes during antiquity and the medieval period had no single unified concept of 'the Silk Road' as one continuous system — it functioned more as an evolving patchwork of regional trade relationships than a centrally coordinated highway."
+      },
+      {
+        q: "Beyond silk, what is one major non-material consequence of Silk Road trade networks described in the lesson?",
+        options: [
+          "The Silk Road had no effect beyond moving physical goods",
+          "Buddhism spread from India into Central and East Asia substantially via Silk Road routes, and the network is also credited as a transmission corridor for the Black Death into Europe",
+          "The Silk Road was used exclusively for military conquest, not trade",
+          "The Silk Road only operated for a single decade"
+        ],
+        answer: 1,
+        funFact: "The Black Death is estimated to have killed between 30-60% of Europe's population in the mid-14th century, and historians widely trace its westward transmission to Mongol-controlled Silk Road trade and military routes — making one of history's most consequential trade networks also one of its most consequential disease-transmission corridors."
+      },
+      {
+        q: "Why does the lesson connect the Silk Road to modern globalisation debates?",
+        options: [
+          "Because modern shipping routes are physically identical to the ancient Silk Road",
+          "Because it demonstrates that long-distance trade networks have always simultaneously been engines of prosperity and vectors of vulnerability — spreading both wealth and risk across vast distances, a tension still relevant to modern supply chains",
+          "Because the Silk Road proves that all trade is harmful",
+          "Because modern economists have officially renamed global trade routes after the Silk Road"
+        ],
+        answer: 1,
+        funFact: "Several Central Asian Silk Road cities — including Samarkand and Bukhara in modern Uzbekistan — grew into major centres of scholarship and astronomy precisely because of the wealth and cross-cultural intellectual exchange the trade routes generated, illustrating the network's role in spreading knowledge alongside goods and disease."
+      }
+    ]
+  },
+  ai: {
+    aiTool: {
+      name: "Notion AI — Writing and Research Assistance Built Directly Into Your Workspace",
+      whatItDoes: "Notion AI is an integrated artificial intelligence layer built directly into the Notion workspace and notes platform, designed to assist with writing, summarising, and organising information without requiring users to switch to a separate AI tool. Core capabilities include drafting and editing text in-place within documents, summarising long pages or meeting notes into concise digests, translating content, generating action items from unstructured notes, and answering questions about content stored across a user's own Notion workspace by searching and synthesising across their existing pages. The most distinctive use case relative to general-purpose AI chat tools is this 'workspace-aware' question answering: because it can search across a user's own previously written pages, it can answer questions like 'what did we decide about the Q3 budget in last month's meeting notes?' by retrieving and synthesising the user's own historical content — a capability standalone chat tools without document access cannot replicate.",
+      mnemonic: "Notion AI: built into Notion workspace, not a separate tool. Core: drafting/editing in-place, summarising long pages, generating action items from raw notes. Distinctive: workspace-aware Q&A — searches YOUR own past pages to answer questions, which standalone chat tools without document access cannot do."
+    },
+    quiz: [
+      {
+        q: "What distinguishes Notion AI's workspace-aware question answering from a standalone general-purpose AI chat tool?",
+        options: [
+          "Notion AI can only answer questions about topics unrelated to the user's own documents",
+          "Notion AI can search across a user's own previously written Notion pages and synthesise answers from that historical content, which a standalone chat tool without access to those documents cannot do",
+          "Notion AI requires no internet connection at all",
+          "There is no functional difference between the two"
+        ],
+        answer: 1,
+        funFact: "Notion's broader product strategy of embedding AI directly into an existing all-purpose workspace tool (rather than launching a separate standalone AI product) reflects a wider industry pattern of 2023-2026: established productivity software companies layering AI capabilities into their existing user base rather than competing head-on with dedicated chat-interface AI products."
+      },
+      {
+        q: "What specific task can Notion AI perform on raw, unstructured meeting transcript text?",
+        options: [
+          "It deletes the transcript automatically after one use",
+          "It extracts action items and owners from unstructured spoken-language transcript text, converting it into a clean, assignable task list within the same document",
+          "It translates the transcript into a foreign language only",
+          "It converts the text into a spreadsheet with no other changes"
+        ],
+        answer: 1,
+        funFact: "The broader category of AI-driven meeting-to-task conversion has become common across productivity tools precisely because studies on meeting effectiveness have consistently found that action items discussed verbally but not explicitly documented and assigned have dramatically lower follow-through rates than those captured in writing with a named owner."
+      },
+      {
+        q: "What is one core capability of Notion AI described in the lesson beyond summarisation?",
+        options: [
+          "It can only format text in bold or italics",
+          "It can draft and edit text in-place within documents, translate content, and generate action items from unstructured notes",
+          "It exclusively generates images, not text",
+          "It can only be used for scheduling calendar events"
+        ],
+        answer: 1,
+        funFact: "In-place AI editing tools (suggesting rewrites or edits directly within the document being worked on, rather than requiring a separate chat window) reduce what researchers studying AI-assisted writing call 'context-switching cost' — the productivity loss from repeatedly moving attention between a writing surface and a separate AI interface and copying results back and forth."
+      }
+    ]
+  },
+  travel: {
+    destination: {
+      name: "Jordan: Petra and the Kingdom's Layered History",
+      quickFacts: "Jordan is a Middle Eastern kingdom bordered by Saudi Arabia, Iraq, Syria, Israel, and the Red Sea, distinguished by a uniquely stable political position in a historically turbulent region and by archaeological sites spanning Nabataean, Roman, Byzantine, and Islamic periods. Its most famous site, Petra, is a UNESCO World Heritage location and one of the New Seven Wonders of the World — a city carved directly into rose-coloured sandstone cliffs by the Nabataean civilisation, an Arab trading people, roughly two thousand years ago. Petra's location at the junction of key incense and spice trade routes between Arabia, the Mediterranean, and the wider Near East made it enormously wealthy as a trade hub. Its most iconic structure, Al-Khazneh (the Treasury), gained worldwide pop-culture recognition as the location of the final scenes in 'Indiana Jones and the Last Crusade' — though the facade is purely decorative, carved directly into solid rock with no significant interior chamber behind it. Beyond Petra, Jordan offers the Dead Sea — sitting at the lowest point on Earth's land surface, over 400 metres below sea level, with roughly 10 times ordinary seawater salinity that lets swimmers float effortlessly — and the desert landscape of Wadi Rum, whose Mars-like terrain has made it a frequent filming location for space-themed films including 'The Martian' and 'Dune.' The capital Amman layers Roman ruins, Ottoman-era architecture, and a modern Arab capital within a single compact city."
+    },
+    quiz: [
+      {
+        q: "What civilisation built Petra, and what made the city's location strategically valuable?",
+        options: [
+          "The Roman Empire built Petra as a military outpost",
+          "The Nabataeans, an Arab trading people, carved Petra into sandstone cliffs roughly two thousand years ago — its location at the junction of key incense and spice trade routes between Arabia, the Mediterranean, and the wider Near East made it enormously wealthy as a trade hub and waypoint",
+          "Petra was built by ancient Egyptian pharaohs as a tomb complex",
+          "Petra was constructed in the 20th century as a tourist attraction"
+        ],
+        answer: 1,
+        funFact: "Petra's most iconic structure, Al-Khazneh (the Treasury), gained worldwide pop-culture recognition as the location of the final scenes in 'Indiana Jones and the Last Crusade' (1989) — though the facade is purely decorative, carved directly into solid rock with no significant interior chamber behind it, contrary to the treasure-vault impression suggested by both the film and the structure's popular name."
+      },
+      {
+        q: "Why is the Dead Sea unique among bodies of water, and what natural phenomenon does its extreme salinity enable?",
+        options: [
+          "The Dead Sea is the largest freshwater lake in the Middle East",
+          "The Dead Sea sits at the lowest point on Earth's land surface (over 400 metres below sea level) and has roughly 10 times the salinity of ordinary seawater, making it dense enough that swimmers float effortlessly on the surface without any deliberate swimming effort",
+          "The Dead Sea is entirely man-made, created in the 1960s",
+          "The Dead Sea has no connection to any geological fault system"
+        ],
+        answer: 1,
+        funFact: "The Dead Sea sits within the Jordan Rift Valley, part of the larger Great Rift Valley system that extends from Lebanon down through East Africa — the same tectonic forces that created this rift are gradually causing the Dead Sea to shrink, as reduced inflow from the Jordan River (heavily diverted for agriculture) means evaporation now significantly outpaces replenishment, causing the water level to drop by roughly a metre annually."
+      },
+      {
+        q: "Why has Wadi Rum become a popular filming location for science fiction and space-themed movies?",
+        options: [
+          "Because it has the cheapest film permits in the Middle East",
+          "Wadi Rum's vast desert valley, dramatic sandstone and granite rock formations, and reddish Mars-like terrain closely resemble extraterrestrial landscapes, making it a frequent stand-in for Mars and other alien worlds in films such as 'The Martian' and 'Dune'",
+          "Wadi Rum is actually located outside Jordan, in a different country",
+          "It is the only desert location in the entire Middle East"
+        ],
+        answer: 1,
+        funFact: "Wadi Rum was designated a UNESCO World Heritage Site in 2011 for both its natural and cultural significance — the valley contains over 25,000 petroglyphs and inscriptions left by various civilisations over 12,000 years, documenting the area's role as both a movement corridor and a place of human settlement long before its modern cinematic fame."
+      }
+    ]
+  }
+};
+
 const ALL_BRIEFS = {
   '2026-06-01': d260601,
   '2026-06-02': d260602,
@@ -9236,6 +9704,7 @@ const ALL_BRIEFS = {
   '2026-06-26': d260626,
   '2026-06-27': d260627,
   '2026-06-28': d260628,
+  '2026-06-29': d260629,
 }
 
 // == DATA END ==
