@@ -11309,8 +11309,8 @@ export default function App() {
         )}
 
         {/* Domain content */}
+        {/* key=activeDate forces full remount on date switch — Bug 14 fix */}
         {brief && Renderer && data && (
-          {/* Date-keyed renderer: remounts fully on date change (see Bug 14 fix) */}
           <Renderer key={activeDate} data={data} color={active.color} onXP={handleQuizXP} readSet={readSet} onRead={handleRead} onProgress={handleProgress} />
         )}
         {brief && (!Renderer || !data) && (
