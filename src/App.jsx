@@ -9738,18 +9738,18 @@ const d260701 = {
             mnemonic: "US rally June 30 = Iran tone softened, Hormuz risk priced down, tech led gains, India opened higher July 1."
           }
         ],
-        globalPulse: {
-          eli5: "The world's financial markets are caught between two dominant forces right now: a fragile US-Iran ceasefire that keeps the Strait of Hormuz's fate uncertain, and a growing conviction among investors that AI is beginning to structurally disrupt the Indian IT outsourcing model. Both forces create volatility and uncertainty — but they're also creating the conditions for some of the most significant re-pricings in years.",
-          keyThings: [
-            "US-Iran ceasefire from June 17 under stress — weekend missile exchanges, Doha talks happening but officially denied",
-            "Strait of Hormuz partially blocked — 20% of world oil/gas exports affected, ships facing fees and obstruction",
-            "Nifty IT hits 3-year low — TCS, Infosys, HCL Tech at or near 52-week lows; sector down 29% YTD",
-            "TCS Chairman's AI-agent comment — 'AI agents may match employee count' — triggered the sector selloff",
-            "Wall Street rallied Monday on softer Iran tone; Indian markets opened cautiously higher July 1"
-          ]
-        }
       }
-    ]
+    ],
+    globalPulse: {
+      eli5: "The world's financial markets are caught between two dominant forces right now: a fragile US-Iran ceasefire that keeps the Strait of Hormuz's fate uncertain, and a growing conviction among investors that AI is beginning to structurally disrupt the Indian IT outsourcing model. Both forces create volatility and uncertainty — but they're also creating the conditions for some of the most significant re-pricings in years.",
+      keyThings: [
+        "US-Iran ceasefire from June 17 under stress — weekend missile exchanges, Doha talks happening but officially denied",
+        "Strait of Hormuz partially blocked — 20% of world oil/gas exports affected, ships facing fees and obstruction",
+        "Nifty IT hits 3-year low — TCS, Infosys, HCL Tech at or near 52-week lows; sector down 29% YTD",
+        "TCS Chairman's AI-agent comment — 'AI agents may match employee count' — triggered the sector selloff",
+        "Wall Street rallied Monday on softer Iran tone; Indian markets opened cautiously higher July 1"
+      ]
+    }
   },
   markets: {
     eli5: "June 30 (the last day of the first half of 2026) ended with Indian benchmarks in the red, dragged lower by a brutal IT selloff. Sensex closed at 76,478.67, down 249.70 points (-0.33%). Nifty 50 fell 80.50 points (-0.34%) to 23,865.75. But the real story was the IT sector — the Nifty IT index hit a 3-year low, with TCS, Infosys, and HCL Tech all touching 52-week lows intraday. July 1 opened higher on Iran diplomacy optimism: Sensex +185 points, Nifty near 23,917 at open.",
@@ -9984,14 +9984,34 @@ function getExpectedCards(brief, domainId) {
     if (id === 'bazaar' || id.startsWith('stock') || id === 'ipo' || id === 'lesson') return !!d.indianMarket
     return false
   })
-  if (domainId === 'wealth') return ['wealthSecret','moneyMachine','mindsetFlip','magicNumber'].filter(id => !!d[id])
-  if (domainId === 'ai') return ['toolSpotlight','workflowWin','promptOfDay','futureWatch'].filter(id => !!d[id])
+  if (domainId === 'wealth') {
+    // Bug 19 fix: support both legacy four-card layout and new moneyLesson key
+    if (d.moneyLesson) return ['moneyLesson']
+    return ['wealthSecret','moneyMachine','mindsetFlip','magicNumber'].filter(id => !!d[id])
+  }
+  if (domainId === 'ai') {
+    // Bug 24 fix: support both legacy multi-card and new aiTool key
+    if (d.aiTool) return ['aiTool']
+    return ['toolSpotlight','workflowWin','promptOfDay','futureWatch'].filter(id => !!d[id])
+  }
   if (domainId === 'travel') return ['destination','visaTip','culturalCode'].filter(id => !!d[id])
   if (domainId === 'psychology') return ['mindTrick','bodyLanguage','superpower'].filter(id => !!d[id])
   if (domainId === 'leadership') return ['leaderMove','visionarySecret','eliteHabit','sigmaWisdom'].filter(id => !!d[id])
-  if (domainId === 'communication') return ['speakingSkill','negotiationMove','officeWin','confidenceHack'].filter(id => !!d[id])
-  if (domainId === 'mind') return ['brainHack','disciplineCode','impulseKiller','bodyUpgrade'].filter(id => !!d[id])
-  if (domainId === 'knowledge') return ['mathMagic','scienceWow','historyStory','earthSecret'].filter(id => !!d[id])
+  if (domainId === 'communication') {
+    // Bug 21 fix: support both legacy multi-card and new commSkill key
+    if (d.commSkill) return ['commSkill']
+    return ['speakingSkill','negotiationMove','officeWin','confidenceHack'].filter(id => !!d[id])
+  }
+  if (domainId === 'mind') {
+    // Bug 22 fix: support both legacy multi-card and new technique key
+    if (d.technique) return ['technique']
+    return ['brainHack','disciplineCode','impulseKiller','bodyUpgrade'].filter(id => !!d[id])
+  }
+  if (domainId === 'knowledge') {
+    // Bug 23 fix: support both legacy multi-card and new todayILearned key
+    if (d.todayILearned) return ['todayILearned']
+    return ['mathMagic','scienceWow','historyStory','earthSecret'].filter(id => !!d[id])
+  }
   return []
 }
 
@@ -10163,7 +10183,7 @@ function NewsView({ data, color, onXP, readSet, onRead, onProgress }) {
   // Count total cards and read cards for progress
   const allCards = data.segments.flatMap((seg, si) => seg.stories.map((_, j) => `seg${si}-story${j}`))
   const readCount = allCards.filter(id => readSet.has(id)).length
-  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount, allCards.length, onProgress])
 
   return <div>
     {data.segments.map((seg, si) => {
@@ -10205,9 +10225,18 @@ function NewsView({ data, color, onXP, readSet, onRead, onProgress }) {
 function MarketsView({ data, color, onXP, readSet, onRead, onProgress }) {
   if (!data?.globalPulse) return null
   const im = data.indianMarket
-  const allCards = ['pulse', 'bazaar', 'stock0', 'stock1', 'stock2', 'ipo', 'lesson']
+  // Bug 20 fix: derive allCards from actual data so the total always equals
+  // the number of cards actually rendered — prevents permanent undercount when
+  // fewer than 3 breakouts are present or indianMarket is absent.
+  const allCards = [
+    data.globalPulse ? 'pulse' : null,
+    im ? 'bazaar' : null,
+    ...(im?.breakouts?.length ? im.breakouts.map((_, i) => `stock${i}`) : (im ? ['stock0'] : [])),
+    im?.ipoSpot ? 'ipo' : null,
+    im?.lessonOfDay ? 'lesson' : null,
+  ].filter(Boolean)
   const readCount = allCards.filter(id => readSet.has(id)).length
-  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount, allCards.length, onProgress])
 
   return <div>
     <Card emoji="🌊" title="The World's Money River Today" color={color} cardId="pulse" readSet={readSet} onRead={onRead}>
@@ -10292,7 +10321,7 @@ function MarketsView({ data, color, onXP, readSet, onRead, onProgress }) {
 function GenericView({ data, color, onXP, sections, readSet, onRead, onProgress }) {
   const allCards = sections.filter(sec => data?.[sec.key]).map(sec => sec.key)
   const readCount = allCards.filter(id => readSet.has(id)).length
-  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount, allCards.length, onProgress])
 
   return <div>
     {sections.map((sec, i) => {
@@ -10330,10 +10359,17 @@ function LeadView({ data, color, onXP, readSet, onRead, onProgress }) {
 }
 
 function WealthView({ data, color, onXP, readSet, onRead, onProgress }) {
+  // Bug 19 fix: briefs from d260622 onwards use 'moneyLesson' wrapper key
+  // instead of the legacy four-card layout (wealthSecret/moneyMachine/etc.).
+  if (data?.moneyLesson) {
+    return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
+      { key:'moneyLesson', emoji:'💰', titleKey:'name', eli5Key:'eli5', extraKeys:[], mnemonicKey:'mnemonic' },
+    ]} />
+  }
   if (!data?.wealthSecret) return null
   const allCards = ['wealthSecret','moneyMachine','mindsetFlip','magicNumber']
   const readCount = allCards.filter(id => readSet.has(id)).length
-  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount, allCards.length, onProgress])
   return <div>
     <Card emoji="🌱" title={data.wealthSecret.name} color={color} mnemonic={data.wealthSecret.mnemonic} cardId="wealthSecret" readSet={readSet} onRead={onRead}>
       <ELI5 text={data.wealthSecret.story} color={color} />
@@ -10363,6 +10399,14 @@ function WealthView({ data, color, onXP, readSet, onRead, onProgress }) {
 }
 
 function CommView({ data, color, onXP, readSet, onRead, onProgress }) {
+  // Bug 21 fix: briefs authored from d260622 onwards use the consolidated
+  // 'commSkill' wrapper key instead of the legacy four-card layout.
+  // Both schemas are valid — detect which is present and render accordingly.
+  if (data?.commSkill) {
+    return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
+      { key:'commSkill', emoji:'🎤', titleKey:'name', eli5Key:'eli5', extraKeys:[{label:'Real Life',key:'realLife'},{label:'Use It',key:'howToUse'}], mnemonicKey:'mnemonic' },
+    ]} />
+  }
   if (!data?.speakingSkill) return null
   return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
     { key:'speakingSkill', emoji:'🎤', titleKey:'name', eli5Key:'story', extraKeys:[{label:'Drill',key:'drill'}], mnemonicKey:'mnemonic' },
@@ -10373,6 +10417,12 @@ function CommView({ data, color, onXP, readSet, onRead, onProgress }) {
 }
 
 function MindView({ data, color, onXP, readSet, onRead, onProgress }) {
+  // Bug 22 fix: briefs from d260622 onwards use 'technique' wrapper key.
+  if (data?.technique) {
+    return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
+      { key:'technique', emoji:'🧘', titleKey:'name', eli5Key:'eli5', extraKeys:[{label:'How To Use',key:'howToUse'}], mnemonicKey:'mnemonic' },
+    ]} />
+  }
   if (!data?.brainHack) return null
   return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
     { key:'brainHack', emoji:'🚀', titleKey:'name', eli5Key:'eli5', extraKeys:[{label:'Protocol',key:'protocol'}], mnemonicKey:'mnemonic' },
@@ -10383,6 +10433,12 @@ function MindView({ data, color, onXP, readSet, onRead, onProgress }) {
 }
 
 function KnowView({ data, color, onXP, readSet, onRead, onProgress }) {
+  // Bug 23 fix: briefs from d260622 onwards use 'todayILearned' wrapper key.
+  if (data?.todayILearned) {
+    return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
+      { key:'todayILearned', emoji:'🔭', titleKey:'name', eli5Key:'eli5', extraKeys:[{label:'Fun Fact',key:'funFact'}], mnemonicKey:'mnemonic' },
+    ]} />
+  }
   if (!data?.mathMagic) return null
   return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
     { key:'mathMagic', emoji:'✨', titleKey:'concept', eli5Key:'eli5', extraKeys:[{label:'Real World',key:'realWorldUse'}], mnemonicKey:'mnemonic' },
@@ -10393,10 +10449,16 @@ function KnowView({ data, color, onXP, readSet, onRead, onProgress }) {
 }
 
 function AIView({ data, color, onXP, readSet, onRead, onProgress }) {
+  // Bug 24 fix: briefs from d260622 onwards use 'aiTool' wrapper key.
+  if (data?.aiTool) {
+    return <GenericView data={data} color={color} onXP={onXP} readSet={readSet} onRead={onRead} onProgress={onProgress} sections={[
+      { key:'aiTool', emoji:'🤖', titleKey:'name', eli5Key:'eli5', extraKeys:[{label:'Secret Move',key:'secretMove'}], mnemonicKey:'mnemonic' },
+    ]} />
+  }
   if (!data?.toolSpotlight) return null
   const allCards = ['toolSpotlight','workflowWin','promptOfDay','futureWatch']
   const readCount = allCards.filter(id => readSet.has(id)).length
-  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount, allCards.length, onProgress])
   return <div>
     <Card emoji="🤖" title={data.toolSpotlight.name} color={color} mnemonic={data.toolSpotlight.mnemonic} cardId="toolSpotlight" readSet={readSet} onRead={onRead}>
       <Tag label={data.toolSpotlight.category} color={color} />
@@ -10423,23 +10485,34 @@ function AIView({ data, color, onXP, readSet, onRead, onProgress }) {
 
 function TravelView({ data, color, onXP, readSet, onRead, onProgress }) {
   if (!data?.destination) return null
-  const allCards = ['destination','visaTip','culturalCode']
+  // Bug 16 fix: visaTip and culturalCode are absent in 25 of 30 briefs.
+  // (a) Filter allCards to only cards that exist in this brief's data.
+  // (b) All field accesses on visaTip/culturalCode now use optional chaining
+  //     so missing objects never throw TypeError.
+  const allCards = ['destination','visaTip','culturalCode'].filter(id => !!data[id])
   const readCount = allCards.filter(id => readSet.has(id)).length
-  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount])
+  useEffect(() => { onProgress(readCount, allCards.length) }, [readCount, allCards.length, onProgress])
   return <div>
-    <Card emoji="🗺️" title={`${data.destination.country} · ${data.destination.region}`} color={color} mnemonic={data.destination.mnemonic} cardId="destination" readSet={readSet} onRead={onRead}>
+    <Card emoji="🗺️" title={`${data.destination.name || data.destination.country || 'Destination'}`} color={color} mnemonic={data.destination.mnemonic} cardId="destination" readSet={readSet} onRead={onRead}>
       <ELI5 text={data.destination.eli5} color={color} />
       <ActionRow label="Best Time" text={data.destination.bestTime} color={color} />
-      <ActionRow label="Hidden Gem" text={data.destination.hiddenGem} color={color} />
+      {/* Support both 'mustDo' (new schema) and 'hiddenGem' (legacy schema) */}
+      {(data.destination.mustDo || data.destination.hiddenGem) && (
+        <ActionRow label={data.destination.mustDo ? 'Must Do' : 'Hidden Gem'} text={data.destination.mustDo || data.destination.hiddenGem} color={color} />
+      )}
     </Card>
-    <Card emoji="📋" title={`Visa: ${data.visaTip.focus}`} color={color} mnemonic={data.visaTip.mnemonic} cardId="visaTip" readSet={readSet} onRead={onRead}>
-      <ELI5 text={data.visaTip.eli5} color={color} />
-      <ActionRow label="Golden Tip" text={data.visaTip.goldenTip} color={color} />
-    </Card>
-    <Card emoji="🤲" title={`Culture: ${data.culturalCode.culture}`} color={color} mnemonic={data.culturalCode.mnemonic} cardId="culturalCode" readSet={readSet} onRead={onRead}>
-      <ActionRow label="Do This" text={data.culturalCode.doThis} color={color} />
-      <ActionRow label="Never Do" text={data.culturalCode.neverDoThis} color={C.rose} />
-    </Card>
+    {data.visaTip && (
+      <Card emoji="📋" title={`Visa: ${data.visaTip?.focus || 'Tips'}`} color={color} mnemonic={data.visaTip?.mnemonic} cardId="visaTip" readSet={readSet} onRead={onRead}>
+        <ELI5 text={data.visaTip?.eli5} color={color} />
+        <ActionRow label="Golden Tip" text={data.visaTip?.goldenTip} color={color} />
+      </Card>
+    )}
+    {data.culturalCode && (
+      <Card emoji="🤲" title={`Culture: ${data.culturalCode?.culture || 'Local Customs'}`} color={color} mnemonic={data.culturalCode?.mnemonic} cardId="culturalCode" readSet={readSet} onRead={onRead}>
+        <ActionRow label="Do This" text={data.culturalCode?.doThis} color={color} />
+        <ActionRow label="Never Do" text={data.culturalCode?.neverDoThis} color={C.rose} />
+      </Card>
+    )}
     <SectionHeader text="🧩 Test Yourself" color={color} />
     <Quiz questions={data.quiz} color={color} onXP={onXP} />
   </div>
@@ -10715,7 +10788,7 @@ function useDebounce(fn, delay) {
 }
 
 // -- Bottom Nav (mobile) ----------------------------------------------------
-function BottomNav({ domains, activeId, setActiveId, domainProgress }) {
+function BottomNav({ domains, activeId, setActiveId, domainProgress, brief, dateReadState }) {
   return (
     <div style={{
       position: 'fixed', bottom: 0, left: 0, right: 0, zIndex: 300,
@@ -10725,8 +10798,21 @@ function BottomNav({ domains, activeId, setActiveId, domainProgress }) {
     }}>
       {domains.map(d => {
         const isActive = activeId === d.id
-        const prog = domainProgress[d.id]
-        const done = prog?.total > 0 && prog.read === prog.total
+        // Bug 26 fix: derive completion from persisted readState so checkmarks
+        // survive date switches without requiring each tab to be visited first.
+        // Fall back to session domainProgress for the currently active domain
+        // (gives instant feedback on the current tick before readState flushes).
+        let done = false
+        if (brief) {
+          const expected = getExpectedCards(brief, d.id)
+          if (expected.length > 0) {
+            const readCards = dateReadState?.[d.id] || new Set()
+            done = expected.every(id => readCards instanceof Set ? readCards.has(id) : false)
+          }
+        } else {
+          const prog = domainProgress[d.id]
+          done = prog?.total > 0 && prog.read === prog.total
+        }
         return (
           <button key={d.id} onClick={() => setActiveId(d.id)} style={{
             display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
@@ -10925,13 +11011,17 @@ export default function App() {
     debouncedPush()
   }
 
-  const handleProgress = (read, total) => {
+  // Bug 27 fix: useCallback gives handleProgress a stable reference so domain
+  // view useEffects can safely include it in their dependency arrays without
+  // causing infinite re-render loops. activeId is the only captured value —
+  // setDomainProgress is stable (React guarantees dispatch identity).
+  const handleProgress = React.useCallback((read, total) => {
     setDomainProgress(prev => {
       const curr = prev[activeId]
       if (curr?.read === read && curr?.total === total) return prev
       return { ...prev, [activeId]: { read, total } }
     })
-  }
+  }, [activeId])
 
   const updateXP = (newXP) => {
     setXp(newXP)
@@ -11229,7 +11319,7 @@ export default function App() {
       </div>
 
       {/* -- MOBILE BOTTOM NAV -- */}
-      {mobile && <BottomNav domains={DOMAINS} activeId={activeId} setActiveId={(id) => { setActiveId(id); closeAll() }} domainProgress={domainProgress} />}
+      {mobile && <BottomNav domains={DOMAINS} activeId={activeId} setActiveId={(id) => { setActiveId(id); closeAll() }} domainProgress={domainProgress} brief={brief} dateReadState={readState[activeDate]} />}
 
       {/* Backdrop */}
       {(showDates || showMenu || showShareModal) && (
