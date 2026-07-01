@@ -10041,7 +10041,23 @@ function MarketsView({ data, color, onXP, readSet, onRead, onProgress }) {
       </Card>
     )}
     <Card emoji="🎟️" title={`IPO: ${im?.ipoSpot?.name}`} color={color} cardId="ipo" readSet={readSet} onRead={onRead}>
-      <div style={{ marginBottom: 10 }}><span style={{ padding: '4px 16px', borderRadius: 20, fontWeight: 800, fontSize: 13, background: im?.ipoSpot?.verdict === 'Apply' ? C.successBg : im?.ipoSpot?.verdict === 'Avoid' ? C.dangerBg : C.warnBg, color: im?.ipoSpot?.verdict === 'Apply' ? C.mint : im?.ipoSpot?.verdict === 'Avoid' ? C.rose : C.lemon }}>{im?.ipoSpot?.verdict}</span></div>
+      <div style={{ marginBottom: 10 }}>{(() => {
+        // The previous logic matched exact strings 'Apply' and 'Avoid' -
+        // neither of which ever appeared in any of the 29 briefs authored
+        // so far. Every verdict has been 'Watch', 'Learn', 'Monitor',
+        // 'Caution', etc. - all falling through to the warn/yellow branch
+        // silently, regardless of the actual recommendation (Bug 11).
+        // Now derives color from semantic signal words in the verdict string
+        // so any phrasing that conveys a positive/negative/neutral meaning
+        // maps to the right colour without requiring exact-string discipline.
+        const v = im?.ipoSpot?.verdict || ''
+        const vl = v.toLowerCase()
+        const isPositive = /\b(apply|subscribe|buy|strong)\b/.test(vl)
+        const isNegative = /\b(avoid|skip|risky|caution|do not)\b/.test(vl)
+        const bg = isPositive ? C.successBg : isNegative ? C.dangerBg : C.warnBg
+        const tc = isPositive ? C.mint : isNegative ? C.rose : C.lemon
+        return <span style={{ padding: '4px 16px', borderRadius: 20, fontWeight: 800, fontSize: 13, background: bg, color: tc }}>{v}</span>
+      })()}</div>
       <ELI5 text={im?.ipoSpot?.eli5} color={color} />
     </Card>
     <Card emoji="📖" title={im?.lessonOfDay?.title} color={color} mnemonic={im?.lessonOfDay?.mnemonic} cardId="lesson" readSet={readSet} onRead={onRead}><ELI5 text={im?.lessonOfDay?.story} color={color} /></Card>
@@ -10259,8 +10275,14 @@ function fmtDateShort(iso) {
 }
 
 function useIsMobile() {
-  const [mobile, setMobile] = useState(window.innerWidth < 640)
+  // Guard window access - reading window directly in a useState initializer
+  // throws ReferenceError in any non-browser environment (SSR, static
+  // prerendering, Node-based tests). The typeof guard makes this safe
+  // regardless of where the module is evaluated (Bug 12).
+  const getWidth = () => typeof window !== 'undefined' ? window.innerWidth : 0
+  const [mobile, setMobile] = useState(() => getWidth() < 640)
   useEffect(() => {
+    if (typeof window === 'undefined') return
     const fn = () => setMobile(window.innerWidth < 640)
     window.addEventListener('resize', fn)
     return () => window.removeEventListener('resize', fn)
@@ -10632,24 +10654,39 @@ export default function App() {
     }).catch(() => setSyncStatus('error'))
   }, [])
 
-  // Debounced push to Supabase whenever readState changes
+  // Refs always hold the latest readState and xp so the debounce timer
+  // callback and forceSync can both read the most current values at the
+  // moment they fire, rather than the snapshot that was captured in the
+  // closure when debouncedPush was called. Without this, a quiz completion
+  // firing within 1.5s of a card-read toggle could cancel the read's pending
+  // push and replace it with a snapshot taken before setReadState had
+  // committed - meaning the card-read mark would exist in localStorage but
+  // never reach Supabase (Bug 10 - stale closure lost-update).
+  const latestReadState = React.useRef(readState)
+  const latestXp = React.useRef(xp)
+  React.useEffect(() => { latestReadState.current = readState }, [readState])
+  React.useEffect(() => { latestXp.current = xp }, [xp])
+
   const debouncePushTimer = React.useRef(null)
-  const debouncedPush = React.useCallback((state, xpVal) => {
+  const debouncedPush = React.useCallback(() => {
     clearTimeout(debouncePushTimer.current)
     setSyncStatus('syncing')
     debouncePushTimer.current = setTimeout(async () => {
-      const success = await supabasePush(state, xpVal)
-      // Previously this set 'synced' unconditionally regardless of the
-      // actual outcome - a rejected or failed write would still show a
-      // green "synced" cloud icon. Now it reflects what really happened.
+      // Read from refs - always the most current committed values, not the
+      // closure snapshot from when this debounced call was scheduled.
+      const success = await supabasePush(latestReadState.current, latestXp.current)
       setSyncStatus(success ? 'synced' : 'error')
       if (success) setLastSynced(new Date().toLocaleTimeString())
     }, 1500)
   }, [])
 
   const forceSync = async () => {
+    // Cancel any pending debounce timer so the manual sync and the queued
+    // auto-sync don't race each other with no ordering guarantee (Bug 13).
+    // forceSync always wins - it fires immediately with the latest ref values.
+    clearTimeout(debouncePushTimer.current)
     setSyncStatus('syncing')
-    const success = await supabasePush(readState, xp)
+    const success = await supabasePush(latestReadState.current, latestXp.current)
     setSyncStatus(success ? 'synced' : 'error')
     if (success) setLastSynced(new Date().toLocaleTimeString())
   }
@@ -10663,7 +10700,7 @@ export default function App() {
     const newState = { ...readState, [activeDate]: dateMap }
     setReadState(newState)
     saveLocal(newState)
-    debouncedPush(newState, xp)
+    debouncedPush()
   }
 
   const handleProgress = (read, total) => {
@@ -10677,7 +10714,7 @@ export default function App() {
   const updateXP = (newXP) => {
     setXp(newXP)
     saveXP(newXP)
-    debouncedPush(readState, newXP)
+    debouncedPush()
   }
 
   // Award quiz XP only once per (date:domain); credits improvement, blocks farming.
@@ -10961,7 +10998,8 @@ export default function App() {
 
         {/* Domain content */}
         {brief && Renderer && data && (
-          <Renderer data={data} color={active.color} onXP={handleQuizXP} readSet={readSet} onRead={handleRead} onProgress={handleProgress} />
+          {/* Date-keyed renderer: remounts fully on date change (see Bug 14 fix) */}
+          <Renderer key={activeDate} data={data} color={active.color} onXP={handleQuizXP} readSet={readSet} onRead={handleRead} onProgress={handleProgress} />
         )}
         {brief && (!Renderer || !data) && (
           <div style={{ textAlign: 'center', padding: '40px', color: C.muted, fontSize: 14 }}>Content not available for this section.</div>
