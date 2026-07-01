@@ -9712,6 +9712,227 @@ const d260629 = {
   }
 };
 
+const d260701 = {
+  news: {
+    segments: [
+      {
+        name: "🌐 What's happening with countries?",
+        color: "#a0d4f5",
+        stories: [
+          {
+            headline: "Hormuz Talks in Doha: US and Iran Both in Qatar, Both Denying They're Meeting",
+            eli5: "The US-Israel war on Iran began on February 28, 2026 and a ceasefire was signed on June 17. But it's already fraying. Over the last weekend, both sides fired missiles at each other — US/Israeli strikes hit Iranian targets, Iran hit US naval assets. Now both American and Iranian teams are physically in Doha, Qatar on July 1 — but Iran officially says there's no meeting with the Americans. Trump announced 'IRAN HAS REQUESTED A MEETING. IT WILL TAKE PLACE TOMORROW IN DOHA!' Iran's foreign ministry replied 'We will not have any negotiation meetings at any level with the American side in the coming days.' Qatar's position: it holds roughly $12 billion of frozen Iranian funds in its banks, giving it enormous leverage as mediator. The actual talks appear to be happening indirectly — through Qatari and Pakistani go-betweens. A senior Iranian official told Reuters that Iran has agreed 'in principle' to dispose of its highly enriched uranium and open the Strait of Hormuz in exchange for the US lifting its naval blockade on Iranian ports. That would be transformative. For now the strait is still partially blocked, disrupting global oil flows and keeping energy markets on edge.",
+            whyItMatters: "The Strait of Hormuz is the neck of a bottle through which around one-fifth of the world's oil and gas exports pass every day. When it's blocked or threatened, global energy prices move, insurance costs spike, and shipping routes get redrawn. The stakes of this particular meeting — or non-meeting — are as high as anything in global markets right now.",
+            mnemonic: "Doha July 1 = US and Iran both in Qatar, officially not talking, unofficially negotiating the Strait that carries 20% of world oil."
+          },
+          {
+            headline: "India's IT Sector Hits a Three-Year Low as AI Disruption Fear Grips Markets",
+            eli5: "The Nifty IT index fell over 2% on June 30, hitting a three-year low at 26,425. That's a 29% decline year-to-date and a 42% drop from its all-time high in December 2024. The trigger was a remark by TCS Chairman N. Chandrasekaran earlier in the week that the company expects its number of deployed AI agents to eventually match its 600,000-person workforce. He framed it as augmentation, not replacement — but markets heard it as confirmation that the traditional outsourcing model, where Indian IT companies charge global corporations for human software work at scale, is under structural pressure. If AI agents can do what armies of analysts and coders used to do, the demand for those armies shrinks. TCS, Infosys, HCL Tech, and Wipro all hit 52-week lows during intraday trading on June 30. The five IT heavyweights in the Nifty 50 now collectively weigh less than 7.6% of the index — the lowest since 2002, when they used to account for over a fifth.",
+            whyItMatters: "India's IT sector employs over 5 million people and is the country's single largest source of foreign exchange earnings. When investors re-rate the sector this aggressively — pricing in slower revenue growth, weaker margins, and AI-driven demand destruction — it signals a genuine structural reckoning, not just a bad quarter.",
+            mnemonic: "Nifty IT June 30 = 26,425 three-year low. AI agents may outnumber TCS employees. The outsourcing model under structural audit."
+          },
+          {
+            headline: "Wall Street Rallied on Monday as Iran Softened Its Tone",
+            eli5: "US equity markets closed sharply higher on Monday June 30 after Iran's signalling of willingness to send delegations to Doha reduced the most acute fears of an immediate Hormuz escalation. Technology stocks led the US rally, which set a positive tone heading into Wednesday's July 4 holiday-shortened trading week. That Wall Street strength, combined with the softer Iran rhetoric, pushed Indian markets slightly higher at the open on July 1 — Sensex was up 185 points at 09:20 IST at 76,663.",
+            whyItMatters: "Geopolitics and oil are the dominant variables in Indian markets right now. When Hormuz risk appears to ease even marginally, capital flows back into risk assets and the gap between fundamentals and fear-driven pricing narrows.",
+            mnemonic: "US rally June 30 = Iran tone softened, Hormuz risk priced down, tech led gains, India opened higher July 1."
+          }
+        ],
+        globalPulse: {
+          eli5: "The world's financial markets are caught between two dominant forces right now: a fragile US-Iran ceasefire that keeps the Strait of Hormuz's fate uncertain, and a growing conviction among investors that AI is beginning to structurally disrupt the Indian IT outsourcing model. Both forces create volatility and uncertainty — but they're also creating the conditions for some of the most significant re-pricings in years.",
+          keyThings: [
+            "US-Iran ceasefire from June 17 under stress — weekend missile exchanges, Doha talks happening but officially denied",
+            "Strait of Hormuz partially blocked — 20% of world oil/gas exports affected, ships facing fees and obstruction",
+            "Nifty IT hits 3-year low — TCS, Infosys, HCL Tech at or near 52-week lows; sector down 29% YTD",
+            "TCS Chairman's AI-agent comment — 'AI agents may match employee count' — triggered the sector selloff",
+            "Wall Street rallied Monday on softer Iran tone; Indian markets opened cautiously higher July 1"
+          ]
+        }
+      }
+    ]
+  },
+  markets: {
+    eli5: "June 30 (the last day of the first half of 2026) ended with Indian benchmarks in the red, dragged lower by a brutal IT selloff. Sensex closed at 76,478.67, down 249.70 points (-0.33%). Nifty 50 fell 80.50 points (-0.34%) to 23,865.75. But the real story was the IT sector — the Nifty IT index hit a 3-year low, with TCS, Infosys, and HCL Tech all touching 52-week lows intraday. July 1 opened higher on Iran diplomacy optimism: Sensex +185 points, Nifty near 23,917 at open.",
+    indexClose: {
+      sensex: { value: 76478.67, change: -249.70, pct: -0.33 },
+      nifty: { value: 23865.75, change: -80.50, pct: -0.34 }
+    },
+    indianMarket: {
+      breakouts: [
+        {
+          name: "TCS — Tata Consultancy Services",
+          ticker: "TCS",
+          halal: true,
+          sector: "IT Services",
+          buyPrice: "Rs.2,031",
+          sellPrice: "Rs.2,275",
+          stopLoss: "Rs.1,869",
+          whyExciting: "TCS hit its 52-week low of Rs.2,037 intraday on June 30, closing at Rs.2,031. The stock has fallen 42% from its December 2024 all-time high of Rs.3,490 — pricing in a severe disruption scenario that may be overdone. TCS is debt-free, generates over Rs.50,000 crore in annual free cash flow, and pays a near-6% dividend yield at current prices. The AI agent narrative from Chairman Chandrasekaran is real, but TCS is also one of the companies best-positioned to monetise AI services directly — its annualised AI revenue is already $1.8 billion and growing. Board meeting is scheduled for July 9, with an interim dividend likely. A value contra-entry at multi-year lows, for patient capital.",
+          risk: "Structural: if AI genuinely displaces large portions of IT services headcount, earnings could re-rate lower over 3-5 years. Near-term: US recession fears or further Hormuz disruption would weigh on global tech spending."
+        },
+        {
+          name: "Infosys — INFY",
+          ticker: "INFY",
+          halal: true,
+          sector: "IT Services",
+          buyPrice: "Rs.1,000",
+          sellPrice: "Rs.1,120",
+          stopLoss: "Rs.920",
+          whyExciting: "Infosys closed at Rs.1,000.40 on June 30 — a psychologically significant level and effectively the stock's 52-week low (Rs.996). The company posted a 27.75% jump in net profit in Q4 FY26 to Rs.8,501 crore, and carries a 4.8% dividend yield at current prices. Its strategic collaboration with Anthropic (Claude) for enterprise AI positions it as a beneficiary rather than a pure victim of the AI transition. The market cap of Rs.4.19 lakh crore at these levels represents a PE of just 14.26x — the lowest Infosys has traded at since the post-COVID dip. Breach of Rs.1,000 support would be a technical trigger watched by institutional traders.",
+          risk: "Same structural AI disruption risk as TCS. Infosys is more concentrated in discretionary IT spending by US financial services clients — if US growth slows, deal wins slow. Q1 FY27 results (July) will be the next major catalyst."
+        },
+        {
+          name: "HCL Technologies — HCLTECH",
+          ticker: "HCLTECH",
+          halal: true,
+          sector: "IT Services & Products",
+          buyPrice: "Rs.1,072",
+          sellPrice: "Rs.1,201",
+          stopLoss: "Rs.987",
+          whyExciting: "HCL Tech closed at Rs.1,071.80 on June 30, near its 52-week low of Rs.1,068.60. Unlike TCS and Infosys which are pure services companies, HCLTech has a significant software products business (HCLSoftware) that generates high-margin recurring revenue — roughly 20% of total revenue — which is more resilient to AI-driven services disruption. It also invested Rs.1,427 crore into Sarvam AI (India's leading LLM startup) for a 10.46% stake, making it a direct AI infrastructure play. Board meeting on July 13. FY27 guidance: revenue growth of 1.5%-4.5% in constant currency, EBIT margins of 17.5%-18.5%. Dividend yield is 5.04% at current prices.",
+          risk: "Its telecom client vertical is showing near-term revenue drag. JP Morgan has an underweight rating. The software products business faces competition from global SaaS players. AI compressing deal economics is a company-acknowledged headwind."
+        }
+      ],
+      nonHalalContrast: {
+        name: "ITC Limited — Tobacco, Hotels & FMCG Conglomerate",
+        ticker: "ITC",
+        halal: false,
+        halalReason: "ITC's largest revenue segment is cigarettes and tobacco products — a category explicitly prohibited in Islamic finance. The tobacco business contributes approximately 45% of ITC's total revenue and the majority of its profits. Even though ITC also operates hotels, agribusiness, and FMCG brands, the core earnings engine is tobacco, which makes the stock non-permissible under standard halal screening criteria regardless of its other business lines.",
+        teachingPoint: "This is a lesson in conglomerate screening. ITC looks diversified — it owns the Wills and Gold Flake cigarette brands but also Classmate notebooks, Sunfeast biscuits, Aashirvaad atta, and ITC hotels. A naive screen that just looks at 'FMCG' or 'hotels' in the company description could classify it as halal. The correct screen always goes to revenue attribution: where does the money actually come from? For ITC, nearly half comes from a prohibited activity, which disqualifies the entire stock regardless of the other segments.",
+        price: "Rs.433"
+      },
+      ipoSpot: {
+        name: "No major mainboard IPO — F&O expiry week",
+        verdict: "Watch",
+        eli5: "June 30 was the monthly F&O (Futures and Options) expiry for June contracts — a day dominated by derivatives settlement rather than primary market activity. No significant mainboard IPO is open or listing this week. The SME IPO pipeline remains active but outside the scope of this brief's Zerodha-eligible watchlist. Next major IPOs expected post-Q1 results season (August)."
+      },
+      lessonOfDay: {
+        title: "The PE Ratio — What You're Paying Per Rupee of Earnings",
+        story: "The Price-to-Earnings ratio (PE) is the most widely cited valuation metric in equity markets. It answers one question: for every rupee of annual profit a company earns, how many rupees are you paying today to own a share of that profit stream? A PE of 15 means you're paying Rs.15 for every Re.1 of annual earnings. A PE of 40 means you're paying Rs.40. Neither is automatically good or bad — context matters enormously. Growth companies trade at high PEs because investors are paying for future earnings, not just current ones. Cyclical companies (steel, cement) often trade at low PEs at their earnings peaks, which can be a trap rather than a bargain. The Indian IT sector is trading at 14-15x PE right now — historically low for these companies, which regularly traded at 25-30x during their growth years. Whether that represents value or a value trap depends on whether the earnings stay stable or contract further due to AI disruption. PE is not a buy signal. It is context.",
+        mnemonic: "PE = price per rupee of earnings. Low PE only means cheap if earnings hold. High PE only means expensive if growth disappoints."
+      }
+    }
+  },
+  psychology: {
+    mindTrick: {
+      name: "The Dunning-Kruger Effect — Why the Least Competent People Are Often the Most Confident",
+      eli5: "In 1999, psychologists David Dunning and Justin Kruger published a study showing a counterintuitive finding: people with low competence in a skill tend to dramatically overestimate their own ability, while people with high competence tend to underestimate theirs. The mechanism is elegantly simple. To accurately assess your performance in any domain, you need the same skills that would make you good at that domain in the first place. If you don't know enough to be good at chess, you also don't know enough to recognise how bad you are. The gap between 'what I actually know' and 'what I think I know' is widest at the beginning of learning anything — beginners feel extremely confident, then hit a wall of humility as they learn more, then gradually rebuild justified confidence as expertise deepens. This is sometimes called the 'peak of Mount Stupid', followed by the 'valley of despair', followed by the slow climb to genuine competence.",
+      realLife: "The classic Dunning-Kruger setting is investing. Someone reads one book about stocks and immediately feels they understand the market better than professionals who have studied it for decades. They make bold, concentrated bets — and sometimes win, early, by luck — which reinforces their confidence. The correction, when it arrives, is often severe. The most dangerous investor in any room is not the cautious experienced one but the enthusiastic beginner who has just had one lucky trade. Another example: the new employee at a company who, in their first week, knows exactly how everything should be fixed. By month six, they understand why those problems are hard. By year three, they might actually have a solution.",
+      mnemonic: "Dunning-Kruger = you need skill to know you lack skill. Peak confidence at lowest competence. Humility arrives with knowledge."
+    },
+    bodyLanguage: {
+      signal: "The Microexpression Flash — Reading the Face That Someone Immediately Tries to Hide",
+      eli5: "Microexpressions are facial expressions that last between 1/25th and 1/5th of a second — so fast they're nearly impossible to fake or consciously suppress. They occur when a genuine emotion leaks through before the person's conscious control kicks in to mask it. Psychologist Paul Ekman identified seven universal microexpressions — happiness, sadness, anger, fear, disgust, contempt, and surprise — that appear to be cross-cultural. In negotiations, sales meetings, or high-stakes conversations, microexpressions can reveal the gap between what someone says and what they actually feel. A flash of contempt before someone says 'that's a great idea' is very different information from a genuine smile.",
+      howToUse: "You can't reliably catch microexpressions in real time without specific training — but you can train yourself to slow down your processing of key moments. When you ask someone for their honest opinion on your work, pay close attention to the first half-second of their face before they start speaking. That involuntary flash is often more informative than the two-minute response that follows.",
+      mnemonic: "Microexpression = 1/25th second truth before the mask goes on. Seven universals. Flash of contempt before 'great idea' is signal, not courtesy."
+    },
+    superpower: {
+      name: "Intellectual Humility — The Discipline of Knowing What You Don't Know",
+      story: "Intellectual humility is not the same as low self-confidence. It's the specific skill of holding your current beliefs as provisional, remaining genuinely open to evidence that contradicts them, and updating your views when the evidence warrants — without feeling that updating is a personal defeat. The Dunning-Kruger effect is essentially a failure of intellectual humility at the stage when people know just enough to be dangerous. People with high intellectual humility are, paradoxically, better at defending their views under challenge — because they've stress-tested those views themselves and know exactly where the weaknesses are. They also tend to make better forecasters, better investors, and better leaders, because they build in margins of error rather than projecting false certainty.",
+      shield: "The trap is confusing intellectual humility with intellectual weakness. Saying 'I might be wrong' can become a way of never committing to anything and avoiding accountability for a view. True intellectual humility means holding views with appropriate confidence — neither more nor less than the evidence warrants.",
+      mnemonic: "Intellectual humility = provisional beliefs, genuine openness, update without ego. Not weakness. The best forecasters score high on this trait."
+    },
+    quiz: [
+      { q: "What is the Dunning-Kruger Effect?", options: ["Experts always outperform beginners", "People with low competence overestimate their ability because they lack the skills to recognise their own gaps", "Confidence always decreases as knowledge increases", "Only beginners make mistakes in complex domains"], answer: 1, funFact: "David Dunning himself has noted the effect applies to everyone in domains where they're beginners — including the researchers who discovered it." },
+      { q: "A microexpression typically lasts:", options: ["2-3 seconds", "About half a second", "Between 1/25th and 1/5th of a second", "One full second"], answer: 2, funFact: "Paul Ekman trained himself and others to detect microexpressions reliably — but it required thousands of hours of deliberate practice using slow-motion video." },
+      { q: "Intellectual humility means:", options: ["Agreeing with everyone to avoid conflict", "Holding beliefs as provisional and updating them when evidence warrants, without ego", "Never expressing a strong opinion", "Deferring to authority on all matters"], answer: 1, funFact: "Studies on elite forecasters (Philip Tetlock's superforecasters) found that intellectual humility — specifically the willingness to update beliefs — was the single strongest predictor of forecasting accuracy." }
+    ]
+  },
+  leadership: {
+    leaderMove: {
+      name: "First Principles Thinking — Breaking Any Problem Down to Its Irreducible Truths",
+      eli5: "First principles thinking is a reasoning method where you refuse to accept the existing framework for a problem and instead break it all the way down to the most basic, provable facts — then build your answer back up from there. It's the opposite of reasoning by analogy, where you think 'this situation is like that previous situation, so I'll do what worked there.' Elon Musk popularised the phrase by explaining how SpaceX approached rocket manufacturing: instead of asking 'how much does a rocket cost?', they asked 'what are the fundamental materials that make up a rocket and what do those materials cost?' When they did that, they found that the raw material cost of a rocket was about 2% of the market price — which meant 98% was overhead, convention, and inefficiency. The same logic applies in business, career decisions, and problem-solving. Ask: what is actually, provably true here, stripped of all assumptions? Build your solution from that foundation.",
+      realLife: "When building Curio Brief itself — if you'd asked 'what does a good daily brief cost to produce?', the answer might have been 'editorial teams, researchers, designers, subscriptions'. First principles: what do I actually need? Verified facts, clear explanations, structured domains, consistent delivery. AI agents can produce that at near-zero marginal cost. The entire traditional media infrastructure was built around scarcity of knowledge production. The scarcity no longer exists.",
+      mnemonic: "First principles = strip all assumptions. What is provably true? Build from there. SpaceX: rocket materials = 2% of market price. 98% was convention."
+    },
+    quiz: [
+      { q: "First principles thinking is best described as:", options: ["Learning from analogous historical situations", "Stripping assumptions and building reasoning from provable fundamentals", "Following established industry best practices", "Consulting experts before making decisions"], answer: 1, funFact: "Aristotle described first principles (archai) as the foundational propositions from which all other knowledge in a domain is derived — Musk didn't invent the concept, but he made it famous in modern business contexts." },
+      { q: "The opposite of first principles thinking is:", options: ["Scientific method", "Reasoning by analogy", "Deductive logic", "Systems thinking"], answer: 1, funFact: "Most business decisions are made by analogy — 'this worked at Amazon, let's try it here' — which can be useful but prevents breakthrough thinking that challenges the underlying model." },
+      { q: "SpaceX used first principles to discover that rocket raw materials cost approximately:", options: ["50% of the market price", "25% of the market price", "2% of the market price", "10% of the market price"], answer: 2, funFact: "This insight led SpaceX to build its own rocket manufacturing operations rather than buy components from incumbent aerospace suppliers — cutting launch costs by over 90% compared to legacy providers." }
+    ]
+  },
+  wealth: {
+    moneyLesson: {
+      name: "Dividend Yield — The Passive Income Hidden Inside Bear Markets",
+      eli5: "A dividend yield is calculated by dividing a company's annual dividend payment per share by its current share price, expressed as a percentage. If a company pays Rs.100 per share annually in dividends and the share price is Rs.2,000, the dividend yield is 5%. Here's the counterintuitive fact that most retail investors miss: dividend yields rise when share prices fall. The same company paying the same Rs.100 per share annual dividend looks like a 2.5% yield when the stock is at Rs.4,000 — but a 5% yield when it falls to Rs.2,000. India's IT sector is currently offering historically high dividend yields precisely because share prices have crashed. TCS is yielding nearly 6% at current prices. Infosys nearly 5%. For long-term investors who believe in these businesses, the bear market has essentially created a dividend-paying entry point — you collect the dividends while waiting for the price recovery.",
+      mnemonic: "Dividend yield = annual dividend ÷ price. Price falls, yield rises. Bear markets are dividend yield opportunities for patient investors."
+    },
+    quiz: [
+      { q: "If a company pays Rs.50 annual dividend and its share price is Rs.1,000, the dividend yield is:", options: ["0.5%", "5%", "50%", "0.05%"], answer: 1, funFact: "The average dividend yield of the Nifty 50 historically sits around 1.2-1.5%. A yield above 4-5% from a large, stable company is historically unusual and often signals either a buying opportunity or the market pricing in a dividend cut." },
+      { q: "When a share price falls (assuming the same dividend is maintained), the dividend yield:", options: ["Stays the same", "Falls", "Rises", "Becomes negative"], answer: 2, funFact: "This is why Warren Buffett has said he likes bear markets for the companies he already owns — the yield on his original cost basis keeps rising as the company keeps raising dividends, even while prices fall." },
+      { q: "TCS's approximate dividend yield at its June 30 2026 closing price of Rs.2,031 is:", options: ["1%", "6%", "10%", "2%"], answer: 1, funFact: "TCS paid a total dividend of approximately Rs.122 per share in FY26, giving it roughly a 6% yield at Rs.2,031. This compares to an Indian 10-year government bond yield of around 6.5% — making TCS dividend-competitive with government bonds, which is historically rare for a growth stock." }
+    ]
+  },
+  communication: {
+    commSkill: {
+      name: "The Steel Man — Arguing the Opposing View Better Than Its Advocates Do",
+      eli5: "Most of us have heard of the straw man fallacy — when you misrepresent someone's argument in a weakened form so it's easy to knock down. The steel man is the opposite practice: deliberately constructing the strongest possible version of the opposing argument, even stronger than the person making it might have articulated themselves, before responding. The steel man forces you to genuinely understand why intelligent people disagree with you, and to address the actual best case for the other side rather than a convenient caricature of it. It makes you far harder to dismiss in debates, because you've already pre-empted the strongest counter-arguments. It also frequently changes your own mind — building the steel man sometimes reveals that the opposition is actually right.",
+      realLife: "Before criticising the market's re-rating of Indian IT stocks, steel-man the bear case: if AI agents can genuinely handle software development, testing, support, and maintenance at 10% of the current cost, then the addressable market for Indian IT services doesn't just grow more competitive — it structurally shrinks. The clients who previously outsourced 500-person projects may genuinely only need 50-person projects in three years. That's not a sentiment trade. It's an earnings revision. Building that argument honestly makes you a better analyst of where TCS and Infosys actually are.",
+      mnemonic: "Steel man = build the strongest version of the opposing argument. Harder to dismiss in debates. Often changes your own mind."
+    },
+    quiz: [
+      { q: "A steel man argument is:", options: ["A very stubborn position", "The strongest possible version of the opposing view, constructed honestly", "An argument with no logical weaknesses", "Repeating your own argument with more force"], answer: 1, funFact: "The technique is related to what philosopher Daniel Dennett calls 'Rapoport's Rules' — a set of guidelines for criticism that begin with restating the other person's position so clearly that they'd say 'I wish I'd said it that way myself'." },
+      { q: "The opposite of a steel man is:", options: ["A straw man", "A red herring", "An ad hominem", "A false dilemma"], answer: 0, funFact: "The straw man fallacy is one of the most common in political discourse — simplified, misrepresented positions are far easier to attack than the actual, nuanced versions of the argument." },
+      { q: "Which of these best describes why the steel man technique is valuable?", options: ["It always proves you are right", "It saves time by ignoring opposing views", "It forces genuine understanding of opposing arguments and often reveals where you might be wrong", "It makes debates shorter"], answer: 2, funFact: "Some of history's greatest thinkers — including John Stuart Mill — argued that a person who knows only their own side of an argument knows little even of that. Steel-manning is how you know both sides." }
+    ]
+  },
+  mind: {
+    technique: {
+      name: "The Two-Minute Rule — Starting Is Almost Everything",
+      eli5: "Productivity researcher David Allen's two-minute rule states: if a task takes less than two minutes to complete, do it immediately rather than adding it to a to-do list. The reasoning is practical — the overhead of capturing, prioritising, and returning to a task often exceeds the cost of just doing it now. But the rule has a broader variant popularised by James Clear: if you're struggling to start a large task, commit to doing it for just two minutes. Not completing it. Just starting. The insight is that starting is the hardest part of most tasks. Inertia is the main obstacle. Once you've begun — opened the document, written the first sentence, done the first set — the activation energy for continuing is much lower than the activation energy for beginning. Two minutes almost always turns into much more.",
+      howToUse: "When you're procrastinating on something — a brief to write, a workout to start, an email to send — tell yourself you only have to do it for two minutes. Set a literal timer if it helps. The goal is to break inertia, not complete the task. Most of the time, you'll keep going. Even when you don't, two minutes of progress is better than none.",
+      mnemonic: "Two-minute rule: tasks under 2 minutes → do now. Big tasks you're avoiding → commit to 2 minutes only. Inertia is the obstacle, not the task."
+    },
+    quiz: [
+      { q: "The original David Allen two-minute rule states:", options: ["Never spend more than two minutes on email", "If a task takes less than two minutes, do it immediately rather than scheduling it", "Split all large tasks into two-minute chunks", "Take a two-minute break every hour"], answer: 1, funFact: "Allen's Getting Things Done (GTD) system is one of the most influential productivity frameworks ever written. The two-minute rule is often cited as the single most immediately actionable insight from the book." },
+      { q: "The James Clear extension of the two-minute rule is primarily about:", options: ["Completing tasks faster", "Breaking inertia by committing to only two minutes of a difficult task", "Scheduling tasks into two-minute blocks", "Delegating tasks that take under two minutes"], answer: 1, funFact: "Clear notes in Atomic Habits that 'the most important thing is showing up' — a two-minute workout is infinitely better than no workout, and 99% of the time it becomes a 20-minute workout once started." },
+      { q: "The psychological mechanism the two-minute rule exploits is:", options: ["Parkinson's Law", "The Zeigarnik Effect", "Activation energy and inertia — starting is the hardest part", "The planning fallacy"], answer: 2, funFact: "Research shows that beginning a task engages the brain's dopamine reward system — once started, the desire to complete the task becomes intrinsically motivating, which is why stopping after two minutes feels harder than it sounds." }
+    ]
+  },
+  knowledge: {
+    todayILearned: {
+      name: "Compound Interest — The Mathematical Force That Turns Small Consistent Actions Into Large Outcomes",
+      eli5: "Compound interest is the process by which interest earns interest. When you invest Rs.10,000 at 10% annual return, after year one you have Rs.11,000. In year two, you earn 10% on Rs.11,000 — not on the original Rs.10,000 — giving you Rs.12,100. The extra Rs.100 came from interest on interest. Over time, this compounding effect becomes enormous. The same Rs.10,000 left compounding at 10% annually for 30 years grows to Rs.1,74,494 — nearly 17.5x the original amount. For 40 years: Rs.4,52,592. The key insight is that compound interest is not a financial instrument — it's a mathematical principle that applies to any accumulating system: knowledge, skills, audience size, reputation, health. Every field you master compounds on itself. Every habit practiced daily compounds. Albert Einstein (likely apocryphally) is said to have called compound interest the eighth wonder of the world — those who understand it earn it, those who don't pay it.",
+      funFact: "The Rule of 72 gives a quick estimate of how long it takes money to double at a given interest rate: divide 72 by the annual rate. At 6%, money doubles every 12 years. At 12%, every 6 years. At 1% (a typical savings account), every 72 years.",
+      mnemonic: "Compound interest = interest on interest. Rs.10,000 at 10% for 40 years = Rs.4.5 lakh. The Rule of 72: divide 72 by rate to find doubling time."
+    },
+    quiz: [
+      { q: "Compound interest differs from simple interest because:", options: ["It pays a higher fixed rate", "Interest is calculated only on the original principal", "Interest is earned on both the principal and previously accumulated interest", "It requires a minimum investment period of 10 years"], answer: 2, funFact: "A simple interest investment of Rs.10,000 at 10% for 30 years would return Rs.40,000 (Rs.10,000 original + Rs.30,000 interest). Compound interest at the same rate returns Rs.1,74,494 — over four times more." },
+      { q: "Using the Rule of 72, how long does it take money to double at an 8% annual return?", options: ["8 years", "9 years", "12 years", "16 years"], answer: 1, funFact: "72 ÷ 8 = 9 years. This rule was first described in a mathematics text in 1494 by Luca Pacioli — a contemporary and collaborator of Leonardo da Vinci." },
+      { q: "Compound interest as a principle applies to:", options: ["Only financial investments", "Only bank savings accounts", "Any accumulating system — skills, knowledge, habits, and relationships as well as money", "Only long-term investments over 20+ years"], answer: 2, funFact: "Naval Ravikant describes compound knowledge as 'the best investment' — every book you read compounds on the last, and insights compound across domains. The returns are non-linear and take years to show up, just like financial compounding." }
+    ]
+  },
+  ai: {
+    aiTool: {
+      name: "Cursor — The Code Editor With an AI That Writes Alongside You",
+      category: "Coding",
+      eli5: "Cursor is a code editor — like Microsoft Word but for software developers — that has an AI model built directly inside the editing environment. You write code, the AI suggests the next lines in real time. You describe what you want in plain English ('create a function that takes a date string and returns the day of the week'), and the AI writes it. You can highlight broken code and ask 'why isn't this working?' and the AI explains and fixes it. Its Composer mode lets you describe an entire feature in natural language and it builds all the necessary files. Cursor reached $100 million in annual recurring revenue faster than almost any developer tool in history, adopted simultaneously by solo developers and major technology companies. For non-programmers, it is the most accessible entry point into building working software that currently exists.",
+      secretMove: "Use Cursor's Agent mode for multi-file tasks. Don't ask it to write one function — describe the entire feature. 'I need a form that validates an email address, shows an error if invalid, and saves to a database on submit.' Cursor writes all the files, handles the database connection, and wires everything together. Then ask it to write the test cases for what it just built. This is how non-programmers are now building tools that would have required a full-stack developer two years ago.",
+      mnemonic: "Cursor = AI pair programmer inside your editor. Describe features in English, get working code. $100M ARR — the fastest developer tool in history."
+    },
+    quiz: [
+      { q: "Cursor is best described as:", options: ["A standalone AI chatbot for programmers", "A code editor with AI built directly inside it that writes, explains, and fixes code alongside you", "A website that generates code from descriptions", "A debugging tool only"], answer: 1, funFact: "Cursor was built by Anysphere, a small team that bet that the future of coding is AI-native editors rather than AI plugins added to existing editors. The bet appears to be paying off — GitHub Copilot, the plugin approach, is losing market share to Cursor." },
+      { q: "Cursor's Composer mode is primarily useful for:", options: ["Fixing single typos", "Writing comments in code", "Building entire features from plain English descriptions — handling multiple files at once", "Formatting code style"], answer: 2, funFact: "The Composer mode is what allows non-developers to build full working applications. A typical session: describe the feature, Cursor builds it, you ask it to fix whatever doesn't work, it fixes it — the loop continues until the feature works." },
+      { q: "The most significant impact of Cursor (and similar AI coding tools) is:", options: ["Making existing developers write code faster", "Eliminating the need for any human judgment in software", "Lowering the skill threshold for building working software — non-programmers can now build real tools", "Replacing all senior developers immediately"], answer: 2, funFact: "Y Combinator reported in 2026 that the majority of their portfolio startups' codebases were now being written with AI assistance. Several successful startups have shipped production code with non-technical founders using Cursor as their primary development tool." }
+    ]
+  },
+  travel: {
+    destination: {
+      name: "Oman — Arabia's Most Civilised Secret and the Gateway the World Overlooked",
+      region: "Middle East",
+      eli5: "Oman is the Arabian Peninsula's quiet achiever. While its neighbours built skylines and sports cars, Oman built a reputation for safety, civility, and extraordinary natural variety. The country runs from the Musandam Peninsula in the north — a series of dramatic fjords that slice into the Strait of Hormuz — to the Empty Quarter desert in the west, and a 3,165-kilometre coastline along the Arabian Sea and Gulf of Oman. Muscat, the capital, is a low-rise city of white buildings built into mountains overlooking a blue bay — one of the few Arabian capitals with genuine character rather than imported spectacle. Oman hosted both the Iranian nuclear negotiations and the Yemen peace talks of recent years, quietly cementing its status as the region's preferred diplomatic venue. For the halal-conscious traveller, it is near-perfect: 90% Muslim, conservative but welcoming, no nightclub economy to navigate.",
+      mustDo: "Drive the Hajar Mountains from Muscat to Nizwa — a 165-kilometre route through dramatic wadis, ancient forts, and traditional souqs where silver jewellery is still made by hand. Nizwa Fort (built in 1668) is the most impressive in the Gulf and has a Friday morning goat market that has operated continuously for centuries.",
+      bestTime: "October to March — Oman's winter is warm and sunny (25-30°C), perfect for wadis and beaches. Avoid June to September when coastal humidity is brutal and the interior exceeds 45°C.",
+      mnemonic: "Oman = Arabia's civilised secret. Fjords to desert. Muscat in mountains over a blue bay. The region's preferred diplomatic venue. October-March is ideal."
+    },
+    quiz: [
+      { q: "Oman's Musandam Peninsula overlooks which strategically critical waterway?", options: ["Suez Canal", "Strait of Malacca", "Strait of Hormuz", "Bab el-Mandeb"], answer: 2, funFact: "About 20% of the world's oil and gas exports pass through the Strait of Hormuz daily. Oman's Musandam exclave sits directly on the southern edge of the strait — giving Oman a geopolitical front-row seat to one of the world's most contested waterways." },
+      { q: "Oman is known in the region for:", options: ["Its ultra-modern skyline and luxury tourism", "Acting as a neutral diplomatic venue and mediator for regional conflicts", "Being the largest oil producer in the Gulf", "Hosting the region's largest financial markets"], answer: 1, funFact: "Oman's consistent neutrality in Gulf politics — maintaining diplomatic relations with Iran, Israel, and all Arab neighbours simultaneously — makes it uniquely valuable as a back-channel for negotiations that no other country can host." },
+      { q: "The best time to visit Oman for outdoor activities is:", options: ["June to August", "October to March", "April and May only", "Any time — the climate is mild year-round"], answer: 1, funFact: "Oman's interior city of Quriyat recorded 51.5°C in the summer of 2023 — among the highest ever reliably recorded temperatures on earth. The coastal humidity in summer is equally severe. The October-March window is transformatively different." }
+    ]
+  }
+}
+
 const ALL_BRIEFS = {
   '2026-06-01': d260601,
   '2026-06-02': d260602,
@@ -9742,6 +9963,7 @@ const ALL_BRIEFS = {
   '2026-06-27': d260627,
   '2026-06-28': d260628,
   '2026-06-29': d260629,
+  '2026-07-01': d260701,
 }
 
 // == DATA END ==
